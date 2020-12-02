@@ -1,0 +1,32 @@
+
+PREFIX ns: <http://aksw.org/mclient/>
+
+CONSTRUCT {
+  ?iri
+    rdfs:label ?title ;
+    eg:url ?url ;
+    eg:type ?type ;
+    eg:nuts ?nuts ;
+    eg:accountable ?accountable ;
+    eg:email ?email ;
+    eg:dcatApApi ?dcatApApi
+    
+    
+}
+WHERE {
+  <opendataportals.csv> csv:parse (?row "excel -h")
+  BIND(json:path(?row, '$.portal_title') AS ?title)
+  BIND(json:path(?row, '$.url') AS ?url)
+  BIND(IRI(CONCAT(STR(ns:), ENCODE_FOR_URI(?title))) AS ?iri)
+  BIND(json:path(?row, '$.type') AS ?type)
+
+
+  BIND(json:path(?row, '$.nuts') AS ?nuts)
+  BIND(json:path(?row, '$.accountable') AS ?accountable)
+  BIND(json:path(?row, '$.email') AS ?email)
+
+  BIND(json:path(?row, '$.dcat_ap_de') AS ?dcat_ap_de)
+  BIND(IF(?dcat_ap_de = "", 1 = "a", IRI(?dcat_ap_de)) AS ?dcatApApi)
+}
+
+
