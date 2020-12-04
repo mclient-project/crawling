@@ -1,0 +1,25 @@
+INSERT  { 
+
+	?portalCatalog dcat:dataset ?ds;
+		a dcat:Catalog; 
+		?p ?o .
+
+}
+WHERE
+{
+  ?ds a dcat:Dataset .
+  FILTER (?portalLabel = ?label)
+  BIND(sys:getenv('PORTAL_FILE') AS ?file)
+  BIND(sys:getenv('PORTAL') AS ?portalLabel)
+  BIND(URI(CONCAT(STR(<>), ?file)) AS ?x)
+  
+  SERVICE ?x {
+	SELECT DISTINCT ?portalCatalog ?p ?o ?label { 
+
+		?portalCatalog ?p ?o; 
+			rdfs:label ?label .
+
+	} 
+  }
+}
+

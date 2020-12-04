@@ -1,0 +1,18 @@
+DELETE {
+
+	?s1 ?p ?o
+} 
+
+INSERT {
+	?s2 ?p ?o
+
+} 
+
+WHERE {
+	
+	?s1 a dcat:Catalog .
+	?s1 ?p ?o .
+	FILTER (strstarts(str(?s1), sys:getenv('SOURCE_NS')))
+	BIND (IRI(replace(str(?s1), sys:getenv('SOURCE_NS'), sys:getenv('CATALOG_NS')))  AS ?s2)
+} ;
+

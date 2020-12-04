@@ -1,0 +1,8 @@
+INSERT  { ?catalog dcat:catalog ?s }
+WHERE
+{
+  ?s a dcat:Catalog .
+  BIND(URI(sys:getenv('CATALOG_NS')) as ?ns)
+  BIND(URI(CONCAT(?ns, 'meta')) as ?catalog)
+}
+

@@ -1,0 +1,13 @@
+PREFIX eg: <http://www.example.org/>
+
+SELECT DISTINCT ?url ?label
+
+WHERE {
+
+	?portal eg:url ?url ;
+		rdfs:label ?label ;
+		eg:technology ?technology .
+	
+	FILTER (regex(?technology, ?type, "i"))
+BIND(sys:getenv('PORTAL_TYPE') as ?type)
+}

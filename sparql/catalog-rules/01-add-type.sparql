@@ -1,0 +1,11 @@
+INSERT {
+	
+	?ds a dcat:Dataset .
+	?dist a dcat:Distribution .
+}
+
+WHERE {
+
+?ds dcat:distribution ?dist .
+
+}
