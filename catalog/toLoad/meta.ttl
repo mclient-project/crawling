@@ -1,0 +1,18 @@
+@prefix mclient: <http://mclient-project.github.io/catalog/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix cat:   <http://www.w3.org/ns/dcat#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+mclient:ResearchConsortium
+        a           foaf:Organization ;
+        rdfs:label  "mCLIENT research consortium" .
+
+mclient:meta  a              cat:Catalog ;
+        dcterms:description  "Catalog of catalogs that register avaible datasets in German open data portals" ;
+        dcterms:issued       "2020-12-04T13:56:29.230+01:00"^^xsd:dateTime ;
+        dcterms:language     "http://id.loc.gov/vocabulary/iso639-1/" ;
+        dcterms:publisher    mclient:ResearchConsortium ;
+        dcterms:title        "mCLIENT catalog" .

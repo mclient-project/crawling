@@ -3,9 +3,8 @@
 PORTAL_TYPE="${PORTAL_TYPE:=ckan}"
 export PORTAL_TYPE
 SPARQL_DIR=sparql
-PORTAL_DIR=portals
-
-[ -d $PORTAL_DIR] || mkdir $PORTAL_DIR 
+echo $PORTAL_TYPE
+[ -d $PORTAL_TYPE ] || mkdir $PORTAL_TYPE
 portals=`sparql-integrate --jq opendataportals.ttl --w=trig/pretty $SPARQL_DIR/portal-by-type.sparql spo.sparql | jq -c '.[]'`
 echo "$portals" | while read portalline; do
 	portal_url=`echo $portalline | jq -r '.url'`
