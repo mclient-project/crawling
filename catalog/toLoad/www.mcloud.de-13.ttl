@@ -1,0 +1,886 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/1.0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gml: <http://www.opengis.net/gml/3.2> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix odrs: <http://schema.theodi.org/odrs#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix hydra: <http://www.w3.org/ns/hydra/core#> .
+
+<http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Badeweg_2020-10-11.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-10-23T09:25:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Parkplatz_Scharbeutz_Badeweg_2020-10-11.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Badeweg_2020-10-11.csv> ;
+    dcat:byteSize 160 ;
+    dcat:downloadURL <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Badeweg_2020-10-11.csv> .
+
+<http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-11-05.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-11-06T13:30:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-11-05.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-11-05.csv> ;
+    dcat:byteSize 56054 ;
+    dcat:downloadURL <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-11-05.csv> .
+
+<http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_21-24_2020-10-19.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-10-23T09:26:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Scharbeutz_Strandabschnitt_21-24_2020-10-19.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_21-24_2020-10-19.csv> ;
+    dcat:byteSize 96068 ;
+    dcat:downloadURL <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_21-24_2020-10-19.csv> .
+
+<http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_9-13_2020-11-03.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-11-05T10:05:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Scharbeutz_Strandabschnitt_9-13_2020-11-03.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_9-13_2020-11-03.csv> ;
+    dcat:byteSize 93853 ;
+    dcat:downloadURL <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_9-13_2020-11-03.csv> .
+
+<http://easygsh.wb.tu-harburg.de//distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WMS_SRVC> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://easygsh.wb.tu-harburg.de/> ;
+    dcat:downloadURL <http://easygsh.wb.tu-harburg.de/> .
+
+<http://mdi-dienste.baw.de/geoserver/EarlyDike_test/wms?/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/SHP> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/geonutz/20130319> ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://mdi-dienste.baw.de/geoserver/EarlyDike_test/wms?> ;
+    dcat:downloadURL <http://mdi-dienste.baw.de/geoserver/EarlyDike_test/wms?> .
+
+<http://mdi-dienste.baw.de/geoserver/EasyGSH_Kennwerte_2014/wms?Service=WMS&Version=1.3.0&Request=GetCapabilities/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WMS_SRVC> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "EasyGSH-DB: Hydrodynamik 2014 (WMS) - GetCapabilities"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://mdi-dienste.baw.de/geoserver/EasyGSH_Kennwerte_2014/wms?Service=WMS&Version=1.3.0&Request=GetCapabilities> ;
+    dcat:downloadURL <http://mdi-dienste.baw.de/geoserver/EasyGSH_Kennwerte_2014/wms?Service=WMS&Version=1.3.0&Request=GetCapabilities> .
+
+<http://numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&id=2CA2AD25-6D9C-42FA-BC9C-DC0A5E767642&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full%27/distribution>
+    dcterms:description "Moorschutzprogramm Teil II von 1986" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Moorschutzprogramm Teil II von 1986"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&id=2CA2AD25-6D9C-42FA-BC9C-DC0A5E767642&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full%27> ;
+    dcat:downloadURL <http://numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&id=2CA2AD25-6D9C-42FA-BC9C-DC0A5E767642&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full%27> .
+
+<http://numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&id=3D4201A4-C99B-417C-B742-822FECD984FB&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full%27/distribution>
+    dcterms:description "Hochmoorgrenzen Moorschutzprogramm Teil I" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Hochmoorgrenzen Moorschutzprogramm Teil I"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&id=3D4201A4-C99B-417C-B742-822FECD984FB&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full%27> ;
+    dcat:downloadURL <http://numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&id=3D4201A4-C99B-417C-B742-822FECD984FB&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full%27> .
+
+<http://numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&id=6649E99C-4D4F-4BE2-B963-B975FE180CCE&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full%27/distribution>
+    dcterms:description "Gebiete mit gesamtstaatlich repräsentativer Bedeutung" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Gebiete mit gesamtstaatlich repräsentativer Bedeutung"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&id=6649E99C-4D4F-4BE2-B963-B975FE180CCE&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full%27> ;
+    dcat:downloadURL <http://numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&id=6649E99C-4D4F-4BE2-B963-B975FE180CCE&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full%27> .
+
+<http://numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&id=DDF5F95C-2E99-4183-90AA-F385B0B04F17&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full%27/distribution>
+    dcterms:description "Moorschutzprogramm Teil I von 1981" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Moorschutzprogramm Teil I von 1981"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&id=DDF5F95C-2E99-4183-90AA-F385B0B04F17&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full%27> ;
+    dcat:downloadURL <http://numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&id=DDF5F95C-2E99-4183-90AA-F385B0B04F17&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full%27> .
+
+<http://numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&id=F34FB5D8-107E-4F0C-BDB5-FC31B990219A&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full%27/distribution>
+    dcterms:description "Moorschutzprogramm Neubewertung 1994" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Moorschutzprogramm Neubewertung 1994"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&id=F34FB5D8-107E-4F0C-BDB5-FC31B990219A&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full%27> ;
+    dcat:downloadURL <http://numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&id=F34FB5D8-107E-4F0C-BDB5-FC31B990219A&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full%27> .
+
+<http://www.easygsh-db.org/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WMS_SRVC> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.easygsh-db.org> ;
+    dcat:downloadURL <http://www.easygsh-db.org> .
+
+<http://www.kfki.de/de/projekte/earlydike/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/SHP> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/geonutz/20130319> ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.kfki.de/de/projekte/earlydike> ;
+    dcat:downloadURL <http://www.kfki.de/de/projekte/earlydike> .
+
+<http://www.list.smwa.sachsen.de/gdi/download/opensbv-svz.xml/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/SHP> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.list.smwa.sachsen.de/gdi/download/opensbv-svz.xml> ;
+    dcat:downloadURL <http://www.list.smwa.sachsen.de/gdi/download/opensbv-svz.xml> .
+
+<http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=071769BF74E141BC9F0E68D66388CE08/distribution>
+    dcterms:description "Geschützte Landschaftsbestandteile (GLB) in schmaler Längsausdehnung" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Geschützte Landschaftsbestandteile (GLB) in schmaler Längsausdehnung"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=071769BF74E141BC9F0E68D66388CE08> ;
+    dcat:downloadURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=071769BF74E141BC9F0E68D66388CE08> .
+
+<http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=17677A6CD3134A379E05DEDBAA48DC98/distribution>
+    dcterms:description "Fauna - wertvolle Bereiche" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Fauna - wertvolle Bereiche"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=17677A6CD3134A379E05DEDBAA48DC98> ;
+    dcat:downloadURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=17677A6CD3134A379E05DEDBAA48DC98> .
+
+<http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=2BEA69DBB0564B02807A946D99F1E9BF/distribution>
+    dcterms:description "Gastvögel - wertvolle Bereiche 2006" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Gastvögel - wertvolle Bereiche 2006"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=2BEA69DBB0564B02807A946D99F1E9BF> ;
+    dcat:downloadURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=2BEA69DBB0564B02807A946D99F1E9BF> .
+
+<http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=2FC59B89-C19E-4056-972A-66AB110B7067/distribution>
+    dcterms:description "Biosphärenreservate (BSR)" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Biosphärenreservate (BSR)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=2FC59B89-C19E-4056-972A-66AB110B7067> ;
+    dcat:downloadURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=2FC59B89-C19E-4056-972A-66AB110B7067> .
+
+<http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=3A6A3195C2584BBCA3CB7265996B219B/distribution>
+    dcterms:description "Brutvögel - wertvolle Bereiche 2006" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Brutvögel - wertvolle Bereiche 2006"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=3A6A3195C2584BBCA3CB7265996B219B> ;
+    dcat:downloadURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=3A6A3195C2584BBCA3CB7265996B219B> .
+
+<http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=3AA52E59-5ED2-4D5D-8BED-B824EA1E0FE0/distribution>
+    dcterms:description "Nationalpark (NLP)" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Nationalpark (NLP)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=3AA52E59-5ED2-4D5D-8BED-B824EA1E0FE0> ;
+    dcat:downloadURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=3AA52E59-5ED2-4D5D-8BED-B824EA1E0FE0> .
+
+<http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=40469F329BBD45FE8130D3A6469D8DDA/distribution>
+    dcterms:description "Landesweite Biotopkartierung" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Landesweite Biotopkartierung"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=40469F329BBD45FE8130D3A6469D8DDA> ;
+    dcat:downloadURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=40469F329BBD45FE8130D3A6469D8DDA> .
+
+<http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=4C56A3BD-FB5E-4D81-8D8E-0BEA568CEC8F/distribution>
+    dcterms:description "Fauna/Flora/Habitat-Gebiete in Niedersachsen (FFH)" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Fauna/Flora/Habitat-Gebiete in Niedersachsen (FFH)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=4C56A3BD-FB5E-4D81-8D8E-0BEA568CEC8F> ;
+    dcat:downloadURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=4C56A3BD-FB5E-4D81-8D8E-0BEA568CEC8F> .
+
+<http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=4FC347D0B275444B948CB56A4F46D63F/distribution>
+    dcterms:description "Geschützte Landschaftsbestandteile (GLB) kleiner 1 ha" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Geschützte Landschaftsbestandteile (GLB) kleiner 1 ha"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=4FC347D0B275444B948CB56A4F46D63F> ;
+    dcat:downloadURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=4FC347D0B275444B948CB56A4F46D63F> .
+
+<http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=5916A7C86B3F4F9FA69F22D410353AE9/distribution>
+    dcterms:description "Brutvögel - wertvolle Bereiche 2010 (ergänzt 2013)" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Brutvögel - wertvolle Bereiche 2010 (ergänzt 2013)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=5916A7C86B3F4F9FA69F22D410353AE9> ;
+    dcat:downloadURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=5916A7C86B3F4F9FA69F22D410353AE9> .
+
+<http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=68D0F023AA434A12BBA59FA01B30601E/distribution>
+    dcterms:description "Geschützte Landschaftsbestandteile (GLB)" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Geschützte Landschaftsbestandteile (GLB)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=68D0F023AA434A12BBA59FA01B30601E> ;
+    dcat:downloadURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=68D0F023AA434A12BBA59FA01B30601E> .
+
+<http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=8041A42ECDA84A44AE0F34B525D2B743/distribution>
+    dcterms:description "Naturräumliche Regionen und Unterregionen DTK50" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Naturräumliche Regionen und Unterregionen DTK50"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=8041A42ECDA84A44AE0F34B525D2B743> ;
+    dcat:downloadURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=8041A42ECDA84A44AE0F34B525D2B743> .
+
+<http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=9CBB1F98FD7E497A88834B9D9E58174A/distribution>
+    dcterms:description "Naturdenkmale (ND) kleiner 1 ha" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Naturdenkmale (ND) kleiner 1 ha"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=9CBB1F98FD7E497A88834B9D9E58174A> ;
+    dcat:downloadURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=9CBB1F98FD7E497A88834B9D9E58174A> .
+
+<http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=A7A2B4FBB7574B0AB2C9C5913B10E9FC/distribution>
+    dcterms:description "Aktuelles Gewaessernetz" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Aktuelles Gewaessernetz"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=A7A2B4FBB7574B0AB2C9C5913B10E9FC> ;
+    dcat:downloadURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=A7A2B4FBB7574B0AB2C9C5913B10E9FC> .
+
+<http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=AABBF81AC1CF40679C52DDE7F3F1CB02/distribution>
+    dcterms:description "Naturpark (NP)" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Naturpark (NP)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=AABBF81AC1CF40679C52DDE7F3F1CB02> ;
+    dcat:downloadURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=AABBF81AC1CF40679C52DDE7F3F1CB02> .
+
+<http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=B4D711F4F17D4DCFA3A12D990C46B488/distribution>
+    dcterms:description "Naturdenkmale (ND)" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Naturdenkmale (ND)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=B4D711F4F17D4DCFA3A12D990C46B488> ;
+    dcat:downloadURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=B4D711F4F17D4DCFA3A12D990C46B488> .
+
+<http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=C71226F5-FC55-4754-ADCE-194B233420FC/distribution>
+    dcterms:description "EU-Vogelschutzgebiete in Niedersachsen (VSG)" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "EU-Vogelschutzgebiete in Niedersachsen (VSG)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=C71226F5-FC55-4754-ADCE-194B233420FC> ;
+    dcat:downloadURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=C71226F5-FC55-4754-ADCE-194B233420FC> .
+
+<http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=C7D86038-EC54-4A59-BF11-7BB591BF4FFC/distribution>
+    dcterms:description "Landschaftsschutzgebiete (LSG) in schmaler Längsausdehnung" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Landschaftsschutzgebiete (LSG) in schmaler Längsausdehnung"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=C7D86038-EC54-4A59-BF11-7BB591BF4FFC> ;
+    dcat:downloadURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=C7D86038-EC54-4A59-BF11-7BB591BF4FFC> .
+
+<http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=D95FBD8340E54000B674F4EAF53276FB/distribution>
+    dcterms:description "Naturdenkmale (ND) in schmaler Längsausdehnung" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Naturdenkmale (ND) in schmaler Längsausdehnung"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=D95FBD8340E54000B674F4EAF53276FB> ;
+    dcat:downloadURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=D95FBD8340E54000B674F4EAF53276FB> .
+
+<http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=EE85FE8F-BD05-4A6D-813B-6ABC4514B18B/distribution>
+    dcterms:description "Naturschutzgebiete (NSG)" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Naturschutzgebiete (NSG)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=EE85FE8F-BD05-4A6D-813B-6ABC4514B18B> ;
+    dcat:downloadURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=EE85FE8F-BD05-4A6D-813B-6ABC4514B18B> .
+
+<http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=FB509AEB-A146-4902-B18A-266A9C9D630D/distribution>
+    dcterms:description "Landschaftsschutzgebiete (LSG)" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Landschaftsschutzgebiete (LSG)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=FB509AEB-A146-4902-B18A-266A9C9D630D> ;
+    dcat:downloadURL <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=FB509AEB-A146-4902-B18A-266A9C9D630D> .
+
+<http://www.umweltkarten-niedersachsen.de/download_OE/GAV/Mittlere%20PM10%20Belastung%202008-2012.zip/distribution>
+    dcterms:description """Dateiformat: Shapefile (Zip-Archiv)
+Dateigröße: 1,6 MB""" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/SHP> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Mittlere PM10 Belastung 2008-2012.zip"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.umweltkarten-niedersachsen.de/download_OE/GAV/Mittlere%20PM10%20Belastung%202008-2012.zip> ;
+    dcat:downloadURL <http://www.umweltkarten-niedersachsen.de/download_OE/GAV/Mittlere%20PM10%20Belastung%202008-2012.zip> .
+
+<https://mcloud.de>
+    dcterms:description "Dies ist das Portal der mCLOUD."@de ;
+    dcterms:publisher <https://mcloud.de/#publisher> ;
+    dcterms:title "mCLOUD Portal"@de ;
+    a dcat:Catalog ;
+    dcat:dataset <https://mcloud.de/web/guest/suche/-/results/detail/0FC3ED34-E945-4E01-8D7E-7FBB9243AE9E>, <https://mcloud.de/web/guest/suche/-/results/detail/0a6971b0-c9f3-4d8b-b3f9-1af4d8d9623c>, <https://mcloud.de/web/guest/suche/-/results/detail/0aa7370a-d47d-437d-b084-9fc241469745>, <https://mcloud.de/web/guest/suche/-/results/detail/0aca76ce-05b3-4a69-ae0f-7fd591582b37>, <https://mcloud.de/web/guest/suche/-/results/detail/0b261756-661d-4cb9-b749-5574b952cefc>, <https://mcloud.de/web/guest/suche/-/results/detail/0b298bed-b037-4164-9f9b-5dfb151107b4>, <https://mcloud.de/web/guest/suche/-/results/detail/0b45c55c-a634-4e7b-b43f-e8166d8828d0>, <https://mcloud.de/web/guest/suche/-/results/detail/0b76ab51-9501-4a1f-856a-0b7b6d9cecd9>, <https://mcloud.de/web/guest/suche/-/results/detail/0b8b90e9-ef12-4760-a6b1-8a3d2d76aa6a>, <https://mcloud.de/web/guest/suche/-/results/detail/0b9112cf-a4ae-40ab-aded-f3c29be93991> ;
+    foaf:homepage <https://mcloud.de/> .
+
+<https://mcloud.de/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesministerium für Verkehr und digitale Infrastruktur" .
+
+<https://mcloud.de/export/datasets?page=13>
+    a hydra:PagedCollection ;
+    hydra:firstPage "https://mcloud.de/export/datasets?page=1" ;
+    hydra:itemsPerPage 10 ;
+    hydra:lastPage "https://mcloud.de/export/datasets?page=420" ;
+    hydra:nextPage "https://mcloud.de/export/datasets?page=14" ;
+    hydra:previousPage "https://mcloud.de/export/datasets?page=12" ;
+    hydra:totalItems 4200 .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0FC3ED34-E945-4E01-8D7E-7FBB9243AE9E>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
+    dcterms:description """Landesweite Karte der PM10-Konzentration als Interpolation der Meßergebnisse der LÜN-Hintergrundstationen. Hiermit können grobe Aussagen zu PM10-Konzentrationen für Orte gemacht werden an denen keine Meßstation steht.
+
+Für jedes Kalenderjahr wird eine eigene Karte bereitgestellt. Durch die jährliche Fortschreibung können zeitliche Entwicklungen in räumlichen Bezug gestellt werden. 
+
+Die Karten der jeweiligen Jahre sind Bestandteil des Umweltberichtes des Landes Niedersachsen und werden jährlich fortgeschrieben.
+
+Meßwerte von ausserhalb Niedersachsens werden mit einbezogen."""@de ;
+    dcterms:identifier "0FC3ED34-E945-4E01-8D7E-7FBB9243AE9E" ;
+    dcterms:issued "2020-10-07T22:00:00Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-10-07T22:00:00Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0FC3ED34-E945-4E01-8D7E-7FBB9243AE9E/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        locn:geometry "POLYGON ((6.654667 53.89386, 11.598079 53.89386, 11.598079 51.29537, 6.654667 51.29537, 6.654667 53.89386))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[6.654667, 53.89386], [11.598079, 53.89386], [11.598079, 51.29537], [6.654667, 51.29537], [6.654667, 53.89386]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "Flächendeckende PM10-Belastung - 2008-2012"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Gewerbeaufsichtsamt Hildesheim, Zentrale Unterstützungsstelle Luftreinhaltung, Lärm, Gefahrstoffe und Störfallvorsorge (ZUS LLGS)" ;
+        vcard:hasCountryName "DEU" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/poststelle@gaa-hi.niedersachsen.de> ;
+        vcard:hasPostalCode "31134" ;
+        vcard:hasURL <http://www.gewerbeaufsicht.niedersachsen.de/live/live.php?navigation_id=11487&article_id=52161&_psmand=37>
+    ] ;
+    dcat:distribution <http://numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&id=2CA2AD25-6D9C-42FA-BC9C-DC0A5E767642&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full%27/distribution>, <http://numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&id=3D4201A4-C99B-417C-B742-822FECD984FB&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full%27/distribution>, <http://numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&id=6649E99C-4D4F-4BE2-B963-B975FE180CCE&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full%27/distribution>, <http://numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&id=DDF5F95C-2E99-4183-90AA-F385B0B04F17&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full%27/distribution>, <http://numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&id=F34FB5D8-107E-4F0C-BDB5-FC31B990219A&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full%27/distribution>, <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=071769BF74E141BC9F0E68D66388CE08/distribution>, <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=17677A6CD3134A379E05DEDBAA48DC98/distribution>, <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=2BEA69DBB0564B02807A946D99F1E9BF/distribution>, <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=2FC59B89-C19E-4056-972A-66AB110B7067/distribution>, <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=3A6A3195C2584BBCA3CB7265996B219B/distribution>, <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=3AA52E59-5ED2-4D5D-8BED-B824EA1E0FE0/distribution>, <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=40469F329BBD45FE8130D3A6469D8DDA/distribution>, <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=4C56A3BD-FB5E-4D81-8D8E-0BEA568CEC8F/distribution>, <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=4FC347D0B275444B948CB56A4F46D63F/distribution>, <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=5916A7C86B3F4F9FA69F22D410353AE9/distribution>, <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=68D0F023AA434A12BBA59FA01B30601E/distribution>, <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=8041A42ECDA84A44AE0F34B525D2B743/distribution>, <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=9CBB1F98FD7E497A88834B9D9E58174A/distribution>, <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=A7A2B4FBB7574B0AB2C9C5913B10E9FC/distribution>, <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=AABBF81AC1CF40679C52DDE7F3F1CB02/distribution>, <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=B4D711F4F17D4DCFA3A12D990C46B488/distribution>, <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=C71226F5-FC55-4754-ADCE-194B233420FC/distribution>, <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=C7D86038-EC54-4A59-BF11-7BB591BF4FFC/distribution>, <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=D95FBD8340E54000B674F4EAF53276FB/distribution>, <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=EE85FE8F-BD05-4A6D-813B-6ABC4514B18B/distribution>, <http://www.numis.niedersachsen.de/202/csw?REQUEST=GetRecordById&SERVICE=CSW&VERSION=2.0.2&iplug=/ingrid-group:iplug-csw-dsc-nokis-admin&elementSetName=full&elementSetName=full&id=FB509AEB-A146-4902-B18A-266A9C9D630D/distribution>, <http://www.umweltkarten-niedersachsen.de/download_OE/GAV/Mittlere%20PM10%20Belastung%202008-2012.zip/distribution>, <https://numis.niedersachsen.de/daten/DE-NI-MU_Downloadservice.xml/0B70F6F7-5500-418A-8EEE-B43242DCE7AC/distribution>, <https://www.umweltkarten-niedersachsen.de/arcgis/services/GAV_wms/MapServer/WMSServer?VERSION=1.3.0.&SERVICE=WMS&REQUEST=GetCapabilities/distribution> ;
+    dcat:keyword "feinstaub"@de, "gesundheit"@de, "gesundheit-und-sicherheit"@de, "karte"@de, "luftgüte"@de, "mcloud_category_climate"@de, "mcloud_category_roads"@de, "opendata"@de, "pm10"@de, "umwelt-und-klima"@de, "umweltbericht"@de, "umweltüberwachung"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI>, <http://publications.europa.eu/resource/authority/data-theme/HEAL>, <http://publications.europa.eu/resource/authority/data-theme/REGI>, <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0FC3ED34-E945-4E01-8D7E-7FBB9243AE9E/#publisher>
+    a foaf:Agent ;
+    foaf:name "GovData: Gewerbeaufsichtsamt Hildesheim, Zentrale Unterstützungsstelle Luftreinhaltung, Lärm, Gefahrstoffe und Störfallvorsorge (ZUS LLGS)" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0a6971b0-c9f3-4d8b-b3f9-1af4d8d9623c>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der belegten Parkplätze
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Autos
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "0a6971b0-c9f3-4d8b-b3f9-1af4d8d9623c" ;
+    dcterms:issued "2020-10-23T09:25:33Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-10-23T09:25:33Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0a6971b0-c9f3-4d8b-b3f9-1af4d8d9623c/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-10-11T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-10-11T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Parkplatz Scharbeutz Badeweg"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Badeweg_2020-10-11.csv/distribution> ;
+    dcat:keyword "Parkplatz"@de, "Scharbeutz"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0a6971b0-c9f3-4d8b-b3f9-1af4d8d9623c/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0aa7370a-d47d-437d-b084-9fc241469745>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der Personen im Strandabschnitt
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Personen
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "0aa7370a-d47d-437d-b084-9fc241469745" ;
+    dcterms:issued "2020-10-23T09:26:44Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-10-23T09:26:44Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0aa7370a-d47d-437d-b084-9fc241469745/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-10-19T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-10-19T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Scharbeutz - Strandabschnitt 21-24"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_21-24_2020-10-19.csv/distribution> ;
+    dcat:keyword "Scharbeutz"@de, "Strand"@de, "Strandbelegung"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0aa7370a-d47d-437d-b084-9fc241469745/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0aca76ce-05b3-4a69-ae0f-7fd591582b37>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcatde:originator [
+        a foaf:Organization ;
+        foaf:mbox "sebastian.niehueser@uni-siegen.de" ;
+        foaf:name "Sebastian Niehüser"
+    ] ;
+    dcterms:accessRights """Nutzungsbedingungen: Lehre und Forschung im Projekt Earlydike, nicht tauglich für Navigation
+Nutzungsbedingungen: Dieser Datensatz kann gemäß der \"Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes\" (http://www.geodatenzentrum.de/docpdf/geonutzv.pdf) genutzt werden. Keine Nutzung zur Navigation.
+Nutzungsbedingungen: nicht für Navigation tauglich!
+Nutzungsbedingungen:"""@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "sebastian.niehueser@uni-siegen.de" ;
+        foaf:name "Universität Siegen - Forschungsinstitut Wasser und Umwelt"
+    ] ;
+    dcterms:description "72 stündige Wasserstandsberechnung auf Basis der DWD-Icon Vorhersage für die Deutsche Bucht mit zeitlicher Auflösung von einer Stunde"@de ;
+    dcterms:identifier "0aca76ce-05b3-4a69-ae0f-7fd591582b37" ;
+    dcterms:modified "2018-03-12T13:34:57Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0aca76ce-05b3-4a69-ae0f-7fd591582b37/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "" ;
+        locn:geometry "POLYGON ((6.9 55.5, 9.4 55.5, 9.4 53, 6.9 53, 6.9 55.5))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[6.9, 55.5], [9.4, 55.5], [9.4, 53], [6.9, 53], [6.9, 55.5]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "Wasserstand Datenpunkte"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Bundesanstalt für Wasserbau (BAW)" ;
+        vcard:hasCountryName "Germany" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/info.hamburg@baw.de> ;
+        vcard:hasPostalCode "22559" ;
+        vcard:hasStreetAddress "Wedeler Landstraße 157" ;
+        vcard:hasURL <https://www.baw.de>
+    ] ;
+    dcat:distribution <http://mdi-dienste.baw.de/geoserver/EarlyDike_test/wms?/distribution>, <http://www.kfki.de/de/projekte/earlydike/distribution>, <https://www.earlydike.de//distribution> ;
+    dcat:keyword "Deutsche Bucht"@de, "Earlydike"@de, "Nordsee"@de, "Ozeanografisch-geografische Kennwerte"@de, "Vorhersage"@de, "Wasserstand"@de, "inspireidentifiziert"@de, "mcloud_category_waters"@de, "opendata"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0aca76ce-05b3-4a69-ae0f-7fd591582b37/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesanstalt für Wasserbau (BAW)" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0b261756-661d-4cb9-b749-5574b952cefc>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der Personen im Strandabschnitt
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Personen
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "0b261756-661d-4cb9-b749-5574b952cefc" ;
+    dcterms:issued "2020-11-05T10:05:08Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-11-05T10:05:08Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0b261756-661d-4cb9-b749-5574b952cefc/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-11-03T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-11-03T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Scharbeutz - Strandabschnitt 9-13"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_9-13_2020-11-03.csv/distribution> ;
+    dcat:keyword "Scharbeutz"@de, "Strand"@de, "Strandbelegung"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0b261756-661d-4cb9-b749-5574b952cefc/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0b298bed-b037-4164-9f9b-5dfb151107b4>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accessRights "Dieser Datensatz kann gemäß der \"Datenlizenz Deutschland – Namensnennung – Version 2.0\" (www.govdata.de/dl-de/by-2-0) genutzt werden."@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dcterms:description "Zeitreihen der Chlorophyll-a-Konzentrationen aus dem MARNET-Messnetz. Das MARNET-Messnetz besteht aus 11 Stationen in der Nord- und Ostsee"@de ;
+    dcterms:identifier "0b298bed-b037-4164-9f9b-5dfb151107b4" ;
+    dcterms:modified "2019-07-10T14:45:39Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0b298bed-b037-4164-9f9b-5dfb151107b4/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "000000000000" ;
+        locn:geometry "POLYGON ((7.04747455 54.84794949, 14.2545058 54.84794949, 14.2545058 53.34050254, 7.04747455 53.34050254, 7.04747455 54.84794949))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[7.04747455, 54.84794949], [14.2545058, 54.84794949], [14.2545058, 53.34050254], [7.04747455, 53.34050254], [7.04747455, 54.84794949]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2017-12-31T01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2017-01-01T01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Zeitreihen der Chlorophyll-Konzentrationen im Meerwasser 2018"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" ;
+        vcard:hasCountryName "Deutschland" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/Susanne.Tamm@bsh.de> ;
+        vcard:hasLocality "Hamburg" ;
+        vcard:hasPostalCode "20359" ;
+        vcard:hasStreetAddress "Bernhard-Nocht-Str. 78"
+    ] ;
+    dcat:distribution <https://www.geoseaportal.de/atomfeeds/MA_H_CHLA.xml/distribution> ;
+    dcat:keyword "Chlorophyll"@de, "Nordsee"@de, "Ostsee"@de, "Profil"@de, "Stundenwerte"@de, "Wassersäule"@de, "Zeitreihe"@de, "mcloud_category_waters"@de, "opendata"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0b298bed-b037-4164-9f9b-5dfb151107b4/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0b45c55c-a634-4e7b-b43f-e8166d8828d0>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der belegten Parkplätze
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Autos
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "0b45c55c-a634-4e7b-b43f-e8166d8828d0" ;
+    dcterms:issued "2020-12-26T22:15:35Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-12-26T22:15:35Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0b45c55c-a634-4e7b-b43f-e8166d8828d0/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-12-25T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-12-25T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Parkplatz Scharbeutz Parkbuchten Strandallee II"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-12-25.csv/distribution> ;
+    dcat:keyword "Parkplatz"@de, "Scharbeutz"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0b45c55c-a634-4e7b-b43f-e8166d8828d0/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0b76ab51-9501-4a1f-856a-0b7b6d9cecd9>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der belegten Parkplätze
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Autos
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "0b76ab51-9501-4a1f-856a-0b7b6d9cecd9" ;
+    dcterms:issued "2020-11-06T13:30:15Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-11-06T13:30:15Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0b76ab51-9501-4a1f-856a-0b7b6d9cecd9/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-11-05T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-11-05T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Parkplatz Scharbeutz Parkbuchten Strandallee II"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-11-05.csv/distribution> ;
+    dcat:keyword "Parkplatz"@de, "Scharbeutz"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0b76ab51-9501-4a1f-856a-0b7b6d9cecd9/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0b8b90e9-ef12-4760-a6b1-8a3d2d76aa6a>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accessRights "Nutzungsbedingungen: Dieser Datensatz kann gemäß den Nutzungsbestimmungen von Datenlizenz Deutschland - Namensnennung - Version 2.0 (https://www.govdata.de/dl-de/by-2-0) unter Angabe der Quellenvermerke: 1. Bezeichnung des Bereitstellers nach dessen Maßgabe, 2. der Vermerk „Datenlizenz Deutschland - Namensnennung - Version 2.0\" oder „dl-de/by-2-0\" mit Verweis auf den Lizenztext unter www.govdata.de/dl-de/by-2-0 sowie 3. einen Verweis auf den Datensatz (URI) und das Datum dessen Bereitstellung."@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dcterms:description "Diese Datenserie wurde durch die Firma LISt GmbH im Auftrag des Landesamtes für Straßenbau und Verkehr (LASuV) auf der Grundlage von Straßenverkehrszählungen der Jahre 2005, 2010 und 2015. Weiterhin werden die Zählstellen des Jahres 2015 angeboten."@de ;
+    dcterms:identifier "0b8b90e9-ef12-4760-a6b1-8a3d2d76aa6a" ;
+    dcterms:modified "2020-10-28T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0b8b90e9-ef12-4760-a6b1-8a3d2d76aa6a/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Freistaat Sachsen" ;
+        locn:geometry "POLYGON ((11.67 51.8, 15.05 51.8, 15.05 50, 11.67 50, 11.67 51.8))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[11.67, 51.8], [15.05, 51.8], [15.05, 50], [11.67, 50], [11.67, 51.8]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:startDate "2005-07-01T02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Straßenverkehrszählungen (SVZ) in Sachsen"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "LISt GmbH" ;
+        vcard:hasCountryName "Deutschland" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/Sascha.Rudolf@list.smwa.sachsen.de> ;
+        vcard:hasLocality "Freistaat Sachsen" ;
+        vcard:hasPostalCode "09661" ;
+        vcard:hasStreetAddress "Ernst-Thälmann-Straße 5"
+    ] ;
+    dcat:distribution <http://www.list.smwa.sachsen.de/gdi/download/opensbv-svz.xml/distribution> ;
+    dcat:keyword "Opendata"@de, "SVZ Sachsen"@de, "SVZ Sachsen 2005"@de, "SVZ Sachsen 2010"@de, "SVZ Sachsen 2015"@de, "SVZ Zählstellen Sachsen 2015"@de, "Straßenverkehrszählung Sachsen"@de, "Straßenverkehrszählung Sachsen 2005"@de, "Straßenverkehrszählung Sachsen 2010"@de, "Straßenverkehrszählung Sachsen 2015"@de, "Straßenverkehrszählung Zählstellen Sachsen 2015"@de, "Zählstellen Sachsen 2015"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0b8b90e9-ef12-4760-a6b1-8a3d2d76aa6a/#publisher>
+    a foaf:Agent ;
+    foaf:name "LISt GmbH" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0b9112cf-a4ae-40ab-aded-f3c29be93991>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcatde:originator [
+        a foaf:Organization ;
+        foaf:homepage "https://www.baw.de" ;
+        foaf:mbox "daten-k@baw.de" ;
+        foaf:name "Bundesanstalt für Wasserbau (BAW)"
+    ] ;
+    dcterms:accessRights """Nutzungsbedingungen: Für die Lehre und Forschung zu verwenden, nicht tauglich für Navigation.
+Nutzungsbedingungen: Creative Commons Namensnennung 4.0 International (CC BY 4.0)"""@de ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "daten-k@baw.de" ;
+        foaf:name "Bundesanstalt für Wasserbau (BAW)"
+    ] ;
+    dcterms:description """Der Kartendienst EasyGSH-DB: Hydrodynamik 2014 (WMS), beinhaltet die Produkte der Hydrodynamikanalysen aus dem Projekt EasyGSH-DB. 
+
+Literatur:
+- Hagen, R., et.al., (2019), Validierungsdokument - EasyGSH-DB - Teil: UnTRIM-SediMorph-Unk, doi: https://doi.org/10.18451/k2_easygsh_1
+- Freund, J., et.al., (2020), Flächenhafte Analysen numerischer Simulationen aus EasyGSH-DB, doi: https://doi.org/10.18451/k2_easygsh_fans_2
+
+Für die einzelnen Jahre liegen Jahreskennblätter als Kurzfassung der Jahresvalidierung auf der EasyGSH-DB (www.easygsh-db.org) zur Verfügung. 
+
+Für weitere Informationen wird auf das Informationsportal (http://easygsh.wb.tu-harburg.de/) und das Downloadportal (https://mdi-de.baw.de/easygsh/) verwiesen."""@de ;
+    dcterms:identifier "0b9112cf-a4ae-40ab-aded-f3c29be93991" ;
+    dcterms:modified "2020-10-13T09:06:58Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0b9112cf-a4ae-40ab-aded-f3c29be93991/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "" ;
+        locn:geometry "POLYGON ((5.93631 55.18483, 9.4873 55.18483, 9.4873 53.16162, 5.93631 53.16162, 5.93631 55.18483))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[5.93631, 55.18483], [9.4873, 55.18483], [9.4873, 53.16162], [5.93631, 53.16162], [5.93631, 55.18483]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "EasyGSH-DB: Hydrodynamik 2014 (WMS)"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Bundesanstalt für Wasserbau (BAW)" ;
+        vcard:hasCountryName "Germany" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/daten-k@baw.de> ;
+        vcard:hasPostalCode "22559" ;
+        vcard:hasStreetAddress "Wedeler Landstraße 157" ;
+        vcard:hasURL <https://www.baw.de>
+    ] ;
+    dcat:distribution <http://easygsh.wb.tu-harburg.de//distribution>, <http://mdi-dienste.baw.de/geoserver/EasyGSH_Kennwerte_2014/wms?Service=WMS&Version=1.3.0&Request=GetCapabilities/distribution>, <http://www.easygsh-db.org/distribution> ;
+    dcat:keyword "2014"@de, "Deutsche Bucht"@de, "EasyGSH-DB"@de, "Hydrodynamik"@de, "Kennwerte des Seegangs"@de, "Langzeitkennwerte des Salzgehaltes"@de, "Langzeitkennwerte des Wasserstands"@de, "Meer"@de, "Ozeanografisch-geografische Kennwerte"@de, "Tidekennwerte der Strömungsgeschwindigkeit"@de, "Tidekennwerte des Salzegehaltes"@de, "Tidekennwerte des Wasserstands"@de, "Umwelt und Klima"@de, "Wasserstraßen und Gewässer"@de, "humanInteractionService"@de, "inspireidentifiziert"@de, "mFUND-FKZ 19F2004A"@de, "mFUND-FKZ: 19F2004A"@de, "mFUND-Projekt EasyGSH-DB"@de, "mFUND-Projekt: EasyGSH-DB"@de, "mcloud_category_waters"@de, "national"@de, "opendata"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0b9112cf-a4ae-40ab-aded-f3c29be93991/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesanstalt für Wasserbau (BAW)" .
+
+<https://numis.niedersachsen.de/daten/DE-NI-MU_Downloadservice.xml/0B70F6F7-5500-418A-8EEE-B43242DCE7AC/distribution>
+    dcterms:description """Über den Dienst können Geodatensätze aus dem Geschäftsbereich des Niedersächsischen Ministeriums für Umwelt, Energie und Klimaschutz herunter geladen werden. Die Implementierung erfolgt über Atom-Feeds gemäß INSPIRE-Spezifikation.
+
+Bereitgestellt werden Zip-Archive von Shapefiles.
+
+Hier geht es direkt zum Dienst: <a href=\"https://numis.niedersachsen.de/daten/DE-NI-MU_Downloadservice.xml\">https://numis.niedersachsen.de/daten/DE-NI-MU_Downloadservice.xml</a>.
+
+Hinweis: Bei aktuelleren Versionen der gängigen Web-Browser wurde die Unterstützung der Anzeige von ATOM-Feeds entfernt. Dies führt unter Umständen dazu, dass die Browser schwer lesbares XML anzeigen oder sich ein Download-Popup-Fenster öffnet. In diesen Fällen muss ein Browser-Addon installiert werden um den Atom-Feed korrekt anzuzeigen.
+
+
+Weitere Daten des Dienstes, die nicht standard-konform (ISO 19119) hinterlegt werden können, zum Teil gemäß INSPIRE-Direktive aber bereit zu stellen sind*:
+
+
+Erläuterung zum Fachbezug: Implementierung auf Basis der \"Technical Guidance for INSPIRE Download Services 3.0 - Kapitel 5. Atom Implementation of Pre-defined Dataset Download Service\" vom 12.06.2012.
+(supplementalInformation/gco:CharacterString= Implementierung auf Basis der \"Technical Guidance for INSPIRE Download Services 3.0 - Kapitel 5. Atom Implementation of Pre-defined Dataset Download Service\" vom 12.06.2012.)
+
+
+
+---
+* Nähere Informationen zur INSPIRE-Direktive: http://inspire.jrc.ec.europa.eu/implementingRulesDocs_md.cfm""" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:modified "2015-03-03T23:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:title "Downloaddienst NUMIS"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://numis.niedersachsen.de/daten/DE-NI-MU_Downloadservice.xml/0B70F6F7-5500-418A-8EEE-B43242DCE7AC> ;
+    dcat:downloadURL <https://numis.niedersachsen.de/daten/DE-NI-MU_Downloadservice.xml/0B70F6F7-5500-418A-8EEE-B43242DCE7AC> .
+
+<https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-12-25.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-26T22:15:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-12-25.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-12-25.csv> ;
+    dcat:byteSize 56273 ;
+    dcat:downloadURL <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-12-25.csv> .
+
+<https://www.earlydike.de//distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/SHP> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/geonutz/20130319> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.earlydike.de/> ;
+    dcat:downloadURL <https://www.earlydike.de/> .
+
+<https://www.geoseaportal.de/atomfeeds/MA_H_CHLA.xml/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/ATOM> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoseaportal.de/atomfeeds/MA_H_CHLA.xml> ;
+    dcat:downloadURL <https://www.geoseaportal.de/atomfeeds/MA_H_CHLA.xml> .
+
+<https://www.umweltkarten-niedersachsen.de/arcgis/services/GAV_wms/MapServer/WMSServer?VERSION=1.3.0.&SERVICE=WMS&REQUEST=GetCapabilities/distribution>
+    dcterms:description """Der Kartendienst stellt die folgenden Informationen zur Verfügung.
+
+Fluglärm:
+
+        Fluglärmschutzbereiche
+        Siedlungsbeschränkungsbereich Langenhagen
+
+Umgebungslärm:
+
+        Straßen
+        NDS Gemeinden
+        Lärmschutzbauwerke
+        Ballungsraum
+        Straßenlärm Lden
+        Straßenlärm Ln
+        Fluglärm Lden 
+        Fluglärm Ln
+
+Luftschadstoffberechnungen:
+
+        Mittlere PM10 Belastung 2017 in µg/m³
+        Mittlere PM10 Belastung 2016 in µg/m³
+        Mittlere PM10 Belastung 2015 in µg/m³
+        Mittlere PM10 Belastung 2014 in µg/m³
+        Mittlere PM10 Belastung 2013 in µg/m³
+        Stickstoffdioxid NO2 - Gesamtbelastung als Jahresmittelwert 2010
+        Stickstoffdioxid NO2 - Gesamtbelastung als Jahresmittelwert 2015
+        Stickstoffdioxid NO2 - Gesamtbelastung als Jahresmittelwert 2015 M
+        Feinstaub PM10 - Ueberschreitungswahrscheinlichkeit des 35-Tage-Kriteriums als Jahresmittelwert 2010
+        Feinstaub PM10 - Überschreitungswahrscheinlichkeit des 35-Tage-Kriteriums als Jahresmittelwert 2015
+        Umweltzonen
+        Orte mit Luftschadstoffberechnung
+
+Industrieanlagen:
+
+        G-Anlagen
+        IED-Anlagen
+        Grossfeuerungsanlagen
+
+Luftqualitätsüberwachung:
+
+        Standorte der Messstationen des LUEN
+        Beurteilungsgebiete und Ballungsraeume - Luft
+        Oekosystem-Schutzgebiete - Luft
+
+HErmEliN:
+
+    Gesamtimmission:
+        NO2-Gesamtimmission
+        PM10-Gesamtimmission
+
+    Vorbelastung:
+        NOX-Immission, 500m-Raster
+        NOX-Immission, 2km-Raster
+        NO2-Immission, 500m-Raster
+        NO2-Immission, 2km-Raster
+        PM10-Immission, 500m-Raster
+        PM10-Immission, 2km-Raster
+        O3-Immission, 500m-Raster
+        O3-Immission, 2km-Raster
+
+    Gesamtemission:
+        NOX-Gesamtemission
+        PM10-Gesamtemission
+
+
+Weitere Daten des Dienstes, die nicht standard-konform (ISO 19119) hinterlegt werden können, zum Teil gemäß INSPIRE-Direktive aber bereit zu stellen sind*:
+
+
+Systemumgebung: ArcGIS-Server
+(environmentDescription/gco:CharacterString= ArcGIS-Server)
+
+Erläuterung zum Fachbezug: Die Fachdaten werden je nach Bedarf aktualisiert.
+(supplementalInformation/gco:CharacterString= Die Fachdaten werden je nach Bedarf aktualisiert.)
+
+
+
+---
+* Nähere Informationen zur INSPIRE-Direktive: http://inspire.jrc.ec.europa.eu/implementingRulesDocs_md.cfm""" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WMS_SRVC> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:modified "2015-03-03T23:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:title "Kartendienst Luft & Lärm"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.umweltkarten-niedersachsen.de/arcgis/services/GAV_wms/MapServer/WMSServer?VERSION=1.3.0.&SERVICE=WMS&REQUEST=GetCapabilities> ;
+    dcat:downloadURL <https://www.umweltkarten-niedersachsen.de/arcgis/services/GAV_wms/MapServer/WMSServer?VERSION=1.3.0.&SERVICE=WMS&REQUEST=GetCapabilities> .
+

@@ -1,0 +1,578 @@
+@prefix schema: <http://schema.org/> .
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix hydra: <http://www.w3.org/ns/hydra/core#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/1.0.1/> .
+@prefix cat:   <http://www.w3.org/ns/dcat#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix locn:  <http://www.w3.org/ns/locn#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/00d845df-520e-4056-87ba-daa1071444d3/#publisher>
+        a          foaf:Agent ;
+        foaf:name  "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" .
+
+_:b0    a                       vcard:Organization ;
+        vcard:fn                "LISt GmbH" ;
+        vcard:hasCountryName    "Deutschland" ;
+        vcard:hasEmail          <file:///home/lisa/repos/crawling/target/geoinformationen@list.smwa.sachsen.de> ;
+        vcard:hasLocality       "Freistaat Sachsen" ;
+        vcard:hasPostalCode     "09661" ;
+        vcard:hasStreetAddress  "Ernst-Thälmann-Straße 5" .
+
+_:b1    a               dcterms:Location ;
+        skos:prefLabel  "Gemeinde Scharbeutz" ;
+        locn:geometry   "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^geo:wktLiteral , "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json> .
+
+<https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv/-2/distribution>
+        a                    cat:Distribution ;
+        dcterms:description  "Daten vor 2 Jahren als CSV-Datei" ;
+        dcterms:format       <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+        dcterms:issued       "2019-10-25T09:39:18Z"^^xsd:dateTime ;
+        dcterms:license      <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+        cat:accessURL        <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv/-2> ;
+        cat:downloadURL      <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv/-2> .
+
+<http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-10-28.csv/distribution>
+        a                cat:Distribution ;
+        dcterms:format   <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+        dcterms:issued   "2020-10-29T12:44:50Z"^^xsd:dateTime ;
+        dcterms:license  <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+        dcterms:title    "Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-10-28.csv"@de ;
+        cat:accessURL    <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-10-28.csv> ;
+        cat:byteSize     56217 ;
+        cat:downloadURL  <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-10-28.csv> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/00848b7e-2d9a-5315-ac57-e0a13db76e61/#publisher>
+        a          foaf:Agent ;
+        foaf:name  "Landesdatenbank NRW" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/009092d3-15f5-4b2e-9470-dbbfe84264db/#publisher>
+        a          foaf:Agent ;
+        foaf:name  "Tourismus-Agentur Lübecker Bucht" .
+
+_:b2    a                 dcterms:PeriodOfTime ;
+        schema:endDate    "2017-06-08T02:00"^^xsd:dateTime ;
+        schema:startDate  "2017-05-30T02:00"^^xsd:dateTime .
+
+<https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv/-3/distribution>
+        a                    cat:Distribution ;
+        dcterms:description  "Daten vor 3 Jahren als CSV-Datei" ;
+        dcterms:format       <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+        dcterms:issued       "2019-10-25T09:39:18Z"^^xsd:dateTime ;
+        dcterms:license      <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+        cat:accessURL        <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv/-3> ;
+        cat:downloadURL      <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv/-3> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/00e793f6-88c7-4b8d-89c5-62835cdb8ce1/#publisher>
+        a          foaf:Agent ;
+        foaf:name  "Tourismus-Agentur Lübecker Bucht" .
+
+_:b3    a               dcterms:Location ;
+        skos:prefLabel  "Freistaat Sachsen" ;
+        locn:geometry   "POLYGON ((11.67 51.8, 15.05 51.8, 15.05 50, 11.67 50, 11.67 51.8))"^^geo:wktLiteral , "{\"type\": \"Polygon\", \"coordinates\": [[[11.67, 51.8], [15.05, 51.8], [15.05, 50], [11.67, 50], [11.67, 51.8]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/015c37d5-f2de-43a7-9142-ab2d37aab3aa/#publisher>
+        a          foaf:Agent ;
+        foaf:name  "LISt GmbH" .
+
+<https://rnvopendataportalpublic.blob.core.windows.net/public/openDataPortal/liniengruppen_mit_haltestellenreferenz.json/distribution>
+        a                cat:Distribution ;
+        dcterms:format   <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+        dcterms:issued   "2020-11-24T08:22:47.304Z"^^xsd:dateTime ;
+        dcterms:license  <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+        dcterms:title    "liniengruppen_mit_haltestellenreferenz.json"@de ;
+        cat:accessURL    <https://rnvopendataportalpublic.blob.core.windows.net/public/openDataPortal/liniengruppen_mit_haltestellenreferenz.json> ;
+        cat:downloadURL  <https://rnvopendataportalpublic.blob.core.windows.net/public/openDataPortal/liniengruppen_mit_haltestellenreferenz.json> .
+
+<https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml/-4/distribution>
+        a                    cat:Distribution ;
+        dcterms:description  "Daten vor 4 Jahren als XML-Datei" ;
+        dcterms:format       <http://publications.europa.eu/resource/authority/file-type/XML> ;
+        dcterms:issued       "2019-10-25T09:39:18Z"^^xsd:dateTime ;
+        dcterms:license      <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+        cat:accessURL        <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml/-4> ;
+        cat:downloadURL      <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml/-4> .
+
+<https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml/distribution>
+        a                    cat:Distribution ;
+        dcterms:description  "Aktuelle Daten als XML-Datei" ;
+        dcterms:format       <http://publications.europa.eu/resource/authority/file-type/XML> ;
+        dcterms:issued       "2019-10-25T09:39:18Z"^^xsd:dateTime ;
+        dcterms:license      <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+        cat:accessURL        <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml> ;
+        cat:downloadURL      <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml> .
+
+_:b4    a          foaf:Organization ;
+        foaf:mbox  "Susanne.Tamm@bsh.de" ;
+        foaf:name  "Susanne Tamm" .
+
+_:b5    a               dcterms:Location ;
+        skos:prefLabel  "NRW" ;
+        locn:geometry   "POLYGON ((5.9 52.6, 9.5 52.6, 9.5 50.2, 5.9 50.2, 5.9 52.6))"^^geo:wktLiteral , "{\"type\": \"Polygon\", \"coordinates\": [[[5.9, 52.6], [9.5, 52.6], [9.5, 50.2], [5.9, 50.2], [5.9, 52.6]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json> .
+
+<http://www.list.smwa.sachsen.de/inspire/download/atf_tn_am.xml/distribution>
+        a                cat:Distribution ;
+        dcterms:format   <http://publications.europa.eu/resource/authority/file-type/GML> ;
+        dcterms:license  <http://dcat-ap.de/def/licenses/other-open> ;
+        cat:accessURL    <http://www.list.smwa.sachsen.de/inspire/download/atf_tn_am.xml> ;
+        cat:downloadURL  <http://www.list.smwa.sachsen.de/inspire/download/atf_tn_am.xml> .
+
+_:b6    a       foaf:Organization .
+
+_:b7    a                 dcterms:PeriodOfTime ;
+        schema:endDate    "2020-11-11T00:00"^^xsd:dateTime ;
+        schema:startDate  "2020-11-11T00:00"^^xsd:dateTime .
+
+_:b8    a               dcterms:Location ;
+        skos:prefLabel  "Gemeinde Scharbeutz" ;
+        locn:geometry   "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^geo:wktLiteral , "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json> .
+
+<https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv/-1/distribution>
+        a                    cat:Distribution ;
+        dcterms:description  "Daten vor einem Jahr als CSV-Datei" ;
+        dcterms:format       <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+        dcterms:issued       "2019-10-25T09:39:18Z"^^xsd:dateTime ;
+        dcterms:license      <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+        cat:accessURL        <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv/-1> ;
+        cat:downloadURL      <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv/-1> .
+
+_:b9    a          foaf:Organization ;
+        foaf:mbox  "Susanne.Tamm@bsh.de" ;
+        foaf:name  "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/00848b7e-2d9a-5315-ac57-e0a13db76e61>
+        a                           cat:Dataset ;
+        dcatde:contributorID        <http://dcat-ap.de/def/contributors/mCloud> ;
+        dcterms:accrualPeriodicity  <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
+        dcterms:creator             _:b10 ;
+        dcterms:description         "Die Statistik gibt Auskunft über die von der Polizei erfassten Straßenverkehrsunfälle auf öffentlichen Wegen und Plätzen, bei denen Personen getötet oder verletzt wurden bzw. schwerwiegender Sachschaden entstanden ist. Erfasst werden außerdem sonstige Sachschadensunfälle unter dem Einfluss berauschender Mittel. Die Datenbereitstellung erfolgt monatlich durch das Landesamt für Zentrale Polizeiliche Dienste. Räumlich differenziert sind die Daten bis auf die Ebene der Gemeinden.  Der Qualitätsbericht informiert über Methoden und Definitionen sowie die Qualität der Ergebnisse einer Statistik. Er steht auf der Online-Seite des Statistischen Bundesamtes zum kostenlosen Download bereit.  Hier finden Sie den Qualitätsbericht (i.d.R. im PDF-Format) für diese Statistik:   [Link auf die Liste der Qualitätsberichte im PDF-Format (Dateigröße ca. 0,5 MB)]  ________________________________________  Hier finden Sie die statistischen Fachpublikationen (i.d.R. im PDF-Format) für Nordrhein-Westfalen:   [Link auf Webshop von IT.NRW, Geschäftsbereich Statistik]"@de ;
+        dcterms:identifier          "00848b7e-2d9a-5315-ac57-e0a13db76e61" ;
+        dcterms:issued              "2005-01-09T23:00:00Z"^^xsd:date ;
+        dcterms:modified            "2019-10-25T07:39:18Z"^^xsd:date ;
+        dcterms:publisher           <https://mcloud.de/web/guest/suche/-/results/detail/00848b7e-2d9a-5315-ac57-e0a13db76e61/#publisher> ;
+        dcterms:spatial             _:b5 ;
+        dcterms:temporal            _:b11 ;
+        dcterms:title               "Straßenverkehrsunfälle mit Personenschaden nach Ortslage - Gemeinden - Jahr"@de ;
+        cat:distribution            <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml/distribution> , <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv/-3/distribution> , <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv/-9/distribution> , <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv/distribution> , <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml/-1/distribution> , <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv/-4/distribution> , <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv/-2/distribution> , <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml/-4/distribution> , <https://www.landesdatenbank.nrw.de/link/tabelleAufbau/46241-02iz/distribution> , <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml/-3/distribution> , <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv/-1/distribution> , <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml/-2/distribution> , <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml/-9/distribution> ;
+        cat:keyword                 "auf Autobahnen"@de , "innerorts"@de , "Wirtschaft und Finanzen"@de , "Verkehr"@de , "mcloud_category_roads"@de ;
+        cat:theme                   <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+<http://mclient-project.github.io/catalog/meta>
+        cat:catalog  <https://mcloud.de> .
+
+<https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml/-3/distribution>
+        a                    cat:Distribution ;
+        dcterms:description  "Daten vor 3 Jahren als XML-Datei" ;
+        dcterms:format       <http://publications.europa.eu/resource/authority/file-type/XML> ;
+        dcterms:issued       "2019-10-25T09:39:18Z"^^xsd:dateTime ;
+        dcterms:license      <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+        cat:accessURL        <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml/-3> ;
+        cat:downloadURL      <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml/-3> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/00caa0d0-e21c-4642-9452-554c7487148e/#publisher>
+        a          foaf:Agent ;
+        foaf:name  "Tourismus-Agentur Lübecker Bucht" .
+
+<https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml/-9/distribution>
+        a                    cat:Distribution ;
+        dcterms:description  "Daten vor 9 Jahren als XML-Datei" ;
+        dcterms:format       <http://publications.europa.eu/resource/authority/file-type/XML> ;
+        dcterms:issued       "2019-10-25T09:39:18Z"^^xsd:dateTime ;
+        dcterms:license      <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+        cat:accessURL        <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml/-9> ;
+        cat:downloadURL      <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml/-9> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/015c37d5-f2de-43a7-9142-ab2d37aab3aa>
+        a                           cat:Dataset ;
+        dcatde:contributorID        <http://dcat-ap.de/def/contributors/mCloud> ;
+        dcterms:accessRights        "Nutzungseinschränkungen: Aktualität, Vollständigkeit und Korrektheit der hier einsehbaren Daten orientieren sich vorrangig an den Bedürfnissen und Möglichkeiten der Straßenbauverwaltung. Informationen jenseits der in der Beschreibung ausdrücklich genannten Informationen sind nicht in den Daten enthalten.\nDieser Datensatz kann gemäß den Nutzungsbestimmungen von Datenlizenz Deutschland - Namensnennung - Version 2.0 (https://www.govdata.de/dl-de/by-2-0) unter Angabe der Quellenvermerke: 1. Bezeichnung des Bereitstellers nach dessen Maßgabe, 2. der Vermerk „Datenlizenz Deutschland - Namensnennung - Version 2.0, Quelle: Straßeninformationsbank Sachsen + Jahr\" oder „dl-de/by-2-0, Quelle: Straßeninformationsbank Sachsen + Jahr\" mit Verweis auf den Lizenztext unter www.govdata.de/dl-de/by-2-0 sowie 3. einen Verweis auf den Datensatz (URI) und das Datum dessen Bereitstellung."@de ;
+        dcterms:accrualPeriodicity  <http://publications.europa.eu/resource/authority/frequency/BIENNIAL> ;
+        dcterms:description         "Dieser Download-Dienst des Klassifizierten Straßennetzes enthält den Datensatz, der mit Hilfe des OKSTRA2INSPIRE Werkzeugs (O2I-Tool) nach INSPIRE transformiert wurde. Die Daten stammen aus der OKSTRA-Schnittstelle der Straßeninformationsbank Sachsen. Der Dienst wird halbjährlich nach Publikationsdatum aktualisiert."@de ;
+        dcterms:identifier          "015c37d5-f2de-43a7-9142-ab2d37aab3aa" ;
+        dcterms:modified            "2020-09-16T00:00:00Z"^^xsd:date ;
+        dcterms:publisher           <https://mcloud.de/web/guest/suche/-/results/detail/015c37d5-f2de-43a7-9142-ab2d37aab3aa/#publisher> ;
+        dcterms:spatial             _:b3 ;
+        dcterms:title               "DE-SN-SBV_INSPIRE_Downloadservice_Strassennetz ATOM Dataset Feed"@de ;
+        cat:contactPoint            _:b0 ;
+        cat:distribution            <http://www.list.smwa.sachsen.de/inspire/download/atf_tn_am.xml/distribution> , <http://www.list.smwa.sachsen.de/inspire/download/DE-SN-SBV_INSPIRE_Downloadservice_Strassennetz.xml/distribution> ;
+        cat:keyword                 "Umweltüberwachung"@de , "inspireidentifiziert"@de , "infoFeatureAccessService"@de , "Bewirtschaftungsgebiete/Schutzgebiete/geregelte Gebiete und Berichterstattungseinheiten"@de , "SWIS Sensoren"@de , "opendata"@de , "mcloud_category_roads"@de , "Dienststellenstandorte SBV"@de , "Statistische Einheiten"@de , "Stationszeichen"@de , "Versorgungswirtschaft und staatliche Dienste"@de , "Verkehrszeichen"@de , "SVZ Zählstellenbereiche"@de ;
+        cat:theme                   <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_P3_2020-11-30.csv/distribution>
+        a                cat:Distribution ;
+        dcterms:format   <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+        dcterms:issued   "2020-12-01T17:31:12Z"^^xsd:dateTime ;
+        dcterms:license  <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+        dcterms:title    "Parkplatz_Scharbeutz_P3_2020-11-30.csv"@de ;
+        cat:accessURL    <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_P3_2020-11-30.csv> ;
+        cat:byteSize     11688 ;
+        cat:downloadURL  <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_P3_2020-11-30.csv> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0083b548-ec60-49e6-aadb-90a2f85e007e>
+        a                           cat:Dataset ;
+        dcatde:contributorID        <http://dcat-ap.de/def/contributors/mCloud> ;
+        dcatde:originator           _:b12 ;
+        dcterms:accessRights        "Dieser Datensatz kann gemäß der \"Datenlizenz Deutschland – Namensnennung – Version 2.0\" (www.govdata.de/dl-de/by-2-0) genutzt werden."@de ;
+        dcterms:accrualPeriodicity  <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+        dcterms:creator             _:b9 ;
+        dcterms:description         "Im Rahmen des gemeinsames Bund/Länder-Messprogramm für die Nord- und Ostsee + weitere Überwachungsprogramme wurde der Parameter \"Fluoren im Meerwasser\" im Meerwasser bestimmt."@de ;
+        dcterms:identifier          "0083b548-ec60-49e6-aadb-90a2f85e007e" ;
+        dcterms:modified            "2020-08-31T05:53:09.691Z"^^xsd:date ;
+        dcterms:publisher           <https://mcloud.de/web/guest/suche/-/results/detail/0083b548-ec60-49e6-aadb-90a2f85e007e/#publisher> ;
+        dcterms:spatial             _:b13 ;
+        dcterms:temporal            _:b14 ;
+        dcterms:title               "Fluoren im Meerwasser 2017"@de ;
+        cat:contactPoint            _:b15 ;
+        cat:distribution            <https://www.geoseaportal.de/atomfeeds/MO_H_FLE.xml/distribution> ;
+        cat:keyword                 "Fluoren"@de , "Ostsee"@de , "opendata"@de , "Wasser"@de , "mcloud_category_waters"@de , "Nordsee"@de , "FLE"@de , "2017"@de , "Monitoring"@de ;
+        cat:theme                   <http://publications.europa.eu/resource/authority/data-theme/ENVI> .
+
+<https://www.geoseaportal.de/atomfeeds/MO_L_DBAEP.xml/distribution>
+        a                cat:Distribution ;
+        dcterms:format   <http://publications.europa.eu/resource/authority/file-type/ATOM> ;
+        dcterms:license  <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+        cat:accessURL    <https://www.geoseaportal.de/atomfeeds/MO_L_DBAEP.xml> ;
+        cat:downloadURL  <https://www.geoseaportal.de/atomfeeds/MO_L_DBAEP.xml> .
+
+<http://134.245.19.83/data/scharbeutz/Parkplatz_Haffkrug_P1_2020-11-06.csv/distribution>
+        a                cat:Distribution ;
+        dcterms:format   <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+        dcterms:issued   "2020-11-07T13:45:12Z"^^xsd:dateTime ;
+        dcterms:license  <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+        dcterms:title    "Parkplatz_Haffkrug_P1_2020-11-06.csv"@de ;
+        cat:accessURL    <http://134.245.19.83/data/scharbeutz/Parkplatz_Haffkrug_P1_2020-11-06.csv> ;
+        cat:byteSize     28 ;
+        cat:downloadURL  <http://134.245.19.83/data/scharbeutz/Parkplatz_Haffkrug_P1_2020-11-06.csv> .
+
+_:b16   a                 dcterms:PeriodOfTime ;
+        schema:endDate    "2020-11-30T00:00"^^xsd:dateTime ;
+        schema:startDate  "2020-11-30T00:00"^^xsd:dateTime .
+
+_:b17   a                 dcterms:PeriodOfTime ;
+        schema:endDate    "2020-11-26T00:00"^^xsd:dateTime ;
+        schema:startDate  "2020-11-26T00:00"^^xsd:dateTime .
+
+_:b18   a               dcterms:Location ;
+        skos:prefLabel  "Gemeinde Scharbeutz" ;
+        locn:geometry   "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^geo:wktLiteral , "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0132694e-b971-4b08-86ba-22f57ab8d8f9>
+        a                     cat:Dataset ;
+        dcatde:contributorID  <http://dcat-ap.de/def/contributors/mCloud> ;
+        dcterms:creator       _:b6 ;
+        dcterms:description   "Anzahl der belegten Parkplätze\n\nDer Datensatz enthält folgende Felder\n\n- Zeit im Format `dd.MM.yyyy HH:mm:ss\n- Name der Zählstelle\n- Text `count`\n- Anzahl der Autos\n\nSpaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.\n\nDie momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."@de ;
+        dcterms:identifier    "0132694e-b971-4b08-86ba-22f57ab8d8f9" ;
+        dcterms:issued        "2020-11-12T04:46:07Z"^^xsd:date ;
+        dcterms:modified      "2020-11-12T04:46:07Z"^^xsd:date ;
+        dcterms:publisher     <https://mcloud.de/web/guest/suche/-/results/detail/0132694e-b971-4b08-86ba-22f57ab8d8f9/#publisher> ;
+        dcterms:spatial       _:b19 ;
+        dcterms:temporal      _:b7 ;
+        dcterms:title         "Parkplatz Scharbeutz P2"@de ;
+        cat:distribution      <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_P2_2020-11-11.csv/distribution> ;
+        cat:keyword           "Scharbeutz"@de , "mcloud_category_roads"@de , "Verkehr"@de , "Tourismus"@de , "Parkplatz"@de ;
+        cat:theme             <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0083b548-ec60-49e6-aadb-90a2f85e007e/#publisher>
+        a          foaf:Agent ;
+        foaf:name  "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" .
+
+<https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-11-26.csv/distribution>
+        a                cat:Distribution ;
+        dcterms:format   <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+        dcterms:issued   "2020-11-27T17:01:50Z"^^xsd:dateTime ;
+        dcterms:license  <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+        dcterms:title    "Scharbeutz_Strandabschnitt_25-29_2020-11-26.csv"@de ;
+        cat:accessURL    <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-11-26.csv> ;
+        cat:byteSize     94264 ;
+        cat:downloadURL  <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-11-26.csv> .
+
+_:b11   a                 dcterms:PeriodOfTime ;
+        schema:endDate    "2017-01-01T00:00"^^xsd:dateTime ;
+        schema:startDate  "1995-01-01T00:00"^^xsd:dateTime .
+
+<https://www.geoseaportal.de/atomfeeds/MO_H_FLE.xml/distribution>
+        a                cat:Distribution ;
+        dcterms:format   <http://publications.europa.eu/resource/authority/file-type/ATOM> ;
+        dcterms:license  <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+        cat:accessURL    <https://www.geoseaportal.de/atomfeeds/MO_H_FLE.xml> ;
+        cat:downloadURL  <https://www.geoseaportal.de/atomfeeds/MO_H_FLE.xml> .
+
+_:b20   a               dcterms:Location ;
+        skos:prefLabel  "Gemeinde Scharbeutz" ;
+        locn:geometry   "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^geo:wktLiteral , "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0042159a-7f22-4445-9902-4355d1650861>
+        a                     cat:Dataset ;
+        dcatde:contributorID  <http://dcat-ap.de/def/contributors/mCloud> ;
+        dcterms:creator       _:b21 ;
+        dcterms:description   "Beschreibung vom rnv:\r\n\"Mit diesem Datensatz stellen wir dir stets eine aktuelle Übersicht unserer rnv-Linien bereit.\r\n\r\nFür den Fahrgast als \"Linie\" erkennbar, ist jede Linie eigentlich eine Liniengruppe, die aus mehreren Linien bestehen kann. Eine Liniengruppe beschreibt den Verlauf einer bestimmten Strecke. Diese kann sowohl als Bus oder Bahn oder Expressfahrt befahren werden. All diese verschiedenen Fahrten werden unter der gleichen Liniengruppe zusammengefasst.\r\n\r\nWichtige Außnahmen stellen die Linien mit Sonderzeichen dar. Die Sonderzeichen stehen für besondere Fahrten: & = Sonderfahrt für Handballveranstaltungen, % = Sonderfahrt für Eishockeyveranstaltungen, $ = Sonderfahrt für Schulbusse\r\n\r\nSeit Mitte Juli 2020 bieten wir neue Datensätze an. Diese sind stets tagesaktuell und ersetzen die alten Datensätze. Weitere Details zu Stuktur und Inhalt der neuen Datensätze sind in der jeweiligen Ressource beschrieben.\""@de ;
+        dcterms:identifier    "0042159a-7f22-4445-9902-4355d1650861" ;
+        dcterms:issued        "2020-11-24T08:22:35.253Z"^^xsd:date ;
+        dcterms:modified      "2020-11-24T08:22:59.357Z"^^xsd:date ;
+        dcterms:publisher     <https://mcloud.de/web/guest/suche/-/results/detail/0042159a-7f22-4445-9902-4355d1650861/#publisher> ;
+        dcterms:title         "rnv-Linien mit Haltestellenreferenz"@de ;
+        cat:distribution      <https://rnvopendataportalpublic.blob.core.windows.net/public/openDataPortal/liniengruppen_mit_haltestellenreferenz.xml/distribution> , <https://rnvopendataportalpublic.blob.core.windows.net/public/openDataPortal/liniengruppen_mit_haltestellenreferenz.json/distribution> ;
+        cat:keyword           "ÖPNV"@de , "MRN"@de , "1. MobiData BW Hackathon"@de , "Verkehr"@de , "Haltestellen"@de , "mcloud_category_railway"@de ;
+        cat:theme             <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+_:b13   a               dcterms:Location ;
+        skos:prefLabel  "000000000000" ;
+        locn:geometry   "POLYGON ((3.348333333 55.91698, 15.370045 55.91698, 15.370045 53.62, 3.348333333 53.62, 3.348333333 55.91698))"^^geo:wktLiteral , "{\"type\": \"Polygon\", \"coordinates\": [[[3.348333333, 55.91698], [15.370045, 55.91698], [15.370045, 53.62], [3.348333333, 53.62], [3.348333333, 55.91698]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json> .
+
+_:b22   a       foaf:Organization .
+
+<https://mcloud.de>  a       cat:Catalog ;
+        dcterms:description  "Dies ist das Portal der mCLOUD."@de ;
+        dcterms:publisher    <https://mcloud.de/#publisher> ;
+        dcterms:title        "mCLOUD Portal"@de ;
+        cat:dataset          <https://mcloud.de/web/guest/suche/-/results/detail/00848b7e-2d9a-5315-ac57-e0a13db76e61> , <https://mcloud.de/web/guest/suche/-/results/detail/0083b548-ec60-49e6-aadb-90a2f85e007e> , <https://mcloud.de/web/guest/suche/-/results/detail/0042159a-7f22-4445-9902-4355d1650861> , <https://mcloud.de/web/guest/suche/-/results/detail/015c37d5-f2de-43a7-9142-ab2d37aab3aa> , <https://mcloud.de/web/guest/suche/-/results/detail/005783d3-599d-4b5a-bfa7-872a98ab6c43> , <https://mcloud.de/web/guest/suche/-/results/detail/0132694e-b971-4b08-86ba-22f57ab8d8f9> , <https://mcloud.de/web/guest/suche/-/results/detail/00d845df-520e-4056-87ba-daa1071444d3> , <https://mcloud.de/web/guest/suche/-/results/detail/009092d3-15f5-4b2e-9470-dbbfe84264db> , <https://mcloud.de/web/guest/suche/-/results/detail/00caa0d0-e21c-4642-9452-554c7487148e> , <https://mcloud.de/web/guest/suche/-/results/detail/00e793f6-88c7-4b8d-89c5-62835cdb8ce1> ;
+        foaf:homepage        <https://mcloud.de/> .
+
+_:b15   a                       vcard:Organization ;
+        vcard:fn                "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" ;
+        vcard:hasCountryName    "Deutschland" ;
+        vcard:hasEmail          <file:///home/lisa/repos/crawling/target/Johannes.Melles@bsh.de> ;
+        vcard:hasLocality       "Hamburg" ;
+        vcard:hasPostalCode     "20359" ;
+        vcard:hasStreetAddress  "Bernhard-Nocht-Str. 78" .
+
+<https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml/-2/distribution>
+        a                    cat:Distribution ;
+        dcterms:description  "Daten vor 2 Jahren als XML-Datei" ;
+        dcterms:format       <http://publications.europa.eu/resource/authority/file-type/XML> ;
+        dcterms:issued       "2019-10-25T09:39:18Z"^^xsd:dateTime ;
+        dcterms:license      <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+        cat:accessURL        <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml/-2> ;
+        cat:downloadURL      <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml/-2> .
+
+<https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_P2_2020-11-11.csv/distribution>
+        a                cat:Distribution ;
+        dcterms:format   <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+        dcterms:issued   "2020-11-12T04:46:07Z"^^xsd:dateTime ;
+        dcterms:license  <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+        dcterms:title    "Parkplatz_Scharbeutz_P2_2020-11-11.csv"@de ;
+        cat:accessURL    <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_P2_2020-11-11.csv> ;
+        cat:byteSize     28 ;
+        cat:downloadURL  <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_P2_2020-11-11.csv> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0132694e-b971-4b08-86ba-22f57ab8d8f9/#publisher>
+        a          foaf:Agent ;
+        foaf:name  "Tourismus-Agentur Lübecker Bucht" .
+
+_:b21   a          foaf:Organization ;
+        foaf:mbox  "opendata@rnv-online.de" ;
+        foaf:name  "Rhein-Neckar-Verkehr GmbH (rnv)" .
+
+_:b23   a               dcterms:Location ;
+        skos:prefLabel  "000000000000" ;
+        locn:geometry   "POLYGON ((4.25 55.766666666667, 8.383333333333 55.766666666667, 8.383333333333 53.673333333333, 4.25 53.673333333333, 4.25 55.766666666667))"^^geo:wktLiteral , "{\"type\": \"Polygon\", \"coordinates\": [[[4.25, 55.766666666667], [8.383333333333, 55.766666666667], [8.383333333333, 53.673333333333], [4.25, 53.673333333333], [4.25, 55.766666666667]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json> .
+
+_:b24   a       foaf:Organization .
+
+_:b12   a          foaf:Organization ;
+        foaf:mbox  "Susanne.Tamm@bsh.de" ;
+        foaf:name  "Susanne Tamm" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/009092d3-15f5-4b2e-9470-dbbfe84264db>
+        a                     cat:Dataset ;
+        dcatde:contributorID  <http://dcat-ap.de/def/contributors/mCloud> ;
+        dcterms:creator       _:b24 ;
+        dcterms:description   "Anzahl der Personen im Strandabschnitt\n\nDer Datensatz enthält folgende Felder\n\n- Zeit im Format `dd.MM.yyyy HH:mm:ss\n- Name der Zählstelle\n- Text `count`\n- Anzahl der Personen\n\nSpaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.\n\nDie momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."@de ;
+        dcterms:identifier    "009092d3-15f5-4b2e-9470-dbbfe84264db" ;
+        dcterms:issued        "2020-11-27T17:01:50Z"^^xsd:date ;
+        dcterms:modified      "2020-11-27T17:01:50Z"^^xsd:date ;
+        dcterms:publisher     <https://mcloud.de/web/guest/suche/-/results/detail/009092d3-15f5-4b2e-9470-dbbfe84264db/#publisher> ;
+        dcterms:spatial       _:b18 ;
+        dcterms:temporal      _:b17 ;
+        dcterms:title         "Scharbeutz - Strandabschnitt 25-29"@de ;
+        cat:distribution      <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-11-26.csv/distribution> ;
+        cat:keyword           "Scharbeutz"@de , "mcloud_category_roads"@de , "Strandbelegung"@de , "Strand"@de , "Verkehr"@de , "Tourismus"@de ;
+        cat:theme             <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/005783d3-599d-4b5a-bfa7-872a98ab6c43>
+        a                     cat:Dataset ;
+        dcatde:contributorID  <http://dcat-ap.de/def/contributors/mCloud> ;
+        dcterms:creator       _:b22 ;
+        dcterms:description   "Anzahl der belegten Parkplätze\n\nDer Datensatz enthält folgende Felder\n\n- Zeit im Format `dd.MM.yyyy HH:mm:ss\n- Name der Zählstelle\n- Text `count`\n- Anzahl der Autos\n\nSpaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.\n\nDie momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."@de ;
+        dcterms:identifier    "005783d3-599d-4b5a-bfa7-872a98ab6c43" ;
+        dcterms:issued        "2020-11-07T13:45:12Z"^^xsd:date ;
+        dcterms:modified      "2020-11-07T13:45:12Z"^^xsd:date ;
+        dcterms:publisher     <https://mcloud.de/web/guest/suche/-/results/detail/005783d3-599d-4b5a-bfa7-872a98ab6c43/#publisher> ;
+        dcterms:spatial       _:b8 ;
+        dcterms:temporal      _:b25 ;
+        dcterms:title         "Parkplatz Haffkrug P1"@de ;
+        cat:distribution      <http://134.245.19.83/data/scharbeutz/Parkplatz_Haffkrug_P1_2020-11-06.csv/distribution> ;
+        cat:keyword           "Scharbeutz"@de , "Tourismus"@de , "Verkehr"@de , "mcloud_category_roads"@de , "Parkplatz"@de ;
+        cat:theme             <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/#publisher>
+        a          foaf:Agent ;
+        foaf:name  "Bundesministerium für Verkehr und digitale Infrastruktur" .
+
+<https://rnvopendataportalpublic.blob.core.windows.net/public/openDataPortal/liniengruppen_mit_haltestellenreferenz.xml/distribution>
+        a                cat:Distribution ;
+        dcterms:format   <http://publications.europa.eu/resource/authority/file-type/XML> ;
+        dcterms:issued   "2020-11-24T08:22:58.838Z"^^xsd:dateTime ;
+        dcterms:license  <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+        dcterms:title    "liniengruppen_mit_haltestellenreferenz.xml"@de ;
+        cat:accessURL    <https://rnvopendataportalpublic.blob.core.windows.net/public/openDataPortal/liniengruppen_mit_haltestellenreferenz.xml> ;
+        cat:downloadURL  <https://rnvopendataportalpublic.blob.core.windows.net/public/openDataPortal/liniengruppen_mit_haltestellenreferenz.xml> .
+
+_:b26   a       foaf:Organization .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0042159a-7f22-4445-9902-4355d1650861/#publisher>
+        a          foaf:Agent ;
+        foaf:name  "GeoNet.MRN e.V." .
+
+_:b14   a                 dcterms:PeriodOfTime ;
+        schema:endDate    "2017-09-13T02:00"^^xsd:dateTime ;
+        schema:startDate  "2017-02-07T01:00"^^xsd:dateTime .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/005783d3-599d-4b5a-bfa7-872a98ab6c43/#publisher>
+        a          foaf:Agent ;
+        foaf:name  "Tourismus-Agentur Lübecker Bucht" .
+
+<http://www.list.smwa.sachsen.de/inspire/download/DE-SN-SBV_INSPIRE_Downloadservice_Strassennetz.xml/distribution>
+        a                cat:Distribution ;
+        dcterms:license  <http://dcat-ap.de/def/licenses/other-open> ;
+        dcterms:title    "DE-SN-SBV_INSPIRE_Downloadservice_Strassennetz ATOM Dataset Feed - Download"@de ;
+        cat:accessURL    <http://www.list.smwa.sachsen.de/inspire/download/DE-SN-SBV_INSPIRE_Downloadservice_Strassennetz.xml> ;
+        cat:downloadURL  <http://www.list.smwa.sachsen.de/inspire/download/DE-SN-SBV_INSPIRE_Downloadservice_Strassennetz.xml> .
+
+_:b27   a                 dcterms:PeriodOfTime ;
+        schema:endDate    "2020-10-28T00:00"^^xsd:dateTime ;
+        schema:startDate  "2020-10-28T00:00"^^xsd:dateTime .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/00d845df-520e-4056-87ba-daa1071444d3>
+        a                           cat:Dataset ;
+        dcatde:contributorID        <http://dcat-ap.de/def/contributors/mCloud> ;
+        dcatde:originator           _:b4 ;
+        dcterms:accessRights        "Dieser Datensatz kann gemäß der \"Datenlizenz Deutschland – Namensnennung – Version 2.0\" (www.govdata.de/dl-de/by-2-0) genutzt werden."@de ;
+        dcterms:accrualPeriodicity  <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+        dcterms:creator             _:b28 ;
+        dcterms:description         "Im Rahmen des gemeinsames Bund/Länder-Messprogramm für die Nord- und Ostsee + weitere Überwachungsprogramme wurde der Parameter \"1,2,3,4,5 Dibenzopyrene (a,e) im trockenen Sediment\" im Sediment bestimmt."@de ;
+        dcterms:identifier          "00d845df-520e-4056-87ba-daa1071444d3" ;
+        dcterms:modified            "2020-08-31T05:53:09.637Z"^^xsd:date ;
+        dcterms:publisher           <https://mcloud.de/web/guest/suche/-/results/detail/00d845df-520e-4056-87ba-daa1071444d3/#publisher> ;
+        dcterms:spatial             _:b23 ;
+        dcterms:temporal            _:b2 ;
+        dcterms:title               "1,2,3,4,5 Dibenzopyrene (a,e) im trockenen Sediment 2017"@de ;
+        cat:contactPoint            _:b29 ;
+        cat:distribution            <https://www.geoseaportal.de/atomfeeds/MO_L_DBAEP.xml/distribution> ;
+        cat:keyword                 "Sediment"@de , "DBAEP"@de , "Pyrene"@de , "Nordsee"@de , "mcloud_category_waters"@de , "Ostsee"@de , "Monitoring"@de , "opendata"@de , "2017"@de ;
+        cat:theme                   <http://publications.europa.eu/resource/authority/data-theme/ENVI> .
+
+_:b19   a               dcterms:Location ;
+        skos:prefLabel  "Gemeinde Scharbeutz" ;
+        locn:geometry   "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^geo:wktLiteral , "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json> .
+
+<https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml/-1/distribution>
+        a                    cat:Distribution ;
+        dcterms:description  "Daten vor einem Jahr als XML-Datei" ;
+        dcterms:format       <http://publications.europa.eu/resource/authority/file-type/XML> ;
+        dcterms:issued       "2019-10-25T09:39:18Z"^^xsd:dateTime ;
+        dcterms:license      <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+        cat:accessURL        <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml/-1> ;
+        cat:downloadURL      <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.xml/-1> .
+
+_:b29   a                       vcard:Organization ;
+        vcard:fn                "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" ;
+        vcard:hasCountryName    "Deutschland" ;
+        vcard:hasEmail          <file:///home/lisa/repos/crawling/target/Johannes.Melles@bsh.de> ;
+        vcard:hasLocality       "Hamburg" ;
+        vcard:hasPostalCode     "20359" ;
+        vcard:hasStreetAddress  "Bernhard-Nocht-Str. 78" .
+
+<https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv/-9/distribution>
+        a                    cat:Distribution ;
+        dcterms:description  "Daten vor 9 Jahren als CSV-Datei" ;
+        dcterms:format       <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+        dcterms:issued       "2019-10-25T09:39:18Z"^^xsd:dateTime ;
+        dcterms:license      <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+        cat:accessURL        <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv/-9> ;
+        cat:downloadURL      <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv/-9> .
+
+_:b28   a          foaf:Organization ;
+        foaf:mbox  "Susanne.Tamm@bsh.de" ;
+        foaf:name  "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" .
+
+_:b30   a       foaf:Organization .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/00e793f6-88c7-4b8d-89c5-62835cdb8ce1>
+        a                     cat:Dataset ;
+        dcatde:contributorID  <http://dcat-ap.de/def/contributors/mCloud> ;
+        dcterms:creator       _:b26 ;
+        dcterms:description   "Anzahl der belegten Parkplätze\n\nDer Datensatz enthält folgende Felder\n\n- Zeit im Format `dd.MM.yyyy HH:mm:ss\n- Name der Zählstelle\n- Text `count`\n- Anzahl der Autos\n\nSpaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.\n\nDie momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."@de ;
+        dcterms:identifier    "00e793f6-88c7-4b8d-89c5-62835cdb8ce1" ;
+        dcterms:issued        "2020-12-01T17:31:12Z"^^xsd:date ;
+        dcterms:modified      "2020-12-01T17:31:12Z"^^xsd:date ;
+        dcterms:publisher     <https://mcloud.de/web/guest/suche/-/results/detail/00e793f6-88c7-4b8d-89c5-62835cdb8ce1/#publisher> ;
+        dcterms:spatial       _:b20 ;
+        dcterms:temporal      _:b16 ;
+        dcterms:title         "Parkplatz Scharbeutz P3"@de ;
+        cat:distribution      <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_P3_2020-11-30.csv/distribution> ;
+        cat:keyword           "Scharbeutz"@de , "Verkehr"@de , "Parkplatz"@de , "Tourismus"@de , "mcloud_category_roads"@de ;
+        cat:theme             <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv/-4/distribution>
+        a                    cat:Distribution ;
+        dcterms:description  "Daten vor 4 Jahren als CSV-Datei" ;
+        dcterms:format       <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+        dcterms:issued       "2019-10-25T09:39:18Z"^^xsd:dateTime ;
+        dcterms:license      <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+        cat:accessURL        <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv/-4> ;
+        cat:downloadURL      <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv/-4> .
+
+<https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv/distribution>
+        a                    cat:Distribution ;
+        dcterms:description  "Aktuelle Daten als CSV-Datei" ;
+        dcterms:format       <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+        dcterms:issued       "2019-10-25T09:39:18Z"^^xsd:dateTime ;
+        dcterms:license      <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+        cat:accessURL        <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv> ;
+        cat:downloadURL      <https://www.landesdatenbank.nrw.de/link/tabelleDownload/46241-02iz.csv> .
+
+_:b10   a          foaf:Organization ;
+        foaf:mbox  "ldb-redaktion@it.nrw.de" ;
+        foaf:name  "Information und Technik Nordrhein-Westfalen" .
+
+_:b25   a                 dcterms:PeriodOfTime ;
+        schema:endDate    "2020-11-06T00:00"^^xsd:dateTime ;
+        schema:startDate  "2020-11-06T00:00"^^xsd:dateTime .
+
+<https://www.landesdatenbank.nrw.de/link/tabelleAufbau/46241-02iz/distribution>
+        a                    cat:Distribution ;
+        dcterms:description  "Weitere Auswahlmöglichkeiten" ;
+        dcterms:format       <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+        dcterms:issued       "2019-10-25T09:39:18Z"^^xsd:dateTime ;
+        dcterms:license      <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+        cat:accessURL        <https://www.landesdatenbank.nrw.de/link/tabelleAufbau/46241-02iz> ;
+        cat:downloadURL      <https://www.landesdatenbank.nrw.de/link/tabelleAufbau/46241-02iz> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/00caa0d0-e21c-4642-9452-554c7487148e>
+        a                     cat:Dataset ;
+        dcatde:contributorID  <http://dcat-ap.de/def/contributors/mCloud> ;
+        dcterms:creator       _:b30 ;
+        dcterms:description   "Anzahl der belegten Parkplätze\n\nDer Datensatz enthält folgende Felder\n\n- Zeit im Format `dd.MM.yyyy HH:mm:ss\n- Name der Zählstelle\n- Text `count`\n- Anzahl der Autos\n\nSpaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.\n\nDie momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."@de ;
+        dcterms:identifier    "00caa0d0-e21c-4642-9452-554c7487148e" ;
+        dcterms:issued        "2020-10-29T12:44:50Z"^^xsd:date ;
+        dcterms:modified      "2020-10-29T12:44:50Z"^^xsd:date ;
+        dcterms:publisher     <https://mcloud.de/web/guest/suche/-/results/detail/00caa0d0-e21c-4642-9452-554c7487148e/#publisher> ;
+        dcterms:spatial       _:b1 ;
+        dcterms:temporal      _:b27 ;
+        dcterms:title         "Parkplatz Scharbeutz Parkbuchten Strandallee II"@de ;
+        cat:distribution      <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-10-28.csv/distribution> ;
+        cat:keyword           "Tourismus"@de , "Verkehr"@de , "mcloud_category_roads"@de , "Parkplatz"@de , "Scharbeutz"@de ;
+        cat:theme             <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/export/datasets?page=1>
+        a                   hydra:PagedCollection ;
+        hydra:firstPage     "https://mcloud.de/export/datasets?page=1" ;
+        hydra:itemsPerPage  10 ;
+        hydra:lastPage      "https://mcloud.de/export/datasets?page=420" ;
+        hydra:nextPage      "https://mcloud.de/export/datasets?page=2" ;
+        hydra:totalItems    4200 .

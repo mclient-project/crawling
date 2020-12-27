@@ -1,0 +1,659 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/1.0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gml: <http://www.opengis.net/gml/3.2> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix odrs: <http://schema.theodi.org/odrs#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix hydra: <http://www.w3.org/ns/hydra/core#> .
+
+<http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-11-01.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-11-02T13:00:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Scharbeutz_Strandabschnitt_25-29_2020-11-01.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-11-01.csv> ;
+    dcat:byteSize 94531 ;
+    dcat:downloadURL <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-11-01.csv> .
+
+<http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-11-10.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-11-11T14:00:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Scharbeutz_Strandabschnitt_25-29_2020-11-10.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-11-10.csv> ;
+    dcat:byteSize 93767 ;
+    dcat:downloadURL <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-11-10.csv> .
+
+<http://daten.transparenz.hamburg.de/Dataport.HmbTG.ZS.Webservice.GetRessource100/GetRessource100.svc/747d0530-b330-4b22-afed-e0a82f94dda6/Upload__HVV_Rohdaten_GTFS_Fpl_20200908.zip/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/ZIP> ;
+    dcterms:issued "2020-11-04T16:02:00.659Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Upload: HVV_Rohdaten_GTFS_Fpl_20200908"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://daten.transparenz.hamburg.de/Dataport.HmbTG.ZS.Webservice.GetRessource100/GetRessource100.svc/747d0530-b330-4b22-afed-e0a82f94dda6/Upload__HVV_Rohdaten_GTFS_Fpl_20200908.zip> ;
+    dcat:byteSize 32834560 ;
+    dcat:downloadURL <http://daten.transparenz.hamburg.de/Dataport.HmbTG.ZS.Webservice.GetRessource100/GetRessource100.svc/747d0530-b330-4b22-afed-e0a82f94dda6/Upload__HVV_Rohdaten_GTFS_Fpl_20200908.zip> .
+
+<http://download-data.deutschebahn.com/static/apis/fahrplan/Fpl-API-Doku-Open-Data-BETA-0_81_2.pdf/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
+    dcterms:issued "2016-12-03T12:42:21.013Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by> ;
+    dcterms:title "Dokumentation"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://download-data.deutschebahn.com/static/apis/fahrplan/Fpl-API-Doku-Open-Data-BETA-0_81_2.pdf> ;
+    dcat:downloadURL <http://download-data.deutschebahn.com/static/apis/fahrplan/Fpl-API-Doku-Open-Data-BETA-0_81_2.pdf> .
+
+<http://metaver.de/trefferanzeige?docuuid=4C488499-B8D6-4917-B501-62B0B279244E/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:issued "2020-12-21T19:23:06.347Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Metadatenbeschreibung aus dem MetaVer"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://metaver.de/trefferanzeige?docuuid=4C488499-B8D6-4917-B501-62B0B279244E> ;
+    dcat:byteSize 52338 ;
+    dcat:downloadURL <http://metaver.de/trefferanzeige?docuuid=4C488499-B8D6-4917-B501-62B0B279244E> .
+
+<https://developer.deutschebahn.com/store/apis/info?name=Fahrplan-Free&version=v1&provider=DBOpenData/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/REST> ;
+    dcterms:issued "2016-06-15T05:34:50.104Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by> ;
+    dcterms:title "Fahrplan API"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://developer.deutschebahn.com/store/apis/info?name=Fahrplan-Free&version=v1&provider=DBOpenData> ;
+    dcat:downloadURL <https://developer.deutschebahn.com/store/apis/info?name=Fahrplan-Free&version=v1&provider=DBOpenData> .
+
+<https://geodienste.hamburg.de/HH_WFS_Fahrradluftstationen?REQUEST=GetCapabilities&SERVICE=WFS/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WFS_SRVC> ;
+    dcterms:issued "2020-12-21T19:23:06.347Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Dienst \"WFS Fahrradluftstationen Hamburg\" (GetCapabilities)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geodienste.hamburg.de/HH_WFS_Fahrradluftstationen?REQUEST=GetCapabilities&SERVICE=WFS> ;
+    dcat:byteSize 29190 ;
+    dcat:downloadURL <https://geodienste.hamburg.de/HH_WFS_Fahrradluftstationen?REQUEST=GetCapabilities&SERVICE=WFS> .
+
+<https://geodienste.hamburg.de/HH_WFS_Fahrradluftstationen?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&typename=de.hh.up:fahrradluftstationen/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/GML> ;
+    dcterms:issued "2020-12-21T19:23:06.347Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Download WFS Farradluftstationen Hamburg (GML)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geodienste.hamburg.de/HH_WFS_Fahrradluftstationen?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&typename=de.hh.up:fahrradluftstationen> ;
+    dcat:byteSize 19267 ;
+    dcat:downloadURL <https://geodienste.hamburg.de/HH_WFS_Fahrradluftstationen?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&typename=de.hh.up:fahrradluftstationen> .
+
+<https://geodienste.hamburg.de/HH_WFS_Fahrradluftstationen?service=WFS&request=DescribeFeatureType&version=1.1.0&typename=de.hh.up:fahrradluftstationen/distribution>
+    dcterms:issued "2020-12-21T19:23:06.347Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Download WFS-Schemadatei Fahrradluftstationen Hamburg (XSD)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geodienste.hamburg.de/HH_WFS_Fahrradluftstationen?service=WFS&request=DescribeFeatureType&version=1.1.0&typename=de.hh.up:fahrradluftstationen> ;
+    dcat:byteSize 1109 ;
+    dcat:downloadURL <https://geodienste.hamburg.de/HH_WFS_Fahrradluftstationen?service=WFS&request=DescribeFeatureType&version=1.1.0&typename=de.hh.up:fahrradluftstationen> .
+
+<https://geodienste.hamburg.de/HH_WMS_Fahrradluftstationen?REQUEST=GetCapabilities&SERVICE=WMS/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WMS_SRVC> ;
+    dcterms:issued "2020-12-21T19:23:06.347Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Dienst \"WMS Fahrradluftstationen Hamburg\" (GetCapabilities)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geodienste.hamburg.de/HH_WMS_Fahrradluftstationen?REQUEST=GetCapabilities&SERVICE=WMS> ;
+    dcat:byteSize 14167 ;
+    dcat:downloadURL <https://geodienste.hamburg.de/HH_WMS_Fahrradluftstationen?REQUEST=GetCapabilities&SERVICE=WMS> .
+
+<https://mcloud.de>
+    dcterms:description "Dies ist das Portal der mCLOUD."@de ;
+    dcterms:publisher <https://mcloud.de/#publisher> ;
+    dcterms:title "mCLOUD Portal"@de ;
+    a dcat:Catalog ;
+    dcat:dataset <https://mcloud.de/web/guest/suche/-/results/detail/11a04964-26c5-41e2-ab01-ee3259b3c66f>, <https://mcloud.de/web/guest/suche/-/results/detail/11a995c7-2bf7-4cca-930f-d06eb73a824b>, <https://mcloud.de/web/guest/suche/-/results/detail/11d166c1-b2f6-4699-8a88-67d2f26fb837>, <https://mcloud.de/web/guest/suche/-/results/detail/11d7d90e-ec10-4645-92d2-579f19c9f703>, <https://mcloud.de/web/guest/suche/-/results/detail/12049d7f-f807-420e-ac66-2faaf96bea2b>, <https://mcloud.de/web/guest/suche/-/results/detail/120a28e6-79e8-4cc1-b117-2c623a3f060e>, <https://mcloud.de/web/guest/suche/-/results/detail/120bd145-ecdd-48a0-b762-4e0bfe665d29>, <https://mcloud.de/web/guest/suche/-/results/detail/1219d9a6-d1fa-40d3-9967-8a26e14caa41>, <https://mcloud.de/web/guest/suche/-/results/detail/121fc3cc-a773-49d2-95c2-71398fc785e6>, <https://mcloud.de/web/guest/suche/-/results/detail/1226ed7b-563b-4a64-bab0-5addfe928e79> ;
+    foaf:homepage <https://mcloud.de/> .
+
+<https://mcloud.de/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesministerium für Verkehr und digitale Infrastruktur" .
+
+<https://mcloud.de/export/datasets?page=20>
+    a hydra:PagedCollection ;
+    hydra:firstPage "https://mcloud.de/export/datasets?page=1" ;
+    hydra:itemsPerPage 10 ;
+    hydra:lastPage "https://mcloud.de/export/datasets?page=420" ;
+    hydra:nextPage "https://mcloud.de/export/datasets?page=21" ;
+    hydra:previousPage "https://mcloud.de/export/datasets?page=19" ;
+    hydra:totalItems 4200 .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/11a04964-26c5-41e2-ab01-ee3259b3c66f>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:name "Stadt Köln"
+    ] ;
+    dcterms:description """<p>Strassenverzeichnis der Stadt Köln in der Standard Ausführung und nach Stadtviertelgliederung</p>
+"""@de ;
+    dcterms:identifier "11a04964-26c5-41e2-ab01-ee3259b3c66f" ;
+    dcterms:issued "2013-12-18T12:49:55Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2018-03-07T07:21:57Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/11a04964-26c5-41e2-ab01-ee3259b3c66f/#publisher> ;
+    dcterms:title "Strassenverzeichnis"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://offenedaten-koeln.de/sites/default/files/2013-01-01_Stra%C3%9Fenverzeichnis_Stadtviertel.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/2013-01-01_Stra%C3%9Fenverzeichnis_Standard.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/2014-01-01_Stra%C3%9Fenverzeichnis_Stadtviertel.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/2014-01-01_Stra%C3%9Fenverzeichnis_Standard.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/20150101_stra%C3%9Fenverzeichnis_standard.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/20150101_stra%C3%9Fenverzeichnis_standtviertel.csv/distribution> ;
+    dcat:keyword "Offene Daten Köln"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/11a04964-26c5-41e2-ab01-ee3259b3c66f/#publisher>
+    a foaf:Agent ;
+    foaf:name "Köln" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/11a995c7-2bf7-4cca-930f-d06eb73a824b>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der Personen im Strandabschnitt
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Personen
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "11a995c7-2bf7-4cca-930f-d06eb73a824b" ;
+    dcterms:issued "2020-11-02T13:00:37Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-11-02T13:00:37Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/11a995c7-2bf7-4cca-930f-d06eb73a824b/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-11-01T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-11-01T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Scharbeutz - Strandabschnitt 25-29"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-11-01.csv/distribution> ;
+    dcat:keyword "Scharbeutz"@de, "Strand"@de, "Strandbelegung"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/11a995c7-2bf7-4cca-930f-d06eb73a824b/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/11d166c1-b2f6-4699-8a88-67d2f26fb837>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der belegten Parkplätze
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Autos
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "11d166c1-b2f6-4699-8a88-67d2f26fb837" ;
+    dcterms:issued "2020-12-08T18:46:52Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-12-08T18:46:52Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/11d166c1-b2f6-4699-8a88-67d2f26fb837/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-12-07T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-12-07T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Parkplatz Scharbeutz Parkbuchten Strandallee II"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-12-07.csv/distribution> ;
+    dcat:keyword "Parkplatz"@de, "Scharbeutz"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/11d166c1-b2f6-4699-8a88-67d2f26fb837/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/11d7d90e-ec10-4645-92d2-579f19c9f703>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:name "Behörde für Verkehr und Mobilitätswende (BVM)"
+    ] ;
+    dcterms:description "<p>Der Datensatz enthält die Standorte öffentlicher Luftpumpen für Fahrräder in Hamburg. An Standorten, die an öffentliche Toilettenanlagen angegliedert sind,  gibt es zusätzlich auch Lademöglichkeiten für Pedelecs bzw. E-Bikes.</p>"@de ;
+    dcterms:identifier "11d7d90e-ec10-4645-92d2-579f19c9f703" ;
+    dcterms:issued "2020-04-02T17:17:53.104Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-12-21T19:23:06.075Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/11d7d90e-ec10-4645-92d2-579f19c9f703/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "['Hamburg (02000000)']" ;
+        locn:geometry "POLYGON ((10.326304 53.394985, 10.326304 53.964153, 8.420551 53.964153, 8.420551 53.394985, 10.326304 53.394985))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.326304, 53.394985], [10.326304, 53.964153], [8.420551, 53.964153], [8.420551, 53.394985], [10.326304, 53.394985]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:startDate "2018-10-01T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Fahrradluftstationen Hamburg"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://metaver.de/trefferanzeige?docuuid=4C488499-B8D6-4917-B501-62B0B279244E/distribution>, <https://geodienste.hamburg.de/HH_WFS_Fahrradluftstationen?REQUEST=GetCapabilities&SERVICE=WFS/distribution>, <https://geodienste.hamburg.de/HH_WFS_Fahrradluftstationen?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&typename=de.hh.up:fahrradluftstationen/distribution>, <https://geodienste.hamburg.de/HH_WFS_Fahrradluftstationen?service=WFS&request=DescribeFeatureType&version=1.1.0&typename=de.hh.up:fahrradluftstationen/distribution>, <https://geodienste.hamburg.de/HH_WMS_Fahrradluftstationen?REQUEST=GetCapabilities&SERVICE=WMS/distribution> ;
+    dcat:keyword "Behörde"@de, "E-Bike"@de, "Fahrrad"@de, "Fahrradpumpe"@de, "Fahrradreifen"@de, "Geodaten"@de, "Lademöglichkeit"@de, "Ladestation"@de, "Luft"@de, "Luftpumpe"@de, "Luftstation"@de, "Nahverkehr"@de, "Pedelec"@de, "Platten"@de, "Pumpe"@de, "Radverkehr"@de, "Service"@de, "Servicepunkt"@de, "Straße"@de, "Toilette"@de, "Transport & Verkehr"@de, "Verkehr"@de, "mcloud_category_infrastructure"@de, "mcloud_category_roads"@de, "Öffentliche"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/11d7d90e-ec10-4645-92d2-579f19c9f703/#publisher>
+    a foaf:Agent ;
+    foaf:name "Transparenzportal Hamburg: Behörde für Verkehr und Mobilitätswende (BVM)" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/12049d7f-f807-420e-ac66-2faaf96bea2b>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "DBOpenData@deutschebahn.com" ;
+        foaf:name "Michael Binzen"
+    ] ;
+    dcterms:description "<p>Diese API stellt Fahrplandaten, im ersten Schritt den SOLL-Fahrplan des Fernverkehrs, zur Verfügung. </p>"@de ;
+    dcterms:identifier "12049d7f-f807-420e-ac66-2faaf96bea2b" ;
+    dcterms:issued "2016-06-13T13:21:03.323Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2017-12-13T12:03:12.156Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/12049d7f-f807-420e-ac66-2faaf96bea2b/#publisher> ;
+    dcterms:title "Fahrplan API"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://download-data.deutschebahn.com/static/apis/fahrplan/Fpl-API-Doku-Open-Data-BETA-0_81_2.pdf/distribution>, <https://developer.deutschebahn.com/store/apis/info?name=Fahrplan-Free&version=v1&provider=DBOpenData/distribution> ;
+    dcat:keyword "APIs"@de, "Abfahrtstafel"@de, "Ankunftstafel"@de, "Bahnhof"@de, "Solldaten"@de, "Zuglauf"@de, "mcloud_category_railway"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/12049d7f-f807-420e-ac66-2faaf96bea2b/#publisher>
+    a foaf:Agent ;
+    foaf:name "DB Vertrieb GmbH" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/120a28e6-79e8-4cc1-b117-2c623a3f060e>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:name "Hamburger Verkehrsverbund GmbH"
+    ] ;
+    dcterms:description "<p>Der Hamburger Verkehrsverbund (HVV) stellt hier die Fahrplandaten des Verbundgebietes monatlich im GTFS-Format zur Verfügung. Die Daten beinhalten Informationen zu Linien, Haltestellen, Abfahrtszeiten usw.</p>"@de ;
+    dcterms:identifier "120a28e6-79e8-4cc1-b117-2c623a3f060e" ;
+    dcterms:issued "2020-09-09T14:02:08.029Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-11-04T16:02:00.471Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/120a28e6-79e8-4cc1-b117-2c623a3f060e/#publisher> ;
+    dcterms:temporal [
+        schema:endDate "2020-12-12T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-09-08T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "HVV-Fahrplandaten (GTFS) September 2020 bis Dezember 2020"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://daten.transparenz.hamburg.de/Dataport.HmbTG.ZS.Webservice.GetRessource100/GetRessource100.svc/747d0530-b330-4b22-afed-e0a82f94dda6/Upload__HVV_Rohdaten_GTFS_Fpl_20200908.zip/distribution> ;
+    dcat:keyword "AKN"@de, "Bus"@de, "Fahrplandaten"@de, "Fähre"@de, "GTFS"@de, "HVV"@de, "Regional-Express"@de, "Regionalbahn"@de, "S-Bahn"@de, "Transport & Verkehr"@de, "U-Bahn"@de, "Verkehr"@de, "Verkehrsunternehmen"@de, "mcloud_category_roads"@de, "ÖPNV"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/120a28e6-79e8-4cc1-b117-2c623a3f060e/#publisher>
+    a foaf:Agent ;
+    foaf:name "Transparenzportal Hamburg: Hamburger Verkehrsverbund GmbH" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/120bd145-ecdd-48a0-b762-4e0bfe665d29>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcatde:originator [
+        a foaf:Organization ;
+        foaf:homepage "https://www.tuhh.de/wb/startseite.html" ;
+        foaf:mbox "norman.dreier@tuhh.de" ;
+        foaf:name "Norman Dreier"
+    ] ;
+    dcterms:accessRights """Nutzungsbedingungen: Lehre und Forschung im Projekt Earlydike
+Nutzungsbedingungen: Dieser Datensatz kann gemäß der \"Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes\" (http://www.geodatenzentrum.de/docpdf/geonutzv.pdf) genutzt werden. Keine Nutzung der zur Navigation.
+Nutzungsbedingungen:"""@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "norman.dreier@tuhh.de" ;
+        foaf:name "Technische Universität Hamburg-Harburg (TUHH) - Institut für Wasserbau "
+    ] ;
+    dcterms:description "Beispieldatensatz Druckmessdaten zum Projekt EarlyDike aus ADCP-Messung 1"@de ;
+    dcterms:identifier "120bd145-ecdd-48a0-b762-4e0bfe665d29" ;
+    dcterms:modified "2018-03-12T13:36:27Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/120bd145-ecdd-48a0-b762-4e0bfe665d29/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "" ;
+        locn:geometry "POLYGON ((8.54 54.58, 8.74 54.58, 8.74 54.43, 8.54 54.43, 8.54 54.58))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[8.54, 54.58], [8.74, 54.58], [8.74, 54.43], [8.54, 54.43], [8.54, 54.58]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2016-05-09T02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2016-04-25T02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Seegangsparameter TUHH"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Technische Universität Hamburg-Harburg (TUHH) - Institut für Wasserbau " ;
+        vcard:hasCountryName "Germany" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/norman.dreier@tuhh.de> ;
+        vcard:hasPostalCode "21073" ;
+        vcard:hasStreetAddress "Am Schwarzenberg-Campus 3 (E)" ;
+        vcard:hasURL <https://www.tuhh.de/wb/startseite.html>
+    ] ;
+    dcat:distribution <https://www.earlydike.de//distribution> ;
+    dcat:keyword "Deutsche Bucht"@de, "Druck"@de, "Earlydike"@de, "German Bight"@de, "Ozeanografisch-geografische Kennwerte"@de, "Pellworm"@de, "inspireidentifiziert"@de, "mcloud_category_waters"@de, "opendata"@de, "water"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/120bd145-ecdd-48a0-b762-4e0bfe665d29/#publisher>
+    a foaf:Agent ;
+    foaf:name "Technische Universität Hamburg-Harburg (TUHH) - Institut für Wasserbau " .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/1219d9a6-d1fa-40d3-9967-8a26e14caa41>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der Personen im Strandabschnitt
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Personen
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "1219d9a6-d1fa-40d3-9967-8a26e14caa41" ;
+    dcterms:issued "2020-11-11T14:00:32Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-11-11T14:00:32Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/1219d9a6-d1fa-40d3-9967-8a26e14caa41/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-11-10T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-11-10T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Scharbeutz - Strandabschnitt 25-29"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-11-10.csv/distribution> ;
+    dcat:keyword "Scharbeutz"@de, "Strand"@de, "Strandbelegung"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/1219d9a6-d1fa-40d3-9967-8a26e14caa41/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/121fc3cc-a773-49d2-95c2-71398fc785e6>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/OTHER> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "Bodenmanagement@trier.de" ;
+        foaf:name "Stadt Trier"
+    ] ;
+    dcterms:description "POIs der Wohnmobilstellplätze in und um Trier"@de ;
+    dcterms:identifier "121fc3cc-a773-49d2-95c2-71398fc785e6" ;
+    dcterms:issued "2019-09-24T10:54:37Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-07-27T09:00:10Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/121fc3cc-a773-49d2-95c2-71398fc785e6/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        locn:geometry "POLYGON ((6.59375769578702 49.6986094657197, 6.59375769578702 49.7726542376616, 6.6831086508042 49.7726542376616, 6.6831086508042 49.6986094657197, 6.59375769578702 49.6986094657197))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[6.59375769578702, 49.6986094657197], [6.59375769578702, 49.7726542376616], [6.6831086508042, 49.7726542376616], [6.6831086508042, 49.6986094657197], [6.59375769578702, 49.6986094657197]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "Wohnmobilstellplätze"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://www.geoportal.rlp.de/mapbender/extensions/mobilemap/map.php?layerid=67904/distribution>, <https://www.geoportal.rlp.de/mapbender/extensions/mobilemap/map.php?layerid=67940/distribution>, <https://www.geoportal.rlp.de/mapbender/php/mod_exportIso19139.php?url=https%3A%2F%2Fwww.geoportal.rlp.de%2Fmapbender%2Fphp%2Fmod_dataISOMetadata.php%3FoutputFormat%3Diso19139%26id%3D8c283012-8ea6-a243-565e-e3aa6fc289d3/distribution>, <https://www.geoportal.rlp.de/mapbender/php/wms.php?layer_id=67904&REQUEST=GetCapabilities&VERSION=1.1.1&SERVICE=WMS/distribution>, <https://www.geoportal.rlp.de/mapbender/php/wms.php?layer_id=67940&REQUEST=GetCapabilities&VERSION=1.1.1&SERVICE=WMS/distribution>, <https://www.geoportal.rlp.de/mapbender/plugins/mb_downloadFeedClient.php?url=https%3A%2F%2Fwww.geoportal.rlp.de%2Fmapbender%2Fphp%2Fmod_inspireDownloadFeed.php%3Fid%3D8c283012-8ea6-a243-565e-e3aa6fc289d3%26type%3DSERVICE%26generateFrom%3Dwfs%26wfsid%3D503/distribution>, <https://www.geoportal.rlp.de/mapbender/plugins/mb_downloadFeedClient.php?url=https%3A%2F%2Fwww.geoportal.rlp.de%2Fmapbender%2Fphp%2Fmod_inspireDownloadFeed.php%3Fid%3D8c283012-8ea6-a243-565e-e3aa6fc289d3%26type%3DSERVICE%26generateFrom%3Dwfs%26wfsid%3D505/distribution>, <https://www.geoportal.rlp.de/portal/karten.html?LAYER[zoom]=1&LAYER[id]=67904/distribution>, <https://www.geoportal.rlp.de/portal/karten.html?LAYER[zoom]=1&LAYER[id]=67940/distribution>, <https://www.geoportal.rlp.de/spatial-objects/503/collections/ms:wohnmobilstellplatz/distribution>, <https://www.geoportal.rlp.de/spatial-objects/505/collections/ms:wohnmobilstellplatz/distribution> ;
+    dcat:keyword "Addresses"@de, "OpenData"@de, "Parken"@de, "Parkmöglichkeit"@de, "Parkplatz"@de, "Stellplatz"@de, "Transparenzgesetz"@de, "Trier"@de, "Verkehr"@de, "Wohnmobil"@de, "Wohnmobilstellplatz"@de, "inspireidentifiziert"@de, "mcloud_category_roads"@de, "Übernachtung"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/121fc3cc-a773-49d2-95c2-71398fc785e6/#publisher>
+    a foaf:Agent ;
+    foaf:name "Stadt Trier" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/1226ed7b-563b-4a64-bab0-5addfe928e79>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der Personen im Strandabschnitt
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Personen
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "1226ed7b-563b-4a64-bab0-5addfe928e79" ;
+    dcterms:issued "2020-12-22T12:18:54Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-12-22T12:18:54Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/1226ed7b-563b-4a64-bab0-5addfe928e79/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-12-21T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-12-21T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Scharbeutz - Strandabschnitt 25-29"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-12-21.csv/distribution> ;
+    dcat:keyword "Scharbeutz"@de, "Strand"@de, "Strandbelegung"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/1226ed7b-563b-4a64-bab0-5addfe928e79/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://offenedaten-koeln.de/sites/default/files/2013-01-01_Stra%C3%9Fenverzeichnis_Stadtviertel.csv/distribution>
+    dcterms:description "Strassenverzeichnis mit Stadtviertelgliederung vom 01.01.2013" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-24T23:47:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/2013-01-01_Stra%C3%9Fenverzeichnis_Stadtviertel.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/2013-01-01_Stra%C3%9Fenverzeichnis_Stadtviertel.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/2013-01-01_Stra%C3%9Fenverzeichnis_Standard.csv/distribution>
+    dcterms:description "Strassenverzeichnis vom 01.01.2013" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-24T23:47:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/2013-01-01_Stra%C3%9Fenverzeichnis_Standard.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/2013-01-01_Stra%C3%9Fenverzeichnis_Standard.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/2014-01-01_Stra%C3%9Fenverzeichnis_Stadtviertel.csv/distribution>
+    dcterms:description "Strassenverzeichnis mit Stadtviertelgliederung vom 01.01.2014" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-24T23:47:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/2014-01-01_Stra%C3%9Fenverzeichnis_Stadtviertel.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/2014-01-01_Stra%C3%9Fenverzeichnis_Stadtviertel.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/2014-01-01_Stra%C3%9Fenverzeichnis_Standard.csv/distribution>
+    dcterms:description "Strassenverzeichnis vom 01.01.2014" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-24T23:47:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/2014-01-01_Stra%C3%9Fenverzeichnis_Standard.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/2014-01-01_Stra%C3%9Fenverzeichnis_Standard.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/20150101_stra%C3%9Fenverzeichnis_standard.csv/distribution>
+    dcterms:description "<p>Strassenverzeichnis vom 01.01.2015</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-24T23:47:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/20150101_stra%C3%9Fenverzeichnis_standard.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/20150101_stra%C3%9Fenverzeichnis_standard.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/20150101_stra%C3%9Fenverzeichnis_standtviertel.csv/distribution>
+    dcterms:description "<p>Strassenverzeichnis mit Stadtviertelgliederung vom 01.01.2015</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-24T23:47:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/20150101_stra%C3%9Fenverzeichnis_standtviertel.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/20150101_stra%C3%9Fenverzeichnis_standtviertel.csv> .
+
+<https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-12-07.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-08T18:46:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-12-07.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-12-07.csv> ;
+    dcat:byteSize 56155 ;
+    dcat:downloadURL <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-12-07.csv> .
+
+<https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-12-21.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-22T12:18:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Scharbeutz_Strandabschnitt_25-29_2020-12-21.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-12-21.csv> ;
+    dcat:byteSize 94353 ;
+    dcat:downloadURL <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-12-21.csv> .
+
+<https://www.earlydike.de//distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/geonutz/20130319> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.earlydike.de/> ;
+    dcat:downloadURL <https://www.earlydike.de/> .
+
+<https://www.geoportal.rlp.de/mapbender/extensions/mobilemap/map.php?layerid=67904/distribution>
+    dcterms:description "Ebene: Wohnmobilstellplätze Trier - Vorschau im integrierten Kartenviewer" ;
+    dcterms:issued "2019-09-04T10:02:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Onlinekarte"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoportal.rlp.de/mapbender/extensions/mobilemap/map.php?layerid=67904> ;
+    dcat:downloadURL <https://www.geoportal.rlp.de/mapbender/extensions/mobilemap/map.php?layerid=67904> .
+
+<https://www.geoportal.rlp.de/mapbender/extensions/mobilemap/map.php?layerid=67940/distribution>
+    dcterms:description "Ebene: Wohnmobilstellplätze Trier - Vorschau im integrierten Kartenviewer" ;
+    dcterms:issued "2019-09-04T10:02:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Onlinekarte"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoportal.rlp.de/mapbender/extensions/mobilemap/map.php?layerid=67940> ;
+    dcat:downloadURL <https://www.geoportal.rlp.de/mapbender/extensions/mobilemap/map.php?layerid=67940> .
+
+<https://www.geoportal.rlp.de/mapbender/php/mod_exportIso19139.php?url=https%3A%2F%2Fwww.geoportal.rlp.de%2Fmapbender%2Fphp%2Fmod_dataISOMetadata.php%3FoutputFormat%3Diso19139%26id%3D8c283012-8ea6-a243-565e-e3aa6fc289d3/distribution>
+    dcterms:description "Wohnmobilstellplätze - Anzeige der originären Metadaten" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:issued "2019-09-24T10:54:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Originäre Metadaten"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoportal.rlp.de/mapbender/php/mod_exportIso19139.php?url=https%3A%2F%2Fwww.geoportal.rlp.de%2Fmapbender%2Fphp%2Fmod_dataISOMetadata.php%3FoutputFormat%3Diso19139%26id%3D8c283012-8ea6-a243-565e-e3aa6fc289d3> ;
+    dcat:downloadURL <https://www.geoportal.rlp.de/mapbender/php/mod_exportIso19139.php?url=https%3A%2F%2Fwww.geoportal.rlp.de%2Fmapbender%2Fphp%2Fmod_dataISOMetadata.php%3FoutputFormat%3Diso19139%26id%3D8c283012-8ea6-a243-565e-e3aa6fc289d3> .
+
+<https://www.geoportal.rlp.de/mapbender/php/wms.php?layer_id=67904&REQUEST=GetCapabilities&VERSION=1.1.1&SERVICE=WMS/distribution>
+    dcterms:description "Ebene: Wohnmobilstellplätze Trier" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WMS_SRVC> ;
+    dcterms:issued "2019-09-04T10:02:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "WMS Schnittstelle"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoportal.rlp.de/mapbender/php/wms.php?layer_id=67904&REQUEST=GetCapabilities&VERSION=1.1.1&SERVICE=WMS> ;
+    dcat:downloadURL <https://www.geoportal.rlp.de/mapbender/php/wms.php?layer_id=67904&REQUEST=GetCapabilities&VERSION=1.1.1&SERVICE=WMS> .
+
+<https://www.geoportal.rlp.de/mapbender/php/wms.php?layer_id=67940&REQUEST=GetCapabilities&VERSION=1.1.1&SERVICE=WMS/distribution>
+    dcterms:description "Ebene: Wohnmobilstellplätze Trier" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WMS_SRVC> ;
+    dcterms:issued "2019-09-04T10:02:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "WMS Schnittstelle"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoportal.rlp.de/mapbender/php/wms.php?layer_id=67940&REQUEST=GetCapabilities&VERSION=1.1.1&SERVICE=WMS> ;
+    dcat:downloadURL <https://www.geoportal.rlp.de/mapbender/php/wms.php?layer_id=67940&REQUEST=GetCapabilities&VERSION=1.1.1&SERVICE=WMS> .
+
+<https://www.geoportal.rlp.de/mapbender/plugins/mb_downloadFeedClient.php?url=https%3A%2F%2Fwww.geoportal.rlp.de%2Fmapbender%2Fphp%2Fmod_inspireDownloadFeed.php%3Fid%3D8c283012-8ea6-a243-565e-e3aa6fc289d3%26type%3DSERVICE%26generateFrom%3Dwfs%26wfsid%3D503/distribution>
+    dcterms:description "Wohnmobilstellplätze - Download von Vektordaten (wfs-basiert) über INSPIRE ATOM Feed" ;
+    dcterms:issued "2019-09-04T09:59:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Download (INSPIRE)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoportal.rlp.de/mapbender/plugins/mb_downloadFeedClient.php?url=https%3A%2F%2Fwww.geoportal.rlp.de%2Fmapbender%2Fphp%2Fmod_inspireDownloadFeed.php%3Fid%3D8c283012-8ea6-a243-565e-e3aa6fc289d3%26type%3DSERVICE%26generateFrom%3Dwfs%26wfsid%3D503> ;
+    dcat:downloadURL <https://www.geoportal.rlp.de/mapbender/plugins/mb_downloadFeedClient.php?url=https%3A%2F%2Fwww.geoportal.rlp.de%2Fmapbender%2Fphp%2Fmod_inspireDownloadFeed.php%3Fid%3D8c283012-8ea6-a243-565e-e3aa6fc289d3%26type%3DSERVICE%26generateFrom%3Dwfs%26wfsid%3D503> .
+
+<https://www.geoportal.rlp.de/mapbender/plugins/mb_downloadFeedClient.php?url=https%3A%2F%2Fwww.geoportal.rlp.de%2Fmapbender%2Fphp%2Fmod_inspireDownloadFeed.php%3Fid%3D8c283012-8ea6-a243-565e-e3aa6fc289d3%26type%3DSERVICE%26generateFrom%3Dwfs%26wfsid%3D505/distribution>
+    dcterms:description "Wohnmobilstellplätze - Download von Vektordaten (wfs-basiert) über INSPIRE ATOM Feed" ;
+    dcterms:issued "2019-09-04T09:59:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Download (INSPIRE)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoportal.rlp.de/mapbender/plugins/mb_downloadFeedClient.php?url=https%3A%2F%2Fwww.geoportal.rlp.de%2Fmapbender%2Fphp%2Fmod_inspireDownloadFeed.php%3Fid%3D8c283012-8ea6-a243-565e-e3aa6fc289d3%26type%3DSERVICE%26generateFrom%3Dwfs%26wfsid%3D505> ;
+    dcat:downloadURL <https://www.geoportal.rlp.de/mapbender/plugins/mb_downloadFeedClient.php?url=https%3A%2F%2Fwww.geoportal.rlp.de%2Fmapbender%2Fphp%2Fmod_inspireDownloadFeed.php%3Fid%3D8c283012-8ea6-a243-565e-e3aa6fc289d3%26type%3DSERVICE%26generateFrom%3Dwfs%26wfsid%3D505> .
+
+<https://www.geoportal.rlp.de/portal/karten.html?LAYER[zoom]=1&LAYER[id]=67904/distribution>
+    dcterms:description "Ebene: Wohnmobilstellplätze Trier - Anzeige im GeoPortal.rlp" ;
+    dcterms:issued "2019-09-04T10:02:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "GeoPortal.rlp"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoportal.rlp.de/portal/karten.html?LAYER[zoom]=1&LAYER[id]=67904> ;
+    dcat:downloadURL <https://www.geoportal.rlp.de/portal/karten.html?LAYER[zoom]=1&LAYER[id]=67904> .
+
+<https://www.geoportal.rlp.de/portal/karten.html?LAYER[zoom]=1&LAYER[id]=67940/distribution>
+    dcterms:description "Ebene: Wohnmobilstellplätze Trier - Anzeige im GeoPortal.rlp" ;
+    dcterms:issued "2019-09-04T10:02:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "GeoPortal.rlp"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoportal.rlp.de/portal/karten.html?LAYER[zoom]=1&LAYER[id]=67940> ;
+    dcat:downloadURL <https://www.geoportal.rlp.de/portal/karten.html?LAYER[zoom]=1&LAYER[id]=67940> .
+
+<https://www.geoportal.rlp.de/spatial-objects/503/collections/ms:wohnmobilstellplatz/distribution>
+    dcterms:description "Wohnmobilstellplätze - Zugriff auf Daten über LinkedOpenData REST API (OGC API Features)" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/REST> ;
+    dcterms:issued "2019-09-04T09:59:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Linked Open Data API (OGC API Features)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoportal.rlp.de/spatial-objects/503/collections/ms:wohnmobilstellplatz> ;
+    dcat:downloadURL <https://www.geoportal.rlp.de/spatial-objects/503/collections/ms:wohnmobilstellplatz> .
+
+<https://www.geoportal.rlp.de/spatial-objects/505/collections/ms:wohnmobilstellplatz/distribution>
+    dcterms:description "Wohnmobilstellplätze - Zugriff auf Daten über LinkedOpenData REST API (OGC API Features)" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/REST> ;
+    dcterms:issued "2019-09-04T09:59:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Linked Open Data API (OGC API Features)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoportal.rlp.de/spatial-objects/505/collections/ms:wohnmobilstellplatz> ;
+    dcat:downloadURL <https://www.geoportal.rlp.de/spatial-objects/505/collections/ms:wohnmobilstellplatz> .
+

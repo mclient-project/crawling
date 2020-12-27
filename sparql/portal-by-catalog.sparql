@@ -1,0 +1,11 @@
+PREFIX eg: <http://www.example.org/>
+
+SELECT DISTINCT ?url ?label
+
+WHERE {
+
+	?portal eg:dcatApApi ?url ;
+		rdfs:label ?label ;
+		eg:crawl ?crawl .
+	FILTER (?crawl = "2")
+}

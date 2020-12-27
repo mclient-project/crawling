@@ -1,0 +1,1236 @@
+@prefix eg:    <http://www.example.org/> .
+@prefix ns:    <http://aksw.org/mclient/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://aksw.org/mclient/govdata%20-%20Datenportal%20f%C3%BCr%20Deutschland>
+        rdfs:comment    "FIXED\n- wrong url initially, changed to https://ckan.govdata.de\nTO FIX\n- some ds are not found -> does exception stop execution?\n- dist URLs can not be generated due to missing names ..." ;
+        rdfs:label      "govdata - Datenportal für Deutschland" ;
+        eg:accountable  "Christian Horn" ;
+        eg:crawl        "4" ;
+        eg:dcatApApi    <https://ckan.govdata.de/catalog.rdf> ;
+        eg:email        "info@govdata.de" ;
+        eg:nuts         "DE" ;
+        eg:openApi      "1" ;
+        eg:technology   "CKAN+Liferay" ;
+        eg:type         "country+other" ;
+        eg:url          "https://ckan.govdata.de " .
+
+<http://aksw.org/mclient/Baustelleninformationssystem%20des%20Bundes%20und%20der%20L%C3%A4nder>
+        rdfs:comment    "" ;
+        rdfs:label      "Baustelleninformationssystem des Bundes und der Länder" ;
+        eg:accountable  "Dr. Lutz Rittershaus" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "mdm@bast.de" ;
+        eg:nuts         "" ;
+        eg:openApi      "0" ;
+        eg:technology   "Website" ;
+        eg:type         "other" ;
+        eg:url          "https://www.bast.de/BASt_2017/DE/Fahrzeugtechnik/Fachthemen/Baustelleninformation/baustelleninformation.html" .
+
+<http://aksw.org/mclient/Bundesamt%20f%C3%BCr%20Kartographie%20und%20Geod%C3%A4sie>
+        rdfs:comment    "" ;
+        rdfs:label      "Bundesamt für Kartographie und Geodäsie" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "" ;
+        eg:openApi      "0" ;
+        eg:technology   "Website" ;
+        eg:type         "other" ;
+        eg:url          "http://www.geodatenzentrum.de/geodaten/gdz_rahmen.gdz_div?gdz_spr=deu&gdz_akt_zeile=5&gdz_anz_zeile=0&gdz_user_id=0" .
+
+<http://aksw.org/mclient/Bundesministerium%20f%C3%BCr%20Verkehr%20und%20digitale%20Infrastruktur%20%28BMVI%29%20-%20mCLOUD>
+        rdfs:comment    "" ;
+        rdfs:label      "Bundesministerium für Verkehr und digitale Infrastruktur (BMVI) - mCLOUD" ;
+        eg:accountable  "Dr. Roland Goetzke" ;
+        eg:crawl        "4" ;
+        eg:dcatApApi    <https://www.mcloud.de/export/datasets?page=1&pageSize=10000> ;
+        eg:email        "mcloud@bmvi.bund.de" ;
+        eg:nuts         "" ;
+        eg:openApi      "1" ;
+        eg:technology   "InGRID" ;
+        eg:type         "supreme" ;
+        eg:url          "https://www.mcloud.de/" .
+
+<http://aksw.org/mclient/Deutsche%20Bahn>
+        rdfs:comment    "FIXED: parse URLs!!! (landingPages, accessURLs" ;
+        rdfs:label      "Deutsche Bahn" ;
+        eg:accountable  "" ;
+        eg:crawl        "1" ;
+        eg:dcatApApi    false ;
+        eg:email        "DBOpenData@deutschebahn.com" ;
+        eg:nuts         "" ;
+        eg:openApi      "1" ;
+        eg:technology   "CKAN" ;
+        eg:type         "other" ;
+        eg:url          "http://data.deutschebahn.com/" .
+
+<http://aksw.org/mclient/Deutscher%20Wetterdienst>
+        rdfs:comment    "" ;
+        rdfs:label      "Deutscher Wetterdienst" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "" ;
+        eg:openApi      "0" ;
+        eg:technology   "Website" ;
+        eg:type         "other" ;
+        eg:url          "https://opendata.dwd.de/" .
+
+<http://aksw.org/mclient/Geobasisdaten%20und%20Geodatendienste%20der%20Vermessungsverwaltung%20Baden-W%C3%BCrttemberg>
+        rdfs:comment    "" ;
+        rdfs:label      "Geobasisdaten und Geodatendienste der Vermessungsverwaltung Baden-Württemberg" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "geodaten@lgl.bwl.de" ;
+        eg:nuts         "" ;
+        eg:openApi      "0" ;
+        eg:technology   "Website" ;
+        eg:type         "other" ;
+        eg:url          "https://www.lgl-bw.de/lgl-internet/opencms/de/07_Produkte_und_Dienstleistungen/Open_Data_Initiative/" .
+
+<http://aksw.org/mclient/OffeneDaten.de>  rdfs:comment  "HTTP 504 Error" ;
+        rdfs:label      "OffeneDaten.de" ;
+        eg:accountable  "" ;
+        eg:crawl        "" ;
+        eg:dcatApApi    false ;
+        eg:email        "info@okfn.de" ;
+        eg:nuts         "" ;
+        eg:openApi      "" ;
+        eg:technology   "CKAN" ;
+        eg:type         "other" ;
+        eg:url          "https://offenedaten.de/" .
+
+<http://aksw.org/mclient/Metropole%20Ruhr>
+        rdfs:comment    "FIXED: parse URLs!!! (landingPages, accessURLs" ;
+        rdfs:label      "Metropole Ruhr" ;
+        eg:accountable  "Lea Pauly" ;
+        eg:crawl        "2" ;
+        eg:dcatApApi    <https://opendata.ruhr/catalog.rdf> ;
+        eg:email        "opendata@rvr.ruhr" ;
+        eg:nuts         "" ;
+        eg:openApi      "1" ;
+        eg:technology   "CKAN" ;
+        eg:type         "other" ;
+        eg:url          "https://opendata.ruhr/" .
+
+<http://aksw.org/mclient/Baden-W%C3%BCrttemberg>
+        rdfs:comment    "" ;
+        rdfs:label      "Baden-Württemberg" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "DE1" ;
+        eg:openApi      "" ;
+        eg:technology   "" ;
+        eg:type         "state" ;
+        eg:url          "http://opendata.service-bw.de" .
+
+<http://aksw.org/mclient/Karlsruhe>  rdfs:comment  "FIXED: parse URLs!!! (landingPages, accessURLs" ;
+        rdfs:label      "Karlsruhe" ;
+        eg:accountable  "Sven Klenert" ;
+        eg:crawl        "1" ;
+        eg:dcatApApi    false ;
+        eg:email        "transparenz@karlsruhe.de" ;
+        eg:nuts         "DE122" ;
+        eg:openApi      "1" ;
+        eg:technology   "CKAN" ;
+        eg:type         "city" ;
+        eg:url          "https://transparenz.karlsruhe.de/" .
+
+<http://aksw.org/mclient/Mannheim>  rdfs:comment  "" ;
+        rdfs:label      "Mannheim" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "opendata@mannheim.de" ;
+        eg:nuts         "DE126" ;
+        eg:openApi      "1" ;
+        eg:technology   "OpenDataSoft" ;
+        eg:type         "city" ;
+        eg:url          "https://opendata.mannheim.de/" .
+
+<http://aksw.org/mclient/Freiburg%20im%20Breisgau>
+        rdfs:comment    "" ;
+        rdfs:label      "Freiburg im Breisgau" ;
+        eg:accountable  "Thomas Willmann" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "thomas.willmann@stadt.freiburg.de" ;
+        eg:nuts         "DE131" ;
+        eg:openApi      "1" ;
+        eg:technology   "Website" ;
+        eg:type         "city" ;
+        eg:url          "http://opendata.freiburg.de" .
+
+<http://aksw.org/mclient/Ortenaukreis>  rdfs:comment  "" ;
+        rdfs:label      "Ortenaukreis" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "DE134" ;
+        eg:openApi      "0" ;
+        eg:technology   "Website" ;
+        eg:type         "district" ;
+        eg:url          "http://www.ortenaukreis.de/Online-Dienste/Open-Data" .
+
+<http://aksw.org/mclient/Ulm>  rdfs:comment    "" ;
+        rdfs:label      "Ulm" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "DE144" ;
+        eg:openApi      "0" ;
+        eg:technology   "Website" ;
+        eg:type         "city" ;
+        eg:url          "http://daten.ulm.de/" .
+
+<http://aksw.org/mclient/Bayern>  rdfs:comment  "Access Forbidden (without API key).\nDer wird aber auch nicht herausgegeben https://opendata.bayern.de/ckan-api?4" ;
+        rdfs:label      "Bayern" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "poststelle@stmflh.bayern.de" ;
+        eg:nuts         "DE2" ;
+        eg:openApi      "0" ;
+        eg:technology   "CKAN" ;
+        eg:type         "state" ;
+        eg:url          "http://www.opendata.bayern.de/" .
+
+<http://aksw.org/mclient/M%C3%BCnchen>
+        rdfs:comment    "" ;
+        rdfs:label      "München" ;
+        eg:accountable  "" ;
+        eg:crawl        "1" ;
+        eg:dcatApApi    false ;
+        eg:email        "data.opengov@muenchen.de" ;
+        eg:nuts         "DE212" ;
+        eg:openApi      "1" ;
+        eg:technology   "CKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://www.opengov-muenchen.de" .
+
+<http://aksw.org/mclient/Berlin>  rdfs:comment  "FIXED: url, changed to https://datenregister.berlin.de, now correct\nFIXED: parse URLs!!! (landingPages, accessURLs" ;
+        rdfs:label      "Berlin" ;
+        eg:accountable  "" ;
+        eg:crawl        "1" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "DE3" ;
+        eg:openApi      "1" ;
+        eg:technology   "CKAN" ;
+        eg:type         "city+state" ;
+        eg:url          "https://datenregister.berlin.de " .
+
+<http://aksw.org/mclient/Potsdam>  rdfs:comment  "" ;
+        rdfs:label      "Potsdam" ;
+        eg:accountable  "Stefanie Buchta" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "opendata@rathaus.potsdam.de" ;
+        eg:nuts         "DE404" ;
+        eg:openApi      "1" ;
+        eg:technology   "OpenDataSoft" ;
+        eg:type         "city" ;
+        eg:url          "https://opendata.potsdam.de/" .
+
+<http://aksw.org/mclient/Freie%20Hansestadt%20Bremen>
+        rdfs:comment    "" ;
+        rdfs:label      "Freie Hansestadt Bremen" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "transparenz@finanzen.bremen.de" ;
+        eg:nuts         "DE5" ;
+        eg:openApi      "0" ;
+        eg:technology   "Website" ;
+        eg:type         "state" ;
+        eg:url          "http://daten.bremen.de/" .
+
+<http://aksw.org/mclient/Hamburg>  rdfs:comment  "FIXED: url, changed to https://suche.transparenz.hamburg.de\nTO FIX: java.lang.RuntimeException: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was STRING at line 1 column 1 path $" ;
+        rdfs:label      "Hamburg" ;
+        eg:accountable  "Dominik Panić (Fachliche Leitstelle Transparenzportal)" ;
+        eg:crawl        "2" ;
+        eg:dcatApApi    <http://suche.transparenz.hamburg.de/catalog.xml> ;
+        eg:email        "transparenzportal@bkm.hamburg.de" ;
+        eg:nuts         "DE6" ;
+        eg:openApi      "1" ;
+        eg:technology   "CKAN" ;
+        eg:type         "city+state" ;
+        eg:url          "https://suche.transparenz.hamburg.de" .
+
+<http://aksw.org/mclient/Frankfurt%20am%20Main>
+        rdfs:comment    "TO FIX: parse URLs!!! (landingPages, accessURLs" ;
+        rdfs:label      "Frankfurt am Main" ;
+        eg:accountable  "Michael Leist" ;
+        eg:crawl        "1" ;
+        eg:dcatApApi    false ;
+        eg:email        "offene.daten@stadt-frankfurt.de" ;
+        eg:nuts         "DE712" ;
+        eg:openApi      "1" ;
+        eg:technology   "CKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.frankfurt.de/" .
+
+<http://aksw.org/mclient/Neubrandenburg>  rdfs:comment  "Portal cannot be reached" ;
+        rdfs:label      "Neubrandenburg" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "DE802" ;
+        eg:openApi      "" ;
+        eg:technology   "" ;
+        eg:type         "city" ;
+        eg:url          "http://www.neubrandenburg.de/opendata/" .
+
+<http://aksw.org/mclient/Rostock>  rdfs:comment  "" ;
+        rdfs:label      "Rostock" ;
+        eg:accountable  "" ;
+        eg:crawl        "2" ;
+        eg:dcatApApi    <https://www.opendata-hro.de/catalog.xml> ;
+        eg:email        "opendata.hro@rostock.de" ;
+        eg:nuts         "DE803" ;
+        eg:openApi      "1" ;
+        eg:technology   "CKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://www.opendata-hro.de/" .
+
+<http://aksw.org/mclient/Braunschweig>  rdfs:comment  "" ;
+        rdfs:label      "Braunschweig" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "opengeodata@braunschweig.de" ;
+        eg:nuts         "DE911" ;
+        eg:openApi      "0" ;
+        eg:technology   "Website" ;
+        eg:type         "city" ;
+        eg:url          "http://www.braunschweig.de/leben/stadtplanung_bauen/geoinformationen/opengeodata.html" .
+
+<http://aksw.org/mclient/Wennigsen%20%28Deister%29>
+        rdfs:comment    "" ;
+        rdfs:label      "Wennigsen (Deister)" ;
+        eg:accountable  "Jens Spiwek" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "jens@spiwi.de" ;
+        eg:nuts         "DE929020" ;
+        eg:openApi      "0" ;
+        eg:technology   "Website" ;
+        eg:type         "city" ;
+        eg:url          "http://data.wennigsen.net/" .
+
+<http://aksw.org/mclient/Landkreis%20L%C3%BCneburg>
+        rdfs:comment    "" ;
+        rdfs:label      "Landkreis Lüneburg" ;
+        eg:accountable  "Hendrik Lampe" ;
+        eg:crawl        "1" ;
+        eg:dcatApApi    false ;
+        eg:email        "opendata@lklg.de" ;
+        eg:nuts         "DE935" ;
+        eg:openApi      "1" ;
+        eg:technology   "CKAN" ;
+        eg:type         "district" ;
+        eg:url          "https://open.lklg.net/" .
+
+<http://aksw.org/mclient/Nordrhein-Westfalen>
+        rdfs:comment    "" ;
+        rdfs:label      "Nordrhein-Westfalen" ;
+        eg:accountable  "Dr. Björn Fleischer" ;
+        eg:crawl        "2" ;
+        eg:dcatApApi    <https://ckan.www.open.nrw.de/catalog.xml> ;
+        eg:email        "kontakt@open.nrw.de" ;
+        eg:nuts         "DEA" ;
+        eg:openApi      "1" ;
+        eg:technology   "Drupal" ;
+        eg:type         "state" ;
+        eg:url          "https://open.nrw/" .
+
+<http://aksw.org/mclient/Niederrhein%20%28Region%29>
+        rdfs:comment    "TO FIX: RuntimeException bei niederrhein-aptuell, surround with try catch? getDataset?" ;
+        rdfs:label      "Niederrhein (Region)" ;
+        eg:accountable  "" ;
+        eg:crawl        "2" ;
+        eg:dcatApApi    <https://www.offenesdatenportal.de/catalog.rdf> ;
+        eg:email        "info@krzn.de" ;
+        eg:nuts         "" ;
+        eg:openApi      "1" ;
+        eg:technology   "CKAN" ;
+        eg:type         "district" ;
+        eg:url          "http://offenesdatenportal.de/" .
+
+<http://aksw.org/mclient/D%C3%BCsseldorf>
+        rdfs:comment    "fixed (problems with accessURL and byteSize, see DkanClient.java, line 78-92" ;
+        rdfs:label      "Düsseldorf" ;
+        eg:accountable  "" ;
+        eg:crawl        "1" ;
+        eg:dcatApApi    <https://opendata.duesseldorf.de/catalog.xml> ;
+        eg:email        "opendata@duesseldorf.de" ;
+        eg:nuts         "DEA11" ;
+        eg:openApi      "1" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "https://opendata.duesseldorf.de/" .
+
+<http://aksw.org/mclient/Krefeld>  rdfs:comment  "URL already crawled " ;
+        rdfs:label      "Krefeld" ;
+        eg:accountable  "Florian Reykers" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "florian.reykers@krefeld.de" ;
+        eg:nuts         "DEA14" ;
+        eg:openApi      "" ;
+        eg:technology   "CKAN" ;
+        eg:type         "city" ;
+        eg:url          "https://www.offenesdatenportal.de/organization/krefeld" .
+
+<http://aksw.org/mclient/M%C3%B6nchengladbach>
+        rdfs:comment    "wrong URL" ;
+        rdfs:label      "Mönchengladbach" ;
+        eg:accountable  "" ;
+        eg:crawl        "0" ;
+        eg:dcatApApi    false ;
+        eg:email        "offenedaten@moenchengladbach.de" ;
+        eg:nuts         "DEA15" ;
+        eg:openApi      "" ;
+        eg:technology   "TYPO3" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.moenchengladbach.de/" .
+
+<http://aksw.org/mclient/Stadt%20M%C3%BClheim%20an%20der%20Ruhr>
+        rdfs:comment    "changed URL, now correct. No proper accessURLs provided" ;
+        rdfs:label      "Stadt Mülheim an der Ruhr" ;
+        eg:accountable  "" ;
+        eg:crawl        "1" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "DEA16" ;
+        eg:openApi      "1" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "https://geo.muelheim-ruhr.de" .
+
+<http://aksw.org/mclient/Wuppertal>  rdfs:comment  "fixed (problems with accessURL and byteSize, see DkanClient.java, line 78-92" ;
+        rdfs:label      "Wuppertal" ;
+        eg:accountable  "Dietmar Szlagowski" ;
+        eg:crawl        "2" ;
+        eg:dcatApApi    <https://www.offenedaten-wuppertal.de/catalog.xml> ;
+        eg:email        "offenedaten@stadt.wuppertal.de" ;
+        eg:nuts         "DEA1A" ;
+        eg:openApi      "1" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten-wuppertal.de/" .
+
+<http://aksw.org/mclient/Kreis%20Kleve>
+        rdfs:comment    "URL already crawled " ;
+        rdfs:label      "Kreis Kleve" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "DEA1B" ;
+        eg:openApi      "" ;
+        eg:technology   "CKAN" ;
+        eg:type         "district" ;
+        eg:url          "https://www.offenesdatenportal.de/organization/kreis-kleve" .
+
+<http://aksw.org/mclient/Kleve>  rdfs:comment  "URL already crawled " ;
+        rdfs:label      "Kleve" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "DEA1B036" ;
+        eg:openApi      "" ;
+        eg:technology   "CKAN" ;
+        eg:type         "city" ;
+        eg:url          "https://www.offenesdatenportal.de/organization/stadt-kleve" .
+
+<http://aksw.org/mclient/Wachtendonk>  rdfs:comment  "URL already crawled " ;
+        rdfs:label      "Wachtendonk" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "DEA1B060" ;
+        eg:openApi      "" ;
+        eg:technology   "CKAN" ;
+        eg:type         "city" ;
+        eg:url          "https://www.offenesdatenportal.de/organization/gemeinde-wachtendonk" .
+
+<http://aksw.org/mclient/Dormagen>  rdfs:comment  "" ;
+        rdfs:label      "Dormagen" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "opendata@stadt-dormagen.de" ;
+        eg:nuts         "DEA1D004" ;
+        eg:openApi      "1" ;
+        eg:technology   "OpenDataSoft" ;
+        eg:type         "city" ;
+        eg:url          "https://opendata.dormagen.de" .
+
+<http://aksw.org/mclient/Meerbusch>  rdfs:comment  "" ;
+        rdfs:label      "Meerbusch" ;
+        eg:accountable  "" ;
+        eg:crawl        "1" ;
+        eg:dcatApApi    false ;
+        eg:email        "opendata@meerbusch.de" ;
+        eg:nuts         "DEA1D022" ;
+        eg:openApi      "1" ;
+        eg:technology   "CKAN" ;
+        eg:type         "city" ;
+        eg:url          "https://opendata.meerbusch.de/" .
+
+<http://aksw.org/mclient/Kreis%20Viersen>
+        rdfs:comment    "URL already crawled " ;
+        rdfs:label      "Kreis Viersen" ;
+        eg:accountable  "Michael Stein" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "michael.stein@kreis-viersen.de" ;
+        eg:nuts         "DEA1E" ;
+        eg:openApi      "" ;
+        eg:technology   "CKAN" ;
+        eg:type         "district" ;
+        eg:url          "https://www.offenesdatenportal.de/organization/kreis-viersen" .
+
+<http://aksw.org/mclient/Moers>  rdfs:comment  "URL already crawled " ;
+        rdfs:label      "Moers" ;
+        eg:accountable  "Stephan Bernoth und Thorsten Magerstedt" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "offenedaten@moers.de" ;
+        eg:nuts         "DEA1F024" ;
+        eg:openApi      "" ;
+        eg:technology   "CKAN" ;
+        eg:type         "city" ;
+        eg:url          "https://www.offenesdatenportal.de/organization/moers" .
+
+<http://aksw.org/mclient/Wesel>  rdfs:comment  "URL already crawled " ;
+        rdfs:label      "Wesel" ;
+        eg:accountable  "Herr Scholten und Herr Bohm" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "informationstechnik@wesel.de" ;
+        eg:nuts         "DEA1F048" ;
+        eg:openApi      "" ;
+        eg:technology   "CKAN" ;
+        eg:type         "city" ;
+        eg:url          "https://www.offenesdatenportal.de/organization/stadt-wesel" .
+
+<http://aksw.org/mclient/Bonn>  rdfs:comment   "Datasets cannot be accessed with client" ;
+        rdfs:label      "Bonn" ;
+        eg:accountable  "Sven Hense" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "opendata@bonn.de" ;
+        eg:nuts         "DEA22" ;
+        eg:openApi      "1" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://opendata.bonn.de/" .
+
+<http://aksw.org/mclient/K%C3%B6ln>
+        rdfs:comment    "" ;
+        rdfs:label      "Köln" ;
+        eg:accountable  "Sabine Möwes" ;
+        eg:crawl        "2" ;
+        eg:dcatApApi    <https://offenedaten-koeln.de/catalog.xml> ;
+        eg:email        "I/D2-Poststelle@stadt-koeln.de" ;
+        eg:nuts         "DEA23" ;
+        eg:openApi      "1" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten-koeln.de/" .
+
+<http://aksw.org/mclient/Rhein%20Erft%20Rur%20>
+        rdfs:comment    "" ;
+        rdfs:label      "Rhein Erft Rur " ;
+        eg:accountable  "" ;
+        eg:crawl        "1" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "" ;
+        eg:openApi      "1" ;
+        eg:technology   "DKAN" ;
+        eg:type         "district" ;
+        eg:url          "http://offenedaten.kdvz-frechen.de" .
+
+<http://aksw.org/mclient/Heimbach%20%28Eifel%29>
+        rdfs:comment    "URL already crawled " ;
+        rdfs:label      "Heimbach (Eifel)" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "offene-daten@kdvz-frechen.de" ;
+        eg:nuts         "DEA26012" ;
+        eg:openApi      "" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.kdvz-frechen.de/group/heimbach" .
+
+<http://aksw.org/mclient/H%C3%BCrtgenwald>
+        rdfs:comment    "URL already crawled " ;
+        rdfs:label      "Hürtgenwald" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "offene-daten@kdvz-frechen.de" ;
+        eg:nuts         "DEA26016" ;
+        eg:openApi      "" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.kdvz-frechen.de/group/h%C3%BCrtgenwald" .
+
+<http://aksw.org/mclient/J%C3%BClich>
+        rdfs:comment    "URL already crawled " ;
+        rdfs:label      "Jülich" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "offene-daten@kdvz-frechen.de" ;
+        eg:nuts         "DEA26024" ;
+        eg:openApi      "" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.kdvz-frechen.de/group/j%C3%BClich" .
+
+<http://aksw.org/mclient/Kreuzau>  rdfs:comment  "URL already crawled " ;
+        rdfs:label      "Kreuzau" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "offene-daten@kdvz-frechen.de" ;
+        eg:nuts         "DEA26028" ;
+        eg:openApi      "" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.kdvz-frechen.de/group/kreuzau" .
+
+<http://aksw.org/mclient/Langerwehe>  rdfs:comment  "URL already crawled " ;
+        rdfs:label      "Langerwehe" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "offene-daten@kdvz-frechen.de" ;
+        eg:nuts         "DEA26032" ;
+        eg:openApi      "" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.kdvz-frechen.de/group/langerwehe" .
+
+<http://aksw.org/mclient/Linnich>  rdfs:comment  "URL already crawled " ;
+        rdfs:label      "Linnich" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "offene-daten@kdvz-frechen.de" ;
+        eg:nuts         "DEA26036" ;
+        eg:openApi      "" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.kdvz-frechen.de/group/linnich" .
+
+<http://aksw.org/mclient/Merzenich>  rdfs:comment  "URL already crawled " ;
+        rdfs:label      "Merzenich" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "offene-daten@kdvz-frechen.de" ;
+        eg:nuts         "DEA26040" ;
+        eg:openApi      "" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.kdvz-frechen.de/group/merzenich" .
+
+<http://aksw.org/mclient/Titz>  rdfs:comment   "URL already crawled " ;
+        rdfs:label      "Titz" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "offene-daten@kdvz-frechen.de" ;
+        eg:nuts         "DEA26056" ;
+        eg:openApi      "" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.kdvz-frechen.de/group/titz" .
+
+<http://aksw.org/mclient/Vettwei%C3%9F>
+        rdfs:comment    "URL already crawled " ;
+        rdfs:label      "Vettweiß" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "offene-daten@kdvz-frechen.de" ;
+        eg:nuts         "DEA26060" ;
+        eg:openApi      "" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.kdvz-frechen.de/group/vettwei%C3%9F" .
+
+<http://aksw.org/mclient/Bedburg>  rdfs:comment  "URL already crawled " ;
+        rdfs:label      "Bedburg" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "offene-daten@kdvz-frechen.de" ;
+        eg:nuts         "DEA27004" ;
+        eg:openApi      "" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.kdvz-frechen.de/group/bedburg" .
+
+<http://aksw.org/mclient/Bergheim>  rdfs:comment  "URL already crawled " ;
+        rdfs:label      "Bergheim" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "offene-daten@kdvz-frechen.de" ;
+        eg:nuts         "DEA27008" ;
+        eg:openApi      "" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.kdvz-frechen.de/group/bergheim" .
+
+<http://aksw.org/mclient/Br%C3%BChl%20%28Rheinland%29>
+        rdfs:comment    "URL already crawled " ;
+        rdfs:label      "Brühl (Rheinland)" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "offene-daten@kdvz-frechen.de" ;
+        eg:nuts         "DEA27012" ;
+        eg:openApi      "" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.kdvz-frechen.de/group/br%C3%BChl" .
+
+<http://aksw.org/mclient/Elsdorf%20%28Rheinland%29>
+        rdfs:comment    "URL already crawled " ;
+        rdfs:label      "Elsdorf (Rheinland)" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "offene-daten@kdvz-frechen.de" ;
+        eg:nuts         "DEA27016" ;
+        eg:openApi      "" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.kdvz-frechen.de/group/elsdorf" .
+
+<http://aksw.org/mclient/Kerpen>  rdfs:comment  "URL already crawled " ;
+        rdfs:label      "Kerpen" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "offene-daten@kdvz-frechen.de" ;
+        eg:nuts         "DEA27032" ;
+        eg:openApi      "" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.kdvz-frechen.de/group/kerpen" .
+
+<http://aksw.org/mclient/Wesseling>  rdfs:comment  "URL already crawled " ;
+        rdfs:label      "Wesseling" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "offene-daten@kdvz-frechen.de" ;
+        eg:nuts         "DEA27040" ;
+        eg:openApi      "" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.kdvz-frechen.de/group/wesseling" .
+
+<http://aksw.org/mclient/Kreis%20Euskirchen>
+        rdfs:comment    "URL already crawled " ;
+        rdfs:label      "Kreis Euskirchen" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "offene-daten@kdvz-frechen.de" ;
+        eg:nuts         "DEA28" ;
+        eg:openApi      "" ;
+        eg:technology   "DKAN" ;
+        eg:type         "district" ;
+        eg:url          "http://offenedaten.kdvz-frechen.de/group/kreis-euskirchen" .
+
+<http://aksw.org/mclient/Bad%20M%C3%BCnstereifel>
+        rdfs:comment    "URL already crawled " ;
+        rdfs:label      "Bad Münstereifel" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "offene-daten@kdvz-frechen.de" ;
+        eg:nuts         "DEA28004" ;
+        eg:openApi      "" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.kdvz-frechen.de/group/bad-m%C3%BCnstereifel" .
+
+<http://aksw.org/mclient/Kall>  rdfs:comment   "URL already crawled " ;
+        rdfs:label      "Kall" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "offene-daten@kdvz-frechen.de" ;
+        eg:nuts         "DEA28024" ;
+        eg:openApi      "" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.kdvz-frechen.de/group/kall" .
+
+<http://aksw.org/mclient/Aachen>  rdfs:comment  "FIXED: parse URLs!!! (landingPages, accessURLs" ;
+        rdfs:label      "Aachen" ;
+        eg:accountable  "" ;
+        eg:crawl        "1" ;
+        eg:dcatApApi    false ;
+        eg:email        "offenedaten@mail.aachen.de" ;
+        eg:nuts         "DEA2D002" ;
+        eg:openApi      "1" ;
+        eg:technology   "CKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.aachen.de/" .
+
+<http://aksw.org/mclient/Gelsenkirchen>  rdfs:comment  "FIXED (problems with string \"Veröffentlicht\" in boolean dataset attribute \"private\")" ;
+        rdfs:label      "Gelsenkirchen" ;
+        eg:accountable  "Ulrike Karn und Manfred vom Sondern" ;
+        eg:crawl        "1" ;
+        eg:dcatApApi    false ;
+        eg:email        "ulrike.karn@gelsenkirchen.de" ;
+        eg:nuts         "DEA32" ;
+        eg:openApi      "1" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "https://opendata.gelsenkirchen.de/" .
+
+<http://aksw.org/mclient/M%C3%BCnster%20%28Westfalen%29>
+        rdfs:comment    "" ;
+        rdfs:label      "Münster (Westfalen)" ;
+        eg:accountable  "Thomas Werner" ;
+        eg:crawl        "2" ;
+        eg:dcatApApi    <https://opendata.stadt-muenster.de/catalog.xml> ;
+        eg:email        "opendata@citeq.de" ;
+        eg:nuts         "DEA33" ;
+        eg:openApi      "1" ;
+        eg:technology   "Drupal" ;
+        eg:type         "city" ;
+        eg:url          "https://opendata.stadt-muenster.de/" .
+
+<http://aksw.org/mclient/Bochum>  rdfs:comment  "" ;
+        rdfs:label      "Bochum" ;
+        eg:accountable  "Frau auf'm Kamp und Frau Hartweg und Frau Vidakovic" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "info@bochum.de" ;
+        eg:nuts         "DEA51" ;
+        eg:openApi      "0" ;
+        eg:technology   "Website" ;
+        eg:type         "city" ;
+        eg:url          "http://www.bochum.de/opendata" .
+
+<http://aksw.org/mclient/Herne>  rdfs:comment  "" ;
+        rdfs:label      "Herne" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "opendata@herne.de" ;
+        eg:nuts         "DEA55" ;
+        eg:openApi      "0" ;
+        eg:technology   "Website" ;
+        eg:type         "city" ;
+        eg:url          "https://www.herne.de/Stadt-und-Leben/Stadtfakten/Open-Data/" .
+
+<http://aksw.org/mclient/Arnsberg>  rdfs:comment  "" ;
+        rdfs:label      "Arnsberg" ;
+        eg:accountable  "Elmar Kettler" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "pressestelle.kettler@arnsberg.de" ;
+        eg:nuts         "DEA57004" ;
+        eg:openApi      "0" ;
+        eg:technology   "Website" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.arnsberg.de" .
+
+<http://aksw.org/mclient/Rheinland-Pfalz>  rdfs:comment  "" ;
+        rdfs:label      "Rheinland-Pfalz" ;
+        eg:accountable  "Aylin Akça" ;
+        eg:crawl        "2" ;
+        eg:dcatApApi    <https://daten.rlp.de/catalog.xml> ;
+        eg:email        "referat391@mdi.rlp.de" ;
+        eg:nuts         "DEB" ;
+        eg:openApi      "1" ;
+        eg:technology   "CKAN" ;
+        eg:type         "state" ;
+        eg:url          "http://daten.rlp.de/" .
+
+<http://aksw.org/mclient/Sachsen>  rdfs:comment  "" ;
+        rdfs:label      "Sachsen" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "opendata@sid.sachsen.de" ;
+        eg:nuts         "DED" ;
+        eg:openApi      "0" ;
+        eg:technology   "Website" ;
+        eg:type         "state" ;
+        eg:url          "http://www.opendata.sachsen.de/" .
+
+<http://aksw.org/mclient/Chemnitz>  rdfs:comment  "" ;
+        rdfs:label      "Chemnitz" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "DED41" ;
+        eg:openApi      "0" ;
+        eg:technology   "ArcGIS" ;
+        eg:type         "city" ;
+        eg:url          "http://portal-chemnitz.opendata.arcgis.com/" .
+
+<http://aksw.org/mclient/Leipzig>  rdfs:comment  "FIXED: parse URLs!!! (landingPages, accessURLs" ;
+        rdfs:label      "Leipzig" ;
+        eg:accountable  "" ;
+        eg:crawl        "1" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "DED51" ;
+        eg:openApi      "1" ;
+        eg:technology   "CKAN" ;
+        eg:type         "city" ;
+        eg:url          "https://opendata.leipzig.de" .
+
+<http://aksw.org/mclient/Halle%20%28Saale%29>
+        rdfs:comment    "" ;
+        rdfs:label      "Halle (Saale)" ;
+        eg:accountable  "" ;
+        eg:crawl        "" ;
+        eg:dcatApApi    false ;
+        eg:email        "opendata@halle.de" ;
+        eg:nuts         "DEE02" ;
+        eg:openApi      "0" ;
+        eg:technology   "Website" ;
+        eg:type         "city" ;
+        eg:url          "http://opendata.halle.de" .
+
+<http://aksw.org/mclient/Jena>  rdfs:comment   "" ;
+        rdfs:label      "Jena" ;
+        eg:accountable  "" ;
+        eg:crawl        "1" ;
+        eg:dcatApApi    false ;
+        eg:email        "info@jena.de" ;
+        eg:nuts         "DEG03" ;
+        eg:openApi      "1" ;
+        eg:technology   "CKAN" ;
+        eg:type         "city" ;
+        eg:url          "https://opendata.jena.de/" .
+
+<http://aksw.org/mclient/Altenburg>  rdfs:comment  "" ;
+        rdfs:label      "Altenburg" ;
+        eg:accountable  "" ;
+        eg:crawl        "" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "DEG0M001" ;
+        eg:openApi      "0" ;
+        eg:technology   "Website" ;
+        eg:type         "city" ;
+        eg:url          "https://www.altenburg.eu/sixcms/detail.php?id=139875" .
+
+<http://aksw.org/mclient/Bielefeld>  rdfs:comment  "FIXED (different JSON response format), issue option --alt for dkan import" ;
+        rdfs:label      "Bielefeld" ;
+        eg:accountable  "" ;
+        eg:crawl        "4" ;
+        eg:dcatApApi    false ;
+        eg:email        "opendata@bielefeld.de" ;
+        eg:nuts         "DEA41" ;
+        eg:openApi      "1" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "https://open-data.bielefeld.de/" .
+
+<http://aksw.org/mclient/Siegburg>  rdfs:comment  "URL already crawled " ;
+        rdfs:label      "Siegburg" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "offene-daten@kdvz-frechen.de" ;
+        eg:nuts         "DEA2C060" ;
+        eg:openApi      "" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.kdvz-frechen.de/group/siegburg" .
+
+<http://aksw.org/mclient/Niederzier>  rdfs:comment  "URL already crawled " ;
+        rdfs:label      "Niederzier" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "offene-daten@kdvz-frechen.de" ;
+        eg:nuts         "DEA26048" ;
+        eg:openApi      "" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.kdvz-frechen.de/group/niederzier" .
+
+<http://aksw.org/mclient/N%C3%B6rvenich>
+        rdfs:comment    "URL already crawled " ;
+        rdfs:label      "Nörvenich" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "offene-daten@kdvz-frechen.de" ;
+        eg:nuts         "DEA26052" ;
+        eg:openApi      "" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "http://offenedaten.kdvz-frechen.de/group/n%C3%B6rvenich" .
+
+<http://aksw.org/mclient/Brandenburg>  rdfs:comment  "" ;
+        rdfs:label      "Brandenburg" ;
+        eg:accountable  "Frank Schiersner" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "frank.schiersner@mik.brandenburg.de" ;
+        eg:nuts         "" ;
+        eg:openApi      "" ;
+        eg:technology   "PKAN" ;
+        eg:type         "state" ;
+        eg:url          "https://datenadler.de/" .
+
+<http://aksw.org/mclient/OpenData-Plattform%20%C3%96PNV>
+        rdfs:comment    "" ;
+        rdfs:label      "OpenData-Plattform ÖPNV" ;
+        eg:accountable  "" ;
+        eg:crawl        "1" ;
+        eg:dcatApApi    false ;
+        eg:email        "opendata-oepnv@vrr.de" ;
+        eg:nuts         "" ;
+        eg:openApi      "1" ;
+        eg:technology   "CKAN" ;
+        eg:type         "other" ;
+        eg:url          "https://www.opendata-oepnv.de/" .
+
+<http://aksw.org/mclient/Kiel>  rdfs:comment   "URL already crawled" ;
+        rdfs:label      "Kiel" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "" ;
+        eg:openApi      "" ;
+        eg:technology   "CKAN" ;
+        eg:type         "city" ;
+        eg:url          "https://opendata.schleswig-holstein.de/organization/landeshauptstadt-kiel" .
+
+<http://aksw.org/mclient/Dortmund>  rdfs:comment  "" ;
+        rdfs:label      "Dortmund" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "opendata@dortmund.de" ;
+        eg:nuts         "" ;
+        eg:openApi      "0" ;
+        eg:technology   "Website" ;
+        eg:type         "city" ;
+        eg:url          "https://opendata.dortmund.de/" .
+
+<http://aksw.org/mclient/Esri%20Deutschland%20Open%20Data%20Portal>
+        rdfs:comment    "" ;
+        rdfs:label      "Esri Deutschland Open Data Portal" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "" ;
+        eg:openApi      "0" ;
+        eg:technology   "Website" ;
+        eg:type         "other" ;
+        eg:url          "https://opendata-esri-de.opendata.arcgis.com/" .
+
+<http://aksw.org/mclient/Magdeburg>  rdfs:comment  "" ;
+        rdfs:label      "Magdeburg" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "" ;
+        eg:openApi      "0" ;
+        eg:technology   "Website" ;
+        eg:type         "city" ;
+        eg:url          "https://www.magdeburg.de/Start/B%C3%BCrger-Stadt/Verwaltung-Service/Offene-Verwaltungsdaten" .
+
+<http://aksw.org/mclient/Mittenwalde>  rdfs:comment  "Seite down " ;
+        rdfs:label      "Mittenwalde" ;
+        eg:accountable  "" ;
+        eg:crawl        "0" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "" ;
+        eg:openApi      "" ;
+        eg:technology   "ArcGIS" ;
+        eg:type         "city" ;
+        eg:url          "http://stadt-mittenwalde.opendata.arcgis.com/" .
+
+<http://aksw.org/mclient/Duisburg>  rdfs:comment  "" ;
+        rdfs:label      "Duisburg" ;
+        eg:accountable  "" ;
+        eg:crawl        "2" ;
+        eg:dcatApApi    <https://opendata-duisburg.de/catalog.xml> ;
+        eg:email        "" ;
+        eg:nuts         "" ;
+        eg:openApi      "1" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "https://opendata-duisburg.de/" .
+
+<http://aksw.org/mclient/Landkreis%20Diepholz>
+        rdfs:comment    "Portal folgt nicht der offiziellen DKAN-Spezifikation!" ;
+        rdfs:label      "Landkreis Diepholz" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "" ;
+        eg:openApi      "" ;
+        eg:technology   "DKAN" ;
+        eg:type         "district" ;
+        eg:url          "https://daten.diepholz.de/" .
+
+<http://aksw.org/mclient/Schleswig-Holstein>
+        rdfs:comment    "TO FIX: RuntimeException bei niederrhein-aptuell, surround with try catch? getDataset?" ;
+        rdfs:label      "Schleswig-Holstein" ;
+        eg:accountable  "" ;
+        eg:crawl        "2" ;
+        eg:dcatApApi    <https://opendata.schleswig-holstein.de/catalog.xml> ;
+        eg:email        "opendata@lr.landsh.de" ;
+        eg:nuts         "" ;
+        eg:openApi      "1" ;
+        eg:technology   "CKAN" ;
+        eg:type         "state" ;
+        eg:url          "https://opendata.schleswig-holstein.de/" .
+
+<http://aksw.org/mclient/Nahverkehrsgesellschaft%20Baden-W%C3%BCrttemberg%20mbH>
+        rdfs:comment    "" ;
+        rdfs:label      "Nahverkehrsgesellschaft Baden-Württemberg mbH" ;
+        eg:accountable  "Dietmar Seifert" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "opendata@nvbw.de" ;
+        eg:nuts         "" ;
+        eg:openApi      "0" ;
+        eg:technology   "TYPO3" ;
+        eg:type         "other" ;
+        eg:url          "https://www.nvbw.de/aufgaben/digitale-mobilitaet/open-data/" .
+
+<http://aksw.org/mclient/Bundesamt%20f%C3%BCr%20Seeschifffahrt%20und%20Hydrographie>
+        rdfs:comment    "URL already crawled (abgedeckt über mCLOUD)" ;
+        rdfs:label      "Bundesamt für Seeschifffahrt und Hydrographie" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "" ;
+        eg:openApi      "" ;
+        eg:technology   "" ;
+        eg:type         "other" ;
+        eg:url          "https://www.mcloud.de/web/guest/suche/-/results/searchAgg?_mcloudsearchportlet_aggsChoice=extras.displayContact.name.raw%3A%22Bundesamt+f%C3%BCr+Seeschifffahrt+und+Hydrographie+(BSH)%22" .
+
+<http://aksw.org/mclient/Rhein-Kreis%20Neuss>
+        rdfs:comment    "" ;
+        rdfs:label      "Rhein-Kreis Neuss" ;
+        eg:accountable  "Tobias Schellhorn und Jürgen Brings" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "digitalisierung@rhein-kreis-neuss.de" ;
+        eg:nuts         "" ;
+        eg:openApi      "1" ;
+        eg:technology   "OpenDataSoft" ;
+        eg:type         "district" ;
+        eg:url          "http://opendata.rhein-kreis-neuss.de/" .
+
+<http://aksw.org/mclient/Norderstedt>  rdfs:comment  "URL already crawled " ;
+        rdfs:label      "Norderstedt" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "" ;
+        eg:openApi      "" ;
+        eg:technology   "CKAN" ;
+        eg:type         "city" ;
+        eg:url          "https://opendata.schleswig-holstein.de/organization/norderstedt" .
+
+<http://aksw.org/mclient/Dresden>  rdfs:comment  "" ;
+        rdfs:label      "Dresden" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "statistik@dresden.de" ;
+        eg:nuts         "" ;
+        eg:openApi      "0" ;
+        eg:technology   "DUVA" ;
+        eg:type         "city" ;
+        eg:url          "https://opendata.dresden.de" .
+
+<http://aksw.org/mclient/Hochsauerlandkreis>
+        rdfs:comment    "" ;
+        rdfs:label      "Hochsauerlandkreis" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "" ;
+        eg:openApi      "0" ;
+        eg:technology   "Website" ;
+        eg:type         "district" ;
+        eg:url          "http://www.hochsauerlandkreis.de/buergerservice/bauen_wohnen_kataster/geo_service/OpenData/" .
+
+<http://aksw.org/mclient/Kreis%20Soest>
+        rdfs:comment    "" ;
+        rdfs:label      "Kreis Soest" ;
+        eg:accountable  "" ;
+        eg:crawl        "3" ;
+        eg:dcatApApi    false ;
+        eg:email        "" ;
+        eg:nuts         "" ;
+        eg:openApi      "0" ;
+        eg:technology   "Website" ;
+        eg:type         "district" ;
+        eg:url          "https://www.kreis-soest.de/gis/start/opendata/opendata.php" .
+
+<http://aksw.org/mclient/Essen>  rdfs:comment  "" ;
+        rdfs:label      "Essen" ;
+        eg:accountable  "" ;
+        eg:crawl        "2" ;
+        eg:dcatApApi    <https://opendata.essen.de/catalog.xml> ;
+        eg:email        "opendata@essen.de" ;
+        eg:nuts         "" ;
+        eg:openApi      "1" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "https://opendata.essen.de/" .
+
+<http://aksw.org/mclient/Konstanz>  rdfs:comment  "" ;
+        rdfs:label      "Konstanz" ;
+        eg:accountable  "Eberhard Baier" ;
+        eg:crawl        "2" ;
+        eg:dcatApApi    <https://offenedaten-konstanz.de/catalog.xml> ;
+        eg:email        "offenedaten@konstanz.de" ;
+        eg:nuts         "DE138" ;
+        eg:openApi      "1" ;
+        eg:technology   "DKAN" ;
+        eg:type         "city" ;
+        eg:url          "https://offenedaten-konstanz.de/" .

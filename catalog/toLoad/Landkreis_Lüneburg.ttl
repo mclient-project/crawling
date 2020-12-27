@@ -416,11 +416,14 @@
 
 <http://mclient-project.github.io/catalog/Landkreis%20L%C3%BCneburg>
         a                  cat:Catalog ;
+        rdfs:comment       "" ;
         rdfs:label         "Landkreis Lüneburg" ;
         dcatx:accountable  "Hendrik Lampe" ;
+        dcatx:crawl        "1" ;
         dcatx:dcatApApi    false ;
         dcatx:email        "opendata@lklg.de" ;
         dcatx:nuts         "DE935" ;
+        dcatx:openApi      "1" ;
         dcatx:technology   "CKAN" ;
         dcatx:type         "district" ;
         dcatx:url          "https://open.lklg.net/" ;
@@ -841,7 +844,7 @@
         dcterms:description  "Folgende Attribute sind unter anderem enthalten: Schutzzone" ;
         dcterms:format       "WFS" ;
         dcterms:title        "WFS Wasserschutzgebiete" ;
-        cat:accessURL        <http://geo.lklg.net/wms_internet/Wasser?> .
+        cat:accessURL        <http://geo.lklg.net/wms_internet/Wasser%3F> .
 
 <https://open.lklg.net/distribution/Die+Wahlergebnisse+der+Samtgemeindewahl+2016+der+Samtgemeinde+Ilmenau>
         a                    cat:Distribution ;
@@ -887,7 +890,7 @@
         dcterms:description  "Folgende Attribute sind unter anderem ebenfalls enthalten: Amtlicher Gemeindeschlüssel, Größe in Quardratmetern" ;
         dcterms:format       "WFS" ;
         dcterms:title        "WFS Verwaltungsgrenzen" ;
-        cat:accessURL        <http://geo.lklg.net/wms_internet/Verwaltungsgrenzen?> .
+        cat:accessURL        <http://geo.lklg.net/wms_internet/Verwaltungsgrenzen%3F> .
 
 <https://open.lklg.net/distribution/Wahlergebnisse+Landtagsswahl+2008+Wahlkreis+48+Samtgemeinden>
         a                    cat:Distribution ;
@@ -1059,7 +1062,7 @@
         dcterms:description  "Bestimmte Teile von Natur und Landschaft, die eine besondere Bedeutung als Biotope haben, werden gesetzlich geschützt. Diese Biotope sind gemäß § 30 BNatSchG i.V.m. § 24 NAGBNatSchG gesetzlich geschützt; innerhalb des Biosphärenreservats (BSR) sind diese Biotope gemäß § 17 NElbtBRG i.V.m. § 30 BNatSchG und § 24 NAGBNatSchG gesetzlich geschützt." ;
         dcterms:format       "WFS" ;
         dcterms:title        "WFS Biotope" ;
-        cat:accessURL        <http://geo.lklg.net/wms_internet/Biotope?> .
+        cat:accessURL        <http://geo.lklg.net/wms_internet/Biotope%3F> .
 
 <https://open.lklg.net/distribution/Die+Wahlergebnisse+der+Gemeindewahl+2016+der+Gemeinde+Rullstorf>
         a                    cat:Distribution ;
@@ -1463,7 +1466,7 @@
         dcterms:description  "Die Naturschutzgebiete schützen besondere Lebensgemeinschaften, seltene Tiere und Pflanzen vor menschlichen Eingriffen. Hierzu können vielfältige Naturschutzmaßnahmen erforderlich sein, um Lebensräume und Arten zu sichern, zu erhalten und zu pflegen. Der Schutz von Pflanzen und Tieren ist hier wichtiger als andere Arten der Nutzung.Naturschutzgebiete werden durch eine Rechtsverordnung ausgewiesen. Ziele der Festlegung von Naturschutzgebieten sind es neben dem Schutz seltener Pflanzen und Tiere, alle Nutzungen von Flächen zu berücksichtigen, d.h. einen nutzungsintegrierten Naturschutz zu betreiben; Vorrangflächen des Naturschutzes fest zu legen und außerdem insgesamt einen Ausgleich in der Natur zu schaffen.  Folgende Layer sind unter anderem enthalten: EU- Vogelschutzgebiet, Naturschutzgebiet, Landschaftsschutzgebiete\r\nFolgende Attribute sind unter anderem  enthalten: Fläche, Gebietsteile " ;
         dcterms:format       "WFS" ;
         dcterms:title        "WFS Naturschutz" ;
-        cat:accessURL        <http://geo.lklg.net/wms_internet/Naturschutz?> .
+        cat:accessURL        <http://geo.lklg.net/wms_internet/Naturschutz%3F> .
 
 <https://open.lklg.net/distribution/Die+Wahlergebnisse+der+Gemeindewahl+2016+der+Gemeinde+S%C3%BCdergellersen>
         a                    cat:Distribution ;
@@ -1577,7 +1580,7 @@
         dcterms:description  "Übersicht der Samtgemeinden, Adresse, Einwohner, Fläche\r\n" ;
         dcterms:title        "Übersicht Samtgemeinden" ;
         cat:distribution     <https://open.lklg.net/distribution/%C3%9Cbersicht+Samtgemeinden> ;
-        cat:keyword          "Fläche" , "Samtgemeinde" , "Einwohner" .
+        cat:keyword          "Einwohner" , "Fläche" , "Samtgemeinde" .
 
 <https://open.lklg.net/dataset/radstellplatze>
         a                    cat:Dataset ;
@@ -2014,7 +2017,7 @@
         dcterms:description  "Folgende Attribute sind unter anderem ebenfalls enthalten: Schulbezeichnung, Schulform, Adresse " ;
         dcterms:format       "WFS" ;
         dcterms:title        "WFS kreiseigene Schulen" ;
-        cat:accessURL        <http://geo.lklg.net/wms_internet/Soziales?> .
+        cat:accessURL        <http://geo.lklg.net/wms_internet/Soziales%3F> .
 
 <https://open.lklg.net/dataset/die-wahlergebnisse-der-gemeindewahl-2016-der-gemeinde-reppenstedt>
         a                    cat:Dataset ;
@@ -2051,6 +2054,8 @@
         dcterms:title        "Die Wahlergebnisse der Gemeindewahl 2016 der Gemeinde Betzendorf" ;
         cat:distribution     <https://open.lklg.net/distribution/Die+Wahlergebnisse+der+Gemeindewahl+2016+der+Gemeinde+Betzendorf> ;
         cat:keyword          "Gemeindewahl" , "Betzendorf" .
+
+mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Landkreis%20L%C3%BCneburg> .
 
 <https://open.lklg.net/distribution/Die+Wahlergebnisse+der+Gemeindewahl+2016+der+Stadt+Bleckede>
         a                    cat:Distribution ;
@@ -2672,10 +2677,10 @@
 
 <https://open.lklg.net/distribution/%C3%9Cbersicht+Samtgemeinden>
         a                    cat:Distribution ;
-        dcterms:description  "varchar0; option0; varchar1; varchar2; integer0; integer1; integer2; integer3; integer4; integer5; integer6; varchar3; varchar4; varchar5 varchar0 = Bezeichnung, option0 = Typ, varchar1 = Rathaus_Ort, varchar2 = Rathaus_Strasse, integer0 = Einwohner 30.06.2010, integer1 = Einwohner 31.12.2010, integer2 = Einwohner 30.06.2011, integer3 = Einwohner 31.12.2011, integer4 = Einwohner 30.06.2012, integer5 = Einwohner 31.12.2012, integer6 = Einwohner 30.06.2013, varchar3 = Webseite, varchar4 = Telefon, varchar5 = Fläche\r\n" , "varchar0; option0; varchar1; varchar2; integer0; integer1; integer2; integer3; integer4; integer5; integer6; varchar3; varchar4; varchar5 varchar0 = Bezeichnung, option0 = Typ, varchar1 = Rathaus_Ort, varchar2 = Rathaus_Strasse, integer0 = Einwohner 30.06.2010, integer1 = Einwohner 31.12.2010, integer2 = Einwohner 30.06.2011, integer3 = Einwohner 31.12.2011, integer4 = Einwohner 30.06.2012, integer5 = Einwohner 31.12.2012, integer6 = Einwohner 30.06.2013,integer7 = Einwohner 31.12.2013,integer8 = Einwohner 30.06.2014,integer9 = Einwohner 31.12.2014,integer10 = Einwohner 30.06.2015, varchar3 = Webseite, varchar4 = Telefon, varchar5 = Fläche " , "varchar0; option0; varchar1; varchar2; integer0; integer1; integer2; integer3; integer4; integer5; integer6; varchar3; varchar4; varchar5 varchar0 = Bezeichnung, option0 = Typ, varchar1 = Rathaus_Ort, varchar2 = Rathaus_Strasse, integer0 = Einwohner 30.06.2010, integer1 = Einwohner 31.12.2010, integer2 = Einwohner 30.06.2011, integer3 = Einwohner 31.12.2011, integer4 = Einwohner 30.06.2012, integer5 = Einwohner 31.12.2012, integer6 = Einwohner 30.06.2013,integer7 = Einwohner 31.12.2013,integer8 = Einwohner 30.06.2014,integer9 = Einwohner 31.12.2014,integer10 = Einwohner 30.06.2015,Integer11 = Einwohner 31.12.2015 varchar3 = Webseite, varchar4 = Telefon, varchar5 = Fläche " ;
+        dcterms:description  "varchar0; option0; varchar1; varchar2; integer0; integer1; integer2; integer3; integer4; integer5; integer6; varchar3; varchar4; varchar5 varchar0 = Bezeichnung, option0 = Typ, varchar1 = Rathaus_Ort, varchar2 = Rathaus_Strasse, integer0 = Einwohner 30.06.2010, integer1 = Einwohner 31.12.2010, integer2 = Einwohner 30.06.2011, integer3 = Einwohner 31.12.2011, integer4 = Einwohner 30.06.2012, integer5 = Einwohner 31.12.2012, integer6 = Einwohner 30.06.2013,integer7 = Einwohner 31.12.2013,integer8 = Einwohner 30.06.2014,integer9 = Einwohner 31.12.2014,integer10 = Einwohner 30.06.2015, varchar3 = Webseite, varchar4 = Telefon, varchar5 = Fläche " , "varchar0; option0; varchar1; varchar2; integer0; integer1; integer2; integer3; integer4; integer5; integer6; varchar3; varchar4; varchar5 varchar0 = Bezeichnung, option0 = Typ, varchar1 = Rathaus_Ort, varchar2 = Rathaus_Strasse, integer0 = Einwohner 30.06.2010, integer1 = Einwohner 31.12.2010, integer2 = Einwohner 30.06.2011, integer3 = Einwohner 31.12.2011, integer4 = Einwohner 30.06.2012, integer5 = Einwohner 31.12.2012, integer6 = Einwohner 30.06.2013,integer7 = Einwohner 31.12.2013,integer8 = Einwohner 30.06.2014,integer9 = Einwohner 31.12.2014,integer10 = Einwohner 30.06.2015,Integer11 = Einwohner 31.12.2015 varchar3 = Webseite, varchar4 = Telefon, varchar5 = Fläche " , "varchar0; option0; varchar1; varchar2; integer0; integer1; integer2; integer3; integer4; integer5; integer6; varchar3; varchar4; varchar5 varchar0 = Bezeichnung, option0 = Typ, varchar1 = Rathaus_Ort, varchar2 = Rathaus_Strasse, integer0 = Einwohner 30.06.2010, integer1 = Einwohner 31.12.2010, integer2 = Einwohner 30.06.2011, integer3 = Einwohner 31.12.2011, integer4 = Einwohner 30.06.2012, integer5 = Einwohner 31.12.2012, integer6 = Einwohner 30.06.2013, varchar3 = Webseite, varchar4 = Telefon, varchar5 = Fläche\r\n" ;
         dcterms:format       "CSV" ;
         dcterms:title        "Übersicht Samtgemeinden" ;
-        cat:accessURL        <http://open.lklg.net/dataset/223d10ba-2ad0-49f4-8301-ff18c7f45470/resource/4a434097-a61f-4f0f-bed4-18bd143105b4/download/150529samtgemeinden.csv> , <http://open.lklg.net/dataset/223d10ba-2ad0-49f4-8301-ff18c7f45470/resource/018d211f-f5d6-49a1-8f01-e181f5020650/download/160815samtgemeinden.csv> , <http://open.lklg.net/dataset/223d10ba-2ad0-49f4-8301-ff18c7f45470/resource/f10c9459-181a-4d92-9f21-4486fcad3d40/download/160826samtgemeindeneinwohner.csv> .
+        cat:accessURL        <http://open.lklg.net/dataset/223d10ba-2ad0-49f4-8301-ff18c7f45470/resource/018d211f-f5d6-49a1-8f01-e181f5020650/download/160815samtgemeinden.csv> , <http://open.lklg.net/dataset/223d10ba-2ad0-49f4-8301-ff18c7f45470/resource/f10c9459-181a-4d92-9f21-4486fcad3d40/download/160826samtgemeindeneinwohner.csv> , <http://open.lklg.net/dataset/223d10ba-2ad0-49f4-8301-ff18c7f45470/resource/4a434097-a61f-4f0f-bed4-18bd143105b4/download/150529samtgemeinden.csv> .
 
 <https://open.lklg.net/distribution/Die+Wahlergebnisse+der+Gemeindewahl+2016+der+Gemeinde+Amt+Neuhaus>
         a                    cat:Distribution ;

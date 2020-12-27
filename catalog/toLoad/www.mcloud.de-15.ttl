@@ -1,0 +1,830 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/1.0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gml: <http://www.opengis.net/gml/3.2> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix odrs: <http://schema.theodi.org/odrs#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix hydra: <http://www.w3.org/ns/hydra/core#> .
+
+<http://134.245.19.83/data/scharbeutz/Parkplatz_Haffkrug_P1_2020-09-24.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-10-23T09:28:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Parkplatz_Haffkrug_P1_2020-09-24.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://134.245.19.83/data/scharbeutz/Parkplatz_Haffkrug_P1_2020-09-24.csv> ;
+    dcat:byteSize 3252 ;
+    dcat:downloadURL <http://134.245.19.83/data/scharbeutz/Parkplatz_Haffkrug_P1_2020-09-24.csv> .
+
+<http://134.245.19.83/data/scharbeutz/Parkplatz_Haffkrug_P1_2020-10-21.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-10-23T09:25:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Parkplatz_Haffkrug_P1_2020-10-21.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://134.245.19.83/data/scharbeutz/Parkplatz_Haffkrug_P1_2020-10-21.csv> ;
+    dcat:byteSize 2108 ;
+    dcat:downloadURL <http://134.245.19.83/data/scharbeutz/Parkplatz_Haffkrug_P1_2020-10-21.csv> .
+
+<http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_P3_2020-09-26.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-10-23T09:26:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Parkplatz_Scharbeutz_P3_2020-09-26.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_P3_2020-09-26.csv> ;
+    dcat:byteSize 16649 ;
+    dcat:downloadURL <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_P3_2020-09-26.csv> .
+
+<http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-11-07.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-11-08T13:45:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-11-07.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-11-07.csv> ;
+    dcat:byteSize 55741 ;
+    dcat:downloadURL <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-11-07.csv> .
+
+<http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_21-24_2020-10-21.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-10-23T09:28:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Scharbeutz_Strandabschnitt_21-24_2020-10-21.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_21-24_2020-10-21.csv> ;
+    dcat:byteSize 95306 ;
+    dcat:downloadURL <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_21-24_2020-10-21.csv> .
+
+<http://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG25832_CSV.csv/distribution>
+    dcterms:description "Adressen_EPSG25832_CSV.csv" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/SHP> ;
+    dcterms:issued "2020-10-14T22:09:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Adressen_EPSG25832_CSV.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG25832_CSV.csv> ;
+    dcat:downloadURL <http://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG25832_CSV.csv> .
+
+<http://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG25832_SHAPE.zip/distribution>
+    dcterms:description "Adressen_EPSG25832_SHAPE.zip" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/SHP> ;
+    dcterms:issued "2020-10-14T22:09:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Adressen_EPSG25832_SHAPE.zip"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG25832_SHAPE.zip> ;
+    dcat:downloadURL <http://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG25832_SHAPE.zip> .
+
+<http://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG3857_SHAPE.zip/distribution>
+    dcterms:description "Adressen_EPSG3857_SHAPE.zip" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/SHP> ;
+    dcterms:issued "2020-10-14T22:09:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Adressen_EPSG3857_SHAPE.zip"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG3857_SHAPE.zip> ;
+    dcat:downloadURL <http://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG3857_SHAPE.zip> .
+
+<http://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG4326_JSON.json/distribution>
+    dcterms:description "Adressen_EPSG4326_JSON.json" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/SHP> ;
+    dcterms:issued "2020-10-14T22:09:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Adressen_EPSG4326_JSON.json"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG4326_JSON.json> ;
+    dcat:downloadURL <http://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG4326_JSON.json> .
+
+<http://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG4326_KML.zip/distribution>
+    dcterms:description "Adressen_EPSG4326_KML.zip" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/SHP> ;
+    dcterms:issued "2020-10-14T22:09:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Adressen_EPSG4326_KML.zip"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG4326_KML.zip> ;
+    dcat:downloadURL <http://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG4326_KML.zip> .
+
+<http://www.gis-rest.nrw.de/atomFeed/rest/atom/498971ff-7415-48e5-a80d-042b459dbfcc/distribution>
+    dcterms:description "Der ATOM Feed Downloadservice für die georeferenzierten Bestandsadressen Wuppertal stellt einen Datensatz zum Download bereit, der die amtlichen Adressbestandteile (Straßenschlüssel, Straßenname, Hausnummer, Adresszusatz, ETRS89-UTM32-Kilometerquadrat, Stadtbezirk) und die Lagekoordinaten aller hausnummerntragenden Gebäude in Wuppertal enthält. Für Datensätze dieser Art hat das Land NRW den Terminus \"Gebäudereferenzen\" eingeführt. Der Datensatz umfasst keine Postleitzahlen, ist also insoweit nicht für die Herstellung von anonymen Massen-Postsendungen geeignet. Er entsteht durch die wöchentliche automatisierte Zusammenführung der Gebäudereferenzen aus dem Amtlichen Liegenschaftskataster-Informationssystem ALKIS für die eingemessenen Gebäude und der Gebäudereferenzen von vorhandenen, aber noch nicht eingemessenen Gebäuden aus dem kommunalen Informationssystem WuNDa/Adressen, eines Teilsystems innerhalb des Wuppertaler Navigations- und Datenmanagementsystems WuNDa. Die Ermittlung der vorhandenen, aber noch nicht eingemessenen Gebäude erfolgt jedoch nur einmal pro Monat durch einen Abgleich mit dem Baugenehmigungsverfahren ProBAUG. Die Koordinaten der ALKIS-Gebäudereferenzen entsprechen der Einfügeposition der Hausnummer in der Liegenschaftskarte. Die Koordinaten der Gebäudereferenzen zu den vorhandenen, aber noch nicht eingemessenen Gebäuden weichen in der Größenordnung einiger Meter von den erst später verfügbaren ALKIS-Koordinaten ab. Die Daten werden in den Formaten ESRI-Shapefile, KML, GeoJSON und CSV bereitgestellt. Die Stadt Wuppertal betrachtet den kombinierten Datensatz als kommunales Produkt. Der vom Downloadservice bereitgestellte Datensatz steht daher unter der von der Stadt bevorzugten Open-Data-Lizenz CC BY 4.0 und nicht unter der vom Land NRW für die ALKIS-Gebäudereferenzen vorgeschriebenen \"Datenlizenz Deutschland - Namensnennung - Version 2.0 (dl-de/by-2-0)\"." ;
+    dcterms:issued "2020-10-14T22:09:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Wuppertal ATOM Feed georeferenzierte Bestandsadressen"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.gis-rest.nrw.de/atomFeed/rest/atom/498971ff-7415-48e5-a80d-042b459dbfcc> ;
+    dcat:downloadURL <http://www.gis-rest.nrw.de/atomFeed/rest/atom/498971ff-7415-48e5-a80d-042b459dbfcc> .
+
+<https://geo7.stadt-muenster.de/webgis/map?wmsurl=https://geo8.stadt-muenster.de/mapserv/baustellen_serv&amp;wmslayer=baustellen&amp;titel=Baustellen/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:issued "2020-12-25T04:01:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geo7.stadt-muenster.de/webgis/map?wmsurl=https://geo8.stadt-muenster.de/mapserv/baustellen_serv&amp;wmslayer=baustellen&amp;titel=Baustellen> ;
+    dcat:downloadURL <https://geo7.stadt-muenster.de/webgis/map?wmsurl=https://geo8.stadt-muenster.de/mapserv/baustellen_serv&amp;wmslayer=baustellen&amp;titel=Baustellen> .
+
+<https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=1.0.0&amp;TYPENAME=ms:baustellen1&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WFS_SRVC> ;
+    dcterms:issued "2020-12-25T04:01:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=1.0.0&amp;TYPENAME=ms:baustellen1&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000> ;
+    dcat:downloadURL <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=1.0.0&amp;TYPENAME=ms:baustellen1&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000> .
+
+<https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=1.0.0&amp;TYPENAME=ms:baustellen1&amp;OUTPUTFORMAT=CSV&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T04:01:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=1.0.0&amp;TYPENAME=ms:baustellen1&amp;OUTPUTFORMAT=CSV&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000> ;
+    dcat:downloadURL <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=1.0.0&amp;TYPENAME=ms:baustellen1&amp;OUTPUTFORMAT=CSV&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000> .
+
+<https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=1.0.0&amp;TYPENAME=ms:baustellen1&amp;OUTPUTFORMAT=KML&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/KML> ;
+    dcterms:issued "2020-12-25T04:01:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=1.0.0&amp;TYPENAME=ms:baustellen1&amp;OUTPUTFORMAT=KML&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000> ;
+    dcat:downloadURL <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=1.0.0&amp;TYPENAME=ms:baustellen1&amp;OUTPUTFORMAT=KML&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000> .
+
+<https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=1.0.0&amp;TYPENAME=ms:baustellen1&amp;OUTPUTFORMAT=SHAPEZIP&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/SHP> ;
+    dcterms:issued "2020-12-25T04:01:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=1.0.0&amp;TYPENAME=ms:baustellen1&amp;OUTPUTFORMAT=SHAPEZIP&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000> ;
+    dcat:downloadURL <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=1.0.0&amp;TYPENAME=ms:baustellen1&amp;OUTPUTFORMAT=SHAPEZIP&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000> .
+
+<https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;TYPENAME=ms:baustellen1&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WFS_SRVC> ;
+    dcterms:issued "2020-12-25T04:01:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;TYPENAME=ms:baustellen1&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000> ;
+    dcat:downloadURL <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;TYPENAME=ms:baustellen1&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000> .
+
+<https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=2.0.0&amp;TYPENAME=ms:baustellen1&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WFS_SRVC> ;
+    dcterms:issued "2020-12-25T04:01:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=2.0.0&amp;TYPENAME=ms:baustellen1&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000> ;
+    dcat:downloadURL <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=2.0.0&amp;TYPENAME=ms:baustellen1&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000> .
+
+<https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=2.0.0&amp;TYPENAME=ms:baustellen1&amp;OUTPUTFORMAT=GEOJSON&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000&amp;SRSNAME=EPSG:4326/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/GEOJSON> ;
+    dcterms:issued "2020-12-25T04:01:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=2.0.0&amp;TYPENAME=ms:baustellen1&amp;OUTPUTFORMAT=GEOJSON&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000&amp;SRSNAME=EPSG:4326> ;
+    dcat:downloadURL <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=2.0.0&amp;TYPENAME=ms:baustellen1&amp;OUTPUTFORMAT=GEOJSON&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000&amp;SRSNAME=EPSG:4326> .
+
+<https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=baustellen1&amp;STYLES=&amp;SRS=EPSG:25832&amp;BBOX=391166,5744000,417833,5769000&amp;WIDTH=1000&amp;HEIGHT=900&amp;FORMAT=image/png&amp;BGCOLOR=0xffffff&amp;TRANSPARENT=TRUE&amp;EXCEPTIONS=application/vnd.ogc.se_xml/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WMS_SRVC> ;
+    dcterms:issued "2020-12-25T04:01:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=baustellen1&amp;STYLES=&amp;SRS=EPSG:25832&amp;BBOX=391166,5744000,417833,5769000&amp;WIDTH=1000&amp;HEIGHT=900&amp;FORMAT=image/png&amp;BGCOLOR=0xffffff&amp;TRANSPARENT=TRUE&amp;EXCEPTIONS=application/vnd.ogc.se_xml> ;
+    dcat:downloadURL <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=baustellen1&amp;STYLES=&amp;SRS=EPSG:25832&amp;BBOX=391166,5744000,417833,5769000&amp;WIDTH=1000&amp;HEIGHT=900&amp;FORMAT=image/png&amp;BGCOLOR=0xffffff&amp;TRANSPARENT=TRUE&amp;EXCEPTIONS=application/vnd.ogc.se_xml> .
+
+<https://mcloud.de>
+    dcterms:description "Dies ist das Portal der mCLOUD."@de ;
+    dcterms:publisher <https://mcloud.de/#publisher> ;
+    dcterms:title "mCLOUD Portal"@de ;
+    a dcat:Catalog ;
+    dcat:dataset <https://mcloud.de/web/guest/suche/-/results/detail/0c5cbdb0-4884-4e03-8553-8907ce06c6c2>, <https://mcloud.de/web/guest/suche/-/results/detail/0c8488cd-2651-4adf-ab0d-58b3714b0d8b>, <https://mcloud.de/web/guest/suche/-/results/detail/0ca55364-9b94-4c7e-a6e3-6be549082045>, <https://mcloud.de/web/guest/suche/-/results/detail/0cbecc46-f8b6-4d68-9a15-f5887bcdc05f>, <https://mcloud.de/web/guest/suche/-/results/detail/0cc40540-e532-4b2d-8cd6-92f0d20ee2cf>, <https://mcloud.de/web/guest/suche/-/results/detail/0d304007-90e6-4417-a226-1b4b3db61142>, <https://mcloud.de/web/guest/suche/-/results/detail/0d381de6-f4de-4095-b997-3bfe2d620640>, <https://mcloud.de/web/guest/suche/-/results/detail/0d577ead-0f5f-4ba2-b5dc-a145713a57c3>, <https://mcloud.de/web/guest/suche/-/results/detail/0d5a9af4-6386-4233-839d-e368d1199daa>, <https://mcloud.de/web/guest/suche/-/results/detail/0d6a96f0-3117-40d4-bebe-4a03f5547329> ;
+    foaf:homepage <https://mcloud.de/> .
+
+<https://mcloud.de/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesministerium für Verkehr und digitale Infrastruktur" .
+
+<https://mcloud.de/export/datasets?page=15>
+    a hydra:PagedCollection ;
+    hydra:firstPage "https://mcloud.de/export/datasets?page=1" ;
+    hydra:itemsPerPage 10 ;
+    hydra:lastPage "https://mcloud.de/export/datasets?page=420" ;
+    hydra:nextPage "https://mcloud.de/export/datasets?page=16" ;
+    hydra:previousPage "https://mcloud.de/export/datasets?page=14" ;
+    hydra:totalItems 4200 .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0c5cbdb0-4884-4e03-8553-8907ce06c6c2>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description "Der Datensatz der georeferenzierten Bestandsadressen Wuppertal enthält die amtlichen Adressbestandteile (Straßenschlüssel, Straßenname, Hausnummer, Adresszusatz, ETRS89-UTM32-Kilometerquadrat, Stadtbezirk) und die Lagekoordinaten aller hausnummerntragenden Gebäude in Wuppertal. Für Datensätze dieser Art hat das Land NRW den Terminus \"Gebäudereferenzen\" eingeführt. Der Datensatz umfasst keine Postleitzahlen, ist also insoweit nicht für die Herstellung von anonymen Massen-Postsendungen geeignet. Er entsteht durch die wöchentliche automatisierte Zusammenführung der Gebäudereferenzen aus dem Amtlichen Liegenschaftskataster-Informationssystem ALKIS für die eingemessenen Gebäude und der Gebäudereferenzen von vorhandenen, aber noch nicht eingemessenen Gebäuden aus dem kommunalen Informationssystem WuNDa/Adressen, eines Teilsystems innerhalb des Wuppertaler Navigations- und Datenmanagementsystems WuNDa. Die Ermittlung der vorhandenen, aber noch nicht eingemessenen Gebäude erfolgt jedoch nur einmal pro Monat durch einen Abgleich mit dem Baugenehmigungsverfahren ProBAUG. Die Koordinaten der ALKIS-Gebäudereferenzen entsprechen der Einfügeposition der Hausnummer in der Liegenschaftskarte. Die Koordinaten der Gebäudereferenzen zu den vorhandenen, aber noch nicht eingemessenen Gebäuden weichen in der Größenordnung einiger Meter von den erst später verfügbaren ALKIS-Koordinaten ab. Die Daten werden in den Formaten ESRI-Shapefile, KML, GeoJSON und CSV bereitgestellt. Die Stadt Wuppertal betrachtet den kombinierten Datensatz als kommunales Produkt. Er steht daher unter der von der Stadt bevorzugten Open-Data-Lizenz CC BY 4.0 und nicht unter der vom Land NRW für die ALKIS-Gebäudereferenzen vorgeschriebenen \"Datenlizenz Deutschland - Namensnennung - Version 2.0 (dl-de/by-2-0)\"."@de ;
+    dcterms:identifier "0c5cbdb0-4884-4e03-8553-8907ce06c6c2" ;
+    dcterms:issued "2019-01-20T01:15:00Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2019-01-20T01:15:00Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0c5cbdb0-4884-4e03-8553-8907ce06c6c2/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        locn:geometry "POLYGON ((7.01 51.33, 7.32 51.33, 7.32 51.16, 7.01 51.16, 7.01 51.33))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[7.01, 51.33], [7.32, 51.33], [7.32, 51.16], [7.01, 51.16], [7.01, 51.33]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "Georeferenzierte Bestandsadressen Wuppertal"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG25832_CSV.csv/distribution>, <http://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG25832_SHAPE.zip/distribution>, <http://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG3857_SHAPE.zip/distribution>, <http://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG4326_JSON.json/distribution>, <http://daten.wuppertal.de/Geografie_Geologie_Geodaten/Adressen_EPSG4326_KML.zip/distribution>, <http://www.gis-rest.nrw.de/atomFeed/rest/atom/498971ff-7415-48e5-a80d-042b459dbfcc/distribution> ;
+    dcat:keyword "ALKIS"@de, "Adresse"@de, "Adressenliste"@de, "Adresszusatz"@de, "BauO NRW"@de, "Bauordnung NRW"@de, "Fertigstellungsanzeige"@de, "GDI-W"@de, "Gebäude"@de, "Gebäudereferenz"@de, "Hausnummer"@de, "Hausnummernzusatz"@de, "Kilometerquadrat"@de, "Landesbauordnung NRW"@de, "Nichtwohngebäude"@de, "ProBAUG"@de, "Regierung und öffentlicher Sektor"@de, "Regionen und Städte"@de, "Stadtbezirk"@de, "Straße"@de, "Straßenname"@de, "Straßenschlüssel"@de, "Verkehr"@de, "Wohngebäude"@de, "Wuppertal"@de, "geo"@de, "infrastruktur_bauen_wohnen"@de, "mcloud_category_roads"@de, "opendata"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0c5cbdb0-4884-4e03-8553-8907ce06c6c2/#publisher>
+    a foaf:Agent ;
+    foaf:name "Geoportal" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0c8488cd-2651-4adf-ab0d-58b3714b0d8b>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der belegten Parkplätze
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Autos
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "0c8488cd-2651-4adf-ab0d-58b3714b0d8b" ;
+    dcterms:issued "2020-10-23T09:28:02Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-10-23T09:28:02Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0c8488cd-2651-4adf-ab0d-58b3714b0d8b/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-09-24T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-09-24T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Parkplatz Haffkrug P1"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://134.245.19.83/data/scharbeutz/Parkplatz_Haffkrug_P1_2020-09-24.csv/distribution> ;
+    dcat:keyword "Parkplatz"@de, "Scharbeutz"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0c8488cd-2651-4adf-ab0d-58b3714b0d8b/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0ca55364-9b94-4c7e-a6e3-6be549082045>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der Personen im Strandabschnitt
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Personen
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "0ca55364-9b94-4c7e-a6e3-6be549082045" ;
+    dcterms:issued "2020-10-23T09:28:01Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-10-23T09:28:01Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0ca55364-9b94-4c7e-a6e3-6be549082045/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-10-21T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-10-21T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Scharbeutz - Strandabschnitt 21-24"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_21-24_2020-10-21.csv/distribution> ;
+    dcat:keyword "Scharbeutz"@de, "Strand"@de, "Strandbelegung"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0ca55364-9b94-4c7e-a6e3-6be549082045/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0cbecc46-f8b6-4d68-9a15-f5887bcdc05f>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:name "Polizei NRW Koeln"
+    ] ;
+    dcterms:description """<p>Auf dieser Seite stellt Ihnen die Polizei Köln die Zahlen zur Verkehrsunfallentwicklung 2016 für das Stadtgebiet Köln als Rohdatenbestand zur Verfügung.</p>
+<p>
+Eine grafische Aufbereitung und weitere Statistiken können Sie hier abrufen:<br /><a href=\"http://www.polizei.nrw.de/koeln/kategorie__60.html\" target=\"_blank\">http://www.polizei.nrw.de/koeln/kategorie__60.html</a> <br /><a href=\"http://www.koeln.polizei.nrw.de/\" target=\"_blank\">www.koeln.polizei.nrw.de</a><br />
+ </p>
+<p><strong>Information:</strong><br />
+Die gelisteten Rohdaten entstammen folgender Datei: <a href=\"http://www.polizei.nrw.de/media/Dokumente/Behoerden/Koeln/vu-stat2016-stadt-koeln.pdf\">http://www.polizei.nrw.de/media/Dokumente/Behoerden/Koeln/vu-stat2016-stadt-koeln.pdf</a></p>
+<p><strong>Quelle: Polizei Nordrhein-Westfalen</strong> <a href=\"http://www.polizei.nrw.de/koeln/index.html\">http://www.polizei.nrw.de/koeln/index.html</a></p>
+<p><strong>Altersstruktur:</strong></p>
+<p>Kinder                         ..unter 15 Jahre</p>
+<p>Jugendliche                15 bis unter 18 Jahre</p>
+<p>Junge Erwachsene      18 bis unter 25 Jahre</p>
+<p>Erwachsene                25 bis unter 65 Jahre</p>
+<p>Senioren                     ..65 +</p>
+"""@de ;
+    dcterms:identifier "0cbecc46-f8b6-4d68-9a15-f5887bcdc05f" ;
+    dcterms:issued "2017-04-06T09:06:31Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2017-04-06T15:06:35Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0cbecc46-f8b6-4d68-9a15-f5887bcdc05f/#publisher> ;
+    dcterms:title "Verkehrsunfallentwicklung Stadtgebiet Koeln 2016"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://offenedaten-koeln.de/sites/default/files/Getoetete_Personen_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Hauptunfallursache_von_Rad_Fahrenden_bei_Verkehrsunfaellen_mit_Verunglueckten_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Hauptunfallursachen_Fu%C3%9Fgaenger_Verunglueckte_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Schwerverletzte_Personen_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Unfallursach_Geschwindigkeit_bei_Kfz_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Unfallursach_Geschwindigkeit_bei_Kfz_Koeln_2016_0.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Unfallursache_Alkohol_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Unfallursache_Alkohol_Verkehrsbeteiligung_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Unfallursache_BTM_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Unfallursache_BTM_Verkehrsbeteiligung_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Unfallursache_Geschwindigkeit_Kfz_Verkehrsbeteiligung_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Unfallursache_Rotlicht_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Unfallursache_Rotlicht_Verkehrsbeteiligung_Unfallverursacher_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Unfallursachen_Verkehrsunfaellen_Verunglueckten_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Verkehrsunfallentwicklung_Verunglueckten_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Verungl%C3%BCcktenentwicklung_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Verungl%C3%BCcktenentwicklung_Koeln_2016_0.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Fahrrad_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Fu%C3%9Fgaenger_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Junge_Erwachsene_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Junge_Erwachsene_Verkehrsbeteiligung_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Kinder_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Kinder_Verkehrsbeteiligung_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Senioren_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Senioren_Verkehrsbeteiligung_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Strassenbahn_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Verkehrsunfaellen_Stra%C3%9Fenbahn_Koeln_2016.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/Verungluecktenhaeufigkeitszahl_Koeln_2016_0.csv/distribution> ;
+    dcat:keyword "Offene Daten Köln"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0cbecc46-f8b6-4d68-9a15-f5887bcdc05f/#publisher>
+    a foaf:Agent ;
+    foaf:name "Köln" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0cc40540-e532-4b2d-8cd6-92f0d20ee2cf>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der belegten Parkplätze
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Autos
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "0cc40540-e532-4b2d-8cd6-92f0d20ee2cf" ;
+    dcterms:issued "2020-12-11T19:15:25Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-12-11T19:15:25Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0cc40540-e532-4b2d-8cd6-92f0d20ee2cf/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-12-10T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-12-10T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Parkplatz Scharbeutz P3"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_P3_2020-12-10.csv/distribution> ;
+    dcat:keyword "Parkplatz"@de, "Scharbeutz"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0cc40540-e532-4b2d-8cd6-92f0d20ee2cf/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0d304007-90e6-4417-a226-1b4b3db61142>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der belegten Parkplätze
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Autos
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "0d304007-90e6-4417-a226-1b4b3db61142" ;
+    dcterms:issued "2020-10-23T09:26:49Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-10-23T09:26:49Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0d304007-90e6-4417-a226-1b4b3db61142/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-09-26T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-09-26T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Parkplatz Scharbeutz P3"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_P3_2020-09-26.csv/distribution> ;
+    dcat:keyword "Parkplatz"@de, "Scharbeutz"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0d304007-90e6-4417-a226-1b4b3db61142/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0d381de6-f4de-4095-b997-3bfe2d620640>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:name "Stadt Münster"
+    ] ;
+    dcterms:description "Lage der Baustellen, die den Verkehr auf den münsterschen Straßen besonders beeinträchtigen. Bei der Vielzahl der Baustellen pro Jahr können jedoch nicht alle Baumaßnahmen aufgelistet werden."@de ;
+    dcterms:identifier "0d381de6-f4de-4095-b997-3bfe2d620640" ;
+    dcterms:issued "2019-07-16T09:25:24Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2019-07-29T07:30:54Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0d381de6-f4de-4095-b997-3bfe2d620640/#publisher> ;
+    dcterms:title "Baustellen"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://geo7.stadt-muenster.de/webgis/map?wmsurl=https://geo8.stadt-muenster.de/mapserv/baustellen_serv&amp;wmslayer=baustellen&amp;titel=Baustellen/distribution>, <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=1.0.0&amp;TYPENAME=ms:baustellen1&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000/distribution>, <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=1.0.0&amp;TYPENAME=ms:baustellen1&amp;OUTPUTFORMAT=CSV&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000/distribution>, <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=1.0.0&amp;TYPENAME=ms:baustellen1&amp;OUTPUTFORMAT=KML&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000/distribution>, <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=1.0.0&amp;TYPENAME=ms:baustellen1&amp;OUTPUTFORMAT=SHAPEZIP&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000/distribution>, <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=1.1.0&amp;TYPENAME=ms:baustellen1&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000/distribution>, <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=2.0.0&amp;TYPENAME=ms:baustellen1&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000/distribution>, <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetFeature&amp;SERVICE=WFS&amp;VERSION=2.0.0&amp;TYPENAME=ms:baustellen1&amp;OUTPUTFORMAT=GEOJSON&amp;EXCEPTIONS=XML&amp;MAXFEATURES=1000&amp;SRSNAME=EPSG:4326/distribution>, <https://geo8.stadt-muenster.de/mapserv/baustellen_serv?REQUEST=GetMap&amp;SERVICE=WMS&amp;VERSION=1.1.1&amp;LAYERS=baustellen1&amp;STYLES=&amp;SRS=EPSG:25832&amp;BBOX=391166,5744000,417833,5769000&amp;WIDTH=1000&amp;HEIGHT=900&amp;FORMAT=image/png&amp;BGCOLOR=0xffffff&amp;TRANSPARENT=TRUE&amp;EXCEPTIONS=application/vnd.ogc.se_xml/distribution> ;
+    dcat:keyword "Verkehr"@de, "mcloud_category_roads"@de, "opendata.stadt-muenster.de"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0d381de6-f4de-4095-b997-3bfe2d620640/#publisher>
+    a foaf:Agent ;
+    foaf:name "Münster" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0d577ead-0f5f-4ba2-b5dc-a145713a57c3>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcatde:originator [
+        a foaf:Organization ;
+        foaf:mbox "Susanne.Tamm@bsh.de" ;
+        foaf:name "Susanne Tamm"
+    ] ;
+    dcterms:accessRights "Dieser Datensatz kann gemäß der \"Datenlizenz Deutschland – Namensnennung – Version 2.0\" (www.govdata.de/dl-de/by-2-0) genutzt werden."@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "Susanne.Tamm@bsh.de" ;
+        foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)"
+    ] ;
+    dcterms:description "Im Rahmen des gemeinsames Bund/Länder-Messprogramm für die Nord- und Ostsee + weitere Überwachungsprogramme wurde der Parameter \"Hexachlorbenzol im Meerwasser\" im Meerwasser bestimmt."@de ;
+    dcterms:identifier "0d577ead-0f5f-4ba2-b5dc-a145713a57c3" ;
+    dcterms:modified "2020-08-31T05:53:09.699Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0d577ead-0f5f-4ba2-b5dc-a145713a57c3/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "000000000000" ;
+        locn:geometry "POLYGON ((3.348333333 55.91698, 15.370045 55.91698, 15.370045 53.62, 3.348333333 53.62, 3.348333333 55.91698))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[3.348333333, 55.91698], [15.370045, 55.91698], [15.370045, 53.62], [3.348333333, 53.62], [3.348333333, 55.91698]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2017-09-13T02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2017-02-07T01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Hexachlorbenzol im Meerwasser 2017"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" ;
+        vcard:hasCountryName "Deutschland" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/Johannes.Melles@bsh.de> ;
+        vcard:hasLocality "Hamburg" ;
+        vcard:hasPostalCode "20359" ;
+        vcard:hasStreetAddress "Bernhard-Nocht-Str. 78"
+    ] ;
+    dcat:distribution <https://www.geoseaportal.de/atomfeeds/MO_H_HCB.xml/distribution> ;
+    dcat:keyword "2017"@de, "Chlorbenzol"@de, "HCB"@de, "Monitoring"@de, "Nordsee"@de, "Ostsee"@de, "Wasser"@de, "mcloud_category_waters"@de, "opendata"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0d577ead-0f5f-4ba2-b5dc-a145713a57c3/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0d5a9af4-6386-4233-839d-e368d1199daa>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der belegten Parkplätze
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Autos
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "0d5a9af4-6386-4233-839d-e368d1199daa" ;
+    dcterms:issued "2020-10-23T09:25:56Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-10-23T09:25:56Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0d5a9af4-6386-4233-839d-e368d1199daa/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-10-21T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-10-21T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Parkplatz Haffkrug P1"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://134.245.19.83/data/scharbeutz/Parkplatz_Haffkrug_P1_2020-10-21.csv/distribution> ;
+    dcat:keyword "Parkplatz"@de, "Scharbeutz"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0d5a9af4-6386-4233-839d-e368d1199daa/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0d6a96f0-3117-40d4-bebe-4a03f5547329>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der belegten Parkplätze
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Autos
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "0d6a96f0-3117-40d4-bebe-4a03f5547329" ;
+    dcterms:issued "2020-11-08T13:45:15Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-11-08T13:45:15Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0d6a96f0-3117-40d4-bebe-4a03f5547329/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-11-07T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-11-07T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Parkplatz Scharbeutz Parkbuchten Strandallee II"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-11-07.csv/distribution> ;
+    dcat:keyword "Parkplatz"@de, "Scharbeutz"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0d6a96f0-3117-40d4-bebe-4a03f5547329/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://offenedaten-koeln.de/sites/default/files/Getoetete_Personen_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Getoetete_Personen_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Getoetete_Personen_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Hauptunfallursache_von_Rad_Fahrenden_bei_Verkehrsunfaellen_mit_Verunglueckten_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Hauptunfallursache_von_Rad_Fahrenden_bei_Verkehrsunfaellen_mit_Verunglueckten_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Hauptunfallursache_von_Rad_Fahrenden_bei_Verkehrsunfaellen_mit_Verunglueckten_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Hauptunfallursachen_Fu%C3%9Fgaenger_Verunglueckte_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Hauptunfallursachen_Fu%C3%9Fgaenger_Verunglueckte_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Hauptunfallursachen_Fu%C3%9Fgaenger_Verunglueckte_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Schwerverletzte_Personen_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Schwerverletzte_Personen_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Schwerverletzte_Personen_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Unfallursach_Geschwindigkeit_bei_Kfz_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Unfallursach_Geschwindigkeit_bei_Kfz_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Unfallursach_Geschwindigkeit_bei_Kfz_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Unfallursach_Geschwindigkeit_bei_Kfz_Koeln_2016_0.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Unfallursach_Geschwindigkeit_bei_Kfz_Koeln_2016_0.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Unfallursach_Geschwindigkeit_bei_Kfz_Koeln_2016_0.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Unfallursache_Alkohol_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Unfallursache_Alkohol_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Unfallursache_Alkohol_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Unfallursache_Alkohol_Verkehrsbeteiligung_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Unfallursache_Alkohol_Verkehrsbeteiligung_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Unfallursache_Alkohol_Verkehrsbeteiligung_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Unfallursache_BTM_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Unfallursache_BTM_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Unfallursache_BTM_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Unfallursache_BTM_Verkehrsbeteiligung_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Unfallursache_BTM_Verkehrsbeteiligung_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Unfallursache_BTM_Verkehrsbeteiligung_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Unfallursache_Geschwindigkeit_Kfz_Verkehrsbeteiligung_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Unfallursache_Geschwindigkeit_Kfz_Verkehrsbeteiligung_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Unfallursache_Geschwindigkeit_Kfz_Verkehrsbeteiligung_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Unfallursache_Rotlicht_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Unfallursache_Rotlicht_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Unfallursache_Rotlicht_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Unfallursache_Rotlicht_Verkehrsbeteiligung_Unfallverursacher_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Unfallursache_Rotlicht_Verkehrsbeteiligung_Unfallverursacher_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Unfallursache_Rotlicht_Verkehrsbeteiligung_Unfallverursacher_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Unfallursachen_Verkehrsunfaellen_Verunglueckten_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Unfallursachen_Verkehrsunfaellen_Verunglueckten_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Unfallursachen_Verkehrsunfaellen_Verunglueckten_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Verkehrsunfallentwicklung_Verunglueckten_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Verkehrsunfallentwicklung_Verunglueckten_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Verkehrsunfallentwicklung_Verunglueckten_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Verungl%C3%BCcktenentwicklung_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Verungl%C3%BCcktenentwicklung_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Verungl%C3%BCcktenentwicklung_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Verungl%C3%BCcktenentwicklung_Koeln_2016_0.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Verungl%C3%BCcktenentwicklung_Koeln_2016_0.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Verungl%C3%BCcktenentwicklung_Koeln_2016_0.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Fahrrad_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Fahrrad_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Fahrrad_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Fu%C3%9Fgaenger_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Fu%C3%9Fgaenger_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Fu%C3%9Fgaenger_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Junge_Erwachsene_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Junge_Erwachsene_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Junge_Erwachsene_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Junge_Erwachsene_Verkehrsbeteiligung_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Junge_Erwachsene_Verkehrsbeteiligung_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Junge_Erwachsene_Verkehrsbeteiligung_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Kinder_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Kinder_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Kinder_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Kinder_Verkehrsbeteiligung_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Kinder_Verkehrsbeteiligung_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Kinder_Verkehrsbeteiligung_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Senioren_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Senioren_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Senioren_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Senioren_Verkehrsbeteiligung_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Senioren_Verkehrsbeteiligung_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Senioren_Verkehrsbeteiligung_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Strassenbahn_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Strassenbahn_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Strassenbahn_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Verkehrsunfaellen_Stra%C3%9Fenbahn_Koeln_2016.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Verkehrsunfaellen_Stra%C3%9Fenbahn_Koeln_2016.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Verunglueckte_Verkehrsunfaellen_Stra%C3%9Fenbahn_Koeln_2016.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/Verungluecktenhaeufigkeitszahl_Koeln_2016_0.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:05:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/Verungluecktenhaeufigkeitszahl_Koeln_2016_0.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/Verungluecktenhaeufigkeitszahl_Koeln_2016_0.csv> .
+
+<https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_P3_2020-12-10.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-11T19:15:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Parkplatz_Scharbeutz_P3_2020-12-10.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_P3_2020-12-10.csv> ;
+    dcat:byteSize 12898 ;
+    dcat:downloadURL <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_P3_2020-12-10.csv> .
+
+<https://www.geoseaportal.de/atomfeeds/MO_H_HCB.xml/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/ATOM> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoseaportal.de/atomfeeds/MO_H_HCB.xml> ;
+    dcat:downloadURL <https://www.geoseaportal.de/atomfeeds/MO_H_HCB.xml> .
+

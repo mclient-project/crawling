@@ -1,0 +1,19 @@
+# How many catalogs list duplicates? Must not be a bad thing, but datasets should be 
+
+prefix dcat: <http://www.w3.org/ns/dcat#> 
+prefix dct: <http://purl.org/dc/terms/> 
+prefix prov: <http://www.w3.org/ns/prov#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix ckan: <http://ckan.aksw.org/ontology/>
+
+select COUNT(DISTINCT ?cat)  WHERE {
+
+?cat dcat:dataset ?s.
+?s ckan:id ?id .
+?cat2 dcat:dataset ?s2 .
+?s2 ckan:id  ?id .
+FILTER ( (?s != ?s2) &&  (?cat != ?cat2))
+}
+
+# Hits: 21 catalogs
+# Daten stammen hierher: http://offenedaten.kdvz-frechen.de/group/heimbach

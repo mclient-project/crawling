@@ -1,0 +1,1004 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/1.0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gml: <http://www.opengis.net/gml/3.2> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix odrs: <http://schema.theodi.org/odrs#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix hydra: <http://www.w3.org/ns/hydra/core#> .
+
+<http://api.nextbike.net/maps/nextbike-live.kml?city=14/distribution>
+    dcterms:description "<p>KML - Format</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/KMZ> ;
+    dcterms:issued "2020-12-24T23:52:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://api.nextbike.net/maps/nextbike-live.kml?city=14> ;
+    dcat:downloadURL <http://api.nextbike.net/maps/nextbike-live.kml?city=14> .
+
+<http://api.nextbike.net/maps/nextbike-live.xml?city=14/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
+    dcterms:issued "2020-12-24T23:52:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://api.nextbike.net/maps/nextbike-live.xml?city=14> ;
+    dcat:downloadURL <http://api.nextbike.net/maps/nextbike-live.xml?city=14> .
+
+<http://api.nextbike.net/maps/nextbike-official.kml?city=14/distribution>
+    dcterms:description "<p>KML - Format</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/KMZ> ;
+    dcterms:issued "2020-12-24T23:52:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://api.nextbike.net/maps/nextbike-official.kml?city=14> ;
+    dcat:downloadURL <http://api.nextbike.net/maps/nextbike-official.kml?city=14> .
+
+<http://api.nextbike.net/maps/nextbike-official.xml?city=14/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> ;
+    dcterms:issued "2020-12-24T23:52:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://api.nextbike.net/maps/nextbike-official.xml?city=14> ;
+    dcat:downloadURL <http://api.nextbike.net/maps/nextbike-official.xml?city=14> .
+
+<http://metaver.de/trefferanzeige?docuuid=9072E37F-8505-41F0-9332-B80C02C7E802/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:issued "2020-12-21T17:53:26.460Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Metadatenbeschreibung aus dem MetaVer"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://metaver.de/trefferanzeige?docuuid=9072E37F-8505-41F0-9332-B80C02C7E802> ;
+    dcat:byteSize 72450 ;
+    dcat:downloadURL <http://metaver.de/trefferanzeige?docuuid=9072E37F-8505-41F0-9332-B80C02C7E802> .
+
+<http://www.nlwkn.niedersachsen.de/download/103713/Pegelverzeichnis_Stand_Oktober_2015.pdf/distribution>
+    dcterms:description "Download: Pegelverzeichnis_2015.pdf" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Pegelverzeichnis_2015"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.nlwkn.niedersachsen.de/download/103713/Pegelverzeichnis_Stand_Oktober_2015.pdf> ;
+    dcat:downloadURL <http://www.nlwkn.niedersachsen.de/download/103713/Pegelverzeichnis_Stand_Oktober_2015.pdf> .
+
+<https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-1.7z/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-nc/4.0> ;
+    dcterms:title "Sensordaten (ohne GPS) - 1"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-1.7z> ;
+    dcat:downloadURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-1.7z> .
+
+<https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-10.7z/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-nc/4.0> ;
+    dcterms:title "Sensordaten (ohne GPS) - 10"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-10.7z> ;
+    dcat:downloadURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-10.7z> .
+
+<https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-11.7z/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-nc/4.0> ;
+    dcterms:title "Sensordaten (ohne GPS) - 11"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-11.7z> ;
+    dcat:downloadURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-11.7z> .
+
+<https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-12.7z/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-nc/4.0> ;
+    dcterms:title "Sensordaten (ohne GPS) - 12"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-12.7z> ;
+    dcat:downloadURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-12.7z> .
+
+<https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-13.7z/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-nc/4.0> ;
+    dcterms:title "Sensordaten (ohne GPS) - 13"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-13.7z> ;
+    dcat:downloadURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-13.7z> .
+
+<https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-14.7z/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-nc/4.0> ;
+    dcterms:title "Sensordaten (ohne GPS) - 14"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-14.7z> ;
+    dcat:downloadURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-14.7z> .
+
+<https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-15.7z/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-nc/4.0> ;
+    dcterms:title "Sensordaten (ohne GPS) - 15"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-15.7z> ;
+    dcat:downloadURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-15.7z> .
+
+<https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-2.7z/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-nc/4.0> ;
+    dcterms:title "Sensordaten (ohne GPS) - 2"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-2.7z> ;
+    dcat:downloadURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-2.7z> .
+
+<https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-3.7z/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-nc/4.0> ;
+    dcterms:title "Sensordaten (ohne GPS) - 3"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-3.7z> ;
+    dcat:downloadURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-3.7z> .
+
+<https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-4.7z/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-nc/4.0> ;
+    dcterms:title "Sensordaten (ohne GPS) - 4"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-4.7z> ;
+    dcat:downloadURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-4.7z> .
+
+<https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-5.7z/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-nc/4.0> ;
+    dcterms:title "Sensordaten (ohne GPS) - 5"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-5.7z> ;
+    dcat:downloadURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-5.7z> .
+
+<https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-6.7z/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-nc/4.0> ;
+    dcterms:title "Sensordaten (ohne GPS) - 6"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-6.7z> ;
+    dcat:downloadURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-6.7z> .
+
+<https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-7.7z/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-nc/4.0> ;
+    dcterms:title "Sensordaten (ohne GPS) - 7"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-7.7z> ;
+    dcat:downloadURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-7.7z> .
+
+<https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-8.7z/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-nc/4.0> ;
+    dcterms:title "Sensordaten (ohne GPS) - 8"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-8.7z> ;
+    dcat:downloadURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-8.7z> .
+
+<https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-9.7z/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-nc/4.0> ;
+    dcterms:title "Sensordaten (ohne GPS) - 9"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-9.7z> ;
+    dcat:downloadURL <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-9.7z> .
+
+<https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_07_05_04strubahnN/distribution>
+    dcterms:description "Atom Feed" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/ATOM> ;
+    dcterms:issued "2020-12-01T02:48:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "Atom Feed"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_07_05_04strubahnN> ;
+    dcat:downloadURL <https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_07_05_04strubahnN> .
+
+<https://fbinter.stadt-berlin.de/fb/wms/senstadt/k03_12_05_5noxemiverkehrges2009/distribution>
+    dcterms:description "API-Endpunkt des WMS-Service. Weitere Informationen unter https://www.ogc.org/standards/wms" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WMS_SRVC> ;
+    dcterms:issued "2020-12-01T02:49:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "API-Endpunkt des WMS-Service"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://fbinter.stadt-berlin.de/fb/wms/senstadt/k03_12_05_5noxemiverkehrges2009> ;
+    dcat:downloadURL <https://fbinter.stadt-berlin.de/fb/wms/senstadt/k03_12_05_5noxemiverkehrges2009> .
+
+<https://fbinter.stadt-berlin.de/fb/wms/senstadt/k03_12_05_5noxemiverkehrges2009?request=getcapabilities&service=wms&version=1.3.0/distribution>
+    dcterms:description "Maschinenlesbare Endpunkt-Beschreibung des WMS-Service. Weitere Informationen unter https://www.ogc.org/standards/wms" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WMS_SRVC> ;
+    dcterms:issued "2020-12-01T02:49:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "Endpunkt-Beschreibung des WMS-Service"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://fbinter.stadt-berlin.de/fb/wms/senstadt/k03_12_05_5noxemiverkehrges2009?request=getcapabilities&service=wms&version=1.3.0> ;
+    dcat:downloadURL <https://fbinter.stadt-berlin.de/fb/wms/senstadt/k03_12_05_5noxemiverkehrges2009?request=getcapabilities&service=wms&version=1.3.0> .
+
+<https://fbinter.stadt-berlin.de/fb?loginkey=showMap&mapId=k03_12_05_5noxemiverkehrges2009@senstadt/distribution>
+    dcterms:description "Aufruf des Geoportals Berlin mit Darstellung der Karte und weiterer Metadaten" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:issued "2020-12-01T02:49:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "Serviceseite im FIS-Broker"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://fbinter.stadt-berlin.de/fb?loginkey=showMap&mapId=k03_12_05_5noxemiverkehrges2009@senstadt> ;
+    dcat:downloadURL <https://fbinter.stadt-berlin.de/fb?loginkey=showMap&mapId=k03_12_05_5noxemiverkehrges2009@senstadt> .
+
+<https://fbinter.stadt-berlin.de/fb_daten/beschreibung/umweltatlas/datenformatbeschreibung/Datenformatbeschreibung_07_05_strubahn2017.html/distribution>
+    dcterms:description "Aufruf des Geoportals Berlin mit Darstellung der downloadbaren Daten als Karte(nlayer)" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:issued "2020-12-01T02:48:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "Aufruf des Geoportals Berlin mit Darstellung der downloadbaren Daten als Karte(nlayer)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://fbinter.stadt-berlin.de/fb_daten/beschreibung/umweltatlas/datenformatbeschreibung/Datenformatbeschreibung_07_05_strubahn2017.html> ;
+    dcat:downloadURL <https://fbinter.stadt-berlin.de/fb_daten/beschreibung/umweltatlas/datenformatbeschreibung/Datenformatbeschreibung_07_05_strubahn2017.html> .
+
+<https://fbinter.stadt-berlin.de/fb_daten/beschreibung/umweltatlas/datenformatbeschreibung/Datenformatbeschreibung_emissionen_nox.html/distribution>
+    dcterms:description "Technische Beschreibung" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:issued "2020-12-01T02:49:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "Technische Beschreibung"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://fbinter.stadt-berlin.de/fb_daten/beschreibung/umweltatlas/datenformatbeschreibung/Datenformatbeschreibung_emissionen_nox.html> ;
+    dcat:downloadURL <https://fbinter.stadt-berlin.de/fb_daten/beschreibung/umweltatlas/datenformatbeschreibung/Datenformatbeschreibung_emissionen_nox.html> .
+
+<https://geodienste.hamburg.de/HH_WFS_Harazaen?REQUEST=GetCapabilities&SERVICE=WFS/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WFS_SRVC> ;
+    dcterms:issued "2020-12-21T17:53:26.460Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Dienst \"WFS Verkehrsdaten Rad (Infrarotdetektoren) Hamburg\" (GetCapabilities)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geodienste.hamburg.de/HH_WFS_Harazaen?REQUEST=GetCapabilities&SERVICE=WFS> ;
+    dcat:byteSize 27881 ;
+    dcat:downloadURL <https://geodienste.hamburg.de/HH_WFS_Harazaen?REQUEST=GetCapabilities&SERVICE=WFS> .
+
+<https://geodienste.hamburg.de/HH_WFS_Harazaen?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&typename=de.hh.up:zaehlstellen_daten/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/GML> ;
+    dcterms:issued "2020-12-21T17:53:26.460Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Download WFS Verkehrsdaten Rad (Infrarotdetektoren) Hamburg (GML)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geodienste.hamburg.de/HH_WFS_Harazaen?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&typename=de.hh.up:zaehlstellen_daten> ;
+    dcat:byteSize 255385 ;
+    dcat:downloadURL <https://geodienste.hamburg.de/HH_WFS_Harazaen?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&typename=de.hh.up:zaehlstellen_daten> .
+
+<https://geodienste.hamburg.de/HH_WFS_Harazaen?service=WFS&request=DescribeFeatureType&version=1.1.0&typename=de.hh.up:zaehlstellen_daten/distribution>
+    dcterms:issued "2020-12-21T17:53:26.460Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Download WFS-Schemadatei Verkehrsdaten Rad (Infrarotdetektoren) Hamburg (XSD)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geodienste.hamburg.de/HH_WFS_Harazaen?service=WFS&request=DescribeFeatureType&version=1.1.0&typename=de.hh.up:zaehlstellen_daten> ;
+    dcat:byteSize 1902 ;
+    dcat:downloadURL <https://geodienste.hamburg.de/HH_WFS_Harazaen?service=WFS&request=DescribeFeatureType&version=1.1.0&typename=de.hh.up:zaehlstellen_daten> .
+
+<https://geodienste.hamburg.de/HH_WMS_Harazaen?REQUEST=GetCapabilities&SERVICE=WMS/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WMS_SRVC> ;
+    dcterms:issued "2020-12-21T17:53:26.460Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Dienst \"WMS Verkehrsdaten Rad (Infrarotdetektoren) Hamburg\" (GetCapabilities)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geodienste.hamburg.de/HH_WMS_Harazaen?REQUEST=GetCapabilities&SERVICE=WMS> ;
+    dcat:byteSize 12954 ;
+    dcat:downloadURL <https://geodienste.hamburg.de/HH_WMS_Harazaen?REQUEST=GetCapabilities&SERVICE=WMS> .
+
+<https://gitlab.hrz.tu-chemnitz.de/opener/opener-app/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/gpl/3.0> ;
+    dcterms:title "Source-Code"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://gitlab.hrz.tu-chemnitz.de/opener/opener-app> ;
+    dcat:downloadURL <https://gitlab.hrz.tu-chemnitz.de/opener/opener-app> .
+
+<https://iot.hamburg.de/v1.0/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_15-Min%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_15-Min%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-21T17:53:26.460Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "STA Layerabfrage: Fahrradaufkommen je Zählfeld je 15-Min-Intervall (JSON)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://iot.hamburg.de/v1.0/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_15-Min%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_15-Min%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))> ;
+    dcat:byteSize 528895 ;
+    dcat:downloadURL <https://iot.hamburg.de/v1.0/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_15-Min%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_15-Min%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))> .
+
+<https://iot.hamburg.de/v1.0/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_5-Min%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_5-Min%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-21T17:53:26.460Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "STA Layerabfrage: Fahrradaufkommen je Zählfeld je 5-Min-Intervall (JSON)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://iot.hamburg.de/v1.0/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_5-Min%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_5-Min%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))> ;
+    dcat:byteSize 528428 ;
+    dcat:downloadURL <https://iot.hamburg.de/v1.0/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_5-Min%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_5-Min%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))> .
+
+<https://iot.hamburg.de/v1.0/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Stunde%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Stunde%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-21T17:53:26.460Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "STA Layerabfrage: Fahrradaufkommen je Zähstelle je 1-Stunden-Intervall (JSON)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://iot.hamburg.de/v1.0/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Stunde%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Stunde%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))> ;
+    dcat:byteSize 531516 ;
+    dcat:downloadURL <https://iot.hamburg.de/v1.0/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Stunde%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Stunde%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))> .
+
+<https://iot.hamburg.de/v1.1/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20&$count=true&$expand=Locations/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-21T17:53:26.460Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "STA Standortabfrage: Zählfeder und Zählstellen (Infrarotdetektoren)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://iot.hamburg.de/v1.1/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20&$count=true&$expand=Locations> ;
+    dcat:byteSize 156445 ;
+    dcat:downloadURL <https://iot.hamburg.de/v1.1/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20&$count=true&$expand=Locations> .
+
+<https://iot.hamburg.de/v1.1/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_1-Tag%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_1-Tag%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-21T17:53:26.460Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "STA Layerabfrage: Fahrradaufkommen je Zählfeld je Tagesintervall (JSON)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://iot.hamburg.de/v1.1/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_1-Tag%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_1-Tag%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))> ;
+    dcat:byteSize 514966 ;
+    dcat:downloadURL <https://iot.hamburg.de/v1.1/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_1-Tag%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_1-Tag%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))> .
+
+<https://iot.hamburg.de/v1.1/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Tag%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Tag%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-21T17:53:26.460Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "STA Layerabfrage: Fahrradaufkommen je Zählstelle je Tagesintervall (JSON)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://iot.hamburg.de/v1.1/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Tag%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Tag%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))> ;
+    dcat:byteSize 525494 ;
+    dcat:downloadURL <https://iot.hamburg.de/v1.1/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Tag%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Tag%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))> .
+
+<https://iot.hamburg.de/v1.1/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Woche%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Woche%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-21T17:53:26.460Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "STA Layerabfrage: Fahrradaufkommen je Zählstelle je Wochenintervall (JSON)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://iot.hamburg.de/v1.1/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Woche%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Woche%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))> ;
+    dcat:byteSize 473399 ;
+    dcat:downloadURL <https://iot.hamburg.de/v1.1/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Woche%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Woche%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))> .
+
+<https://iot.hamburg.de/v1.1/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_15-Min%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_15-Min%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-21T17:53:26.460Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "STA Layerabfrage: Fahrradaufkommen je Zählstelle je 15-Min-Intervall (JSON)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://iot.hamburg.de/v1.1/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_15-Min%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_15-Min%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))> ;
+    dcat:byteSize 530294 ;
+    dcat:downloadURL <https://iot.hamburg.de/v1.1/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_15-Min%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_15-Min%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))> .
+
+<https://iot.hamburg.de/v1.1/Things?%24filter=Datastreams%2Fproperties%2FserviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27&$count=true&$expand=Locations,Datastreams($expand=Observations($top=3;$orderby=phenomenonTimedesc),Sensor,ObservedProperty)/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-21T17:53:26.460Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "STA Gesamtserviceabfrage: Zählfelder und Zählstellen mit den letzten 3 Beobachtungswerten (JSON)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://iot.hamburg.de/v1.1/Things?%24filter=Datastreams%2Fproperties%2FserviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27&$count=true&$expand=Locations,Datastreams($expand=Observations($top=3;$orderby=phenomenonTimedesc),Sensor,ObservedProperty)> ;
+    dcat:byteSize 183 ;
+    dcat:downloadURL <https://iot.hamburg.de/v1.1/Things?%24filter=Datastreams%2Fproperties%2FserviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27&$count=true&$expand=Locations,Datastreams($expand=Observations($top=3;$orderby=phenomenonTimedesc),Sensor,ObservedProperty)> .
+
+<https://lfu.brandenburg.de/cms/detail.php/bb1.c.310794.de/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/SHP> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "Räumliches Entwicklungspotential von Gewässern / DVD-Bestellung"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://lfu.brandenburg.de/cms/detail.php/bb1.c.310794.de> ;
+    dcat:downloadURL <https://lfu.brandenburg.de/cms/detail.php/bb1.c.310794.de> .
+
+<https://lfu.brandenburg.de/cms/detail.php/bb1.c.326852.de/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/SHP> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "Raumverfügbarkeit und Sicherung von Gewässerrandflächen"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://lfu.brandenburg.de/cms/detail.php/bb1.c.326852.de> ;
+    dcat:downloadURL <https://lfu.brandenburg.de/cms/detail.php/bb1.c.326852.de> .
+
+<https://mcloud.de>
+    dcterms:description "Dies ist das Portal der mCLOUD."@de ;
+    dcterms:publisher <https://mcloud.de/#publisher> ;
+    dcterms:title "mCLOUD Portal"@de ;
+    a dcat:Catalog ;
+    dcat:dataset <https://mcloud.de/web/guest/suche/-/results/detail/094a385e-50e9-471b-947e-0ab0d216d2c8>, <https://mcloud.de/web/guest/suche/-/results/detail/095ea48f-45e1-45f9-b381-d9c35e9f93c1>, <https://mcloud.de/web/guest/suche/-/results/detail/09605bac-456d-4686-a512-0de742f329c9>, <https://mcloud.de/web/guest/suche/-/results/detail/0973a31f-efc1-43e5-ac53-ccfa6a31efbf>, <https://mcloud.de/web/guest/suche/-/results/detail/097f084a-6858-4e20-ac16-a410c4d94a5a>, <https://mcloud.de/web/guest/suche/-/results/detail/0985281e-5e04-4b8c-89bc-0170a9c86255>, <https://mcloud.de/web/guest/suche/-/results/detail/09B9677B-486C-4DC6-AA0F-EF0DE0084216>, <https://mcloud.de/web/guest/suche/-/results/detail/0B3BA7EC-8763-46CA-81A0-575327FD6C6A>, <https://mcloud.de/web/guest/suche/-/results/detail/0C3245A0-6D08-4AC0-9983-538D82EE39DF>, <https://mcloud.de/web/guest/suche/-/results/detail/0FBA9F7B-1748-4BAF-BA2F-5E5F30BA9DCA> ;
+    foaf:homepage <https://mcloud.de/> .
+
+<https://mcloud.de/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesministerium für Verkehr und digitale Infrastruktur" .
+
+<https://mcloud.de/export/datasets?page=12>
+    a hydra:PagedCollection ;
+    hydra:firstPage "https://mcloud.de/export/datasets?page=1" ;
+    hydra:itemsPerPage 10 ;
+    hydra:lastPage "https://mcloud.de/export/datasets?page=420" ;
+    hydra:nextPage "https://mcloud.de/export/datasets?page=13" ;
+    hydra:previousPage "https://mcloud.de/export/datasets?page=11" ;
+    hydra:totalItems 4200 .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/094a385e-50e9-471b-947e-0ab0d216d2c8>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/NEVER> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:name "Senatsverwaltung für Umwelt, Verkehr und Klimaschutz Berlin"
+    ] ;
+    dcterms:description "<p>Die Strategischen Lärmkarten 2017 geben Auskunft über die Lärmbelastung im Einwirkbereich von Hauptlärmquellen. Sie sind eine Fortführung der Strategischen Lärmkarten 2012.</p>"@de ;
+    dcterms:identifier "094a385e-50e9-471b-947e-0ab0d216d2c8" ;
+    dcterms:issued "2020-09-05T14:01:30Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-12-01T02:48:03Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/094a385e-50e9-471b-947e-0ab0d216d2c8/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        locn:geometry "POLYGON ((13.079 52.3284, 13.7701 52.3284, 13.7701 52.6877, 13.079 52.6877, 13.079 52.3284))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[13.079, 52.3284], [13.7701, 52.3284], [13.7701, 52.6877], [13.079, 52.6877], [13.079, 52.3284]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "Strat. Lärmkarte L_N (Nacht-Index) Straßen-/U-Bahnverkehr 2017 (UA) - [Atom]"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://fbinter.stadt-berlin.de/fb/feed/senstadt/a_07_05_04strubahnN/distribution>, <https://fbinter.stadt-berlin.de/fb_daten/beschreibung/umweltatlas/datenformatbeschreibung/Datenformatbeschreibung_07_05_strubahn2017.html/distribution> ;
+    dcat:keyword "34. BImSchV"@de, "BVG"@de, "Berlin"@de, "Emissionen"@de, "Geodaten"@de, "Geographie und Stadtplanung"@de, "Karten"@de, "Lärmkartierung"@de, "Strategische Lärmkarten"@de, "Straßenbahn"@de, "Tram"@de, "U-Bahn"@de, "Umgebungslärm"@de, "Verkehr"@de, "infoFeatureAccessService"@de, "inspireidentifiziert"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/094a385e-50e9-471b-947e-0ab0d216d2c8/#publisher>
+    a foaf:Agent ;
+    foaf:name "Harvester FIS Broker" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/095ea48f-45e1-45f9-b381-d9c35e9f93c1>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:name "KVB Koeln"
+    ] ;
+    dcterms:description """<p>Georeferenzierte Auflistung der Verleihstationen und der aktuellen Standorte der abgestellten Fahrräder im Stadtgebiet Köln.</p>
+
+<p>Die Fahrräder können an einer Verleihstation zurückgegeben oder innerhalb des Bediengebiets an jeder öffentlich einsehbaren Straßenkreuzung abgestellt werden.</p>
+
+<p>Weitere Informationen unter <a href=\"http://www.kvb-rad.de/de/koeln/\">http://www.kvb-rad.de/de/koeln/</a></p>
+
+<p><strong>Achtung</strong></p>
+
+<p>Dienste, welche die bereitgestellten Daten in einem Intervall kleiner 10 Minuten abrufen, werden gesperrt.</p>
+
+<p> </p>
+"""@de ;
+    dcterms:identifier "095ea48f-45e1-45f9-b381-d9c35e9f93c1" ;
+    dcterms:issued "2015-09-30T09:29:21Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2018-03-07T07:21:57Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/095ea48f-45e1-45f9-b381-d9c35e9f93c1/#publisher> ;
+    dcterms:title "Standorte Fahrradverleih Koeln - KVB-Rad"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://api.nextbike.net/maps/nextbike-live.kml?city=14/distribution>, <http://api.nextbike.net/maps/nextbike-live.xml?city=14/distribution>, <http://api.nextbike.net/maps/nextbike-official.kml?city=14/distribution>, <http://api.nextbike.net/maps/nextbike-official.xml?city=14/distribution> ;
+    dcat:keyword "Offene Daten Köln"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/095ea48f-45e1-45f9-b381-d9c35e9f93c1/#publisher>
+    a foaf:Agent ;
+    foaf:name "Köln" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/09605bac-456d-4686-a512-0de742f329c9>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/NEVER> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:name "Senatsverwaltung für Umwelt, Verkehr und Klimaschutz Berlin"
+    ] ;
+    dcterms:description """<p>Darstellung der NOx-Emissionen der Verursachergruppe Kfz-Verkehr Gesamtnetz 2009, Stand 2011</p>
+
+<p><img alt=\"Vorschaugrafik zu Datensatz &#39;Entwicklung Luftqualität NOx-Emissionen Kfz-Verkehr GN 2009 (Umweltatlas)&#39;\" src=\"https://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/kvor03_12_05_5noxemikfzverkehrges2009.jpg\"/></p>"""@de ;
+    dcterms:identifier "09605bac-456d-4686-a512-0de742f329c9" ;
+    dcterms:issued "2020-11-16T19:43:54Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-12-01T02:49:05Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/09605bac-456d-4686-a512-0de742f329c9/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        locn:geometry "POLYGON ((13.0512 52.3246, 13.7785 52.3246, 13.7785 52.6935, 13.0512 52.6935, 13.0512 52.3246))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[13.0512, 52.3246], [13.7785, 52.3246], [13.7785, 52.6935], [13.0512, 52.6935], [13.0512, 52.3246]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "Entwicklung Luftqualität NOx-Emissionen Kfz-Verkehr GN 2009 (Umweltatlas) - [WMS]"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://fbinter.stadt-berlin.de/fb/wms/senstadt/k03_12_05_5noxemiverkehrges2009/distribution>, <https://fbinter.stadt-berlin.de/fb/wms/senstadt/k03_12_05_5noxemiverkehrges2009?request=getcapabilities&service=wms&version=1.3.0/distribution>, <https://fbinter.stadt-berlin.de/fb?loginkey=showMap&mapId=k03_12_05_5noxemiverkehrges2009@senstadt/distribution>, <https://fbinter.stadt-berlin.de/fb_daten/beschreibung/umweltatlas/datenformatbeschreibung/Datenformatbeschreibung_emissionen_nox.html/distribution>, <https://www.stadtentwicklung.berlin.de/umwelt/umweltatlas/i312.htm/distribution> ;
+    dcat:keyword "2009"@de, "BImSchG"@de, "Berlin"@de, "Bundesimmissionsschutzgesetz"@de, "Emissionen"@de, "Entwicklung"@de, "Geodaten"@de, "Geographie und Stadtplanung"@de, "Karten"@de, "Kataster"@de, "Luftgüte"@de, "Luftqualität"@de, "NOx"@de, "Raster"@de, "Umweltatlas"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/09605bac-456d-4686-a512-0de742f329c9/#publisher>
+    a foaf:Agent ;
+    foaf:name "Harvester FIS Broker" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0973a31f-efc1-43e5-ac53-ccfa6a31efbf>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:name "Stadt Köln"
+    ] ;
+    dcterms:description """<p>Erfasste Bußgeldtatbestände für das Jahr 2016, unter anderem nach Datum, Strasse, Fahrzeugart und Tatbestand.</p>
+<p>Eine Aufschlüsselung der Tatbestandsnummern kann über den \"Bundeseinheitlichen Tatbestandskatalog - Straßenverkehrsordnungswidrigkeiten\" eingesehen werden: <a href=\"https://www.kba.de/DE/ZentraleRegister/FAER/BT_KAT_OWI/btkat_start_inhalt.html\">https://www.kba.de/DE/ZentraleRegister/FAER/BT_KAT_OWI/btkat_start_inhalt.html</a></p>
+"""@de ;
+    dcterms:identifier "0973a31f-efc1-43e5-ac53-ccfa6a31efbf" ;
+    dcterms:issued "2017-08-14T12:33:27Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2017-08-14T14:02:22Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0973a31f-efc1-43e5-ac53-ccfa6a31efbf/#publisher> ;
+    dcterms:title "Bußgelddaten Koeln 2016"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://offenedaten-koeln.de/sites/default/files/2016_01_0.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/2016_02.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/2016_03.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/2016_04.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/2016_05.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/2016_06.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/2016_07.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/2016_08.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/2016_09.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/2016_10.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/2016_11.csv/distribution>, <https://offenedaten-koeln.de/sites/default/files/2016_12.csv/distribution>, <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=1a0f338d-1c06-4729-9ca1-1392813b84b7/distribution>, <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=27d3e7a5-cd3b-4862-af11-57ae8e989e70/distribution>, <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=41f4adb4-27b4-4229-ad04-7a63491e0589/distribution>, <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=57daf827-cf23-4b13-89cf-31577821c469/distribution>, <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=65df3024-5da7-479f-888d-8c7d2a35f267/distribution>, <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=6e7d76f3-3984-4e8d-bd38-abeae9f11901/distribution>, <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=81aa61e9-5123-4874-95d8-b93ee7da794f/distribution>, <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=94864298-1e1c-499b-be8f-b684384c8837/distribution>, <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=bdc0410d-016f-41c4-a717-b6f81502e17f/distribution>, <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=dd5fead1-929a-48eb-8a03-fefe54931d2c/distribution>, <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=f74a51d3-a6d6-484f-b6dd-b8b71f51ea3f/distribution>, <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=fe303737-ebce-456e-bdfa-9019bdb45704/distribution> ;
+    dcat:keyword "Offene Daten Köln"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0973a31f-efc1-43e5-ac53-ccfa6a31efbf/#publisher>
+    a foaf:Agent ;
+    foaf:name "Köln" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/097f084a-6858-4e20-ac16-a410c4d94a5a>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcatde:originator [
+        a foaf:Organization ;
+        foaf:mbox "Susanne.Tamm@bsh.de" ;
+        foaf:name "Susanne Tamm"
+    ] ;
+    dcterms:accessRights "Dieser Datensatz kann gemäß der \"Datenlizenz Deutschland – Namensnennung – Version 2.0\" (www.govdata.de/dl-de/by-2-0) genutzt werden."@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "Susanne.Tamm@bsh.de" ;
+        foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)"
+    ] ;
+    dcterms:description "Im Rahmen des gemeinsames Bund/Länder-Messprogramm für die Nord- und Ostsee + weitere Überwachungsprogramme wurde der Parameter \"Isodrin im Meerwasser\" im Meerwasser bestimmt."@de ;
+    dcterms:identifier "097f084a-6858-4e20-ac16-a410c4d94a5a" ;
+    dcterms:modified "2020-08-31T05:53:09.702Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/097f084a-6858-4e20-ac16-a410c4d94a5a/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "000000000000" ;
+        locn:geometry "POLYGON ((3.348333333 55.91698, 9.54 55.91698, 9.54 53.62, 3.348333333 53.62, 3.348333333 55.91698))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[3.348333333, 55.91698], [9.54, 55.91698], [9.54, 53.62], [3.348333333, 53.62], [3.348333333, 55.91698]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2017-09-13T02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2017-05-31T02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Isodrin im Meerwasser 2017"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" ;
+        vcard:hasCountryName "Deutschland" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/Johannes.Melles@bsh.de> ;
+        vcard:hasLocality "Hamburg" ;
+        vcard:hasPostalCode "20359" ;
+        vcard:hasStreetAddress "Bernhard-Nocht-Str. 78"
+    ] ;
+    dcat:distribution <https://www.geoseaportal.de/atomfeeds/MO_H_ISOD.xml/distribution> ;
+    dcat:keyword "2017"@de, "ISOD"@de, "Isodrin"@de, "Monitoring"@de, "Nordsee"@de, "Ostsee"@de, "Wasser"@de, "mcloud_category_waters"@de, "opendata"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/097f084a-6858-4e20-ac16-a410c4d94a5a/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0985281e-5e04-4b8c-89bc-0170a9c86255>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:name "Behörde für Verkehr und Mobilitätswende (BVM)"
+    ] ;
+    dcterms:description """<p>Allgemeine Informationen: 
+Der Datensatz umfasst Verkehrsdaten aller Standorte in Hamburg, an denen der Radverkehr mittels Infrarotdetektoren an 24h am Tag und allen Tagen des Jahres erfasst wird. </p>
+
+<p>Der Datensatz enthält in Echtzeit sowohl die Verkehrsstärken einzelner Zählfelder als auch aus mehreren Zählfeldern aggregierte Zählstellen.
+Der schematische Aufbau der Datenerfassung und Datenaggregation ist in einem separaten Dokument beschrieben, welches in den Verweisen zu finden ist.</p>
+
+<p>Die Daten der Zählfelder werden in 5- und 15-Minuten- sowie in Tagesintervallen bereitgestellt. 
+Die Daten der Zählstellen liegen aggregiert in 15- und 60-Minuten-Intervallen sowie in Tages- und Wochenwerten vor. Die Daten der Zählstellen werden außerdem in den entsprechenden Geoportalen der FHH, z.B. Geo-Online und Verkehrsportal, visualisiert.</p>
+
+<p>Neben den Echtzeitdaten sind auch historische Daten in folgendem Umfang verfügbar: 
+Zählfelder: alle Daten für die vorausgegangenen sieben Tage in 5- und 15-Minuten-Intervallen, alle Daten für den vorausgegangenen Monat in Stundenintervallen, alle Daten für das aktuelle und das vorausgegangene Jahr in Tagesintervallen.
+Zählstellen: alle Daten für die vorausgegangenen sieben Tage in 15-Minuten-Intervallen, alle Daten für den vorausgegangenen Monat in Stundenintervallen, alle Daten für das aktuelle und das vorausgegangene Jahr in Tagesintervallen, alle Daten seit Beginn der Erfassung in Wochenintervallen.</p>
+
+<p>Weitergehende Hinweise zur technischen Umsetzung der Datenbereitstellung sind in den Metadaten der zugehörigen Datendienste zu finden.</p>
+
+<p>Informationen zur Technik: 
+Die Infrarotdetektoren sind in der Regel an Beleuchtungsmasten, zum Teil aber auch an anderen Masten, installiert. Die Detektoren erfassen und zählen den Verkehr über die Wärmeabstrahlung der einzelnen Verkehrsteilnehmenden. Da ausschließlich Infrarotbilder ausgewertet werden, ist der Datenschutz zu jeder Zeit gewährleistet.</p>
+
+<p>Hinweise zur Datenqualität: 
+Die Daten werden in Echtzeit an die Urban Data Platform der FHH übertragen. So sind diese zeitnah für alle Nutzenden und Interessierten verfügbar. Durch die Echtzeitkomponente sind allerdings verschiedene Rahmenbedingungen zu beachten: Die Daten sind zum Zeitpunkt der ersten Veröffentlichung nicht umfassend qualitätsgesichert. Ungewöhnliche Abweichungen von den zu erwartenden Daten und Datenlücken werden zwar automatisch vom System erkannt, können aber derzeit nicht in Echtzeit korrigiert werden. Lücken, die z.B. durch einen Abriss der Datenübertragung auftreten, können im Nachhinein noch nachgeliefert werden. Unter Umständen und bei längeren Ausfällen können folglich noch nach ein paar Tagen Änderungen in den historischen Daten erfolgen. Es handelt sich bei den hier veröffentlichten Daten nicht um amtlich geprüfte Daten der FHH. </p>
+
+<p>Wie bei jeder Verkehrszählung, egal ob automatisiert oder manuell, gibt es gewisse Toleranzen in der Messgenauigkeit. Anspruch an das hier verwendete System sind Genauigkeiten für die Zählfelder von +/- 10% bei der Erfassung des Radverkehrs auf Gehwegen, Radwegen und Radverkehrsstreifen sowie +/-20% bei der Erfassung des Radverkehrs im Mischverkehr mit Kraftfahrzeugen. Da Zählstellen aus einer Kombination verschiedener Zählfelder gebildet werden, kann die Abweichung bis zu +/-20% betragen.</p>
+
+<p>Grundsätzlich ist zu beachten, dass sich das System, inklusive der Erfassungstechnik, im Jahr 2020 noch in der Entwicklung befunden hat. Die historischen Daten aus dem Jahr 2020 können somit zwar zur Bewertung der grundsätzlichen Entwicklung des Verkehrs durchaus herangezogen werden, haben aber zum Teil größere Ungenauigkeiten und Sprünge in der Datenqualität.</p>"""@de ;
+    dcterms:identifier "0985281e-5e04-4b8c-89bc-0170a9c86255" ;
+    dcterms:issued "2020-12-02T17:30:20.650Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-12-21T17:53:26.168Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0985281e-5e04-4b8c-89bc-0170a9c86255/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "['Hamburg (02000000)']" ;
+        locn:geometry "POLYGON ((10.326304 53.394985, 10.326304 53.964153, 8.420551 53.964153, 8.420551 53.394985, 10.326304 53.394985))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.326304, 53.394985], [10.326304, 53.964153], [8.420551, 53.964153], [8.420551, 53.394985], [10.326304, 53.394985]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:startDate "2020-01-01T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Verkehrsdaten Rad (Infrarotdetektoren) Hamburg"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://metaver.de/trefferanzeige?docuuid=9072E37F-8505-41F0-9332-B80C02C7E802/distribution>, <https://geodienste.hamburg.de/HH_WFS_Harazaen?REQUEST=GetCapabilities&SERVICE=WFS/distribution>, <https://geodienste.hamburg.de/HH_WFS_Harazaen?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&typename=de.hh.up:zaehlstellen_daten/distribution>, <https://geodienste.hamburg.de/HH_WFS_Harazaen?service=WFS&request=DescribeFeatureType&version=1.1.0&typename=de.hh.up:zaehlstellen_daten/distribution>, <https://geodienste.hamburg.de/HH_WMS_Harazaen?REQUEST=GetCapabilities&SERVICE=WMS/distribution>, <https://iot.hamburg.de/v1.0/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_15-Min%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_15-Min%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))/distribution>, <https://iot.hamburg.de/v1.0/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_5-Min%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_5-Min%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))/distribution>, <https://iot.hamburg.de/v1.0/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Stunde%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Stunde%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))/distribution>, <https://iot.hamburg.de/v1.1/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20&$count=true&$expand=Locations/distribution>, <https://iot.hamburg.de/v1.1/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_1-Tag%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlfeld_1-Tag%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))/distribution>, <https://iot.hamburg.de/v1.1/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Tag%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Tag%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))/distribution>, <https://iot.hamburg.de/v1.1/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Woche%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_1-Woche%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))/distribution>, <https://iot.hamburg.de/v1.1/Things?$filter=Datastreams/properties/serviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27%20and%20Datastreams/properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_15-Min%27&$count=true&$expand=Datastreams($filter=properties/layerName%20eq%20%27Anzahl_Fahrraeder_Zaehlstelle_15-Min%27;$expand=Observations($top=10;$orderby=phenomenonTime%20desc))/distribution>, <https://iot.hamburg.de/v1.1/Things?%24filter=Datastreams%2Fproperties%2FserviceName%20eq%20%27HH_STA_HamburgerRadzaehlnetz%27&$count=true&$expand=Locations,Datastreams($expand=Observations($top=3;$orderby=phenomenonTimedesc),Sensor,ObservedProperty)/distribution>, <https://www.hamburg.de/contentblob/14627042/f2f0db81d53971ad793a4a65da902d54/data/schematischer-aufbau-der-datenerfassung-und-aggregation.pdf/distribution> ;
+    dcat:keyword "Behörde"@de, "Belegungsgrad"@de, "Fahrrad"@de, "Geodaten"@de, "HaRaZäN"@de, "Infrarotkamera"@de, "Nahverkehr"@de, "Radverkehr"@de, "Radzählnetz"@de, "Straße"@de, "Transport & Verkehr"@de, "Verkehr"@de, "Verkehrsmengen"@de, "Verkehrszählung"@de, "Wärmebild"@de, "Wärmebildkamera"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0985281e-5e04-4b8c-89bc-0170a9c86255/#publisher>
+    a foaf:Agent ;
+    foaf:name "Transparenzportal Hamburg: Behörde für Verkehr und Mobilitätswende (BVM)" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/09B9677B-486C-4DC6-AA0F-EF0DE0084216>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dcterms:description "Insgesamt betreibt das Land Niedersachsen etwa 260 Pegel. An etwa 220 Pegeln wird zusätzlich zum Wasserstand noch der Abfluss ermittelt. Ein Großteil der Pegel wurde in den 50er und 60er Jahren des letzten Jahrhunderts errichtet, teilweise gibt es jedoch auch Pegel mit längerer Beobachtungsdauer. Von allen Pegeln liegen etwa 20 Pegel im Tidegebiet und 60 Pegel sind Hochwassermeldepegel."@de ;
+    dcterms:identifier "09B9677B-486C-4DC6-AA0F-EF0DE0084216" ;
+    dcterms:issued "2016-02-29T11:26:22Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2016-02-29T11:26:22Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/09B9677B-486C-4DC6-AA0F-EF0DE0084216/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        locn:geometry "POLYGON ((6.672491 53.867974, 11.616766 53.867974, 11.616766 51.383563, 6.672491 51.383563, 6.672491 53.867974))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[6.672491, 53.867974], [11.616766, 53.867974], [11.616766, 51.383563], [6.672491, 51.383563], [6.672491, 53.867974]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "Pegelmessnetz Gewässerüberwachung Niedersachsen (GÜN)"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "NLWKN" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/geodaten@nlwkn-dir.niedersachsen.de>
+    ] ;
+    dcat:distribution <http://www.nlwkn.niedersachsen.de/download/103713/Pegelverzeichnis_Stand_Oktober_2015.pdf/distribution> ;
+    dcat:keyword "catchment-area"@de, "drainage-area"@de, "durchfluss"@de, "environmental-monitoring-facilities"@de, "flusseinzugsgebiet"@de, "gewässereinzugsgebiet"@de, "hydrographisches-becken"@de, "inspire"@de, "inspireidentifiziert"@de, "mcloud_category_waters"@de, "opendata"@de, "pegel"@de, "seeneinzugsgebiet"@de, "umweltüberwachung"@de, "wasserstand"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI>, <http://publications.europa.eu/resource/authority/data-theme/REGI>, <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/09B9677B-486C-4DC6-AA0F-EF0DE0084216/#publisher>
+    a foaf:Agent ;
+    foaf:name "GovData: NLWKN" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0B3BA7EC-8763-46CA-81A0-575327FD6C6A>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:description """Die OPENER-App ist eine Android-Applikation, die der Erfassung von Barrieren an Haltestellen des ÖPNV dient. Die erfassten Daten sind geo-referenziert, werden Haltestellensteig (bzw. -mast) scharf aufgelöst und sind mit der Deutschlandweit eindeutigen Haltestellen-ID (DHID) versehen. Die Barriere-Daten werden nach dem Datenstandard des DELFI-Vereins erfasst und sind somit deutschlandweit nutzbar (vgl. https://www.delfi.de/de/leistungen-produkte/handbuch-barrierefreiheit/).
+
+Der Source-Code der App wird fortlaufend weiterentwickelt, ein regelmäßiges Überprüfen des verlinkten GitLab-Repositories ist daher empfehlenswert. Weiterhin wird derzeit eine Beta-Version im Google Play Store zum Test angeboten."""@de ;
+    dcterms:identifier "0B3BA7EC-8763-46CA-81A0-575327FD6C6A" ;
+    dcterms:issued "2020-04-17T05:43:57.411Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-04-17T05:46:12.638Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0B3BA7EC-8763-46CA-81A0-575327FD6C6A/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Bundesrepublik Deutschland" ;
+        locn:geometry "POLYGON ((6.098034 55.054344, 15.578555 55.054344, 15.578555 47.23942, 6.098034 47.23942, 6.098034 55.054344))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[6.098034, 55.054344], [15.578555, 55.054344], [15.578555, 47.23942], [6.098034, 47.23942], [6.098034, 55.054344]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "OPENER App Source-Code"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://gitlab.hrz.tu-chemnitz.de/opener/opener-app/distribution>, <https://play.google.com/apps/testing/org.mytuc.etit.sse.openerapp/distribution> ;
+    dcat:keyword "mFUND-FKZ VB18F1016A"@de, "mFUND-Projekt OPENER"@de, "mcloud_category_infrastructure"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0B3BA7EC-8763-46CA-81A0-575327FD6C6A/#publisher>
+    a foaf:Agent ;
+    foaf:name "Technische Universität Chemnitz" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0C3245A0-6D08-4AC0-9983-538D82EE39DF>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcatde:originator [
+        a foaf:Organization ;
+        foaf:name "Quelle: Projekt ECOSense (mein-dienstrad.de, Universität Oldenburg/Abteilung Wirtschaftsinformatik (VLBA), CoSynth)"
+    ] ;
+    dcterms:description """Sensordaten (ohne GPS-Signal) des ECOSense-Projekts. Der Datensatz setzt sich zusammen aus Sensordaten, die im 1 Hz-Bereich und 24 Hz-Bereich gemessen wurden. 
+
+Gesamtvolumen: 14859 Fahrten / 3,74 GB (komprimiert) / 36,2 GB (entpackt)
+
+
+Folgende Daten sind enthalten: 
+- internal_index 
+- 1Hz-Bereich: measured_date, estimated_date, longitude, latitude, speed, heading, certainty, temperature1, temperature2, humidity, pressure, altitude2
+- 24Hz-Bereich: Beschleunigung in drei Achsen (accel_x_01-24, accel_y_01-24, accel_z_01-24), Gyroskop in drei Achsen (gyro_x_01-24, gyro_y_01-24, gyro_z_01-24), Magnetometer in drei Achsen (mag_x_01-24, mag_y_01-24, mag_z_01-24)."""@de ;
+    dcterms:identifier "0C3245A0-6D08-4AC0-9983-538D82EE39DF" ;
+    dcterms:issued "2020-11-23T11:13:37.671Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-11-23T11:27:12.019Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0C3245A0-6D08-4AC0-9983-538D82EE39DF/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Bundesrepublik Deutschland" ;
+        locn:geometry "GEOMETRYCOLLECTION(POLYGON ((6.098034 55.054344, 15.578555 55.054344, 15.578555 47.23942, 6.098034 47.23942, 6.098034 55.054344)),POLYGON ((7.9891204833984375 53.22247975316637, 7.989807128906249 53.06556366279212, 8.368148803710938 53.066801462406524, 8.368148803710938 53.22330194749886, 7.9891204833984375 53.22247975316637)))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"GeometryCollection\", \"geometries\": [{\"type\": \"Polygon\", \"coordinates\": [[[6.098034, 55.054344], [15.578555, 55.054344], [15.578555, 47.23942], [6.098034, 47.23942], [6.098034, 55.054344]]]},{\"type\": \"Polygon\", \"coordinates\": [[[7.9891204833984375, 53.22247975316637], [7.989807128906249, 53.06556366279212], [8.368148803710938, 53.066801462406524], [8.368148803710938, 53.22330194749886], [7.9891204833984375, 53.22247975316637]]]}]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-04-30T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2019-11-01T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Fahrradsensordaten (ohne GPS) - Oldenburg"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-1.7z/distribution>, <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-10.7z/distribution>, <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-11.7z/distribution>, <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-12.7z/distribution>, <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-13.7z/distribution>, <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-14.7z/distribution>, <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-15.7z/distribution>, <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-2.7z/distribution>, <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-3.7z/distribution>, <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-4.7z/distribution>, <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-5.7z/distribution>, <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-6.7z/distribution>, <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-7.7z/distribution>, <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-8.7z/distribution>, <https://ecosense01.vlba.uni-oldenburg.de/data/2020-mcloud-ecosense-data-export-nogps-9.7z/distribution> ;
+    dcat:keyword "mFUND-FKZ VB18F1030A"@de, "mFUND-Projekt ECOSense"@de, "mcloud_category_infrastructure"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI>, <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0C3245A0-6D08-4AC0-9983-538D82EE39DF/#publisher>
+    a foaf:Agent ;
+    foaf:name "Universität Oldenburg, Abteilung für Wirtschaftsinformatik VLBA" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0FBA9F7B-1748-4BAF-BA2F-5E5F30BA9DCA>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accessRights """Datenlizenz Deutschland Namensnennung 2.0
+Quellenvermerk: \"Landesamt für Umwelt Brandenburg\"; Angabe der URL der Datenquelle; Angabe der Datensatzbezeichnung"""@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
+    dcterms:description """Die Einschätzung der Raumverfügbarkeit bei der Gewässerentwicklung erfolgt über die Erfassung und Bewertung von Altarmsstrukturen (aus DOP 40), Flurstücken mit deren Eigentumsformen (aus jeweiliger ALK und ALB) und deren aktueller Nutzung in Gewässernähe (aus den DOP 40). 
+
+  	Hinweis:
+  	Auf Grund der Größe der Dateien ist ein Bezug der Daten nur über eine Bestellung aus der Publikationsliste des Landesamtes für Umwelt möglich.
+
+  	Die Liste ist unter dem Link
+  	http://www.lfu.brandenburg.de/cms/detail.php/bb1.c.310794.de
+  	erreichbar."""@de ;
+    dcterms:identifier "0FBA9F7B-1748-4BAF-BA2F-5E5F30BA9DCA" ;
+    dcterms:modified "2020-11-13T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0FBA9F7B-1748-4BAF-BA2F-5E5F30BA9DCA/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Brandenburg (12000000)" ;
+        locn:geometry "POLYGON ((11.265732 53.558704, 14.765702 53.558704, 14.765702 51.35923, 11.265732 51.35923, 11.265732 53.558704))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[11.265732, 53.558704], [14.765702, 53.558704], [14.765702, 51.35923], [11.265732, 51.35923], [11.265732, 53.558704]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "Einschätzung des räumlichen Entwicklungspotentials von Gewässern im Land Brandenburg mit Bedeutung für die Wasserrahmenrichtlinie aufgrund der Raumverfügbarkeit"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Landesamt für Umwelt Brandenburg (LfU)" ;
+        vcard:hasCountryName "DEU" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/lukas.landgraf@lfu.brandenburg.de> ;
+        vcard:hasPostalCode "14476" ;
+        vcard:hasStreetAddress "Postbox 601061,14410 Potsdam OT Groß Glienicke, Seeburger Chaussee 2"
+    ] ;
+    dcat:distribution <https://lfu.brandenburg.de/cms/detail.php/bb1.c.310794.de/distribution>, <https://lfu.brandenburg.de/cms/detail.php/bb1.c.326852.de/distribution>, <https://www.govdata.de/dl-de/by-2-0/distribution> ;
+    dcat:keyword "Gewässer"@de, "Gewässerentwicklungskonzepte"@de, "Gewässernetz"@de, "Raumverfügbarkeit"@de, "Richtlinie 2000/60/EG (Wasserrahmenrichtlinie)"@de, "Umwelt und Klima"@de, "Umweltinformationsgesetz des Landes Brandenburg (BbgUIG)"@de, "Wasserrahmenrichtlinie"@de, "mcloud_category_waters"@de, "oberirdische Einzugsgebiete"@de, "opendata"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0FBA9F7B-1748-4BAF-BA2F-5E5F30BA9DCA/#publisher>
+    a foaf:Agent ;
+    foaf:name "Landesamt für Umwelt Brandenburg (LfU)" .
+
+<https://offenedaten-koeln.de/sites/default/files/2016_01_0.csv/distribution>
+    dcterms:description "<p>Januar 2016</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/2016_01_0.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/2016_01_0.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/2016_02.csv/distribution>
+    dcterms:description "<p>Februar 2016</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/2016_02.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/2016_02.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/2016_03.csv/distribution>
+    dcterms:description "<p>März 2016</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/2016_03.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/2016_03.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/2016_04.csv/distribution>
+    dcterms:description "<p>April 2016</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/2016_04.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/2016_04.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/2016_05.csv/distribution>
+    dcterms:description "<p>Mai 2016</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/2016_05.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/2016_05.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/2016_06.csv/distribution>
+    dcterms:description "<p>Juni 2016</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/2016_06.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/2016_06.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/2016_07.csv/distribution>
+    dcterms:description "<p>Juli 2016</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/2016_07.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/2016_07.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/2016_08.csv/distribution>
+    dcterms:description "<p>August 2016</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/2016_08.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/2016_08.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/2016_09.csv/distribution>
+    dcterms:description "<p>September 2016</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/2016_09.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/2016_09.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/2016_10.csv/distribution>
+    dcterms:description "<p>Oktober 2016</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/2016_10.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/2016_10.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/2016_11.csv/distribution>
+    dcterms:description "<p>November 2016</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/2016_11.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/2016_11.csv> .
+
+<https://offenedaten-koeln.de/sites/default/files/2016_12.csv/distribution>
+    dcterms:description "<p>Dezember 2016</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten-koeln.de/sites/default/files/2016_12.csv> ;
+    dcat:downloadURL <https://offenedaten-koeln.de/sites/default/files/2016_12.csv> .
+
+<https://play.google.com/apps/testing/org.mytuc.etit.sse.openerapp/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/gpl/3.0> ;
+    dcterms:title "App bei Google Play"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://play.google.com/apps/testing/org.mytuc.etit.sse.openerapp> ;
+    dcat:downloadURL <https://play.google.com/apps/testing/org.mytuc.etit.sse.openerapp> .
+
+<https://www.geoseaportal.de/atomfeeds/MO_H_ISOD.xml/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/ATOM> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoseaportal.de/atomfeeds/MO_H_ISOD.xml> ;
+    dcat:downloadURL <https://www.geoseaportal.de/atomfeeds/MO_H_ISOD.xml> .
+
+<https://www.govdata.de/dl-de/by-2-0/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/SHP> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "Datenlizenz Deutschland  Namensnennung"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.govdata.de/dl-de/by-2-0> ;
+    dcat:downloadURL <https://www.govdata.de/dl-de/by-2-0> .
+
+<https://www.hamburg.de/contentblob/14627042/f2f0db81d53971ad793a4a65da902d54/data/schematischer-aufbau-der-datenerfassung-und-aggregation.pdf/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
+    dcterms:issued "2020-12-21T17:53:26.460Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Schematischer Aufbau der Datenerfassung und -aggregation"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.hamburg.de/contentblob/14627042/f2f0db81d53971ad793a4a65da902d54/data/schematischer-aufbau-der-datenerfassung-und-aggregation.pdf> ;
+    dcat:byteSize 81608 ;
+    dcat:downloadURL <https://www.hamburg.de/contentblob/14627042/f2f0db81d53971ad793a4a65da902d54/data/schematischer-aufbau-der-datenerfassung-und-aggregation.pdf> .
+
+<https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=1a0f338d-1c06-4729-9ca1-1392813b84b7/distribution>
+    dcterms:description "<p>Format JSON</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=1a0f338d-1c06-4729-9ca1-1392813b84b7> ;
+    dcat:downloadURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=1a0f338d-1c06-4729-9ca1-1392813b84b7> .
+
+<https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=27d3e7a5-cd3b-4862-af11-57ae8e989e70/distribution>
+    dcterms:description "<p>Format JSON</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=27d3e7a5-cd3b-4862-af11-57ae8e989e70> ;
+    dcat:downloadURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=27d3e7a5-cd3b-4862-af11-57ae8e989e70> .
+
+<https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=41f4adb4-27b4-4229-ad04-7a63491e0589/distribution>
+    dcterms:description "<p>Format JSON</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=41f4adb4-27b4-4229-ad04-7a63491e0589> ;
+    dcat:downloadURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=41f4adb4-27b4-4229-ad04-7a63491e0589> .
+
+<https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=57daf827-cf23-4b13-89cf-31577821c469/distribution>
+    dcterms:description "<p>Format JSON</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=57daf827-cf23-4b13-89cf-31577821c469> ;
+    dcat:downloadURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=57daf827-cf23-4b13-89cf-31577821c469> .
+
+<https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=65df3024-5da7-479f-888d-8c7d2a35f267/distribution>
+    dcterms:description "<p>Format JSON</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=65df3024-5da7-479f-888d-8c7d2a35f267> ;
+    dcat:downloadURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=65df3024-5da7-479f-888d-8c7d2a35f267> .
+
+<https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=6e7d76f3-3984-4e8d-bd38-abeae9f11901/distribution>
+    dcterms:description "<p>Format JSON</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=6e7d76f3-3984-4e8d-bd38-abeae9f11901> ;
+    dcat:downloadURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=6e7d76f3-3984-4e8d-bd38-abeae9f11901> .
+
+<https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=81aa61e9-5123-4874-95d8-b93ee7da794f/distribution>
+    dcterms:description "<p>Format JSON</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=81aa61e9-5123-4874-95d8-b93ee7da794f> ;
+    dcat:downloadURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=81aa61e9-5123-4874-95d8-b93ee7da794f> .
+
+<https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=94864298-1e1c-499b-be8f-b684384c8837/distribution>
+    dcterms:description "<p>Format JSON</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=94864298-1e1c-499b-be8f-b684384c8837> ;
+    dcat:downloadURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=94864298-1e1c-499b-be8f-b684384c8837> .
+
+<https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=bdc0410d-016f-41c4-a717-b6f81502e17f/distribution>
+    dcterms:description "<p>Format JSON</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=bdc0410d-016f-41c4-a717-b6f81502e17f> ;
+    dcat:downloadURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=bdc0410d-016f-41c4-a717-b6f81502e17f> .
+
+<https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=dd5fead1-929a-48eb-8a03-fefe54931d2c/distribution>
+    dcterms:description "<p>Fomat JSON</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=dd5fead1-929a-48eb-8a03-fefe54931d2c> ;
+    dcat:downloadURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=dd5fead1-929a-48eb-8a03-fefe54931d2c> .
+
+<https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=f74a51d3-a6d6-484f-b6dd-b8b71f51ea3f/distribution>
+    dcterms:description "<p>Format JSON</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=f74a51d3-a6d6-484f-b6dd-b8b71f51ea3f> ;
+    dcat:downloadURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=f74a51d3-a6d6-484f-b6dd-b8b71f51ea3f> .
+
+<https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=fe303737-ebce-456e-bdfa-9019bdb45704/distribution>
+    dcterms:description "<p>Format JSON</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-25T00:07:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=fe303737-ebce-456e-bdfa-9019bdb45704> ;
+    dcat:downloadURL <https://www.offenedaten-koeln.de/api/action/datastore/search.json?resource_id=fe303737-ebce-456e-bdfa-9019bdb45704> .
+
+<https://www.stadtentwicklung.berlin.de/umwelt/umweltatlas/i312.htm/distribution>
+    dcterms:description "Inhaltliche Beschreibung" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:issued "2020-12-01T02:49:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "Inhaltliche Beschreibung"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.stadtentwicklung.berlin.de/umwelt/umweltatlas/i312.htm> ;
+    dcat:downloadURL <https://www.stadtentwicklung.berlin.de/umwelt/umweltatlas/i312.htm> .
+

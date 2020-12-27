@@ -1,0 +1,614 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/1.0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gml: <http://www.opengis.net/gml/3.2> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix odrs: <http://schema.theodi.org/odrs#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix hydra: <http://www.w3.org/ns/hydra/core#> .
+
+<http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_P2_2020-09-23.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-10-23T09:25:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Parkplatz_Scharbeutz_P2_2020-09-23.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_P2_2020-09-23.csv> ;
+    dcat:byteSize 10010 ;
+    dcat:downloadURL <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_P2_2020-09-23.csv> .
+
+<http://daten.transparenz.hamburg.de/Dataport.HmbTG.ZS.Webservice.GetRessource100/GetRessource100.svc/43a1d865-1e53-475c-9a80-c6ac215b4bff/Upload__HVV_Rohdaten_GTFS_Fpl_20190905.zip/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/ZIP> ;
+    dcterms:issued "2019-09-06T14:02:18.505Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Upload: HVV_Rohdaten_GTFS_Fpl_20190905"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://daten.transparenz.hamburg.de/Dataport.HmbTG.ZS.Webservice.GetRessource100/GetRessource100.svc/43a1d865-1e53-475c-9a80-c6ac215b4bff/Upload__HVV_Rohdaten_GTFS_Fpl_20190905.zip> ;
+    dcat:byteSize 31918403 ;
+    dcat:downloadURL <http://daten.transparenz.hamburg.de/Dataport.HmbTG.ZS.Webservice.GetRessource100/GetRessource100.svc/43a1d865-1e53-475c-9a80-c6ac215b4bff/Upload__HVV_Rohdaten_GTFS_Fpl_20190905.zip> .
+
+<http://monitor.ioer.de/cgi-bin/wfs?MAP=R04RT/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WFS_SRVC> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "WFS Anteil des amtl. festgesetzten Überschwemmungsgebietes mit bebauter Siedlungs- und Verkehrsfläche (IÖR-Monitor) - GetFeature"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://monitor.ioer.de/cgi-bin/wfs?MAP=R04RT> ;
+    dcat:downloadURL <http://monitor.ioer.de/cgi-bin/wfs?MAP=R04RT> .
+
+<http://www.ioer-monitor.de//distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.ioer-monitor.de/> ;
+    dcat:downloadURL <http://www.ioer-monitor.de/> .
+
+<https://fbinter.stadt-berlin.de/fb/wms/senstadt/k03_12_13_1pm10verkehr_gesamt2009/?service=wms&request=GetCapabilities/distribution>
+    dcterms:description "WMS Service" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WMS_SRVC> ;
+    dcterms:issued "2020-11-09T12:07:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "WMS Service"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://fbinter.stadt-berlin.de/fb/wms/senstadt/k03_12_13_1pm10verkehr_gesamt2009/?service=wms&request=GetCapabilities> ;
+    dcat:downloadURL <https://fbinter.stadt-berlin.de/fb/wms/senstadt/k03_12_13_1pm10verkehr_gesamt2009/?service=wms&request=GetCapabilities> .
+
+<https://fbinter.stadt-berlin.de/fb?loginkey=showMap&mapId=k03_12_13_1pm10verkehr_gesamt2009@senstadt/distribution>
+    dcterms:description "Serviceseite im FIS-Broker" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:issued "2020-11-09T12:07:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Serviceseite im FIS-Broker"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://fbinter.stadt-berlin.de/fb?loginkey=showMap&mapId=k03_12_13_1pm10verkehr_gesamt2009@senstadt> ;
+    dcat:downloadURL <https://fbinter.stadt-berlin.de/fb?loginkey=showMap&mapId=k03_12_13_1pm10verkehr_gesamt2009@senstadt> .
+
+<https://geo.sv.rostock.de/download/opendata/faehranleger/faehranleger.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2013-01-22T14:53:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:modified "2019-10-10T10:52:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:title "Fähranleger"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geo.sv.rostock.de/download/opendata/faehranleger/faehranleger.csv> ;
+    dcat:byteSize 3598 ;
+    dcat:downloadURL <https://geo.sv.rostock.de/download/opendata/faehranleger/faehranleger.csv> .
+
+<https://geo.sv.rostock.de/download/opendata/faehranleger/faehranleger.gml/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/GML> ;
+    dcterms:issued "2013-01-22T14:53:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:modified "2019-10-10T10:52:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:title "Fähranleger"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geo.sv.rostock.de/download/opendata/faehranleger/faehranleger.gml> ;
+    dcat:byteSize 15902 ;
+    dcat:downloadURL <https://geo.sv.rostock.de/download/opendata/faehranleger/faehranleger.gml> .
+
+<https://geo.sv.rostock.de/download/opendata/faehranleger/faehranleger.json/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/GEOJSON> ;
+    dcterms:issued "2013-01-22T14:53:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:modified "2019-10-10T10:52:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:title "Fähranleger"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geo.sv.rostock.de/download/opendata/faehranleger/faehranleger.json> ;
+    dcat:byteSize 8127 ;
+    dcat:downloadURL <https://geo.sv.rostock.de/download/opendata/faehranleger/faehranleger.json> .
+
+<https://geo.sv.rostock.de/download/opendata/faehranleger/faehranleger.kml/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/KML> ;
+    dcterms:issued "2013-01-22T14:53:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:modified "2019-10-10T10:52:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:title "Fähranleger"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geo.sv.rostock.de/download/opendata/faehranleger/faehranleger.kml> ;
+    dcat:byteSize 13126 ;
+    dcat:downloadURL <https://geo.sv.rostock.de/download/opendata/faehranleger/faehranleger.kml> .
+
+<https://geo.sv.rostock.de/download/opendata/faehranleger/faehranleger.xlsx/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XLSX> ;
+    dcterms:issued "2013-01-22T14:53:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:modified "2019-10-10T10:52:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:title "Fähranleger"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geo.sv.rostock.de/download/opendata/faehranleger/faehranleger.xlsx> ;
+    dcat:byteSize 4660 ;
+    dcat:downloadURL <https://geo.sv.rostock.de/download/opendata/faehranleger/faehranleger.xlsx> .
+
+<https://geo.sv.rostock.de/download/opendata/mobilpunkte/mobilpunkte.json/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/GEOJSON> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geo.sv.rostock.de/download/opendata/mobilpunkte/mobilpunkte.json> ;
+    dcat:downloadURL <https://geo.sv.rostock.de/download/opendata/mobilpunkte/mobilpunkte.json> .
+
+<https://geo.sv.rostock.de/geodienste/faehranleger/wfs/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WFS_SRVC> ;
+    dcterms:issued "2015-06-17T10:02:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:modified "2019-10-10T10:52:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:title "Fähranleger"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geo.sv.rostock.de/geodienste/faehranleger/wfs> ;
+    dcat:downloadURL <https://geo.sv.rostock.de/geodienste/faehranleger/wfs> .
+
+<https://geo.sv.rostock.de/geodienste/faehranleger/wms/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WMS_SRVC> ;
+    dcterms:issued "2013-01-22T14:53:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:modified "2019-10-10T10:52:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:title "Fähranleger"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geo.sv.rostock.de/geodienste/faehranleger/wms> ;
+    dcat:downloadURL <https://geo.sv.rostock.de/geodienste/faehranleger/wms> .
+
+<https://geo.sv.rostock.de/inspire/tn-roadnetwork/view/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WMS_SRVC> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "Straßen- und Wegenetz der Hanse- und Universitätsstadt Rostock - GetCapabilities"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geo.sv.rostock.de/inspire/tn-roadnetwork/view> ;
+    dcat:downloadURL <https://geo.sv.rostock.de/inspire/tn-roadnetwork/view> .
+
+<https://mcloud.de>
+    dcterms:description "Dies ist das Portal der mCLOUD."@de ;
+    dcterms:publisher <https://mcloud.de/#publisher> ;
+    dcterms:title "mCLOUD Portal"@de ;
+    a dcat:Catalog ;
+    dcat:dataset <https://mcloud.de/web/guest/suche/-/results/detail/07ee6be5-9d7f-43ee-b9cf-06a4f8b6c53f>, <https://mcloud.de/web/guest/suche/-/results/detail/07f397d4-64d3-4531-bb65-0357ef7946e8>, <https://mcloud.de/web/guest/suche/-/results/detail/07f39c16-3060-4954-8f77-313764401867>, <https://mcloud.de/web/guest/suche/-/results/detail/0804d7fb-5f80-4889-a887-292b21c394e7>, <https://mcloud.de/web/guest/suche/-/results/detail/080B253C-F8DE-45C3-A936-6B942275C898>, <https://mcloud.de/web/guest/suche/-/results/detail/081cac1c-f947-4eb5-b330-4098c2e593fe>, <https://mcloud.de/web/guest/suche/-/results/detail/082a5ee1-93c7-4b3c-8b52-7c90bad66648>, <https://mcloud.de/web/guest/suche/-/results/detail/082be8c2-1e74-4260-b79c-9f3ad13f8002>, <https://mcloud.de/web/guest/suche/-/results/detail/084a03e9-9c54-40ea-bd0f-ae1e0d340a8a>, <https://mcloud.de/web/guest/suche/-/results/detail/086b9cfa-c88e-4ce7-a04a-b6880f32e87b> ;
+    foaf:homepage <https://mcloud.de/> .
+
+<https://mcloud.de/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesministerium für Verkehr und digitale Infrastruktur" .
+
+<https://mcloud.de/export/datasets?page=10>
+    a hydra:PagedCollection ;
+    hydra:firstPage "https://mcloud.de/export/datasets?page=1" ;
+    hydra:itemsPerPage 10 ;
+    hydra:lastPage "https://mcloud.de/export/datasets?page=420" ;
+    hydra:nextPage "https://mcloud.de/export/datasets?page=11" ;
+    hydra:previousPage "https://mcloud.de/export/datasets?page=9" ;
+    hydra:totalItems 4200 .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/07ee6be5-9d7f-43ee-b9cf-06a4f8b6c53f>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "geodienste@rostock.de" ;
+        foaf:name "Hanse- und Universitätsstadt Rostock – Kataster-, Vermessungs- und Liegenschaftsamt"
+    ] ;
+    dcterms:description "Dieser Datensatz umfasst die Standorte der Fähranleger in der Hanse- und Universitätsstadt Rostock mit Informationen zu Adresse, Art, Betreiber, Relation und Fahrplan. Die Ressourcen werden in der Regel im folgenden Zeitabstand aktualisiert: 365 Tage"@de ;
+    dcterms:identifier "07ee6be5-9d7f-43ee-b9cf-06a4f8b6c53f" ;
+    dcterms:issued "2019-10-11T02:33:08.754Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2019-10-11T02:33:08.754Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/07ee6be5-9d7f-43ee-b9cf-06a4f8b6c53f/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        locn:geometry "POLYGON ((11.9936 54.0486, 11.9936 54.2466, 12.3045 54.2466, 12.3045 54.0486, 11.9936 54.0486))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[11.9936, 54.0486], [11.9936, 54.2466], [12.3045, 54.2466], [12.3045, 54.0486], [11.9936, 54.0486]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "Fähranleger"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Hanse- und Universitätsstadt Rostock – Kataster-, Vermessungs- und Liegenschaftsamt" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/geodienste@rostock.de>
+    ] ;
+    dcat:distribution <https://geo.sv.rostock.de/download/opendata/faehranleger/faehranleger.csv/distribution>, <https://geo.sv.rostock.de/download/opendata/faehranleger/faehranleger.gml/distribution>, <https://geo.sv.rostock.de/download/opendata/faehranleger/faehranleger.json/distribution>, <https://geo.sv.rostock.de/download/opendata/faehranleger/faehranleger.kml/distribution>, <https://geo.sv.rostock.de/download/opendata/faehranleger/faehranleger.xlsx/distribution>, <https://geo.sv.rostock.de/geodienste/faehranleger/wfs/distribution>, <https://geo.sv.rostock.de/geodienste/faehranleger/wms/distribution> ;
+    dcat:keyword "Fernverkehr"@de, "Hafen"@de, "Meer"@de, "Nahverkehr"@de, "Personennahverkehr"@de, "Personenverkehr"@de, "Schiff"@de, "See"@de, "Seeschiffahrt"@de, "Seeverkehr"@de, "Stadtverkehr"@de, "Verkehr"@de, "Verkehrsinfrastruktur"@de, "Verkehrsmittel"@de, "mcloud_category_roads"@de, "Öffentlicher Verkehr"@de, "Öffentliches Verkehrsmittel"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/GOVE>, <http://publications.europa.eu/resource/authority/data-theme/REGI>, <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/07ee6be5-9d7f-43ee-b9cf-06a4f8b6c53f/#publisher>
+    a foaf:Agent ;
+    foaf:name "Hanse- und Universitätsstadt Rostock – Kataster-, Vermessungs- und Liegenschaftsamt" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/07f397d4-64d3-4531-bb65-0357ef7946e8>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcatde:originator [
+        a foaf:Organization ;
+        foaf:mbox "customer@bsh.de" ;
+        foaf:name "Bernd Vahrenkamp"
+    ] ;
+    dcterms:accessRights "Dieser Datensatz kann gemäß der \"Datenlizenz Deutschland – Namensnennung – Version 2.0\" (www.govdata.de/dl-de/by-2-0) genutzt werden."@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/NEVER> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "customer@bsh.de" ;
+        foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)"
+    ] ;
+    dcterms:description "Die vorliegenden Echolotdaten wurden im Rahmen der Seevermessung des Bundesamtes für Seeschifffahrt und Hydrographie erfasst, aber keiner weiteren Qualitätssicherung oder Validierung unterzogen. Es handelt sich um Rohdaten!"@de ;
+    dcterms:identifier "07f397d4-64d3-4531-bb65-0357ef7946e8" ;
+    dcterms:modified "2020-11-30T06:28:27.665Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/07f397d4-64d3-4531-bb65-0357ef7946e8/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "000000000000" ;
+        locn:geometry "POLYGON ((8.26281913297 55.118331159, 8.36556021792 55.118331159, 8.36556021792 55.0716687775, 8.26281913297 55.0716687775, 8.26281913297 55.118331159))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[8.26281913297, 55.118331159], [8.36556021792, 55.118331159], [8.36556021792, 55.0716687775], [8.26281913297, 55.0716687775], [8.26281913297, 55.118331159]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2017-03-24T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2017-03-23T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Echolotdaten - Nordsee 2017 9011713"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" ;
+        vcard:hasCountryName "Deutschland" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/Johannes.Melles@bsh.de> ;
+        vcard:hasLocality "Hamburg" ;
+        vcard:hasPostalCode "20359" ;
+        vcard:hasStreetAddress "Bernhard-Nocht-Str. 78"
+    ] ;
+    dcat:distribution <https://www.geoseaportal.de/atomfeeds/Verm_Single_Beam_Nordsee_2017.xml/distribution> ;
+    dcat:keyword "Bathymetrie"@de, "Hydrographie"@de, "Höhe"@de, "Meeresboden"@de, "Seevermessung"@de, "Topographie"@de, "mcloud_category_waters"@de, "opendata"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/07f397d4-64d3-4531-bb65-0357ef7946e8/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/07f39c16-3060-4954-8f77-313764401867>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accessRights """siehe Nutzungseinschränkungen
+Das von der Hanse- und Universitätsstadt Rostock hier angebotene Werk unterliegt der gemeinfreien Lizenz Creative Commons 1.0 Universell Public Domain Dedication (CC0 1.0; URL: https://creativecommons.org/publicdomain/zero/1.0/deed.de). Damit ist alles gestattet, ohne um weitere Erlaubnis bitten zu müssen. Es gelten folgende Regelungen zu Gewährleistung und Haftung: https://geo.sv.rostock.de/haftung-fuer-angebotene-inhalte.html"""@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dcterms:description "Dieser Datensatz umfasst die Standorte der Mobilpunkte in der Hanse- und Universitätsstadt Rostock mit Informationen zu Bezeichnung, Angeboten und Website."@de ;
+    dcterms:identifier "07f39c16-3060-4954-8f77-313764401867" ;
+    dcterms:modified "2020-12-18T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/07f39c16-3060-4954-8f77-313764401867/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Hanse- und Universitätsstadt Rostock" ;
+        locn:geometry "POLYGON ((11.9936 54.2466, 12.3045 54.2466, 12.3045 54.0486, 11.9936 54.0486, 11.9936 54.2466))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[11.9936, 54.2466], [12.3045, 54.2466], [12.3045, 54.0486], [11.9936, 54.0486], [11.9936, 54.2466]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "Mobilpunkte in der Hanse- und Universitätsstadt Rostock"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Kataster-, Vermessungs- und Liegenschaftsamt der Hanse- und Universitätsstadt Rostock" ;
+        vcard:hasCountryName "DE" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/geodienste@rostock.de> ;
+        vcard:hasLocality "DE-MV" ;
+        vcard:hasPostalCode "18069" ;
+        vcard:hasStreetAddress "Holbeinplatz 14" ;
+        vcard:hasURL <https://geo.sv.rostock.de/geodienste>
+    ] ;
+    dcat:distribution <https://geo.sv.rostock.de/download/opendata/mobilpunkte/mobilpunkte.json/distribution> ;
+    dcat:keyword "Automobil"@de, "Bahnhof"@de, "Busbahnhof"@de, "Eisenbahn"@de, "Elektrizität"@de, "Energieversorgung"@de, "Individualverkehr"@de, "Lokal"@de, "Nahverkehr"@de, "Omnibus"@de, "Personennahverkehr"@de, "Personenverkehr"@de, "Schiff"@de, "Schnellbahn"@de, "Stadtverkehr"@de, "Straßenverkehr"@de, "Tankanlage"@de, "Tankstelle"@de, "Verkehr"@de, "Verkehrsinfrastruktur"@de, "Verkehrsmittel"@de, "Verkehrsnetze"@de, "inspireidentifiziert"@de, "mcloud_category_roads"@de, "Öffentlicher Verkehr"@de, "Öffentliches Verkehrsmittel"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/07f39c16-3060-4954-8f77-313764401867/#publisher>
+    a foaf:Agent ;
+    foaf:name "Kataster-, Vermessungs- und Liegenschaftsamt der Hanse- und Universitätsstadt Rostock" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0804d7fb-5f80-4889-a887-292b21c394e7>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der belegten Parkplätze
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Autos
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "0804d7fb-5f80-4889-a887-292b21c394e7" ;
+    dcterms:issued "2020-10-23T09:25:39Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-10-23T09:25:39Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0804d7fb-5f80-4889-a887-292b21c394e7/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-09-23T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-09-23T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Parkplatz Scharbeutz P2"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_P2_2020-09-23.csv/distribution> ;
+    dcat:keyword "Parkplatz"@de, "Scharbeutz"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0804d7fb-5f80-4889-a887-292b21c394e7/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/080B253C-F8DE-45C3-A936-6B942275C898>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcatde:originator [
+        a foaf:Organization ;
+        foaf:name "Kraftfahrt-Bundesamt"
+    ] ;
+    dcterms:accessRights "Weitere Informationen zu den Daten und Veröffentlichungen erhalten Sie über das Portal."@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
+    dcterms:description "Die Statistik zu den Fahrerlaubnisprüfungen weist die Anzahl der Prüfungen zur Erlangung einer allgemeinen Fahrerlaubnis beziehungsweise der EU-einheitlichen Fahrerlaubnisklassen A bis E und den nationalen deutschen Klassen M, L, S und T (bis 19.01.2013) beziehungsweise AM, L und T (ab 19.01.2013) aus. Die ausgewiesene Anzahl der Prüfungen darf nicht gleichgesetzt werden mit der Anzahl der Personen, die eine Fahrerlaubnisprüfung absolvieren."@de ;
+    dcterms:identifier "080B253C-F8DE-45C3-A936-6B942275C898" ;
+    dcterms:issued "2019-09-11T11:12:21.183Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-07-01T08:07:48.281Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/080B253C-F8DE-45C3-A936-6B942275C898/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Bundesrepublik Deutschland" ;
+        locn:geometry "POLYGON ((6.098034 55.054344, 15.578555 55.054344, 15.578555 47.23942, 6.098034 47.23942, 6.098034 55.054344))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[6.098034, 55.054344], [15.578555, 55.054344], [15.578555, 47.23942], [6.098034, 47.23942], [6.098034, 55.054344]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2019-12-31T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2016-01-01T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Fahrerlaubnisprüfungen - (FE7)"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://www.kba.de/DE/Statistik/Kraftfahrer/Fahrerlaubnisse/Fahrerlaubnispruefungen/fahrerlaubnispruefungen_node.html/distribution>, <https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Kraftfahrer/FE/2016/fe7_2016_xls.xls?__blob=publicationFile&v=11/distribution>, <https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Kraftfahrer/FE/2017/fe7_2017_xls.xls?__blob=publicationFile&v=4/distribution>, <https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Kraftfahrer/FE/2018/fe7_2018_xlsx.xlsx?__blob=publicationFile&v=5/distribution>, <https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Kraftfahrer/FE/2019/fe7_2019_xlsx.xlsx?__blob=publicationFile&v=4/distribution> ;
+    dcat:keyword "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/080B253C-F8DE-45C3-A936-6B942275C898/#publisher>
+    a foaf:Agent ;
+    foaf:name "Kraftfahrt-Bundesamt (KBA)" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/081cac1c-f947-4eb5-b330-4098c2e593fe>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accessRights """siehe Nutzungseinschränkungen
+Das von der Hanse- und Universitätsstadt Rostock hier angebotene Werk unterliegt der gemeinfreien Lizenz Creative Commons 1.0 Universell Public Domain Dedication (CC0 1.0; URL: https://creativecommons.org/publicdomain/zero/1.0/deed.de). Damit ist alles gestattet, ohne um weitere Erlaubnis bitten zu müssen. Es gelten folgende Regelungen zu Gewährleistung und Haftung: https://geo.sv.rostock.de/haftung-fuer-angebotene-inhalte.html"""@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dcterms:description "Diese Karte umfasst das Straßen- und Wegenetz der Hanse- und Universitätsstadt Rostock."@de ;
+    dcterms:identifier "081cac1c-f947-4eb5-b330-4098c2e593fe" ;
+    dcterms:modified "2020-12-18T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/081cac1c-f947-4eb5-b330-4098c2e593fe/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Hanse- und Universitätsstadt Rostock" ;
+        locn:geometry "POLYGON ((11.9936 54.2466, 12.3045 54.2466, 12.3045 54.0486, 11.9936 54.0486, 11.9936 54.2466))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[11.9936, 54.2466], [12.3045, 54.2466], [12.3045, 54.0486], [11.9936, 54.0486], [11.9936, 54.2466]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "Straßen- und Wegenetz der Hanse- und Universitätsstadt Rostock"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Kataster-, Vermessungs- und Liegenschaftsamt der Hanse- und Universitätsstadt Rostock" ;
+        vcard:hasCountryName "DE" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/geodienste@rostock.de> ;
+        vcard:hasLocality "DE-MV" ;
+        vcard:hasPostalCode "18069" ;
+        vcard:hasStreetAddress "Holbeinplatz 14" ;
+        vcard:hasURL <https://geo.sv.rostock.de/geodienste>
+    ] ;
+    dcat:distribution <https://geo.sv.rostock.de/inspire/tn-roadnetwork/view/distribution> ;
+    dcat:keyword "Lokal"@de, "Stadtverkehr"@de, "Straße"@de, "Straßennetz"@de, "Straßenverkehr"@de, "Straßenverkehrstechnik"@de, "Verkehr"@de, "Verkehrsinfrastruktur"@de, "Verkehrsnetze"@de, "Verkehrstechnik"@de, "infoMapAccessService"@de, "inspireidentifiziert"@de, "mcloud_category_roads"@de, "Öffentliche Straße"@de, "Öffentlicher Verkehr"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/081cac1c-f947-4eb5-b330-4098c2e593fe/#publisher>
+    a foaf:Agent ;
+    foaf:name "Kataster-, Vermessungs- und Liegenschaftsamt der Hanse- und Universitätsstadt Rostock" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/082a5ee1-93c7-4b3c-8b52-7c90bad66648>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "poststelle@sgdnord.rlp.de" ;
+        foaf:name "SGD Nord - Referat 41 - Landesplanung, Raumordnung"
+    ] ;
+    dcterms:description "Vorbehaltsgebiet Hochwasserschutz Region Mittelrhein-Westerwald 2017"@de ;
+    dcterms:identifier "082a5ee1-93c7-4b3c-8b52-7c90bad66648" ;
+    dcterms:issued "2019-12-20T10:28:18.698Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2019-12-20T10:28:18.698Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/082a5ee1-93c7-4b3c-8b52-7c90bad66648/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        locn:geometry "POLYGON ((6.7721 49.8299, 6.7721 50.9455, 8.1457 50.9455, 8.1457 49.8299, 6.7721 49.8299))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[6.7721, 49.8299], [6.7721, 50.9455], [8.1457, 50.9455], [8.1457, 49.8299], [6.7721, 49.8299]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "Vorbehaltsgebiet Hochwasserschutz Mittelrhein-Westerwald 2017"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "SGD Nord - Referat 41" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/poststelle@sgdnord.rlp.de>
+    ] ;
+    dcat:distribution <https://www.geoportal.rlp.de/mapbender/extensions/mobilemap/map.php?layerid=60406/distribution>, <https://www.geoportal.rlp.de/mapbender/php/mod_exportIso19139.php?url=https%3A%2F%2Fwww.geoportal.rlp.de%2Fmapbender%2Fphp%2Fmod_dataISOMetadata.php%3FoutputFormat%3Diso19139%26id%3D415af674-92cb-1d91-cb02-808906e536b4/distribution>, <https://www.geoportal.rlp.de/mapbender/php/wms.php?layer_id=60406&REQUEST=GetCapabilities&VERSION=1.1.1&SERVICE=WMS/distribution>, <https://www.geoportal.rlp.de/mapbender/plugins/mb_downloadFeedClient.php?url=https%3A%2F%2Fwww.geoportal.rlp.de%2Fmapbender%2Fphp%2Fmod_inspireDownloadFeed.php%3Fid%3D415af674-92cb-1d91-cb02-808906e536b4%26type%3DSERVICE%26generateFrom%3Dwfs%26wfsid%3D528/distribution>, <https://www.geoportal.rlp.de/portal/karten.html?LAYER%5Bzoom%5D=1&LAYER%5Bid%5D=60406/distribution>, <https://www.geoportal.rlp.de/spatial-objects/528/collections/ms:mw_161208_15_vb_hochwasserschutz/distribution> ;
+    dcat:keyword "inspireidentifiziert"@de, "mcloud_category_waters"@de, "regionalplan"@de, "regionalplanung"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI>, <http://publications.europa.eu/resource/authority/data-theme/ECON>, <http://publications.europa.eu/resource/authority/data-theme/ENVI>, <http://publications.europa.eu/resource/authority/data-theme/GOVE>, <http://publications.europa.eu/resource/authority/data-theme/JUST>, <http://publications.europa.eu/resource/authority/data-theme/SOCI>, <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/082a5ee1-93c7-4b3c-8b52-7c90bad66648/#publisher>
+    a foaf:Agent ;
+    foaf:name "SGD Nord - Referat 41 - Landesplanung, Raumordnung" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/082be8c2-1e74-4260-b79c-9f3ad13f8002>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:name "Hamburger Verkehrsverbund GmbH"
+    ] ;
+    dcterms:description "<p>Der Hamburger Verkehrsverbund (HVV) stellt hier die Fahrplandaten des Verbundgebietes monatlich im GTFS-Format zur Verfügung. Die Daten beinhalten Informationen zu Linien, Haltestellen, Abfahrtszeiten usw.</p>"@de ;
+    dcterms:identifier "082be8c2-1e74-4260-b79c-9f3ad13f8002" ;
+    dcterms:issued "2019-09-06T14:02:16.412Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2019-09-06T14:02:16.412Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/082be8c2-1e74-4260-b79c-9f3ad13f8002/#publisher> ;
+    dcterms:temporal [
+        schema:endDate "2019-12-14T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2019-09-06T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "HVV-Fahrplandaten (GTFS) September 2019 bis Dezember 2019"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://daten.transparenz.hamburg.de/Dataport.HmbTG.ZS.Webservice.GetRessource100/GetRessource100.svc/43a1d865-1e53-475c-9a80-c6ac215b4bff/Upload__HVV_Rohdaten_GTFS_Fpl_20190905.zip/distribution> ;
+    dcat:keyword "AKN"@de, "Bus"@de, "Fahrplandaten"@de, "Fähre"@de, "GTFS"@de, "HVV"@de, "Regional-Express"@de, "Regionalbahn"@de, "S-Bahn"@de, "Transport & Verkehr"@de, "U-Bahn"@de, "Verkehr"@de, "Verkehrsunternehmen"@de, "mcloud_category_roads"@de, "ÖPNV"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/082be8c2-1e74-4260-b79c-9f3ad13f8002/#publisher>
+    a foaf:Agent ;
+    foaf:name "Transparenzportal Hamburg: Hamburger Verkehrsverbund GmbH" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/084a03e9-9c54-40ea-bd0f-ae1e0d340a8a>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/NEVER> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:name "Senatsverwaltung für Umwelt, Verkehr und Klimaschutz Berlin"
+    ] ;
+    dcterms:description """<p>Darstellung der Feinstaub-Emissionen (PM10) der Verursachergruppe Kfz-Verkehr im Gesamtnetz 2009, Stand 2011</p>
+
+<p><img alt=\"Vorschaugrafik zu Datensatz &#39;Entwicklung Luftqualität PM10-Emissionen Kfz-Verkehr GN 2009 (Umweltatlas)&#39;\" src=\"https://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/kvor03_12_13_1pm10emikfzverkehrges2009.jpg\"/></p>"""@de ;
+    dcterms:identifier "084a03e9-9c54-40ea-bd0f-ae1e0d340a8a" ;
+    dcterms:issued "2019-08-13T11:53:36Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-11-09T12:07:44Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/084a03e9-9c54-40ea-bd0f-ae1e0d340a8a/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        locn:geometry "POLYGON ((13.0512 52.3246, 13.7785 52.3246, 13.7785 52.6935, 13.0512 52.6935, 13.0512 52.3246))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[13.0512, 52.3246], [13.7785, 52.3246], [13.7785, 52.6935], [13.0512, 52.6935], [13.0512, 52.3246]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "Entwicklung Luftqualität PM10-Emissionen Kfz-Verkehr GN 2009 (Umweltatlas) - [WMS]"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://fbinter.stadt-berlin.de/fb/wms/senstadt/k03_12_13_1pm10verkehr_gesamt2009/?service=wms&request=GetCapabilities/distribution>, <https://fbinter.stadt-berlin.de/fb?loginkey=showMap&mapId=k03_12_13_1pm10verkehr_gesamt2009@senstadt/distribution> ;
+    dcat:keyword "2009"@de, "BImSchG"@de, "Berlin"@de, "Bundesimmissionsschutzgesetz"@de, "Emissionen"@de, "Entwicklung"@de, "Geodaten"@de, "Geographie und Stadtplanung"@de, "Karten"@de, "Kataster"@de, "Luftgüte"@de, "Luftqualität"@de, "PM10"@de, "Raster"@de, "Umweltatlas"@de, "Verkehr"@de, "mcloud_category_climate"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/084a03e9-9c54-40ea-bd0f-ae1e0d340a8a/#publisher>
+    a foaf:Agent ;
+    foaf:name "Harvester FIS Broker" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/086b9cfa-c88e-4ce7-a04a-b6880f32e87b>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accessRights """Nutzungseinschränkungen: Es gelten keine Bedingungen
+Nutzungsbedingungen: Die Daten und Dienste können mit folgenden Bedingungen genutzt werden (http://www.ioer-monitor.de/fileadmin/Dokumente/PDFs/Nutzungsbedingungen_IOER-Monitor.pdf)"""@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dcterms:description """Der Indikator beschreibt die Siedlungslast im Überschwemmungsgebiet einer Gebietseinheit. 
+Weitere Informationen unter http://www.ioer-monitor.de/index.php?id=44&ID_IND=R04RT"""@de ;
+    dcterms:identifier "086b9cfa-c88e-4ce7-a04a-b6880f32e87b" ;
+    dcterms:modified "2019-02-19T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/086b9cfa-c88e-4ce7-a04a-b6880f32e87b/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "" ;
+        locn:geometry "POLYGON ((4.910537 55.236429, 16.793722 55.236429, 16.793722 46.953601, 4.910537 46.953601, 4.910537 55.236429))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[4.910537, 55.236429], [16.793722, 55.236429], [16.793722, 46.953601], [4.910537, 46.953601], [4.910537, 55.236429]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "WFS Anteil des amtl. festgesetzten Überschwemmungsgebietes mit bebauter Siedlungs- und Verkehrsfläche (IÖR-Monitor)"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Leibniz-Institut für ökologische Raumentwicklung" ;
+        vcard:hasCountryName "Deutschland" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/G.Meinel@ioer.de> ;
+        vcard:hasLocality "Freistaat Sachsen" ;
+        vcard:hasPostalCode "01217" ;
+        vcard:hasStreetAddress "Weberplatz 1" ;
+        vcard:hasURL <https://www.ioer-monitor.de>
+    ] ;
+    dcat:distribution <http://monitor.ioer.de/cgi-bin/wfs?MAP=R04RT/distribution>, <http://www.ioer-monitor.de//distribution> ;
+    dcat:keyword "Bodenbedeckung"@de, "Flächennutzung"@de, "Gebiete mit naturbedingten Risiken"@de, "Gebäude"@de, "Geowissenschaft"@de, "Gewässer"@de, "Landwirtschaft"@de, "Planung"@de, "Raumwissenschaft"@de, "Siedlungsstruktur"@de, "Statistik"@de, "Umwelt"@de, "Verkehrswesen"@de, "humanGeographicViewer"@de, "inspireidentifiziert"@de, "mcloud_category_aviation"@de, "mcloud_category_infrastructure"@de, "mcloud_category_railway"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/086b9cfa-c88e-4ce7-a04a-b6880f32e87b/#publisher>
+    a foaf:Agent ;
+    foaf:name "Leibniz-Institut für ökologische Raumentwicklung" .
+
+<https://www.geoportal.rlp.de/mapbender/extensions/mobilemap/map.php?layerid=60406/distribution>
+    dcterms:description "Ebene: Regionalplan Mittelrhein-Westerwald 2017 Vorbehaltsgebiet Hochwasserschutz - Vorschau im integrierten Kartenviewer" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Onlinekarte"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoportal.rlp.de/mapbender/extensions/mobilemap/map.php?layerid=60406> ;
+    dcat:downloadURL <https://www.geoportal.rlp.de/mapbender/extensions/mobilemap/map.php?layerid=60406> .
+
+<https://www.geoportal.rlp.de/mapbender/php/mod_exportIso19139.php?url=https%3A%2F%2Fwww.geoportal.rlp.de%2Fmapbender%2Fphp%2Fmod_dataISOMetadata.php%3FoutputFormat%3Diso19139%26id%3D415af674-92cb-1d91-cb02-808906e536b4/distribution>
+    dcterms:description "Vorbehaltsgebiet Hochwasserschutz Mittelrhein-Westerwald 2017 - Anzeige der originären Metadaten" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Originäre Metadaten"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoportal.rlp.de/mapbender/php/mod_exportIso19139.php?url=https%3A%2F%2Fwww.geoportal.rlp.de%2Fmapbender%2Fphp%2Fmod_dataISOMetadata.php%3FoutputFormat%3Diso19139%26id%3D415af674-92cb-1d91-cb02-808906e536b4> ;
+    dcat:downloadURL <https://www.geoportal.rlp.de/mapbender/php/mod_exportIso19139.php?url=https%3A%2F%2Fwww.geoportal.rlp.de%2Fmapbender%2Fphp%2Fmod_dataISOMetadata.php%3FoutputFormat%3Diso19139%26id%3D415af674-92cb-1d91-cb02-808906e536b4> .
+
+<https://www.geoportal.rlp.de/mapbender/php/wms.php?layer_id=60406&REQUEST=GetCapabilities&VERSION=1.1.1&SERVICE=WMS/distribution>
+    dcterms:description "Ebene: Regionalplan Mittelrhein-Westerwald 2017 Vorbehaltsgebiet Hochwasserschutz" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WMS_SRVC> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "WMS Schnittstelle"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoportal.rlp.de/mapbender/php/wms.php?layer_id=60406&REQUEST=GetCapabilities&VERSION=1.1.1&SERVICE=WMS> ;
+    dcat:downloadURL <https://www.geoportal.rlp.de/mapbender/php/wms.php?layer_id=60406&REQUEST=GetCapabilities&VERSION=1.1.1&SERVICE=WMS> .
+
+<https://www.geoportal.rlp.de/mapbender/plugins/mb_downloadFeedClient.php?url=https%3A%2F%2Fwww.geoportal.rlp.de%2Fmapbender%2Fphp%2Fmod_inspireDownloadFeed.php%3Fid%3D415af674-92cb-1d91-cb02-808906e536b4%26type%3DSERVICE%26generateFrom%3Dwfs%26wfsid%3D528/distribution>
+    dcterms:description "Vorbehaltsgebiet Hochwasserschutz Mittelrhein-Westerwald 2017 - Download von Vektordaten (wfs-basiert) über INSPIRE ATOM Feed" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Download (INSPIRE)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoportal.rlp.de/mapbender/plugins/mb_downloadFeedClient.php?url=https%3A%2F%2Fwww.geoportal.rlp.de%2Fmapbender%2Fphp%2Fmod_inspireDownloadFeed.php%3Fid%3D415af674-92cb-1d91-cb02-808906e536b4%26type%3DSERVICE%26generateFrom%3Dwfs%26wfsid%3D528> ;
+    dcat:downloadURL <https://www.geoportal.rlp.de/mapbender/plugins/mb_downloadFeedClient.php?url=https%3A%2F%2Fwww.geoportal.rlp.de%2Fmapbender%2Fphp%2Fmod_inspireDownloadFeed.php%3Fid%3D415af674-92cb-1d91-cb02-808906e536b4%26type%3DSERVICE%26generateFrom%3Dwfs%26wfsid%3D528> .
+
+<https://www.geoportal.rlp.de/portal/karten.html?LAYER%5Bzoom%5D=1&LAYER%5Bid%5D=60406/distribution>
+    dcterms:description "Ebene: Regionalplan Mittelrhein-Westerwald 2017 Vorbehaltsgebiet Hochwasserschutz - Anzeige im GeoPortal.rlp" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "GeoPortal.rlp"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoportal.rlp.de/portal/karten.html?LAYER%5Bzoom%5D=1&LAYER%5Bid%5D=60406> ;
+    dcat:downloadURL <https://www.geoportal.rlp.de/portal/karten.html?LAYER%5Bzoom%5D=1&LAYER%5Bid%5D=60406> .
+
+<https://www.geoportal.rlp.de/spatial-objects/528/collections/ms:mw_161208_15_vb_hochwasserschutz/distribution>
+    dcterms:description "Vorbehaltsgebiet Hochwasserschutz Mittelrhein-Westerwald 2017 - Zugriff auf Daten über LinkedOpenData REST API (OGC API Features)" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/REST> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Linked Open Data API (OGC API Features)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoportal.rlp.de/spatial-objects/528/collections/ms:mw_161208_15_vb_hochwasserschutz> ;
+    dcat:downloadURL <https://www.geoportal.rlp.de/spatial-objects/528/collections/ms:mw_161208_15_vb_hochwasserschutz> .
+
+<https://www.geoseaportal.de/atomfeeds/Verm_Single_Beam_Nordsee_2017.xml/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/ATOM> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoseaportal.de/atomfeeds/Verm_Single_Beam_Nordsee_2017.xml> ;
+    dcat:downloadURL <https://www.geoseaportal.de/atomfeeds/Verm_Single_Beam_Nordsee_2017.xml> .
+
+<https://www.kba.de/DE/Statistik/Kraftfahrer/Fahrerlaubnisse/Fahrerlaubnispruefungen/fahrerlaubnispruefungen_node.html/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "'Portal"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.kba.de/DE/Statistik/Kraftfahrer/Fahrerlaubnisse/Fahrerlaubnispruefungen/fahrerlaubnispruefungen_node.html> ;
+    dcat:downloadURL <https://www.kba.de/DE/Statistik/Kraftfahrer/Fahrerlaubnisse/Fahrerlaubnispruefungen/fahrerlaubnispruefungen_node.html> .
+
+<https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Kraftfahrer/FE/2016/fe7_2016_xls.xls?__blob=publicationFile&v=11/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "Fahrerlaubnisprüfungen, Jahr 2016 (FE 7) "@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Kraftfahrer/FE/2016/fe7_2016_xls.xls?__blob=publicationFile&v=11> ;
+    dcat:downloadURL <https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Kraftfahrer/FE/2016/fe7_2016_xls.xls?__blob=publicationFile&v=11> .
+
+<https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Kraftfahrer/FE/2017/fe7_2017_xls.xls?__blob=publicationFile&v=4/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "Fahrerlaubnisprüfungen, Jahr 2017 (FE 7) "@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Kraftfahrer/FE/2017/fe7_2017_xls.xls?__blob=publicationFile&v=4> ;
+    dcat:downloadURL <https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Kraftfahrer/FE/2017/fe7_2017_xls.xls?__blob=publicationFile&v=4> .
+
+<https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Kraftfahrer/FE/2018/fe7_2018_xlsx.xlsx?__blob=publicationFile&v=5/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "Fahrerlaubnisprüfungen, Jahr 2018 (FE 7) "@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Kraftfahrer/FE/2018/fe7_2018_xlsx.xlsx?__blob=publicationFile&v=5> ;
+    dcat:downloadURL <https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Kraftfahrer/FE/2018/fe7_2018_xlsx.xlsx?__blob=publicationFile&v=5> .
+
+<https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Kraftfahrer/FE/2019/fe7_2019_xlsx.xlsx?__blob=publicationFile&v=4/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "Fahrerlaubnisprüfungen, Jahr 2019 (FE 7)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Kraftfahrer/FE/2019/fe7_2019_xlsx.xlsx?__blob=publicationFile&v=4> ;
+    dcat:downloadURL <https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Kraftfahrer/FE/2019/fe7_2019_xlsx.xlsx?__blob=publicationFile&v=4> .
+

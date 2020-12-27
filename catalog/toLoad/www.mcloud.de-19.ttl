@@ -1,0 +1,534 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/1.0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gml: <http://www.opengis.net/gml/3.2> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix odrs: <http://schema.theodi.org/odrs#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix hydra: <http://www.w3.org/ns/hydra/core#> .
+
+<http://134.245.19.83/data/scharbeutz/Parkplatz_Haffkrug_P1_2020-09-12.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-10-23T09:25:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Parkplatz_Haffkrug_P1_2020-09-12.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://134.245.19.83/data/scharbeutz/Parkplatz_Haffkrug_P1_2020-09-12.csv> ;
+    dcat:byteSize 5614 ;
+    dcat:downloadURL <http://134.245.19.83/data/scharbeutz/Parkplatz_Haffkrug_P1_2020-09-12.csv> .
+
+<http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Badeweg_2020-09-22.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-10-23T09:25:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Parkplatz_Scharbeutz_Badeweg_2020-09-22.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Badeweg_2020-09-22.csv> ;
+    dcat:byteSize 42862 ;
+    dcat:downloadURL <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Badeweg_2020-09-22.csv> .
+
+<http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_14-20_2020-10-04.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-10-23T09:27:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Scharbeutz_Strandabschnitt_14-20_2020-10-04.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_14-20_2020-10-04.csv> ;
+    dcat:byteSize 95689 ;
+    dcat:downloadURL <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_14-20_2020-10-04.csv> .
+
+<http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_21-24_2020-10-28.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-10-29T12:44:28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Scharbeutz_Strandabschnitt_21-24_2020-10-28.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_21-24_2020-10-28.csv> ;
+    dcat:byteSize 95911 ;
+    dcat:downloadURL <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_21-24_2020-10-28.csv> .
+
+<http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-11-08.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-11-09T13:45:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Scharbeutz_Strandabschnitt_25-29_2020-11-08.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-11-08.csv> ;
+    dcat:byteSize 94607 ;
+    dcat:downloadURL <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-11-08.csv> .
+
+<http://www.stadtentwicklung.berlin.de/distribution>
+    dcterms:issued "2020-12-01T02:36:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "Unnamed resource"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.stadtentwicklung.berlin.de> ;
+    dcat:downloadURL <http://www.stadtentwicklung.berlin.de> .
+
+<https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_atkis_AX_bahnverkehr_f/distribution>
+    dcterms:description "API-Endpunkt des WFS-Service. Weitere Informationen unter https://www.ogc.org/standards/wfs" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WFS_SRVC> ;
+    dcterms:issued "2020-12-01T02:36:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "API-Endpunkt des WFS-Service"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_atkis_AX_bahnverkehr_f> ;
+    dcat:downloadURL <https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_atkis_AX_bahnverkehr_f> .
+
+<https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_atkis_AX_bahnverkehr_f?request=getcapabilities&service=wfs&version=2.0.0/distribution>
+    dcterms:description "Maschinenlesbare Endpunkt-Beschreibung des WFS-Service. Weitere Informationen unter https://www.ogc.org/standards/wfs" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WFS_SRVC> ;
+    dcterms:issued "2020-12-01T02:36:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "Endpunkt-Beschreibung des WFS-Service"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_atkis_AX_bahnverkehr_f?request=getcapabilities&service=wfs&version=2.0.0> ;
+    dcat:downloadURL <https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_atkis_AX_bahnverkehr_f?request=getcapabilities&service=wfs&version=2.0.0> .
+
+<https://fbinter.stadt-berlin.de/fb?loginkey=alphaDataStart&alphaDataId=s_atkis_AX_bahnverkehr_f@senstadt/distribution>
+    dcterms:description "Aufruf des Geoportals Berlin mit Darstellung der downloadbaren Daten als Karte(nlayer)" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:issued "2020-12-01T02:36:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "Serviceseite im FIS-Broker"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://fbinter.stadt-berlin.de/fb?loginkey=alphaDataStart&alphaDataId=s_atkis_AX_bahnverkehr_f@senstadt> ;
+    dcat:downloadURL <https://fbinter.stadt-berlin.de/fb?loginkey=alphaDataStart&alphaDataId=s_atkis_AX_bahnverkehr_f@senstadt> .
+
+<https://geo.sv.rostock.de/inspire/tn-roadnetwork/download?service=WFS&version=2.0.0&request=GetFeature&typenames=tn-ro:RoadLink/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/GML> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geo.sv.rostock.de/inspire/tn-roadnetwork/download?service=WFS&version=2.0.0&request=GetFeature&typenames=tn-ro:RoadLink> ;
+    dcat:downloadURL <https://geo.sv.rostock.de/inspire/tn-roadnetwork/download?service=WFS&version=2.0.0&request=GetFeature&typenames=tn-ro:RoadLink> .
+
+<https://mcloud.de>
+    dcterms:description "Dies ist das Portal der mCLOUD."@de ;
+    dcterms:publisher <https://mcloud.de/#publisher> ;
+    dcterms:title "mCLOUD Portal"@de ;
+    a dcat:Catalog ;
+    dcat:dataset <https://mcloud.de/web/guest/suche/-/results/detail/10557e93-fae3-438b-9058-fb1585365e3e>, <https://mcloud.de/web/guest/suche/-/results/detail/1077fc3f-0135-4f43-a80d-bd7aa75912d5>, <https://mcloud.de/web/guest/suche/-/results/detail/110ddebc-4970-4f62-a30f-e7300cf11ad5>, <https://mcloud.de/web/guest/suche/-/results/detail/111b5ddc-3d30-4574-a3c5-b1f6dbf1e778>, <https://mcloud.de/web/guest/suche/-/results/detail/11355742-9ab1-4486-b901-2e040b7bd61a>, <https://mcloud.de/web/guest/suche/-/results/detail/113c547c-206d-40d4-8651-355428e28f0e>, <https://mcloud.de/web/guest/suche/-/results/detail/113cdc12-13d9-491c-84cd-bfcc51ae04dd>, <https://mcloud.de/web/guest/suche/-/results/detail/1142b8e8-7c12-4989-a4b6-3f7d750cec3d>, <https://mcloud.de/web/guest/suche/-/results/detail/116f91fa-52b5-4007-a050-a204a0ebf5fb>, <https://mcloud.de/web/guest/suche/-/results/detail/118CBEFF-9189-4273-B54D-2E5F4BB993FB> ;
+    foaf:homepage <https://mcloud.de/> .
+
+<https://mcloud.de/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesministerium für Verkehr und digitale Infrastruktur" .
+
+<https://mcloud.de/export/datasets?page=19>
+    a hydra:PagedCollection ;
+    hydra:firstPage "https://mcloud.de/export/datasets?page=1" ;
+    hydra:itemsPerPage 10 ;
+    hydra:lastPage "https://mcloud.de/export/datasets?page=420" ;
+    hydra:nextPage "https://mcloud.de/export/datasets?page=20" ;
+    hydra:previousPage "https://mcloud.de/export/datasets?page=18" ;
+    hydra:totalItems 4200 .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/10557e93-fae3-438b-9058-fb1585365e3e>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der belegten Parkplätze
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Autos
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "10557e93-fae3-438b-9058-fb1585365e3e" ;
+    dcterms:issued "2020-10-23T09:25:38Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-10-23T09:25:38Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/10557e93-fae3-438b-9058-fb1585365e3e/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-09-22T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-09-22T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Parkplatz Scharbeutz Badeweg"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Badeweg_2020-09-22.csv/distribution> ;
+    dcat:keyword "Parkplatz"@de, "Scharbeutz"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/10557e93-fae3-438b-9058-fb1585365e3e/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/1077fc3f-0135-4f43-a80d-bd7aa75912d5>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der belegten Parkplätze
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Autos
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "1077fc3f-0135-4f43-a80d-bd7aa75912d5" ;
+    dcterms:issued "2020-10-23T09:25:12Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-10-23T09:25:12Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/1077fc3f-0135-4f43-a80d-bd7aa75912d5/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-09-12T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-09-12T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Parkplatz Haffkrug P1"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://134.245.19.83/data/scharbeutz/Parkplatz_Haffkrug_P1_2020-09-12.csv/distribution> ;
+    dcat:keyword "Parkplatz"@de, "Scharbeutz"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/1077fc3f-0135-4f43-a80d-bd7aa75912d5/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/110ddebc-4970-4f62-a30f-e7300cf11ad5>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accessRights """siehe Nutzungseinschränkungen
+Das von der Hanse- und Universitätsstadt Rostock hier angebotene Werk unterliegt der gemeinfreien Lizenz Creative Commons 1.0 Universell Public Domain Dedication (CC0 1.0; URL: https://creativecommons.org/publicdomain/zero/1.0/deed.de). Damit ist alles gestattet, ohne um weitere Erlaubnis bitten zu müssen. Es gelten folgende Regelungen zu Gewährleistung und Haftung: https://geo.sv.rostock.de/haftung-fuer-angebotene-inhalte.html"""@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dcterms:description "Dieser Datensatz umfasst die Netzabschnitte des Straßen- und Wegenetzes der Hanse- und Universitätsstadt Rostock mit Informationen zu Nummer, Start-Netzknoten und Ende-Netzknoten."@de ;
+    dcterms:identifier "110ddebc-4970-4f62-a30f-e7300cf11ad5" ;
+    dcterms:modified "2020-12-18T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/110ddebc-4970-4f62-a30f-e7300cf11ad5/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Hanse- und Universitätsstadt Rostock" ;
+        locn:geometry "POLYGON ((11.9936 54.2466, 12.3045 54.2466, 12.3045 54.0486, 11.9936 54.0486, 11.9936 54.2466))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[11.9936, 54.2466], [12.3045, 54.2466], [12.3045, 54.0486], [11.9936, 54.0486], [11.9936, 54.2466]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "Netzabschnitte des Straßen- und Wegenetzes der Hanse- und Universitätsstadt Rostock"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Kataster-, Vermessungs- und Liegenschaftsamt der Hanse- und Universitätsstadt Rostock" ;
+        vcard:hasCountryName "DE" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/geodienste@rostock.de> ;
+        vcard:hasLocality "DE-MV" ;
+        vcard:hasPostalCode "18069" ;
+        vcard:hasStreetAddress "Holbeinplatz 14" ;
+        vcard:hasURL <https://geo.sv.rostock.de/geodienste>
+    ] ;
+    dcat:distribution <https://geo.sv.rostock.de/inspire/tn-roadnetwork/download?service=WFS&version=2.0.0&request=GetFeature&typenames=tn-ro:RoadLink/distribution> ;
+    dcat:keyword "Lokal"@de, "Stadtverkehr"@de, "Straße"@de, "Straßennetz"@de, "Straßenverkehr"@de, "Verkehr"@de, "Verkehrsinfrastruktur"@de, "Verkehrsnetze"@de, "inspireidentifiziert"@de, "mcloud_category_roads"@de, "Öffentliche Straße"@de, "Öffentlicher Verkehr"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/110ddebc-4970-4f62-a30f-e7300cf11ad5/#publisher>
+    a foaf:Agent ;
+    foaf:name "Kataster-, Vermessungs- und Liegenschaftsamt der Hanse- und Universitätsstadt Rostock" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/111b5ddc-3d30-4574-a3c5-b1f6dbf1e778>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:description "INSPIRE-Thema Höhe (Tiefenlinien). Enthalten sind die Tiefenlinien aus der Seevermessung."@de ;
+    dcterms:identifier "111b5ddc-3d30-4574-a3c5-b1f6dbf1e778" ;
+    dcterms:modified "2020-12-17T12:00:00Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/111b5ddc-3d30-4574-a3c5-b1f6dbf1e778/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "000000000000" ;
+        locn:geometry "POLYGON ((6 55.5, 15 55.5, 15 53, 6 53, 6 55.5))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[6, 55.5], [15, 55.5], [15, 53], [6, 53], [6, 55.5]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "Höhe (Tiefenlinien) - INSPIRE-View-Service"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" ;
+        vcard:hasCountryName "Deutschland" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/Cindy.Niemeyer@bsh.de> ;
+        vcard:hasLocality "Mecklenburg-Vorpommern" ;
+        vcard:hasPostalCode "18057" ;
+        vcard:hasStreetAddress "Neptunallee 5"
+    ] ;
+    dcat:distribution <https://www.geoseaportal.de/inspire/services/ELV_INSPIRE_VS?VERSION=1.3.0&SERVICE=WMS&REQUEST=GetCapabilities/distribution> ;
+    dcat:keyword "Höhe"@de, "INSPIRE"@de, "National"@de, "inspireidentifiziert"@de, "mcloud_category_waters"@de, "opendata"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/111b5ddc-3d30-4574-a3c5-b1f6dbf1e778/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/11355742-9ab1-4486-b901-2e040b7bd61a>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der Personen im Strandabschnitt
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Personen
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "11355742-9ab1-4486-b901-2e040b7bd61a" ;
+    dcterms:issued "2020-10-29T12:44:28Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-10-29T12:44:28Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/11355742-9ab1-4486-b901-2e040b7bd61a/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-10-28T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-10-28T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Scharbeutz - Strandabschnitt 21-24"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_21-24_2020-10-28.csv/distribution> ;
+    dcat:keyword "Scharbeutz"@de, "Strand"@de, "Strandbelegung"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/11355742-9ab1-4486-b901-2e040b7bd61a/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/113c547c-206d-40d4-8651-355428e28f0e>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der Personen im Strandabschnitt
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Personen
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "113c547c-206d-40d4-8651-355428e28f0e" ;
+    dcterms:issued "2020-11-09T13:45:35Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-11-09T13:45:35Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/113c547c-206d-40d4-8651-355428e28f0e/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-11-08T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-11-08T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Scharbeutz - Strandabschnitt 25-29"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-11-08.csv/distribution> ;
+    dcat:keyword "Scharbeutz"@de, "Strand"@de, "Strandbelegung"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/113c547c-206d-40d4-8651-355428e28f0e/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/113cdc12-13d9-491c-84cd-bfcc51ae04dd>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der Personen im Strandabschnitt
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Personen
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "113cdc12-13d9-491c-84cd-bfcc51ae04dd" ;
+    dcterms:issued "2020-12-02T17:44:45Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-12-02T17:44:45Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/113cdc12-13d9-491c-84cd-bfcc51ae04dd/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-12-01T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-12-01T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Scharbeutz - Strandabschnitt 14-20"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Scharbeutz_Strandabschnitt_14-20_2020-12-01.csv/distribution> ;
+    dcat:keyword "Scharbeutz"@de, "Strand"@de, "Strandbelegung"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/113cdc12-13d9-491c-84cd-bfcc51ae04dd/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/1142b8e8-7c12-4989-a4b6-3f7d750cec3d>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der Personen im Strandabschnitt
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Personen
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "1142b8e8-7c12-4989-a4b6-3f7d750cec3d" ;
+    dcterms:issued "2020-10-23T09:27:56Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-10-23T09:27:56Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/1142b8e8-7c12-4989-a4b6-3f7d750cec3d/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-10-04T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-10-04T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Scharbeutz - Strandabschnitt 14-20"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_14-20_2020-10-04.csv/distribution> ;
+    dcat:keyword "Scharbeutz"@de, "Strand"@de, "Strandbelegung"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/1142b8e8-7c12-4989-a4b6-3f7d750cec3d/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/116f91fa-52b5-4007-a050-a204a0ebf5fb>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/NEVER> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:name "Senatsverwaltung für Stadtentwicklung und Wohnen Berlin"
+    ] ;
+    dcterms:description """<p>Umfasst alle für den Schienenverkehr erforderlichen Flächen</p>
+
+<p><img alt=\"Vorschaugrafik zu Datensatz &#39;ATKIS Bahnverkehr (Fläche)&#39;\" src=\"https://fbinter.stadt-berlin.de/fb_daten/vorschau/karten/kvor_alkis.png\"/></p>"""@de ;
+    dcterms:identifier "116f91fa-52b5-4007-a050-a204a0ebf5fb" ;
+    dcterms:issued "2019-08-13T10:33:50Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-12-01T02:36:39Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/116f91fa-52b5-4007-a050-a204a0ebf5fb/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        locn:geometry "POLYGON ((13.079 52.3284, 13.7701 52.3284, 13.7701 52.6877, 13.079 52.6877, 13.079 52.3284))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[13.079, 52.3284], [13.7701, 52.3284], [13.7701, 52.6877], [13.079, 52.6877], [13.079, 52.3284]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "ATKIS Bahnverkehr (Fläche) - [WFS]"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://www.stadtentwicklung.berlin.de/distribution>, <https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_atkis_AX_bahnverkehr_f/distribution>, <https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_atkis_AX_bahnverkehr_f?request=getcapabilities&service=wfs&version=2.0.0/distribution>, <https://fbinter.stadt-berlin.de/fb?loginkey=alphaDataStart&alphaDataId=s_atkis_AX_bahnverkehr_f@senstadt/distribution> ;
+    dcat:keyword "ATKIS"@de, "Bahn"@de, "Bahnverkehr"@de, "Basis-DLM"@de, "Berlin"@de, "DLM"@de, "Digitales Landschaftsmodell"@de, "Geodaten"@de, "Geographie und Stadtplanung"@de, "Präsentationsmodell"@de, "Sachdaten"@de, "Tatsächliche Nutzung"@de, "Verkehr"@de, "atkis"@de, "dlm"@de, "mcloud_category_infrastructure"@de, "mcloud_category_railway"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/116f91fa-52b5-4007-a050-a204a0ebf5fb/#publisher>
+    a foaf:Agent ;
+    foaf:name "Harvester FIS Broker" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/118CBEFF-9189-4273-B54D-2E5F4BB993FB>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcatde:originator [
+        a foaf:Organization ;
+        foaf:name "Kraftfahrt-Bundesamt"
+    ] ;
+    dcterms:accessRights "Weitere Informationen zu den Daten und Veröffentlichungen erhalten Sie über das Portal."@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/MONTHLY> ;
+    dcterms:description "Die monatliche Zeitreihe stellt die Entwicklung des Durchschnittsbestandes an großen Güterkraftfahrzeugen dar, die in Deutschland zugelassen sind. Dies sind die im Zentralen Fahrzeugregister (ZFZR) des Kraftfahrt-Bundesamtes (KBA) enthaltenen LKW, deren Nutzlast 3,5 Tonnen übersteigt,  sowie alle Sattelzugmaschinen. Ermittelt wird der Fahrzeugbestand jeweils zum 15. eines Monats. Rechtliche Basis für die Zählung ist die Anforderung aus dem Verkehrsstatistikgesetz (VerkStatG)  zur Erstellung einer Güterkraftverkehrsstatistik"@de ;
+    dcterms:identifier "118CBEFF-9189-4273-B54D-2E5F4BB993FB" ;
+    dcterms:issued "2020-11-17T11:43:17.559Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-12-17T08:24:42.262Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/118CBEFF-9189-4273-B54D-2E5F4BB993FB/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Bundesrepublik Deutschland" ;
+        locn:geometry "POLYGON ((6.098034 55.054344, 15.578555 55.054344, 15.578555 47.23942, 6.098034 47.23942, 6.098034 55.054344))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[6.098034, 55.054344], [15.578555, 55.054344], [15.578555, 47.23942], [6.098034, 47.23942], [6.098034, 55.054344]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-12-15T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2016-01-15T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Entwicklung der deutschen Fahrzeugflotte im Güterkraftverkehr (VD) - Zeitreihe"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://www.kba.de/DE/Statistik/Kraftverkehr/deutscherLastkraftfahrzeuge/vd_monatl_Entwicklung_der_dt_Fahrzeugflotte/entwicklung_der_dt_fahrzeugflotte_inhalt.html?nn=2351604/distribution>, <https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Kraftverkehr/VD_Fahrzeugflotte/2020/vd_fahrzeugflotte_202012_xlsx.xlsx?__blob=publicationFile&v=2/distribution> ;
+    dcat:keyword "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/118CBEFF-9189-4273-B54D-2E5F4BB993FB/#publisher>
+    a foaf:Agent ;
+    foaf:name "Kraftfahrt-Bundesamt (KBA)" .
+
+<https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Scharbeutz_Strandabschnitt_14-20_2020-12-01.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-02T17:44:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Scharbeutz_Strandabschnitt_14-20_2020-12-01.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Scharbeutz_Strandabschnitt_14-20_2020-12-01.csv> ;
+    dcat:byteSize 94271 ;
+    dcat:downloadURL <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Scharbeutz_Strandabschnitt_14-20_2020-12-01.csv> .
+
+<https://www.geoseaportal.de/inspire/services/ELV_INSPIRE_VS?VERSION=1.3.0&SERVICE=WMS&REQUEST=GetCapabilities/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Höhe (Tiefenlinien) - INSPIRE-View-Service - GetCapabilities"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoseaportal.de/inspire/services/ELV_INSPIRE_VS?VERSION=1.3.0&SERVICE=WMS&REQUEST=GetCapabilities> ;
+    dcat:downloadURL <https://www.geoseaportal.de/inspire/services/ELV_INSPIRE_VS?VERSION=1.3.0&SERVICE=WMS&REQUEST=GetCapabilities> .
+
+<https://www.kba.de/DE/Statistik/Kraftverkehr/deutscherLastkraftfahrzeuge/vd_monatl_Entwicklung_der_dt_Fahrzeugflotte/entwicklung_der_dt_fahrzeugflotte_inhalt.html?nn=2351604/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "'Portal"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.kba.de/DE/Statistik/Kraftverkehr/deutscherLastkraftfahrzeuge/vd_monatl_Entwicklung_der_dt_Fahrzeugflotte/entwicklung_der_dt_fahrzeugflotte_inhalt.html?nn=2351604> ;
+    dcat:downloadURL <https://www.kba.de/DE/Statistik/Kraftverkehr/deutscherLastkraftfahrzeuge/vd_monatl_Entwicklung_der_dt_Fahrzeugflotte/entwicklung_der_dt_fahrzeugflotte_inhalt.html?nn=2351604> .
+
+<https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Kraftverkehr/VD_Fahrzeugflotte/2020/vd_fahrzeugflotte_202012_xlsx.xlsx?__blob=publicationFile&v=2/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Entwicklung der deutschen Fahrzeugflotte (VD) Zeitreihe 2016 - Dezemeber 2020"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Kraftverkehr/VD_Fahrzeugflotte/2020/vd_fahrzeugflotte_202012_xlsx.xlsx?__blob=publicationFile&v=2> ;
+    dcat:downloadURL <https://www.kba.de/SharedDocs/Publikationen/DE/Statistik/Kraftverkehr/VD_Fahrzeugflotte/2020/vd_fahrzeugflotte_202012_xlsx.xlsx?__blob=publicationFile&v=2> .
+

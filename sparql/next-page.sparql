@@ -1,0 +1,4 @@
+SELECT DISTINCT ?nextPage 
+WHERE { 
+	?s hydra:nextPage ?nextPage .
+}

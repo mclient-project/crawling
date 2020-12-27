@@ -6,8 +6,9 @@ WHERE {
 
 	?portal eg:url ?url ;
 		rdfs:label ?label ;
-		eg:technology ?technology .
-	
+		eg:technology ?technology ;
+		eg:crawl ?crawl .
 	FILTER (regex(?technology, ?type, "i"))
+	FILTER (?crawl = "1")
 BIND(sys:getenv('PORTAL_TYPE') as ?type)
 }

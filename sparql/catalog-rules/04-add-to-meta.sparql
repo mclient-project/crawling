@@ -1,8 +1,9 @@
 INSERT  { ?catalog dcat:catalog ?s }
 WHERE
 {
-  ?s a dcat:Catalog .
-  BIND(URI(sys:getenv('CATALOG_NS')) as ?ns)
+  ?s a cat:Catalog .
+  BIND('http://mclient-project.github.io/catalog/' AS ?ns)
   BIND(URI(CONCAT(?ns, 'meta')) as ?catalog)
 }
+
 

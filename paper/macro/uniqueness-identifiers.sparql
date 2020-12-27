@@ -1,0 +1,39 @@
+# Are identifiers unique across portals? Precondition: datasets should not be the same and names should not be the same
+
+prefix dcat: <http://www.w3.org/ns/dcat#> 
+prefix dct: <http://purl.org/dc/terms/> 
+prefix prov: <http://www.w3.org/ns/prov#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix ckan: <http://ckan.aksw.org/ontology/>
+
+select COUNT(DISTINCT ?id) WHERE {
+
+?cat dcat:dataset ?s.
+?s ckan:name ?name;
+ckan:id ?id .
+?cat2 dcat:dataset ?s2 .
+?s2 ckan:id  ?id;
+ckan:name ?name2 .
+FILTER ( (?s != ?s2) &&  (?cat != ?cat2) && (?name != ?name2))
+}
+
+# Hits: 0, Yes, they are
+
+# Are identifiers unique across portals? Precondition: datasets should not be the same
+prefix dcat: <http://www.w3.org/ns/dcat#> 
+prefix dct: <http://purl.org/dc/terms/> 
+prefix prov: <http://www.w3.org/ns/prov#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix ckan: <http://ckan.aksw.org/ontology/>
+
+select COUNT(DISTINCT ?id) WHERE {
+
+?cat dcat:dataset ?s.
+?s ckan:id ?id .
+?cat2 dcat:dataset ?s2 .
+?s2 ckan:id  ?id .
+FILTER ( (?s != ?s2) &&  (?cat != ?cat2))
+}
+
+# Hits: 157 ids 
+# Some datasets appear under different groups, but characterize the same dataset, even though they have no common URIs

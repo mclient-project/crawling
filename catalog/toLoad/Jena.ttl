@@ -35,7 +35,7 @@
         dcterms:description  "Standorte von Entsorgungseinrichtungen (Container, Wertstoffhöfe)\r\n\r\n[Nächste Aktualisierung der Ressourcen](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=11)" ;
         dcterms:title        "Entsorgungseinrichtungen" ;
         cat:distribution     <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> , <https://opendata.jena.de/distribution/Standorte+Entsorgungseinrichtungen> ;
-        cat:keyword          "Müll" , "Entsorgung" .
+        cat:keyword          "Entsorgung" , "Müll" .
 
 <https://opendata.jena.de/dataset/prufbericht-nr-38-16-sonderprufung-opp-projekt-lutherplatz-3>
         a                    cat:Dataset ;
@@ -134,11 +134,11 @@
 
 <https://opendata.jena.de/distribution/corona_erkrankungen_jena.csv>
         a                    cat:Distribution ;
-        dcterms:description  "CSV-Datei mit Komma getrennt. Aktualisierung mindestens einmal täglich. Ab 2.4. mit Daten zu Stationären Aufenthalten und schweren Verläufen. Ab 26.8. gibt es 2 neue Spalten mit den neu Erkrankten (letzte 24h) und den aktiven Fällen." ;
+        dcterms:description  "CSV-Datei mit Komma getrennt. Aktualisierung mindestens einmal täglich. Ab 2.4.2020 mit Daten zu stationären Aufenthalten und schweren Verläufen. Ab 26.8.2020 gibt es 2 neue Spalten mit den neu Erkrankten (letzte 24h) und den aktiven Fällen." ;
         dcterms:format       "CSV" ;
         dcterms:title        "corona_erkrankungen_jena.csv" ;
         cat:accessURL        <https://opendata.jena.de/dataset/2cc7773d-beba-43ad-9808-a420a67ffcb3/resource/d3ba07b6-fb19-451b-b902-5b18d8e8cbad/download/corona_erkrankungen_jena.csv> ;
-        cat:byteSize         "7945"^^xsd:decimal ;
+        cat:byteSize         8518.0 ;
         cat:mediaType        "text/csv" .
 
 <https://opendata.jena.de/distribution/Vornamen+2019>
@@ -147,7 +147,7 @@
         dcterms:format       "CSV" ;
         dcterms:title        "Vornamen 2019" ;
         cat:accessURL        <https://opendata.jena.de/dataset/45cb0cf5-5b09-4b14-8f5b-bed05371fe93/resource/ec7a0b28-728b-47d5-8656-e73ae088bc89/download/vornamen2019_opendata_datenschutz.csv> ;
-        cat:byteSize         "13748"^^xsd:decimal ;
+        cat:byteSize         13748.0 ;
         cat:mediaType        "text/csv" .
 
 <https://opendata.jena.de/distribution/maengel.json>
@@ -199,7 +199,7 @@
                 "einwohner-hauptwohnung-nach-alter-und-geschlecht" ;
         dcterms:description  "Einwohner (Hauptwohnung) nach statistischen Bezirken, Alterskohorten und Geschlecht\r\n\r\nStichtage jährlich 30.06. und 31.12.; Zeitreihe seit 31.12.2002\r\n\r\nGesamtzahl der Einwohner mit Hauptwohnung nach Alterskohorten und Geschlecht\r\n\r\nAus Datenschutzgründen werden Daten, die Rückschlüsse auf Einzelpersonen erlauben, anonymisiert.\r\n\r\n[Nächste Aktualisierung der Ressourcen](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=137)" ;
         dcterms:title        "Einwohner (Hauptwohnung) nach Alter und Geschlecht" ;
-        cat:distribution     <https://opendata.jena.de/distribution/Einwohner+%28weiblich%29+nach+Alter> , <https://opendata.jena.de/distribution/Einwohner+%28m%C3%A4nnlich%29+nach+Alter> .
+        cat:distribution     <https://opendata.jena.de/distribution/Einwohner+%28m%C3%A4nnlich%29+nach+Alter> , <https://opendata.jena.de/distribution/Einwohner+%28weiblich%29+nach+Alter> .
 
 <https://opendata.jena.de/dataset/entwicklungsprojekte>
         a                    cat:Dataset ;
@@ -209,8 +209,8 @@
                 "entwicklungsprojekte" ;
         dcterms:description  "Der Datensatz enthält eine Auswahl aktuell bevorstehender privater und/oder öffentlicher Entwicklungsprojekte in Jena.\r\n\r\n[Nächste Aktualisierung der Ressource](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=144)" ;
         dcterms:title        "Entwicklungsprojekte" ;
-        cat:distribution     <https://opendata.jena.de/distribution/Entwicklungsprojekte+%28WGS84%29> , <https://opendata.jena.de/distribution/Entwicklungsprojekte> ;
-        cat:keyword          "Investition" , "Wirtschaft" .
+        cat:distribution     <https://opendata.jena.de/distribution/Entwicklungsprojekte> , <https://opendata.jena.de/distribution/Entwicklungsprojekte+%28WGS84%29> ;
+        cat:keyword          "Wirtschaft" , "Investition" .
 
 <https://opendata.jena.de/distribution/2016-10-17_Baumgutachten_Freiraum+Stadtroader+Stra%C3%9Fe.pdf>
         a               cat:Distribution ;
@@ -320,8 +320,7 @@
         dcterms:title        "Veranstaltungen" ;
         owl:versionInfo      "1.0" ;
         cat:distribution     <https://opendata.jena.de/distribution/Veranstaltungen+als+XML> ;
-        cat:keyword          "Veranstaltungen" , "Events" , "Kalender" ;
-        cat:landingPage      <file:///home/lisa/repos/crawling/www.jena.de/veranstaltungen> .
+        cat:keyword          "Veranstaltungen" , "Events" , "Kalender" .
 
 <https://opendata.jena.de/dataset/formatio-jenensis>
         a                    cat:Dataset ;
@@ -370,7 +369,7 @@
                 "offener-haushalt" ;
         dcterms:description  "Haushaltspläne und -ergebnisse ab 2011.\r\nErgebnisrechnungen stehen erst mit Verzögerung zur Verfügung, weil die jeweiligen Jahresabschlüsse erst erstellt, geprüft und vom Stadtrat beschlossen werden müssen." ;
         dcterms:title        "Offener Haushalt" ;
-        cat:distribution     <https://opendata.jena.de/distribution/OffenerHaushalt.json> , <https://opendata.jena.de/distribution/OffenerHaushalt.csv> ;
+        cat:distribution     <https://opendata.jena.de/distribution/OffenerHaushalt.csv> , <https://opendata.jena.de/distribution/OffenerHaushalt.json> ;
         cat:keyword          "offner Haushalt" , "Finanzen" .
 
 <https://opendata.jena.de/dataset/sozialbericht-der-stadt-jena-2002-2007>
@@ -386,16 +385,19 @@
 
 <https://opendata.jena.de/distribution/Parken>
         a               cat:Distribution ;
-        dcterms:format  "JSON" , "CSV" ;
+        dcterms:format  "CSV" , "JSON" ;
         dcterms:title   "Parken" ;
-        cat:accessURL   <https://opendata.jena.de/data/parken.geojson> , <https://opendata.jena.de/data/parken.csv> .
+        cat:accessURL   <https://opendata.jena.de/data/parken.csv> , <https://opendata.jena.de/data/parken.geojson> .
 
 mclient:Jena  a            cat:Catalog ;
+        rdfs:comment       "" ;
         rdfs:label         "Jena" ;
         dcatx:accountable  "" ;
+        dcatx:crawl        "1" ;
         dcatx:dcatApApi    false ;
         dcatx:email        "info@jena.de" ;
         dcatx:nuts         "DEG03" ;
+        dcatx:openApi      "1" ;
         dcatx:technology   "CKAN" ;
         dcatx:type         "city" ;
         dcatx:url          "https://opendata.jena.de/" ;
@@ -491,7 +493,7 @@ mclient:Jena  a            cat:Catalog ;
         dcterms:description  "Baulandkataster\r\n\r\n_Die Aufnahme eines Grundstücks in das Baulandkataster ersetzt nicht die Baugenehmigung und sagt sie auch nicht zu. […] Denn die Aufnahme eines Grundstücks in das Baulandkataster begründet kein Baurecht und behauptet ein solches Recht auch nicht, da auch Grundstücke aufgenommen werden, die erst in absehbarer Zeit bebaubar, also aktuell gerade nicht bebaubar sind“_ \r\n\r\n(Ernst/ Zinkahn/ Bielenberg/ Krautzberger: Baugesetzbuch, Kommentar §200 Abs. 3).\r\n\r\n[Nächste Aktualisierung der Ressource](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=14)" ;
         dcterms:title        "Baulandkataster" ;
         cat:distribution     <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> , <https://opendata.jena.de/distribution/Baulandkataster> ;
-        cat:keyword          "Wohnbau" , "Baulandkataster" , "Bauen" .
+        cat:keyword          "Baulandkataster" , "Wohnbau" , "Bauen" .
 
 <https://opendata.jena.de/distribution/Vornamen+2017>
         a                    cat:Distribution ;
@@ -519,7 +521,7 @@ mclient:Jena  a            cat:Catalog ;
                 "naturdenkmale" ;
         dcterms:description  "punkt- und flächenförmige Naturdenkmale\r\n\r\n[Nächste Aktualisierung der Ressourcen](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=86)" ;
         dcterms:title        "Naturdenkmale" ;
-        cat:distribution     <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> , <https://opendata.jena.de/distribution/Naturdenkmale+%28fl%C3%A4chenhaft%29> , <https://opendata.jena.de/distribution/Naturdenkmale+%28punktf%C3%B6rmig%29> ;
+        cat:distribution     <https://opendata.jena.de/distribution/Naturdenkmale+%28punktf%C3%B6rmig%29> , <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> , <https://opendata.jena.de/distribution/Naturdenkmale+%28fl%C3%A4chenhaft%29> ;
         cat:keyword          "Naturschutz" .
 
 <https://opendata.jena.de/distribution/OffenerHaushalt.json>
@@ -648,8 +650,8 @@ mclient:Jena  a            cat:Catalog ;
                 "hundekottutenspender" ;
         dcterms:description  "Standorte der Hundekottütenspender\r\n[Nächste Aktualisierung der Ressourcen](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=148)" ;
         dcterms:title        "Hundekottütenspender" ;
-        cat:distribution     <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> , <https://opendata.jena.de/distribution/Hundekott%C3%BCtenspender> ;
-        cat:keyword          "Kot" , "Hund" .
+        cat:distribution     <https://opendata.jena.de/distribution/Hundekott%C3%BCtenspender> , <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> ;
+        cat:keyword          "Hund" , "Kot" .
 
 <https://opendata.jena.de/dataset/ortsteile>
         a                    cat:Dataset ;
@@ -777,7 +779,7 @@ mclient:Jena  a            cat:Catalog ;
         dcterms:description  "Adressen der Stadt Jena mit Verortungspunkt, PLZ, Ortsteil und statistischem Bezirk.\r\n\r\n[Nächste Aktualisierung der Ressourcen](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=2)" ;
         dcterms:title        "Adressen verortet" ;
         cat:distribution     <https://opendata.jena.de/distribution/Adressen+verortet> , <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> ;
-        cat:keyword          "PLZ" , "Adresse" .
+        cat:keyword          "Adresse" , "PLZ" .
 
 <https://opendata.jena.de/distribution/Statistische+Bezirke>
         a               cat:Distribution ;
@@ -810,7 +812,7 @@ mclient:Jena  a            cat:Catalog ;
                 "fahrradabstellanlagen" ;
         dcterms:description  "Standorte der Fahrradabstellanlagen in Jena.\r\n\r\n[Nächste Aktualisierung der Ressourcen](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=5)" ;
         dcterms:title        "Fahrradabstellanlagen" ;
-        cat:distribution     <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> , <https://opendata.jena.de/distribution/Fahrradabstellanlagen> ;
+        cat:distribution     <https://opendata.jena.de/distribution/Fahrradabstellanlagen> , <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> ;
         cat:keyword          "Fahrradabstellanlage" , "Fahrradständer" .
 
 <https://opendata.jena.de/distribution/Wohnen_in_Jena_kpl.pdf>
@@ -1094,9 +1096,9 @@ mclient:Jena  a            cat:Catalog ;
 
 <https://opendata.jena.de/distribution/Hundekott%C3%BCtenspender>
         a               cat:Distribution ;
-        dcterms:format  "CSV" , "JSON" ;
+        dcterms:format  "JSON" , "CSV" ;
         dcterms:title   "Hundekottütenspender" ;
-        cat:accessURL   <https://opendata.jena.de/data/hundekot.csv> , <https://opendata.jena.de/data/hundekot.geojson> .
+        cat:accessURL   <https://opendata.jena.de/data/hundekot.geojson> , <https://opendata.jena.de/data/hundekot.csv> .
 
 <https://opendata.jena.de/dataset/baugrundgutachten-zur-neugestaltung-freiraum-an-der-stadtrodaer-strabe>
         a                    cat:Dataset ;
@@ -1163,7 +1165,7 @@ mclient:Jena  a            cat:Catalog ;
         dcterms:format       "JSON" ;
         dcterms:title        "statische Parkdaten" ;
         cat:accessURL        <https://opendata.jena.de/dataset/1a542cd2-c424-4fb6-b30b-d7be84b701c8/resource/76b93cff-4f6c-47fa-ab83-b07d64c8f38a/download/parking.json> ;
-        cat:byteSize         "83514"^^xsd:decimal ;
+        cat:byteSize         83514.0 ;
         cat:mediaType        "application/json" .
 
 <https://opendata.jena.de/dataset/corporate-design-handbuch-stadt-jena>
@@ -1176,6 +1178,8 @@ mclient:Jena  a            cat:Catalog ;
         dcterms:title        "Corporate Design Handbuch Stadt Jena" ;
         cat:distribution     <https://opendata.jena.de/distribution/CD-Handbuch-Stadt-Jena-2013.pdf> ;
         cat:keyword          "CD" , "CD-Handbuch" , "Druck" , "Design" , "Print" , "Corporate Design" .
+
+mclient:meta  cat:catalog  mclient:Jena .
 
 <https://opendata.jena.de/dataset/evaluation-der-sprachforderung-an-jenaer-kitas>
         a                    cat:Dataset ;
@@ -1197,7 +1201,7 @@ mclient:Jena  a            cat:Catalog ;
         dcterms:description  "Lage der Wahllokale; die Wahllokale werden erst einige Wochen oder Monate vor anstehenden Wahlen eingestellt und sind dann ausschliesslich für diese Wahl gültig. Zwischen den Wahlen sind die Ressourcen leer.\r\n\r\n[Nächste Aktualisierung der Ressourcen](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=20)" ;
         dcterms:title        "Wahllokale" ;
         cat:distribution     <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> , <https://opendata.jena.de/distribution/Wahllokale> ;
-        cat:keyword          "Wahllokal" , "Wahl" .
+        cat:keyword          "Wahl" , "Wahllokal" .
 
 <https://opendata.jena.de/distribution/PLZ-Bezirke>
         a                    cat:Distribution ;
@@ -1215,7 +1219,7 @@ mclient:Jena  a            cat:Catalog ;
         dcterms:description  "Räumliche Zuständigkeit der Teams im Fachdienst Bauordnung und Denkmalschutz\r\n\r\n[Nächste Aktualisierung der Ressource](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=16)" ;
         dcterms:title        "Zuständigkeit Bauordnung" ;
         cat:distribution     <https://opendata.jena.de/distribution/Zust%C3%A4ndigkeit+Bauordnung> , <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> ;
-        cat:keyword          "Bauen" , "Bauordnung" .
+        cat:keyword          "Bauordnung" , "Bauen" .
 
 <https://opendata.jena.de/distribution/Einwohner+%28weiblich%29+nach+Alter>
         a               cat:Distribution ;
@@ -1296,10 +1300,10 @@ mclient:Jena  a            cat:Catalog ;
 
 <https://opendata.jena.de/distribution/Wahllokale>
         a                    cat:Distribution ;
-        dcterms:description  "[nächste Aktualisierung](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=30)" , "[nächste Aktualisierung](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=20)" ;
-        dcterms:format       "CSV" , "JSON" ;
+        dcterms:description  "[nächste Aktualisierung](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=20)" , "[nächste Aktualisierung](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=30)" ;
+        dcterms:format       "JSON" , "CSV" ;
         dcterms:title        "Wahllokale" ;
-        cat:accessURL        <https://opendata.jena.de/data/wahllokale.csv> , <https://opendata.jena.de/data/wahllokale.geojson> .
+        cat:accessURL        <https://opendata.jena.de/data/wahllokale.geojson> , <https://opendata.jena.de/data/wahllokale.csv> .
 
 <https://opendata.jena.de/distribution/Vornamen+2016>
         a                    cat:Distribution ;

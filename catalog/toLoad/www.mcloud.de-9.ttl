@@ -1,0 +1,624 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/1.0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gml: <http://www.opengis.net/gml/3.2> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix odrs: <http://schema.theodi.org/odrs#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix hydra: <http://www.w3.org/ns/hydra/core#> .
+
+<http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-09-20.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-10-23T09:25:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-09-20.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-09-20.csv> ;
+    dcat:byteSize 51391 ;
+    dcat:downloadURL <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-09-20.csv> .
+
+<http://ckan.geonet-mrn.de/dataset/07080390-ec1d-4d70-be11-9b7666580189/resource/654c2d17-b398-4931-869e-1ea9178a8e20/download/db_streckennetz.geojson/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/GEOJSON> ;
+    dcterms:issued "2020-05-15T06:41:15.270Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:modified "2020-05-16T10:47:10.773Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:title "DB_Streckennetz.geojson"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://ckan.geonet-mrn.de/dataset/07080390-ec1d-4d70-be11-9b7666580189/resource/654c2d17-b398-4931-869e-1ea9178a8e20/download/db_streckennetz.geojson> ;
+    dcat:byteSize 21177494 ;
+    dcat:downloadURL <http://ckan.geonet-mrn.de/dataset/07080390-ec1d-4d70-be11-9b7666580189/resource/654c2d17-b398-4931-869e-1ea9178a8e20/download/db_streckennetz.geojson> .
+
+<http://ckan.geonet-mrn.de/dataset/07080390-ec1d-4d70-be11-9b7666580189/resource/713d87fd-7362-4b86-8cfd-8f0f9559ab34/download/db_streckennetz.zip/distribution>
+    dcterms:description "ZIP-Ordner enthält Shapefile-Dateien" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/SHP> ;
+    dcterms:issued "2020-05-15T06:36:05.990Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:modified "2020-05-15T06:36:05.954Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:title "DB_Streckennetz.zip"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://ckan.geonet-mrn.de/dataset/07080390-ec1d-4d70-be11-9b7666580189/resource/713d87fd-7362-4b86-8cfd-8f0f9559ab34/download/db_streckennetz.zip> ;
+    dcat:byteSize 6269263 ;
+    dcat:downloadURL <http://ckan.geonet-mrn.de/dataset/07080390-ec1d-4d70-be11-9b7666580189/resource/713d87fd-7362-4b86-8cfd-8f0f9559ab34/download/db_streckennetz.zip> .
+
+<http://daten-hamburg.de/inspire/INSPIRE_Verkehrsnetze_ATKIS_Basis_DLM_HH_2017-11-06.zip/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/GML> ;
+    dcterms:issued "2020-12-18T18:58:14.883Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Download INSPIRE HH Verkehrsnetze ATKIS Basis-DLM, 2017-11 (GML)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://daten-hamburg.de/inspire/INSPIRE_Verkehrsnetze_ATKIS_Basis_DLM_HH_2017-11-06.zip> ;
+    dcat:byteSize 10646594 ;
+    dcat:downloadURL <http://daten-hamburg.de/inspire/INSPIRE_Verkehrsnetze_ATKIS_Basis_DLM_HH_2017-11-06.zip> .
+
+<http://daten-hamburg.de/inspire/hh_inspire_verkehrsnetze_atkis_basis_dlm/HH_INSPIRE_Verkehrsnetze_ATKIS_Basis_DLM_2019_04_15.zip/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/GML> ;
+    dcterms:issued "2020-12-18T18:58:14.883Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Download INSPIRE HH Verkehrsnetze ATKIS Basis-DLM, 2019-04 (GML)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://daten-hamburg.de/inspire/hh_inspire_verkehrsnetze_atkis_basis_dlm/HH_INSPIRE_Verkehrsnetze_ATKIS_Basis_DLM_2019_04_15.zip> ;
+    dcat:byteSize 302 ;
+    dcat:downloadURL <http://daten-hamburg.de/inspire/hh_inspire_verkehrsnetze_atkis_basis_dlm/HH_INSPIRE_Verkehrsnetze_ATKIS_Basis_DLM_2019_04_15.zip> .
+
+<http://daten-hamburg.de/inspire/hh_inspire_verkehrsnetze_atkis_basis_dlm/HH_INSPIRE_Verkehrsnetze_ATKIS_Basis_DLM_2020_04_20.zip/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/GML> ;
+    dcterms:issued "2020-12-18T18:58:14.883Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Download INSPIRE HH Verkerhsnetze ATKIS Basis-DLM, 2020-04 (GML)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://daten-hamburg.de/inspire/hh_inspire_verkehrsnetze_atkis_basis_dlm/HH_INSPIRE_Verkehrsnetze_ATKIS_Basis_DLM_2020_04_20.zip> ;
+    dcat:byteSize 8558392 ;
+    dcat:downloadURL <http://daten-hamburg.de/inspire/hh_inspire_verkehrsnetze_atkis_basis_dlm/HH_INSPIRE_Verkehrsnetze_ATKIS_Basis_DLM_2020_04_20.zip> .
+
+<http://metaver.de/trefferanzeige?docuuid=A6DEC247-7E42-4120-BB8A-6051AE1AA819/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:issued "2020-12-18T18:58:14.883Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Metadatenbeschreibung aus dem MetaVer"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://metaver.de/trefferanzeige?docuuid=A6DEC247-7E42-4120-BB8A-6051AE1AA819> ;
+    dcat:byteSize 62614 ;
+    dcat:downloadURL <http://metaver.de/trefferanzeige?docuuid=A6DEC247-7E42-4120-BB8A-6051AE1AA819> .
+
+<http://www.geoproxy.geoportal-th.de/inspire-dl/atom/Service/Service_8104d27b-1357-4f4f-9a07-18f11268a36a.xml/distribution>
+    dcterms:description "INSPIRE-ATOMFeed TH Hydro - Physische Gewässer ATKIS Basis-DLM" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "INSPIRE-ATOMFeed TH Hydro - Physische Gewässer ATKIS Basis-DLM"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.geoproxy.geoportal-th.de/inspire-dl/atom/Service/Service_8104d27b-1357-4f4f-9a07-18f11268a36a.xml> ;
+    dcat:downloadURL <http://www.geoproxy.geoportal-th.de/inspire-dl/atom/Service/Service_8104d27b-1357-4f4f-9a07-18f11268a36a.xml> .
+
+<https://geodienste.hamburg.de/HH_WFS_INSPIRE_Verkehrsnetze_ATKIS?REQUEST=GetCapabilities&SERVICE=WFS/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WFS_SRVC> ;
+    dcterms:issued "2020-12-18T18:58:14.883Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Dienst \"WFS INSPIRE HH Verkehrsnetze ATKIS Basis-DLM\" (GetCapabilities)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geodienste.hamburg.de/HH_WFS_INSPIRE_Verkehrsnetze_ATKIS?REQUEST=GetCapabilities&SERVICE=WFS> ;
+    dcat:byteSize 93140 ;
+    dcat:downloadURL <https://geodienste.hamburg.de/HH_WFS_INSPIRE_Verkehrsnetze_ATKIS?REQUEST=GetCapabilities&SERVICE=WFS> .
+
+<https://geodienste.hamburg.de/HH_WMS_INSPIRE_Verkehrsnetze_ATKIS?REQUEST=GetCapabilities&SERVICE=WMS/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WMS_SRVC> ;
+    dcterms:issued "2020-12-18T18:58:14.883Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "Dienst \"WMS INSPIRE HH Verkehrsnetze ATKIS Basis-DLM\" (GetCapabilities)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geodienste.hamburg.de/HH_WMS_INSPIRE_Verkehrsnetze_ATKIS?REQUEST=GetCapabilities&SERVICE=WMS> ;
+    dcat:byteSize 59563 ;
+    dcat:downloadURL <https://geodienste.hamburg.de/HH_WMS_INSPIRE_Verkehrsnetze_ATKIS?REQUEST=GetCapabilities&SERVICE=WMS> .
+
+<https://geoportal.bafg.de/download/opendata/ueberflutungstiefen/servicefeed.xml/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/SHP> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geoportal.bafg.de/download/opendata/ueberflutungstiefen/servicefeed.xml> ;
+    dcat:downloadURL <https://geoportal.bafg.de/download/opendata/ueberflutungstiefen/servicefeed.xml> .
+
+<https://geoportal.stadt-koeln.de/arcgis/rest/services/WebVerkehr_DataOSM/MapServer/7?f=json&pretty=true/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-25T00:00:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geoportal.stadt-koeln.de/arcgis/rest/services/WebVerkehr_DataOSM/MapServer/7?f=json&pretty=true> ;
+    dcat:downloadURL <https://geoportal.stadt-koeln.de/arcgis/rest/services/WebVerkehr_DataOSM/MapServer/7?f=json&pretty=true> .
+
+<https://geoportal.stadt-koeln.de/arcgis/rest/services/WebVerkehr_DataOSM_66/MapServer/7/query?text=&geometry=&geometryType=esriGeometryPoint&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&objectIds=&where=objectid%20is%20not%20null&time=&returnCountOnly=false&returnIdsOnly=false&returnGeometry=true&maxAllowableOffset=&outSR=4326&outFields=%2A&f=json/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/JSON> ;
+    dcterms:issued "2020-12-25T00:00:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geoportal.stadt-koeln.de/arcgis/rest/services/WebVerkehr_DataOSM_66/MapServer/7/query?text=&geometry=&geometryType=esriGeometryPoint&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&objectIds=&where=objectid%20is%20not%20null&time=&returnCountOnly=false&returnIdsOnly=false&returnGeometry=true&maxAllowableOffset=&outSR=4326&outFields=%2A&f=json> ;
+    dcat:downloadURL <https://geoportal.stadt-koeln.de/arcgis/rest/services/WebVerkehr_DataOSM_66/MapServer/7/query?text=&geometry=&geometryType=esriGeometryPoint&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&objectIds=&where=objectid%20is%20not%20null&time=&returnCountOnly=false&returnIdsOnly=false&returnGeometry=true&maxAllowableOffset=&outSR=4326&outFields=%2A&f=json> .
+
+<https://geoportal.stadt-koeln.de/arcgis/rest/services/WebVerkehr_DataOSM_66/MapServer/7/query?text=&geometry=&geometryType=esriGeometryPoint&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&objectIds=&where=objectid%20is%20not%20null&time=&returnCountOnly=false&returnIdsOnly=false&returnGeometry=true&maxAllowableOffset=&outSR=4326&outFields=%2A&f=kmz/distribution>
+    dcterms:description "<p>KMZ Format</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/KMZ> ;
+    dcterms:issued "2020-12-25T00:00:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-de/3.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geoportal.stadt-koeln.de/arcgis/rest/services/WebVerkehr_DataOSM_66/MapServer/7/query?text=&geometry=&geometryType=esriGeometryPoint&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&objectIds=&where=objectid%20is%20not%20null&time=&returnCountOnly=false&returnIdsOnly=false&returnGeometry=true&maxAllowableOffset=&outSR=4326&outFields=%2A&f=kmz> ;
+    dcat:downloadURL <https://geoportal.stadt-koeln.de/arcgis/rest/services/WebVerkehr_DataOSM_66/MapServer/7/query?text=&geometry=&geometryType=esriGeometryPoint&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&objectIds=&where=objectid%20is%20not%20null&time=&returnCountOnly=false&returnIdsOnly=false&returnGeometry=true&maxAllowableOffset=&outSR=4326&outFields=%2A&f=kmz> .
+
+<https://geoserver.geonet-mrn.de/xdatatogo/db_strecken/ows?service=WFS&version=2.0.0&request=GetCapabilities/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WFS_SRVC> ;
+    dcterms:issued "2020-11-02T14:50:13.865Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "db_strecken (WFS)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geoserver.geonet-mrn.de/xdatatogo/db_strecken/ows?service=WFS&version=2.0.0&request=GetCapabilities> ;
+    dcat:downloadURL <https://geoserver.geonet-mrn.de/xdatatogo/db_strecken/ows?service=WFS&version=2.0.0&request=GetCapabilities> .
+
+<https://geoserver.geonet-mrn.de/xdatatogo/db_strecken/wms?service=WMS&version=1.3.0&request=GetCapabilities/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WMS_SRVC> ;
+    dcterms:issued "2020-11-02T14:50:14.972Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "db_strecken (WMS)"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geoserver.geonet-mrn.de/xdatatogo/db_strecken/wms?service=WMS&version=1.3.0&request=GetCapabilities> ;
+    dcat:downloadURL <https://geoserver.geonet-mrn.de/xdatatogo/db_strecken/wms?service=WMS&version=1.3.0&request=GetCapabilities> .
+
+<https://mcloud.de>
+    dcterms:description "Dies ist das Portal der mCLOUD."@de ;
+    dcterms:publisher <https://mcloud.de/#publisher> ;
+    dcterms:title "mCLOUD Portal"@de ;
+    a dcat:Catalog ;
+    dcat:dataset <https://mcloud.de/web/guest/suche/-/results/detail/06d7b617-fc1f-41e7-9bb8-3d6abda7c88e>, <https://mcloud.de/web/guest/suche/-/results/detail/06ead55d-6348-45b0-bd80-dbd7d7912fd7>, <https://mcloud.de/web/guest/suche/-/results/detail/06eb553b-e554-4de8-98a1-86a30b408dba>, <https://mcloud.de/web/guest/suche/-/results/detail/07080390-ec1d-4d70-be11-9b7666580189>, <https://mcloud.de/web/guest/suche/-/results/detail/0722e6ec-ef80-46cf-b4a7-f299f451499d>, <https://mcloud.de/web/guest/suche/-/results/detail/075a0c05-b419-4520-9fd0-635e6c04eb04>, <https://mcloud.de/web/guest/suche/-/results/detail/076f2bb3-0f6c-4cec-92e5-a361e48c2541>, <https://mcloud.de/web/guest/suche/-/results/detail/07b4b543-eeba-4f8c-9120-0b88c9fbe77e>, <https://mcloud.de/web/guest/suche/-/results/detail/07be7e96-09b5-4362-b01a-fdc31d4bf504>, <https://mcloud.de/web/guest/suche/-/results/detail/07df618f-105b-4b37-8823-2949f66589fa> ;
+    foaf:homepage <https://mcloud.de/> .
+
+<https://mcloud.de/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesministerium für Verkehr und digitale Infrastruktur" .
+
+<https://mcloud.de/export/datasets?page=9>
+    a hydra:PagedCollection ;
+    hydra:firstPage "https://mcloud.de/export/datasets?page=1" ;
+    hydra:itemsPerPage 10 ;
+    hydra:lastPage "https://mcloud.de/export/datasets?page=420" ;
+    hydra:nextPage "https://mcloud.de/export/datasets?page=10" ;
+    hydra:previousPage "https://mcloud.de/export/datasets?page=8" ;
+    hydra:totalItems 4200 .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/06d7b617-fc1f-41e7-9bb8-3d6abda7c88e>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:name "Vettweiß"
+    ] ;
+    dcterms:description """<p>Einzelnachweise für die Bußgelder (Ordnungswidrigkeiten) eines Jahres einer Kommune&nbsp;sortiert nach Tagesdatum und Uhrzeit.</p>
+
+<p>Die Erklärung zu den Tatbestandsnummer finden Sie im Bundeseinheitlichen Tatbestandskatalog (Link: <a href=\"http://www.kba.de/DE/ZentraleRegister/FAER/BT_KAT_OWI/btkat_node.html\">http://www.kba.de/DE/ZentraleRegister/FAER/BT_KAT_OWI/btkat_node.html</a>).</p>
+"""@de ;
+    dcterms:identifier "06d7b617-fc1f-41e7-9bb8-3d6abda7c88e" ;
+    dcterms:issued "2016-11-02T08:53:14Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-02-13T15:52:33Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/06d7b617-fc1f-41e7-9bb8-3d6abda7c88e/#publisher> ;
+    dcterms:title "D11 Einzelnachweise Bußgelder ruhender Verkehr Gemeinde Vettweiß"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://offenedaten.kdvz-frechen.de/sites/default/files/180_OpenData_2015.csv/distribution>, <https://offenedaten.kdvz-frechen.de/sites/default/files/OW_Vettwei%C3%9F_2016.csv/distribution>, <https://offenedaten.kdvz-frechen.de/sites/default/files/OW_Vettwei%C3%9F_2019.csv/distribution>, <https://offenedaten.kdvz-frechen.de/sites/default/files/OW_Vettwei%C3%9F_OpenData_2017.csv/distribution>, <https://offenedaten.kdvz-frechen.de/sites/default/files/OW_Vettweiss_2018.csv/distribution> ;
+    dcat:keyword "Offene Daten kdvz Rhein-Erft-Rur"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/06d7b617-fc1f-41e7-9bb8-3d6abda7c88e/#publisher>
+    a foaf:Agent ;
+    foaf:name "Rhein-Erft-Rur" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/06ead55d-6348-45b0-bd80-dbd7d7912fd7>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accessRights """Nutzungsbedingungen: Die Bundesanstalt für Gewässerkunde stellt die Geodaten im Rahmen der Geodatennutzungsverordnung des Bundes (GeoNutzV) bereit. Die Daten sind für alle Zwecke kommerzieller und nicht kommerzieller Nutzung geldleistungsfrei verfügbar. Die bundesweite Flächendeckung des Datenbestandes ist nicht in jedem Fall gewährleistet. Einzelne Bundesländer belegen ihren Datenbestand im Berichtsportal WasserBLIcK mit Zugriffsbeschränkungen, die mit Verweis auf §2 der GeoNutzV bei der Bereitstellung des nationalen Gesamtdatenbestandes berücksichtigt werden. Seitens der Bundesanstalt für Gewässerkunde wird keine Haftung für die Aktualität, Richtigkeit und Vollständigkeit der zur Verfügung gestellten Informationen und Daten übernommen. Für die Bereitstellung der Informationen und Daten kann kein Gewohnheitsrecht abgeleitet werden. Die Datenquelle ist ergänzt um das Datum des Datenbezugs wie folgt anzugeben: \"WasserBLIcK/BfG & Zuständige Behörden der Länder Datum\".
+Nutzungsbedingungen: Dieser Datensatz kann gemäß der „Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes“ (https://www.gesetze-im-internet.de/geonutzv/GeoNutzV.pdf) genutzt werden.
+Die Daten sind zum Teil generalisiert und eignen sich nicht für flurstücksgenaue Auswertungen."""@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "geoportal@bafg.de" ;
+        foaf:name "Bundesanstalt für Gewässerkunde"
+    ] ;
+    dcterms:description "Der Datensatz beinhaltet die Wassertiefen in den Überflutungsgebieten. Es werden Wassertiefe für drei Überflutungsszenarien (niedrige (Lo), mittlere (Me) und hohe Wahrscheinlichkeit (Hi)) von Fluss- (RW) und Küstenhochwasser (CW) bereitgestellt. Die Wassertiefen sind in fünf Klassen (0–0,5 m (1), 0,5–1 m (2), 1–2 m (3), 2–4 m (4) und 4 m) eingeteilt. Darüber hinaus werden die Wassertiefen in drei Gebiete unterteilt: Überflutungsgebiet (1), Nachrichtliches Überflutungsgebiet (2) und Hochwassergeschütztes Gebiet (3). Diese zwei Einteilungen sind im Attribute \"T_class\" zusammengefasst. Die erste Zahl des Attribute \"T_class \" gibt an um welches Gebiet es sich handelt und die zweite Zahl die Wassertiefenklasse. Z.B. T_class = 23 bezeichnet ein Nachrichtliches Überflutungsgebiet mit einer Wassertiefe von 1,0 - 2,0 m. Die Überflutungstiefen von Fließgewässern und Binnengewässern ist die Differenz zwischen Wasserstand ü.NHN und Gewässersohle ü.NHN. Die Überflutungstiefen von Küstengewässern ist die Differenz zwischen Meeresboden ü.NHN und dem Seekartennull plus der Gezeitenhöhe. Die Bundesanstalt für Gewässerkunde (BfG) verwaltet im Auftrag der Wasserwirtschaftsverwaltungen in Deutschland im nationalen Berichtsportal Wasser (WasserBLIcK) die Daten der Berichterstattung zu diversen wasserbezogenen EG-Umweltrichtlinien. Auf Basis dieser Datengrundlage stellt die BfG in Abstimmung mit der Länderarbeitsgemeinschaft Wasser (LAWA) ausgewählte Karten- und Datendienste bereit. Die hier bereitgestellten Dienste basieren auf national flächendeckend homogenisierten Datenbeständen. Andere administrative Ebenen in Deutschland (Land, Bezirk, Kreis, Kommune) stellen gegebenenfalls zu diesem Thema Dienste in einer höheren räumlichen und zeitlichen Auflösung bereit. "@de ;
+    dcterms:identifier "06ead55d-6348-45b0-bd80-dbd7d7912fd7" ;
+    dcterms:modified "2020-05-06T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/06ead55d-6348-45b0-bd80-dbd7d7912fd7/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "" ;
+        locn:geometry "POLYGON ((5.87 55.06, 15.05 55.06, 15.05 47.26, 5.87 47.26, 5.87 55.06))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[5.87, 55.06], [15.05, 55.06], [15.05, 47.26], [5.87, 47.26], [5.87, 55.06]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "Überflutungstiefen-DE (Hochwasserrisikomanagement-RL 2. Zyklus 2016-2021)"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Bundesanstalt für Gewässerkunde" ;
+        vcard:hasCountryName "Deutschland" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/geoportal@bafg.de> ;
+        vcard:hasLocality "Rheinland-Pfalz" ;
+        vcard:hasPostalCode "56068" ;
+        vcard:hasStreetAddress "Am Mainzer Tor 1"
+    ] ;
+    dcat:distribution <https://geoportal.bafg.de/download/opendata/ueberflutungstiefen/servicefeed.xml/distribution> ;
+    dcat:keyword "Baden-Württemberg"@de, "Bayern"@de, "Berlin"@de, "Brandenburg"@de, "Bremen"@de, "EU-Hochwasserrisikomanagement-Richtlinie"@de, "HWGK"@de, "HWRK"@de, "HWRML-RL"@de, "Hamburg"@de, "Hessen"@de, "Hochwassergefahrenkarte"@de, "Hochwasserrisikokarten"@de, "LAWA"@de, "Mecklenburg-Vorpommern"@de, "Niedersachsen"@de, "Nordrhein-Westfalen"@de, "Rheinland-Pfalz"@de, "Saarland"@de, "Sachsen"@de, "Sachsen-Anhalt"@de, "Schleswig-Holstein"@de, "Thüringen"@de, "Wassertiefen"@de, "geo"@de, "mcloud_category_waters"@de, "opendata"@de, "umwelt_klima"@de, "Überflutungstiefen"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/06ead55d-6348-45b0-bd80-dbd7d7912fd7/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesanstalt für Gewässerkunde" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/06eb553b-e554-4de8-98a1-86a30b408dba>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dcterms:description """Dieser Layer bildet Salzgehalt: Mittelwert (Oberfläche), 2005-2010 an der niedersächsischen Küste ab.
+Hierbei handelt es sich um aggregierte und harmonisierte Werte, die im Rahmen des Projektes MDI-DE für die Bewertung der Meeresstrategierahmenrichtlinie (MSRL) erstellt und entwickelt wurden."""@de ;
+    dcterms:identifier "06eb553b-e554-4de8-98a1-86a30b408dba" ;
+    dcterms:issued "2019-12-06T15:17:21Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2019-12-06T15:17:21Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/06eb553b-e554-4de8-98a1-86a30b408dba/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        locn:geometry "POLYGON ((7.165789 53.709581, 8.146625 53.709581, 8.146625 53.502711, 7.165789 53.502711, 7.165789 53.709581))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[7.165789, 53.709581], [8.146625, 53.709581], [8.146625, 53.502711], [7.165789, 53.502711], [7.165789, 53.709581]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "Salzgehalt: Mittelwert (Oberfläche), 2006-2014 (MSRL:PSAL_M06-14)"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Nationalparkverwaltung Niedersächsisches Wattenmeer / Niedersächsischer Landesbetrieb für Wasserwirtschaft Küsten- und Naturschutz" ;
+        vcard:hasCountryName "Germany" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/Michael.Raeder@nlpv-wattenmeer.niedersachsen.de> ;
+        vcard:hasPostalCode "26382" ;
+        vcard:hasURL <https://mdi.niedersachsen.de/images/NLPV_Mitarbeiter/MRaeder_500.jpg>
+    ] ;
+    dcat:distribution <https://mdi.niedersachsen.de/geoserver/MSRL-D5-Eutrophierung/wfs?Service=WFS&Request=GetFeature&outputFormat=SHAPE-ZIP&Version=1.1.0&typeName=MSRL-D5-Eutrophierung:PSAL_M05-10/distribution> ;
+    dcat:keyword "2006-bis-2014"@de, "biologie"@de, "deskriptor-05"@de, "eu-richtlinie"@de, "eutrophierung"@de, "küstengewässer"@de, "mcloud_category_waters"@de, "mdi-de"@de, "meer"@de, "meere"@de, "meeresstrategie-rahmenrichtlinie"@de, "meeresstrategierahmenrichtlinie"@de, "msrl"@de, "msrlrelevant2012"@de, "nationalpark-niedersächsisches-wattenmeer"@de, "naturschutz"@de, "nordsee"@de, "north-east-atlantic"@de, "nährstoff"@de, "nährstoffeintrag"@de, "nährstoffgehalt"@de, "nährstoffkonzentration"@de, "opendata"@de, "regional"@de, "salzgehalt"@de, "umwelt"@de, "umweltschutz"@de, "ökologie"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI>, <http://publications.europa.eu/resource/authority/data-theme/ENVI>, <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/06eb553b-e554-4de8-98a1-86a30b408dba/#publisher>
+    a foaf:Agent ;
+    foaf:name "GovData: Nationalparkverwaltung Niedersächsisches Wattenmeer / Niedersächsischer Landesbetrieb für Wasserwirtschaft Küsten- und Naturschutz" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/07080390-ec1d-4d70-be11-9b7666580189>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "dbopendata@deutschebahn.com" ;
+        foaf:name "https://data.deutschebahn.com/pages/imprint"
+    ] ;
+    dcterms:description """Das gesamte deutsche Streckennetz der Deutschen Bahn.
+https://data.deutschebahn.com/dataset/geo-strecke"""@de ;
+    dcterms:identifier "07080390-ec1d-4d70-be11-9b7666580189" ;
+    dcterms:issued "2020-05-15T06:32:14.686Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-11-02T14:59:29.377Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/07080390-ec1d-4d70-be11-9b7666580189/#publisher> ;
+    dcterms:title "Deutsche Bahn: Streckennetz (Linien)"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://ckan.geonet-mrn.de/dataset/07080390-ec1d-4d70-be11-9b7666580189/resource/654c2d17-b398-4931-869e-1ea9178a8e20/download/db_streckennetz.geojson/distribution>, <http://ckan.geonet-mrn.de/dataset/07080390-ec1d-4d70-be11-9b7666580189/resource/713d87fd-7362-4b86-8cfd-8f0f9559ab34/download/db_streckennetz.zip/distribution>, <https://geoserver.geonet-mrn.de/xdatatogo/db_strecken/ows?service=WFS&version=2.0.0&request=GetCapabilities/distribution>, <https://geoserver.geonet-mrn.de/xdatatogo/db_strecken/wms?service=WMS&version=1.3.0&request=GetCapabilities/distribution> ;
+    dcat:keyword "DB"@de, "Deutsche Bahn"@de, "Eisenbahn"@de, "MobiData BW Hackathon"@de, "Streckennetz"@de, "Transport"@de, "Verkehr"@de, "mcloud_category_railway"@de, "xDataToGo"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/07080390-ec1d-4d70-be11-9b7666580189/#publisher>
+    a foaf:Agent ;
+    foaf:name "GeoNet.MRN e.V." .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0722e6ec-ef80-46cf-b4a7-f299f451499d>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der belegten Parkplätze
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Autos
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "0722e6ec-ef80-46cf-b4a7-f299f451499d" ;
+    dcterms:issued "2020-10-23T09:25:10Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-10-23T09:25:10Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0722e6ec-ef80-46cf-b4a7-f299f451499d/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-09-20T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-09-20T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Parkplatz Scharbeutz Parkbuchten Strandallee II"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Parkbuchten_Strandallee_II_2020-09-20.csv/distribution> ;
+    dcat:keyword "Parkplatz"@de, "Scharbeutz"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0722e6ec-ef80-46cf-b4a7-f299f451499d/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/075a0c05-b419-4520-9fd0-635e6c04eb04>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/ANNUAL_2> ;
+    dcterms:description """Anhang I der INSPIRE-Richtlinie definiert dieses Thema wie folgt:
+                    „Elemente des Gewässernetzes, einschließlich Meeresgebieten und allen sonstigen Wasserkörpern und hiermit verbundenen Teilsystemen, darunter Einzugsgebiete und Teileinzugsgebiete. Gegebenenfalls gemäß den Definitionen der Richtlinie 2000/60/EG des Europäischen Parlaments und des Rates vom 23. Oktober 2000 zur Schaffung eines Ordnungsrahmens für Maßnahmen der Gemeinschaft im Bereich der Wasserpolitik (2) und in Form von Netzen.“
+                    Die Daten werden halbjährlich aus dem Basis-DLM abgeleitet."""@de ;
+    dcterms:identifier "075a0c05-b419-4520-9fd0-635e6c04eb04" ;
+    dcterms:issued "2020-11-15T23:00:00Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-11-15T23:00:00Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/075a0c05-b419-4520-9fd0-635e6c04eb04/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Thüringen" ;
+        locn:geometry "POLYGON ((9.87 51.64, 12.65 51.64, 12.65 50.2, 9.87 50.2, 9.87 51.64))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[9.87, 51.64], [12.65, 51.64], [12.65, 50.2], [9.87, 50.2], [9.87, 51.64]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "INSPIRE TH Hydro – Physische Gewässer ATKIS Basis-DLM"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Thüringer Landesamt für Bodenmanagement und Geoinformation" ;
+        vcard:hasCountryName "Germany" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/kompetenzzentrum.gdi-th@tlbg.thueringen.de> ;
+        vcard:hasPostalCode "99086" ;
+        vcard:hasURL <https://www.geoportal-th.de/de-de/GDI-Th/Kompetenzzentrum-GDI-Th>
+    ] ;
+    dcat:distribution <http://www.geoproxy.geoportal-th.de/inspire-dl/atom/Service/Service_8104d27b-1357-4f4f-9a07-18f11268a36a.xml/distribution>, <https://www.geoproxy.geoportal-th.de/geoproxy/services/INSPIREhy-p_wfs?/distribution>, <https://www.geoproxy.geoportal-th.de/geoproxy/services/INSPIREhyp?REQUEST=GetCapabilities&VERSION=1.1.1&SERVICE=WMS/distribution> ;
+    dcat:keyword "adv"@de, "advmis"@de, "böschung"@de, "crossing"@de, "dam-or-weir"@de, "damm-oder-wehr"@de, "embankment"@de, "falls"@de, "feuchtgebiet"@de, "ford"@de, "furt"@de, "geobasisdaten"@de, "gewässer"@de, "gewässernetz"@de, "hydrography"@de, "inspireidentifiziert"@de, "lock"@de, "mcloud_category_waters"@de, "opendata"@de, "physikalische-gewässser"@de, "rapids"@de, "regional"@de, "schleuse"@de, "shoreline-construction"@de, "siel"@de, "sluice"@de, "standing-water"@de, "stehendes-gewässer"@de, "stromschnellen"@de, "th"@de, "thüringen"@de, "uferbefestigung"@de, "vektoren"@de, "wasserfall"@de, "wasserlauf"@de, "watercourse"@de, "wetland"@de, "überleitung"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/AGRI>, <http://publications.europa.eu/resource/authority/data-theme/ENVI>, <http://publications.europa.eu/resource/authority/data-theme/GOVE>, <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/075a0c05-b419-4520-9fd0-635e6c04eb04/#publisher>
+    a foaf:Agent ;
+    foaf:name "GovData: Thüringer Landesamt für Bodenmanagement und Geoinformation" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/076f2bb3-0f6c-4cec-92e5-a361e48c2541>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcatde:originator [
+        a foaf:Organization ;
+        foaf:mbox "Susanne.Tamm@bsh.de" ;
+        foaf:name "Susanne Tamm"
+    ] ;
+    dcterms:accessRights "Dieser Datensatz kann gemäß der \"Datenlizenz Deutschland – Namensnennung – Version 2.0\" (www.govdata.de/dl-de/by-2-0) genutzt werden."@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "Susanne.Tamm@bsh.de" ;
+        foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)"
+    ] ;
+    dcterms:description "Im Rahmen des gemeinsames Bund/Länder-Messprogramm für die Nord- und Ostsee + weitere Überwachungsprogramme wurde der Parameter \"Alkane, Triacontan, aliphat. Kohlenwasserstoffe (30 C-Atome) im Meerwasser\" im Meerwasser bestimmt."@de ;
+    dcterms:identifier "076f2bb3-0f6c-4cec-92e5-a361e48c2541" ;
+    dcterms:modified "2020-08-31T05:53:09.662Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/076f2bb3-0f6c-4cec-92e5-a361e48c2541/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "000000000000" ;
+        locn:geometry "POLYGON ((3.348333333 55.91698, 9.54 55.91698, 9.54 53.62, 3.348333333 53.62, 3.348333333 55.91698))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[3.348333333, 55.91698], [9.54, 55.91698], [9.54, 53.62], [3.348333333, 53.62], [3.348333333, 55.91698]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2017-09-13T02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2017-05-31T02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Alkane, Triacontan, aliphat. Kohlenwasserstoffe (30 C-Atome) im Meerwasser 2017"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" ;
+        vcard:hasCountryName "Deutschland" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/Johannes.Melles@bsh.de> ;
+        vcard:hasLocality "Hamburg" ;
+        vcard:hasPostalCode "20359" ;
+        vcard:hasStreetAddress "Bernhard-Nocht-Str. 78"
+    ] ;
+    dcat:distribution <https://www.geoseaportal.de/atomfeeds/MO_H_NC30.xml/distribution> ;
+    dcat:keyword "2017"@de, "Alkan"@de, "Monitoring"@de, "NC30"@de, "Nordsee"@de, "Ostsee"@de, "Wasser"@de, "mcloud_category_waters"@de, "opendata"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/076f2bb3-0f6c-4cec-92e5-a361e48c2541/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/07b4b543-eeba-4f8c-9120-0b88c9fbe77e>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:name "Landesbetrieb Geoinformation und Vermessung"
+    ] ;
+    dcterms:description """<p>In diesem Datensatz sind die Hamburger Verkehrsnetze: Straße, Schiene, Luft und Wasser aus dem ATKIS Basis-DLM  Quellmodell enthalten und im INSPIRE-Zielmodell dargestellt.
+ATKIS® steht für Amtliches Topographisch-Kartographisches Informationssystem und ist als Gemeinschaftsprojekt der Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV) konzipiert worden.</p>"""@de ;
+    dcterms:identifier "07b4b543-eeba-4f8c-9120-0b88c9fbe77e" ;
+    dcterms:issued "2020-10-13T12:12:57.407Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-12-18T18:58:14.648Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/07b4b543-eeba-4f8c-9120-0b88c9fbe77e/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "['Hamburg (02000000)']" ;
+        locn:geometry "POLYGON ((10.326304 53.394985, 10.326304 53.964153, 8.420551 53.964153, 8.420551 53.394985, 10.326304 53.394985))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.326304, 53.394985], [10.326304, 53.964153], [8.420551, 53.964153], [8.420551, 53.394985], [10.326304, 53.394985]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "INSPIRE HH Verkehrsnetze ATKIS Basis-DLM"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://daten-hamburg.de/inspire/INSPIRE_Verkehrsnetze_ATKIS_Basis_DLM_HH_2017-11-06.zip/distribution>, <http://daten-hamburg.de/inspire/hh_inspire_verkehrsnetze_atkis_basis_dlm/HH_INSPIRE_Verkehrsnetze_ATKIS_Basis_DLM_2019_04_15.zip/distribution>, <http://daten-hamburg.de/inspire/hh_inspire_verkehrsnetze_atkis_basis_dlm/HH_INSPIRE_Verkehrsnetze_ATKIS_Basis_DLM_2020_04_20.zip/distribution>, <http://metaver.de/trefferanzeige?docuuid=A6DEC247-7E42-4120-BB8A-6051AE1AA819/distribution>, <https://geodienste.hamburg.de/HH_WFS_INSPIRE_Verkehrsnetze_ATKIS?REQUEST=GetCapabilities&SERVICE=WFS/distribution>, <https://geodienste.hamburg.de/HH_WMS_INSPIRE_Verkehrsnetze_ATKIS?REQUEST=GetCapabilities&SERVICE=WMS/distribution> ;
+    dcat:keyword "AdVMIS"@de, "Geodaten"@de, "Geoinformation"@de, "Hamburgisches Geodateninfrastrukturgesetz  HmbGDIG"@de, "INSPIRE Richtlinie"@de, "Luftverkehrsnetz"@de, "Raumbezogene Information"@de, "Schienennetz"@de, "Schienenverkehrsnetz"@de, "Straßennetz"@de, "Straßenverkehrsnetz"@de, "Transport & Verkehr"@de, "Verkehrsnetze"@de, "Wasserverkehrsnetz"@de, "inspireidentifiziert"@de, "mcloud_category_infrastructure"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/07b4b543-eeba-4f8c-9120-0b88c9fbe77e/#publisher>
+    a foaf:Agent ;
+    foaf:name "Transparenzportal Hamburg: Landesbetrieb Geoinformation und Vermessung" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/07be7e96-09b5-4362-b01a-fdc31d4bf504>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der belegten Parkplätze
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Autos
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "07be7e96-09b5-4362-b01a-fdc31d4bf504" ;
+    dcterms:issued "2020-12-20T21:15:43Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-12-20T21:15:43Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/07be7e96-09b5-4362-b01a-fdc31d4bf504/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-12-19T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-12-19T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Parkplatz Scharbeutz Badeweg"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_Badeweg_2020-12-19.csv/distribution> ;
+    dcat:keyword "Parkplatz"@de, "Scharbeutz"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/07be7e96-09b5-4362-b01a-fdc31d4bf504/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/07df618f-105b-4b37-8823-2949f66589fa>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:name "Stadt Köln"
+    ] ;
+    dcterms:description """<p>Georeferenzierte Auflistung der Busparkplätze in Köln.</p>
+
+<p> </p>
+
+<ul><li>OBJECTID (Type: esriFieldTypeOID, Alias: OBJECTID)</li>
+	<li>BEZEICHNUN (Type: esriFieldTypeString, Alias: Bezeichnung, Length: 50 )</li>
+	<li>GEBUEHREN (Type: esriFieldTypeString, Alias: GEBUEHREN, Length: 254 )</li>
+	<li>KOORMX (Type: esriFieldTypeDouble, Alias: KOORMX)</li>
+	<li>KOORMY (Type: esriFieldTypeDouble, Alias: KOORMY)</li>
+	<li>NUTZUNGSART (Type: esriFieldTypeString, Alias: NUTZUNGSART, Length: 50 )</li>
+	<li>ID_NUTZUNGSART (Type: esriFieldTypeSmallInteger, Alias: ID_NUTZUNGSART)</li>
+	<li>SHAPE (Type: esriFieldTypeGeometry, Alias: SHAPE)</li>
+	<li>HYPERLINK (Type: esriFieldTypeString, Alias: HYPERLINK, Length: 250 )</li>
+	<li>SHAPE.AREA (Type: esriFieldTypeDouble, Alias: SHAPE.AREA)</li>
+	<li>SHAPE.LEN (Type: esriFieldTypeDouble, Alias: SHAPE.LEN)</li>
+</ul><p> </p>
+
+<p><strong>Information:</strong></p>
+
+<p> </p>
+
+<p>Die Koordinaten im Feld \"geometry\" werden im Bezugssystem WGS84 (EPSG:4326) ausgegeben.</p>
+"""@de ;
+    dcterms:identifier "07df618f-105b-4b37-8823-2949f66589fa" ;
+    dcterms:issued "2014-07-23T06:59:54Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2016-06-14T07:54:07Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/07df618f-105b-4b37-8823-2949f66589fa/#publisher> ;
+    dcterms:title "Busparkplätze in Köln"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://geoportal.stadt-koeln.de/arcgis/rest/services/WebVerkehr_DataOSM/MapServer/7?f=json&pretty=true/distribution>, <https://geoportal.stadt-koeln.de/arcgis/rest/services/WebVerkehr_DataOSM_66/MapServer/7/query?text=&geometry=&geometryType=esriGeometryPoint&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&objectIds=&where=objectid%20is%20not%20null&time=&returnCountOnly=false&returnIdsOnly=false&returnGeometry=true&maxAllowableOffset=&outSR=4326&outFields=%2A&f=json/distribution>, <https://geoportal.stadt-koeln.de/arcgis/rest/services/WebVerkehr_DataOSM_66/MapServer/7/query?text=&geometry=&geometryType=esriGeometryPoint&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&objectIds=&where=objectid%20is%20not%20null&time=&returnCountOnly=false&returnIdsOnly=false&returnGeometry=true&maxAllowableOffset=&outSR=4326&outFields=%2A&f=kmz/distribution> ;
+    dcat:keyword "Offene Daten Köln"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/07df618f-105b-4b37-8823-2949f66589fa/#publisher>
+    a foaf:Agent ;
+    foaf:name "Köln" .
+
+<https://mdi.niedersachsen.de/geoserver/MSRL-D5-Eutrophierung/wfs?Service=WFS&Request=GetFeature&outputFormat=SHAPE-ZIP&Version=1.1.0&typeName=MSRL-D5-Eutrophierung:PSAL_M05-10/distribution>
+    dcterms:description "WFS: SHAPE-ZIP" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/SHP> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "WFS: SHAPE-ZIP"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://mdi.niedersachsen.de/geoserver/MSRL-D5-Eutrophierung/wfs?Service=WFS&Request=GetFeature&outputFormat=SHAPE-ZIP&Version=1.1.0&typeName=MSRL-D5-Eutrophierung:PSAL_M05-10> ;
+    dcat:downloadURL <https://mdi.niedersachsen.de/geoserver/MSRL-D5-Eutrophierung/wfs?Service=WFS&Request=GetFeature&outputFormat=SHAPE-ZIP&Version=1.1.0&typeName=MSRL-D5-Eutrophierung:PSAL_M05-10> .
+
+<https://offenedaten.kdvz-frechen.de/sites/default/files/180_OpenData_2015.csv/distribution>
+    dcterms:description "<p>Einzelnachweise von Bußgeldern (Ordnungswidrigkeiten) für die Gemeinde Vettweiß sortiert nach Tagesdatum und Uhrzeit für das Jahr 2015</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T01:10:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten.kdvz-frechen.de/sites/default/files/180_OpenData_2015.csv> ;
+    dcat:downloadURL <https://offenedaten.kdvz-frechen.de/sites/default/files/180_OpenData_2015.csv> .
+
+<https://offenedaten.kdvz-frechen.de/sites/default/files/OW_Vettwei%C3%9F_2016.csv/distribution>
+    dcterms:description "<p>Einzelnachweise von Bußgeldern (Ordnungswidrigkeiten) für die&nbsp;Gemeinde Vettweiß&nbsp;sortiert nach Tagesdatum und Uhrzeit für das Jahr 2016</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T01:10:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten.kdvz-frechen.de/sites/default/files/OW_Vettwei%C3%9F_2016.csv> ;
+    dcat:downloadURL <https://offenedaten.kdvz-frechen.de/sites/default/files/OW_Vettwei%C3%9F_2016.csv> .
+
+<https://offenedaten.kdvz-frechen.de/sites/default/files/OW_Vettwei%C3%9F_2019.csv/distribution>
+    dcterms:description "<p>Einzelnachweise von Bußgeldern (Ordnungswidrigkeiten) für die Gemeinde Vettweiß sortiert nach Tagesdatum und Uhrzeit für das Jahr 2019</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T01:10:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten.kdvz-frechen.de/sites/default/files/OW_Vettwei%C3%9F_2019.csv> ;
+    dcat:downloadURL <https://offenedaten.kdvz-frechen.de/sites/default/files/OW_Vettwei%C3%9F_2019.csv> .
+
+<https://offenedaten.kdvz-frechen.de/sites/default/files/OW_Vettwei%C3%9F_OpenData_2017.csv/distribution>
+    dcterms:description "<p>Einzelnachweise von Bußgeldern (Ordnungswidrigkeiten) für die Gemeinde Vettweiß sortiert nach Tagesdatum und Uhrzeit für das Jahr 2017</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T01:10:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten.kdvz-frechen.de/sites/default/files/OW_Vettwei%C3%9F_OpenData_2017.csv> ;
+    dcat:downloadURL <https://offenedaten.kdvz-frechen.de/sites/default/files/OW_Vettwei%C3%9F_OpenData_2017.csv> .
+
+<https://offenedaten.kdvz-frechen.de/sites/default/files/OW_Vettweiss_2018.csv/distribution>
+    dcterms:description "<p>Einzelnachweise von Bußgeldern (Ordnungswidrigkeiten) für die Gemeinde Vettweiß sortiert nach Tagesdatum und Uhrzeit für das Jahr 2018</p>" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-25T01:10:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://offenedaten.kdvz-frechen.de/sites/default/files/OW_Vettweiss_2018.csv> ;
+    dcat:downloadURL <https://offenedaten.kdvz-frechen.de/sites/default/files/OW_Vettweiss_2018.csv> .
+
+<https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_Badeweg_2020-12-19.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-20T21:15:43Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Parkplatz_Scharbeutz_Badeweg_2020-12-19.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_Badeweg_2020-12-19.csv> ;
+    dcat:byteSize 42668 ;
+    dcat:downloadURL <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_Badeweg_2020-12-19.csv> .
+
+<https://www.geoproxy.geoportal-th.de/geoproxy/services/INSPIREhy-p_wfs?/distribution>
+    dcterms:description "INSPIRE-WFS TH Hydro - Physische Gewässer ATKIS Basis-DLM" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "INSPIRE-WFS TH Hydro - Physische Gewässer ATKIS Basis-DLM"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoproxy.geoportal-th.de/geoproxy/services/INSPIREhy-p_wfs?> ;
+    dcat:downloadURL <https://www.geoproxy.geoportal-th.de/geoproxy/services/INSPIREhy-p_wfs?> .
+
+<https://www.geoproxy.geoportal-th.de/geoproxy/services/INSPIREhyp?REQUEST=GetCapabilities&VERSION=1.1.1&SERVICE=WMS/distribution>
+    dcterms:description "INSPIRE-WMS TH Hydro - Physische Gewässer ATKIS Basis-DLM, Version 1.1.1" ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    dcterms:title "INSPIRE-WMS TH Hydro - Physische Gewässer ATKIS Basis-DLM, Version 1.1.1"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoproxy.geoportal-th.de/geoproxy/services/INSPIREhyp?REQUEST=GetCapabilities&VERSION=1.1.1&SERVICE=WMS> ;
+    dcat:downloadURL <https://www.geoproxy.geoportal-th.de/geoproxy/services/INSPIREhyp?REQUEST=GetCapabilities&VERSION=1.1.1&SERVICE=WMS> .
+
+<https://www.geoseaportal.de/atomfeeds/MO_H_NC30.xml/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/ATOM> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoseaportal.de/atomfeeds/MO_H_NC30.xml> ;
+    dcat:downloadURL <https://www.geoseaportal.de/atomfeeds/MO_H_NC30.xml> .
+

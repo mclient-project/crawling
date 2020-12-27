@@ -1,0 +1,586 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/1.0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gml: <http://www.opengis.net/gml/3.2> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix odrs: <http://schema.theodi.org/odrs#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix hydra: <http://www.w3.org/ns/hydra/core#> .
+
+<http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_14-20_2020-09-26.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-10-23T09:25:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Scharbeutz_Strandabschnitt_14-20_2020-09-26.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_14-20_2020-09-26.csv> ;
+    dcat:byteSize 95490 ;
+    dcat:downloadURL <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_14-20_2020-09-26.csv> .
+
+<http://easygsh.wb.tu-harburg.de//distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://easygsh.wb.tu-harburg.de/> ;
+    dcat:downloadURL <http://easygsh.wb.tu-harburg.de/> .
+
+<http://mdi-dienste.baw.de/geoserver/EasyGSH_Kennwerte_1996/wcs?service=WCS&Version=1.1.0&Request=GetCapabilities/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://mdi-dienste.baw.de/geoserver/EasyGSH_Kennwerte_1996/wcs?service=WCS&Version=1.1.0&Request=GetCapabilities> ;
+    dcat:downloadURL <http://mdi-dienste.baw.de/geoserver/EasyGSH_Kennwerte_1996/wcs?service=WCS&Version=1.1.0&Request=GetCapabilities> .
+
+<http://mdi-dienste.baw.de/geoserver/EasyGSH_Kennwerte_1996/wms?Service=WMS&Version=1.3.0&Request=GetCapabilities/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://mdi-dienste.baw.de/geoserver/EasyGSH_Kennwerte_1996/wms?Service=WMS&Version=1.3.0&Request=GetCapabilities> ;
+    dcat:downloadURL <http://mdi-dienste.baw.de/geoserver/EasyGSH_Kennwerte_1996/wms?Service=WMS&Version=1.3.0&Request=GetCapabilities> .
+
+<http://www.easygsh-db.org/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.easygsh-db.org> ;
+    dcat:downloadURL <http://www.easygsh-db.org> .
+
+<https://developer.deutschebahn.com/store/apis/info?name=Reisezentren&version=v1&provider=DBOpenData/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/REST> ;
+    dcterms:issued "2017-04-21T11:41:32.868Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by> ;
+    dcterms:title "Reisezentren-API"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://developer.deutschebahn.com/store/apis/info?name=Reisezentren&version=v1&provider=DBOpenData> ;
+    dcat:downloadURL <https://developer.deutschebahn.com/store/apis/info?name=Reisezentren&version=v1&provider=DBOpenData> .
+
+<https://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=emi_so2_verkehr1989@senstadt/distribution>
+    dcterms:description "Aufruf des Geoportals Berlin mit Darstellung der Karte und weiterer Metadaten" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:issued "2020-12-01T02:38:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "Serviceseite im FIS-Broker"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=emi_so2_verkehr1989@senstadt> ;
+    dcat:downloadURL <https://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=emi_so2_verkehr1989@senstadt> .
+
+<https://fbinter.stadt-berlin.de/fb/wms/senstadt/emi_so2_verkehr1989/distribution>
+    dcterms:description "API-Endpunkt des WMS-Service. Weitere Informationen unter https://www.ogc.org/standards/wms" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WMS_SRVC> ;
+    dcterms:issued "2020-12-01T02:38:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "API-Endpunkt des WMS-Service"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://fbinter.stadt-berlin.de/fb/wms/senstadt/emi_so2_verkehr1989> ;
+    dcat:downloadURL <https://fbinter.stadt-berlin.de/fb/wms/senstadt/emi_so2_verkehr1989> .
+
+<https://fbinter.stadt-berlin.de/fb/wms/senstadt/emi_so2_verkehr1989?request=getcapabilities&service=wms&version=1.3.0/distribution>
+    dcterms:description "Maschinenlesbare Endpunkt-Beschreibung des WMS-Service. Weitere Informationen unter https://www.ogc.org/standards/wms" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WMS_SRVC> ;
+    dcterms:issued "2020-12-01T02:38:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "Endpunkt-Beschreibung des WMS-Service"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://fbinter.stadt-berlin.de/fb/wms/senstadt/emi_so2_verkehr1989?request=getcapabilities&service=wms&version=1.3.0> ;
+    dcat:downloadURL <https://fbinter.stadt-berlin.de/fb/wms/senstadt/emi_so2_verkehr1989?request=getcapabilities&service=wms&version=1.3.0> .
+
+<https://fbinter.stadt-berlin.de/fb_daten/beschreibung/umweltatlas/datenformatbeschreibung/Datenformatbeschreibung_emissionen_so2.html/distribution>
+    dcterms:description "Technische Beschreibung" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:issued "2020-12-01T02:38:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "Technische Beschreibung"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://fbinter.stadt-berlin.de/fb_daten/beschreibung/umweltatlas/datenformatbeschreibung/Datenformatbeschreibung_emissionen_so2.html> ;
+    dcat:downloadURL <https://fbinter.stadt-berlin.de/fb_daten/beschreibung/umweltatlas/datenformatbeschreibung/Datenformatbeschreibung_emissionen_so2.html> .
+
+<https://geo.sv.rostock.de/geodienste/schiffsliegeplaetze/wfs/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WFS_SRVC> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "Schiffsliegeplätze in der Hanse- und Universitätsstadt Rostock - GetCapabilities"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://geo.sv.rostock.de/geodienste/schiffsliegeplaetze/wfs> ;
+    dcat:downloadURL <https://geo.sv.rostock.de/geodienste/schiffsliegeplaetze/wfs> .
+
+<https://mcloud.de>
+    dcterms:description "Dies ist das Portal der mCLOUD."@de ;
+    dcterms:publisher <https://mcloud.de/#publisher> ;
+    dcterms:title "mCLOUD Portal"@de ;
+    a dcat:Catalog ;
+    dcat:dataset <https://mcloud.de/web/guest/suche/-/results/detail/087a85f3-2cb7-4a1e-becd-d2fb67c75611>, <https://mcloud.de/web/guest/suche/-/results/detail/08869565-5937-4dd6-836b-af901b42ac34>, <https://mcloud.de/web/guest/suche/-/results/detail/0891d6ee-c7f4-485e-a6e4-18cfdfe3db88>, <https://mcloud.de/web/guest/suche/-/results/detail/08a9dac4-89ea-4706-ba22-e07683106334>, <https://mcloud.de/web/guest/suche/-/results/detail/08c78ab2-4a83-49fa-8ced-31eca63cd53a>, <https://mcloud.de/web/guest/suche/-/results/detail/08d7d434-3f3e-4431-af34-0e34aa06830e>, <https://mcloud.de/web/guest/suche/-/results/detail/08e002be-37d4-4ad9-803c-c0a5b452bbfd>, <https://mcloud.de/web/guest/suche/-/results/detail/08fc5788-9645-4205-a5c0-d04d5386b798>, <https://mcloud.de/web/guest/suche/-/results/detail/090DD600-CBC1-4662-9A04-C2AA1D22EF2E>, <https://mcloud.de/web/guest/suche/-/results/detail/093bae0a-ea3e-49ec-aedf-7be735aa6447> ;
+    foaf:homepage <https://mcloud.de/> .
+
+<https://mcloud.de/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesministerium für Verkehr und digitale Infrastruktur" .
+
+<https://mcloud.de/export/datasets?page=11>
+    a hydra:PagedCollection ;
+    hydra:firstPage "https://mcloud.de/export/datasets?page=1" ;
+    hydra:itemsPerPage 10 ;
+    hydra:lastPage "https://mcloud.de/export/datasets?page=420" ;
+    hydra:nextPage "https://mcloud.de/export/datasets?page=12" ;
+    hydra:previousPage "https://mcloud.de/export/datasets?page=10" ;
+    hydra:totalItems 4200 .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/087a85f3-2cb7-4a1e-becd-d2fb67c75611>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcatde:originator [
+        a foaf:Organization ;
+        foaf:mbox "Susanne.Tamm@bsh.de" ;
+        foaf:name "Susanne Tamm"
+    ] ;
+    dcterms:accessRights "Dieser Datensatz kann gemäß der \"Datenlizenz Deutschland – Namensnennung – Version 2.0\" (www.govdata.de/dl-de/by-2-0) genutzt werden."@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "Susanne.Tamm@bsh.de" ;
+        foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)"
+    ] ;
+    dcterms:description "Im Rahmen des gemeinsames Bund/Länder-Messprogramm für die Nord- und Ostsee + weitere Überwachungsprogramme wurde der Parameter \"Alkane, Nonacosan, aliphat. Kohlenwasserstoffe (29 C-Atome) im Meerwasser\" im Meerwasser bestimmt."@de ;
+    dcterms:identifier "087a85f3-2cb7-4a1e-becd-d2fb67c75611" ;
+    dcterms:modified "2020-08-31T05:53:09.647Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/087a85f3-2cb7-4a1e-becd-d2fb67c75611/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "000000000000" ;
+        locn:geometry "POLYGON ((3.348333333 55.91698, 9.54 55.91698, 9.54 53.62, 3.348333333 53.62, 3.348333333 55.91698))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[3.348333333, 55.91698], [9.54, 55.91698], [9.54, 53.62], [3.348333333, 53.62], [3.348333333, 55.91698]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2017-09-13T02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2017-05-31T02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Alkane, Nonacosan, aliphat. Kohlenwasserstoffe (29 C-Atome) im Meerwasser 2017"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" ;
+        vcard:hasCountryName "Deutschland" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/Johannes.Melles@bsh.de> ;
+        vcard:hasLocality "Hamburg" ;
+        vcard:hasPostalCode "20359" ;
+        vcard:hasStreetAddress "Bernhard-Nocht-Str. 78"
+    ] ;
+    dcat:distribution <https://www.geoseaportal.de/atomfeeds/MO_H_NC29.xml/distribution> ;
+    dcat:keyword "2017"@de, "Alkan"@de, "Monitoring"@de, "NC29"@de, "Nordsee"@de, "Ostsee"@de, "Wasser"@de, "mcloud_category_waters"@de, "opendata"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/087a85f3-2cb7-4a1e-becd-d2fb67c75611/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/08869565-5937-4dd6-836b-af901b42ac34>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accessRights """siehe Nutzungseinschränkungen
+Das von der Hanse- und Universitätsstadt Rostock hier angebotene Werk unterliegt der gemeinfreien Lizenz Creative Commons 1.0 Universell Public Domain Dedication (CC0 1.0; URL: https://creativecommons.org/publicdomain/zero/1.0/deed.de). Damit ist alles gestattet, ohne um weitere Erlaubnis bitten zu müssen. Es gelten folgende Regelungen zu Gewährleistung und Haftung: https://geo.sv.rostock.de/haftung-fuer-angebotene-inhalte.html"""@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dcterms:description "Diese Daten umfassen die Schiffsliegeplätze in der Hanse- und Universitätsstadt Rostock mit Informationen zu Langbezeichnung und Kurzbezeichnung."@de ;
+    dcterms:identifier "08869565-5937-4dd6-836b-af901b42ac34" ;
+    dcterms:modified "2020-12-18T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/08869565-5937-4dd6-836b-af901b42ac34/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Hanse- und Universitätsstadt Rostock" ;
+        locn:geometry "POLYGON ((11.9936 54.2466, 12.3045 54.2466, 12.3045 54.0486, 11.9936 54.0486, 11.9936 54.2466))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[11.9936, 54.2466], [12.3045, 54.2466], [12.3045, 54.0486], [11.9936, 54.0486], [11.9936, 54.2466]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "Schiffsliegeplätze in der Hanse- und Universitätsstadt Rostock"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Kataster-, Vermessungs- und Liegenschaftsamt der Hanse- und Universitätsstadt Rostock" ;
+        vcard:hasCountryName "DE" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/geodienste@rostock.de> ;
+        vcard:hasLocality "DE-MV" ;
+        vcard:hasPostalCode "18069" ;
+        vcard:hasStreetAddress "Holbeinplatz 14" ;
+        vcard:hasURL <https://geo.sv.rostock.de/geodienste>
+    ] ;
+    dcat:distribution <https://geo.sv.rostock.de/geodienste/schiffsliegeplaetze/wfs/distribution> ;
+    dcat:keyword "Hafen"@de, "Küste"@de, "Küstengebiet"@de, "Lokal"@de, "Meeresküste"@de, "Organisation"@de, "Schiff"@de, "Seeschiffahrt"@de, "Seeverkehr"@de, "Ufer"@de, "Verkehrsnetze"@de, "infoFeatureAccessService"@de, "inspireidentifiziert"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/08869565-5937-4dd6-836b-af901b42ac34/#publisher>
+    a foaf:Agent ;
+    foaf:name "Kataster-, Vermessungs- und Liegenschaftsamt der Hanse- und Universitätsstadt Rostock" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0891d6ee-c7f4-485e-a6e4-18cfdfe3db88>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcatde:originator [
+        a foaf:Organization ;
+        foaf:mbox "Susanne.Tamm@bsh.de" ;
+        foaf:name "Susanne Tamm"
+    ] ;
+    dcterms:accessRights "Dieser Datensatz kann gemäß der \"Datenlizenz Deutschland – Namensnennung – Version 2.0\" (www.govdata.de/dl-de/by-2-0) genutzt werden."@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "Susanne.Tamm@bsh.de" ;
+        foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)"
+    ] ;
+    dcterms:description "Im Rahmen des gemeinsames Bund/Länder-Messprogramm für die Nord- und Ostsee + weitere Überwachungsprogramme wurde der Parameter \"Chlorophyll-a im Meerwasser\" im Meerwasser bestimmt."@de ;
+    dcterms:identifier "0891d6ee-c7f4-485e-a6e4-18cfdfe3db88" ;
+    dcterms:modified "2020-08-31T05:53:09.682Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0891d6ee-c7f4-485e-a6e4-18cfdfe3db88/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "000000000000" ;
+        locn:geometry "POLYGON ((-1.501833333333 60.001666, 14.2832 60.001666, 14.2832 51.6995, -1.501833333333 51.6995, -1.501833333333 60.001666))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[-1.501833333333, 60.001666], [14.2832, 60.001666], [14.2832, 51.6995], [-1.501833333333, 51.6995], [-1.501833333333, 60.001666]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2017-11-23T01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2017-01-20T01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Chlorophyll-a im Meerwasser - Serie"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" ;
+        vcard:hasCountryName "Deutschland" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/Johannes.Melles@bsh.de> ;
+        vcard:hasLocality "Hamburg" ;
+        vcard:hasPostalCode "20359" ;
+        vcard:hasStreetAddress "Bernhard-Nocht-Str. 78"
+    ] ;
+    dcat:distribution <https://www.geoseaportal.de/atomfeeds/MO_H_CHLA.xml/distribution> ;
+    dcat:keyword "2017"@de, "2018"@de, "2020"@de, "CHLA"@de, "Chlorophyll"@de, "Monitoring"@de, "Nordsee"@de, "Ostsee"@de, "Wasser"@de, "mcloud_category_waters"@de, "opendata"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0891d6ee-c7f4-485e-a6e4-18cfdfe3db88/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/08a9dac4-89ea-4706-ba22-e07683106334>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der Personen im Strandabschnitt
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Personen
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "08a9dac4-89ea-4706-ba22-e07683106334" ;
+    dcterms:issued "2020-12-08T18:46:27Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-12-08T18:46:27Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/08a9dac4-89ea-4706-ba22-e07683106334/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-12-07T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-12-07T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Scharbeutz - Strandabschnitt 14-20"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Scharbeutz_Strandabschnitt_14-20_2020-12-07.csv/distribution> ;
+    dcat:keyword "Scharbeutz"@de, "Strand"@de, "Strandbelegung"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/08a9dac4-89ea-4706-ba22-e07683106334/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/08c78ab2-4a83-49fa-8ced-31eca63cd53a>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcatde:originator [
+        a foaf:Organization ;
+        foaf:homepage "https://www.baw.de" ;
+        foaf:mbox "daten-k@baw.de" ;
+        foaf:name "Bundesanstalt für Wasserbau (BAW)"
+    ] ;
+    dcterms:accessRights "Nutzungsbedingungen: Lehre und Forschung im Projekt EasyGSH-DB, nicht tauglich für Navigation"@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "daten-k@baw.de" ;
+        foaf:name "Bundesanstalt für Wasserbau (BAW)"
+    ] ;
+    dcterms:description """Motivation:
+Die Berechnung und graphische Darstellung verschiedener Tidekennwerte des Salzgehalts sowie des advektiven Salztransports trägt dazu bei, die räumliche Veränderung der Salzkonzentration im Wasserkörper, die Variation des Salzgehalts innerhalb einer Tide sowie den advektiven Transport durch die Strömung, getrennt für den Ebbe- und Flutstrom sowie für die gesamte Tide, in Küstengewässern und Ästuarien herauszuarbeiten.
+
+Der an einem bestimmten Ort auftretende Unterschied zwischen dem maximalen und dem minimalen Salzgehalt kann in einem Ästuar infolge des Süßwassereinflusses recht große Werte annehmen. Die Salzgehaltsvariation, die sich als Differenz aus den Extremwerten des Salzgehalts ergibt, wird dabei maßgeblich von dem Produkt des lokalen horizontalen Salzgradienten mit dem Tideweg (lagrangesche Verdriftung eines Wasservolumens) bestimmt. Dies ist damit zu erklären, daß Salz überwiegend advektiv mit der Strömung transportiert wird. Das an einem Ort innerhalb einer Tide vorbeifließende Wasser entstammt unterschiedlichen Ursprungsregionen, d.h. unterschiedlichen Wasserkörpern, die in den Brackwasserzonen der Ästuarien deutlich voneinander abweichende Salzgehaltswerte aufweisen können. Für am Boden lebende ortstreue Organismen stellt die Salzgehaltsvariation einen wesentlichen Streß-Faktor ihrer natürlichen Umwelt dar (Variation des osmotischen Drucks bei wechselndem Salzgehalt).
+
+Eine genaue Beschreibung der Analysemodi befindet sich im BAWiki (http://wiki.baw.de/de/index.php/Tidekennwerte_des_Salzgehalts).
+
+Metadaten:
+Dieser Metadatensatz gilt als Elterndatensatz für die spezifizierten Metdatensätze:
+- EasyGSH-DB_TDKS: Quantile des mittleren Salzgehalts pro Tide (1996-2015)
+
+Literatur:
+- Hagen, R., et.al., (2019), Validierungsdokument - EasyGSH-DB - Teil: UnTRIM-SediMorph-Unk, doi: https://doi.org/10.18451/k2_easygsh_1
+- Freund, J., et.al., (2020), Flächenhafte Analysen numerischer Simulationen aus EasyGSH-DB, doi: https://doi.org/10.18451/k2_easygsh_fans_2
+
+Für die einzelnen Jahre liegen Jahreskennblätter als Kurzfassung der Jahresvalidierung auf der EasyGSH-DB (www.easygsh-db.org) zur Verfügung. 
+
+Für weitere Informationen steht die Projektseite von EasyGSH-DB (www.easygsh-db.org) zur Verfügung."""@de ;
+    dcterms:identifier "08c78ab2-4a83-49fa-8ced-31eca63cd53a" ;
+    dcterms:modified "2020-11-13T08:39:22Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/08c78ab2-4a83-49fa-8ced-31eca63cd53a/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "" ;
+        locn:geometry "POLYGON ((5.94 55.18, 9.49 55.18, 9.49 53.16, 5.94 53.16, 5.94 55.18))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[5.94, 55.18], [9.49, 55.18], [9.49, 53.16], [5.94, 53.16], [5.94, 55.18]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2015-12-31T23:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "1996-01-01T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "EasyGSH-DB: Tidekennwerte des Salzgehaltes (TDKS)"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Bundesanstalt für Wasserbau (BAW)" ;
+        vcard:hasCountryName "Germany" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/daten-k@baw.de> ;
+        vcard:hasPostalCode "22559" ;
+        vcard:hasStreetAddress "Wedeler Landstraße 157" ;
+        vcard:hasURL <https://www.baw.de>
+    ] ;
+    dcat:distribution <http://easygsh.wb.tu-harburg.de//distribution>, <http://mdi-dienste.baw.de/geoserver/EasyGSH_Kennwerte_1996/wcs?service=WCS&Version=1.1.0&Request=GetCapabilities/distribution>, <http://mdi-dienste.baw.de/geoserver/EasyGSH_Kennwerte_1996/wms?Service=WMS&Version=1.3.0&Request=GetCapabilities/distribution>, <http://www.easygsh-db.org/distribution>, <https://mdi-de.baw.de/easygsh/Datenbestand/Download/EasyGSH_DB_TDKS_1996_2015.zip/distribution> ;
+    dcat:keyword "1996-2015"@de, "Analysedaten"@de, "Deutsche Bucht"@de, "EasyGSH-DB"@de, "Meer"@de, "Ozeanografisch-geografische Kennwerte"@de, "Tidekennwerte"@de, "Tidekennwerte des Salzgehaltes"@de, "Umwelt und Klima"@de, "Wasserstraßen und Gewässer"@de, "inspireidentifiziert"@de, "mFUND-FKZ 19F2004A"@de, "mFUND-FKZ: 19F2004A"@de, "mFUND-Projekt EasyGSH-DB"@de, "mFUND-Projekt: EasyGSH-DB"@de, "mcloud_category_waters"@de, "national"@de, "opendata"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/08c78ab2-4a83-49fa-8ced-31eca63cd53a/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesanstalt für Wasserbau (BAW)" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/08d7d434-3f3e-4431-af34-0e34aa06830e>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der Personen im Strandabschnitt
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Personen
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "08d7d434-3f3e-4431-af34-0e34aa06830e" ;
+    dcterms:issued "2020-11-21T16:00:55Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-11-21T16:00:55Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/08d7d434-3f3e-4431-af34-0e34aa06830e/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-11-20T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-11-20T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Scharbeutz - Strandabschnitt 25-29"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-11-20.csv/distribution> ;
+    dcat:keyword "Scharbeutz"@de, "Strand"@de, "Strandbelegung"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/08d7d434-3f3e-4431-af34-0e34aa06830e/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/08e002be-37d4-4ad9-803c-c0a5b452bbfd>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/NEVER> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:name "Senatsverwaltung für Umwelt, Verkehr und Klimaschutz Berlin"
+    ] ;
+    dcterms:description """<p>Darstellung der SO2-Emissionen der Verursachergruppe Kfz-Verkehr 1989, Stand 2006</p>
+
+<p><img alt=\"Vorschaugrafik zu Datensatz &#39;Entwicklung Luftqualität SO2-Emissionen Kfz-Verkehr 1989 (Umweltatlas)&#39;\" src=\"https://fbinter.stadt-berlin.de/fb_daten/vorschau/umweltatlas/karten/kvor_03_12_09_1so2emiverkehr1989.jpg\"/></p>"""@de ;
+    dcterms:identifier "08e002be-37d4-4ad9-803c-c0a5b452bbfd" ;
+    dcterms:issued "2019-08-13T11:38:15Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-12-01T02:38:50Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/08e002be-37d4-4ad9-803c-c0a5b452bbfd/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        locn:geometry "POLYGON ((13.0512 52.3246, 13.7785 52.3246, 13.7785 52.6935, 13.0512 52.6935, 13.0512 52.3246))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[13.0512, 52.3246], [13.7785, 52.3246], [13.7785, 52.6935], [13.0512, 52.6935], [13.0512, 52.3246]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "Entwicklung Luftqualität SO2-Emissionen Kfz-Verkehr 1989 (Umweltatlas) - [WMS]"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://fbinter.stadt-berlin.de/fb/index.jsp?loginkey=showMap&mapId=emi_so2_verkehr1989@senstadt/distribution>, <https://fbinter.stadt-berlin.de/fb/wms/senstadt/emi_so2_verkehr1989/distribution>, <https://fbinter.stadt-berlin.de/fb/wms/senstadt/emi_so2_verkehr1989?request=getcapabilities&service=wms&version=1.3.0/distribution>, <https://fbinter.stadt-berlin.de/fb_daten/beschreibung/umweltatlas/datenformatbeschreibung/Datenformatbeschreibung_emissionen_so2.html/distribution>, <https://www.stadtentwicklung.berlin.de/umwelt/umweltatlas/i312.htm/distribution> ;
+    dcat:keyword "1989"@de, "BImSchG"@de, "Berlin"@de, "Bundesimmissionsschutzgesetz"@de, "Emissionen"@de, "Entwicklung"@de, "Geodaten"@de, "Geographie und Stadtplanung"@de, "Karten"@de, "Kataster"@de, "Luftgüte"@de, "Luftqualität"@de, "Raster"@de, "SO2"@de, "Schwefeldioxid"@de, "Umweltatlas"@de, "Verkehr"@de, "mcloud_category_climate"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/08e002be-37d4-4ad9-803c-c0a5b452bbfd/#publisher>
+    a foaf:Agent ;
+    foaf:name "Harvester FIS Broker" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/08fc5788-9645-4205-a5c0-d04d5386b798>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/MONTHLY> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "dbopendata@deutschebahn.com" ;
+        foaf:name "Michael Binzen"
+    ] ;
+    dcterms:description """<p>Die Reisezentren API enthält Daten der Verkaufsstellen inkl. Adressen, Koordinaten und Öffnungszeiten.
+Die Datengrundlage ist Äquivalent zum Datensatz <a href=\"http://data.deutschebahn.com/dataset/data-reisezentren\">Reisezentren</a></p>"""@de ;
+    dcterms:identifier "08fc5788-9645-4205-a5c0-d04d5386b798" ;
+    dcterms:issued "2017-04-21T11:41:02.654Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2017-12-13T12:04:42.148Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/08fc5788-9645-4205-a5c0-d04d5386b798/#publisher> ;
+    dcterms:title "Reisezentren-API"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://developer.deutschebahn.com/store/apis/info?name=Reisezentren&version=v1&provider=DBOpenData/distribution> ;
+    dcat:keyword "APIs"@de, "Koordinaten"@de, "Oeffnungszeiten"@de, "Reisezentrum"@de, "Stammdaten"@de, "mcloud_category_railway"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/08fc5788-9645-4205-a5c0-d04d5386b798/#publisher>
+    a foaf:Agent ;
+    foaf:name "DB Vertrieb GmbH" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/090DD600-CBC1-4662-9A04-C2AA1D22EF2E>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcatde:originator [
+        a foaf:Organization ;
+        foaf:name "Quelle: DatEnKoSt Projektkonsoritum - Cyface GmbH, August-Wilhelm-Scheer-Institut"
+    ] ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/NEVER> ;
+    dcterms:description """Dieser Datensatz enthält die Daten der Smartphone-Sensoren einer Fahrt mit einem PKW im Raum Saarbrücken am 18.02.2020.
+Das Smartphone ist ein Google Pixel 3a, welches während der gesamten Fahrt per Halterung an der Windschutzscheibe des Fahrzeugs angebracht war."""@de ;
+    dcterms:identifier "090DD600-CBC1-4662-9A04-C2AA1D22EF2E" ;
+    dcterms:issued "2020-07-03T20:12:37.449Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-07-03T20:12:37.449Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/090DD600-CBC1-4662-9A04-C2AA1D22EF2E/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Bundesrepublik Deutschland" ;
+        locn:geometry "POLYGON ((6.098034 55.054344, 15.578555 55.054344, 15.578555 47.23942, 6.098034 47.23942, 6.098034 55.054344))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[6.098034, 55.054344], [15.578555, 55.054344], [15.578555, 47.23942], [6.098034, 47.23942], [6.098034, 55.054344]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-02-18T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-02-18T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Sensordaten 18.02.2020"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://www.mcloud.de/downloads/ingrid-group_ige-iplug-mcloud/FCA3E3C5-D66B-4E27-ACAB-93819785472A/20200218_recording.csv/distribution> ;
+    dcat:keyword "mFUND-FKZ 19F2090B"@de, "mFUND-Projekt DatEnKoSt"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/090DD600-CBC1-4662-9A04-C2AA1D22EF2E/#publisher>
+    a foaf:Agent ;
+    foaf:name "Cyface GmbH" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/093bae0a-ea3e-49ec-aedf-7be735aa6447>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der Personen im Strandabschnitt
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Personen
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "093bae0a-ea3e-49ec-aedf-7be735aa6447" ;
+    dcterms:issued "2020-10-23T09:25:23Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-10-23T09:25:23Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/093bae0a-ea3e-49ec-aedf-7be735aa6447/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-09-26T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-09-26T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Scharbeutz - Strandabschnitt 14-20"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://134.245.19.83/data/scharbeutz/Scharbeutz_Strandabschnitt_14-20_2020-09-26.csv/distribution> ;
+    dcat:keyword "Scharbeutz"@de, "Strand"@de, "Strandbelegung"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/093bae0a-ea3e-49ec-aedf-7be735aa6447/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mdi-de.baw.de/easygsh/Datenbestand/Download/EasyGSH_DB_TDKS_1996_2015.zip/distribution>
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://mdi-de.baw.de/easygsh/Datenbestand/Download/EasyGSH_DB_TDKS_1996_2015.zip> ;
+    dcat:downloadURL <https://mdi-de.baw.de/easygsh/Datenbestand/Download/EasyGSH_DB_TDKS_1996_2015.zip> .
+
+<https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Scharbeutz_Strandabschnitt_14-20_2020-12-07.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-08T18:46:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Scharbeutz_Strandabschnitt_14-20_2020-12-07.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Scharbeutz_Strandabschnitt_14-20_2020-12-07.csv> ;
+    dcat:byteSize 94180 ;
+    dcat:downloadURL <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Scharbeutz_Strandabschnitt_14-20_2020-12-07.csv> .
+
+<https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-11-20.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-11-21T16:00:55Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Scharbeutz_Strandabschnitt_25-29_2020-11-20.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-11-20.csv> ;
+    dcat:byteSize 94302 ;
+    dcat:downloadURL <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Scharbeutz_Strandabschnitt_25-29_2020-11-20.csv> .
+
+<https://www.geoseaportal.de/atomfeeds/MO_H_CHLA.xml/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/ATOM> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoseaportal.de/atomfeeds/MO_H_CHLA.xml> ;
+    dcat:downloadURL <https://www.geoseaportal.de/atomfeeds/MO_H_CHLA.xml> .
+
+<https://www.geoseaportal.de/atomfeeds/MO_H_NC29.xml/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/ATOM> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoseaportal.de/atomfeeds/MO_H_NC29.xml> ;
+    dcat:downloadURL <https://www.geoseaportal.de/atomfeeds/MO_H_NC29.xml> .
+
+<https://www.mcloud.de/downloads/ingrid-group_ige-iplug-mcloud/FCA3E3C5-D66B-4E27-ACAB-93819785472A/20200218_recording.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by-nc/4.0> ;
+    dcterms:title "20200218_recording"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.mcloud.de/downloads/ingrid-group_ige-iplug-mcloud/FCA3E3C5-D66B-4E27-ACAB-93819785472A/20200218_recording.csv> ;
+    dcat:downloadURL <https://www.mcloud.de/downloads/ingrid-group_ige-iplug-mcloud/FCA3E3C5-D66B-4E27-ACAB-93819785472A/20200218_recording.csv> .
+
+<https://www.stadtentwicklung.berlin.de/umwelt/umweltatlas/i312.htm/distribution>
+    dcterms:description "Inhaltliche Beschreibung" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/HTML> ;
+    dcterms:issued "2020-12-01T02:38:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/other-open> ;
+    dcterms:title "Inhaltliche Beschreibung"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.stadtentwicklung.berlin.de/umwelt/umweltatlas/i312.htm> ;
+    dcat:downloadURL <https://www.stadtentwicklung.berlin.de/umwelt/umweltatlas/i312.htm> .
+

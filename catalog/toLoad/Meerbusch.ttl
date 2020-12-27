@@ -7,16 +7,10 @@
 @prefix dcatx: <http://www.example.org/> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
-_:b0    a                    cat:Dataset ;
-        <http://ckan.aksw.org/ontology/id>
-                "2fc84f76-0886-4328-a570-f333abf0a8a5" ;
-        <http://ckan.aksw.org/ontology/name>
-                "vollzeitaquivalente" ;
-        dcterms:description  "Anzahl der Vollzeitäquivalente (FTE) aufgeteilt nach Beamten und tariflich Beschäftigten" ;
-        dcterms:title        "Vollzeitäquivalente" ;
-        owl:versionInfo      "2020-01" ;
-        cat:distribution     _:b1 , _:b2 ;
-        cat:keyword          "Personal" .
+_:b0    a                    cat:Distribution ;
+        dcterms:description  "Europawahl 2014, Ebene Gemeinde" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/2c26d91a-7ed6-49b2-9d78-67227df259de/resource/b215eb7f-43d5-4baa-be06-441f0b9e18d1/download/2014-europawahl-gemeinde.csv> .
 
 <https://opendata.meerbusch.de/dataset/anzahl-der-sitzungen-von-rat-und-ausschussen>
         a                    cat:Dataset ;
@@ -30,22 +24,12 @@ _:b0    a                    cat:Dataset ;
         cat:distribution     <https://opendata.meerbusch.de/distribution/Anzahl+der+Sitzungen+von+Rat+und+Aussch%C3%BCssen+ab+2011> ;
         cat:keyword          "Politik" .
 
-_:b3    a                    cat:Distribution ;
-        dcterms:description  "Standorte der Wertstoffcontainer im Stadtgebiet, Stand Januar 2017" ;
-        dcterms:format       "GeoJSON" ;
-        cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/3305982b-5a74-4bec-9248-cf4d922e8a1f/resource/eb4a386a-1a2e-49d9-996f-265a3bbee079/download/wertstoffcontainer.geojson> .
-
 <https://opendata.meerbusch.de/distribution/Landratswahl+2020%2C+Stimmbezirksebene>
         a                    cat:Distribution ;
         dcterms:description  "Ergebnisse der Landratswahl am 13. September 2020 auf Stimmbezirksebene als CSV-Datei." ;
         dcterms:format       "CSV" ;
         dcterms:title        "Landratswahl 2020, Stimmbezirksebene" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/2d07cd13-2518-4faa-9d8c-11384de9f22a/resource/61275f8e-c167-49fa-86ab-e7cdad317cdf/download/open-data-landratswahl-stimmbezirksebene.csv> .
-
-_:b4    a                    cat:Distribution ;
-        dcterms:description  "Ratswahl 2014, Ebene Stimmbezirk" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/c53f27f0-3e70-45e2-bda6-ef9c6ac57773/resource/b5d28f8c-33ba-420b-9e1e-7a10f7cddd1d/download/2014-ratswahl-stimmbezirksebene.csv> .
 
 <https://opendata.meerbusch.de/dataset/landratswahl-meerbusch-2020>
         a                    cat:Dataset ;
@@ -67,16 +51,10 @@ _:b4    a                    cat:Distribution ;
         dcterms:title        "Bürgermeisterwahl 2020, Gemeindeebene" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/7ecb07f1-8399-401d-b96f-6acec71e41d8/resource/6da6ac49-b516-4310-a05f-1569b14ba75d/download/open-data-buergermeisterwahl-gemeinde.csv> .
 
-_:b5    a                    cat:Dataset ;
-        <http://ckan.aksw.org/ontology/id>
-                "61bf497d-09b6-4e27-a4bc-09404cd54e48" ;
-        <http://ckan.aksw.org/ontology/name>
-                "bevolkerungsdichte-nach-stadtteilen" ;
-        dcterms:description  "Fläche und Einwohnerdichte in den Stadtteilen und in Meerbusch gesamt, jeweils zum Stichtag 31.12. des jeweiligen Jahres" ;
-        dcterms:title        "Bevölkerungsdichte nach Stadtteilen" ;
-        owl:versionInfo      "2020-01" ;
-        cat:distribution     <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsdichte+gesamt> , _:b6 , <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsdichte+nach+Stadtteilen> ;
-        cat:keyword          "Einwohner" , "Bevölkerung" .
+_:b1    a                    cat:Distribution ;
+        dcterms:description  "Europawahl 2014, Ebene Stadtteil" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/2c26d91a-7ed6-49b2-9d78-67227df259de/resource/b5b92e70-b2ce-499e-93b7-b898fe4989d6/download/2014-europawahl-stadtteil.csv> .
 
 <https://opendata.meerbusch.de/distribution/B%C3%BCrgermeisterstichwahl+2020%2C+Wahlbezirksebene>
         a                    cat:Distribution ;
@@ -85,6 +63,11 @@ _:b5    a                    cat:Dataset ;
         dcterms:title        "Bürgermeisterstichwahl 2020, Wahlbezirksebene" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/7ecb07f1-8399-401d-b96f-6acec71e41d8/resource/61d766a7-daaf-41c5-a1ae-b28418664188/download/open-data-buergermeisterstichwahl-wahlbezirke.csv> .
 
+_:b2    a                    cat:Distribution ;
+        dcterms:description  "Kreistagswahl 2009, Ebene Wahlbezirk" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/460dc7a5-9f09-4357-8863-ecc88ea3e82c/resource/c9e4f570-d296-473b-b29e-cbe699ca478b/download/2009-kreistagswahl-wahlbezirksebene.csv> .
+
 <https://opendata.meerbusch.de/distribution/Bebauungsplan%C3%BCbersicht+der+Stadt+Meerbusch>
         a                    cat:Distribution ;
         dcterms:description  "Dieser Dienst enthält umfassende Informationen zu den rechtskräftigen sowie in Aufstellung befindlichen Bauleitplänen (Bebauungspläne und sonstige Satzungen nach dem Baugesetzbuch) der Stadt Meerbusch." ;
@@ -92,16 +75,16 @@ _:b5    a                    cat:Dataset ;
         dcterms:title        "Bebauungsplanübersicht der Stadt Meerbusch" ;
         cat:accessURL        <https://geodata.o-sp.de/service/meerbusch.cgi> .
 
-_:b7    a                    cat:Dataset ;
+_:b3    a                    cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
-                "1c64f2cd-a6fc-4117-8d3b-e909779ba10b" ;
+                "bbf985fb-cf0c-4a3e-99ac-e94ec308497f" ;
         <http://ckan.aksw.org/ontology/name>
-                "landtagswahl-meerbusch" ;
-        dcterms:description  "Ergebnisse der Landtagswahl auf Ebene der Gemeinde, der Stadtteile und des Wahl- und Stimmbezirks" ;
-        dcterms:title        "Landtagswahl Meerbusch 2012" ;
+                "bundestagswahl-meerbusch" ;
+        dcterms:description  "Ergebnisse der Bundestagswahl auf Ebene der Gemeinde, des Kommunalwahlbezirks der Stadtteile und des Wahlbezirks" ;
+        dcterms:title        "Bundestagswahl Meerbusch 2009 / 2013" ;
         owl:versionInfo      "2017-01" ;
-        cat:distribution     _:b8 , _:b9 , _:b10 , _:b11 ;
-        cat:keyword          "Wahlen" , "Landtag" .
+        cat:distribution     _:b4 , _:b5 , _:b6 , _:b7 , _:b8 , _:b9 , _:b10 , _:b11 ;
+        cat:keyword          "Bundestag" , "Wahlen" .
 
 <https://opendata.meerbusch.de/distribution/G%C3%A4ste+nach+Herkunftsland+in+Afrika+ab+2013>
         a                    cat:Distribution ;
@@ -110,39 +93,39 @@ _:b7    a                    cat:Dataset ;
         dcterms:title        "Gäste nach Herkunftsland in Afrika ab 2013" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/567a9d32-945c-43c8-8a3b-e10ca0c99aad/resource/36f310b9-35ea-425b-8311-0ac0f0e8ba66/download/herkunftslander-der-gaste-in-afrika-ab-2013.csv> .
 
+_:b12   a                    cat:Dataset ;
+        <http://ckan.aksw.org/ontology/id>
+                "e1372d77-fe05-4bd1-ae6b-691f0aea231d" ;
+        <http://ckan.aksw.org/ontology/name>
+                "stimmbezirke-nach-strassenname" ;
+        dcterms:description  "Stimmezirke (Nummer und Name) nach Straßenname" ;
+        dcterms:title        "Stimmbezirke nach Straßenname" ;
+        owl:versionInfo      "2017-01" ;
+        cat:distribution     _:b13 ;
+        cat:keyword          "Wahlen" , "Straßen" ;
+        cat:landingPage      <http://wep.itk-rheinland.de/prod/kw_2009/05162022/html5/MedienvertreterInfo.html> .
+
+_:b14   a                    cat:Distribution ;
+        dcterms:description  "Kommunalwahlbezirke der Stadt Meerbusch" ;
+        dcterms:format       "GeoJSON" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/28ea1d59-ba29-46cf-afdc-c4f831d3067e/resource/1ae01319-3e8e-47d6-b728-062d8eb65678/download/wahlbezirke-der-stadt-meerbusch-2019.geojson> .
+
+_:b9    a                    cat:Distribution ;
+        dcterms:description  "Bundestagswahl 2013, Ebene Gemeinde" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/bbf985fb-cf0c-4a3e-99ac-e94ec308497f/resource/376ecd13-0399-433c-b3b6-8cf7ca5f0b13/download/2013-bundestagswahl-gemeindeebene.csv> .
+
 <https://opendata.meerbusch.de/distribution/Klimaschutzbericht+2014%2F2015>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
         dcterms:title   "Klimaschutzbericht 2014/2015" ;
         cat:accessURL   <https://cc-p-meerbusch.ckan.io/dataset/5717bf49-44b2-4ab8-9970-e410fd4bc37d/resource/73ee3161-d7ae-4a12-9d54-fa3174752b23/download/klimaschutzbericht201415.pdf> .
 
-_:b12   a                    cat:Dataset ;
-        <http://ckan.aksw.org/ontology/id>
-                "bbf985fb-cf0c-4a3e-99ac-e94ec308497f" ;
-        <http://ckan.aksw.org/ontology/name>
-                "bundestagswahl-meerbusch" ;
-        dcterms:description  "Ergebnisse der Bundestagswahl auf Ebene der Gemeinde, des Kommunalwahlbezirks der Stadtteile und des Wahlbezirks" ;
-        dcterms:title        "Bundestagswahl Meerbusch 2009 / 2013" ;
-        owl:versionInfo      "2017-01" ;
-        cat:distribution     _:b13 , _:b14 , _:b15 , _:b16 , _:b17 , _:b18 , _:b19 , _:b20 ;
-        cat:keyword          "Bundestag" , "Wahlen" .
-
 <https://opendata.meerbusch.de/distribution/Jahresabschluss+2014>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
         dcterms:title   "Jahresabschluss 2014" ;
         cat:accessURL   <https://cc-p-meerbusch.ckan.io/dataset/e3fe02c6-cedc-403b-8fd3-30e9c74c7149/resource/bfce069e-0b13-430b-886a-37e2b69149d9/download/jahresabschluss2014ocr.pdf> .
-
-<https://opendata.meerbusch.de/dataset/schulerzahlen-und-schulneulinge>
-        a                    cat:Dataset ;
-        <http://ckan.aksw.org/ontology/id>
-                "c60be56c-aead-412e-8be4-38eaba239cea" ;
-        <http://ckan.aksw.org/ontology/name>
-                "schulerzahlen-und-schulneulinge" ;
-        dcterms:description  "Anzahl der Schüler ab 2013 und Anzahl der Schulneulinge ab 2006 in Meerbusch.\r\n" ;
-        dcterms:title        "Schülerzahlen und Schulneulinge" ;
-        cat:distribution     <https://opendata.meerbusch.de/distribution/Anzahl+der+Sch%C3%BCler+ab+2013> , <https://opendata.meerbusch.de/distribution/Anzahl+der+Schulneulinge+der+Schulen+ab+2006> ;
-        cat:keyword          "Schüler" , "Jugend" , "Schule" .
 
 <https://opendata.meerbusch.de/distribution/Kreistagswahl+2020%2C+Wahlbezirksebene>
         a                    cat:Distribution ;
@@ -165,21 +148,6 @@ _:b12   a                    cat:Dataset ;
         dcterms:title        "Leuchtstellen" ;
         cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/561b4142-be26-42c2-beed-006a185aee03/resource/6c287dc4-2cb8-4643-8316-5df6f37d0352/download/leuchtstellen.geojson> , <https://cc-p-meerbusch.ckan.io/dataset/561b4142-be26-42c2-beed-006a185aee03/resource/41842568-5d51-45d9-b9dc-3c66c5ef1c43/download/leuchtstellen.kml> , <https://cc-p-meerbusch.ckan.io/dataset/561b4142-be26-42c2-beed-006a185aee03/resource/9b5e258a-4c12-4825-a462-f11744f364c8/download/leuchtstellen.csv> .
 
-_:b10   a                    cat:Distribution ;
-        dcterms:description  "Landtagswahl 2012, Ebene Gemeinde" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/1c64f2cd-a6fc-4117-8d3b-e909779ba10b/resource/45064014-b4c3-4370-98b2-f11ef1ff7e04/download/2012-landtagswahl-gemeindeebene.csv> .
-
-_:b21   a                    cat:Distribution ;
-        dcterms:description  "Bürgermeisterwahl 2014, Ebene Stadtteil" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/5ff79bd6-77cc-46c2-8e8f-849649020b7a/resource/068ee9ba-9b75-451b-8456-e050d2a07918/download/2014-burgermeisterwahl-stadtteilebene.csv> .
-
-_:b22   a                    cat:Distribution ;
-        dcterms:description  "Familienstände nach Stadtteilen 2013" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/874e6f62-6bdb-4297-b18d-a75d59f72a64/resource/a769cf28-c1ff-4429-ba38-94f912ff3ac0/download/familienstande-nach-stadtteilen-2013.csv> .
-
 <https://opendata.meerbusch.de/dataset/bundestagswahl-2017>
         a                    cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
@@ -193,10 +161,16 @@ _:b22   a                    cat:Distribution ;
         cat:keyword          "Wahlen" , "Bundestag" ;
         cat:landingPage      <http://wep.itk-rheinland.de/prod/bw_2017/05162022/html5/index.html> .
 
-_:b11   a                    cat:Distribution ;
-        dcterms:description  "Landtagswahl 2012, Ebene Stadtteil" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/1c64f2cd-a6fc-4117-8d3b-e909779ba10b/resource/f67c3129-ba4a-407b-85f8-e4c7115e54b0/download/2012-landtagswahl-stadtteilebene.csv> .
+<https://opendata.meerbusch.de/dataset/schulerzahlen-und-schulneulinge>
+        a                    cat:Dataset ;
+        <http://ckan.aksw.org/ontology/id>
+                "c60be56c-aead-412e-8be4-38eaba239cea" ;
+        <http://ckan.aksw.org/ontology/name>
+                "schulerzahlen-und-schulneulinge" ;
+        dcterms:description  "Anzahl der Schüler ab 2013 und Anzahl der Schulneulinge ab 2006 in Meerbusch.\r\n" ;
+        dcterms:title        "Schülerzahlen und Schulneulinge" ;
+        cat:distribution     <https://opendata.meerbusch.de/distribution/Anzahl+der+Sch%C3%BCler+ab+2013> , <https://opendata.meerbusch.de/distribution/Anzahl+der+Schulneulinge+der+Schulen+ab+2006> ;
+        cat:keyword          "Schüler" , "Jugend" , "Schule" .
 
 <https://opendata.meerbusch.de/dataset/radtour-stadt-land-fluss-40-kilometer-rund-um-meerbusch>
         a                    cat:Dataset ;
@@ -208,21 +182,6 @@ _:b11   a                    cat:Distribution ;
         dcterms:title        "Radtour Stadt Land Fluss - 40 Kilometer rund um Meerbusch" ;
         cat:distribution     <https://opendata.meerbusch.de/distribution/Beschreibung+zur+Stadt-Land-Fluss+Route> , <https://opendata.meerbusch.de/distribution/Stadt-Land-Fluss+Route> ;
         cat:keyword          "Freizeit" , "Verkehr" , "Fahrrad" , "Radfahren" .
-
-_:b23   a                    cat:Distribution ;
-        dcterms:description  "Landratswahl 2015, Ebene Stimmbezirk" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/b11d3689-9580-4557-a433-0a38917fcd0e/resource/8d707f63-2ad2-4fba-b9d7-53d3868f807f/download/2015-landratswahl-stimmbezirksebene.csv> .
-
-_:b24   a                    cat:Dataset ;
-        <http://ckan.aksw.org/ontology/id>
-                "28ea1d59-ba29-46cf-afdc-c4f831d3067e" ;
-        <http://ckan.aksw.org/ontology/name>
-                "kommunalwahlbezirke-der-stadt-meerbusch" ;
-        dcterms:description  "Der Datensatz beinhaltet die Geometrien der 24 Kommunalwahlbezirke der Stadt Meerbusch. Als Metadaten sind die Nummern der Wahlbezirke, der Gemeindename und der Gemeindeschlüssel hinterlegt. " ;
-        dcterms:title        "Kommunalwahlbezirke der Stadt Meerbusch" ;
-        cat:distribution     _:b25 , _:b26 ;
-        cat:keyword          "Geodaten" , "Wahlen" , "Wahlbezirke" .
 
 <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsbewegung+in+Str%C3%BCmp>
         a                    cat:Distribution ;
@@ -238,15 +197,17 @@ _:b24   a                    cat:Dataset ;
         dcterms:title        "Kindertagesstätten" ;
         cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/bbe01082-e668-4985-b66f-9bf3be02504d/resource/12169c12-f8bf-4203-9209-1136013aa0fa/download/meerbuscher-kitas-stand-april-2017-opendata.csv> , <https://cc-p-meerbusch.ckan.io/dataset/bbe01082-e668-4985-b66f-9bf3be02504d/resource/5540cbb3-cd38-4e34-b592-2a4d452f11f0/download/meerbuscher-kitas-stand-april-2017-.kml> , <https://cc-p-meerbusch.ckan.io/dataset/bbe01082-e668-4985-b66f-9bf3be02504d/resource/f808d5d8-2532-423b-b5bb-bdfb53810e83/download/meerbuscher-kitas-stand-april-2017.geojson> .
 
-_:b14   a                    cat:Distribution ;
-        dcterms:description  "Bundestagswahl 2009, Ebene Kommunalwahlbezirk" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/bbf985fb-cf0c-4a3e-99ac-e94ec308497f/resource/2b7f1af2-5ec4-464f-977f-dec8fbc98b8d/download/2009-bundestagswahl-kommunalwahlbezirk.csv> .
-
-_:b27   a                    cat:Distribution ;
-        dcterms:description  "Landratswahl 2009, Ebene Stimmbezirk" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/b11d3689-9580-4557-a433-0a38917fcd0e/resource/54b700d2-24a4-4a45-8fd8-12a4b626eb36/download/2009-landratswahl-stimmbezirksebene.csv> .
+_:b15   a                    cat:Dataset ;
+        <http://ckan.aksw.org/ontology/id>
+                "c53f27f0-3e70-45e2-bda6-ef9c6ac57773" ;
+        <http://ckan.aksw.org/ontology/name>
+                "ratswahl-meerbusch" ;
+        dcterms:description  "Ergebnisse der Ratswahl auf Ebene der Gemeinde, der Stadtteile und des Wahl- und Stimmbezirks" ;
+        dcterms:title        "Ratswahl Meerbusch 2009 / 2014" ;
+        owl:versionInfo      "2017-01" ;
+        cat:distribution     _:b16 , _:b17 , _:b18 , _:b19 , _:b20 , _:b21 , _:b22 , _:b23 ;
+        cat:keyword          "Wahlen" , "Rat" ;
+        cat:landingPage      <http://wep.itk-rheinland.de/prod/kw_2009/05162022/html5/MedienvertreterInfo.html> .
 
 <https://opendata.meerbusch.de/distribution/Spielplatzkonzept+2030%2C+Teil+2>
         a               cat:Distribution ;
@@ -260,11 +221,6 @@ _:b27   a                    cat:Distribution ;
         dcterms:format       "CSV" ;
         dcterms:title        "Bevölkerungsbewegung in Lank-Latum" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/8c216129-2044-496b-be06-dd886ea5eb3a/resource/7b096484-1c04-4f6f-b514-88390250bc90/download/bevolkerungsbewegung-in-lank-latum-ab-2010.csv> .
-
-_:b6    a                    cat:Distribution ;
-        dcterms:description  "Angabe der Fläche in ha und Übersicht der Bevölkerungsdichte (Einwohner/km²) pro Stadtteil\r\n" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/61bf497d-09b6-4e27-a4bc-09404cd54e48/resource/dac9070b-1851-41ca-807c-7ccbc7a7a39b/download/bevolkerungsdichte-ubersicht-aus-statistischem-jahrbuch.csv> .
 
 <https://opendata.meerbusch.de/dataset/wanderweg-durch-die-ilvericher-altrheinschlinge>
         a                    cat:Dataset ;
@@ -284,12 +240,6 @@ _:b6    a                    cat:Distribution ;
         dcterms:format       "CSV" ;
         dcterms:title        "Altersgruppen 2016" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/576832b7-008e-4782-9b75-8317d0d39d67/resource/525dd859-8a60-41f1-a041-fe498596d54d/download/altersgruppen-gesamt-2016.csv> .
-
-_:b28   a                    cat:Distribution ;
-        dcterms:description  "Familienstände nach Stadtteilen 2016" ;
-        dcterms:format       "CSV" ;
-        dcterms:title        "Familienstände nach Stadtteilen 2016" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/874e6f62-6bdb-4297-b18d-a75d59f72a64/resource/4de93119-ad16-4899-867a-294e402b8dd2/download/familienstande-nach-stadtteilen-2016.csv> .
 
 <https://opendata.meerbusch.de/dataset/strabenverkehrsunfalle-ab-2006>
         a                    cat:Dataset ;
@@ -317,6 +267,18 @@ _:b28   a                    cat:Distribution ;
         dcterms:title        "Kreistagswahl 2020, Stimmbezirksebene" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/a3cd890f-3f2f-4699-83bb-7ab687945b9e/resource/a54843af-a862-4a22-a854-14a3519083a5/download/open-data-kreistagswahl-stimmbezirksebene.csv> .
 
+_:b24   a                    cat:Dataset ;
+        <http://ckan.aksw.org/ontology/id>
+                "460dc7a5-9f09-4357-8863-ecc88ea3e82c" ;
+        <http://ckan.aksw.org/ontology/name>
+                "kreistagswahl-meerbusch" ;
+        dcterms:description  "Ergebnisse der Kreistagswahl auf Ebene der Gemeinde, der Stadtteile und des Stimm- und Wahlbezirks" ;
+        dcterms:title        "Kreistagswahl Meerbusch 2009 / 2014" ;
+        owl:versionInfo      "2017-01" ;
+        cat:distribution     _:b2 , _:b25 , _:b26 , _:b27 , _:b28 , _:b29 , _:b30 , _:b31 ;
+        cat:keyword          "Wahlen" , "Kreistag" ;
+        cat:landingPage      <http://wep.itk-rheinland.de/prod/kw_2009/05162022/html5/MedienvertreterInfo.html> .
+
 <https://opendata.meerbusch.de/dataset/kreistagswahl-meerbusch-2020>
         a                    cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
@@ -337,23 +299,25 @@ _:b28   a                    cat:Distribution ;
         dcterms:title        "Bevölkerungsentwicklung in Büderich ab 2005" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/d40e9a26-13ef-4410-8acc-fcb79588827a/resource/147e93b9-c54c-409e-9628-cf76fc6e84c4/download/bevolkerungszahlen-buderich-ab-2005.csv> .
 
-_:b26   a                    cat:Distribution ;
-        dcterms:description  "Kommunalwahlbezirke der Stadt Meerbusch" ;
-        dcterms:format       "KML" ;
+_:b22   a                    cat:Distribution ;
+        dcterms:description  "Ratswahl 2009, Ebene Stadtteil" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/c53f27f0-3e70-45e2-bda6-ef9c6ac57773/resource/bcb9df5c-3ceb-4cdf-a933-540121e9494a/download/2009-ratswahl-stadtteilebene.csv> .
+
+_:b32   a                    cat:Dataset ;
+        <http://ckan.aksw.org/ontology/id>
+                "28ea1d59-ba29-46cf-afdc-c4f831d3067e" ;
+        <http://ckan.aksw.org/ontology/name>
+                "kommunalwahlbezirke-der-stadt-meerbusch" ;
+        dcterms:description  "Der Datensatz beinhaltet die Geometrien der 24 Kommunalwahlbezirke der Stadt Meerbusch. Als Metadaten sind die Nummern der Wahlbezirke, der Gemeindename und der Gemeindeschlüssel hinterlegt. " ;
         dcterms:title        "Kommunalwahlbezirke der Stadt Meerbusch" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/28ea1d59-ba29-46cf-afdc-c4f831d3067e/resource/5d75c6d6-60d1-4668-9d1b-1dec0e34c88b/download/wahlbezirke-der-stadt-meerbusch-2019.kml> .
+        cat:distribution     _:b14 , _:b33 ;
+        cat:keyword          "Geodaten" , "Wahlen" , "Wahlbezirke" .
 
-<https://opendata.meerbusch.de/distribution/Familienst%C3%A4nde+nach+Stadtteilen+2018>
-        a                    cat:Distribution ;
-        dcterms:description  "Familienstände nach Stadtteilen 2018" ;
+_:b25   a                    cat:Distribution ;
+        dcterms:description  "Kreistagswahl 2009, Ebene Stimmbezirk" ;
         dcterms:format       "CSV" ;
-        dcterms:title        "Familienstände nach Stadtteilen 2018" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/874e6f62-6bdb-4297-b18d-a75d59f72a64/resource/2a922b37-ec80-44eb-9005-b1bfa79266be/download/familienstande-nach-stadtteilen-2018.csv> .
-
-_:b29   a                    cat:Distribution ;
-        dcterms:description  "Bürgermeisterwahl 2009, Ebene Wahlbezirk" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/5ff79bd6-77cc-46c2-8e8f-849649020b7a/resource/cdc4bb44-7fa8-4624-9511-5aafa35ec13c/download/2009-burgermeisterwahl-wahlbezirksebene.csv> .
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/460dc7a5-9f09-4357-8863-ecc88ea3e82c/resource/26bfea38-d768-4997-9d9a-9fb59255628d/download/2009-kreistagswahl-stimmbezirksebene.csv> .
 
 <https://opendata.meerbusch.de/distribution/G%C3%A4ste+in+Beherbergungsbetrieben+gesamt+ab+2013>
         a                    cat:Distribution ;
@@ -362,34 +326,35 @@ _:b29   a                    cat:Distribution ;
         dcterms:title        "Gäste in Beherbergungsbetrieben gesamt ab 2013" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/567a9d32-945c-43c8-8a3b-e10ca0c99aad/resource/eac51f50-ac55-42f8-ac37-b31d4a0fadbc/download/gaste-in-beherbergungsbetrieben-gesamt-ab-2013.csv> .
 
+_:b34   a                    cat:Distribution ;
+        dcterms:description  "Bürgermeisterwahl 2014, Ebene Stadtteil" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/5ff79bd6-77cc-46c2-8e8f-849649020b7a/resource/068ee9ba-9b75-451b-8456-e050d2a07918/download/2014-burgermeisterwahl-stadtteilebene.csv> .
+
 mclient:Meerbusch  a       cat:Catalog ;
+        rdfs:comment       "" ;
         rdfs:label         "Meerbusch" ;
         dcatx:accountable  "" ;
+        dcatx:crawl        "1" ;
         dcatx:dcatApApi    false ;
         dcatx:email        "opendata@meerbusch.de" ;
         dcatx:nuts         "DEA1D022" ;
+        dcatx:openApi      "1" ;
         dcatx:technology   "CKAN" ;
         dcatx:type         "city" ;
         dcatx:url          "https://opendata.meerbusch.de/" ;
-        cat:dataset        _:b30 , _:b31 , _:b32 , <https://opendata.meerbusch.de/dataset/strassenverzeichnis> , _:b33 , _:b34 , <https://opendata.meerbusch.de/dataset/gaste-in-beherbergungsbetrieben> , <https://opendata.meerbusch.de/dataset/standorte-schulen> , <https://opendata.meerbusch.de/dataset/jahresabschluss> , <https://opendata.meerbusch.de/dataset/auslanderanteil-nach-stadtteilen> , <https://opendata.meerbusch.de/dataset/winterdienst-streumittelverbrauch> , _:b35 , <https://opendata.meerbusch.de/dataset/open-data-konzept> , <https://opendata.meerbusch.de/dataset/bundestagswahl-2017> , <https://opendata.meerbusch.de/dataset/anzahl-der-sitzungen-von-rat-und-ausschussen> , <https://opendata.meerbusch.de/dataset/mitglieder-der-sportvereine> , _:b24 , <https://opendata.meerbusch.de/dataset/landratswahl-meerbusch-2020> , <https://opendata.meerbusch.de/dataset/staatsangehorigkeiten-in-meerbusch> , <https://opendata.meerbusch.de/dataset/gesamtabschluss> , <https://opendata.meerbusch.de/dataset/kreistagswahl-meerbusch-2020> , <https://opendata.meerbusch.de/dataset/bevolkerungsbewegung-nach-stadtteilen> , _:b36 , <https://opendata.meerbusch.de/dataset/bevolkerungsentwicklung-nach-stadtteilen> , <https://opendata.meerbusch.de/dataset/bevolkerungsentwicklung-ubersicht> , <https://opendata.meerbusch.de/dataset/haushaltsplane-als-pdf-dateien> , <https://opendata.meerbusch.de/dataset/radtour-stadt-land-fluss-40-kilometer-rund-um-meerbusch> , _:b37 , <https://opendata.meerbusch.de/dataset/strabenverkehrsunfalle-ab-2006> , <https://opendata.meerbusch.de/dataset/landtagswahl-2017-test> , <https://opendata.meerbusch.de/dataset/burgermeisterwahl-meerbusch-2020> , <https://opendata.meerbusch.de/dataset/spielplatzkonzept> , <https://opendata.meerbusch.de/dataset/ratswahl-meerbusch-2020> , _:b5 , <https://opendata.meerbusch.de/dataset/jugend-und-sozialbericht> , <https://opendata.meerbusch.de/dataset/klimaschutzberichte> , <https://opendata.meerbusch.de/dataset/kindertagesstatten> , <https://opendata.meerbusch.de/dataset/bauleitplane> , <https://opendata.meerbusch.de/dataset/behindertengerechte-objekte> , _:b7 , _:b38 , <https://opendata.meerbusch.de/dataset/schulerzahlen-und-schulneulinge> , _:b0 , <https://opendata.meerbusch.de/dataset/leuchten> , <https://opendata.meerbusch.de/dataset/wanderweg-durch-die-ilvericher-altrheinschlinge> , <https://opendata.meerbusch.de/dataset/altersgruppen-in-meerbusch-gesamt> , _:b12 .
-
-_:b37   a                    cat:Dataset ;
-        <http://ckan.aksw.org/ontology/id>
-                "c53f27f0-3e70-45e2-bda6-ef9c6ac57773" ;
-        <http://ckan.aksw.org/ontology/name>
-                "ratswahl-meerbusch" ;
-        dcterms:description  "Ergebnisse der Ratswahl auf Ebene der Gemeinde, der Stadtteile und des Wahl- und Stimmbezirks" ;
-        dcterms:title        "Ratswahl Meerbusch 2009 / 2014" ;
-        owl:versionInfo      "2017-01" ;
-        cat:distribution     _:b4 , _:b39 , _:b40 , _:b41 , _:b42 , _:b43 , _:b44 , _:b45 ;
-        cat:keyword          "Rat" , "Wahlen" ;
-        cat:landingPage      <http://wep.itk-rheinland.de/prod/kw_2009/05162022/html5/MedienvertreterInfo.html> .
+        cat:dataset        <https://opendata.meerbusch.de/dataset/strassenverzeichnis> , <https://opendata.meerbusch.de/dataset/gaste-in-beherbergungsbetrieben> , _:b35 , <https://opendata.meerbusch.de/dataset/standorte-schulen> , _:b36 , _:b15 , <https://opendata.meerbusch.de/dataset/jahresabschluss> , <https://opendata.meerbusch.de/dataset/auslanderanteil-nach-stadtteilen> , _:b37 , <https://opendata.meerbusch.de/dataset/winterdienst-streumittelverbrauch> , <https://opendata.meerbusch.de/dataset/open-data-konzept> , <https://opendata.meerbusch.de/dataset/bundestagswahl-2017> , <https://opendata.meerbusch.de/dataset/anzahl-der-sitzungen-von-rat-und-ausschussen> , <https://opendata.meerbusch.de/dataset/mitglieder-der-sportvereine> , <https://opendata.meerbusch.de/dataset/landratswahl-meerbusch-2020> , <https://opendata.meerbusch.de/dataset/staatsangehorigkeiten-in-meerbusch> , _:b24 , <https://opendata.meerbusch.de/dataset/gesamtabschluss> , _:b32 , <https://opendata.meerbusch.de/dataset/kreistagswahl-meerbusch-2020> , <https://opendata.meerbusch.de/dataset/bevolkerungsbewegung-nach-stadtteilen> , _:b38 , <https://opendata.meerbusch.de/dataset/bevolkerungsentwicklung-nach-stadtteilen> , _:b39 , <https://opendata.meerbusch.de/dataset/bevolkerungsentwicklung-ubersicht> , <https://opendata.meerbusch.de/dataset/haushaltsplane-als-pdf-dateien> , <https://opendata.meerbusch.de/dataset/radtour-stadt-land-fluss-40-kilometer-rund-um-meerbusch> , _:b3 , _:b12 , _:b40 , <https://opendata.meerbusch.de/dataset/strabenverkehrsunfalle-ab-2006> , <https://opendata.meerbusch.de/dataset/landtagswahl-2017-test> , <https://opendata.meerbusch.de/dataset/burgermeisterwahl-meerbusch-2020> , <https://opendata.meerbusch.de/dataset/spielplatzkonzept> , <https://opendata.meerbusch.de/dataset/ratswahl-meerbusch-2020> , <https://opendata.meerbusch.de/dataset/jugend-und-sozialbericht> , <https://opendata.meerbusch.de/dataset/klimaschutzberichte> , <https://opendata.meerbusch.de/dataset/kindertagesstatten> , <https://opendata.meerbusch.de/dataset/bauleitplane> , <https://opendata.meerbusch.de/dataset/behindertengerechte-objekte> , <https://opendata.meerbusch.de/dataset/schulerzahlen-und-schulneulinge> , _:b41 , _:b42 , <https://opendata.meerbusch.de/dataset/leuchten> , <https://opendata.meerbusch.de/dataset/wanderweg-durch-die-ilvericher-altrheinschlinge> , _:b43 , <https://opendata.meerbusch.de/dataset/altersgruppen-in-meerbusch-gesamt> .
 
 <https://opendata.meerbusch.de/distribution/Streumittelverbrauch>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
         dcterms:title   "Streumittelverbrauch" ;
         cat:accessURL   <https://cc-p-meerbusch.ckan.io/dataset/f6129933-0d95-4834-8c33-dad2a48a0ad9/resource/3949ac00-db2d-461f-9d92-b0745da9da62/download/winterdienst-streumittelverbrauch.csv> .
+
+_:b18   a                    cat:Distribution ;
+        dcterms:description  "Ratswahl 2014, Ebene Wahlbezirk" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/c53f27f0-3e70-45e2-bda6-ef9c6ac57773/resource/7721345f-707a-4154-b934-4be7582586dd/download/2014-ratswahl-wahlbezirksebene.csv> .
 
 <https://opendata.meerbusch.de/distribution/Landratswahl+2020%2C+Gemeindeebene>
         a                    cat:Distribution ;
@@ -405,15 +370,10 @@ _:b37   a                    cat:Dataset ;
         dcterms:title        "Bevölkerungsbewegung in Meerbusch gesamt" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/8c216129-2044-496b-be06-dd886ea5eb3a/resource/fa005339-16d4-4515-bdd0-5b23dd0ca0b7/download/bevolkerungsbewegung-in-meerbusch-gesamt-ab-2010.csv> .
 
-_:b46   a                    cat:Distribution ;
-        dcterms:description  "Landratswahl 2015, Ebene Gemeinde" ;
+_:b44   a                    cat:Distribution ;
+        dcterms:description  "Anzahl der Kinderspielplätze in Meerbusch seit 2004" ;
         dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/b11d3689-9580-4557-a433-0a38917fcd0e/resource/21c95ca3-718a-4b68-97d0-6818aa687438/download/2015-landratswahl-gemeindeebene.csv> .
-
-_:b41   a                    cat:Distribution ;
-        dcterms:description  "Ratswahl 2009, Ebene Stadtteil" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/c53f27f0-3e70-45e2-bda6-ef9c6ac57773/resource/bcb9df5c-3ceb-4cdf-a933-540121e9494a/download/2009-ratswahl-stadtteilebene.csv> .
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/495cb985-e15e-4da6-94b9-c1815512fb36/resource/0c3fc2e3-4179-4f20-8779-a3e38f5a924b/download/anzahl-kinderspielplaetze_ges.csv> .
 
 <https://opendata.meerbusch.de/distribution/Stra%C3%9Fenverzeichnis+mit+PLZ+und+Stadtteil>
         a                    cat:Distribution ;
@@ -421,6 +381,11 @@ _:b41   a                    cat:Distribution ;
         dcterms:format       "CSV" ;
         dcterms:title        "Straßenverzeichnis mit PLZ und Stadtteil" ;
         cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/1b81528d-c12e-4c28-9d08-b8a04a693822/resource/e4c2377a-1785-4700-983b-1a7533107ddb/download/strassentabelle-stand-april-2018.csv> .
+
+_:b45   a                    cat:Distribution ;
+        dcterms:description  "Familienstände nach Stadtteilen 2015" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/874e6f62-6bdb-4297-b18d-a75d59f72a64/resource/f4e8a124-6d99-4a9f-91df-98e8fa534b6a/download/familienstande-nach-stadtteilen-2015.csv> .
 
 <https://opendata.meerbusch.de/dataset/auslanderanteil-nach-stadtteilen>
         a                    cat:Dataset ;
@@ -459,10 +424,37 @@ _:b41   a                    cat:Distribution ;
         dcterms:title        "Bürgermeisterstichwahl 2020, Gemeindeebene" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/7ecb07f1-8399-401d-b96f-6acec71e41d8/resource/8b55ab03-7919-40e6-a29a-881b543dacb4/download/open-data-buergermeisterstichwahl-gemeinde.csv> .
 
-_:b47   a                    cat:Distribution ;
-        dcterms:description  "Kreistagswahl 2009, Ebene Wahlbezirk" ;
+_:b46   a                    cat:Distribution ;
+        dcterms:description  "Landtagswahl 2012, Ebene Gemeinde" ;
         dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/460dc7a5-9f09-4357-8863-ecc88ea3e82c/resource/c9e4f570-d296-473b-b29e-cbe699ca478b/download/2009-kreistagswahl-wahlbezirksebene.csv> .
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/1c64f2cd-a6fc-4117-8d3b-e909779ba10b/resource/45064014-b4c3-4370-98b2-f11ef1ff7e04/download/2012-landtagswahl-gemeindeebene.csv> .
+
+_:b43   a                    cat:Dataset ;
+        <http://ckan.aksw.org/ontology/id>
+                "495cb985-e15e-4da6-94b9-c1815512fb36" ;
+        <http://ckan.aksw.org/ontology/name>
+                "anzahl-kinderspielplatze" ;
+        dcterms:description  "Anzahl der Kinderspielplätze in den einzelnen Stadtteilen seit 2004" ;
+        dcterms:title        "Anzahl Kinderspielplätze" ;
+        owl:versionInfo      "2017-02" ;
+        cat:distribution     <https://opendata.meerbusch.de/distribution/Anzahl+Kinderspielpl%C3%A4tze+in+den+Stadtteilen> , _:b44 ;
+        cat:keyword          "Kinder" .
+
+_:b47   a                    cat:Distribution ;
+        dcterms:description  "Bürgermeisterwahl 2014, Ebene Wahlbezirk" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/5ff79bd6-77cc-46c2-8e8f-849649020b7a/resource/2461210b-b83a-4215-a459-298ef20613bc/download/2014-burgermeisterwahl-wahlbezirksebene.csv> .
+
+_:b35   a                    cat:Dataset ;
+        <http://ckan.aksw.org/ontology/id>
+                "2fc84f76-0886-4328-a570-f333abf0a8a5" ;
+        <http://ckan.aksw.org/ontology/name>
+                "vollzeitaquivalente" ;
+        dcterms:description  "Anzahl der Vollzeitäquivalente (FTE) aufgeteilt nach Beamten und tariflich Beschäftigten" ;
+        dcterms:title        "Vollzeitäquivalente" ;
+        owl:versionInfo      "2020-01" ;
+        cat:distribution     _:b48 , _:b49 ;
+        cat:keyword          "Personal" .
 
 <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsbewegung+in+Osterath>
         a                    cat:Distribution ;
@@ -470,6 +462,22 @@ _:b47   a                    cat:Distribution ;
         dcterms:format       "CSV" ;
         dcterms:title        "Bevölkerungsbewegung in Osterath" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/8c216129-2044-496b-be06-dd886ea5eb3a/resource/c3e27d1a-ede4-4f71-91c5-887a4a19f343/download/bevolkerungsbewegung-in-osterath-ab-2010.csv> .
+
+_:b50   a                    cat:Distribution ;
+        dcterms:description  "Landtagswahl 2012, Ebene Stadtteil" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/1c64f2cd-a6fc-4117-8d3b-e909779ba10b/resource/f67c3129-ba4a-407b-85f8-e4c7115e54b0/download/2012-landtagswahl-stadtteilebene.csv> .
+
+_:b39   a                    cat:Dataset ;
+        <http://ckan.aksw.org/ontology/id>
+                "1c64f2cd-a6fc-4117-8d3b-e909779ba10b" ;
+        <http://ckan.aksw.org/ontology/name>
+                "landtagswahl-meerbusch" ;
+        dcterms:description  "Ergebnisse der Landtagswahl auf Ebene der Gemeinde, der Stadtteile und des Wahl- und Stimmbezirks" ;
+        dcterms:title        "Landtagswahl Meerbusch 2012" ;
+        owl:versionInfo      "2017-01" ;
+        cat:distribution     _:b51 , _:b46 , _:b52 , _:b50 ;
+        cat:keyword          "Landtag" , "Wahlen" .
 
 <https://opendata.meerbusch.de/distribution/Jahresabschluss+2012>
         a               cat:Distribution ;
@@ -488,11 +496,6 @@ _:b47   a                    cat:Distribution ;
         owl:versionInfo      "2020-02" ;
         cat:distribution     <https://opendata.meerbusch.de/distribution/G%C3%A4ste+in+Beherbergungsbetrieben+gesamt+ab+2013> , <https://opendata.meerbusch.de/distribution/G%C3%A4ste+nach+Herkunftsland+in+Amerika+ab+2013> , <https://opendata.meerbusch.de/distribution/G%C3%A4ste+nach+Herkunftsland+in+Afrika+ab+2013> , <https://opendata.meerbusch.de/distribution/G%C3%A4ste+in+Beherbergungsbetrieben+nach+Kontinenten+ab+2013> , <https://opendata.meerbusch.de/distribution/G%C3%A4ste+nach+Herkunftsland+in+Europa+ab+2013> , <https://opendata.meerbusch.de/distribution/G%C3%A4ste+nach+Herkunftsland+in+Asien+ab+2013> ;
         cat:keyword          "Tourismus" , "Herkunft" , "Gäste" .
-
-_:b48   a                    cat:Distribution ;
-        dcterms:description  "Stand Januar 2017" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/e1372d77-fe05-4bd1-ae6b-691f0aea231d/resource/2102a5d3-8cda-40d5-bca9-bf4524eaeae4/download/stimmbezirke-nach-strassenname-1.csv> .
 
 <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsentwicklung+in+Meerbusch+gesamt+seit+2005>
         a                    cat:Distribution ;
@@ -514,15 +517,10 @@ _:b48   a                    cat:Distribution ;
         cat:keyword          "Wahlen" , "Rat" ;
         cat:landingPage      <https://wep.itk-rheinland.de/vm/prod/kw_2020/05162022/html5/index.html> .
 
-_:b49   a                    cat:Distribution ;
-        dcterms:description  "Kreistagswahl 2009, Ebene Stimmbezirk" ;
+_:b53   a                    cat:Distribution ;
+        dcterms:description  "Familienstände nach Stadtteilen 2012" ;
         dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/460dc7a5-9f09-4357-8863-ecc88ea3e82c/resource/26bfea38-d768-4997-9d9a-9fb59255628d/download/2009-kreistagswahl-stimmbezirksebene.csv> .
-
-_:b20   a                    cat:Distribution ;
-        dcterms:description  "Bundestagswahl 2009, Ebene Stadtteil" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/bbf985fb-cf0c-4a3e-99ac-e94ec308497f/resource/ac1b00df-0364-4598-bd8e-a7234e4adf7e/download/2009-bundestagswahl-stadtteilebene.csv> .
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/874e6f62-6bdb-4297-b18d-a75d59f72a64/resource/fb17b558-f3e3-4b1a-beac-44d1767a9be1/download/familienstande-nach-stadtteilen-2012.csv> .
 
 <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsentwicklung+in+Langst-Kierst+ab+2005>
         a                    cat:Distribution ;
@@ -541,7 +539,7 @@ _:b20   a                    cat:Distribution ;
         dcterms:title        "Standorte Schulen" ;
         owl:versionInfo      "2017-01" ;
         cat:distribution     <https://opendata.meerbusch.de/distribution/Standorte+Schulen> ;
-        cat:keyword          "Geodaten" , "Jugend und Soziales" .
+        cat:keyword          "Jugend und Soziales" , "Geodaten" .
 
 <https://opendata.meerbusch.de/distribution/G%C3%A4ste+nach+Herkunftsland+in+Europa+ab+2013>
         a                    cat:Distribution ;
@@ -557,12 +555,27 @@ _:b20   a                    cat:Distribution ;
         dcterms:title        "Ausländeranteil in Prozent aufgeteilt nach Stadtteilen ab 2011" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/601feabb-2f3f-47df-9ea7-926ce003fa9d/resource/3b8a3b7d-c5c3-475e-9ce7-517fb556cbfe/download/auslanderanteil-nach-stadtteilen.csv> .
 
+_:b7    a                    cat:Distribution ;
+        dcterms:description  "Bundestagswahl 2009, Ebene Gemeinde" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/bbf985fb-cf0c-4a3e-99ac-e94ec308497f/resource/62a2c2a5-04d9-4a2a-914e-7f42f6932dc7/download/2009-bundestagswahl-gemeindeebene.csv> .
+
+_:b19   a                    cat:Distribution ;
+        dcterms:description  "Ratswahl 2014, Ebene Stimmbezirk" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/c53f27f0-3e70-45e2-bda6-ef9c6ac57773/resource/b5d28f8c-33ba-420b-9e1e-7a10f7cddd1d/download/2014-ratswahl-stimmbezirksebene.csv> .
+
 <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsentwicklung+in+Osterath+ab+2005>
         a                    cat:Distribution ;
         dcterms:description  "Bevölkerungsentwicklung in Osterath ab 2005, Stichtag jeweils 31.12. des angegebenen Jahres" ;
         dcterms:format       "CSV" ;
         dcterms:title        "Bevölkerungsentwicklung in Osterath ab 2005" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/d40e9a26-13ef-4410-8acc-fcb79588827a/resource/fca2f9b7-4939-4ce1-895e-95ab78c1069a/download/bevolkerungszahlen-osterath-ab-2005.csv> .
+
+_:b51   a                    cat:Distribution ;
+        dcterms:description  "Landtagswahl 2012, Ebene Wahlbezirk" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/1c64f2cd-a6fc-4117-8d3b-e909779ba10b/resource/4e6e07c9-af5d-4c9a-8329-6db6bd50de90/download/2012-landtagswahl-wahlbezirksebene.csv> .
 
 <https://opendata.meerbusch.de/distribution/Altersgruppen+2014>
         a                    cat:Distribution ;
@@ -571,10 +584,43 @@ _:b20   a                    cat:Distribution ;
         dcterms:title        "Altersgruppen 2014" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/576832b7-008e-4782-9b75-8317d0d39d67/resource/0584c839-39ce-4523-8506-8d7d0a752234/download/altersgruppen-gesamt-2014.csv> .
 
-_:b40   a                    cat:Distribution ;
-        dcterms:description  "Ratswahl 2014, Ebene Gemeinde" ;
+_:b29   a                    cat:Distribution ;
+        dcterms:description  "Kreistagswahl 2014, Ebene Stadtteil" ;
         dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/c53f27f0-3e70-45e2-bda6-ef9c6ac57773/resource/6546a32a-4c86-4888-bb99-b8cdad068a2e/download/2014-ratswahl-gemeindeebene.csv> .
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/460dc7a5-9f09-4357-8863-ecc88ea3e82c/resource/4aff2b34-1af4-49bd-9a54-b1fc517033fb/download/2014-kreistagswahl-stadtteilebene.csv> .
+
+_:b38   a                    cat:Dataset ;
+        <http://ckan.aksw.org/ontology/id>
+                "2c26d91a-7ed6-49b2-9d78-67227df259de" ;
+        <http://ckan.aksw.org/ontology/name>
+                "europawahl-meerbusch" ;
+        dcterms:description  "Ergebnisse der Europawahlen auf Ebene der Gemeinde, der Stadtteile und des Wahlbezirks" ;
+        dcterms:title        "Europawahl Meerbusch 2014" ;
+        owl:versionInfo      "2017-01" ;
+        cat:distribution     _:b1 , _:b54 , _:b0 ;
+        cat:keyword          "Europa" , "Wahlen" .
+
+_:b5    a                    cat:Distribution ;
+        dcterms:description  "Bundestagswahl 2009, Ebene Wahlbezirk" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/bbf985fb-cf0c-4a3e-99ac-e94ec308497f/resource/28bb42cb-763d-47b3-ad86-793be0f7266c/download/2009-bundestagswahl-wahlbezirksebene.csv> .
+
+_:b16   a                    cat:Distribution ;
+        dcterms:description  "Ratswahl 2009, Ebene Wahlbezirk" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/c53f27f0-3e70-45e2-bda6-ef9c6ac57773/resource/106d7e54-6961-4403-b7a1-02e978a607b2/download/2009-ratswahl-wahlbezirksebene.csv> .
+
+_:b40   a                    cat:Dataset ;
+        <http://ckan.aksw.org/ontology/id>
+                "5ff79bd6-77cc-46c2-8e8f-849649020b7a" ;
+        <http://ckan.aksw.org/ontology/name>
+                "burgermeisterwahl-meerbusch" ;
+        dcterms:description  "Ergebnisse der Bürgermeisterwahl auf Ebene der Gemeinde, der Stadtteile und des Wahl- und Stimmbezirks" ;
+        dcterms:title        "Bürgermeisterwahl Meerbusch 2009 / 2014" ;
+        owl:versionInfo      "2017-01" ;
+        cat:distribution     _:b55 , _:b56 , _:b57 , _:b58 , _:b47 , _:b34 , _:b59 , _:b60 ;
+        cat:keyword          "Bürgermeister" , "Wahlen" ;
+        cat:landingPage      <http://wep.itk-rheinland.de/prod/kw_2009/05162022/html5/MedienvertreterInfo.html> .
 
 <https://opendata.meerbusch.de/distribution/Open-Data-Konzept>
         a                    cat:Distribution ;
@@ -583,17 +629,16 @@ _:b40   a                    cat:Distribution ;
         dcterms:title        "Open-Data-Konzept" ;
         cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/44320dc6-f01a-4ae4-9d6d-dbe8e993edb2/resource/e2685525-c1c7-4279-b6ea-0039453decdb/download/offene_daten_in_meerbusch_-_konzept.pdf> .
 
-_:b8    a                    cat:Distribution ;
-        dcterms:description  "Landtagswahl 2012, Ebene Wahlbezirk" ;
+_:b61   a                    cat:Distribution ;
+        dcterms:description  "Landratswahl 2015, Ebene Stadtteil" ;
         dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/1c64f2cd-a6fc-4117-8d3b-e909779ba10b/resource/4e6e07c9-af5d-4c9a-8329-6db6bd50de90/download/2012-landtagswahl-wahlbezirksebene.csv> .
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/b11d3689-9580-4557-a433-0a38917fcd0e/resource/47b93242-ebd2-4ee1-96a6-cae6a3929b1e/download/2015-landratswahl-stadtteilebene.csv> .
 
-<https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsbewegung+in+Nierst>
-        a                    cat:Distribution ;
-        dcterms:description  "Bevölkerungsbewegung in Nierst ab 2010" ;
-        dcterms:format       "CSV" ;
-        dcterms:title        "Bevölkerungsbewegung in Nierst" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/8c216129-2044-496b-be06-dd886ea5eb3a/resource/ba858427-0c37-41fa-bf07-a3d803873bfc/download/bevolkerungsbewegung-in-nierst-ab-2010.csv> .
+<https://opendata.meerbusch.de/distribution/Anzahl+Kinderspielpl%C3%A4tze+in+den+Stadtteilen>
+        a               cat:Distribution ;
+        dcterms:format  "CSV" ;
+        dcterms:title   "Anzahl Kinderspielplätze in den Stadtteilen" ;
+        cat:accessURL   <https://opendata.meerbusch.de/dataset/495cb985-e15e-4da6-94b9-c1815512fb36/resource/8b5cdcd5-287f-4d6f-9c2e-a5edf70f875c/download/anzahl-kinderspielplaetze_stadtteile.csv> .
 
 <https://opendata.meerbusch.de/dataset/winterdienst-streumittelverbrauch>
         a                    cat:Dataset ;
@@ -610,14 +655,21 @@ _:b8    a                    cat:Distribution ;
 <https://opendata.meerbusch.de/distribution/Standorte+Schulen>
         a                    cat:Distribution ;
         dcterms:description  "Standorte der Schulen im Stadtgebiet Meerbusch" ;
-        dcterms:format       "KML" , "CSV" , "GeoJSON" ;
+        dcterms:format       "GeoJSON" , "KML" , "CSV" ;
         dcterms:title        "Standorte Schulen" ;
-        cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/f5250d92-99b4-4f6d-a34c-7a59192d59f7/resource/7917ca16-7f06-4662-aaa0-a949931bc076/download/meerbuscher-schulen-stand-22017.kml> , <https://cc-p-meerbusch.ckan.io/dataset/f5250d92-99b4-4f6d-a34c-7a59192d59f7/resource/24129f9d-348a-40f9-9ca1-928f5dd03d2a/download/meerbuscher-schulen-stand-22017-opendata.csv> , <https://cc-p-meerbusch.ckan.io/dataset/f5250d92-99b4-4f6d-a34c-7a59192d59f7/resource/1b1f2bb0-0923-42e3-be9e-524c6b130db7/download/meerbuscher-schulen-stand-22017.geojson> .
+        cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/f5250d92-99b4-4f6d-a34c-7a59192d59f7/resource/1b1f2bb0-0923-42e3-be9e-524c6b130db7/download/meerbuscher-schulen-stand-22017.geojson> , <https://cc-p-meerbusch.ckan.io/dataset/f5250d92-99b4-4f6d-a34c-7a59192d59f7/resource/7917ca16-7f06-4662-aaa0-a949931bc076/download/meerbuscher-schulen-stand-22017.kml> , <https://cc-p-meerbusch.ckan.io/dataset/f5250d92-99b4-4f6d-a34c-7a59192d59f7/resource/24129f9d-348a-40f9-9ca1-928f5dd03d2a/download/meerbuscher-schulen-stand-22017-opendata.csv> .
 
-_:b50   a                    cat:Distribution ;
-        dcterms:description  "Kreistagswahl 2009, Ebene Stadtteil" ;
+<https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsbewegung+in+Nierst>
+        a                    cat:Distribution ;
+        dcterms:description  "Bevölkerungsbewegung in Nierst ab 2010" ;
         dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/460dc7a5-9f09-4357-8863-ecc88ea3e82c/resource/4e894e56-4600-40b4-8cfe-a24badfb97be/download/2009-kreistagswahl-stadtteilebene.csv> .
+        dcterms:title        "Bevölkerungsbewegung in Nierst" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/8c216129-2044-496b-be06-dd886ea5eb3a/resource/ba858427-0c37-41fa-bf07-a3d803873bfc/download/bevolkerungsbewegung-in-nierst-ab-2010.csv> .
+
+_:b26   a                    cat:Distribution ;
+        dcterms:description  "Kreistagswahl 2014, Ebene Wahlbezirk" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/460dc7a5-9f09-4357-8863-ecc88ea3e82c/resource/619ed9e4-9996-4be5-9d2e-ffd0545062d7/download/2014-kreistagswahl-wahlbezirksebene.csv> .
 
 <https://opendata.meerbusch.de/dataset/spielplatzkonzept>
         a                    cat:Dataset ;
@@ -631,27 +683,12 @@ _:b50   a                    cat:Distribution ;
         cat:distribution     <https://opendata.meerbusch.de/distribution/Spielplatzkonzept+2030%2C+Teil+2> , <https://opendata.meerbusch.de/distribution/Spielplatzkonzept+2030%2C+Teil+1> ;
         cat:keyword          "Kinder" , "Konzept" , "OpenDoc" , "Spielplatz" .
 
-_:b51   a                    cat:Distribution ;
-        dcterms:description  "Landratswahl 2015, Ebene Stadtteil" ;
+<https://opendata.meerbusch.de/distribution/Familienst%C3%A4nde+nach+Stadtteilen+2016>
+        a                    cat:Distribution ;
+        dcterms:description  "Familienstände nach Stadtteilen 2016" ;
         dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/b11d3689-9580-4557-a433-0a38917fcd0e/resource/47b93242-ebd2-4ee1-96a6-cae6a3929b1e/download/2015-landratswahl-stadtteilebene.csv> .
-
-_:b52   a                    cat:Distribution ;
-        dcterms:description  "Bürgermeisterwahl 2009, Ebene Gemeinde" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/5ff79bd6-77cc-46c2-8e8f-849649020b7a/resource/7f817e5c-8783-4826-8228-7a5559df8c89/download/2009-burgermeisterwahl-gemeindeebene.csv> .
-
-_:b32   a                    cat:Dataset ;
-        <http://ckan.aksw.org/ontology/id>
-                "5ff79bd6-77cc-46c2-8e8f-849649020b7a" ;
-        <http://ckan.aksw.org/ontology/name>
-                "burgermeisterwahl-meerbusch" ;
-        dcterms:description  "Ergebnisse der Bürgermeisterwahl auf Ebene der Gemeinde, der Stadtteile und des Wahl- und Stimmbezirks" ;
-        dcterms:title        "Bürgermeisterwahl Meerbusch 2009 / 2014" ;
-        owl:versionInfo      "2017-01" ;
-        cat:distribution     _:b53 , _:b52 , _:b54 , _:b55 , _:b21 , _:b56 , _:b29 , _:b57 ;
-        cat:keyword          "Wahlen" , "Bürgermeister" ;
-        cat:landingPage      <http://wep.itk-rheinland.de/prod/kw_2009/05162022/html5/MedienvertreterInfo.html> .
+        dcterms:title        "Familienstände nach Stadtteilen 2016" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/874e6f62-6bdb-4297-b18d-a75d59f72a64/resource/4de93119-ad16-4899-867a-294e402b8dd2/download/familienstande-nach-stadtteilen-2016.csv> .
 
 <https://opendata.meerbusch.de/distribution/Bundestagswahl+2017+Wahlbezirke>
         a                    cat:Distribution ;
@@ -697,22 +734,10 @@ _:b32   a                    cat:Dataset ;
         cat:distribution     <https://opendata.meerbusch.de/distribution/Stra%C3%9Fenverzeichnis+mit+PLZ+und+Stadtteil> ;
         cat:keyword          "Straßen" .
 
-_:b58   a                    cat:Distribution ;
-        dcterms:description  "Europawahl 2014, Ebene Wahlbezirk" ;
+_:b62   a                    cat:Distribution ;
+        dcterms:description  "Landratswahl 2009, Ebene Wahlbezirk" ;
         dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/2c26d91a-7ed6-49b2-9d78-67227df259de/resource/358c0a04-df27-4a5e-9b5a-c6f94853df30/download/2014-europawahl-wahlbezirk.csv> .
-
-<https://opendata.meerbusch.de/distribution/Anzahl+der+Sch%C3%BCler+ab+2013>
-        a                    cat:Distribution ;
-        dcterms:description  "Anzahl der Schüler ab 2013 in Meerbusch" ;
-        dcterms:format       "CSV" ;
-        dcterms:title        "Anzahl der Schüler ab 2013" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/c60be56c-aead-412e-8be4-38eaba239cea/resource/62027bda-3e46-4f06-9702-3589ee54c8da/download/anzahl-schuler_ab2013.csv> .
-
-_:b56   a                    cat:Distribution ;
-        dcterms:description  "Bürgermeisterwahl 2009, Ebene Stadtteil" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/5ff79bd6-77cc-46c2-8e8f-849649020b7a/resource/5d6b8509-4914-402b-9010-332a89995040/download/2009-burgermeisterwahl-stadtteilebene.csv> .
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/b11d3689-9580-4557-a433-0a38917fcd0e/resource/029b9832-0aff-4115-b874-f0ef48953147/download/2009-landratswahl-wahlbezirksebene.csv> .
 
 <https://opendata.meerbusch.de/distribution/Ratswahl+2020%2C+Wahlbezirksebene>
         a                    cat:Distribution ;
@@ -721,6 +746,11 @@ _:b56   a                    cat:Distribution ;
         dcterms:title        "Ratswahl 2020, Wahlbezirksebene" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/ba46ce2a-9304-4b98-8ce1-293fa9be799e/resource/7b922fc3-4a9c-4acb-a236-136d44dd9382/download/open-data-ratswahl-wahlbezirkebene.csv> .
 
+_:b63   a                    cat:Distribution ;
+        dcterms:description  "Landratswahl 2009, Ebene Gemeinde" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/b11d3689-9580-4557-a433-0a38917fcd0e/resource/879d57c4-30c2-4154-bd11-95d5acb58524/download/2009-landratswahl-gemeindeebene.csv> .
+
 <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsentwicklung+in+Lank-Latum+ab+2005>
         a                    cat:Distribution ;
         dcterms:description  "Bevölkerungsentwicklung in Lank-Latum ab 2005, Stichtag jeweils 31.12. des angegebenen Jahres" ;
@@ -728,10 +758,12 @@ _:b56   a                    cat:Distribution ;
         dcterms:title        "Bevölkerungsentwicklung in Lank-Latum ab 2005" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/d40e9a26-13ef-4410-8acc-fcb79588827a/resource/1b22a4da-35bb-4f1b-b520-f13202dd8c29/download/bevolkerungszahlen-lank-latum-ab-2005.csv> .
 
-_:b43   a                    cat:Distribution ;
-        dcterms:description  "Ratswahl 2009, Ebene Wahlbezirk" ;
+<https://opendata.meerbusch.de/distribution/Anzahl+der+Sch%C3%BCler+ab+2013>
+        a                    cat:Distribution ;
+        dcterms:description  "Anzahl der Schüler ab 2013 in Meerbusch" ;
         dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/c53f27f0-3e70-45e2-bda6-ef9c6ac57773/resource/106d7e54-6961-4403-b7a1-02e978a607b2/download/2009-ratswahl-wahlbezirksebene.csv> .
+        dcterms:title        "Anzahl der Schüler ab 2013" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/c60be56c-aead-412e-8be4-38eaba239cea/resource/62027bda-3e46-4f06-9702-3589ee54c8da/download/anzahl-schuler_ab2013.csv> .
 
 <https://opendata.meerbusch.de/distribution/Haushaltsplan+2016>
         a                    cat:Distribution ;
@@ -746,17 +778,6 @@ _:b43   a                    cat:Distribution ;
         dcterms:format       "CSV" ;
         dcterms:title        "Bürgermeisterwahl 2020, Stimmbezirksebene" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/7ecb07f1-8399-401d-b96f-6acec71e41d8/resource/1b060df6-408e-4dd7-a428-405d0de833d3/download/open-data-buergermeisterwahl-stimmbezirke.csv> .
-
-_:b59   a                    cat:Distribution ;
-        dcterms:description  "Kreistagswahl 2014, Ebene Wahlbezirk" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/460dc7a5-9f09-4357-8863-ecc88ea3e82c/resource/619ed9e4-9996-4be5-9d2e-ffd0545062d7/download/2014-kreistagswahl-wahlbezirksebene.csv> .
-
-_:b60   a                    cat:Distribution ;
-        dcterms:description  "Familienstände nach Stadtteilen 2017" ;
-        dcterms:format       "CSV" ;
-        dcterms:title        "Familienstände nach Stadtteilen 2017" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/874e6f62-6bdb-4297-b18d-a75d59f72a64/resource/1d4777cc-7667-42ea-b9ad-0c9dce12891b/download/familienstande-nach-stadtteilen-2017.csv> .
 
 <https://opendata.meerbusch.de/dataset/burgermeisterwahl-meerbusch-2020>
         a                    cat:Dataset ;
@@ -785,10 +806,10 @@ _:b60   a                    cat:Distribution ;
         dcterms:title        "Jugend- und Sozialbericht 2014-2016" ;
         cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/beb43ae7-ca98-428b-bc40-8c27f5b3324f/resource/55e07ce6-3e95-42df-93bc-f9f0755d5fe0/download/jugend--und-sozialbericht-final-2018-03-13.pdf> .
 
-_:b13   a                    cat:Distribution ;
-        dcterms:description  "Bundestagswahl 2013, Ebene Wahlbezirk" ;
+_:b28   a                    cat:Distribution ;
+        dcterms:description  "Kreistagswahl 2009, Ebene Gemeinde" ;
         dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/bbf985fb-cf0c-4a3e-99ac-e94ec308497f/resource/55bb2047-b87e-4963-be6b-7bd201220ebd/download/2013-bundestagswahl-wahlbezirksebene.csv> .
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/460dc7a5-9f09-4357-8863-ecc88ea3e82c/resource/a635ec1f-417c-4cca-b41f-d73e58396841/download/2009-kreistagswahl-gemeindeebene.csv> .
 
 <https://opendata.meerbusch.de/dataset/bevolkerungsentwicklung-nach-stadtteilen>
         a                    cat:Dataset ;
@@ -802,15 +823,16 @@ _:b13   a                    cat:Distribution ;
         cat:distribution     <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsentwicklung+in+Lank-Latum+ab+2005> , <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsentwicklung+in+Meerbusch+gesamt> , <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsentwicklung+in+Langst-Kierst+ab+2005> , <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsentwicklung+in+Str%C3%BCmp+ab+2005> , <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsentwicklung+in+Ilverich+ab+2005> , <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsentwicklung+in+Osterath+ab+2005> , <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsentwicklung+in+Nierst+ab+2005> , <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsentwicklung+in+B%C3%BCderich+ab+2005> , <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsentwicklung+in+Ossum-B%C3%B6singhoven+ab+2005> ;
         cat:keyword          "Bevölkerung" , "Einwohner" .
 
-_:b19   a                    cat:Distribution ;
-        dcterms:description  "Bundestagswahl 2013, Ebene Kommunalwahlbezirk" ;
+_:b64   a                    cat:Distribution ;
+        dcterms:description  "Familienstände nach Stadtteilen 2014" ;
         dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/bbf985fb-cf0c-4a3e-99ac-e94ec308497f/resource/50cf89ca-71c5-498f-9ecb-752ab9244c8c/download/2013-bundestagswahl-kommunalwahlbezirksebene.csv> .
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/874e6f62-6bdb-4297-b18d-a75d59f72a64/resource/45538175-c5ee-4a29-97af-63d28a244482/download/familienstande-nach-stadtteilen-2014.csv> .
 
-_:b61   a                    cat:Distribution ;
-        dcterms:description  "Kreistagswahl 2014, Ebene Gemeinde" ;
+_:b65   a                    cat:Distribution ;
+        dcterms:description  "Familienstände nach Stadtteilen 2017" ;
         dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/460dc7a5-9f09-4357-8863-ecc88ea3e82c/resource/bde80858-1c9c-4ef9-8551-fabe26d656c7/download/2014-kreistagswahl-gemeindeebene.csv> .
+        dcterms:title        "Familienstände nach Stadtteilen 2017" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/874e6f62-6bdb-4297-b18d-a75d59f72a64/resource/1d4777cc-7667-42ea-b9ad-0c9dce12891b/download/familienstande-nach-stadtteilen-2017.csv> .
 
 <https://opendata.meerbusch.de/distribution/B%C3%BCrgermeisterstichwahl+2020%2C+Stimmbezirksebene>
         a                    cat:Distribution ;
@@ -825,48 +847,28 @@ _:b61   a                    cat:Distribution ;
         dcterms:title   "Jahresabschluss 2010" ;
         cat:accessURL   <https://cc-p-meerbusch.ckan.io/dataset/e3fe02c6-cedc-403b-8fd3-30e9c74c7149/resource/49aadab1-24bb-4710-aac8-3e15c520c024/download/jahresabschluss2010.pdf> .
 
-_:b53   a                    cat:Distribution ;
-        dcterms:description  "Bürgermeisterwahl 2014, Ebene Stimmbezirk" ;
+_:b66   a                    cat:Distribution ;
+        dcterms:description  "Familienstände nach Stadtteilen 2018" ;
         dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/5ff79bd6-77cc-46c2-8e8f-849649020b7a/resource/72bdbe5b-8b4b-44f2-98d1-bbfd61b9fd12/download/2014-burgermeisterwahl-stimmbezirksebene.csv> .
-
-_:b62   a                    cat:Distribution ;
-        dcterms:description  "Familienstände nach Stadtteilen 2014" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/874e6f62-6bdb-4297-b18d-a75d59f72a64/resource/45538175-c5ee-4a29-97af-63d28a244482/download/familienstande-nach-stadtteilen-2014.csv> .
-
-_:b63   a                    cat:Distribution ;
-        dcterms:description  "Kreistagswahl 2009, Ebene Gemeinde" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/460dc7a5-9f09-4357-8863-ecc88ea3e82c/resource/a635ec1f-417c-4cca-b41f-d73e58396841/download/2009-kreistagswahl-gemeindeebene.csv> .
-
-_:b1    a                    cat:Distribution ;
-        dcterms:description  "Vollzeit gedreht" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/2fc84f76-0886-4328-a570-f333abf0a8a5/resource/cff56898-b1da-4ad7-b550-2a99a619f9ef/download/vollzeitaquivalente_gedreht2.csv> .
+        dcterms:title        "Familienstände nach Stadtteilen 2018" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/874e6f62-6bdb-4297-b18d-a75d59f72a64/resource/2a922b37-ec80-44eb-9005-b1bfa79266be/download/familienstande-nach-stadtteilen-2018.csv> .
 
 <https://opendata.meerbusch.de/distribution/Stadt-Land-Fluss+Route>
         a                    cat:Distribution ;
         dcterms:description  "GPS-Daten" ;
-        dcterms:format       "GeoJSON" , "KML" , "gpx" ;
+        dcterms:format       "GeoJSON" , "gpx" , "KML" ;
         dcterms:title        "Stadt-Land-Fluss Route" ;
-        cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/00a60ffd-55f5-4a39-93c5-6bfef2e9c410/resource/4aac254f-5972-4ead-b567-fc7f73bd9788/download/stadtlandflussrouteneu.geojson> , <https://cc-p-meerbusch.ckan.io/dataset/00a60ffd-55f5-4a39-93c5-6bfef2e9c410/resource/b418aa8d-ecc6-4925-8fb5-b549c4613a4a/download/stadtlandflussroute.kml> , <https://cc-p-meerbusch.ckan.io/dataset/00a60ffd-55f5-4a39-93c5-6bfef2e9c410/resource/0b406260-6f3c-492b-97d0-ae38af02a96c/download/stadtlandflussroute.gpx> .
+        cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/00a60ffd-55f5-4a39-93c5-6bfef2e9c410/resource/4aac254f-5972-4ead-b567-fc7f73bd9788/download/stadtlandflussrouteneu.geojson> , <https://cc-p-meerbusch.ckan.io/dataset/00a60ffd-55f5-4a39-93c5-6bfef2e9c410/resource/0b406260-6f3c-492b-97d0-ae38af02a96c/download/stadtlandflussroute.gpx> , <https://cc-p-meerbusch.ckan.io/dataset/00a60ffd-55f5-4a39-93c5-6bfef2e9c410/resource/b418aa8d-ecc6-4925-8fb5-b549c4613a4a/download/stadtlandflussroute.kml> .
 
-_:b64   a                    cat:Distribution ;
-        dcterms:description  "Anzahl der Kinderspielplätze in Meerbusch seit 2004" ;
+_:b57   a                    cat:Distribution ;
+        dcterms:description  "Bürgermeisterwahl 2009, Ebene Gemeinde" ;
         dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/495cb985-e15e-4da6-94b9-c1815512fb36/resource/0c3fc2e3-4179-4f20-8779-a3e38f5a924b/download/anzahl-kinderspielplaetze_ges.csv> .
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/5ff79bd6-77cc-46c2-8e8f-849649020b7a/resource/7f817e5c-8783-4826-8228-7a5559df8c89/download/2009-burgermeisterwahl-gemeindeebene.csv> .
 
-_:b33   a                    cat:Dataset ;
-        <http://ckan.aksw.org/ontology/id>
-                "2c26d91a-7ed6-49b2-9d78-67227df259de" ;
-        <http://ckan.aksw.org/ontology/name>
-                "europawahl-meerbusch" ;
-        dcterms:description  "Ergebnisse der Europawahlen auf Ebene der Gemeinde, der Stadtteile und des Wahlbezirks" ;
-        dcterms:title        "Europawahl Meerbusch 2014" ;
-        owl:versionInfo      "2017-01" ;
-        cat:distribution     _:b65 , _:b58 , _:b66 ;
-        cat:keyword          "Europa" , "Wahlen" .
+_:b23   a                    cat:Distribution ;
+        dcterms:description  "Ratswahl 2014, Ebene Gemeinde" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/c53f27f0-3e70-45e2-bda6-ef9c6ac57773/resource/6546a32a-4c86-4888-bb99-b8cdad068a2e/download/2014-ratswahl-gemeindeebene.csv> .
 
 <https://opendata.meerbusch.de/distribution/Ratswahl+2020%2C+Stadtteilebene>
         a                    cat:Distribution ;
@@ -887,10 +889,16 @@ _:b33   a                    cat:Dataset ;
         cat:distribution     <https://opendata.meerbusch.de/distribution/Open-Data-Konzept> ;
         cat:keyword          "OpenDoc" , "Konzept" .
 
-_:b2    a                    cat:Distribution ;
-        dcterms:description  "Anzahl der Vollzeitäquivalente (Beamte und tariflich Beschäftigte) ab 2012" ;
+_:b33   a                    cat:Distribution ;
+        dcterms:description  "Kommunalwahlbezirke der Stadt Meerbusch" ;
+        dcterms:format       "KML" ;
+        dcterms:title        "Kommunalwahlbezirke der Stadt Meerbusch" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/28ea1d59-ba29-46cf-afdc-c4f831d3067e/resource/5d75c6d6-60d1-4668-9d1b-1dec0e34c88b/download/wahlbezirke-der-stadt-meerbusch-2019.kml> .
+
+_:b67   a                    cat:Distribution ;
+        dcterms:description  "Landratswahl 2015, Ebene Stimmbezirk" ;
         dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/2fc84f76-0886-4328-a570-f333abf0a8a5/resource/b96d1f95-85f4-4bfb-bcf0-58dd43698dae/download/vollzeitaquivalente_ab_2012.csv> .
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/b11d3689-9580-4557-a433-0a38917fcd0e/resource/8d707f63-2ad2-4fba-b9d7-53d3868f807f/download/2015-landratswahl-stimmbezirksebene.csv> .
 
 <https://opendata.meerbusch.de/distribution/Beschreibung+zur+Stadt-Land-Fluss+Route>
         a                    cat:Distribution ;
@@ -899,12 +907,10 @@ _:b2    a                    cat:Distribution ;
         dcterms:title        "Beschreibung zur Stadt-Land-Fluss Route" ;
         cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/00a60ffd-55f5-4a39-93c5-6bfef2e9c410/resource/665d1369-249e-4511-8424-304611add1bd/download/stadtlandflussroute.pdf> .
 
-<https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsbewegung+in+Langst-Kierst>
-        a                    cat:Distribution ;
-        dcterms:description  "Bevölkerungsbewegung in Langst-Kierst ab 2010" ;
+_:b11   a                    cat:Distribution ;
+        dcterms:description  "Bundestagswahl 2009, Ebene Kommunalwahlbezirk" ;
         dcterms:format       "CSV" ;
-        dcterms:title        "Bevölkerungsbewegung in Langst-Kierst" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/8c216129-2044-496b-be06-dd886ea5eb3a/resource/e934e9f1-0ad7-4e8b-9d3c-99a0855ee852/download/bevolkerungsbewegung-in-langst-kierst-ab-2010.csv> .
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/bbf985fb-cf0c-4a3e-99ac-e94ec308497f/resource/2b7f1af2-5ec4-464f-977f-dec8fbc98b8d/download/2009-bundestagswahl-kommunalwahlbezirk.csv> .
 
 <https://opendata.meerbusch.de/distribution/Mitglieder+der+Sportvereine+gesamt+ab+2008>
         a                    cat:Distribution ;
@@ -913,17 +919,19 @@ _:b2    a                    cat:Distribution ;
         dcterms:title        "Mitglieder der Sportvereine gesamt ab 2008" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/c6065350-152d-43f5-a6e7-6bffa66fb383/resource/abb399b9-4ebd-45b5-95f1-2d102e1cf5a9/download/mitglieder-der-sportvereine-gesamt.csv> .
 
+<https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsbewegung+in+Langst-Kierst>
+        a                    cat:Distribution ;
+        dcterms:description  "Bevölkerungsbewegung in Langst-Kierst ab 2010" ;
+        dcterms:format       "CSV" ;
+        dcterms:title        "Bevölkerungsbewegung in Langst-Kierst" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/8c216129-2044-496b-be06-dd886ea5eb3a/resource/e934e9f1-0ad7-4e8b-9d3c-99a0855ee852/download/bevolkerungsbewegung-in-langst-kierst-ab-2010.csv> .
+
 <https://opendata.meerbusch.de/distribution/Altersgruppen+2012>
         a                    cat:Distribution ;
         dcterms:description  "Altersgruppen 2012" ;
         dcterms:format       "CSV" ;
         dcterms:title        "Altersgruppen 2012" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/576832b7-008e-4782-9b75-8317d0d39d67/resource/c5a2b065-eaed-487d-8e40-94e959000213/download/altersgruppen-gesamt-2012.csv> .
-
-_:b45   a                    cat:Distribution ;
-        dcterms:description  "Ratswahl 2014, Ebene Stadtteil" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/c53f27f0-3e70-45e2-bda6-ef9c6ac57773/resource/d694d3c6-525f-4bf3-8635-780e0562018c/download/2014-ratswahl-stadtteilebene.csv> .
 
 <https://opendata.meerbusch.de/dataset/bevolkerungsentwicklung-ubersicht>
         a                    cat:Dataset ;
@@ -935,8 +943,7 @@ _:b45   a                    cat:Distribution ;
         dcterms:title        "Bevölkerungsentwicklung Übersicht" ;
         owl:versionInfo      "2017-2" ;
         cat:distribution     <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsentwicklung+in+Meerbusch+gesamt+seit+2005> , <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsentwicklung+in+den+Stadtteilen+seit+2005> ;
-        cat:keyword          "Bevölkerung" , "Einwohner" ;
-        cat:landingPage      <file:///home/lisa/repos/crawling/opendata.meerbusch.de/dataset/bevolkerungsentwicklung-ubersicht> .
+        cat:keyword          "Bevölkerung" , "Einwohner" .
 
 <https://opendata.meerbusch.de/distribution/Landtagswahl+2017+Stadtteile>
         a                    cat:Distribution ;
@@ -944,11 +951,6 @@ _:b45   a                    cat:Distribution ;
         dcterms:format       "CSV" ;
         dcterms:title        "Landtagswahl 2017 Stadtteile" ;
         cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/788a519b-eea5-452f-97c7-f453edb0f104/resource/7c8c05ed-d89c-4f9d-9ffa-149bf23226db/download/landtagswahl-2017-stadtteile.csv> .
-
-_:b15   a                    cat:Distribution ;
-        dcterms:description  "Bundestagswahl 2009, Ebene Gemeinde" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/bbf985fb-cf0c-4a3e-99ac-e94ec308497f/resource/62a2c2a5-04d9-4a2a-914e-7f42f6932dc7/download/2009-bundestagswahl-gemeindeebene.csv> .
 
 <https://opendata.meerbusch.de/distribution/Landratswahl+2020%2C+Wahlbezirksebene>
         a                    cat:Distribution ;
@@ -963,11 +965,6 @@ _:b15   a                    cat:Distribution ;
         dcterms:format       "CSV" ;
         dcterms:title        "Bevölkerungsentwicklung in Ossum-Bösinghoven ab 2005" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/d40e9a26-13ef-4410-8acc-fcb79588827a/resource/f7c23ced-db06-49c0-9a8c-c98230bc09ba/download/bevolkerungszahlen-ossum-bosinghoven-ab-2005.csv> .
-
-_:b18   a                    cat:Distribution ;
-        dcterms:description  "Bundestagswahl 2013, Ebene Gemeinde" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/bbf985fb-cf0c-4a3e-99ac-e94ec308497f/resource/376ecd13-0399-433c-b3b6-8cf7ca5f0b13/download/2013-bundestagswahl-gemeindeebene.csv> .
 
 <https://opendata.meerbusch.de/dataset/bauleitplane>
         a                    cat:Dataset ;
@@ -987,6 +984,11 @@ _:b18   a                    cat:Distribution ;
         dcterms:format       "CSV" ;
         dcterms:title        "Landratswahl 2020, Stadtteilebene" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/2d07cd13-2518-4faa-9d8c-11384de9f22a/resource/c41083bb-1d1c-4b78-8e95-4ca0cd9a041b/download/open-data-landratswahl-stadtteilebene.csv> .
+
+_:b31   a                    cat:Distribution ;
+        dcterms:description  "Kreistagswahl 2009, Ebene Stadtteil" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/460dc7a5-9f09-4357-8863-ecc88ea3e82c/resource/4e894e56-4600-40b4-8cfe-a24badfb97be/download/2009-kreistagswahl-stadtteilebene.csv> .
 
 <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsentwicklung+in+Str%C3%BCmp+ab+2005>
         a                    cat:Distribution ;
@@ -1008,11 +1010,6 @@ _:b18   a                    cat:Distribution ;
         cat:keyword          "Landtag" , "Wahlen" ;
         cat:landingPage      <http://wep.itk-rheinland.de/prod/lw_2017/05162022/html5/Landtagswahl_NRW_55_Gemeinde_Stadt_Meerbusch_Erststimmen.html> .
 
-_:b44   a                    cat:Distribution ;
-        dcterms:description  "Ratswahl 2009, Ebene Gemeinde" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/c53f27f0-3e70-45e2-bda6-ef9c6ac57773/resource/283e93f7-df59-4199-89dc-f850f8c05460/download/2009-ratswahl-gemeindeebene.csv> .
-
 <https://opendata.meerbusch.de/distribution/Ratswahl+2020%2C+Gemeindeebene>
         a                    cat:Distribution ;
         dcterms:description  "Ergebnisse der Ratswahl am 13. September 2020 auf Gemeindeebene als CSV-Datei." ;
@@ -1027,27 +1024,25 @@ _:b44   a                    cat:Distribution ;
         dcterms:title        "Landtagswahl 2017 Wahlbezirke" ;
         cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/788a519b-eea5-452f-97c7-f453edb0f104/resource/ab03470f-a062-49cb-9477-82ecc62f794d/download/landtagswahl-2017-erststimmen-nach-wahlbezirke.csv> .
 
-_:b34   a                    cat:Dataset ;
-        <http://ckan.aksw.org/ontology/id>
-                "e1372d77-fe05-4bd1-ae6b-691f0aea231d" ;
-        <http://ckan.aksw.org/ontology/name>
-                "stimmbezirke-nach-strassenname" ;
-        dcterms:description  "Stimmezirke (Nummer und Name) nach Straßenname" ;
-        dcterms:title        "Stimmbezirke nach Straßenname" ;
-        owl:versionInfo      "2017-01" ;
-        cat:distribution     _:b48 ;
-        cat:keyword          "Straßen" , "Wahlen" ;
-        cat:landingPage      <http://wep.itk-rheinland.de/prod/kw_2009/05162022/html5/MedienvertreterInfo.html> .
-
-_:b67   a               cat:Distribution ;
-        dcterms:format  "CSV" ;
-        dcterms:title   "Anzahl Kinderspielplätze in den Stadtteilen" ;
-        cat:accessURL   <https://opendata.meerbusch.de/dataset/495cb985-e15e-4da6-94b9-c1815512fb36/resource/8b5cdcd5-287f-4d6f-9c2e-a5edf70f875c/download/anzahl-kinderspielplaetze_stadtteile.csv> .
-
-_:b68   a                    cat:Distribution ;
-        dcterms:description  "Kreistagswahl 2014, Ebene Stimmbezirk" ;
+_:b20   a                    cat:Distribution ;
+        dcterms:description  "Ratswahl 2009, Ebene Gemeinde" ;
         dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/460dc7a5-9f09-4357-8863-ecc88ea3e82c/resource/b480b9ba-000b-4aa5-94fc-babe06905918/download/2014-kreistagswahl-stimmbezirksebene.csv> .
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/c53f27f0-3e70-45e2-bda6-ef9c6ac57773/resource/283e93f7-df59-4199-89dc-f850f8c05460/download/2009-ratswahl-gemeindeebene.csv> .
+
+_:b55   a                    cat:Distribution ;
+        dcterms:description  "Bürgermeisterwahl 2014, Ebene Gemeinde" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/5ff79bd6-77cc-46c2-8e8f-849649020b7a/resource/a5c06b02-1b1e-4974-98d7-9382734e9de9/download/2014-burgermeisterwahl-gemeindeebene---kopie.csv> .
+
+_:b17   a                    cat:Distribution ;
+        dcterms:description  "Ratswahl 2014, Ebene Stadtteil" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/c53f27f0-3e70-45e2-bda6-ef9c6ac57773/resource/d694d3c6-525f-4bf3-8635-780e0562018c/download/2014-ratswahl-stadtteilebene.csv> .
+
+_:b8    a                    cat:Distribution ;
+        dcterms:description  "Bundestagswahl 2013, Ebene Wahlbezirk" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/bbf985fb-cf0c-4a3e-99ac-e94ec308497f/resource/55bb2047-b87e-4963-be6b-7bd201220ebd/download/2013-bundestagswahl-wahlbezirksebene.csv> .
 
 <https://opendata.meerbusch.de/dataset/bevolkerungsbewegung-nach-stadtteilen>
         a                    cat:Dataset ;
@@ -1067,11 +1062,6 @@ _:b68   a                    cat:Distribution ;
         dcterms:title   "Jahresabschluss 2013" ;
         cat:accessURL   <https://cc-p-meerbusch.ckan.io/dataset/e3fe02c6-cedc-403b-8fd3-30e9c74c7149/resource/a2d6e8fb-dcea-4cef-8cca-e3882a591e46/download/jahresabschluss2013ocr.pdf> .
 
-_:b42   a                    cat:Distribution ;
-        dcterms:description  "Ratswahl 2014, Ebene Wahlbezirk" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/c53f27f0-3e70-45e2-bda6-ef9c6ac57773/resource/7721345f-707a-4154-b934-4be7582586dd/download/2014-ratswahl-wahlbezirksebene.csv> .
-
 <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsentwicklung+in+Meerbusch+gesamt>
         a                    cat:Distribution ;
         dcterms:description  "Bevölkerungsentwicklung in Meerbusch gesamt ab 2005, Stichtag jeweils 31.12. des angegebenen Jahres" ;
@@ -1079,31 +1069,10 @@ _:b42   a                    cat:Distribution ;
         dcterms:title        "Bevölkerungsentwicklung in Meerbusch gesamt" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/d40e9a26-13ef-4410-8acc-fcb79588827a/resource/4d79e779-72f6-49ed-bc27-893941ad5ef9/download/bevolkerungszahlen-ubersicht-gesamt.csv> .
 
-_:b69   a                    cat:Distribution ;
-        dcterms:description  "Landratswahl 2009, Ebene Gemeinde" ;
+_:b56   a                    cat:Distribution ;
+        dcterms:description  "Bürgermeisterwahl 2009, Ebene Stadtteil" ;
         dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/b11d3689-9580-4557-a433-0a38917fcd0e/resource/879d57c4-30c2-4154-bd11-95d5acb58524/download/2009-landratswahl-gemeindeebene.csv> .
-
-_:b54   a                    cat:Distribution ;
-        dcterms:description  "Bürgermeisterwahl 2009, Ebene Stimmbezirk" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/5ff79bd6-77cc-46c2-8e8f-849649020b7a/resource/be3029de-d53b-44fe-92dc-716c34bd7a4e/download/2009-burgermeisterwahl-stimmbezirksebene.csv> .
-
-_:b70   a                    cat:Distribution ;
-        dcterms:description  "Kreistagswahl 2014, Ebene Stadtteil" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/460dc7a5-9f09-4357-8863-ecc88ea3e82c/resource/4aff2b34-1af4-49bd-9a54-b1fc517033fb/download/2014-kreistagswahl-stadtteilebene.csv> .
-
-_:b35   a                    cat:Dataset ;
-        <http://ckan.aksw.org/ontology/id>
-                "3305982b-5a74-4bec-9248-cf4d922e8a1f" ;
-        <http://ckan.aksw.org/ontology/name>
-                "wertstoffcontainer-standorte" ;
-        dcterms:description  "Standorte der Wertstoffcontainer im Stadtgebiet Meerbusch. " ;
-        dcterms:title        "Wertstoffcontainer Standorte" ;
-        owl:versionInfo      "2017-01" ;
-        cat:distribution     _:b71 , <https://opendata.meerbusch.de/distribution/Wertstoffcontainer> , _:b3 ;
-        cat:keyword          "Geodaten" , "Wertstoffcontainer" .
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/5ff79bd6-77cc-46c2-8e8f-849649020b7a/resource/5d6b8509-4914-402b-9010-332a89995040/download/2009-burgermeisterwahl-stadtteilebene.csv> .
 
 <https://opendata.meerbusch.de/distribution/Anzahl+der+Schulneulinge+der+Schulen+ab+2006>
         a                    cat:Distribution ;
@@ -1112,10 +1081,10 @@ _:b35   a                    cat:Dataset ;
         dcterms:title        "Anzahl der Schulneulinge der Schulen ab 2006" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/c60be56c-aead-412e-8be4-38eaba239cea/resource/b96d9c15-bd5a-47fb-a7cc-fcbe49e7b6cc/download/anzahl-schulneulinge-der-schulen-ab-2006.csv> .
 
-_:b72   a                    cat:Distribution ;
-        dcterms:description  "Familienstände nach Stadtteilen 2012" ;
+_:b59   a                    cat:Distribution ;
+        dcterms:description  "Bürgermeisterwahl 2009, Ebene Wahlbezirk" ;
         dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/874e6f62-6bdb-4297-b18d-a75d59f72a64/resource/fb17b558-f3e3-4b1a-beac-44d1767a9be1/download/familienstande-nach-stadtteilen-2012.csv> .
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/5ff79bd6-77cc-46c2-8e8f-849649020b7a/resource/cdc4bb44-7fa8-4624-9511-5aafa35ec13c/download/2009-burgermeisterwahl-wahlbezirksebene.csv> .
 
 <https://opendata.meerbusch.de/distribution/G%C3%A4ste+nach+Herkunftsland+in+Asien+ab+2013>
         a                    cat:Distribution ;
@@ -1130,16 +1099,10 @@ _:b72   a                    cat:Distribution ;
         dcterms:title   "Spielplatzkonzept 2030, Teil 1" ;
         cat:accessURL   <https://cc-p-meerbusch.ckan.io/dataset/e2902af3-5f63-4158-b9c5-f8e46c0d996b/resource/473f019b-7d58-4497-b87a-752e194ba503/download/2016spielplatzkonzept2030teil1.pdf> .
 
-_:b30   a                    cat:Dataset ;
-        <http://ckan.aksw.org/ontology/id>
-                "495cb985-e15e-4da6-94b9-c1815512fb36" ;
-        <http://ckan.aksw.org/ontology/name>
-                "anzahl-kinderspielplatze" ;
-        dcterms:description  "Anzahl der Kinderspielplätze in den einzelnen Stadtteilen seit 2004" ;
-        dcterms:title        "Anzahl Kinderspielplätze" ;
-        owl:versionInfo      "2017-02" ;
-        cat:distribution     _:b64 , _:b67 ;
-        cat:keyword          "Kinder" .
+_:b58   a                    cat:Distribution ;
+        dcterms:description  "Bürgermeisterwahl 2009, Ebene Stimmbezirk" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/5ff79bd6-77cc-46c2-8e8f-849649020b7a/resource/be3029de-d53b-44fe-92dc-716c34bd7a4e/download/2009-burgermeisterwahl-stimmbezirksebene.csv> .
 
 <https://opendata.meerbusch.de/distribution/Wertstoffcontainer>
         a                    cat:Distribution ;
@@ -1147,6 +1110,11 @@ _:b30   a                    cat:Dataset ;
         dcterms:format       "KML" ;
         dcterms:title        "Wertstoffcontainer" ;
         cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/3305982b-5a74-4bec-9248-cf4d922e8a1f/resource/32dccbac-a9ab-4f56-b8ef-007012c64a35/download/wertstoffcontainer.kml> .
+
+_:b68   a                    cat:Distribution ;
+        dcterms:description  "Familienstände nach Stadtteilen 2013" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/874e6f62-6bdb-4297-b18d-a75d59f72a64/resource/a769cf28-c1ff-4429-ba38-94f912ff3ac0/download/familienstande-nach-stadtteilen-2013.csv> .
 
 <https://opendata.meerbusch.de/dataset/kindertagesstatten>
         a                    cat:Dataset ;
@@ -1157,7 +1125,7 @@ _:b30   a                    cat:Dataset ;
         dcterms:description  "Kindertagesstätten im Meerbuscher Stadtgebiet, Adresse und Geo-Koordinaten" ;
         dcterms:title        "Kindertagesstätten" ;
         cat:distribution     <https://opendata.meerbusch.de/distribution/Kindertagesst%C3%A4tten> ;
-        cat:keyword          "Geodaten" , "Jugend und Soziales" .
+        cat:keyword          "Jugend und Soziales" , "Geodaten" .
 
 <https://opendata.meerbusch.de/distribution/Altersgruppen+2015>
         a                    cat:Distribution ;
@@ -1165,6 +1133,16 @@ _:b30   a                    cat:Dataset ;
         dcterms:format       "CSV" ;
         dcterms:title        "Altersgruppen 2015" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/576832b7-008e-4782-9b75-8317d0d39d67/resource/5c46f9c4-62f6-4f90-b148-16092ee5b39f/download/altersgruppen-gesamt-2015.csv> .
+
+_:b52   a                    cat:Distribution ;
+        dcterms:description  "Landtagswahl 2012, Ebene Stimmbezirk" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/1c64f2cd-a6fc-4117-8d3b-e909779ba10b/resource/01e91c30-6797-4c11-be81-1fb2f8656243/download/2012-landtagswahl-stimmbezirksebene.csv> .
+
+_:b54   a                    cat:Distribution ;
+        dcterms:description  "Europawahl 2014, Ebene Wahlbezirk" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/2c26d91a-7ed6-49b2-9d78-67227df259de/resource/358c0a04-df27-4a5e-9b5a-c6f94853df30/download/2014-europawahl-wahlbezirk.csv> .
 
 <https://opendata.meerbusch.de/dataset/gesamtabschluss>
         a                    cat:Dataset ;
@@ -1191,10 +1169,10 @@ _:b30   a                    cat:Dataset ;
         dcterms:title        "Stärkste Ausländergruppen ab 2010" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/542d487f-1107-44eb-8ef7-2f968951a20f/resource/fb9fd649-bb8a-47fa-a268-98ba5285b455/download/starkste-auslandergruppen-ab-2010.csv> .
 
-_:b73   a                    cat:Distribution ;
-        dcterms:description  "Familienstände nach Stadtteilen 2015" ;
+_:b10   a                    cat:Distribution ;
+        dcterms:description  "Bundestagswahl 2013, Ebene Kommunalwahlbezirk" ;
         dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/874e6f62-6bdb-4297-b18d-a75d59f72a64/resource/f4e8a124-6d99-4a9f-91df-98e8fa534b6a/download/familienstande-nach-stadtteilen-2015.csv> .
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/bbf985fb-cf0c-4a3e-99ac-e94ec308497f/resource/50cf89ca-71c5-498f-9ecb-752ab9244c8c/download/2013-bundestagswahl-kommunalwahlbezirksebene.csv> .
 
 <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsbewegung+in+Ilverich>
         a                    cat:Distribution ;
@@ -1214,16 +1192,33 @@ _:b73   a                    cat:Distribution ;
         cat:distribution     <https://opendata.meerbusch.de/distribution/Leuchtstellen> ;
         cat:keyword          "Geodaten" , "Beleuchtung" , "Leuchtstellen" , "Lampen" , "Leuchten" .
 
-_:b66   a                    cat:Distribution ;
-        dcterms:description  "Europawahl 2014, Ebene Gemeinde" ;
+_:b69   a                    cat:Distribution ;
+        dcterms:description  "Standorte der Wertstoffcontainer im Stadtgebiet, Stand Januar 2017" ;
         dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/2c26d91a-7ed6-49b2-9d78-67227df259de/resource/b215eb7f-43d5-4baa-be06-441f0b9e18d1/download/2014-europawahl-gemeinde.csv> .
+        cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/3305982b-5a74-4bec-9248-cf4d922e8a1f/resource/8ba90d5d-cc78-4018-98b6-29189879aa2a/download/wertstoffcontainer.csv> .
+
+_:b70   a                    cat:Distribution ;
+        dcterms:description  "Landratswahl 2015, Ebene Gemeinde" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/b11d3689-9580-4557-a433-0a38917fcd0e/resource/21c95ca3-718a-4b68-97d0-6818aa687438/download/2015-landratswahl-gemeindeebene.csv> .
 
 <https://opendata.meerbusch.de/distribution/Gesamtabschluss+2015>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
         dcterms:title   "Gesamtabschluss 2015" ;
         cat:accessURL   <https://cc-p-meerbusch.ckan.io/dataset/a6b78ee0-7fd1-4a14-9b5b-02e02b5065f1/resource/40446cfb-a593-4d3d-82d8-8372b8979161/download/gesamtabschluss2015.pdf> .
+
+_:b36   a                    cat:Dataset ;
+        <http://ckan.aksw.org/ontology/id>
+                "b11d3689-9580-4557-a433-0a38917fcd0e" ;
+        <http://ckan.aksw.org/ontology/name>
+                "landratswahl-meerbusch" ;
+        dcterms:description  "Ergebnisse der Landratswahl auf Ebene der Gemeinde, der Stadtteile und des Wahl- und Stimmbezirks" ;
+        dcterms:title        "Landratswahl Meerbusch 2009 / 2015" ;
+        owl:versionInfo      "2017-01" ;
+        cat:distribution     _:b70 , _:b71 , _:b67 , _:b63 , _:b72 , _:b62 , _:b61 ;
+        cat:keyword          "Wahlen" , "Landrat" ;
+        cat:landingPage      <http://wep.itk-rheinland.de/prod/kw_2009/05162022/html5/MedienvertreterInfo.html> .
 
 <https://opendata.meerbusch.de/distribution/Kreistagswahl+2020%2C+Gemeindeebene>
         a                    cat:Distribution ;
@@ -1265,7 +1260,7 @@ _:b66   a                    cat:Distribution ;
         dcterms:title        "Gäste in Beherbergungsbetrieben nach Kontinenten ab 2013" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/567a9d32-945c-43c8-8a3b-e10ca0c99aad/resource/47e48a2b-fec8-4ec4-965c-e345d5f78cc9/download/gaste-in-beherbergungsbetrieben-nach-kontinenten-ab-2013.csv> .
 
-_:b39   a                    cat:Distribution ;
+_:b21   a                    cat:Distribution ;
         dcterms:description  "Ratswahl 2009, Ebene Stimmbezirk" ;
         dcterms:format       "CSV" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/c53f27f0-3e70-45e2-bda6-ef9c6ac57773/resource/638ebf94-6915-433a-85c6-ab2810114429/download/2009-ratswahl-stimmbezirksebene.csv> .
@@ -1289,11 +1284,6 @@ _:b39   a                    cat:Distribution ;
         dcterms:title        "Bürgermeisterwahl 2020, Wahlbezirksebene" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/7ecb07f1-8399-401d-b96f-6acec71e41d8/resource/a4675aa8-f72c-434f-aca6-a870070cead1/download/open-data-buergermeisterwahl-wahlbezirke.csv> .
 
-_:b55   a                    cat:Distribution ;
-        dcterms:description  "Bürgermeisterwahl 2014, Ebene Gemeinde" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/5ff79bd6-77cc-46c2-8e8f-849649020b7a/resource/a5c06b02-1b1e-4974-98d7-9382734e9de9/download/2014-burgermeisterwahl-gemeindeebene---kopie.csv> .
-
 <https://opendata.meerbusch.de/distribution/Anzahl+der+Sitzungen+von+Rat+und+Aussch%C3%BCssen+ab+2011>
         a                    cat:Distribution ;
         dcterms:description  "Anzahl der Sitzungen von Rat und Ausschüssen ab 2011" ;
@@ -1307,23 +1297,6 @@ _:b55   a                    cat:Distribution ;
         dcterms:title   "Bevölkerungsdichte gesamt" ;
         cat:accessURL   <https://opendata.meerbusch.de/dataset/61bf497d-09b6-4e27-a4bc-09404cd54e48/resource/f2b8a7ad-0407-4acb-afff-d19b6ceecd5a/download/bevolkerungsdichte-gesamt.csv> .
 
-_:b16   a                    cat:Distribution ;
-        dcterms:description  "Bundestagswahl 2013, Ebene Stadtteil" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/bbf985fb-cf0c-4a3e-99ac-e94ec308497f/resource/6ba812b9-051d-4371-b8c8-b5555a726256/download/2013-bundestagswahl-stadtteilebene.csv> .
-
-_:b36   a                    cat:Dataset ;
-        <http://ckan.aksw.org/ontology/id>
-                "460dc7a5-9f09-4357-8863-ecc88ea3e82c" ;
-        <http://ckan.aksw.org/ontology/name>
-                "kreistagswahl-meerbusch" ;
-        dcterms:description  "Ergebnisse der Kreistagswahl auf Ebene der Gemeinde, der Stadtteile und des Stimm- und Wahlbezirks" ;
-        dcterms:title        "Kreistagswahl Meerbusch 2009 / 2014" ;
-        owl:versionInfo      "2017-01" ;
-        cat:distribution     _:b47 , _:b63 , _:b70 , _:b50 , _:b68 , _:b61 , _:b59 , _:b49 ;
-        cat:keyword          "Kreistag" , "Wahlen" ;
-        cat:landingPage      <http://wep.itk-rheinland.de/prod/kw_2009/05162022/html5/MedienvertreterInfo.html> .
-
 <https://opendata.meerbusch.de/dataset/altersgruppen-in-meerbusch-gesamt>
         a                    cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
@@ -1336,15 +1309,31 @@ _:b36   a                    cat:Dataset ;
         cat:distribution     <https://opendata.meerbusch.de/distribution/Altersgruppen+2018> , <https://opendata.meerbusch.de/distribution/Altersgruppen+2015> , <https://opendata.meerbusch.de/distribution/Altersgruppen+2012> , <https://opendata.meerbusch.de/distribution/Altersgruppen+2017> , <https://opendata.meerbusch.de/distribution/Altersgruppen+2014> , <https://opendata.meerbusch.de/distribution/Altersgruppen+2016> , <https://opendata.meerbusch.de/distribution/Altersgruppen+2013> ;
         cat:keyword          "Altersverteilung" , "Bevölkerung" , "Einwohner" .
 
-_:b65   a                    cat:Distribution ;
-        dcterms:description  "Europawahl 2014, Ebene Stadtteil" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/2c26d91a-7ed6-49b2-9d78-67227df259de/resource/b5b92e70-b2ce-499e-93b7-b898fe4989d6/download/2014-europawahl-stadtteil.csv> .
+_:b73   a                    cat:Distribution ;
+        dcterms:description  "Standorte der Wertstoffcontainer im Stadtgebiet, Stand Januar 2017" ;
+        dcterms:format       "GeoJSON" ;
+        cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/3305982b-5a74-4bec-9248-cf4d922e8a1f/resource/eb4a386a-1a2e-49d9-996f-265a3bbee079/download/wertstoffcontainer.geojson> .
 
-_:b74   a                    cat:Distribution ;
-        dcterms:description  "Landratswahl 2009, Ebene Wahlbezirk" ;
+_:b71   a                    cat:Distribution ;
+        dcterms:description  "Landratswahl 2009, Ebene Stimmbezirk" ;
         dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/b11d3689-9580-4557-a433-0a38917fcd0e/resource/029b9832-0aff-4115-b874-f0ef48953147/download/2009-landratswahl-wahlbezirksebene.csv> .
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/b11d3689-9580-4557-a433-0a38917fcd0e/resource/54b700d2-24a4-4a45-8fd8-12a4b626eb36/download/2009-landratswahl-stimmbezirksebene.csv> .
+
+_:b6    a                    cat:Distribution ;
+        dcterms:description  "Bundestagswahl 2009, Ebene Stadtteil" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/bbf985fb-cf0c-4a3e-99ac-e94ec308497f/resource/ac1b00df-0364-4598-bd8e-a7234e4adf7e/download/2009-bundestagswahl-stadtteilebene.csv> .
+
+_:b41   a                    cat:Dataset ;
+        <http://ckan.aksw.org/ontology/id>
+                "61bf497d-09b6-4e27-a4bc-09404cd54e48" ;
+        <http://ckan.aksw.org/ontology/name>
+                "bevolkerungsdichte-nach-stadtteilen" ;
+        dcterms:description  "Fläche und Einwohnerdichte in den Stadtteilen und in Meerbusch gesamt, jeweils zum Stichtag 31.12. des jeweiligen Jahres" ;
+        dcterms:title        "Bevölkerungsdichte nach Stadtteilen" ;
+        owl:versionInfo      "2020-01" ;
+        cat:distribution     _:b74 , <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsdichte+gesamt> , <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsdichte+nach+Stadtteilen> ;
+        cat:keyword          "Einwohner" , "Bevölkerung" .
 
 <https://opendata.meerbusch.de/distribution/Haushaltsplan+2017>
         a                    cat:Distribution ;
@@ -1371,21 +1360,6 @@ _:b74   a                    cat:Distribution ;
         cat:distribution     <https://opendata.meerbusch.de/distribution/Mitglieder+der+Sportvereine+nach+Alterstruktur+ab+2011> , <https://opendata.meerbusch.de/distribution/Mitglieder+der+Sportvereine+gesamt+ab+2008> ;
         cat:keyword          "Altersverteilung" , "Sportverein" .
 
-_:b71   a                    cat:Distribution ;
-        dcterms:description  "Standorte der Wertstoffcontainer im Stadtgebiet, Stand Januar 2017" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/3305982b-5a74-4bec-9248-cf4d922e8a1f/resource/8ba90d5d-cc78-4018-98b6-29189879aa2a/download/wertstoffcontainer.csv> .
-
-_:b57   a                    cat:Distribution ;
-        dcterms:description  "Bürgermeisterwahl 2014, Ebene Wahlbezirk" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/5ff79bd6-77cc-46c2-8e8f-849649020b7a/resource/2461210b-b83a-4215-a459-298ef20613bc/download/2014-burgermeisterwahl-wahlbezirksebene.csv> .
-
-_:b75   a                    cat:Distribution ;
-        dcterms:description  "Landratswahl 2009, Ebene Stadtteil" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/b11d3689-9580-4557-a433-0a38917fcd0e/resource/18d246bf-8b94-4e2a-a67d-07d916e18040/download/2009-landratswahl-stadtteilebene.csv> .
-
 <https://opendata.meerbusch.de/distribution/Stra%C3%9Fenverkehrsunf%C3%A4lle+mit+Unfallart+ab+2006.csv>
         a                    cat:Distribution ;
         dcterms:description  "Anzahl der Straßenverkehrsunfälle mit Unfallart ab 2006" ;
@@ -1393,10 +1367,18 @@ _:b75   a                    cat:Distribution ;
         dcterms:title        "Straßenverkehrsunfälle mit Unfallart ab 2006.csv" ;
         cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/87bedfc9-32a9-44ab-918f-9fdbeb422a7e/resource/5d73152a-1a43-4209-afdb-2c0e2c34ee1d/download/strassenverkehrsunfalle-mit-unfallart-ab-2006.csv> .
 
-_:b25   a                    cat:Distribution ;
-        dcterms:description  "Kommunalwahlbezirke der Stadt Meerbusch" ;
-        dcterms:format       "GeoJSON" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/28ea1d59-ba29-46cf-afdc-c4f831d3067e/resource/1ae01319-3e8e-47d6-b728-062d8eb65678/download/wahlbezirke-der-stadt-meerbusch-2019.geojson> .
+mclient:meta  cat:catalog  mclient:Meerbusch .
+
+_:b42   a                    cat:Dataset ;
+        <http://ckan.aksw.org/ontology/id>
+                "3305982b-5a74-4bec-9248-cf4d922e8a1f" ;
+        <http://ckan.aksw.org/ontology/name>
+                "wertstoffcontainer-standorte" ;
+        dcterms:description  "Standorte der Wertstoffcontainer im Stadtgebiet Meerbusch. " ;
+        dcterms:title        "Wertstoffcontainer Standorte" ;
+        owl:versionInfo      "2017-01" ;
+        cat:distribution     _:b73 , <https://opendata.meerbusch.de/distribution/Wertstoffcontainer> , _:b69 ;
+        cat:keyword          "Geodaten" , "Wertstoffcontainer" .
 
 <https://opendata.meerbusch.de/distribution/Landtagswahl+2017+Stimmbezirke>
         a                    cat:Distribution ;
@@ -1405,12 +1387,44 @@ _:b25   a                    cat:Distribution ;
         dcterms:title        "Landtagswahl 2017 Stimmbezirke" ;
         cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/788a519b-eea5-452f-97c7-f453edb0f104/resource/20bae491-be7c-4ea9-94c7-1924a998e1cb/download/landtagswahl-2017-nach-stimmbezirkeerststimmen.csv> .
 
+_:b37   a                    cat:Dataset ;
+        <http://ckan.aksw.org/ontology/id>
+                "874e6f62-6bdb-4297-b18d-a75d59f72a64" ;
+        <http://ckan.aksw.org/ontology/name>
+                "familienstande-nach-stadtteilen" ;
+        dcterms:description  "Bevölkerungszahlen nach Familienständen in den Stadtteilen Meerbuschs von 2012 bis 2016. " ;
+        dcterms:title        "Familienstände nach Stadtteilen" ;
+        owl:versionInfo      "2017-02" ;
+        cat:distribution     <https://opendata.meerbusch.de/distribution/Familienst%C3%A4nde+nach+Stadtteilen+2016> , _:b75 , _:b68 , _:b45 , _:b64 , _:b53 , _:b66 , _:b65 ;
+        cat:keyword          "Bevölkerung" , "Familienstände" , "Einwohner" .
+
 <https://opendata.meerbusch.de/distribution/Altersgruppen+2018>
         a                    cat:Distribution ;
         dcterms:description  "Altersgruppen 2018" ;
         dcterms:format       "CSV" ;
         dcterms:title        "Altersgruppen 2018" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/576832b7-008e-4782-9b75-8317d0d39d67/resource/d49b376e-460a-4a2e-912b-d959930fd707/download/altersgruppen-gesamt-2018.csv> .
+
+_:b72   a                    cat:Distribution ;
+        dcterms:description  "Landratswahl 2009, Ebene Stadtteil" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/b11d3689-9580-4557-a433-0a38917fcd0e/resource/18d246bf-8b94-4e2a-a67d-07d916e18040/download/2009-landratswahl-stadtteilebene.csv> .
+
+_:b75   a                    cat:Distribution ;
+        dcterms:description  "Familienstände in Meerbusch gesamt von 2012 bis 2018" ;
+        dcterms:format       "CSV" ;
+        dcterms:title        "Familienstände in Meerbusch gesamt von 2012 bis 2018" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/874e6f62-6bdb-4297-b18d-a75d59f72a64/resource/5a4b19c9-6909-4f6e-bae6-b1baaf88a98e/download/familienstande-meerbusch-gesamt-2012-bis-2018.csv> .
+
+_:b48   a                    cat:Distribution ;
+        dcterms:description  "Anzahl der Vollzeitäquivalente (Beamte und tariflich Beschäftigte) ab 2012" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/2fc84f76-0886-4328-a570-f333abf0a8a5/resource/b96d1f95-85f4-4bfb-bcf0-58dd43698dae/download/vollzeitaquivalente_ab_2012.csv> .
+
+_:b60   a                    cat:Distribution ;
+        dcterms:description  "Bürgermeisterwahl 2014, Ebene Stimmbezirk" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/5ff79bd6-77cc-46c2-8e8f-849649020b7a/resource/72bdbe5b-8b4b-44f2-98d1-bbfd61b9fd12/download/2014-burgermeisterwahl-stimmbezirksebene.csv> .
 
 <https://opendata.meerbusch.de/distribution/B%C3%BCrgermeisterstichwahl+2020%2C+Stadtteilebene>
         a                    cat:Distribution ;
@@ -1425,18 +1439,6 @@ _:b25   a                    cat:Distribution ;
         dcterms:format       "CSV" ;
         dcterms:title        "Gäste nach Herkunftsland in Amerika ab 2013" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/567a9d32-945c-43c8-8a3b-e10ca0c99aad/resource/d4060f03-ee0e-4160-8975-feb5fc567960/download/herkunftslander-der-gaste-in-amerika-ab-2013.csv> .
-
-_:b38   a                    cat:Dataset ;
-        <http://ckan.aksw.org/ontology/id>
-                "b11d3689-9580-4557-a433-0a38917fcd0e" ;
-        <http://ckan.aksw.org/ontology/name>
-                "landratswahl-meerbusch" ;
-        dcterms:description  "Ergebnisse der Landratswahl auf Ebene der Gemeinde, der Stadtteile und des Wahl- und Stimmbezirks" ;
-        dcterms:title        "Landratswahl Meerbusch 2009 / 2015" ;
-        owl:versionInfo      "2017-01" ;
-        cat:distribution     _:b23 , _:b46 , _:b75 , _:b51 , _:b74 , _:b27 , _:b69 ;
-        cat:keyword          "Wahlen" , "Landrat" ;
-        cat:landingPage      <http://wep.itk-rheinland.de/prod/kw_2009/05162022/html5/MedienvertreterInfo.html> .
 
 <https://opendata.meerbusch.de/dataset/staatsangehorigkeiten-in-meerbusch>
         a                    cat:Dataset ;
@@ -1457,16 +1459,20 @@ _:b38   a                    cat:Dataset ;
         dcterms:title        "Bevölkerungsbewegung in Ossum-Bösinghoven" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/8c216129-2044-496b-be06-dd886ea5eb3a/resource/3fd09cc1-f46d-4647-be2b-e36f54bc9a69/download/bevolkerungsbewegung-in-ossum-bosinghoven-ab-2010.csv> .
 
-_:b31   a                    cat:Dataset ;
-        <http://ckan.aksw.org/ontology/id>
-                "874e6f62-6bdb-4297-b18d-a75d59f72a64" ;
-        <http://ckan.aksw.org/ontology/name>
-                "familienstande-nach-stadtteilen" ;
-        dcterms:description  "Bevölkerungszahlen nach Familienständen in den Stadtteilen Meerbuschs von 2012 bis 2016. " ;
-        dcterms:title        "Familienstände nach Stadtteilen" ;
-        owl:versionInfo      "2017-02" ;
-        cat:distribution     _:b76 , _:b22 , _:b60 , _:b28 , _:b62 , _:b72 , _:b73 , <https://opendata.meerbusch.de/distribution/Familienst%C3%A4nde+nach+Stadtteilen+2018> ;
-        cat:keyword          "Bevölkerung" , "Familienstände" , "Einwohner" .
+_:b13   a                    cat:Distribution ;
+        dcterms:description  "Stand Januar 2017" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/e1372d77-fe05-4bd1-ae6b-691f0aea231d/resource/2102a5d3-8cda-40d5-bca9-bf4524eaeae4/download/stimmbezirke-nach-strassenname-1.csv> .
+
+_:b27   a                    cat:Distribution ;
+        dcterms:description  "Kreistagswahl 2014, Ebene Gemeinde" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/460dc7a5-9f09-4357-8863-ecc88ea3e82c/resource/bde80858-1c9c-4ef9-8551-fabe26d656c7/download/2014-kreistagswahl-gemeindeebene.csv> .
+
+_:b4    a                    cat:Distribution ;
+        dcterms:description  "Bundestagswahl 2013, Ebene Stadtteil" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/bbf985fb-cf0c-4a3e-99ac-e94ec308497f/resource/6ba812b9-051d-4371-b8c8-b5555a726256/download/2013-bundestagswahl-stadtteilebene.csv> .
 
 <https://opendata.meerbusch.de/distribution/Stra%C3%9Fenverkehrsunf%C3%A4lle+insgesamt+ab+2006.csv>
         a                    cat:Distribution ;
@@ -1474,6 +1480,11 @@ _:b31   a                    cat:Dataset ;
         dcterms:format       "CSV" ;
         dcterms:title        "Straßenverkehrsunfälle insgesamt ab 2006.csv" ;
         cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/87bedfc9-32a9-44ab-918f-9fdbeb422a7e/resource/ca99a1d8-af71-4799-92e7-c2ed1a6a8699/download/strassenverkehrsunfalle-insgesamt-ab-2006.csv> .
+
+_:b49   a                    cat:Distribution ;
+        dcterms:description  "Vollzeit gedreht" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/2fc84f76-0886-4328-a570-f333abf0a8a5/resource/cff56898-b1da-4ad7-b550-2a99a619f9ef/download/vollzeitaquivalente_gedreht2.csv> .
 
 <https://opendata.meerbusch.de/distribution/Jahresabschluss+2011>
         a               cat:Distribution ;
@@ -1506,6 +1517,11 @@ _:b31   a                    cat:Dataset ;
         cat:distribution     <https://opendata.meerbusch.de/distribution/Jugend-+und+Sozialbericht+2014-2016> ;
         cat:keyword          "Verschuldung" , "Kinder" , "Familie" , "Behinderung" , "Lebenslagen" , "Bildung" , "Senioren" , "Gesundheit" , "Flüchtlinge" .
 
+_:b30   a                    cat:Distribution ;
+        dcterms:description  "Kreistagswahl 2014, Ebene Stimmbezirk" ;
+        dcterms:format       "CSV" ;
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/460dc7a5-9f09-4357-8863-ecc88ea3e82c/resource/b480b9ba-000b-4aa5-94fc-babe06905918/download/2014-kreistagswahl-stimmbezirksebene.csv> .
+
 <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsbewegung+in+B%C3%BCderich>
         a                    cat:Distribution ;
         dcterms:description  "Bevölkerungsbewegung in Büderich ab 2010" ;
@@ -1513,10 +1529,10 @@ _:b31   a                    cat:Dataset ;
         dcterms:title        "Bevölkerungsbewegung in Büderich" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/8c216129-2044-496b-be06-dd886ea5eb3a/resource/003935e0-e16d-4bba-a2e6-5380b558c1b9/download/bevolkerungsbewegung-in-buderich-ab-2010.csv> .
 
-_:b17   a                    cat:Distribution ;
-        dcterms:description  "Bundestagswahl 2009, Ebene Wahlbezirk" ;
+_:b74   a                    cat:Distribution ;
+        dcterms:description  "Angabe der Fläche in ha und Übersicht der Bevölkerungsdichte (Einwohner/km²) pro Stadtteil\r\n" ;
         dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/bbf985fb-cf0c-4a3e-99ac-e94ec308497f/resource/28bb42cb-763d-47b3-ad86-793be0f7266c/download/2009-bundestagswahl-wahlbezirksebene.csv> .
+        cat:accessURL        <https://opendata.meerbusch.de/dataset/61bf497d-09b6-4e27-a4bc-09404cd54e48/resource/dac9070b-1851-41ca-807c-7ccbc7a7a39b/download/bevolkerungsdichte-ubersicht-aus-statistischem-jahrbuch.csv> .
 
 <https://opendata.meerbusch.de/distribution/Herkunft+der+ausl%C3%A4ndischen+Einwohner+ab+2010>
         a                    cat:Distribution ;
@@ -1535,9 +1551,9 @@ _:b17   a                    cat:Distribution ;
 <https://opendata.meerbusch.de/distribution/Wanderweg+durch+die+Ilvericher+Altrheinschlinge>
         a                    cat:Distribution ;
         dcterms:description  "Die Ilvericher Altrheinschlinge ist eines der bedeutenden Naturschutzgebiete der Region. Durch Rad- und Spazierwege wunderbar erschlossen, lädt das Gebiet zur Erholung und Entspannung ein." ;
-        dcterms:format       "GeoJSON" , "KML" ;
+        dcterms:format       "KML" , "GeoJSON" ;
         dcterms:title        "Wanderweg durch die Ilvericher Altrheinschlinge" ;
-        cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/4ea9a116-49bd-4403-8273-e7fcefd1b204/resource/c51743e8-a413-4838-b11d-fa61148ac2f3/download/wanderwegilvericheraltrheinschlinge.geojson> , <https://cc-p-meerbusch.ckan.io/dataset/4ea9a116-49bd-4403-8273-e7fcefd1b204/resource/79af6c6d-9f3c-40ce-9b43-a27e941b4081/download/wanderwegilvericheraltrheinschlinge.kml> .
+        cat:accessURL        <https://cc-p-meerbusch.ckan.io/dataset/4ea9a116-49bd-4403-8273-e7fcefd1b204/resource/79af6c6d-9f3c-40ce-9b43-a27e941b4081/download/wanderwegilvericheraltrheinschlinge.kml> , <https://cc-p-meerbusch.ckan.io/dataset/4ea9a116-49bd-4403-8273-e7fcefd1b204/resource/c51743e8-a413-4838-b11d-fa61148ac2f3/download/wanderwegilvericheraltrheinschlinge.geojson> .
 
 <https://opendata.meerbusch.de/distribution/Bev%C3%B6lkerungsentwicklung+in+Ilverich+ab+2005>
         a                    cat:Distribution ;
@@ -1545,12 +1561,6 @@ _:b17   a                    cat:Distribution ;
         dcterms:format       "CSV" ;
         dcterms:title        "Bevölkerungsentwicklung in Ilverich ab 2005" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/d40e9a26-13ef-4410-8acc-fcb79588827a/resource/7e033d7f-cf47-4401-a82a-2f8427c9c1eb/download/bevolkerungszahlen-ilverich-ab-2005.csv> .
-
-_:b76   a                    cat:Distribution ;
-        dcterms:description  "Familienstände in Meerbusch gesamt von 2012 bis 2018" ;
-        dcterms:format       "CSV" ;
-        dcterms:title        "Familienstände in Meerbusch gesamt von 2012 bis 2018" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/874e6f62-6bdb-4297-b18d-a75d59f72a64/resource/5a4b19c9-6909-4f6e-bae6-b1baaf88a98e/download/familienstande-meerbusch-gesamt-2012-bis-2018.csv> .
 
 <https://opendata.meerbusch.de/distribution/Altersgruppen+2013>
         a                    cat:Distribution ;
@@ -1572,8 +1582,3 @@ _:b76   a                    cat:Distribution ;
         dcterms:format       "CSV" ;
         dcterms:title        "Ratswahl 2020, Stimmbezirksebene" ;
         cat:accessURL        <https://opendata.meerbusch.de/dataset/ba46ce2a-9304-4b98-8ce1-293fa9be799e/resource/b36de457-45f5-4383-a129-4f6652c1b69f/download/open-data-ratswahl-stimmbezirkebene.csv> .
-
-_:b9    a                    cat:Distribution ;
-        dcterms:description  "Landtagswahl 2012, Ebene Stimmbezirk" ;
-        dcterms:format       "CSV" ;
-        cat:accessURL        <https://opendata.meerbusch.de/dataset/1c64f2cd-a6fc-4117-8d3b-e909779ba10b/resource/01e91c30-6797-4c11-be81-1fb2f8656243/download/2012-landtagswahl-stimmbezirksebene.csv> .

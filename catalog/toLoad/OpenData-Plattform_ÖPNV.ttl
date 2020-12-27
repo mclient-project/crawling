@@ -7,11 +7,18 @@
 @prefix dcatx: <http://www.example.org/> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
+<https://www.opendata-oepnv.de/distribution/Haltestellen+im+VVS+-+Dezember+2018>
+        a               cat:Distribution ;
+        dcterms:format  "CSV" ;
+        dcterms:title   "Haltestellen im VVS - Dezember 2018" ;
+        cat:accessURL   <https://www.openvvs.de/dataset/1f7ec4c1-b590-4751-a25b-57ef988c14b6/resource/d87d1f01-5c14-4d08-8452-e405a6472ab4/download/vvs_haltestelle_j21.csv> ;
+        cat:mediaType   "text/csv" .
+
 <https://www.opendata-oepnv.de/distribution/Haltestellendaten+DELFI>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
         dcterms:title   "Haltestellendaten DELFI" ;
-        cat:accessURL   <https://www.opendata-oepnv.de/fileadmin/datasets/delfi/20201127_zHV_gesamt.zip> ;
+        cat:accessURL   <https://www.opendata-oepnv.de/fileadmin/datasets/delfi/20201223_zHV_gesamt.zip> ;
         cat:mediaType   "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+August+2020>
@@ -19,15 +26,29 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten HVV - August 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/1e4084a2-147c-47e9-b79b-b7d57da6eee3/resource/b5761dd4-187e-4edf-a2cc-875278175faa/download/upload__hvv_rohdaten_gtfs_fpl_20200810.zip> ;
-        cat:byteSize    "34092594"^^xsd:decimal ;
+        cat:byteSize    "3.4092594E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
+
+<https://www.opendata-oepnv.de/distribution/GTFS-Feed+MVV+11-2020+%28ohne+Shapes%29+>
+        a               cat:Distribution ;
+        dcterms:format  "ZIP" ;
+        dcterms:title   "GTFS-Feed MVV 11-2020 (ohne Shapes) " ;
+        cat:accessURL   <https://www.opendata-oepnv.de/dataset/17065229-c3fd-46d7-84a9-aae55aadbf40/resource/d4bab7c2-c72f-464f-9d03-41e92dc30ba2/download/mvv_gtfs.zip> ;
+        cat:byteSize    6581960.0 ;
+        cat:mediaType   "application/x-zip-compressed" .
+
+<https://www.opendata-oepnv.de/distribution/Download+Haltestellennamen+Hamburg+mit+GK-Koordinaten+%28XLS%29+%28CSV-Version+in+einer+ZIP-Datei%29+HVV+-+August+2017>
+        a               cat:Distribution ;
+        dcterms:format  "ZIP" ;
+        dcterms:title   "Download Haltestellennamen Hamburg mit GK-Koordinaten (XLS) (CSV-Version in einer ZIP-Datei) HVV - August 2017" ;
+        cat:accessURL   <http://suche.transparenz.hamburg.de/localresources/HMDK/C808461E-8AB3-4B43-914C-72ECCEAB3365/HVV-Haltestellen_HH_2013-08-22.zip> .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRS+-+September+2020>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VRS - September 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/19460e8a-bb64-4103-a429-4e5eec4578e9/resource/0ace2197-9ece-447b-9914-da9d6dbe87a3/download/gtfs_vrs_mit_spnv.zip> ;
-        cat:byteSize    "19442735"^^xsd:decimal ;
+        cat:byteSize    "1.9442735E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRS+-+November+2020>
@@ -35,22 +56,21 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VRS - November 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/19460e8a-bb64-4103-a429-4e5eec4578e9/resource/533a8e73-4868-4e68-849f-942f45ccd566/download/gtfs_vrs_mit_spnv-1.zip> ;
-        cat:byteSize    "19442735"^^xsd:decimal ;
+        cat:byteSize    "1.9442735E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
-<https://www.opendata-oepnv.de/distribution/Download+Haltestellennamen+Hamburg+mit+GK-Koordinaten+%28XLS%29>
+<https://www.opendata-oepnv.de/distribution/Download+Haltestellennamen+Hamburg+mit+GK-Koordinaten+%28XLS%29+HVV+-+August+2017>
         a               cat:Distribution ;
         dcterms:format  "XLSX" ;
-        dcterms:title   "Download Haltestellennamen Hamburg mit GK-Koordinaten (XLS)" ;
-        cat:accessURL   <http://archiv.transparenz.hamburg.de/hmbtgarchive/HMDK/hvv-haltestellen_hh_2013-08-22_10707_snap_1.xlsx> ;
-        cat:byteSize    "291369"^^xsd:decimal .
+        dcterms:title   "Download Haltestellennamen Hamburg mit GK-Koordinaten (XLS) HVV - August 2017" ;
+        cat:accessURL   <http://archiv.transparenz.hamburg.de/hmbtgarchive/HMDK/hvv-haltestellen_hh_2013-08-22_10707_snap_1.xlsx> .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+NVV+Oktober+2020+%28RT%2C+Tram%2C+BUS%2C+StadtBUS%2C+ohne+RE%2FRB%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten NVV Oktober 2020 (RT, Tram, BUS, StadtBUS, ohne RE/RB)" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/3330b6e6-c460-40a0-9c17-a83b5f7b1592/resource/67a8067a-af9d-48d1-8f4b-cdc53a404321/download/2020-10-nvv-rt-tram-bus.zip> ;
-        cat:byteSize    "19525198"^^xsd:decimal ;
+        cat:byteSize    "1.9525198E7"^^xsd:decimal ;
         cat:mediaType   "application/octet-stream" .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.09.28>
@@ -58,7 +78,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "ÖPNV-Daten Westfalen-Lippe 2020.09.28" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/d6d7e9f9-8e20-4bfd-8e22-12cac352ab06/download/gtfs-nwl-20200928.zip> ;
-        cat:byteSize    "13350910"^^xsd:decimal ;
+        cat:byteSize    "1.335091E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+AVV+-+August+2020>
@@ -66,7 +86,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten AVV - August 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/dede57c7-9601-43cd-9fb6-8ab4c27412d2/resource/e045bd8f-b426-4007-8366-6848e71b8b29/download/avv_gtfs_masten_mit_spnv_und_arr-lim.zip> ;
-        cat:byteSize    "31938319"^^xsd:decimal ;
+        cat:byteSize    "3.1938319E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/Haltestellen+MVV+2020+>
@@ -74,7 +94,7 @@
         dcterms:format  "XLS" ;
         dcterms:title   "Haltestellen MVV 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/fe01b105-5b08-4dcd-bee5-98a396876c6a/resource/ea04d6ae-c54e-4f56-b8dc-973c00a03c15/download/20-01-mvv_hst-s20.xls> ;
-        cat:byteSize    "1446400"^^xsd:decimal ;
+        cat:byteSize    1446400.0 ;
         cat:mediaType   "application/vnd.ms-excel" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+NVV+Dezember+2020+%28RT%2C+Tram%2C+BUS%2C+StadtBUS%2C+ohne+RE%2FRB%29+>
@@ -82,7 +102,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten NVV Dezember 2020 (RT, Tram, BUS, StadtBUS, ohne RE/RB) " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/3330b6e6-c460-40a0-9c17-a83b5f7b1592/resource/29838d2f-7e7a-42ec-9bb5-30b8bd30e1f9/download/2020-12-nvv-rt-tram-bus.zip> ;
-        cat:byteSize    "24608020"^^xsd:decimal ;
+        cat:byteSize    "2.460802E7"^^xsd:decimal ;
         cat:mediaType   "application/octet-stream" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+ab+20.04.2020>
@@ -90,8 +110,14 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VVS - ab 20.04.2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/d1768457-c717-45ea-8e26-dd1e759d5ffe/resource/e7fc8dc1-9416-4cf4-9549-1564e4f3a837/download/vvs_gtfs.zip> ;
-        cat:byteSize    "8502674"^^xsd:decimal ;
+        cat:byteSize    8502674.0 ;
         cat:mediaType   "application/x-zip-compressed" .
+
+<https://www.opendata-oepnv.de/distribution/Download+Haltestellennamen+Hamburg+mit+GK-Koordinaten+%28XLS%29+%28CSV-Version+in+einer+ZIP-Datei%29+HVV+-+Dezember+2017>
+        a               cat:Distribution ;
+        dcterms:format  "ZIP" ;
+        dcterms:title   "Download Haltestellennamen Hamburg mit GK-Koordinaten (XLS) (CSV-Version in einer ZIP-Datei) HVV - Dezember 2017" ;
+        cat:accessURL   <http://suche.transparenz.hamburg.de/localresources/HMDK/C808461E-8AB3-4B43-914C-72ECCEAB3365/HVV-Haltestellen_HH_2013-08-22.zip> .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+M%C3%A4rz+2019>
         a                    cat:Distribution ;
@@ -99,7 +125,7 @@
         dcterms:format       "ZIP" ;
         dcterms:title        "Soll-Fahrplandaten VRR - März 2019" ;
         cat:accessURL        <https://www.opendata-oepnv.de/dataset/496eea5d-d6ef-4dc2-aeb0-d15c4fbf3178/resource/cce171be-4fe0-41e2-bc27-14bd6deb6668/download/google_transit_2019_03_08_verbundweit.zip> ;
-        cat:byteSize         "24192640"^^xsd:decimal ;
+        cat:byteSize         "2.419264E7"^^xsd:decimal ;
         cat:mediaType        "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+Juli+2020+>
@@ -107,7 +133,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten HVV - Juli 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/1e4084a2-147c-47e9-b79b-b7d57da6eee3/resource/ddc6acaa-2509-40c5-a518-afa40e65c7e7/download/upload__hvv_rohdaten_gtfs_fpl_20200706.zip> ;
-        cat:byteSize    "34743826"^^xsd:decimal ;
+        cat:byteSize    "3.4743826E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+September+2020>
@@ -115,7 +141,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten HVV - September 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/1e4084a2-147c-47e9-b79b-b7d57da6eee3/resource/c80a1437-b2f6-45c2-98a4-7cbad3ce37c7/download/upload__hvv_rohdaten_gtfs_fpl_20200908.zip> ;
-        cat:byteSize    "32834560"^^xsd:decimal ;
+        cat:byteSize    "3.283456E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/dataset/haltestellen-avv>
@@ -135,7 +161,7 @@
         dcterms:format       "ZIP" ;
         dcterms:title        "Soll-Fahrplandaten VRR - Mai 2019" ;
         cat:accessURL        <https://www.opendata-oepnv.de/dataset/496eea5d-d6ef-4dc2-aeb0-d15c4fbf3178/resource/2a35bd9e-eb8b-44ca-90d9-2f7ff2634d3b/download/2019_05_21-google_transit_verbundweit.zip> ;
-        cat:byteSize         "27352919"^^xsd:decimal ;
+        cat:byteSize         "2.7352919E7"^^xsd:decimal ;
         cat:mediaType        "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.11.19>
@@ -143,7 +169,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "ÖPNV-Daten Westfalen-Lippe 2020.11.19" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/b971f7dc-cea8-4021-9d2c-978e99879055/download/gtfs-nwl-20201119.zip> ;
-        cat:byteSize    "13207183"^^xsd:decimal ;
+        cat:byteSize    "1.3207183E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/GTFS-Feed+MVV+01-2020+%28ohne+Shapes%29>
@@ -151,7 +177,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "GTFS-Feed MVV 01-2020 (ohne Shapes)" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/17065229-c3fd-46d7-84a9-aae55aadbf40/resource/0c561b2b-1e5e-4c4d-9b4c-2c4ad8b925e3/download/mvv_gtfs.zip> ;
-        cat:byteSize    "5220510"^^xsd:decimal ;
+        cat:byteSize    5220510.0 ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.09.30>
@@ -160,7 +186,7 @@
         dcterms:format       "ZIP" ;
         dcterms:title        "ÖPNV-Daten Westfalen-Lippe 2019.09.30" ;
         cat:accessURL        <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/ead94b86-a8cc-4518-8710-e5dcadccb859/download/opnv-daten-westfalen-lippe-2019.09.30.zip> ;
-        cat:byteSize         "13147562"^^xsd:decimal ;
+        cat:byteSize         "1.3147562E7"^^xsd:decimal ;
         cat:mediaType        "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+AVV+-+Oktober+2020>
@@ -168,7 +194,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten AVV - Oktober 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/dede57c7-9601-43cd-9fb6-8ab4c27412d2/resource/78df72c5-6fd3-4389-8581-075be5b9b1f3/download/avv_gtfs_masten_mit_spnv_und_arr-lim.zip> ;
-        cat:byteSize    "27062988"^^xsd:decimal ;
+        cat:byteSize    "2.7062988E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.10.26>
@@ -176,7 +202,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "ÖPNV-Daten Westfalen-Lippe 2020.10.26" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/bc63a92e-0a34-467d-a4d3-a92fda6c2533/download/gtfs-nwl-20201026.zip> ;
-        cat:byteSize    "13845201"^^xsd:decimal ;
+        cat:byteSize    "1.3845201E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/dataset/soll_fahrplandaten_mvv>
@@ -187,35 +213,51 @@
                 "soll_fahrplandaten_mvv" ;
         dcterms:description  "Der GTFS-Feed enthält derzeit ausschließlich Fahrplandaten zum MVV-Regionalbus. Für weitere Fahrplandaten (u.a. U-Bahn, Tram, Stadt- und Metrobus sowie S-Bahn) liegt uns zum aktuellen Zeitpunkt keine Genehmigung zur Publikation vor." ;
         dcterms:title        "Soll-Fahrplandaten MVV" ;
-        cat:distribution     <https://www.opendata-oepnv.de/distribution/GTFS-Feed+MVV+03-2020+%28ohne+Shapes%29> , <https://www.opendata-oepnv.de/distribution/GTFS-Feed+MVV+07-2020+%28ohne+Shapes%29+> , <https://www.opendata-oepnv.de/distribution/GTFS-Feed+MVV+05-2020+%28ohne+Shapes%29> , <https://www.opendata-oepnv.de/distribution/GTFS-Feed+MVV+01-2020+%28ohne+Shapes%29> ;
-        cat:landingPage      <file:///home/lisa/repos/crawling/www.mvv-muenchen.de> .
+        cat:distribution     <https://www.opendata-oepnv.de/distribution/GTFS-Feed+MVV+03-2020+%28ohne+Shapes%29> , <https://www.opendata-oepnv.de/distribution/GTFS-Feed+MVV+11-2020+%28ohne+Shapes%29+> , <https://www.opendata-oepnv.de/distribution/GTFS-Feed+MVV+07-2020+%28ohne+Shapes%29+> , <https://www.opendata-oepnv.de/distribution/GTFS-Feed+MVV+05-2020+%28ohne+Shapes%29> , <https://www.opendata-oepnv.de/distribution/GTFS-Feed+MVV+01-2020+%28ohne+Shapes%29> .
 
 <https://www.opendata-oepnv.de/distribution/GTFS-Feed+MVV+07-2020+%28ohne+Shapes%29+>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
         dcterms:title   "GTFS-Feed MVV 07-2020 (ohne Shapes) " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/17065229-c3fd-46d7-84a9-aae55aadbf40/resource/f0e6b27c-72e0-4608-9830-ef4e106de773/download/mvv_gtfs.zip> ;
-        cat:byteSize    "4070637"^^xsd:decimal ;
+        cat:byteSize    4070637.0 ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <http://mclient-project.github.io/catalog/OpenData-Plattform%20%C3%96PNV>
         a                  cat:Catalog ;
+        rdfs:comment       "" ;
         rdfs:label         "OpenData-Plattform ÖPNV" ;
         dcatx:accountable  "" ;
+        dcatx:crawl        "1" ;
         dcatx:dcatApApi    false ;
         dcatx:email        "opendata-oepnv@vrr.de" ;
         dcatx:nuts         "" ;
+        dcatx:openApi      "1" ;
         dcatx:technology   "CKAN" ;
         dcatx:type         "other" ;
         dcatx:url          "https://www.opendata-oepnv.de/" ;
         cat:dataset        <https://www.opendata-oepnv.de/dataset/haltestellendaten-rnv> , <https://www.opendata-oepnv.de/dataset/soll-fahrplandaten-rnv> , <https://www.opendata-oepnv.de/dataset/haltestellen-mvv> , <https://www.opendata-oepnv.de/dataset/soll-fahrplandaten-nwl> , <https://www.opendata-oepnv.de/dataset/haltestellen-hvv> , <https://www.opendata-oepnv.de/dataset/park_bike_vrr> , <https://www.opendata-oepnv.de/dataset/qualitaets_bericht_vrr> , <https://www.opendata-oepnv.de/dataset/liniendaten-vvs> , <https://www.opendata-oepnv.de/dataset/hvv-haltestellen> , <https://www.opendata-oepnv.de/dataset/haltepositionen-im-nordhessischen-verkehrsverbund-nvv> , <https://www.opendata-oepnv.de/dataset/soll-fahrplandaten-vrs> , <https://www.opendata-oepnv.de/dataset/liniendaten-vrr> , <https://www.opendata-oepnv.de/dataset/haltestellen-vbb> , <https://www.opendata-oepnv.de/dataset/nvv-sollfahrplandaten> , <https://www.opendata-oepnv.de/dataset/deutschlandweite-sollfahrplandaten> , <https://www.opendata-oepnv.de/dataset/liniendaten-rnv> , <https://www.opendata-oepnv.de/dataset/haltestellen-vvs> , <https://www.opendata-oepnv.de/dataset/haltestellen-avv> , <https://www.opendata-oepnv.de/dataset/soll-fahrplandaten-hvv> , <https://www.opendata-oepnv.de/dataset/soll-fahrplandaten-vvs> , <https://www.opendata-oepnv.de/dataset/soll-fahrplandaten-vbb> , <https://www.opendata-oepnv.de/dataset/liniendaten-hvv> , <https://www.opendata-oepnv.de/dataset/haltestellen-rmv> , <https://www.opendata-oepnv.de/dataset/haltestellen-vrr> , <https://www.opendata-oepnv.de/dataset/bilder_grafiken_vrr> , <https://www.opendata-oepnv.de/dataset/liniendaten-mvv> , <https://www.opendata-oepnv.de/dataset/soll-fahrplandaten-vrr> , <https://www.opendata-oepnv.de/dataset/vvs-liniendaten> , <https://www.opendata-oepnv.de/dataset/soll_fahrplandaten_mvv> , <https://www.opendata-oepnv.de/dataset/soll-fahrplandaten-avv> , <https://www.opendata-oepnv.de/dataset/deutschlandweite-sollfahrplandaten-gtfs> , <https://www.opendata-oepnv.de/dataset/deutschlandweite-haltestellendaten> , <https://www.opendata-oepnv.de/dataset/linienfarben-vbb> .
+
+<https://www.opendata-oepnv.de/distribution/GTFS+-+2018+RNV+-+Dezember+2020>
+        a                    cat:Distribution ;
+        dcterms:description  "<p>Die Daten in diesem Datenpaket enthalten alle GTFS-Datensätze für das Jahr <strong>2018</strong>.</p>\n<p>Alle weiteren Informationen zum Format, sowie Links zur Dokumentation, etc. finden Sie im Beschreibungstext des <a href=\"http://opendata-rnv.prev.ueberbit.de/dataset/gtfs\" target=\"_blank\">Datensatzes</a>.</p>\n</p>\n" ;
+        dcterms:format       "ZIP" ;
+        dcterms:title        "GTFS - 2018 RNV - Dezember 2020" ;
+        cat:accessURL        <https://opendata.rnv-online.de/sites/default/files/2018_rnv-GTFS.zip> ;
+        cat:mediaType        "application/zip" .
+
+<https://www.opendata-oepnv.de/distribution/Upload%3A+HVV_Rohdaten_GTFS_Fpl_20191009+-+Dezember+2019>
+        a               cat:Distribution ;
+        dcterms:format  "ZIP" ;
+        dcterms:title   "Upload: HVV_Rohdaten_GTFS_Fpl_20191009 - Dezember 2019" ;
+        cat:accessURL   <http://daten.transparenz.hamburg.de/Dataport.HmbTG.ZS.Webservice.GetRessource100/GetRessource100.svc/8952854c-f1d5-4a4c-a170-a2962e3113c5/Upload__HVV_Rohdaten_GTFS_Fpl_20191009.zip> .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+10.+November+2020+>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VVS - 10. November 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/d1768457-c717-45ea-8e26-dd1e759d5ffe/resource/1ff9ff69-503a-4bd6-b637-025ad508bf45/download/google_transit.zip> ;
-        cat:byteSize    "60615148"^^xsd:decimal ;
+        cat:byteSize    "6.0615148E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Juni+2020+>
@@ -223,7 +265,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VRR - Juni 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/496eea5d-d6ef-4dc2-aeb0-d15c4fbf3178/resource/71ea0288-f812-4e4d-9bc5-e7fc5ed32559/download/2020_06_04_google_transit_verbundweit_inlkl_spnv.zip> ;
-        cat:byteSize    "26326745"^^xsd:decimal ;
+        cat:byteSize    "2.6326745E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/dataset/liniendaten-vrr>
@@ -243,7 +285,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VRR - September 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/496eea5d-d6ef-4dc2-aeb0-d15c4fbf3178/resource/9d7f3767-809d-4669-9291-05d0c960a1ec/download/2020_09_04_google_transit_verbundweit_inkl_spnv.zip> ;
-        cat:byteSize    "25677015"^^xsd:decimal ;
+        cat:byteSize    "2.5677015E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/GTFS-Feed+MVV+05-2020+%28ohne+Shapes%29>
@@ -251,26 +293,15 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "GTFS-Feed MVV 05-2020 (ohne Shapes)" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/17065229-c3fd-46d7-84a9-aae55aadbf40/resource/6f10efc0-7bfe-4ad7-bc33-94233b753293/download/mvv_gtfs.zip> ;
-        cat:byteSize    "3652130"^^xsd:decimal ;
+        cat:byteSize    3652130.0 ;
         cat:mediaType   "application/x-zip-compressed" .
-
-<https://www.opendata-oepnv.de/dataset/nvv-sollfahrplandaten>
-        a                    cat:Dataset ;
-        <http://ckan.aksw.org/ontology/id>
-                "3330b6e6-c460-40a0-9c17-a83b5f7b1592" ;
-        <http://ckan.aksw.org/ontology/name>
-                "nvv-sollfahrplandaten" ;
-        dcterms:description  "Der Nordhessische Verkehrsverbund (NVV) stellt hier die Fahrplandaten des Verbundgebietes im GTFS-Format zur Verfügung. Die Daten beinhalten Informationen zu Linien, Haltestellen, Abfahrtszeiten usw.\r\n\r\nLizenz dieser Daten ist Abweichend CC-BY-NC-ND-4.0" ;
-        dcterms:title        "Soll-Fahrplandaten NVV" ;
-        cat:distribution     <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+NVV+Oktober+2020+%28RT%2C+Tram%2C+BUS%2C+StadtBUS%2C+ohne+RE%2FRB%29> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+NVV+Dezember+2020+%28RT%2C+Tram%2C+BUS%2C+StadtBUS%2C+ohne+RE%2FRB%29+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+NVV+November+2020+%28RT%2C+Tram%2C+BUS%2C+StadtBUS%2C+ohne+RE%2FRB%29+> ;
-        cat:landingPage      <https://www.nvv.de/> .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.06.23>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
         dcterms:title   "ÖPNV-Daten Westfalen-Lippe 2020.06.23" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/f6fa05e1-a074-44cf-831f-7b3e6fb29cc3/download/gtfs-nwl-20200623.zip> ;
-        cat:byteSize    "12940048"^^xsd:decimal ;
+        cat:byteSize    "1.2940048E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/dataset/haltestellen-rmv>
@@ -285,20 +316,23 @@
         cat:keyword          "RMV" , "Haltestellen" ;
         cat:landingPage      <https://opendata.rmv.de> .
 
-<https://www.opendata-oepnv.de/distribution/GTFS+-+General+Transit+Feed+Specification+-+14.07.2020>
-        a                    cat:Distribution ;
-        dcterms:description  "<p>Diese Ressource beinhaltet immer unseren aktuell gültigen GTFS-Datensatz. Dieser wird ca. täglich automatisch aktualisiert.</p>\n" ;
-        dcterms:format       "ZIP" ;
-        dcterms:title        "GTFS - General Transit Feed Specification - 14.07.2020" ;
-        cat:accessURL        <https://gtfs-sandbox-dds.rnv-online.de/latest/gtfs.zip> ;
-        cat:mediaType        "zip" .
+<https://www.opendata-oepnv.de/dataset/nvv-sollfahrplandaten>
+        a                    cat:Dataset ;
+        <http://ckan.aksw.org/ontology/id>
+                "3330b6e6-c460-40a0-9c17-a83b5f7b1592" ;
+        <http://ckan.aksw.org/ontology/name>
+                "nvv-sollfahrplandaten" ;
+        dcterms:description  "Der Nordhessische Verkehrsverbund (NVV) stellt hier die Fahrplandaten des Verbundgebietes im GTFS-Format zur Verfügung. Die Daten beinhalten Informationen zu Linien, Haltestellen, Abfahrtszeiten usw.\r\n\r\nLizenz dieser Daten ist Abweichend CC-BY-NC-ND-4.0" ;
+        dcterms:title        "Soll-Fahrplandaten NVV" ;
+        cat:distribution     <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+NVV+Oktober+2020+%28RT%2C+Tram%2C+BUS%2C+StadtBUS%2C+ohne+RE%2FRB%29> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+NVV+November+2020+%28RT%2C+Tram%2C+BUS%2C+StadtBUS%2C+ohne+RE%2FRB%29+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+NVV+Dezember+2020+%28RT%2C+Tram%2C+BUS%2C+StadtBUS%2C+ohne+RE%2FRB%29+> ;
+        cat:landingPage      <https://www.nvv.de/> .
 
 <https://www.opendata-oepnv.de/distribution/Rohdaten+Qualit%C3%A4tsbericht+2019>
         a               cat:Distribution ;
         dcterms:format  "XLSX" ;
         dcterms:title   "Rohdaten Qualitätsbericht 2019" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/9af9491d-1514-4e34-85a7-1b2e6824e3bf/resource/f4aa4f97-79db-4f9f-8c81-7f1cb4d0fdb6/download/qb-2019.xlsx> ;
-        cat:byteSize    "340343"^^xsd:decimal ;
+        cat:byteSize    340343.0 ;
         cat:mediaType   "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" .
 
 <https://www.opendata-oepnv.de/distribution/RMV_Haltestellen>
@@ -306,7 +340,7 @@
         dcterms:format  "CSV" ;
         dcterms:title   "RMV_Haltestellen" ;
         cat:accessURL   <http://cms.opendata-oepnv.de:5000/dataset/e8c1a450-5ace-4500-9eac-8009023bd6c1/resource/14df7ae7-27ee-4120-8696-86e4504a5b3d/download/rmv_haltestellen.csv> ;
-        cat:byteSize    "2745687"^^xsd:decimal ;
+        cat:byteSize    2745687.0 ;
         cat:mediaType   "text/csv" .
 
 <https://www.opendata-oepnv.de/dataset/park_bike_vrr>
@@ -317,15 +351,14 @@
                 "park_bike_vrr" ;
         dcterms:description  "Nützliche Informationen rund um die Themen Park&Ride und Bike&Ride\r\n\r\nWenn die Daten der Verkehrsverbund Rhein-Ruhr AöR (VRR AöR) Bestandteil des OpenStreetMap Datenbankwerkes werden, genügt eine Nennung der VRR AöR in der Liste der Beitragenden. Eine Nennung der VRR AöR bei jeder Verwendung der Daten auch durch Lizenznehmer des oben genannten Datenbankwerks ist dann nicht mehr erforderlich. Eine indirekte Nennung (Verweis auf Herausgeber des Datenbankwerks, der wiederum auf die VRR AöR verweist) genügt.\r\n" ;
         dcterms:title        "Park&Ride u. Bike&Ride" ;
-        cat:distribution     <https://www.opendata-oepnv.de/distribution/P%26R+an+SPNV-Stationen+> , <https://www.opendata-oepnv.de/distribution/B%26R+an+SPNV-Stationen> , <https://www.opendata-oepnv.de/distribution/P%26R%2FB%26R+an+SPNV-Stationen> ;
-        cat:landingPage      <file:///home/lisa/repos/crawling/Openvrr> .
+        cat:distribution     <https://www.opendata-oepnv.de/distribution/P%26R+an+SPNV-Stationen+> , <https://www.opendata-oepnv.de/distribution/P%26R%2FB%26R+an+SPNV-Stationen> , <https://www.opendata-oepnv.de/distribution/B%26R+an+SPNV-Stationen> .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRS+-+Februar+2020>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VRS - Februar 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/19460e8a-bb64-4103-a429-4e5eec4578e9/resource/e10ad89f-00f0-48e9-9d89-be1a2c23aec4/download/google_transit.zip> ;
-        cat:byteSize    "14025207"^^xsd:decimal ;
+        cat:byteSize    "1.4025207E7"^^xsd:decimal ;
         cat:mediaType   "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Juli+2019>
@@ -334,7 +367,7 @@
         dcterms:format       "ZIP" ;
         dcterms:title        "Soll-Fahrplandaten VRR - Juli 2019" ;
         cat:accessURL        <https://www.opendata-oepnv.de/dataset/496eea5d-d6ef-4dc2-aeb0-d15c4fbf3178/resource/ab27619d-2295-484d-9877-bce8ba7fe907/download/2019_07_03_google_transit_verbundweit_inkl_spnv.zip> ;
-        cat:byteSize         "27262438"^^xsd:decimal ;
+        cat:byteSize         "2.7262438E7"^^xsd:decimal ;
         cat:mediaType        "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRS+-+Januar+2020>
@@ -342,7 +375,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VRS - Januar 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/19460e8a-bb64-4103-a429-4e5eec4578e9/resource/420d60a0-ebb3-4cf0-b915-692ceefb9312/download/vrs_01_2020_google_transit.zip> ;
-        cat:byteSize    "14025207"^^xsd:decimal ;
+        cat:byteSize    "1.4025207E7"^^xsd:decimal ;
         cat:mediaType   "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.12.09>
@@ -351,7 +384,7 @@
         dcterms:format       "ZIP" ;
         dcterms:title        "ÖPNV-Daten Westfalen-Lippe 2019.12.09" ;
         cat:accessURL        <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/6ecd7e6a-d520-4bdf-b2f2-4ef4ff29bb08/download/gtfs-nwl-2019.12.09.zip> ;
-        cat:byteSize         "14901798"^^xsd:decimal ;
+        cat:byteSize         "1.4901798E7"^^xsd:decimal ;
         cat:mediaType        "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+AVV+-+November+2020>
@@ -359,7 +392,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten AVV - November 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/dede57c7-9601-43cd-9fb6-8ab4c27412d2/resource/a5568007-1eb1-4854-b9cd-b57b0f081b9b/download/avv_gtfs_masten_mit_spnv_und_arr-lim-1.zip> ;
-        cat:byteSize    "27353924"^^xsd:decimal ;
+        cat:byteSize    "2.7353924E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/Haltestellen+MVV+2019>
@@ -368,7 +401,7 @@
         dcterms:format       "XLS" ;
         dcterms:title        "Haltestellen MVV 2019" ;
         cat:accessURL        <https://www.opendata-oepnv.de/dataset/fe01b105-5b08-4dcd-bee5-98a396876c6a/resource/7a36bd82-b32b-41e6-9fa2-af8776a26c5e/download/18-11-mvv_hst-s19.xls> ;
-        cat:byteSize         "1448448"^^xsd:decimal ;
+        cat:byteSize         1448448.0 ;
         cat:mediaType        "application/vnd.ms-excel" .
 
 <https://www.opendata-oepnv.de/dataset/deutschlandweite-sollfahrplandaten-gtfs>
@@ -390,7 +423,7 @@
                 "haltestellen-hvv" ;
         dcterms:description  "Der Hamburger Verkehrsverbund (HVV) stellt hier die Haltestellendaten des Verbundgebietes zur Verfügung. Enthalten sind die Haltestellennummer der obersten Haltestellenebene, die Gauß-Krüger-Koordinaten, die Gemeindekennziffer, der HVV-Name sowie die DHID." ;
         dcterms:title        "Haltestellen HVV" ;
-        cat:distribution     <https://www.opendata-oepnv.de/distribution/Download+Haltestellennamen+Hamburg+mit+GK-Koordinaten+%28XLS%29+%28CSV-Version+in+einer+ZIP-Datei%29> , <https://www.opendata-oepnv.de/distribution/HVV+Haltestellen+Februar+2020> , <https://www.opendata-oepnv.de/distribution/Download+Haltestellennamen+Hamburg+mit+GK-Koordinaten+%28XLS%29> ;
+        cat:distribution     <https://www.opendata-oepnv.de/distribution/HVV+Haltestellen+Februar+2020> , <https://www.opendata-oepnv.de/distribution/Download+Haltestellennamen+Hamburg+mit+GK-Koordinaten+%28XLS%29+%28CSV-Version+in+einer+ZIP-Datei%29+HVV+-+Dezember+2017> , <https://www.opendata-oepnv.de/distribution/Download+Haltestellennamen+Hamburg+mit+GK-Koordinaten+%28XLS%29+%28CSV-Version+in+einer+ZIP-Datei%29+HVV+-+August+2017> , <https://www.opendata-oepnv.de/distribution/Download+Haltestellennamen+Hamburg+mit+GK-Koordinaten+%28XLS%29+HVV+-+Dezember+2017> , <https://www.opendata-oepnv.de/distribution/Download+Haltestellennamen+Hamburg+mit+GK-Koordinaten+%28XLS%29+HVV+-+August+2017> ;
         cat:landingPage      <https://www.hvv.de/de/fahrplaene/abruf-fahrplaninfos/datenabruf> .
 
 <https://www.opendata-oepnv.de/distribution/Bilder+und+Infografiken>
@@ -403,7 +436,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten AVV - März 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/dede57c7-9601-43cd-9fb6-8ab4c27412d2/resource/b1a9a16e-b041-4731-9d62-8a84fcdc551d/download/avv_gtfs_masten_mit_spnv_und_arr-lim.zip> ;
-        cat:byteSize    "25472511"^^xsd:decimal ;
+        cat:byteSize    "2.5472511E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRS+-+Juni+2020+>
@@ -411,7 +444,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VRS - Juni 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/19460e8a-bb64-4103-a429-4e5eec4578e9/resource/c6ea1e3a-822d-435f-b183-dbfc002453b2/download/gtfs_vrs_mit_spnv.zip> ;
-        cat:byteSize    "24422231"^^xsd:decimal ;
+        cat:byteSize    "2.4422231E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+AVV+-+Juli+2020+>
@@ -419,7 +452,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten AVV - Juli 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/dede57c7-9601-43cd-9fb6-8ab4c27412d2/resource/fbba4111-5c04-4477-9d7a-915e0c225ee2/download/avv_gtfs_masten_mit_spnv_und_arr-lim.zip> ;
-        cat:byteSize    "29646105"^^xsd:decimal ;
+        cat:byteSize    "2.9646105E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.08.04>
@@ -427,7 +460,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "ÖPNV-Daten Westfalen-Lippe 2020.08.04" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/a3105bbf-eb82-4c7f-b3db-b5aae097b3af/download/gtfs-nwl-20200804.zip> ;
-        cat:byteSize    "13993914"^^xsd:decimal ;
+        cat:byteSize    "1.3993914E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/dataset/haltepositionen-im-nordhessischen-verkehrsverbund-nvv>
@@ -448,7 +481,7 @@
         dcterms:format       "ZIP" ;
         dcterms:title        "Soll-Fahrplandaten VRR - Januar 2019" ;
         cat:accessURL        <https://www.opendata-oepnv.de/dataset/496eea5d-d6ef-4dc2-aeb0-d15c4fbf3178/resource/ba67f436-3e02-4d3d-8bf1-84a020a681be/download/google_transit_2019_01_14_verbundweit.zip> ;
-        cat:byteSize         "27321254"^^xsd:decimal ;
+        cat:byteSize         "2.7321254E7"^^xsd:decimal ;
         cat:mediaType        "application/zip" .
 
 <https://www.opendata-oepnv.de/dataset/deutschlandweite-sollfahrplandaten>
@@ -467,7 +500,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Liniendaten 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/aa8476c0-037f-4604-afc2-aff2fdcff843/resource/ca36721a-bab7-4484-8da4-55eb5ba8a09b/download/linie-2020.zip> ;
-        cat:byteSize    "289874"^^xsd:decimal ;
+        cat:byteSize    289874.0 ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.05.25>
@@ -475,7 +508,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "ÖPNV-Daten Westfalen-Lippe 2020.05.25" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/27634d7e-0a9f-451b-ab96-93c33595e758/download/gtfs-nwl-20200525.zip> ;
-        cat:byteSize    "12738839"^^xsd:decimal ;
+        cat:byteSize    "1.2738839E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/Liniendaten+rvn+ZIP>
@@ -483,7 +516,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Liniendaten rvn ZIP" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/499a92e4-c301-4d7a-83f3-f881fc1fb7c5/resource/9f501a77-238d-4e73-b3ff-25f8e4ce1638/download/linien-all-2020-05-13_1147.zip> ;
-        cat:byteSize    "110561"^^xsd:decimal ;
+        cat:byteSize    110561.0 ;
         cat:mediaType   "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.05.04>
@@ -491,7 +524,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "ÖPNV-Daten Westfalen-Lippe 2020.05.04" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/1a84bbcf-8f92-4e36-b53e-807866c2e521/download/gtfs-nwl-20200504.zip> ;
-        cat:byteSize    "14078350"^^xsd:decimal ;
+        cat:byteSize    "1.407835E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.08.12>
@@ -499,7 +532,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "ÖPNV-Daten Westfalen-Lippe 2020.08.12" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/f8131a9a-7968-48a7-a370-9f177f6998f7/download/gtfs-nwl-20200812.zip> ;
-        cat:byteSize    "14234368"^^xsd:decimal ;
+        cat:byteSize    "1.4234368E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRS+-+Dezember+2019>
@@ -507,7 +540,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VRS - Dezember 2019" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/19460e8a-bb64-4103-a429-4e5eec4578e9/resource/428f7f8e-4d1e-44c9-bcb8-3080f6824fff/download/vrs_12_2019_google_transit.zip> ;
-        cat:byteSize    "14025207"^^xsd:decimal ;
+        cat:byteSize    "1.4025207E7"^^xsd:decimal ;
         cat:mediaType   "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+AVV+-+Januar+2020>
@@ -515,7 +548,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten AVV - Januar 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/dede57c7-9601-43cd-9fb6-8ab4c27412d2/resource/94744341-7116-402a-b0d5-9517d6c2060f/download/avv_gtfs_masten_mit_spnv_january_2020.zip> ;
-        cat:byteSize    "24418334"^^xsd:decimal ;
+        cat:byteSize    "2.4418334E7"^^xsd:decimal ;
         cat:mediaType   "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Haltestellen+VRR+%28Stand%3A+20.03.2020%29>
@@ -523,7 +556,7 @@
         dcterms:format  "CSV" ;
         dcterms:title   "Haltestellen VRR (Stand: 20.03.2020)" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/333da0bc-2e11-4615-8fd0-c25ffa306fd4/resource/61e7f94b-52e4-4958-84be-860353d8fec3/download/haltestellenliste.csv> ;
-        cat:byteSize    "7192753"^^xsd:decimal ;
+        cat:byteSize    7192753.0 ;
         cat:mediaType   "application/vnd.ms-excel" .
 
 <https://www.opendata-oepnv.de/distribution/Logo+%26+Styleguide>
@@ -536,7 +569,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VVS - ab 04.05.2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/d1768457-c717-45ea-8e26-dd1e759d5ffe/resource/ba387b74-4394-45e0-90c3-c15713122f7e/download/vvs_gtfs.zip> ;
-        cat:byteSize    "9721325"^^xsd:decimal ;
+        cat:byteSize    9721325.0 ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.11.11>
@@ -545,7 +578,7 @@
         dcterms:format       "ZIP" ;
         dcterms:title        "ÖPNV-Daten Westfalen-Lippe 2019.11.11" ;
         cat:accessURL        <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/666f098f-f427-4482-a1a6-cbb4823680de/download/gtfs-nwl-2019.11.11.zip> ;
-        cat:byteSize         "13570690"^^xsd:decimal ;
+        cat:byteSize         "1.357069E7"^^xsd:decimal ;
         cat:mediaType        "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+Oktober+2020>
@@ -553,7 +586,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VVS - Oktober 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/d1768457-c717-45ea-8e26-dd1e759d5ffe/resource/7bdef82e-0942-4d2e-a77f-833329fba412/download/vvs_gtfs.zip> ;
-        cat:byteSize    "45254677"^^xsd:decimal ;
+        cat:byteSize    "4.5254677E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/dataset/haltestellen-mvv>
@@ -565,8 +598,7 @@
         dcterms:description  "Alle Haltestellen im MVV" ;
         dcterms:title        "Haltestellen MVV" ;
         cat:distribution     <https://www.opendata-oepnv.de/distribution/Haltestellen+MVV+2019> , <https://www.opendata-oepnv.de/distribution/Haltestellen+MVV+2020+> ;
-        cat:keyword          "MVV" , "Haltestellen" ;
-        cat:landingPage      <file:///home/lisa/repos/crawling/www.mvv-muenchen.de> .
+        cat:keyword          "MVV" , "Haltestellen" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+April+2019>
         a                    cat:Distribution ;
@@ -574,7 +606,7 @@
         dcterms:format       "ZIP" ;
         dcterms:title        "Soll-Fahrplandaten VRR - April 2019" ;
         cat:accessURL        <https://www.opendata-oepnv.de/dataset/496eea5d-d6ef-4dc2-aeb0-d15c4fbf3178/resource/35f75deb-9fa8-449a-abb5-cd75c4fef15e/download/google_transit_2019_04_03_verbundweit.zip> ;
-        cat:byteSize         "24620985"^^xsd:decimal ;
+        cat:byteSize         "2.4620985E7"^^xsd:decimal ;
         cat:mediaType        "application/zip" .
 
 <https://www.opendata-oepnv.de/dataset/deutschlandweite-haltestellendaten>
@@ -597,8 +629,14 @@
         dcterms:description  "Soll-Fahrplandaten VBB" ;
         dcterms:title        "Soll-Fahrplandaten VBB" ;
         cat:distribution     <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VBB> ;
-        cat:keyword          "VBB" , "Soll-Fahrplandaten" ;
-        cat:landingPage      <file:///home/lisa/repos/crawling/daten.berlin.de> .
+        cat:keyword          "VBB" , "Soll-Fahrplandaten" .
+
+<https://www.opendata-oepnv.de/distribution/Linien+im+VVS+-+Dezember+2018>
+        a               cat:Distribution ;
+        dcterms:format  "CSV" ;
+        dcterms:title   "Linien im VVS - Dezember 2018" ;
+        cat:accessURL   <https://www.openvvs.de/dataset/c8c8938c-eac3-4cb9-b889-860be3b65af7/resource/44fcfa48-3c1d-45b5-a591-12d0df45fe5d/download/vvs_linien_j21.csv> ;
+        cat:mediaType   "text/csv" .
 
 <https://www.opendata-oepnv.de/dataset/soll-fahrplandaten-vrr>
         a                    cat:Dataset ;
@@ -608,7 +646,7 @@
                 "soll-fahrplandaten-vrr" ;
         dcterms:description  "Es handelt sich hier um einen Verbundweiten GTFS-Feed. Wir möchten darauf hinweisen, dass die Verkehrsunternehmen Ihre Daten täglich pflegen und wir hier lediglich ein monatliches Abbild veröffentlichen. Wir arbeiten ständig an der Verbesserung und Vollständigkeit der Daten, daher können wir Ihnen aktuell nur eine Beta-Version zur Verfügung stellen.\r\n\r\nWenn die Daten der Verkehrsverbund Rhein-Ruhr AöR (VRR AöR) Bestandteil des OpenStreetMap Datenbankwerkes werden, genügt eine Nennung der VRR AöR in der Liste der Beitragenden. Eine Nennung der VRR AöR bei jeder Verwendung der Daten auch durch Lizenznehmer des oben genannten Datenbankwerks ist dann nicht mehr erforderlich. Eine indirekte Nennung (Verweis auf Herausgeber des Datenbankwerks, der wiederum auf die VRR AöR verweist) genügt." ;
         dcterms:title        "Soll-Fahrplandaten VRR" ;
-        cat:distribution     <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Januar+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+April+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+M%C3%A4rz+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+April+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Februar+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+September+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Juli+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Juni+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Mai+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+November+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Mai+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Dezember+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Oktober+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+M%C3%A4rz+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+September+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+August+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Juni+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Juli+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Oktober+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Februar+2019+> ;
+        cat:distribution     <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Januar+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Dezember+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+April+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+M%C3%A4rz+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+April+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Februar+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+September+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Juli+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Juni+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Mai+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+November+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Mai+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Dezember+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Oktober+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+M%C3%A4rz+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+September+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+August+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Juni+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Juli+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Oktober+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Februar+2019+> ;
         cat:keyword          "Soll-Fahrplandaten" , "GTFS" , "VRR" ;
         cat:landingPage      <https://openvrr.de/> .
 
@@ -616,8 +654,16 @@
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten DELFI GTFS " ;
-        cat:accessURL   <https://www.opendata-oepnv.de/fileadmin/datasets/delfi/20201128_fahrplaene_gesamtdeutschland_gtfs.zip> ;
+        cat:accessURL   <https://www.opendata-oepnv.de/fileadmin/datasets/delfi/20201223_fahrplaene_gesamtdeutschland_gtfs.zip> ;
         cat:mediaType   "application/zip" .
+
+<https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.12.18>
+        a               cat:Distribution ;
+        dcterms:format  "ZIP" ;
+        dcterms:title   "ÖPNV-Daten Westfalen-Lippe 2020.12.18" ;
+        cat:accessURL   <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/6ac8e794-6145-48e9-b7fa-086ce41c5e41/download/gtfs-nwl-20201218.zip> ;
+        cat:byteSize    "1.4834048E7"^^xsd:decimal ;
+        cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/dataset/liniendaten-rnv>
         a                    cat:Dataset ;
@@ -627,24 +673,30 @@
                 "liniendaten-rnv" ;
         dcterms:description  "Mit diesem Datensatz stellen wir Ihnen stets eine aktuelle Übersicht unserer rnv-Linien bereit. Sie können den Dateien unter anderem entnehmen, aus welchen Fahrten sich unsere Linien zusammensetzen und welche Haltestellen jeweils angefahren werden." ;
         dcterms:title        "Liniendaten RNV" ;
-        cat:distribution     <https://www.opendata-oepnv.de/distribution/Liniendaten+rnv+XML> , <https://www.opendata-oepnv.de/distribution/Liniendaten+rnv+JSON> , <https://www.opendata-oepnv.de/distribution/Liniendaten+rvn+ZIP> ;
+        cat:distribution     <https://www.opendata-oepnv.de/distribution/Liniengruppen+RNV+-+Dezember+2020> , <https://www.opendata-oepnv.de/distribution/Liniendaten+rnv+XML> , <https://www.opendata-oepnv.de/distribution/Liniendaten+rnv+JSON> , <https://www.opendata-oepnv.de/distribution/Liniendaten+rvn+ZIP> ;
         cat:keyword          "Liniendaten" , "Haltestellen" ;
         cat:landingPage      <https://opendata.rnv-online.de/dataset/linien-mit-haltestellenreferenz> .
 
-<https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+01.12.2020+>
+<https://www.opendata-oepnv.de/distribution/GTFS+-+2017+RNV+-+Dezember+2018>
+        a                    cat:Distribution ;
+        dcterms:description  "<p>Die Daten in diesem Datenpaket enthalten alle GTFS-Datensätze für das Jahr <strong>2017</strong>.</p>\n<p>Alle weiteren Informationen zum Format, sowie Links zur Dokumentation, etc. finden Sie im Beschreibungstext des <a href=\"http://opendata-rnv.prev.ueberbit.de/dataset/gtfs\" target=\"_blank\">Datensatzes</a>.</p>\n</p>\n" ;
+        dcterms:format       "ZIP" ;
+        dcterms:title        "GTFS - 2017 RNV - Dezember 2018" ;
+        cat:accessURL        <https://opendata.rnv-online.de/sites/default/files/2017_rnv-GTFS.zip> ;
+        cat:mediaType        "application/zip" .
+
+<https://www.opendata-oepnv.de/distribution/Upload%3A+HVV_Rohdaten_GTFS_Fpl_20190207+-+Dezember+2019>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
-        dcterms:title   "Soll-Fahrplandaten VVS - 01.12.2020 " ;
-        cat:accessURL   <https://www.opendata-oepnv.de/dataset/d1768457-c717-45ea-8e26-dd1e759d5ffe/resource/07816448-004d-4abf-b228-31eee789cd8a/download/google_transit.zip> ;
-        cat:byteSize    "63995376"^^xsd:decimal ;
-        cat:mediaType   "application/x-zip-compressed" .
+        dcterms:title   "Upload: HVV_Rohdaten_GTFS_Fpl_20190207 - Dezember 2019" ;
+        cat:accessURL   <http://daten.transparenz.hamburg.de/Dataport.HmbTG.ZS.Webservice.GetRessource100/GetRessource100.svc/32aedec8-c69f-4053-a5e8-9b1267eb25de/Upload__HVV_Rohdaten_GTFS_Fpl_20190207.zip> .
 
 <https://www.opendata-oepnv.de/distribution/HVV+Liniendaten+Februar+2020>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
         dcterms:title   "HVV Liniendaten Februar 2020" ;
         cat:accessURL   <https://cms.opendata-oepnv.de/dataset/f4fb9293-ebb1-4663-838a-d7c8690b7333/resource/e9f0b9f5-7e58-4d7d-82cd-0471e21eda4e/download/20200212_hvv-linien.zip> ;
-        cat:byteSize    "13557"^^xsd:decimal ;
+        cat:byteSize    13557.0 ;
         cat:mediaType   "application/zip" .
 
 <https://www.opendata-oepnv.de/dataset/haltestellen-vvs>
@@ -655,15 +707,8 @@
                 "haltestellen-vvs" ;
         dcterms:description  "Die Datensätze beinhalten eine Auflistung aller Haltestellen im VVS mit Zusatzinformationen wie Koordinaten, bedienende Linien oder Tarifzugehörigkeit." ;
         dcterms:title        "Haltestellen VVS" ;
-        cat:distribution     <https://www.opendata-oepnv.de/distribution/Steige+im+VVS+-+CSV+> , <https://www.opendata-oepnv.de/distribution/Haltestellen+im+VVS+-+CSV+> ;
+        cat:distribution     <https://www.opendata-oepnv.de/distribution/Steige+im+VVS+-+Dezember+2018> , <https://www.opendata-oepnv.de/distribution/Haltestellen+im+VVS+-+Dezember+2018> , <https://www.opendata-oepnv.de/distribution/Haltestellen+im+VVS+-+CSV+> , <https://www.opendata-oepnv.de/distribution/Steige+im+VVS+-+CSV+> ;
         cat:landingPage      <https://www.openvvs.de/> .
-
-<https://www.opendata-oepnv.de/distribution/Download+Haltestellennamen+Hamburg+mit+GK-Koordinaten+%28XLS%29+%28CSV-Version+in+einer+ZIP-Datei%29>
-        a               cat:Distribution ;
-        dcterms:format  "ZIP" ;
-        dcterms:title   "Download Haltestellennamen Hamburg mit GK-Koordinaten (XLS) (CSV-Version in einer ZIP-Datei)" ;
-        cat:accessURL   <http://suche.transparenz.hamburg.de/localresources/HMDK/C808461E-8AB3-4B43-914C-72ECCEAB3365/HVV-Haltestellen_HH_2013-08-22.zip> ;
-        cat:byteSize    "675630"^^xsd:decimal .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Oktober+2019>
         a                    cat:Distribution ;
@@ -671,15 +716,23 @@
         dcterms:format       "ZIP" ;
         dcterms:title        "Soll-Fahrplandaten VRR - Oktober 2019" ;
         cat:accessURL        <https://www.opendata-oepnv.de/dataset/496eea5d-d6ef-4dc2-aeb0-d15c4fbf3178/resource/7a1acfcf-5e62-4c2b-91df-ccc727ed593b/download/2019_10_02_google_transit_verbundweit_inkl_spnv.zip> ;
-        cat:byteSize         "28170222"^^xsd:decimal ;
+        cat:byteSize         "2.8170222E7"^^xsd:decimal ;
         cat:mediaType        "application/zip" .
+
+<https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+20.+Dezember+2020+>
+        a               cat:Distribution ;
+        dcterms:format  "ZIP" ;
+        dcterms:title   "Soll-Fahrplandaten VVS - 20. Dezember 2020 " ;
+        cat:accessURL   <https://www.opendata-oepnv.de/dataset/d1768457-c717-45ea-8e26-dd1e759d5ffe/resource/6b491ece-25be-4112-9094-e15d2a6e476c/download/google_transit.zip> ;
+        cat:byteSize    "3.7289701E7"^^xsd:decimal ;
+        cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/P%26R%2FB%26R+an+SPNV-Stationen>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
         dcterms:title   "P&R/B&R an SPNV-Stationen" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/b5615e49-d49a-41a6-9f24-a3514f1945f0/resource/9d9ee08c-10fc-4a46-8e2a-94aab5192b9f/download/park-and-ride_bide-and-ride_spnv-stationen_vrr_version21022018.csv> ;
-        cat:byteSize    "13630"^^xsd:decimal ;
+        cat:byteSize    13630.0 ;
         cat:mediaType   "application/vnd.ms-excel" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+24.+November+2020+>
@@ -687,7 +740,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VVS - 24. November 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/d1768457-c717-45ea-8e26-dd1e759d5ffe/resource/72a3af05-50e4-44a3-89cd-989f87a3993d/download/google_transit.zip> ;
-        cat:byteSize    "63461642"^^xsd:decimal ;
+        cat:byteSize    "6.3461642E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+Juli+2020+>
@@ -695,7 +748,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VVS - Juli 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/d1768457-c717-45ea-8e26-dd1e759d5ffe/resource/f42af0c3-e6d4-4fc9-bbe8-d8ccdbf50e32/download/vvs_gtfs.zip> ;
-        cat:byteSize    "39348585"^^xsd:decimal ;
+        cat:byteSize    "3.9348585E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/Haltestellen+rnv+JSON>
@@ -703,7 +756,7 @@
         dcterms:format  "JSON" ;
         dcterms:title   "Haltestellen rnv JSON" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/ed24c0cc-e9d0-414e-be99-d6c3d909818e/resource/791cddc8-aee9-4606-a65f-141fef14b831/download/haltestellen_153.json> ;
-        cat:byteSize    "144867"^^xsd:decimal ;
+        cat:byteSize    144867.0 ;
         cat:mediaType   "application/json" .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.09.02>
@@ -712,7 +765,15 @@
         dcterms:format       "ZIP" ;
         dcterms:title        "ÖPNV-Daten Westfalen-Lippe 2019.09.02" ;
         cat:accessURL        <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/4d0c5ba1-e167-4176-a174-afd9c6c6d49d/download/opnv-daten-westfalen-lippe-20190902.zip> ;
-        cat:byteSize         "13912651"^^xsd:decimal ;
+        cat:byteSize         "1.3912651E7"^^xsd:decimal ;
+        cat:mediaType        "application/zip" .
+
+<https://www.opendata-oepnv.de/distribution/GTFS+-+2016+RNV+-+Dezember+2017>
+        a                    cat:Distribution ;
+        dcterms:description  "<p>Die Daten in diesem Datenpaket enthalten alle GTFS-Datensätze für das Jahr <strong>2016</strong>.</p>\n<p>Alle weiteren Informationen zum Format, sowie Links zur Dokumentation, etc. finden Sie im Beschreibungstext des <a href=\"http://opendata-rnv.prev.ueberbit.de/dataset/gtfs\" target=\"_blank\">Datensatzes</a>.</p>\n</p>\n" ;
+        dcterms:format       "ZIP" ;
+        dcterms:title        "GTFS - 2016 RNV - Dezember 2017" ;
+        cat:accessURL        <https://opendata.rnv-online.de/sites/default/files/2016_rnv-GTFS.zip> ;
         cat:mediaType        "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+M%C3%A4rz+2020+>
@@ -720,7 +781,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VRR - März 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/496eea5d-d6ef-4dc2-aeb0-d15c4fbf3178/resource/92dee65c-7bd9-4464-ab6f-d7847919c427/download/2020_03_03_google_transit_verbundweit_inkl_spnv.zip> ;
-        cat:byteSize    "25795130"^^xsd:decimal ;
+        cat:byteSize    "2.579513E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.01.27>
@@ -728,7 +789,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "ÖPNV-Daten Westfalen-Lippe 2020.01.27" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/6aa175cc-1920-405b-81a7-a580a562ca6a/download/gtfs-nwl-2020.01.27.zip> ;
-        cat:byteSize    "13995516"^^xsd:decimal ;
+        cat:byteSize    "1.3995516E7"^^xsd:decimal ;
         cat:mediaType   "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+M%C3%A4rz+2020+>
@@ -736,7 +797,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten HVV - März 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/1e4084a2-147c-47e9-b79b-b7d57da6eee3/resource/bcd48753-24d2-4a0b-afe1-61a0c3cb686b/download/upload__hvv_rohdaten_gtfs_fpl_20200312.zip> ;
-        cat:byteSize    "32528806"^^xsd:decimal ;
+        cat:byteSize    "3.2528806E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+August+2020+>
@@ -744,8 +805,15 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VVS - August 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/d1768457-c717-45ea-8e26-dd1e759d5ffe/resource/b0a2b188-99fa-4907-ad7a-cb6d70d9926e/download/vvs_gtfs.zip> ;
-        cat:byteSize    "40044275"^^xsd:decimal ;
+        cat:byteSize    "4.0044275E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
+
+<https://www.opendata-oepnv.de/distribution/Aktueller+GTFS-Datensatz+des+VVS+-+Dezember+2018>
+        a               cat:Distribution ;
+        dcterms:format  "ZIP" ;
+        dcterms:title   "Aktueller GTFS-Datensatz des VVS - Dezember 2018" ;
+        cat:accessURL   <https://www.openvvs.de/dataset/e66f03e4-79f2-41d0-90f1-166ca609e491/resource/bfbb59c7-767c-4bca-bbb2-d8d32a3e0378/download/google_transit.zip> ;
+        cat:mediaType   "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Dezember+2019>
         a                    cat:Distribution ;
@@ -753,7 +821,7 @@
         dcterms:format       "ZIP" ;
         dcterms:title        "Soll-Fahrplandaten VRR - Dezember 2019" ;
         cat:accessURL        <https://www.opendata-oepnv.de/dataset/496eea5d-d6ef-4dc2-aeb0-d15c4fbf3178/resource/06c907e1-5627-4335-9769-fa0462f79e25/download/vrr_2019_12_03_google_transit_verbundweit_inkl_spnv.zip> ;
-        cat:byteSize         "33646682"^^xsd:decimal ;
+        cat:byteSize         "3.3646682E7"^^xsd:decimal ;
         cat:mediaType        "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+AVV+-+Dezember+2019+>
@@ -761,8 +829,14 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten AVV - Dezember 2019 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/dede57c7-9601-43cd-9fb6-8ab4c27412d2/resource/d00de7a2-d1a4-4f5b-8f34-f3b0bdf7cea2/download/avv_gtfs_masten_mit_spnv_december_2019.zip> ;
-        cat:byteSize    "24418334"^^xsd:decimal ;
+        cat:byteSize    "2.4418334E7"^^xsd:decimal ;
         cat:mediaType   "application/zip" .
+
+<https://www.opendata-oepnv.de/distribution/Upload%3A+HVV_Rohdaten_GTFS_Fpl_20180606+-+Dezember+2018>
+        a               cat:Distribution ;
+        dcterms:format  "ZIP" ;
+        dcterms:title   "Upload: HVV_Rohdaten_GTFS_Fpl_20180606 - Dezember 2018" ;
+        cat:accessURL   <http://daten.transparenz.hamburg.de/Dataport.HmbTG.ZS.Webservice.GetRessource100/GetRessource100.svc/8223dab3-c1a9-471d-861f-618d75aebd75/Upload__HVV_Rohdaten_GTFS_Fpl_20180606.zip> .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+August+2019>
         a                    cat:Distribution ;
@@ -770,7 +844,7 @@
         dcterms:format       "ZIP" ;
         dcterms:title        "Soll-Fahrplandaten VRR - August 2019" ;
         cat:accessURL        <https://www.opendata-oepnv.de/dataset/496eea5d-d6ef-4dc2-aeb0-d15c4fbf3178/resource/0c9a4926-88db-4608-9089-284949995019/download/2019_08_06-google_transit_verbundweit_mit_spnv.zip> ;
-        cat:byteSize         "27264686"^^xsd:decimal ;
+        cat:byteSize         "2.7264686E7"^^xsd:decimal ;
         cat:mediaType        "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Mai+2020>
@@ -778,7 +852,15 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VRR - Mai 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/496eea5d-d6ef-4dc2-aeb0-d15c4fbf3178/resource/05e7a1b7-62d8-4608-8b53-5bb4c8498b51/download/2020_05_04_google_transit_verbundweit_inkl_spnv.zip> ;
-        cat:byteSize    "24914183"^^xsd:decimal ;
+        cat:byteSize    "2.4914183E7"^^xsd:decimal ;
+        cat:mediaType   "application/x-zip-compressed" .
+
+<https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+08.+Dezember+2020+>
+        a               cat:Distribution ;
+        dcterms:format  "ZIP" ;
+        dcterms:title   "Soll-Fahrplandaten VVS - 08. Dezember 2020 " ;
+        cat:accessURL   <https://www.opendata-oepnv.de/dataset/d1768457-c717-45ea-8e26-dd1e759d5ffe/resource/23812d9e-d5a0-4a6f-8993-8837584456b0/download/google_transit.zip> ;
+        cat:byteSize    "6.4834445E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRS+-+Oktober+2020>
@@ -786,7 +868,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VRS - Oktober 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/19460e8a-bb64-4103-a429-4e5eec4578e9/resource/7081ad78-e363-4c60-b83b-5c131cc5334a/download/gtfs_vrs_mit_spnv.zip> ;
-        cat:byteSize    "19442735"^^xsd:decimal ;
+        cat:byteSize    "1.9442735E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.05.15>
@@ -794,7 +876,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "ÖPNV-Daten Westfalen-Lippe 2020.05.15" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/146e8741-f75d-4e4a-8277-fcd386d4f7a7/download/gtfs-nwl-20200515.zip> ;
-        cat:byteSize    "12721822"^^xsd:decimal ;
+        cat:byteSize    "1.2721822E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.09.10>
@@ -803,7 +885,7 @@
         dcterms:format       "ZIP" ;
         dcterms:title        "ÖPNV-Daten Westfalen-Lippe 2019.09.10" ;
         cat:accessURL        <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/ea97adff-17b8-4e32-b6ef-bad3dfd25b44/download/opnv-daten-westfalen-lippe-2019.09.10.zip> ;
-        cat:byteSize         "13929401"^^xsd:decimal ;
+        cat:byteSize         "1.3929401E7"^^xsd:decimal ;
         cat:mediaType        "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.01.14>
@@ -811,7 +893,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "ÖPNV-Daten Westfalen-Lippe 2020.01.14" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/1d4d1d43-eb7a-4ea5-9674-bce3d810605a/download/gtfs-nwl-20200114.zip> ;
-        cat:byteSize    "13673985"^^xsd:decimal ;
+        cat:byteSize    "1.3673985E7"^^xsd:decimal ;
         cat:mediaType   "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Steige+im+VVS+-+CSV+>
@@ -819,7 +901,7 @@
         dcterms:format  "CSV" ;
         dcterms:title   "Steige im VVS - CSV " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/806d603a-4ef0-4d7f-8f2f-e4b5b75bfa43/resource/54b2a44c-426c-45ee-b983-84efe41342c7/download/vvs_steige_j21.csv> ;
-        cat:byteSize    "1323198"^^xsd:decimal ;
+        cat:byteSize    1323198.0 ;
         cat:mediaType   "application/vnd.ms-excel" .
 
 <https://www.opendata-oepnv.de/distribution/Linienfarben+VBB>
@@ -832,7 +914,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VRR - Februar 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/496eea5d-d6ef-4dc2-aeb0-d15c4fbf3178/resource/b10debf3-f823-4194-8dc0-9a46a081fd13/download/2020_02_05_google_transit_verbundweit_inkl_spnv_.zip> ;
-        cat:byteSize    "25014423"^^xsd:decimal ;
+        cat:byteSize    "2.5014423E7"^^xsd:decimal ;
         cat:mediaType   "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRS+-+M%C3%A4rz+2020+>
@@ -840,8 +922,16 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VRS - März 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/19460e8a-bb64-4103-a429-4e5eec4578e9/resource/2d23a4b4-37ec-4d49-b895-0b51e89c290e/download/google_transit.zip> ;
-        cat:byteSize    "14025207"^^xsd:decimal ;
+        cat:byteSize    "1.4025207E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
+
+<https://www.opendata-oepnv.de/distribution/GTFS+-+2020+%28Erste+H%C3%A4lfte%29+RNV+-+Dezember+2020>
+        a                    cat:Distribution ;
+        dcterms:description  "<p>Die Daten in diesem Datenpaket enthalten alle GTFS-Datensätze für das erste Halbjahr <strong>2020</strong>.</p>\n<p>Alle weiteren Informationen zum Format, sowie Links zur Dokumentation, etc. finden Sie im Beschreibungstext des <a href=\"http://opendata-rnv.prev.ueberbit.de/dataset/gtfs\" target=\"_blank\">Datensatzes</a>.</p>\n</p>\n" ;
+        dcterms:format       "ZIP" ;
+        dcterms:title        "GTFS - 2020 (Erste Hälfte) RNV - Dezember 2020" ;
+        cat:accessURL        <https://opendata.rnv-online.de/sites/default/files/2020firstHalf_rnv-GTFS.zip> ;
+        cat:mediaType        "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+RNV+-+Aktueller+Datensatz>
         a               cat:Distribution ;
@@ -855,15 +945,21 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VRS - April 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/19460e8a-bb64-4103-a429-4e5eec4578e9/resource/71186fd5-82e4-4bf9-b634-ec52de20367c/download/gtfs_vrs_mit_spnv.zip> ;
-        cat:byteSize    "23117589"^^xsd:decimal ;
+        cat:byteSize    "2.3117589E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
+
+<https://www.opendata-oepnv.de/distribution/Upload%3A+HVV_Rohdaten_GTFS_Fpl_20200211+-+Dezember+2020>
+        a               cat:Distribution ;
+        dcterms:format  "ZIP" ;
+        dcterms:title   "Upload: HVV_Rohdaten_GTFS_Fpl_20200211 - Dezember 2020" ;
+        cat:accessURL   <http://daten.transparenz.hamburg.de/Dataport.HmbTG.ZS.Webservice.GetRessource100/GetRessource100.svc/b5f71a77-e622-4b34-82d4-c921a9c71be5/Upload__HVV_Rohdaten_GTFS_Fpl_20200211.zip> .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.04.09>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
         dcterms:title   "ÖPNV-Daten Westfalen-Lippe 2020.04.09" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/ef5eee54-22d8-447b-a4e1-c7791af913b5/download/gtfs-nwl-20200409.zip> ;
-        cat:byteSize    "11699928"^^xsd:decimal ;
+        cat:byteSize    "1.1699928E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/dataset/soll-fahrplandaten-rnv>
@@ -874,7 +970,7 @@
                 "soll-fahrplandaten-rnv" ;
         dcterms:description  "In dieser Ressource hinterlegen wir stets den aktuellsten GTFS-Datensatz. Dieser wird ca. wöchentlich aktualisiert.\r\n\r\nDatensätze im GTFS-Format umfassen Informationen zu Linien, Haltestellen, Verläufen, Fahrplandaten usw. und werden unter anderem in Kartendiensten wie google-Maps integriert." ;
         dcterms:title        "Soll-Fahrplandaten RNV" ;
-        cat:distribution     <https://www.opendata-oepnv.de/distribution/GTFS+-+General+Transit+Feed+Specification+-+14.07.2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+RNV+-+Aktueller+Datensatz> , <https://www.opendata-oepnv.de/distribution/GTFS+-+General+Transit+Feed+Specification+-+05.08.2020> ;
+        cat:distribution     <https://www.opendata-oepnv.de/distribution/GTFS+-+2017+RNV+-+Dezember+2018> , <https://www.opendata-oepnv.de/distribution/rnv-GTFS+RNV+-+Dezember+2020> , <https://www.opendata-oepnv.de/distribution/GTFS+-+2016+RNV+-+Dezember+2017> , <https://www.opendata-oepnv.de/distribution/GTFS+-+2018+RNV+-+Dezember+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+RNV+-+Aktueller+Datensatz> , <https://www.opendata-oepnv.de/distribution/GTFS+-+2019+RNV+-+Dezember+2020> , <https://www.opendata-oepnv.de/distribution/GTFS+-+2020+%28Erste+H%C3%A4lfte%29+RNV+-+Dezember+2020> ;
         cat:keyword          "GTFS" ;
         cat:landingPage      <https://opendata.rnv-online.de/dataset/gtfs-general-transit-feed-specification> .
 
@@ -886,15 +982,14 @@
                 "qualitaets_bericht_vrr" ;
         dcterms:description  "Bereits seit vielen Jahren informiert der Verkehrsverbund Rhein-Ruhr mit seinen Berichten über die Leistungsfähigkeit des Schienenpersonennahverkehrs (SPNV) in der Region. Der Qualitätsbericht für den VRR ein wertvolles Instrument, um den SPNV gemeinsam mit Infrastrukturbetreibern und Eisenbahnverkehrsunternehmen im Sinne der Kunden positiv zu gestalten.\r\n\r\nWenn die Daten der Verkehrsverbund Rhein-Ruhr AöR (VRR AöR) Bestandteil des OpenStreetMap Datenbankwerkes werden, genügt eine Nennung der VRR AöR in der Liste der Beitragenden. Eine Nennung der VRR AöR bei jeder Verwendung der Daten auch durch Lizenznehmer des oben genannten Datenbankwerks ist dann nicht mehr erforderlich. Eine indirekte Nennung (Verweis auf Herausgeber des Datenbankwerks, der wiederum auf die VRR AöR verweist) genügt.\r\n" ;
         dcterms:title        "Qualitätsbericht" ;
-        cat:distribution     <https://www.opendata-oepnv.de/distribution/Rohdaten+Qualit%C3%A4tsbericht+2019> ;
-        cat:landingPage      <file:///home/lisa/repos/crawling/Openvrr> .
+        cat:distribution     <https://www.opendata-oepnv.de/distribution/Rohdaten+Qualit%C3%A4tsbericht+2019> .
 
 <https://www.opendata-oepnv.de/distribution/HVV+Haltestellen+Februar+2020>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
         dcterms:title   "HVV Haltestellen Februar 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/0379fd7a-3ef1-47ed-9432-9dc3f53e8e00/resource/f0577173-4bcd-4cc5-a24e-5ddde4da16dd/download/20200212_hvv-haltestellen.zip> ;
-        cat:byteSize    "170224"^^xsd:decimal ;
+        cat:byteSize    170224.0 ;
         cat:mediaType   "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.08.18>
@@ -902,7 +997,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "ÖPNV-Daten Westfalen-Lippe 2020.08.18" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/14c046c9-51c3-4027-9e6b-cca2b24d1845/download/gtfs-nwl-20200818.zip> ;
-        cat:byteSize    "14252066"^^xsd:decimal ;
+        cat:byteSize    "1.4252066E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Juli+2020>
@@ -910,7 +1005,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VRR - Juli 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/496eea5d-d6ef-4dc2-aeb0-d15c4fbf3178/resource/837ac477-e308-432d-a8b9-d6ef8c736ad0/download/2020_07_02_google_transit_verbundweit_inkl_spnv.zip> ;
-        cat:byteSize    "27760699"^^xsd:decimal ;
+        cat:byteSize    "2.7760699E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/dataset/haltestellendaten-rnv>
@@ -921,7 +1016,7 @@
                 "haltestellendaten-rnv" ;
         dcterms:description  "Der Datensatz \"Haltestellen\" bietet allen, die kein komplexes Fahrplandatenpaket benötigen, eine schlichte Auflistung der Haltestellen, die von rnv-Linien angefahren werden.\r\n\r\nDie Haltestellen-Pakete werden in den Formaten XML und JSON bereitgestellt. Eine station, mit Attribut name und id, hat mehrere stops. Diese sind georeferenziert (lat und lon) und haben ebenfalls eine id, die stop_id.\r\n" ;
         dcterms:title        "Haltestellendaten RNV" ;
-        cat:distribution     <https://www.opendata-oepnv.de/distribution/Haltestellen+rnv+XML> , <https://www.opendata-oepnv.de/distribution/Haltestellen+rnv+JSON> , <https://www.opendata-oepnv.de/distribution/Haltestellen+rnv+ZIP> ;
+        cat:distribution     <https://www.opendata-oepnv.de/distribution/Haltestellen+rnv+XML> , <https://www.opendata-oepnv.de/distribution/Haltestellen+rnv+JSON> , <https://www.opendata-oepnv.de/distribution/Haltestellen+rnv+ZIP> , <https://www.opendata-oepnv.de/distribution/Haltestellen+RNV+-+Dezember+2020> ;
         cat:keyword          "Haltestellen" ;
         cat:landingPage      <https://opendata.rnv-online.de/dataset/haltestellen> .
 
@@ -930,7 +1025,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten AVV - Februar 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/dede57c7-9601-43cd-9fb6-8ab4c27412d2/resource/e477a179-7fb7-4f70-9060-b10bd745ce0a/download/avv_gtfs_masten_mit_spnv_und_arr-lim.zip> ;
-        cat:byteSize    "24398639"^^xsd:decimal ;
+        cat:byteSize    "2.4398639E7"^^xsd:decimal ;
         cat:mediaType   "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.08.12>
@@ -939,7 +1034,7 @@
         dcterms:format       "ZIP" ;
         dcterms:title        "ÖPNV-Daten Westfalen-Lippe 2019.08.12" ;
         cat:accessURL        <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/7c2d624f-33bc-4e79-85db-cefdfaa77cb3/download/opnv-daten-westfalen-lippe-20190812.zip> ;
-        cat:byteSize         "13759602"^^xsd:decimal ;
+        cat:byteSize         "1.3759602E7"^^xsd:decimal ;
         cat:mediaType        "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+April+2020+>
@@ -947,7 +1042,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten HVV - April 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/1e4084a2-147c-47e9-b79b-b7d57da6eee3/resource/5247ea5c-f65a-43c8-b195-26c22dd8ea14/download/upload__hvv_rohdaten_gtfs_fpl_20200406.zip> ;
-        cat:byteSize    "32124426"^^xsd:decimal ;
+        cat:byteSize    "3.2124426E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRS+-+Mai+2020+>
@@ -955,7 +1050,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VRS - Mai 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/19460e8a-bb64-4103-a429-4e5eec4578e9/resource/84b1a397-1692-47b1-8ffb-86b0a23f49a6/download/gtfs_vrs_mit_spnv.zip> ;
-        cat:byteSize    "24834219"^^xsd:decimal ;
+        cat:byteSize    "2.4834219E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/Haltestellen+rnv+XML>
@@ -963,7 +1058,7 @@
         dcterms:format  "XML" ;
         dcterms:title   "Haltestellen rnv XML" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/ed24c0cc-e9d0-414e-be99-d6c3d909818e/resource/53fd3a4b-5cc1-4275-b492-79f93866b2b4/download/haltestellen_152.xml> ;
-        cat:byteSize    "173331"^^xsd:decimal ;
+        cat:byteSize    173331.0 ;
         cat:mediaType   "text/xml" .
 
 <https://www.opendata-oepnv.de/distribution/Linien+in+VVS+-+CSV+>
@@ -971,7 +1066,7 @@
         dcterms:format  "CSV" ;
         dcterms:title   "Linien in VVS - CSV " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/4306890a-ef3b-4589-be93-9351613fbc11/resource/5602fae6-072e-4870-8a72-d0f2685ee043/download/vvs_linien_j21.csv> ;
-        cat:byteSize    "51701"^^xsd:decimal ;
+        cat:byteSize    51701.0 ;
         cat:mediaType   "application/vnd.ms-excel" .
 
 <https://www.opendata-oepnv.de/dataset/liniendaten-hvv>
@@ -985,44 +1080,34 @@
         cat:distribution     <https://www.opendata-oepnv.de/distribution/HVV+Liniendaten+Februar+2020> ;
         cat:landingPage      <https://www.hvv.de/de/fahrplaene/abruf-fahrplaninfos/datenabruf> .
 
-<https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+November+2019>
-        a               cat:Distribution ;
-        dcterms:format  "ZIP" ;
-        dcterms:title   "Soll-Fahrplandaten VVS - November 2019" ;
-        cat:accessURL   <https://www.opendata-oepnv.de/dataset/d1768457-c717-45ea-8e26-dd1e759d5ffe/resource/7a80c55b-db9f-4a97-be6c-0685fae32027/download/soll-fahrplandaten-vvs-november-2019.zip> ;
-        cat:byteSize    "10505516"^^xsd:decimal ;
-        cat:mediaType   "application/zip" .
-
-<https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+Februar+2020>
-        a               cat:Distribution ;
-        dcterms:format  "ZIP" ;
-        dcterms:title   "Soll-Fahrplandaten VVS - Februar 2020" ;
-        cat:accessURL   <https://www.opendata-oepnv.de/dataset/d1768457-c717-45ea-8e26-dd1e759d5ffe/resource/23902a4c-7c5a-4ac0-aee5-b031ca45d5e5/download/soll-fahrplandaten-vvs-februar-2020.zip> ;
-        cat:byteSize    "13142587"^^xsd:decimal ;
-        cat:mediaType   "application/zip" .
+<https://www.opendata-oepnv.de/distribution/Haltestellen+RNV+-+Dezember+2020>
+        a                    cat:Distribution ;
+        dcterms:description  "<p>Haltestellen im JSON-Format.</p>\n<h3>Verwendete Attribute:</h3>\n<dl>\n<dt>station</dt>\n<dd>Haltestelle</dd>\n<dt>GlobalID</dt>\n<dd>Weltweit einmalige Haltestellen-ID. Aufbau: Land, Ortskennziffer, HaltestellenID.</dd>\n<dt>hafasID</dt>\n<dd>HaltestellenID als Teil der GlobalID</dd>\n<dt>pole</dt>\n<dd>Masten. Eine Haltestelle hat mindestens einen Masten.</dd>\n<dt>lat</dt>\n<dd>Latitude (Breitengrad)</dd>\n<dt>long</dt>\n<dd>Longitude (Längengrad)</dd>\n</dl>\n" , "<p>Haltestellen im XML-Format.</p>\n<h3>Verwendete Attribute:</h3>\n<dl>\n<dt>station</dt>\n<dd>Haltestelle</dd>\n<dt>GlobalID</dt>\n<dd>Weltweit einmalige Haltestellen-ID. Aufbau: Land, Ortskennziffer, HaltestellenID.</dd>\n<dt>hafasID</dt>\n<dd>HaltestellenID als Teil der GlobalID</dd>\n<dt>pole</dt>\n<dd>Masten. Eine Haltestelle hat mindestens einen Masten.</dd>\n<dt>lat</dt>\n<dd>Latitude (Breitengrad)</dd>\n<dt>long</dt>\n<dd>Longitude (Längengrad)</dd>\n</dl>\n" ;
+        dcterms:format       "JSON" , "XML" ;
+        dcterms:title        "Haltestellen RNV - Dezember 2020" ;
+        cat:accessURL        <https://rnvopendataportalpublic.blob.core.windows.net/public/openDataPortal/haltestellen.json> , <https://rnvopendataportalpublic.blob.core.windows.net/public/openDataPortal/haltestellen.xml> ;
+        cat:mediaType        "xml" , "json" .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.11.02>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
         dcterms:title   "ÖPNV-Daten Westfalen-Lippe 2020.11.02" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/5dea2a2f-e406-43fb-b06f-781385e835e8/download/gtfs-nwl-20201102.zip> ;
-        cat:byteSize    "13841522"^^xsd:decimal ;
+        cat:byteSize    "1.3841522E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
-<https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+April+2020>
+<https://www.opendata-oepnv.de/distribution/Upload%3A+HVV_Rohdaten_GTFS_Fpl_20190705+-+Dezember+2019>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
-        dcterms:title   "Soll-Fahrplandaten VVS - April 2020" ;
-        cat:accessURL   <https://www.opendata-oepnv.de/dataset/d1768457-c717-45ea-8e26-dd1e759d5ffe/resource/2323349c-73c2-4556-9cd7-a85f1925659e/download/vvs_gtfs.zip> ;
-        cat:byteSize    "10728113"^^xsd:decimal ;
-        cat:mediaType   "application/x-zip-compressed" .
+        dcterms:title   "Upload: HVV_Rohdaten_GTFS_Fpl_20190705 - Dezember 2019" ;
+        cat:accessURL   <http://daten.transparenz.hamburg.de/Dataport.HmbTG.ZS.Webservice.GetRessource100/GetRessource100.svc/de6dd43d-42f3-4fc0-8f52-4795f76f5860/Upload__HVV_Rohdaten_GTFS_Fpl_20190705.zip> .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+AVV+-+April+2020+>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten AVV - April 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/dede57c7-9601-43cd-9fb6-8ab4c27412d2/resource/66b11bdf-2eca-4bc7-8c47-09433ce0f7ed/download/avv_gtfs_masten_mit_spnv_und_arr-lim.zip> ;
-        cat:byteSize    "26264657"^^xsd:decimal ;
+        cat:byteSize    "2.6264657E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRS+-+Juli+2020+>
@@ -1030,7 +1115,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VRS - Juli 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/19460e8a-bb64-4103-a429-4e5eec4578e9/resource/77a4fd31-c2e0-48bf-a347-d434cc164ab3/download/gtfs_vrs_mit_spnv.zip> ;
-        cat:byteSize    "24422231"^^xsd:decimal ;
+        cat:byteSize    "2.4422231E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/dataset/linienfarben-vbb>
@@ -1041,8 +1126,7 @@
                 "linienfarben-vbb" ;
         dcterms:description  "Der Datensatz enthält die Farbwerte der Linien aus Berlin und Brandenburg. Die Fabrwerte sind als CMYK-Angabe, RAL, RGB und Hexadizimal-Wert vorhanden." ;
         dcterms:title        "Linienfarben VBB" ;
-        cat:distribution     <https://www.opendata-oepnv.de/distribution/Linienfarben+VBB> ;
-        cat:landingPage      <file:///home/lisa/repos/crawling/daten.berlin.de> .
+        cat:distribution     <https://www.opendata-oepnv.de/distribution/Linienfarben+VBB> .
 
 <https://www.opendata-oepnv.de/distribution/Haltestellen+VBB>
         a              cat:Distribution ;
@@ -1054,7 +1138,7 @@
         dcterms:format  "CSV" ;
         dcterms:title   "Haltestellen im VVS - CSV " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/806d603a-4ef0-4d7f-8f2f-e4b5b75bfa43/resource/ff5c6a2a-7dd1-4620-aa8a-812ff16484d9/download/vvs_haltestelle_j21.csv> ;
-        cat:byteSize    "676564"^^xsd:decimal ;
+        cat:byteSize    676564.0 ;
         cat:mediaType   "application/vnd.ms-excel" .
 
 <https://www.opendata-oepnv.de/dataset/soll-fahrplandaten-avv>
@@ -1074,15 +1158,23 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Aktuelle Liniendaten VRR" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/56a649d6-29bc-4246-908b-412f210587d1/resource/19a15d0a-2031-434e-ba1a-381c1cd546ce/download/liniendaten.zip> ;
-        cat:byteSize    "3298916"^^xsd:decimal ;
+        cat:byteSize    3298916.0 ;
         cat:mediaType   "application/x-zip-compressed" .
+
+<https://www.opendata-oepnv.de/distribution/GTFS+-+2019+RNV+-+Dezember+2020>
+        a                    cat:Distribution ;
+        dcterms:description  "<p>Die Daten in diesem Datenpaket enthalten alle GTFS-Datensätze für das Jahr <strong>2019</strong>.</p>\n<p>Alle weiteren Informationen zum Format, sowie Links zur Dokumentation, etc. finden Sie im Beschreibungstext des <a href=\"http://opendata-rnv.prev.ueberbit.de/dataset/gtfs\" target=\"_blank\">Datensatzes</a>.</p>\n</p>\n" ;
+        dcterms:format       "ZIP" ;
+        dcterms:title        "GTFS - 2019 RNV - Dezember 2020" ;
+        cat:accessURL        <https://opendata.rnv-online.de/sites/default/files/2019_rnv-GTFS.zip> ;
+        cat:mediaType        "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+Juni+2020>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VVS - Juni 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/d1768457-c717-45ea-8e26-dd1e759d5ffe/resource/2dc54570-2c48-4fd3-8fc4-a293d5726dd2/download/vvs_gtfs.zip> ;
-        cat:byteSize    "60865194"^^xsd:decimal ;
+        cat:byteSize    "6.0865194E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.10.11>
@@ -1091,7 +1183,7 @@
         dcterms:format       "ZIP" ;
         dcterms:title        "ÖPNV-Daten Westfalen-Lippe 2019.10.11" ;
         cat:accessURL        <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/dd32c991-ac43-431a-9892-ac74ec81c175/download/opnv-daten-westfalen-lippe-2019.10.11.zip> ;
-        cat:byteSize         "14217246"^^xsd:decimal ;
+        cat:byteSize         "1.4217246E7"^^xsd:decimal ;
         cat:mediaType        "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Juni+2019>
@@ -1100,7 +1192,7 @@
         dcterms:format       "ZIP" ;
         dcterms:title        "Soll-Fahrplandaten VRR - Juni 2019" ;
         cat:accessURL        <https://www.opendata-oepnv.de/dataset/496eea5d-d6ef-4dc2-aeb0-d15c4fbf3178/resource/4986d811-5bc8-420b-81ea-d4ad87db7f50/download/2019_06_03_google_transit_verbundweit_mit_evu.zip> ;
-        cat:byteSize         "27814032"^^xsd:decimal ;
+        cat:byteSize         "2.7814032E7"^^xsd:decimal ;
         cat:mediaType        "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VBB>
@@ -1108,20 +1200,40 @@
         dcterms:title  "Soll-Fahrplandaten VBB" ;
         cat:accessURL  <https://daten.berlin.de/datensaetze/vbb-fahrplandaten-gtfs> .
 
+<https://www.opendata-oepnv.de/distribution/Upload%3A+HVV_Rohdaten_GTFS_Fpl_20180705+-+Dezember+2018>
+        a               cat:Distribution ;
+        dcterms:format  "ZIP" ;
+        dcterms:title   "Upload: HVV_Rohdaten_GTFS_Fpl_20180705 - Dezember 2018" ;
+        cat:accessURL   <http://daten.transparenz.hamburg.de/Dataport.HmbTG.ZS.Webservice.GetRessource100/GetRessource100.svc/5e681ef6-62f3-452a-96b9-d5520d4dbcc8/Upload__HVV_Rohdaten_GTFS_Fpl_20180705.zip> .
+
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+AVV+-+Mai+2020+>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten AVV - Mai 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/dede57c7-9601-43cd-9fb6-8ab4c27412d2/resource/b43f44a6-a4df-4ae0-a9c7-d1657bbb73ed/download/avv_gtfs_masten_mit_spnv_und_arr-lim.zip> ;
-        cat:byteSize    "26724105"^^xsd:decimal ;
+        cat:byteSize    "2.6724105E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
+
+<https://www.opendata-oepnv.de/distribution/Liniengruppen+RNV+-+Dezember+2020>
+        a                    cat:Distribution ;
+        dcterms:description  "<p>Liniengruppen im JSON-Format.</p>\n<h3>Verwendete Attribute:   </h3>\n<dl>\n<dt>linegroup</dt>\n<dd>Liniengruppe. Enthält mehrere Linien, die sich auch im Typ des Transportmittels unterscheiden können und unterschiedliche Haltestellen bedienen. Liniengruppen mit Sonderzeichen (bspw. %, &amp; etc.) sind Sonderfahrten, bei der statt der Liniennummer Symbole dargestellt werden.</dd>\n<dt>line</dt>\n<dd>Linie</dd>\n<dt>type</dt>\n<dd>Typ des Transportmittels </dd>\n<dt>primarycolor</dt>\n<dd>Primärfarbe der Linie in hexadezimaler Farbdefinition</dd>\n</dl>\n" , "<p>Liniengruppen im XML-Format.</p>\n<h3>Verwendete Attribute:   </h3>\n<dl>\n<dt>linegroup</dt>\n<dd>Liniengruppe. Enthält mehrere Linien, die sich auch im Typ des Transportmittels unterscheiden können und unterschiedliche Haltestellen bedienen. Liniengruppen mit Sonderzeichen (bspw. %, &amp; etc.) sind Sonderfahrten, bei der statt der Liniennummer Symbole dargestellt werden.</dd>\n<dt>line</dt>\n<dd>Linie</dd>\n<dt>type</dt>\n<dd>Typ des Transportmittels</dd>\n<dt>primarycolor</dt>\n<dd>Primärfarbe der Linie in hexadezimaler Farbdefinition</dd>\n</dl>\n" ;
+        dcterms:format       "XML" , "JSON" ;
+        dcterms:title        "Liniengruppen RNV - Dezember 2020" ;
+        cat:accessURL        <https://rnvopendataportalpublic.blob.core.windows.net/public/openDataPortal/liniengruppen.xml> , <https://rnvopendataportalpublic.blob.core.windows.net/public/openDataPortal/liniengruppen.json> ;
+        cat:mediaType        "xml" , "json" .
+
+<https://www.opendata-oepnv.de/distribution/Upload%3A+HVV_Rohdaten_GTFS_Fpl_20190607+-+Dezember+2019>
+        a               cat:Distribution ;
+        dcterms:format  "ZIP" ;
+        dcterms:title   "Upload: HVV_Rohdaten_GTFS_Fpl_20190607 - Dezember 2019" ;
+        cat:accessURL   <http://daten.transparenz.hamburg.de/Dataport.HmbTG.ZS.Webservice.GetRessource100/GetRessource100.svc/d7ceb130-33a1-4686-b5f1-9d871723a7e4/Upload__HVV_Rohdaten_GTFS_Fpl_20190607.zip> .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+Februar+2020+>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten HVV - Februar 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/1e4084a2-147c-47e9-b79b-b7d57da6eee3/resource/8e294da6-6785-4df7-b3f5-890de8d1cba7/download/hvv_rohdaten_gtfs_fpl_20200212.zip> ;
-        cat:byteSize    "31517976"^^xsd:decimal ;
+        cat:byteSize    "3.1517976E7"^^xsd:decimal ;
         cat:mediaType   "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+Juni+2020+>
@@ -1129,7 +1241,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten HVV - Juni 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/1e4084a2-147c-47e9-b79b-b7d57da6eee3/resource/7ee2d397-f163-48c8-b1f6-5d13c9595341/download/upload__hvv_rohdaten_gtfs_fpl_20200605.zip> ;
-        cat:byteSize    "33875434"^^xsd:decimal ;
+        cat:byteSize    "3.3875434E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/NVV+Haltepositionen+%28Stand%3A+15.05.2019%29>
@@ -1138,7 +1250,7 @@
         dcterms:format       "CSV" , "XLSX" , "ZIP" ;
         dcterms:title        "NVV Haltepositionen (Stand: 15.05.2019)" ;
         cat:accessURL        <https://cms.opendata-oepnv.de/dataset/de3046af-d6f7-4f6d-8561-72a87f0bdf4e/resource/8d3bc3fd-1449-4b9e-92db-6fba1a5d96b0/download/190515-nvv-haltepositionen.xlsx> , <https://cms.opendata-oepnv.de/dataset/de3046af-d6f7-4f6d-8561-72a87f0bdf4e/resource/6357591b-d622-4127-9737-cfc5af3a6bdd/download/190515-nvv-haltepositionen.csv> , <https://cms.opendata-oepnv.de/dataset/de3046af-d6f7-4f6d-8561-72a87f0bdf4e/resource/4e428746-607c-4b68-9a02-84a2817f7e3b/download/190515-nvv-masten.zip> ;
-        cat:byteSize         "1688842"^^xsd:decimal , "780101"^^xsd:decimal , "493222"^^xsd:decimal ;
+        cat:byteSize         1688842.0 , 780101.0 , 493222.0 ;
         cat:mediaType        "application/zip" , "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" , "text/csv" .
 
 <https://www.opendata-oepnv.de/dataset/liniendaten-mvv>
@@ -1150,15 +1262,14 @@
         dcterms:description  "Die Liniendaten des MVV im CSV-Format" ;
         dcterms:title        "Liniendaten MVV" ;
         cat:distribution     <https://www.opendata-oepnv.de/distribution/Liniendaten+2019> , <https://www.opendata-oepnv.de/distribution/Liniendaten+2020> ;
-        cat:keyword          "Liniendaten" , "MVV" ;
-        cat:landingPage      <file:///home/lisa/repos/crawling/www.mvv-muenchen.de> .
+        cat:keyword          "MVV" , "Liniendaten" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+Mai+2020+>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten HVV - Mai 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/1e4084a2-147c-47e9-b79b-b7d57da6eee3/resource/8ad1af8f-5b36-47e0-97ec-b141e11ab62b/download/upload__hvv_rohdaten_gtfs_fpl_20200511.zip> ;
-        cat:byteSize    "32956115"^^xsd:decimal ;
+        cat:byteSize    "3.2956115E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/Liniendaten+rnv+XML>
@@ -1166,7 +1277,7 @@
         dcterms:format  "XML" ;
         dcterms:title   "Liniendaten rnv XML" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/499a92e4-c301-4d7a-83f3-f881fc1fb7c5/resource/ece98995-f3b6-456b-81a1-244ffb8da72d/download/linien_151.xml> ;
-        cat:byteSize    "313526"^^xsd:decimal ;
+        cat:byteSize    313526.0 ;
         cat:mediaType   "text/xml" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+April+2020>
@@ -1174,7 +1285,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VRR - April 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/496eea5d-d6ef-4dc2-aeb0-d15c4fbf3178/resource/4a34cff6-9061-494b-9cad-bfe3e116162a/download/2020_04_01_google_transit_verbundweit_inkl_spnv.zip> ;
-        cat:byteSize    "24312738"^^xsd:decimal ;
+        cat:byteSize    "2.4312738E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/Stadt-%2C+Linien-+%26+Netzpl%C3%A4ne>
@@ -1199,23 +1310,15 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "ÖPNV-Daten Westfalen-Lippe 2020.07.28" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/ac14702c-1e93-4ce4-9082-f83ed1c83a27/download/gtfs-nwl-20200728.zip> ;
-        cat:byteSize    "13568693"^^xsd:decimal ;
+        cat:byteSize    "1.3568693E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
-
-<https://www.opendata-oepnv.de/distribution/GTFS+-+General+Transit+Feed+Specification+-+05.08.2020>
-        a                    cat:Distribution ;
-        dcterms:description  "<p>Die Daten in diesem Datenpaket enthalten alle GTFS-Datensätze für das erste Halbjahr <strong>2020</strong>.</p>\n<p>Alle weiteren Informationen zum Format, sowie Links zur Dokumentation, etc. finden Sie im Beschreibungstext des <a href=\"http://opendata-rnv.prev.ueberbit.de/dataset/gtfs\" target=\"_blank\">Datensatzes</a>.</p>\n</p>\n" ;
-        dcterms:format       "ZIP" ;
-        dcterms:title        "GTFS - General Transit Feed Specification - 05.08.2020" ;
-        cat:accessURL        <https://opendata.rnv-online.de/sites/default/files/2020firstHalf_rnv-GTFS.zip> ;
-        cat:mediaType        "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Liniendaten+rnv+JSON>
         a               cat:Distribution ;
         dcterms:format  "JSON" ;
         dcterms:title   "Liniendaten rnv JSON" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/499a92e4-c301-4d7a-83f3-f881fc1fb7c5/resource/90e696c1-7c89-4c0b-aa82-9e749779a2ea/download/linien_151.json> ;
-        cat:byteSize    "201581"^^xsd:decimal ;
+        cat:byteSize    201581.0 ;
         cat:mediaType   "application/json" .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.03.02+>
@@ -1223,8 +1326,16 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "ÖPNV-Daten Westfalen-Lippe 2020.03.02 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/44f7d39c-02d7-4c2e-8efe-1046e5e959a2/download/gtfs-nwl-20200302.zip> ;
-        cat:byteSize    "13038261"^^xsd:decimal ;
+        cat:byteSize    "1.3038261E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
+
+<https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+NVV+November+2020+%28RT%2C+Tram%2C+BUS%2C+StadtBUS%2C+ohne+RE%2FRB%29+>
+        a               cat:Distribution ;
+        dcterms:format  "ZIP" ;
+        dcterms:title   "Soll-Fahrplandaten NVV November 2020 (RT, Tram, BUS, StadtBUS, ohne RE/RB) " ;
+        cat:accessURL   <https://www.opendata-oepnv.de/dataset/3330b6e6-c460-40a0-9c17-a83b5f7b1592/resource/42a2f920-30cb-43be-9486-95facd2960ea/download/2020-11-nvv-rt-tram-bus.zip> ;
+        cat:byteSize    "1.8757202E7"^^xsd:decimal ;
+        cat:mediaType   "application/octet-stream" .
 
 <https://www.opendata-oepnv.de/dataset/liniendaten-vvs>
         a                    cat:Dataset ;
@@ -1234,16 +1345,8 @@
                 "liniendaten-vvs" ;
         dcterms:description  "Die Datensätze beinhalten eine Auflistung aller Linien im VVS mit Zusatzinformationen wie Verlauf oder Verkehrsmittel. " ;
         dcterms:title        "Liniendaten VVS" ;
-        cat:distribution     <https://www.opendata-oepnv.de/distribution/Linien+in+VVS+-+CSV+> ;
+        cat:distribution     <https://www.opendata-oepnv.de/distribution/Linien+in+VVS+-+CSV+> , <https://www.opendata-oepnv.de/distribution/Linien+im+VVS+-+Dezember+2018> ;
         cat:landingPage      <https://www.openvvs.de/> .
-
-<https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+NVV+November+2020+%28RT%2C+Tram%2C+BUS%2C+StadtBUS%2C+ohne+RE%2FRB%29+>
-        a               cat:Distribution ;
-        dcterms:format  "ZIP" ;
-        dcterms:title   "Soll-Fahrplandaten NVV November 2020 (RT, Tram, BUS, StadtBUS, ohne RE/RB) " ;
-        cat:accessURL   <https://www.opendata-oepnv.de/dataset/3330b6e6-c460-40a0-9c17-a83b5f7b1592/resource/42a2f920-30cb-43be-9486-95facd2960ea/download/2020-11-nvv-rt-tram-bus.zip> ;
-        cat:byteSize    "18757202"^^xsd:decimal ;
-        cat:mediaType   "application/octet-stream" .
 
 <https://www.opendata-oepnv.de/dataset/haltestellen-vbb>
         a                    cat:Dataset ;
@@ -1255,8 +1358,7 @@
         dcterms:title        "Haltestellen VBB" ;
         owl:versionInfo      "Mai 2018" ;
         cat:distribution     <https://www.opendata-oepnv.de/distribution/Haltestellen+VBB> ;
-        cat:keyword          "VBB" , "Haltestellen" ;
-        cat:landingPage      <file:///home/lisa/repos/crawling/daten.berlin.de> .
+        cat:keyword          "VBB" , "Haltestellen" .
 
 <https://www.opendata-oepnv.de/dataset/haltestellen-vrr>
         a                    cat:Dataset ;
@@ -1277,7 +1379,7 @@
         dcterms:format       "ZIP" ;
         dcterms:title        "Soll-Fahrplandaten VRR - September 2019" ;
         cat:accessURL        <https://www.opendata-oepnv.de/dataset/496eea5d-d6ef-4dc2-aeb0-d15c4fbf3178/resource/c7663e20-9c1c-4c50-9696-ff5111f54be7/download/2019_09_04_google_transit_verbundweit_inkl_spnv.zip> ;
-        cat:byteSize         "26975728"^^xsd:decimal ;
+        cat:byteSize         "2.6975728E7"^^xsd:decimal ;
         cat:mediaType        "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Februar+2019+>
@@ -1286,7 +1388,7 @@
         dcterms:format       "ZIP" ;
         dcterms:title        "Soll-Fahrplandaten VRR - Februar 2019 " ;
         cat:accessURL        <https://www.opendata-oepnv.de/dataset/496eea5d-d6ef-4dc2-aeb0-d15c4fbf3178/resource/dc3b166e-ebe2-4f53-9b05-70857568320d/download/google_transit_2019_02_08_verbundweit.zip> ;
-        cat:byteSize         "24023602"^^xsd:decimal ;
+        cat:byteSize         "2.4023602E7"^^xsd:decimal ;
         cat:mediaType        "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Oktober+2020>
@@ -1294,8 +1396,14 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VRR - Oktober 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/496eea5d-d6ef-4dc2-aeb0-d15c4fbf3178/resource/e85c4799-1884-4a41-9656-879a68eacb20/download/2020_10_01_google_transit_verbundweit_inkl_spnv.zip> ;
-        cat:byteSize    "26126766"^^xsd:decimal ;
+        cat:byteSize    "2.6126766E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
+
+<https://www.opendata-oepnv.de/distribution/Upload%3A+HVV_Rohdaten_GTFS_Fpl_20181005+-+Dezember+2018>
+        a               cat:Distribution ;
+        dcterms:format  "ZIP" ;
+        dcterms:title   "Upload: HVV_Rohdaten_GTFS_Fpl_20181005 - Dezember 2018" ;
+        cat:accessURL   <http://daten.transparenz.hamburg.de/Dataport.HmbTG.ZS.Webservice.GetRessource100/GetRessource100.svc/de76c49c-2ce7-4e44-a482-b546e0a41654/Upload__HVV_Rohdaten_GTFS_Fpl_20181005.zip> .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+November+2019>
         a                    cat:Distribution ;
@@ -1303,7 +1411,7 @@
         dcterms:format       "ZIP" ;
         dcterms:title        "Soll-Fahrplandaten VRR - November 2019" ;
         cat:accessURL        <https://www.opendata-oepnv.de/dataset/496eea5d-d6ef-4dc2-aeb0-d15c4fbf3178/resource/1e87737b-b4df-419a-870f-8288bc751215/download/2019_11_05_google_transit_verbundweit_inkl_spnv.zip> ;
-        cat:byteSize         "25501175"^^xsd:decimal ;
+        cat:byteSize         "2.5501175E7"^^xsd:decimal ;
         cat:mediaType        "application/zip" .
 
 <https://www.opendata-oepnv.de/dataset/soll-fahrplandaten-hvv>
@@ -1314,7 +1422,7 @@
                 "soll-fahrplandaten-hvv" ;
         dcterms:description  "Der Hamburger Verkehrsverbund (HVV) stellt hier die Fahrplandaten des Verbundgebietes im GTFS-Format zur Verfügung. Die Daten beinhalten Informationen zu Linien, Haltestellen, Abfahrtszeiten usw. " ;
         dcterms:title        "Soll-Fahrplandaten HVV" ;
-        cat:distribution     <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+Juli+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+Februar+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+August+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+Juni+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+Mai+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+M%C3%A4rz+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+September+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+April+2020+> ;
+        cat:distribution     <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+Juli+2020+> , <https://www.opendata-oepnv.de/distribution/Upload%3A+HVV_Rohdaten_GTFS_Fpl_20200211+-+Dezember+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+Februar+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+August+2020> , <https://www.opendata-oepnv.de/distribution/Upload%3A+HVV_Rohdaten_GTFS_Fpl_20180606+-+Dezember+2018> , <https://www.opendata-oepnv.de/distribution/Upload%3A+HVV_Rohdaten_GTFS_Fpl_20180705+-+Dezember+2018> , <https://www.opendata-oepnv.de/distribution/Upload%3A+HVV_Rohdaten_GTFS_Fpl_20190607+-+Dezember+2019> , <https://www.opendata-oepnv.de/distribution/Upload%3A+HVV_Rohdaten_GTFS_Fpl_20191009+-+Dezember+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+Juni+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+Dezember+2020> , <https://www.opendata-oepnv.de/distribution/Upload%3A+HVV_Rohdaten_GTFS_Fpl_20200605+-+Dezember+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+Mai+2020+> , <https://www.opendata-oepnv.de/distribution/Upload%3A+HVV_Rohdaten_GTFS_Fpl_20190207+-+Dezember+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+M%C3%A4rz+2020+> , <https://www.opendata-oepnv.de/distribution/Upload%3A+HVV_Rohdaten_GTFS_Fpl_20190705+-+Dezember+2019> , <https://www.opendata-oepnv.de/distribution/Upload%3A+HVV_Rohdaten_GTFS_Fpl_20200706+-+Dezember+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+September+2020> , <https://www.opendata-oepnv.de/distribution/Upload%3A+HVV_Rohdaten_GTFS_Fpl_20181005+-+Dezember+2018> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+April+2020+> ;
         cat:landingPage      <https://www.hvv.de/de/fahrplaene/abruf-fahrplaninfos/datenabruf> .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.09.09>
@@ -1322,7 +1430,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "ÖPNV-Daten Westfalen-Lippe 2020.09.09" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/d263fa8e-f9c4-4ef0-a44b-2af71132b8da/download/gtfs-nwl-20200909.zip> ;
-        cat:byteSize    "12829787"^^xsd:decimal ;
+        cat:byteSize    "1.2829787E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+November+2020+>
@@ -1330,7 +1438,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VVS - November 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/d1768457-c717-45ea-8e26-dd1e759d5ffe/resource/136056df-057f-427a-9321-7ac024b8f5bd/download/vvs_gtfs.zip> ;
-        cat:byteSize    "62017403"^^xsd:decimal ;
+        cat:byteSize    "6.2017403E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/dataset/bilder_grafiken_vrr>
@@ -1341,15 +1449,29 @@
                 "bilder_grafiken_vrr" ;
         dcterms:description  "Wir stellen Logos in verschiedenen Datei-Formaten, eine Bilderauswahl zu alltäglichen Szenen im ÖPNV sowie Infografiken mit den wichtigsten Zahlen, Daten und Fakten rund um den Verkehrsverbund Rhein-Ruhr bereit." ;
         dcterms:title        "Logos, Bilder & Grafiken" ;
-        cat:distribution     <https://www.opendata-oepnv.de/distribution/Stadt-%2C+Linien-+%26+Netzpl%C3%A4ne> , <https://www.opendata-oepnv.de/distribution/Logo+%26+Styleguide> , <https://www.opendata-oepnv.de/distribution/Bilder+und+Infografiken> ;
-        cat:landingPage      <file:///home/lisa/repos/crawling/Openvrr.de> .
+        cat:distribution     <https://www.opendata-oepnv.de/distribution/Bilder+und+Infografiken> , <https://www.opendata-oepnv.de/distribution/Stadt-%2C+Linien-+%26+Netzpl%C3%A4ne> , <https://www.opendata-oepnv.de/distribution/Logo+%26+Styleguide> .
+
+<https://www.opendata-oepnv.de/distribution/Steige+im+VVS+-+Dezember+2018>
+        a               cat:Distribution ;
+        dcterms:format  "CSV" ;
+        dcterms:title   "Steige im VVS - Dezember 2018" ;
+        cat:accessURL   <https://www.openvvs.de/dataset/1f7ec4c1-b590-4751-a25b-57ef988c14b6/resource/d471c25c-e433-41d7-9de7-c33d57401c40/download/vvs_steige_j21.csv> ;
+        cat:mediaType   "text/csv" .
+
+<https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRR+-+Dezember+2020>
+        a               cat:Distribution ;
+        dcterms:format  "ZIP" ;
+        dcterms:title   "Soll-Fahrplandaten VRR - Dezember 2020" ;
+        cat:accessURL   <https://www.opendata-oepnv.de/dataset/496eea5d-d6ef-4dc2-aeb0-d15c4fbf3178/resource/6638ba3e-34db-4dd5-bb1b-89353dc84011/download/2020_12_01_google_transit_verbundweit_inkl_spnv.zip> ;
+        cat:byteSize    "2.8137622E7"^^xsd:decimal ;
+        cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.06.30>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
         dcterms:title   "ÖPNV-Daten Westfalen-Lippe 2020.06.30" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/dd23e75f-5f7e-4188-b8e2-7f6583b9dc4b/download/gtfs-nwl-20200630.zip> ;
-        cat:byteSize    "13516130"^^xsd:decimal ;
+        cat:byteSize    "1.351613E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/GTFS-Feed+MVV+03-2020+%28ohne+Shapes%29>
@@ -1357,7 +1479,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "GTFS-Feed MVV 03-2020 (ohne Shapes)" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/17065229-c3fd-46d7-84a9-aae55aadbf40/resource/7070056f-6c2e-4631-87f2-df77d6ef0329/download/mvv_gtfs.zip> ;
-        cat:byteSize    "5220510"^^xsd:decimal ;
+        cat:byteSize    5220510.0 ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+AVV+-+Juni+2020+>
@@ -1365,7 +1487,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten AVV - Juni 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/dede57c7-9601-43cd-9fb6-8ab4c27412d2/resource/85f99e33-f1da-487e-8eaf-805f4e0bae8d/download/avv_gtfs_masten_mit_spnv_und_arr-lim.zip> ;
-        cat:byteSize    "29063828"^^xsd:decimal ;
+        cat:byteSize    "2.9063828E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/B%26R+an+SPNV-Stationen>
@@ -1373,7 +1495,7 @@
         dcterms:format  "CSV" ;
         dcterms:title   "B&R an SPNV-Stationen" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/b5615e49-d49a-41a6-9f24-a3514f1945f0/resource/28c5b482-a436-4906-b6fc-8fc0e09ac492/download/br.csv> ;
-        cat:byteSize    "4804"^^xsd:decimal ;
+        cat:byteSize    4804.0 ;
         cat:mediaType   "application/vnd.ms-excel" .
 
 <https://www.opendata-oepnv.de/dataset/vvs-liniendaten>
@@ -1384,7 +1506,15 @@
                 "vvs-liniendaten" ;
         dcterms:description  "Fahrplandaten des VVS im GTFS-Format (General Transit Feed Specification)" ;
         dcterms:title        "vvs-sollfahrplandaten" ;
-        cat:landingPage      <https://www.openvvs.de/api/3/action/package_search?sort=id+asc&start=0&rows=1&q=gtfs-daten#> .
+        cat:landingPage      <https://www.openvvs.de/api/3/action/package_search?sort=id+asc&start=0&rows=1&q=gtfs-daten%23> .
+
+mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/OpenData-Plattform%20%C3%96PNV> .
+
+<https://www.opendata-oepnv.de/distribution/Upload%3A+HVV_Rohdaten_GTFS_Fpl_20200706+-+Dezember+2020>
+        a               cat:Distribution ;
+        dcterms:format  "ZIP" ;
+        dcterms:title   "Upload: HVV_Rohdaten_GTFS_Fpl_20200706 - Dezember 2020" ;
+        cat:accessURL   <http://daten.transparenz.hamburg.de/Dataport.HmbTG.ZS.Webservice.GetRessource100/GetRessource100.svc/c0a45306-451b-4893-8d09-66cbc2f92e41/Upload__HVV_Rohdaten_GTFS_Fpl_20200706.zip> .
 
 <https://www.opendata-oepnv.de/distribution/Liniendaten+2019>
         a                    cat:Distribution ;
@@ -1392,7 +1522,7 @@
         dcterms:format       "ZIP" ;
         dcterms:title        "Liniendaten 2019" ;
         cat:accessURL        <https://www.opendata-oepnv.de/dataset/aa8476c0-037f-4604-afc2-aff2fdcff843/resource/287f6fba-82d5-4c1a-95cd-b705a77ea183/download/1811-mvv-s19.zip> ;
-        cat:byteSize         "238757"^^xsd:decimal ;
+        cat:byteSize         238757.0 ;
         cat:mediaType        "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+AVV+-+September+2020>
@@ -1400,14 +1530,22 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten AVV - September 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/dede57c7-9601-43cd-9fb6-8ab4c27412d2/resource/f2ed5923-db37-4428-b484-bdd21bbaac00/download/avv_gtfs_masten_mit_spnv_und_arr-lim.zip> ;
-        cat:byteSize    "26953586"^^xsd:decimal ;
+        cat:byteSize    "2.6953586E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
+
+<https://www.opendata-oepnv.de/distribution/rnv-GTFS+RNV+-+Dezember+2020>
+        a                    cat:Distribution ;
+        dcterms:description  "<p>Diese Ressource beinhaltet immer unseren aktuell gültigen GTFS-Datensatz. Dieser wird ca. täglich automatisch aktualisiert.</p>\n" ;
+        dcterms:format       "ZIP" ;
+        dcterms:title        "rnv-GTFS RNV - Dezember 2020" ;
+        cat:accessURL        <https://gtfs-sandbox-dds.rnv-online.de/latest/gtfs.zip> ;
+        cat:mediaType        "zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+DELFI>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten DELFI" ;
-        cat:accessURL   <https://www.opendata-oepnv.de/fileadmin/datasets/delfi/20201128_fahrplaene_gesamtdeutschland.zip> ;
+        cat:accessURL   <https://www.opendata-oepnv.de/fileadmin/datasets/delfi/20201223_fahrplaene_gesamtdeutschland.zip> ;
         cat:mediaType   "application/zip" .
 
 <https://www.opendata-oepnv.de/dataset/soll-fahrplandaten-nwl>
@@ -1418,7 +1556,7 @@
                 "soll-fahrplandaten-nwl" ;
         dcterms:description  "Soll-Fahrplandaten NWL" ;
         dcterms:title        "Soll-Fahrplandaten NWL" ;
-        cat:distribution     <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.11.11> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.08.12> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.06.30> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.04.09> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.05.15> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.12.09> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.07.20> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.08.04> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.09.02> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.06.23> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.01.14> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.01.27> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.03.02+> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.09.30> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.09.28> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.10.11> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.11.19> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.05.04> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.08.18> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.08.12> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.09.09> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.05.25> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.10.26> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.11.02> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.07.28> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.09.10> ;
+        cat:distribution     <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.11.11> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.08.12> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.06.30> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.04.09> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.05.15> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.12.09> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.07.20> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.08.04> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.09.02> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.06.23> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.01.14> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.01.27> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.03.02+> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.09.30> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.09.28> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.10.11> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.11.19> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.12.18> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.05.04> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.08.18> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.08.12> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.09.09> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.10.26> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.05.25> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.11.02> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2020.07.28> , <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.09.10> ;
         cat:keyword          "Soll-Fahrplandaten" .
 
 <https://www.opendata-oepnv.de/distribution/Haltestellen+rnv+ZIP>
@@ -1426,15 +1564,27 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Haltestellen rnv ZIP" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/ed24c0cc-e9d0-414e-be99-d6c3d909818e/resource/b4ccea8a-704c-46ad-a871-f76a0aca8754/download/haltestellen-all-2020-05-13_1124.zip> ;
-        cat:byteSize    "70804"^^xsd:decimal ;
+        cat:byteSize    70804.0 ;
         cat:mediaType   "application/zip" .
+
+<https://www.opendata-oepnv.de/distribution/Download+Haltestellennamen+Hamburg+mit+GK-Koordinaten+%28XLS%29+HVV+-+Dezember+2017>
+        a               cat:Distribution ;
+        dcterms:format  "XLSX" ;
+        dcterms:title   "Download Haltestellennamen Hamburg mit GK-Koordinaten (XLS) HVV - Dezember 2017" ;
+        cat:accessURL   <http://archiv.transparenz.hamburg.de/hmbtgarchive/HMDK/hvv-haltestellen_hh_2013-08-22_10707_snap_1.xlsx> .
+
+<https://www.opendata-oepnv.de/distribution/Upload%3A+HVV_Rohdaten_GTFS_Fpl_20200605+-+Dezember+2020>
+        a               cat:Distribution ;
+        dcterms:format  "ZIP" ;
+        dcterms:title   "Upload: HVV_Rohdaten_GTFS_Fpl_20200605 - Dezember 2020" ;
+        cat:accessURL   <http://daten.transparenz.hamburg.de/Dataport.HmbTG.ZS.Webservice.GetRessource100/GetRessource100.svc/88ad75fa-7785-4b55-9ee3-a1ab5034b54c/Upload__HVV_Rohdaten_GTFS_Fpl_20200605.zip> .
 
 <https://www.opendata-oepnv.de/distribution/Haltestellen+AVV>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
         dcterms:title   "Haltestellen AVV" ;
         cat:accessURL   <https://cms.opendata-oepnv.de/dataset/ffc3a6c0-0f1a-48e8-9503-311ec2f934cf/resource/bda4992b-d8d9-4816-a004-5d4c2787182b/download/avv_haltestellen.zip> ;
-        cat:byteSize    "799265"^^xsd:decimal ;
+        cat:byteSize    799265.0 ;
         cat:mediaType   "application/zip" .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VRS+-+August+2020>
@@ -1442,7 +1592,7 @@
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VRS - August 2020" ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/19460e8a-bb64-4103-a429-4e5eec4578e9/resource/f90d2a63-6535-4a49-a4af-a2d438eefbd4/download/gtfs_vrs_mit_spnv.zip> ;
-        cat:byteSize    "24422231"^^xsd:decimal ;
+        cat:byteSize    "2.4422231E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
 
 <https://www.opendata-oepnv.de/distribution/P%26R+an+SPNV-Stationen+>
@@ -1450,7 +1600,7 @@
         dcterms:format  "CSV" ;
         dcterms:title   "P&R an SPNV-Stationen " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/b5615e49-d49a-41a6-9f24-a3514f1945f0/resource/e5ca7ede-e61b-4724-aba8-6e6d66f6dad3/download/pr.csv> ;
-        cat:byteSize    "9587"^^xsd:decimal ;
+        cat:byteSize    9587.0 ;
         cat:mediaType   "application/vnd.ms-excel" .
 
 <https://www.opendata-oepnv.de/dataset/soll-fahrplandaten-vvs>
@@ -1461,7 +1611,7 @@
                 "soll-fahrplandaten-vvs" ;
         dcterms:description  "Fahrplandaten des VVS im GTFS-Format (General Transit Feed Specification) " ;
         dcterms:title        "Soll-Fahrplandaten VVS" ;
-        cat:distribution     <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+September+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+November+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+ab+20.04.2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+Juli+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+24.+November+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+November+2019> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+10.+November+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+01.12.2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+Februar+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+Oktober+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+August+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+Juni+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+April+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+ab+04.05.2020+> ;
+        cat:distribution     <https://www.opendata-oepnv.de/distribution/Aktueller+GTFS-Datensatz+des+VVS+-+Dezember+2018> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+September+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+November+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+ab+20.04.2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+Juli+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+20.+Dezember+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+24.+November+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+10.+November+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+Oktober+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+08.+Dezember+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+August+2020+> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+Juni+2020> , <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+ab+04.05.2020+> ;
         cat:landingPage      <https://www.openvvs.de/> .
 
 <https://www.opendata-oepnv.de/dataset/hvv-haltestellen>
@@ -1472,15 +1622,21 @@
                 "hvv-haltestellen" ;
         dcterms:description  "Haltestellennamen des HVV-Gesamtbereichs und der näheren Umgebung mit Angabe der Gauß-Krüger-Koordinate (GKK)" ;
         dcterms:title        "HVV Haltestellen" ;
-        cat:landingPage      <https://suche.transparenz.hamburg.de/api/3/action/package_search?q=name:hvv-haltestellennamen-mit-koordinate-hamburg&sort=metadata_created+desc&start=0&rows=1#> .
+        cat:landingPage      <https://suche.transparenz.hamburg.de/api/3/action/package_search?q=name:hvv-haltestellennamen-mit-koordinate-hamburg&sort=metadata_created+desc&start=0&rows=1%23> .
 
 <https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+VVS+-+September+2020+>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
         dcterms:title   "Soll-Fahrplandaten VVS - September 2020 " ;
         cat:accessURL   <https://www.opendata-oepnv.de/dataset/d1768457-c717-45ea-8e26-dd1e759d5ffe/resource/dbcafa7d-5f51-4a26-804f-8e5537b80e0a/download/vvs_gtfs.zip> ;
-        cat:byteSize    "40407726"^^xsd:decimal ;
+        cat:byteSize    "4.0407726E7"^^xsd:decimal ;
         cat:mediaType   "application/x-zip-compressed" .
+
+<https://www.opendata-oepnv.de/distribution/Soll-Fahrplandaten+HVV+-+Dezember+2020>
+        a               cat:Distribution ;
+        dcterms:format  "ZIP" ;
+        dcterms:title   "Soll-Fahrplandaten HVV - Dezember 2020" ;
+        cat:accessURL   <http://daten.transparenz.hamburg.de/Dataport.HmbTG.ZS.Webservice.GetRessource100/GetRessource100.svc/b5f71a77-e622-4b34-82d4-c921a9c71be5/Upload__HVV_Rohdaten_GTFS_Fpl_20200211.zip> .
 
 <https://www.opendata-oepnv.de/distribution/%C3%96PNV-Daten+Westfalen-Lippe+2019.07.20>
         a                    cat:Distribution ;
@@ -1488,5 +1644,5 @@
         dcterms:format       "ZIP" ;
         dcterms:title        "ÖPNV-Daten Westfalen-Lippe 2019.07.20" ;
         cat:accessURL        <https://www.opendata-oepnv.de/dataset/89892705-b6e7-4ffc-977c-2ba9b86dde46/resource/abab3dd2-3ada-4899-8bd5-90a8dfda94eb/download/opnv-daten-westfalen-lippe-20190720.zip> ;
-        cat:byteSize         "14189973"^^xsd:decimal ;
+        cat:byteSize         "1.4189973E7"^^xsd:decimal ;
         cat:mediaType        "application/zip" .

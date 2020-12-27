@@ -1,0 +1,587 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/1.0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gml: <http://www.opengis.net/gml/3.2> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix odrs: <http://schema.theodi.org/odrs#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix hydra: <http://www.w3.org/ns/hydra/core#> .
+
+<http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Badeweg_2020-10-28.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-10-29T12:45:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Parkplatz_Scharbeutz_Badeweg_2020-10-28.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Badeweg_2020-10-28.csv> ;
+    dcat:byteSize 42648 ;
+    dcat:downloadURL <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Badeweg_2020-10-28.csv> .
+
+<http://daten.wuppertal.de/Transport_Verkehr/Radabstellanlagen_EPSG25832_JSON.json/distribution>
+    dcterms:description "Radabstellanlagen_EPSG25832_JSON.json" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/SHP> ;
+    dcterms:issued "2020-10-14T22:07:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Radabstellanlagen_EPSG25832_JSON.json"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://daten.wuppertal.de/Transport_Verkehr/Radabstellanlagen_EPSG25832_JSON.json> ;
+    dcat:downloadURL <http://daten.wuppertal.de/Transport_Verkehr/Radabstellanlagen_EPSG25832_JSON.json> .
+
+<http://daten.wuppertal.de/Transport_Verkehr/Radabstellanlagen_EPSG25832_SHAPE.zip/distribution>
+    dcterms:description "Radabstellanlagen_EPSG25832_SHAPE.zip" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/SHP> ;
+    dcterms:issued "2020-10-14T22:07:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Radabstellanlagen_EPSG25832_SHAPE.zip"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://daten.wuppertal.de/Transport_Verkehr/Radabstellanlagen_EPSG25832_SHAPE.zip> ;
+    dcat:downloadURL <http://daten.wuppertal.de/Transport_Verkehr/Radabstellanlagen_EPSG25832_SHAPE.zip> .
+
+<http://daten.wuppertal.de/Transport_Verkehr/Radabstellanlagen_EPSG3857_SHAPE.zip/distribution>
+    dcterms:description "Radabstellanlagen_EPSG3857_SHAPE.zip" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/SHP> ;
+    dcterms:issued "2020-10-14T22:07:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Radabstellanlagen_EPSG3857_SHAPE.zip"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://daten.wuppertal.de/Transport_Verkehr/Radabstellanlagen_EPSG3857_SHAPE.zip> ;
+    dcat:downloadURL <http://daten.wuppertal.de/Transport_Verkehr/Radabstellanlagen_EPSG3857_SHAPE.zip> .
+
+<http://daten.wuppertal.de/Transport_Verkehr/Radabstellanlagen_EPSG4326_JSON.json/distribution>
+    dcterms:description "Radabstellanlagen_EPSG4326_JSON.json" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/SHP> ;
+    dcterms:issued "2020-10-14T22:07:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Radabstellanlagen_EPSG4326_JSON.json"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://daten.wuppertal.de/Transport_Verkehr/Radabstellanlagen_EPSG4326_JSON.json> ;
+    dcat:downloadURL <http://daten.wuppertal.de/Transport_Verkehr/Radabstellanlagen_EPSG4326_JSON.json> .
+
+<http://daten.wuppertal.de/Transport_Verkehr/Radabstellanlagen_EPSG4326_KML.zip/distribution>
+    dcterms:description "Radabstellanlagen_EPSG4326_KML.zip" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/SHP> ;
+    dcterms:issued "2020-10-14T22:07:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Radabstellanlagen_EPSG4326_KML.zip"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://daten.wuppertal.de/Transport_Verkehr/Radabstellanlagen_EPSG4326_KML.zip> ;
+    dcat:downloadURL <http://daten.wuppertal.de/Transport_Verkehr/Radabstellanlagen_EPSG4326_KML.zip> .
+
+<http://geoportal.wuppertal.de:80/deegree/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.1.1&/distribution>
+    dcterms:description """Der WMS \"GeoPortal Wuppertal öffentliche Daten\" ist ein von der Stadt Wuppertal betriebener OGC-konformer Darstellungsdienst für Geodaten, die das Stadtgebiet von Wuppertal betreffen. Der Dienst ist thematisch nicht festgelegt. Das Informationsangebot umfasst insbesondere Daten aus den Bereichen Umwelt, Planung, Verkehr, Freizeit und Infrastruktur sowie Geobasisdaten (Hintergrundkarten) und Gebietsgliederungen. Für viele Kartenlayer unterstützt der Dienst auch punktuelle Sachdatenabfragen, aus deren Ergebnisanzeige heraus oft auf weiterführende Dokumente oder Web-Anwendungen zugegriffen werden kann. Der namengebende Hauptzweck des Dienstes ist die Datenbereitstellung für das Wuppertaler Umwelt- und Geodatenportal (GeoPortal Wuppertal, URL: http://geoportal.wuppertal.de). Darüber hinaus ermöglicht er es beliebigen anderen Organisationen oder Endnutzern, mit OGC-konformen Anwendungen auf öffentliche Wuppertaler Geodaten zuzugreifen.
+Die den Kartenlayern zugrunde liegenden Daten stammen überwiegend von der Stadt Wuppertal, z. T. aber auch von anderen Organisationen. In einigen Fällen greifen Kartenlayer kaskadierend auf WMS-Dienste anderer Organisationen zu. Die Kartenlayer und die zugehörigen Geodaten unterliegen daher jeweils individuellen Nutzungsbedingungen. Ein Teil der bereitgestellten Geodaten ist unter Open-Data-Lizenzen verfügbar.""" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/WMS_SRVC> ;
+    dcterms:issued "2020-10-14T22:07:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "WMS GeoPortal Wuppertal "@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://geoportal.wuppertal.de:80/deegree/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.1.1&> ;
+    dcat:downloadURL <http://geoportal.wuppertal.de:80/deegree/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.1.1&> .
+
+<http://www.gis-rest.nrw.de/atomFeed/rest/atom/514d5c82-8427-48fd-88bd-97964f1fc68c/distribution>
+    dcterms:description "Der ATOM Feed Downloadservice für die Wuppertaler Radabstellanlagen stellt einen Datensatz zum Download bereit, der (Stand 03/2020) 175 Radabstellanlagen inklusive Bike and Ride Anlagen im Wuppertaler Stadtgebiet einschließlich des stadtnahen Außenbereichs umfasst. Er enthält überwiegend Anlagen, die von der Stadt Wuppertal betrieben werden, aber auch einige privat betriebene Anlagen, z. B. solche der Wuppertalbewegung e. V. Die geographische Lage dieser eigentlich flächenhaften Anlagen wird vereinfacht durch Punkte repräsentiert. Der Datensatz umfasst einige beschreibende Attribute zum Typ (Bike and Ride oder allgemeine Anlage, offen oder überdacht) und zur Kapazität jeder Anlage. Zugänge und Abgänge im Bestand der Radabstellanlagen werden bei Bedarf zeitnah in den Datenbestand eingearbeitet. Die als Open Data unter der Lizenz CC BY 4.0 bereitgestellten ESRI-Shapefiles, KML- und GeoJSON-Dateien werden in einem automatisierten Prozess wöchentlich aktualisiert." ;
+    dcterms:issued "2020-10-14T22:07:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Wuppertal ATOM Feed Radabstellanlagen"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <http://www.gis-rest.nrw.de/atomFeed/rest/atom/514d5c82-8427-48fd-88bd-97964f1fc68c> ;
+    dcat:downloadURL <http://www.gis-rest.nrw.de/atomFeed/rest/atom/514d5c82-8427-48fd-88bd-97964f1fc68c> .
+
+<https://mcloud.de>
+    dcterms:description "Dies ist das Portal der mCLOUD."@de ;
+    dcterms:publisher <https://mcloud.de/#publisher> ;
+    dcterms:title "mCLOUD Portal"@de ;
+    a dcat:Catalog ;
+    dcat:dataset <https://mcloud.de/web/guest/suche/-/results/detail/03d2fc1d-7d8f-48e2-a2ab-585ff9b2778d>, <https://mcloud.de/web/guest/suche/-/results/detail/03e1b2b4-a758-4262-b174-9872b482cdd2>, <https://mcloud.de/web/guest/suche/-/results/detail/03eee74e-9482-4dcb-9639-5239fd2873b5>, <https://mcloud.de/web/guest/suche/-/results/detail/0406dd82-80e1-4cdc-84ed-4ab432e07da3>, <https://mcloud.de/web/guest/suche/-/results/detail/040b866e-e4ce-48a4-a4b9-318887c0f681>, <https://mcloud.de/web/guest/suche/-/results/detail/0417defe-af78-4525-8853-af5de3deb4b1>, <https://mcloud.de/web/guest/suche/-/results/detail/04223ab3-1f00-487a-835b-cf7d331e346f>, <https://mcloud.de/web/guest/suche/-/results/detail/0434f509-4e0f-4211-98b7-20867924e2db>, <https://mcloud.de/web/guest/suche/-/results/detail/04492b34-af66-4886-9865-9342428f7b46>, <https://mcloud.de/web/guest/suche/-/results/detail/04591e4c-b936-451b-8097-4173336b43cc> ;
+    foaf:homepage <https://mcloud.de/> .
+
+<https://mcloud.de/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesministerium für Verkehr und digitale Infrastruktur" .
+
+<https://mcloud.de/export/datasets?page=5>
+    a hydra:PagedCollection ;
+    hydra:firstPage "https://mcloud.de/export/datasets?page=1" ;
+    hydra:itemsPerPage 10 ;
+    hydra:lastPage "https://mcloud.de/export/datasets?page=420" ;
+    hydra:nextPage "https://mcloud.de/export/datasets?page=6" ;
+    hydra:previousPage "https://mcloud.de/export/datasets?page=4" ;
+    hydra:totalItems 4200 .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/03d2fc1d-7d8f-48e2-a2ab-585ff9b2778d>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcatde:originator [
+        a foaf:Organization ;
+        foaf:mbox "Susanne.Tamm@bsh.de" ;
+        foaf:name "Susanne Tamm"
+    ] ;
+    dcterms:accessRights "Dieser Datensatz kann gemäß der \"Datenlizenz Deutschland – Namensnennung – Version 2.0\" (www.govdata.de/dl-de/by-2-0) genutzt werden."@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "Susanne.Tamm@bsh.de" ;
+        foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)"
+    ] ;
+    dcterms:description "Im Rahmen des gemeinsames Bund/Länder-Messprogramm für die Nord- und Ostsee + weitere Überwachungsprogramme wurde der Parameter \"Secchi Tiefe (Sichttiefe)\" im Meerwasser bestimmt."@de ;
+    dcterms:identifier "03d2fc1d-7d8f-48e2-a2ab-585ff9b2778d" ;
+    dcterms:modified "2020-08-31T05:53:09.733Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/03d2fc1d-7d8f-48e2-a2ab-585ff9b2778d/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "000000000000" ;
+        locn:geometry "POLYGON ((-2.0002 60.0006, 20.0553 60.0006, 20.0553 51.701, -2.0002 51.701, -2.0002 60.0006))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[-2.0002, 60.0006], [20.0553, 60.0006], [20.0553, 51.701], [-2.0002, 51.701], [-2.0002, 60.0006]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2018-11-14T01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2018-01-30T01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Secchi Tiefe (Sichttiefe) 2018"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" ;
+        vcard:hasCountryName "Deutschland" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/Johannes.Melles@bsh.de> ;
+        vcard:hasLocality "Hamburg" ;
+        vcard:hasPostalCode "20359" ;
+        vcard:hasStreetAddress "Bernhard-Nocht-Str. 78"
+    ] ;
+    dcat:distribution <https://www.geoseaportal.de/atomfeeds/MO_H_SECCI.xml/distribution> ;
+    dcat:keyword "2018"@de, "Monitoring"@de, "Nordsee"@de, "Ostsee"@de, "SECCI"@de, "Secchi-Tiefe"@de, "Wasser"@de, "mcloud_category_waters"@de, "opendata"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/03d2fc1d-7d8f-48e2-a2ab-585ff9b2778d/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/03e1b2b4-a758-4262-b174-9872b482cdd2>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "opendata@kreis-kleve.de" ;
+        foaf:name "Kreisverwaltung Kleve"
+    ] ;
+    dcterms:description "Anträge auf Ausnahmegenehmigungen gemäß § 46 StVO, FRVO, Bereich Verkehrsangelegenheiten, ab 2008"@de ;
+    dcterms:identifier "03e1b2b4-a758-4262-b174-9872b482cdd2" ;
+    dcterms:issued "2019-10-24T04:19:28Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-02-17T02:38:13Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/03e1b2b4-a758-4262-b174-9872b482cdd2/#publisher> ;
+    dcterms:title "Straßenverkehr: Anträge Ausnahmegenehmigungen"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://www.offenesdatenportal.de/dataset/03e1b2b4-a758-4262-b174-9872b482cdd2/resource/a229654f-baef-49a3-a8f3-28cd4a960b3a/download/antrage-ausnahmegenehmigungen.csv/distribution> ;
+    dcat:keyword "Anwohnerparkausweis"@de, "Ausnahmegenehmigungen"@de, "Ferienreisefahrverbot"@de, "Handwerkerparkausweis"@de, "Parkerleichterung für behinderte Menschen"@de, "Sonn- und Feiertagsfahrverbot"@de, "Straßenverkehr"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/03e1b2b4-a758-4262-b174-9872b482cdd2/#publisher>
+    a foaf:Agent ;
+    foaf:name "Offenesdatenportal" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/03eee74e-9482-4dcb-9639-5239fd2873b5>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcatde:originator [
+        a foaf:Organization ;
+        foaf:mbox "customer@bsh.de" ;
+        foaf:name "Bernd Vahrenkamp"
+    ] ;
+    dcterms:accessRights "Dieser Datensatz kann gemäß der \"Datenlizenz Deutschland – Namensnennung – Version 2.0\" (www.govdata.de/dl-de/by-2-0) genutzt werden."@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/NEVER> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "customer@bsh.de" ;
+        foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)"
+    ] ;
+    dcterms:description "Die vorliegenden Echolotdaten wurden im Rahmen der Seevermessung des Bundesamtes für Seeschifffahrt und Hydrographie erfasst, aber keiner weiteren Qualitätssicherung oder Validierung unterzogen. Es handelt sich um Rohdaten!"@de ;
+    dcterms:identifier "03eee74e-9482-4dcb-9639-5239fd2873b5" ;
+    dcterms:modified "2020-11-30T06:28:27.720Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/03eee74e-9482-4dcb-9639-5239fd2873b5/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "000000000000" ;
+        locn:geometry "POLYGON ((8.23104251282 54.5324166615, 8.37602820514 54.5324166615, 8.37602820514 54.4214978957, 8.23104251282 54.4214978957, 8.23104251282 54.5324166615))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[8.23104251282, 54.5324166615], [8.37602820514, 54.5324166615], [8.37602820514, 54.4214978957], [8.23104251282, 54.4214978957], [8.23104251282, 54.5324166615]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2019-04-04T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2019-02-27T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Echolotdaten - Nordsee 2019 9091903"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" ;
+        vcard:hasCountryName "Deutschland" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/Johannes.Melles@bsh.de> ;
+        vcard:hasLocality "Hamburg" ;
+        vcard:hasPostalCode "20359" ;
+        vcard:hasStreetAddress "Bernhard-Nocht-Str. 78"
+    ] ;
+    dcat:distribution <https://www.geoseaportal.de/atomfeeds/Verm_Single_Beam_Nordsee_2019.xml/distribution> ;
+    dcat:keyword "Bathymetrie"@de, "Hydrographie"@de, "Höhe"@de, "Meeresboden"@de, "Seevermessung"@de, "Topographie"@de, "mcloud_category_waters"@de, "opendata"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/03eee74e-9482-4dcb-9639-5239fd2873b5/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0406dd82-80e1-4cdc-84ed-4ab432e07da3>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcatde:originator [
+        a foaf:Organization ;
+        foaf:mbox "Susanne.Tamm@bsh.de" ;
+        foaf:name "Susanne Tamm"
+    ] ;
+    dcterms:accessRights "Dieser Datensatz kann gemäß der \"Datenlizenz Deutschland – Namensnennung – Version 2.0\" (www.govdata.de/dl-de/by-2-0) genutzt werden."@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "Susanne.Tamm@bsh.de" ;
+        foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)"
+    ] ;
+    dcterms:description "Im Rahmen des gemeinsames Bund/Länder-Messprogramm für die Nord- und Ostsee + weitere Überwachungsprogramme wurde der Parameter \"Gesamtorganischer Kohlenstoff im trockenen Sediment \" im Sediment bestimmt."@de ;
+    dcterms:identifier "0406dd82-80e1-4cdc-84ed-4ab432e07da3" ;
+    dcterms:modified "2020-08-31T05:53:09.695Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0406dd82-80e1-4cdc-84ed-4ab432e07da3/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "000000000000" ;
+        locn:geometry "POLYGON ((4.25 55.766666666667, 14.15023 55.766666666667, 14.15023 53.673333333333, 4.25 53.673333333333, 4.25 55.766666666667))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[4.25, 55.766666666667], [14.15023, 55.766666666667], [14.15023, 53.673333333333], [4.25, 53.673333333333], [4.25, 55.766666666667]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2017-06-08T02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2017-02-07T01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Gesamtorganischer Kohlenstoff im trockenen Sediment  2017"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" ;
+        vcard:hasCountryName "Deutschland" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/Johannes.Melles@bsh.de> ;
+        vcard:hasLocality "Hamburg" ;
+        vcard:hasPostalCode "20359" ;
+        vcard:hasStreetAddress "Bernhard-Nocht-Str. 78"
+    ] ;
+    dcat:distribution <https://www.geoseaportal.de/atomfeeds/MO_L_TOC.xml/distribution> ;
+    dcat:keyword "2017"@de, "Kohlenstoff"@de, "Monitoring"@de, "Nordsee"@de, "Ostsee"@de, "Sediment"@de, "TOC"@de, "mcloud_category_waters"@de, "opendata"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0406dd82-80e1-4cdc-84ed-4ab432e07da3/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/040b866e-e4ce-48a4-a4b9-318887c0f681>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der belegten Parkplätze
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Autos
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "040b866e-e4ce-48a4-a4b9-318887c0f681" ;
+    dcterms:issued "2020-10-29T12:45:02Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-10-29T12:45:02Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/040b866e-e4ce-48a4-a4b9-318887c0f681/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-10-28T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-10-28T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Parkplatz Scharbeutz Badeweg"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://134.245.19.83/data/scharbeutz/Parkplatz_Scharbeutz_Badeweg_2020-10-28.csv/distribution> ;
+    dcat:keyword "Parkplatz"@de, "Scharbeutz"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/040b866e-e4ce-48a4-a4b9-318887c0f681/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0417defe-af78-4525-8853-af5de3deb4b1>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description """Anzahl der belegten Parkplätze
+
+Der Datensatz enthält folgende Felder
+
+- Zeit im Format `dd.MM.yyyy HH:mm:ss
+- Name der Zählstelle
+- Text `count`
+- Anzahl der Autos
+
+Spaltentrenner ist Semikolon. Dezimlatrennzeichen ist Komma.
+
+Die momentanen Messwerte können unter [https://www.luebecker-bucht.guide/beachticker/map](https://www.luebecker-bucht.guide/beachticker/map) eingesehen werden."""@de ;
+    dcterms:identifier "0417defe-af78-4525-8853-af5de3deb4b1" ;
+    dcterms:issued "2020-12-26T22:15:58Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2020-12-26T22:15:58Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0417defe-af78-4525-8853-af5de3deb4b1/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "Gemeinde Scharbeutz" ;
+        locn:geometry "POLYGON ((10.7092 54.0555, 10.7158 54.0557, 10.7212 54.0604, 10.7327 54.0571, 10.7456 54.0588, 10.7553 54.054, 10.7517 54.037, 10.7728 54.0092, 10.7534 54.0062, 10.745 54.0179, 10.7269 54.0139, 10.7048 54.0016, 10.6844 53.9961, 10.6828 53.9897, 10.6887 53.9872, 10.6859 53.9826, 10.6624 53.977, 10.6626 53.9807, 10.6509 53.982, 10.6548 53.988, 10.6473 53.9935, 10.6484 54.002, 10.6395 54.0062, 10.643 54.0076, 10.622 54.0069, 10.6279 54.0193, 10.6363 54.0262, 10.6309 54.0255, 10.6248 54.0295, 10.624 54.0336, 10.6294 54.0357, 10.6223 54.0363, 10.6095 54.0449, 10.613 54.0539, 10.6326 54.0551, 10.6367 54.0474, 10.6673 54.0506, 10.6833 54.0458, 10.6852 54.0504, 10.69 54.049, 10.6919 54.0537, 10.6971 54.0523, 10.6979 54.0566, 10.7025 54.0562, 10.7081 54.0614, 10.709 54.0585, 10.7092 54.0555))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[10.7092, 54.0555], [10.7158, 54.0557], [10.7212, 54.0604], [10.7327, 54.0571], [10.7456, 54.0588], [10.7553, 54.054], [10.7517, 54.037], [10.7728, 54.0092], [10.7534, 54.0062], [10.745, 54.0179], [10.7269, 54.0139], [10.7048, 54.0016], [10.6844, 53.9961], [10.6828, 53.9897], [10.6887, 53.9872], [10.6859, 53.9826], [10.6624, 53.977], [10.6626, 53.9807], [10.6509, 53.982], [10.6548, 53.988], [10.6473, 53.9935], [10.6484, 54.002], [10.6395, 54.0062], [10.643, 54.0076], [10.622, 54.0069], [10.6279, 54.0193], [10.6363, 54.0262], [10.6309, 54.0255], [10.6248, 54.0295], [10.624, 54.0336], [10.6294, 54.0357], [10.6223, 54.0363], [10.6095, 54.0449], [10.613, 54.0539], [10.6326, 54.0551], [10.6367, 54.0474], [10.6673, 54.0506], [10.6833, 54.0458], [10.6852, 54.0504], [10.69, 54.049], [10.6919, 54.0537], [10.6971, 54.0523], [10.6979, 54.0566], [10.7025, 54.0562], [10.7081, 54.0614], [10.709, 54.0585], [10.7092, 54.0555]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2020-12-25T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2020-12-25T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Parkplatz Scharbeutz Badeweg"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_Badeweg_2020-12-25.csv/distribution> ;
+    dcat:keyword "Parkplatz"@de, "Scharbeutz"@de, "Tourismus"@de, "Verkehr"@de, "mcloud_category_roads"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0417defe-af78-4525-8853-af5de3deb4b1/#publisher>
+    a foaf:Agent ;
+    foaf:name "Tourismus-Agentur Lübecker Bucht" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/04223ab3-1f00-487a-835b-cf7d331e346f>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:creator [
+        a foaf:Organization
+    ] ;
+    dcterms:description "Der Datensatz umfasst (Stand 03/2020) 175 Radabstellanlagen inklusive Bike and Ride Anlagen im Wuppertaler Stadtgebiet einschließlich des stadtnahen Außenbereichs. Er enthält überwiegend Anlagen, die von der Stadt Wuppertal betrieben werden, aber auch einige privat betriebene Anlagen, z. B. solche der Wuppertalbewegung e. V. Die geographische Lage dieser eigentlich flächenhaften Anlagen wird vereinfacht durch Punkte repräsentiert. Der Datensatz umfasst einige beschreibende Attribute zum Typ (Bike and Ride oder allgemeine Anlage, offen oder überdacht) und zur Kapazität jeder Anlage. Zugänge und Abgänge im Bestand der Radabstellanlagen werden bei Bedarf zeitnah in den Datenbestand eingearbeitet. Die als Open Data unter der Lizenz CC BY 4.0 bereitgestellten ESRI-Shapefiles, KML- und GeoJSON-Dateien werden in einem automatisierten Prozess wöchentlich aktualisiert."@de ;
+    dcterms:identifier "04223ab3-1f00-487a-835b-cf7d331e346f" ;
+    dcterms:issued "2001-11-19T23:00:00Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2001-11-19T23:00:00Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/04223ab3-1f00-487a-835b-cf7d331e346f/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        locn:geometry "POLYGON ((7.01 51.33, 7.32 51.33, 7.32 51.16, 7.01 51.16, 7.01 51.33))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[7.01, 51.33], [7.32, 51.33], [7.32, 51.16], [7.01, 51.16], [7.01, 51.33]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:title "Radabstellanlagen Wuppertal"@de ;
+    a dcat:Dataset ;
+    dcat:distribution <http://daten.wuppertal.de/Transport_Verkehr/Radabstellanlagen_EPSG25832_JSON.json/distribution>, <http://daten.wuppertal.de/Transport_Verkehr/Radabstellanlagen_EPSG25832_SHAPE.zip/distribution>, <http://daten.wuppertal.de/Transport_Verkehr/Radabstellanlagen_EPSG3857_SHAPE.zip/distribution>, <http://daten.wuppertal.de/Transport_Verkehr/Radabstellanlagen_EPSG4326_JSON.json/distribution>, <http://daten.wuppertal.de/Transport_Verkehr/Radabstellanlagen_EPSG4326_KML.zip/distribution>, <http://geoportal.wuppertal.de:80/deegree/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.1.1&/distribution>, <http://www.gis-rest.nrw.de/atomFeed/rest/atom/514d5c82-8427-48fd-88bd-97964f1fc68c/distribution> ;
+    dcat:keyword "Bike and Ride Anlage"@de, "GDI-W"@de, "Parkmöglichkeit"@de, "Parkplatz"@de, "Parkraumkonzept Wuppertal"@de, "Radabstellanlage"@de, "Radverkehr"@de, "Radverkehrsnetz"@de, "Räumliche Mobilität"@de, "Umweltverbund"@de, "Verkehr"@de, "Wuppertal"@de, "Zweirad"@de, "geo"@de, "mcloud_category_roads"@de, "opendata"@de, "transport_verkehr"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/04223ab3-1f00-487a-835b-cf7d331e346f/#publisher>
+    a foaf:Agent ;
+    foaf:name "Geoportal" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0434f509-4e0f-4211-98b7-20867924e2db>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcterms:accessRights "Dieser Datensatz kann gemäß der \"Datenlizenz Deutschland – Namensnennung – Version 2.0\" (www.govdata.de/dl-de/by-2-0) genutzt werden."@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/IRREG> ;
+    dcterms:description "Zeitreihen der mitlleren Periodendauer (2. Moment) aus dem MARNET-Messnetz."@de ;
+    dcterms:identifier "0434f509-4e0f-4211-98b7-20867924e2db" ;
+    dcterms:modified "2019-07-11T07:20:51Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/0434f509-4e0f-4211-98b7-20867924e2db/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "000000000000" ;
+        locn:geometry "POLYGON ((7.04747455 54.84794949, 14.2545058 54.84794949, 14.2545058 53.34050254, 7.04747455 53.34050254, 7.04747455 54.84794949))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[7.04747455, 54.84794949], [14.2545058, 54.84794949], [14.2545058, 53.34050254], [7.04747455, 53.34050254], [7.04747455, 54.84794949]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2017-12-31T01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2017-01-01T01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Zeitreihen der mittleren Periodendauer - Serie"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" ;
+        vcard:hasCountryName "Deutschland" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/Susanne.Tamm@bsh.de> ;
+        vcard:hasLocality "Hamburg" ;
+        vcard:hasPostalCode "20359" ;
+        vcard:hasStreetAddress "Bernhard-Nocht-Str. 78"
+    ] ;
+    dcat:distribution <https://www.geoseaportal.de/atomfeeds/MA_H_TM02.xml/distribution> ;
+    dcat:keyword "Nordsee"@de, "Ostsee"@de, "Stundenwerte"@de, "Wasseroberfläche"@de, "Zeitreihe"@de, "mcloud_category_waters"@de, "opendata"@de, "signifikante Wellenhöhe"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/0434f509-4e0f-4211-98b7-20867924e2db/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/04492b34-af66-4886-9865-9342428f7b46>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcatde:originator [
+        a foaf:Organization ;
+        foaf:mbox "customer@bsh.de" ;
+        foaf:name "Bernd Vahrenkamp"
+    ] ;
+    dcterms:accessRights "Dieser Datensatz kann gemäß der \"Datenlizenz Deutschland – Namensnennung – Version 2.0\" (www.govdata.de/dl-de/by-2-0) genutzt werden."@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/NEVER> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "customer@bsh.de" ;
+        foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)"
+    ] ;
+    dcterms:description "Die vorliegenden Echolotdaten wurden im Rahmen der Seevermessung des Bundesamtes für Seeschifffahrt und Hydrographie erfasst, aber keiner weiteren Qualitätssicherung oder Validierung unterzogen. Es handelt sich um Rohdaten!"@de ;
+    dcterms:identifier "04492b34-af66-4886-9865-9342428f7b46" ;
+    dcterms:modified "2020-11-30T06:28:27.672Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/04492b34-af66-4886-9865-9342428f7b46/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "000000000000" ;
+        locn:geometry "POLYGON ((8.3621188997 54.9440959678, 8.4944353972 54.9440959678, 8.4944353972 54.8894048972, 8.3621188997 54.8894048972, 8.3621188997 54.9440959678))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[8.3621188997, 54.9440959678], [8.4944353972, 54.9440959678], [8.4944353972, 54.8894048972], [8.3621188997, 54.8894048972], [8.3621188997, 54.9440959678]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2017-08-22T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2017-07-22T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Echolotdaten - Nordsee 2017 9031701"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" ;
+        vcard:hasCountryName "Deutschland" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/Johannes.Melles@bsh.de> ;
+        vcard:hasLocality "Hamburg" ;
+        vcard:hasPostalCode "20359" ;
+        vcard:hasStreetAddress "Bernhard-Nocht-Str. 78"
+    ] ;
+    dcat:distribution <https://www.geoseaportal.de/atomfeeds/Verm_Single_Beam_Nordsee_2017.xml/distribution> ;
+    dcat:keyword "Bathymetrie"@de, "Hydrographie"@de, "Höhe"@de, "Meeresboden"@de, "Seevermessung"@de, "Topographie"@de, "mcloud_category_waters"@de, "opendata"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/04492b34-af66-4886-9865-9342428f7b46/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/04591e4c-b936-451b-8097-4173336b43cc>
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/mCloud> ;
+    dcatde:originator [
+        a foaf:Organization ;
+        foaf:mbox "customer@bsh.de" ;
+        foaf:name "Bernd Vahrenkamp"
+    ] ;
+    dcterms:accessRights "Dieser Datensatz kann gemäß der \"Datenlizenz Deutschland – Namensnennung – Version 2.0\" (www.govdata.de/dl-de/by-2-0) genutzt werden."@de ;
+    dcterms:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/NEVER> ;
+    dcterms:creator [
+        a foaf:Organization ;
+        foaf:mbox "customer@bsh.de" ;
+        foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)"
+    ] ;
+    dcterms:description "Die vorliegenden Echolotdaten wurden im Rahmen der Seevermessung des Bundesamtes für Seeschifffahrt und Hydrographie erfasst, aber keiner weiteren Qualitätssicherung oder Validierung unterzogen. Es handelt sich um Rohdaten!"@de ;
+    dcterms:identifier "04591e4c-b936-451b-8097-4173336b43cc" ;
+    dcterms:modified "2020-11-30T06:28:27.721Z"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:publisher <https://mcloud.de/web/guest/suche/-/results/detail/04591e4c-b936-451b-8097-4173336b43cc/#publisher> ;
+    dcterms:spatial [
+        a dcterms:Location ;
+        skos:prefLabel "000000000000" ;
+        locn:geometry "POLYGON ((8.22787361362 54.6266751974, 8.38380569914 54.6266751974, 8.38380569914 54.5372978423, 8.22787361362 54.5372978423, 8.22787361362 54.6266751974))"^^<http://www.opengis.net/ont/geosparql#wktLiteral>, "{\"type\": \"Polygon\", \"coordinates\": [[[8.22787361362, 54.6266751974], [8.38380569914, 54.6266751974], [8.38380569914, 54.5372978423], [8.22787361362, 54.5372978423], [8.22787361362, 54.6266751974]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json>
+    ] ;
+    dcterms:temporal [
+        schema:endDate "2019-05-20T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:startDate "2019-04-21T00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a dcterms:PeriodOfTime
+    ] ;
+    dcterms:title "Echolotdaten - Nordsee 2019 9091905"@de ;
+    a dcat:Dataset ;
+    dcat:contactPoint [
+        a vcard:Organization ;
+        vcard:fn "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" ;
+        vcard:hasCountryName "Deutschland" ;
+        vcard:hasEmail <file:///home/lisa/repos/crawling/target/Johannes.Melles@bsh.de> ;
+        vcard:hasLocality "Hamburg" ;
+        vcard:hasPostalCode "20359" ;
+        vcard:hasStreetAddress "Bernhard-Nocht-Str. 78"
+    ] ;
+    dcat:distribution <https://www.geoseaportal.de/atomfeeds/Verm_Single_Beam_Nordsee_2019.xml/distribution> ;
+    dcat:keyword "Bathymetrie"@de, "Hydrographie"@de, "Höhe"@de, "Meeresboden"@de, "Seevermessung"@de, "Topographie"@de, "mcloud_category_waters"@de, "opendata"@de ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENVI> .
+
+<https://mcloud.de/web/guest/suche/-/results/detail/04591e4c-b936-451b-8097-4173336b43cc/#publisher>
+    a foaf:Agent ;
+    foaf:name "Bundesamt für Seeschifffahrt und Hydrographie (BSH)" .
+
+<https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_Badeweg_2020-12-25.csv/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2020-12-26T22:15:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
+    dcterms:title "Parkplatz_Scharbeutz_Badeweg_2020-12-25.csv"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_Badeweg_2020-12-25.csv> ;
+    dcat:byteSize 42591 ;
+    dcat:downloadURL <https://opendatarepo.lsh.uni-kiel.de/data/scharbeutz/Parkplatz_Scharbeutz_Badeweg_2020-12-25.csv> .
+
+<https://www.geoseaportal.de/atomfeeds/MA_H_TM02.xml/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/ATOM> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoseaportal.de/atomfeeds/MA_H_TM02.xml> ;
+    dcat:downloadURL <https://www.geoseaportal.de/atomfeeds/MA_H_TM02.xml> .
+
+<https://www.geoseaportal.de/atomfeeds/MO_H_SECCI.xml/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/ATOM> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoseaportal.de/atomfeeds/MO_H_SECCI.xml> ;
+    dcat:downloadURL <https://www.geoseaportal.de/atomfeeds/MO_H_SECCI.xml> .
+
+<https://www.geoseaportal.de/atomfeeds/MO_L_TOC.xml/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/ATOM> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoseaportal.de/atomfeeds/MO_L_TOC.xml> ;
+    dcat:downloadURL <https://www.geoseaportal.de/atomfeeds/MO_L_TOC.xml> .
+
+<https://www.geoseaportal.de/atomfeeds/Verm_Single_Beam_Nordsee_2017.xml/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/ATOM> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoseaportal.de/atomfeeds/Verm_Single_Beam_Nordsee_2017.xml> ;
+    dcat:downloadURL <https://www.geoseaportal.de/atomfeeds/Verm_Single_Beam_Nordsee_2017.xml> .
+
+<https://www.geoseaportal.de/atomfeeds/Verm_Single_Beam_Nordsee_2019.xml/distribution>
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/ATOM> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.geoseaportal.de/atomfeeds/Verm_Single_Beam_Nordsee_2019.xml> ;
+    dcat:downloadURL <https://www.geoseaportal.de/atomfeeds/Verm_Single_Beam_Nordsee_2019.xml> .
+
+<https://www.offenesdatenportal.de/dataset/03e1b2b4-a758-4262-b174-9872b482cdd2/resource/a229654f-baef-49a3-a8f3-28cd4a960b3a/download/antrage-ausnahmegenehmigungen.csv/distribution>
+    dcterms:description """Anträge aus Ausnahmegenehmigungen gemäß § 46 StVO, FRVO
+
+* Spalte1 = Kategorisierung der Ausnahmegenehmigungen
+* Spalte2 = 2008
+* Spalte3 = 2009
+* Spalte4 = 2010
+* Spalte5 = 2011
+* Spalte6 = 2012
+* Spalte7 = 2013
+* Spalte8 = 2014
+* Spalte9 = 2015
+* Spalte10 = 2016
+* Spalte11 = 2017
+* Spalte12 = 2018
+* Spalte13 = 2019""" ;
+    dcterms:format <http://publications.europa.eu/resource/authority/file-type/CSV> ;
+    dcterms:issued "2016-04-21T09:27:28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:license <http://dcat-ap.de/def/licenses/dl-zero-de/2.0> ;
+    dcterms:modified "2020-02-14T08:04:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    dcterms:title "Anträge Ausnahmegenehmigungen"@de ;
+    a dcat:Distribution ;
+    dcat:accessURL <https://www.offenesdatenportal.de/dataset/03e1b2b4-a758-4262-b174-9872b482cdd2/resource/a229654f-baef-49a3-a8f3-28cd4a960b3a/download/antrage-ausnahmegenehmigungen.csv> ;
+    dcat:byteSize 579 ;
+    dcat:downloadURL <https://www.offenesdatenportal.de/dataset/03e1b2b4-a758-4262-b174-9872b482cdd2/resource/a229654f-baef-49a3-a8f3-28cd4a960b3a/download/antrage-ausnahmegenehmigungen.csv> .
+
