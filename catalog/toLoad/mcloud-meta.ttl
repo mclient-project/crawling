@@ -1,0 +1,4 @@
+@prefix mclient: <http://mclient-project.github.io/catalog/> .
+@prefix cat:   <http://www.w3.org/ns/dcat#> .
+
+mclient:meta  cat:catalog  <https://mcloud.de> .

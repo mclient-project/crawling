@@ -44,6 +44,9 @@ curl-catalogs: target
 curl-big-cat: target
 	chmod +x $(SELF)/$(SCRIPTS_DIR)/big-cat.sh && $(SELF)/$(SCRIPTS_DIR)/big-cat.sh
 
+curl-mcloud: target
+	chmod +x $(SELF)/$(SCRIPTS_DIR)/mcloud.sh && $(SELF)/$(SCRIPTS_DIR)/mcloud.sh
+
 #crawl-all: crawl-ckan crawl-dkan crawl-bielefeld
 
 #curl-all: curl-catalogs curl-govdata

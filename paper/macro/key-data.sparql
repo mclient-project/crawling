@@ -1,0 +1,16 @@
+prefix dcat: <http://www.w3.org/ns/dcat#> 
+prefix dct: <http://purl.org/dc/terms/> 
+prefix prov: <http://www.w3.org/ns/prov#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix ckan: <http://ckan.aksw.org/ontology/>
+
+SELECT COUNT(DISTINCT ?ds) as ?ds COUNT(DISTINCT ?dist) as ?dist   COUNT(DISTINCT ?url) as ?url WHERE {
+
+?catalog dcat:dataset ?ds .
+?ds dcat:distribution ?dist  .
+?dist dcat:accessURL ?url .
+FILTER (!isBlank(?ds))
+FILTER (!isBlank(?dist))
+
+}
+#GROUP BY ?catalog
