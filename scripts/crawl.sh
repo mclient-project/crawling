@@ -8,7 +8,9 @@ echo "$portals" | while read portalline; do
 	if [ -s $portal ]
 		then
 			rapper -i turtle -o turtle $portal > /dev/null 2> $portal-parse
-			if ! grep -q ERROR $portal-parse; then
+			test=$(cat $portal-parse | grep -c "Error")
+			if [ $test -eq 0 ]; then 
+			#if ! grep -q ERROR $portal-parse; then
 				export PORTAL=`echo $(basename $portal .ttl) | tr '_' ' '`
 				sparql-integrate --io=$portal --w=trig/pretty cwd=$(pwd) prefixes.ttl $SPARQL_DIR/catalog-rules/*.sparql spo.sparql
 			else

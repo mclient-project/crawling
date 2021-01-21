@@ -6,6 +6,8 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 
+_:b0    a       vcard:Kind .
+
 <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-glascontainer/resource/fa975a4b-b331-4d86-87a7-f6c47b5034cb>
         a                    cat:Distribution ;
         dcterms:description  "" ;
@@ -41,22 +43,9 @@
         dcterms:title        "Bodenrichtwertzonen 2013" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/71e62b85-60b5-4462-a8f2-7121beb28b1a> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/71e62b85-60b5-4462-a8f2-7121beb28b1a" .
-
-<https://offenedaten-konstanz.de/dataset/abfallplaner-m-llabfuhrtermine-2020/resource/fc205f66-ffa0-415d-b17a-265fb89d9767>
-        a                    cat:Distribution ;
-        dcterms:description  "<p>Auflistung der Müllabfuhrtermine der EBK für Biomüll, Restmüll, Gelbersack, Papiertonne, Christbaumabholung im Stadtgebiet Konstanz für das Jahr 2021.</p>\n<p>Der Spaltenaufbau des Datensatzes bestimmt sich wie folgt:</p>\n<ul>\n<li>Datum (DD.MM.)</li>\n<li>PLZ = Postleitzahl </li>\n<li>Straße = Straßennamen</li>\n<li>Müllart (Biomüll, Restmüll, Gelbersack, Papier, Christbaumabholung)</li>\n<li>Abholregion (Konstanz)</li>\n</ul>\n<p> </p>\n<p>(Quelle: Entsorgungsbetriebe Stadt Konstanz)</p>\n" ;
-        dcterms:format       "csv" ;
-        dcterms:issued       "2020-12-09T14:11:41+01:00"^^xsd:date ;
-        dcterms:modified     "2020-12-09T14:11:41+01:00"^^xsd:date ;
-        dcterms:title        "Abfallplaner Müllabfuhrtermine 2021" ;
-        cat:accessURL        <https://offenedaten-konstanz.de/dataset/abfallplaner-m-llabfuhrtermine-2020/resource/fc205f66-ffa0-415d-b17a-265fb89d9767> ;
-        cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
-        cat:mediaType        "" ;
-        foaf:page            "https://offenedaten-konstanz.de/dataset/abfallplaner-m-llabfuhrtermine-2020/resource/fc205f66-ffa0-415d-b17a-265fb89d9767" .
 
 <https://offenedaten-konstanz.de/dataset/wahlergebnisse-konstanzer-landtagswahlen>
         a                    cat:Dataset ;
@@ -66,7 +55,7 @@
         dcterms:modified     "2020-11-19T16:04:56+01:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Wahlergebnisse Konstanzer Landtagswahlen" ;
-        cat:contactPoint     _:b0 ;
+        cat:contactPoint     _:b1 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/wahlergebnisse-konstanzer-landtagswahlen/resource/8f129f4e-8c6e-4914-983e-0e91f4be0aba> ;
         cat:keyword          "Politik und Wahlen" .
 
@@ -92,7 +81,7 @@
         dcterms:title        "Bildungseinrichtungen  APP" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/bildungseinrichtungen-2019/resource/061a91a4-16a2-426d-abc8-755596d4164c> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/bildungseinrichtungen-2019/resource/061a91a4-16a2-426d-abc8-755596d4164c" .
 
@@ -109,7 +98,29 @@
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-glascontainer/resource/042b32b2-2baf-4dee-a1ee-4a5d61dd45ee" .
 
-_:b1    a       vcard:Kind .
+<https://offenedaten-konstanz.de/dataset/dauerz-hlstellen-radverkehr/resource/2453f826-1c3b-4f31-a82d-4e8cbc70a8c3>
+        a                    cat:Distribution ;
+        dcterms:description  "" ;
+        dcterms:format       "" ;
+        dcterms:issued       "2020-10-13T13:50:33+02:00"^^xsd:date ;
+        dcterms:modified     "2020-10-13T13:50:33+02:00"^^xsd:date ;
+        dcterms:title        "Interactive Map" ;
+        cat:accessURL        <https://offenedaten-konstanz.de/dataset/dauerz-hlstellen-radverkehr/resource/2453f826-1c3b-4f31-a82d-4e8cbc70a8c3> ;
+        cat:byteSize         "" ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
+        cat:mediaType        "" ;
+        foaf:page            "https://offenedaten-konstanz.de/dataset/dauerz-hlstellen-radverkehr/resource/2453f826-1c3b-4f31-a82d-4e8cbc70a8c3" .
+
+<https://offenedaten-konstanz.de/dataset/georefernzierte-standorte-fahrradh-ndler>
+        a                    cat:Dataset ;
+        dcterms:description  "<p>(Quelle: Stadt Konstanz, Amt für Liegenschaften und Geoinformation)</p>\n" ;
+        dcterms:identifier   "b6afd3a3-c054-499e-87ff-4994ef1248ee" ;
+        dcterms:issued       "2020-11-30T16:07:32+01:00"^^xsd:date ;
+        dcterms:modified     "2020-11-30T16:07:32+01:00"^^xsd:date ;
+        dcterms:title        "Georefernzierte Standorte Fahrradhändler" ;
+        cat:contactPoint     _:b2 ;
+        cat:distribution     <https://offenedaten-konstanz.de/dataset/georefernzierte-standorte-fahrradh-ndler/resource/54f22ed4-4b9e-4c06-8af1-0e6541b5aec6> ;
+        cat:keyword          "Infrastruktur" , "Transport und Verkehr" , "Bauen und Wohnen" .
 
 <https://offenedaten-konstanz.de/dataset/standorte-konstanz-wlan/resource/b529baea-975c-49fd-8a77-2c9033a95d04>
         a                    cat:Distribution ;
@@ -124,18 +135,9 @@ _:b1    a       vcard:Kind .
         cat:mediaType        "text/csv" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/standorte-konstanz-wlan/resource/b529baea-975c-49fd-8a77-2c9033a95d04" .
 
-<https://offenedaten-konstanz.de/dataset/dauerz-hlstellen-radverkehr/resource/2453f826-1c3b-4f31-a82d-4e8cbc70a8c3>
-        a                    cat:Distribution ;
-        dcterms:description  "" ;
-        dcterms:format       "" ;
-        dcterms:issued       "2020-10-13T13:50:33+02:00"^^xsd:date ;
-        dcterms:modified     "2020-10-13T13:50:33+02:00"^^xsd:date ;
-        dcterms:title        "Interactive Map" ;
-        cat:accessURL        <https://offenedaten-konstanz.de/dataset/dauerz-hlstellen-radverkehr/resource/2453f826-1c3b-4f31-a82d-4e8cbc70a8c3> ;
-        cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
-        cat:mediaType        "" ;
-        foaf:page            "https://offenedaten-konstanz.de/dataset/dauerz-hlstellen-radverkehr/resource/2453f826-1c3b-4f31-a82d-4e8cbc70a8c3" .
+_:b3    a       vcard:Kind .
+
+_:b4    a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/bildungseinrichtungen-2019/resource/14dd716d-1cc7-4b33-b11c-2f6f42e42e28>
         a                    cat:Distribution ;
@@ -150,16 +152,7 @@ _:b1    a       vcard:Kind .
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/bildungseinrichtungen-2019/resource/14dd716d-1cc7-4b33-b11c-2f6f42e42e28" .
 
-<https://offenedaten-konstanz.de/dataset/georefernzierte-standorte-fahrradh-ndler>
-        a                    cat:Dataset ;
-        dcterms:description  "<p>(Quelle: Stadt Konstanz, Amt für Liegenschaften und Geoinformation)</p>\n" ;
-        dcterms:identifier   "b6afd3a3-c054-499e-87ff-4994ef1248ee" ;
-        dcterms:issued       "2020-11-30T16:07:32+01:00"^^xsd:date ;
-        dcterms:modified     "2020-11-30T16:07:32+01:00"^^xsd:date ;
-        dcterms:title        "Georefernzierte Standorte Fahrradhändler" ;
-        cat:contactPoint     _:b2 ;
-        cat:distribution     <https://offenedaten-konstanz.de/dataset/georefernzierte-standorte-fahrradh-ndler/resource/54f22ed4-4b9e-4c06-8af1-0e6541b5aec6> ;
-        cat:keyword          "Infrastruktur" , "Transport und Verkehr" , "Bauen und Wohnen" .
+_:b5    a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/wahlergebnisse-konstanzer-oberb-rgermeisterwahlen/resource/46bca058-adc3-4bde-ace0>
         a                    cat:Distribution ;
@@ -181,7 +174,7 @@ _:b1    a       vcard:Kind .
         dcterms:issued       "2020-08-12T16:18:21+02:00"^^xsd:date ;
         dcterms:modified     "2020-08-12T16:18:21+02:00"^^xsd:date ;
         dcterms:title        "Städtische Umfrage im Projekt \"Klimaschutzdaten für Konstanz\"" ;
-        cat:contactPoint     _:b3 ;
+        cat:contactPoint     _:b6 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/st-dtische-umfrage-im-projekt-klimaschutzdaten-f-r-konstanz/resource/14a387b7-7435-4bdb-be90> ;
         cat:keyword          "Verwaltung" , "Umwelt und Klima" , "Haushalt und Steuern" .
 
@@ -197,6 +190,8 @@ _:b1    a       vcard:Kind .
         cat:downloadURL      <https://opendata.arcgis.com/datasets/d3c7347a876e49eb99cc454c8bc72de2_0.csv> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-parkh-user/resource/3b283ce3-0b92-46b5-9c05-81031a941127" .
+
+_:b7    a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/wahlergebnisse-konstanzer-oberb-rgermeisterwahlen/resource/8fdb4ec8-fcf6-4e5e-b79d>
         a                    cat:Distribution ;
@@ -224,8 +219,6 @@ _:b1    a       vcard:Kind .
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/baumkataster-konstanz/resource/5f62133f-5754-4996-8637-3a433aae0bee" .
 
-_:b4    a       vcard:Kind .
-
 <https://offenedaten-konstanz.de/dataset/busverkehr/resource/8cccbfad-464d-4a36-b989-d6e82ce9bc31>
         a                    cat:Distribution ;
         dcterms:description  "<p>Dieser Datensatz enthält Daten zu den Fahrthaltezeiten im Jahr 2019. Die Datenquelle ist das Busleitsystem der Stadtwerke Konstanz. Stand: 15.04.2019</p>\n<p>Der Zeilenaufbau beschreibt sich wie folgt:</p>\n<ul>\n<li>FPL = Fahrplan</li>\n<li>ID = Identnummer</li>\n<li>WUL_Nr = Wagenumlaufnummer</li>\n<li>KBEZ = Kurzbezeichung</li>\n<li>LBEZ = Langbezeichnung</li>\n<li>ZBEZ = Zusatzbezeichnung</li>\n<li>FRT = Fahrt</li>\n<li>FRT_LFD = Fahrt Laufende Nummer</li>\n<li>Linie 93 = Linie 9C</li>\n<li>Linie 4 = Nachtschwärmer</li>\n<li>FWG = Fahrweg</li>\n<li>FWG_LFD = Fahrweg laufende Nummer</li>\n<li>VORG_FZN = vorgegebene Fahrzeugnummer</li>\n<li>FZGT = Fahrzeuggattung</li>\n<li>EXT_ID = Externe ID</li>\n<li>ORT_TYP_1 = Haltestelle</li>\n<li>FHZT = Fahrthaltezeit</li>\n<li>Ziel = Zielnummer der Außenbeschilderung</li>\n<li>FZT = Fahrzeit</li>\n<li>FKAL = Firmenkalender</li>\n<li>FPL = Fahrplan</li>\n<li>DPL = Dienstplan</li>\n<li>BTB = Betriebsbereich</li>\n<li>IBEZ = Interne Bezeichnung</li>\n<li>VBD = Verbindung</li>\n<li>GEBKOERPER = Gebietskörperschaft</li>\n</ul>\n" ;
@@ -252,8 +245,6 @@ _:b4    a       vcard:Kind .
         cat:mediaType        "text/csv" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/mobile-verkehrsz-hlungen-rad-und-fu-verkehr/resource/14b694ea-70b3-4d1c-8e18-846df5d6d6a8" .
 
-_:b5    a       vcard:Kind .
-
 <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-spielpl-tze/resource/3c9bb0d9-eae1-4290-8084-a1f50f8534ed>
         a                    cat:Distribution ;
         dcterms:description  "" ;
@@ -275,7 +266,7 @@ _:b5    a       vcard:Kind .
         dcterms:modified     "2019-03-21T13:05:14+01:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Dauerzählstellen Radverkehr" ;
-        cat:contactPoint     _:b6 ;
+        cat:contactPoint     _:b8 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/dauerz-hlstellen-radverkehr/resource/62b7e578-096e-421d-b0f8-1c7a3d8945be> , <https://offenedaten-konstanz.de/dataset/dauerz-hlstellen-radverkehr/resource/2453f826-1c3b-4f31-a82d-4e8cbc70a8c3> , <https://offenedaten-konstanz.de/dataset/dauerz-hlstellen-radverkehr/resource/3c733965-6595-4e2b-acfe-4b0e09053ca6> ;
         cat:keyword          "Transport und Verkehr" .
 
@@ -287,7 +278,7 @@ _:b5    a       vcard:Kind .
         dcterms:modified     "2020-08-13T11:41:19+02:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Modal Split " ;
-        cat:contactPoint     _:b7 ;
+        cat:contactPoint     _:b9 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/modal-split/resource/d8699e8a-9d60-47e3-a37a-34e510358ae4> ;
         cat:keyword          "Umwelt und Klima" , "Transport und Verkehr" .
 
@@ -325,11 +316,9 @@ _:b5    a       vcard:Kind .
         dcterms:modified     "2020-12-09T13:47:32+01:00"^^xsd:date ;
         dcterms:publisher    "Entsorgungsbetriebe Stadt Konstanz" ;
         dcterms:title        "Kläranlage Konstanz" ;
-        cat:contactPoint     _:b8 ;
+        cat:contactPoint     _:b10 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/kl-ranlage-konstanz/resource/11effd0b-2385-47f6-852f-f354c2cfe677> ;
         cat:keyword          "Infrastruktur" , "Bauen und Wohnen" .
-
-_:b9    a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/ffentliche-papiereimer-stadt-konstanz>
         a                    cat:Dataset ;
@@ -339,13 +328,11 @@ _:b9    a       vcard:Kind .
         dcterms:modified     "2019-07-11T14:10:18+02:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Öffentliche Papiereimer - Stadt Konstanz" ;
-        cat:contactPoint     _:b10 ;
+        cat:contactPoint     _:b11 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/ffentlichen-papiereimer-stadt-konstanz/resource/8791a657-bb4c-443c-8b67-fe27d0fa89e9> , <https://offenedaten-konstanz.de/dataset/ffentlichen-papiereimer-stadt-konstanz/resource/9ff59379-acb9-4ab0-9633-8575d2565a97> , <https://offenedaten-konstanz.de/dataset/ffentlichen-papiertonnen-stadt-konstanz/resource/958004bf-e225-4cc9-91bc-ecd0839fa092> ;
         cat:keyword          "Umwelt und Klima" , "Geo" .
 
-_:b11   a       vcard:Kind .
-
-_:b12   a       vcard:Kind .
+_:b1    a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/kleinr-umige-gliederung-stadtviertelfl-che/resource/0c5296c0-3a27-470e-ab7f-b5811c038dad>
         a                    cat:Distribution ;
@@ -373,9 +360,7 @@ _:b12   a       vcard:Kind .
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/st-dtische-einrichtungen-beh-rden/resource/51ed0e41-2f44-4ff0-a804-ace6e41d2890" .
 
-_:b13   a       vcard:Kind .
-
-_:b14   a       vcard:Kind .
+_:b12   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/bildungseinrichtungen-2019/resource/be918a9e-9734-4ebd-8643-e54ea9a2d752>
         a                    cat:Distribution ;
@@ -398,7 +383,7 @@ _:b14   a       vcard:Kind .
         dcterms:modified     "2019-05-13T10:31:30+02:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Georeferenzierte Standorte Sportanlagen" ;
-        cat:contactPoint     _:b15 ;
+        cat:contactPoint     _:b13 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-sportanlagen/resource/e8c0a3ff-0c8b-426a-b9d6-e10784974c8e> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-sportanlagen/resource/6cf4f0cb-8d3a-4c63-8602-fb3ae29c7b89> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-sportanlagen/resource/16300c3c-96f9-404b-bc63-66263f9a867f> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-sportanlagen/resource/f358dfbc-2d26-433c-8d0c-c71ded011904> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-sportanlagen/resource/1c7db3b0-4631-4e73-b6a7-4a4dd392149a> ;
         cat:keyword          "Sport und Tourismus" , "Kultur" , "Freizeit" , "Geo" .
 
@@ -423,7 +408,7 @@ _:b14   a       vcard:Kind .
         dcterms:modified     "2020-03-03T16:02:55+01:00"^^xsd:date ;
         dcterms:publisher    "Entsorgungsbetriebe Stadt Konstanz" ;
         dcterms:title        "Abfallstatistik Eigenbetriebe Konstanz" ;
-        cat:contactPoint     _:b16 ;
+        cat:contactPoint     _:b7 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/abfallstatistik-eigenbetriebe-konstanz/resource/51252412-4f26-47df-996e-e5eaf1f92ea5> ;
         cat:keyword          "Infrastruktur" , "Umwelt und Klima" , "Bauen und Wohnen" .
 
@@ -447,9 +432,11 @@ _:b14   a       vcard:Kind .
         dcterms:issued       "2020-08-18T08:51:58+02:00"^^xsd:date ;
         dcterms:modified     "2020-08-18T08:51:58+02:00"^^xsd:date ;
         dcterms:title        "BICO2 Bilanzierung" ;
-        cat:contactPoint     _:b17 ;
+        cat:contactPoint     _:b14 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/bico2-bilanzierung/resource/cc8bdbd0-c10b-4a0a-9cc1-7ae3e92e75f6> , <https://offenedaten-konstanz.de/dataset/bico2-bilanzierung/resource/dbd8f87d-1851-419b-972e-8d628b8d1176> , <https://offenedaten-konstanz.de/dataset/bico2-bilanzierung/resource/b65d4741-d1b5-4464-b8be-2a399e238193> , <https://offenedaten-konstanz.de/dataset/bico2-bilanzierung/resource/320bad59-a8e2-488b-abbe-aa3b5403a816> , <https://offenedaten-konstanz.de/dataset/bico2-bilanzierung/resource/274b4fe7-e8af-4d11-aca8-6b9a3ad92fd1> ;
         cat:keyword          "Umwelt und Klima" .
+
+_:b15   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-spielpl-tze/resource/145b0700-59ca-4e58-9a94-1eff8023b555>
         a                    cat:Distribution ;
@@ -460,21 +447,9 @@ _:b14   a       vcard:Kind .
         dcterms:title        "Spielplätze (xlm, shp, KML)" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-spielpl-tze/resource/145b0700-59ca-4e58-9a94-1eff8023b555> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-spielpl-tze/resource/145b0700-59ca-4e58-9a94-1eff8023b555" .
-
-_:b18   a                    cat:Catalog ;
-        dcterms:description  "" ;
-        dcterms:issued       "2020-12-27T10:35:18+01:00"^^xsd:date ;
-        dcterms:language     "de" ;
-        dcterms:modified     "2020-12-27T10:35:18+01:00"^^xsd:date ;
-        dcterms:publisher    <https://offenedaten-konstanz.de/publisher/n0> ;
-        dcterms:title        "Offene Daten Konstanz" ;
-        cat:dataset          <https://offenedaten-konstanz.de/dataset/wahlbezirke> , <https://offenedaten-konstanz.de/dataset/bico2-bilanzierung> , <https://offenedaten-konstanz.de/dataset/historische-wetterdaten> , <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte> , <https://offenedaten-konstanz.de/dataset/mobile-verkehrsz-hlungen-rad-und-fu-verkehr> , <https://offenedaten-konstanz.de/dataset/standorte-konstanz-wlan> , <https://offenedaten-konstanz.de/dataset/dauerz-hlstellen-radverkehr> , <https://offenedaten-konstanz.de/dataset/kohlendioxid-emissionen-kommunale-co2-bilanzen-stadt-konstanz> , <https://offenedaten-konstanz.de/dataset/modal-split> , <https://offenedaten-konstanz.de/dataset/fahrradabstellanlagen> , <https://offenedaten-konstanz.de/dataset/baumkataster-konstanz> , <https://offenedaten-konstanz.de/dataset/kl-ranlage-konstanz> , <https://offenedaten-konstanz.de/dataset/geschwindigkeits-berwachung-jahresstatistik> , <https://offenedaten-konstanz.de/dataset/kindertagesbetreuung-einrichtungen> , <https://offenedaten-konstanz.de/dataset/st-dtische-umfrage-im-projekt-klimaschutzdaten-f-r-konstanz> , <https://offenedaten-konstanz.de/dataset/kleiner-waffenschein> , <https://offenedaten-konstanz.de/dataset/stromverbrauch-entsorgungsbetriebe-konstanz> , <https://offenedaten-konstanz.de/dataset/stadtteilgrenzen-stadtteilfl-che> , <https://offenedaten-konstanz.de/dataset/st-dtische-einrichtungen-beh-rden> , <https://offenedaten-konstanz.de/dataset/abfallplaner-m-llabfuhrtermine> , <https://offenedaten-konstanz.de/dataset/solarpotenzial> , <https://offenedaten-konstanz.de/dataset/kleinr-umige-gliederung-stadtviertelfl-che> , <https://offenedaten-konstanz.de/dataset/wahlergebnisse-konstanzer-oberb-rgermeisterwahlen> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-spielpl-tze> , <https://offenedaten-konstanz.de/dataset/einwohnerentwicklung-stadt-konstanz> , <https://offenedaten-konstanz.de/dataset/busverkehr> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-glascontainer> , <https://offenedaten-konstanz.de/dataset/wahlergebnisse-konstanzer-landtagswahlen> , <https://offenedaten-konstanz.de/dataset/bildungseinrichtungen-2019> , <https://offenedaten-konstanz.de/dataset/konstanzer-einwohner-nach-stadtvierteln> , <https://offenedaten-konstanz.de/dataset/gesamt-bersicht-ma-nahmenpaket-2019-klimaschutzbericht-stadt-konstanz> , <https://offenedaten-konstanz.de/dataset/ffentliche-papiereimer-stadt-konstanz> , <https://offenedaten-konstanz.de/dataset/konstanzer-geb-ude-nach-baujahren> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-sportanlagen> , <https://offenedaten-konstanz.de/dataset/kfz-statistik-konstanz> , <https://offenedaten-konstanz.de/dataset/m-ngelmelder> , <https://offenedaten-konstanz.de/dataset/konstanzer-stadtteilprofile> , <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle> , <https://offenedaten-konstanz.de/dataset/abfallstatistik-eigenbetriebe-konstanz> , <https://offenedaten-konstanz.de/dataset/georefernzierte-standorte-fahrradh-ndler> , <https://offenedaten-konstanz.de/dataset/grenz-berg-nge-kraftfahrzeuge-deutschland-schweiz> , <https://offenedaten-konstanz.de/dataset/kinderbetreuung-nach-stadtteilen> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-fahrradmietsytsem-konrad-tink> , <https://offenedaten-konstanz.de/dataset/alte-wahlbezirkseinteilung-bis-2018> , <https://offenedaten-konstanz.de/dataset/fahrrad-mietsystem-tinkkonrad> , <https://offenedaten-konstanz.de/dataset/au-enwanderung-bei-stadtteil> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-parkh-user> ;
-        foaf:homepage        "https://offenedaten-konstanz.de/search/type/dataset" .
-
-_:b19   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/wahlbezirke/resource/ba2a7d13-4627-42e2-8039-4183dae99162>
         a                    cat:Distribution ;
@@ -511,11 +486,11 @@ _:b19   a       vcard:Kind .
         dcterms:title        "Einträge im Mängelmelder 2017" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/m-ngelmelder/resource/ac3660b3-fc53-4fa6-a098-ebcba210297e> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/m-ngelmelder/resource/ac3660b3-fc53-4fa6-a098-ebcba210297e" .
 
-_:b20   a       vcard:Kind .
+_:b16   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-glascontainer>
         a                    cat:Dataset ;
@@ -525,17 +500,9 @@ _:b20   a       vcard:Kind .
         dcterms:modified     "2019-05-10T12:34:35+02:00"^^xsd:date ;
         dcterms:publisher    "Entsorgungsbetriebe Stadt Konstanz" ;
         dcterms:title        "Georeferenzierte Standorte Glascontainer" ;
-        cat:contactPoint     _:b9 ;
+        cat:contactPoint     _:b17 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-glascontainer/resource/fa975a4b-b331-4d86-87a7-f6c47b5034cb> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-glascontainer/resource/2aac0b2b-924d-4844-8082-349c2f2a4f12> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-glascontainer/resource/9619631a-7cca-4f15-8a7f-2461ab0896d3> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-glascontainer/resource/042b32b2-2baf-4dee-a1ee-4a5d61dd45ee> ;
         cat:keyword          "Infrastruktur" , "Bauen und Wohnen" , "Umwelt und Klima" , "Geo" .
-
-_:b21   a       vcard:Kind .
-
-_:b17   a       vcard:Kind .
-
-_:b22   a       vcard:Kind .
-
-_:b3    a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/fahrradabstellanlagen>
         a                    cat:Dataset ;
@@ -544,9 +511,11 @@ _:b3    a       vcard:Kind .
         dcterms:issued       "2020-11-30T13:49:46+01:00"^^xsd:date ;
         dcterms:modified     "2020-11-30T13:49:46+01:00"^^xsd:date ;
         dcterms:title        "Fahrradabstellanlagen" ;
-        cat:contactPoint     _:b23 ;
+        cat:contactPoint     _:b18 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/fahrradabstellanlagen/resource/28ce2651-f9ac-43a2-8ad8-d4600fcbe399> ;
         cat:keyword          "Infrastruktur" , "Bauen und Wohnen" , "Transport und Verkehr" .
+
+_:b17   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/058b9a20-26d8-43d6-b149-23bebaeead4a>
         a                    cat:Distribution ;
@@ -557,9 +526,12 @@ _:b3    a       vcard:Kind .
         dcterms:title        "Bodenrichtwertkarte" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/058b9a20-26d8-43d6-b149-23bebaeead4a> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/058b9a20-26d8-43d6-b149-23bebaeead4a" .
+
+_:b19   a         vcard:Kind ;
+        vcard:fn  "Stadt Konstanz" .
 
 <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-sportanlagen/resource/e8c0a3ff-0c8b-426a-b9d6-e10784974c8e>
         a                    cat:Distribution ;
@@ -570,7 +542,7 @@ _:b3    a       vcard:Kind .
         dcterms:title        "Sport - APP" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-sportanlagen/resource/e8c0a3ff-0c8b-426a-b9d6-e10784974c8e> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-sportanlagen/resource/e8c0a3ff-0c8b-426a-b9d6-e10784974c8e" .
 
@@ -587,8 +559,6 @@ _:b3    a       vcard:Kind .
         cat:mediaType        "text/csv" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/kleiner-waffenschein/resource/f47d97a5-27b6-49c8-baf6-d1981423c8cd" .
 
-_:b24   a       vcard:Kind .
-
 <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/a6c4d9a2-1ccf-4547-82ff-e76ceef6165e>
         a                    cat:Distribution ;
         dcterms:description  "" ;
@@ -598,7 +568,7 @@ _:b24   a       vcard:Kind .
         dcterms:title        "Bodenrichtwertzonen 2014" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/a6c4d9a2-1ccf-4547-82ff-e76ceef6165e> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/a6c4d9a2-1ccf-4547-82ff-e76ceef6165e" .
 
@@ -611,7 +581,7 @@ _:b24   a       vcard:Kind .
         dcterms:title        "Stadtverwaltung Konstanz" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/st-dtische-einrichtungen-beh-rden/resource/0525fbce-c6ff-402d-861e-dfe274ca0f4b> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/st-dtische-einrichtungen-beh-rden/resource/0525fbce-c6ff-402d-861e-dfe274ca0f4b" .
 
@@ -623,9 +593,11 @@ _:b24   a       vcard:Kind .
         dcterms:modified     "2020-09-07T11:20:51+02:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Baumkataster Konstanz" ;
-        cat:contactPoint     _:b25 ;
+        cat:contactPoint     _:b19 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/baumkataster-konstanz/resource/6e31fc9b-07fe-4ade-bde6-d8091587a77b> , <https://offenedaten-konstanz.de/dataset/baumkataster-konstanz/resource/ed175ffd-96c9-45f7-9e6c-ec9fc40d1d04> , <https://offenedaten-konstanz.de/dataset/baumkataster-konstanz/resource/382d16d9-11dd-45da-8ba5-e0bc780c17b1> , <https://offenedaten-konstanz.de/dataset/baumkataster-konstanz/resource/ad5a7bc2-84a1-4ece-bc05-dad8d564e385> , <https://offenedaten-konstanz.de/dataset/baumkataster-konstanz/resource/5f62133f-5754-4996-8637-3a433aae0bee> , <https://offenedaten-konstanz.de/dataset/baumkataster-konstanz/resource/7b3dc13c-34a1-44d1-a0da-3c12a8439dad> ;
         cat:keyword          "Bauen und Wohnen" , "Infrastruktur" , "Umwelt und Klima" , "Geo" .
+
+_:b20   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/konstanzer-stadtteilprofile>
         a                    cat:Dataset ;
@@ -635,13 +607,9 @@ _:b24   a       vcard:Kind .
         dcterms:modified     "2020-03-20T08:28:09+01:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Konstanzer Stadtteilprofile " ;
-        cat:contactPoint     _:b26 ;
+        cat:contactPoint     _:b15 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/konstanzer-stadtteilprofile/resource/7ee31207-6b0d-436f-aca3-16c6ee28952c> ;
         cat:keyword          "Bevölkerung" , "Politik und Wahlen" .
-
-_:b27   a               vcard:Kind ;
-        vcard:fn        "Geoinformation" ;
-        vcard:hasEmail  "Vermessungsamt@konstanz.de" .
 
 <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-parkh-user/resource/a06be156-91cf-436b-860c-1e817e9d722d>
         a                    cat:Distribution ;
@@ -695,6 +663,19 @@ _:b27   a               vcard:Kind ;
         cat:mediaType        "text/csv" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/29282a27-e64c-4875-800b-e137aff80c35" .
 
+<https://offenedaten-konstanz.de/dataset/kohlendioxid-emissionen-kommunale-co2-bilanzen-stadt-konstanz/resource/c725e514-ba55-4792>
+        a                    cat:Distribution ;
+        dcterms:description  "<p>Der Spaltenaufbau bestimmt sich wie folgt:</p>\n<ul>\n<li>\"Jahr\" (JJJJ)</li>\n<li>\"CO2 Quelle\" (Kraftwerke, Privat HH = Haushalt, Straßenverkehr, Sonstiger Verkehr)</li>\n<li>\"Tonnen\" (Menge der CO2-Emissionen in Tonnen)</li>\n<li>\"Einwohner*innen\"</li>\n<li>\"CO2 Anteil pro Kopf\"</li>\n<li>\"C02 Anteil\"</li>\n</ul>\n<p>Mehr Informationen gibt es hier:</p>\n<p>Die Quellenbilanz beinhaltet die CO2-Emissionen am Ort ihrer Entstehung: Im Straßenverkehr sind die Fahrleistungen aller Verkehrsteilnehmer (Anwohner und Auswärtige) auf dem Gemeindegebiet eingerechnet. Emissionen, die bei der Stromerzeugung entstehen, werden bei den Kraftwerken ausgewiesen, nicht beim Endverbraucher (Industrie, Gewerbe, Haushalte). Bei den Haushalten, Gewerbe, Handel, Dienstleistungen und übrigen Verbrauchern ist der Verbrauch fossiler Energieträger zur Deckung des Raumwärme- und Warmwasserbedarfs eingerechnet, nicht der Stromverbrauch. In der internationalen Berichterstattung (z.B. Nationaler Inventarbericht zum Deutschen Treibhausgasinventar - NIR) wird üblicherweise die Quellenbilanz zugrunde gelegt.</p>\n<p><strong>Energiebedingte CO2-Emissionen insgesamt</strong>: bezeichnet Emissionen aus der energetischen Nutzung fossiler Energieträger (Kohle, Heizöl, Gas) und sonstiger Energieträger (u.a. Petrolkoks, Raffineriegas, Hausmüll, Gewerbeabfälle).</p>\n<p>Die Gesamt Emissionen setzen sich aus Emissionen aus folgenden Sektoren zusammen:</p>\n<p><strong>Kraftwerke</strong>: einschließlich Heizwerke, Fernheizwerke, kommunale Hausmüllverbrennungsanlagen und sonstige Energieerzeuger.</p>\n<p><strong>Industrie/Feuerungen</strong>: industrielle Feuerungsanlagen, industrielle Wärmekraftwerke und sonstige Energieumwandlung (Raffinerien).</p>\n<p><strong>Private Haushalte, GHD und übrige Verbraucher</strong>: damit sind Gewerbe, Handel, Dienstleistungen (GHD) und übrige Verbraucher wie öffentliche Einrichtungen, Landwirtschaft und militärische Einrichtungen gemeint.</p>\n<p><strong>Verkehr</strong> unterteilt in Straßenverkehr und Sonstiger Verkehr</p>\n<p><strong>Sonstiger Verkehr</strong>: damit ist Schienen-, nationaler Luftverkehr, Binnenschifffahrt und Off-Road-Verkehr (landwirtschaftl. Zugmaschinen, Baumaschinen, Militär, Industriegeräte,Garten/Hobby) gemeint.</p>\n" ;
+        dcterms:format       "csv" ;
+        dcterms:issued       "2020-02-25T17:33:19+01:00"^^xsd:date ;
+        dcterms:modified     "2020-11-04T17:43:00+01:00"^^xsd:date ;
+        dcterms:title        "Quellenbezogene CO2-Emissionen 2010-2017 nach Sektoren in Konstanz" ;
+        cat:accessURL        <https://offenedaten-konstanz.de/dataset/kohlendioxid-emissionen-kommunale-co2-bilanzen-stadt-konstanz/resource/c725e514-ba55-4792> ;
+        cat:byteSize         "2710" ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/sites/default/files/Quellenbezogene%20CO2%20Emissionen.csv> ;
+        cat:mediaType        "text/csv" ;
+        foaf:page            "https://offenedaten-konstanz.de/dataset/kohlendioxid-emissionen-kommunale-co2-bilanzen-stadt-konstanz/resource/c725e514-ba55-4792" .
+
 <https://offenedaten-konstanz.de/dataset/st-dtische-einrichtungen-beh-rden/resource/d40b8e0a-6db5-415f-808c-1a7ad4763f46>
         a                    cat:Distribution ;
         dcterms:description  "<p>Der Datensatz enthält den Standort und die Adressen der Spitalstiftung und der städtischen Wohnungsbaugesellschaft.</p>\n" ;
@@ -704,7 +685,7 @@ _:b27   a               vcard:Kind ;
         dcterms:title        "Sonstige Behörden Konstanz" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/st-dtische-einrichtungen-beh-rden/resource/d40b8e0a-6db5-415f-808c-1a7ad4763f46> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/st-dtische-einrichtungen-beh-rden/resource/d40b8e0a-6db5-415f-808c-1a7ad4763f46" .
 
@@ -721,18 +702,11 @@ _:b27   a               vcard:Kind ;
         cat:mediaType        "text/plain" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/busverkehr/resource/213c5f45-dbf5-408b-925d-488dc29df137" .
 
-<https://offenedaten-konstanz.de/dataset/kohlendioxid-emissionen-kommunale-co2-bilanzen-stadt-konstanz/resource/c725e514-ba55-4792>
-        a                    cat:Distribution ;
-        dcterms:description  "<p>Der Spaltenaufbau bestimmt sich wie folgt:</p>\n<ul>\n<li>\"Jahr\" (JJJJ)</li>\n<li>\"CO2 Quelle\" (Kraftwerke, Privat HH = Haushalt, Straßenverkehr, Sonstiger Verkehr)</li>\n<li>\"Tonnen\" (Menge der CO2-Emissionen in Tonnen)</li>\n<li>\"Einwohner*innen\"</li>\n<li>\"CO2 Anteil pro Kopf\"</li>\n<li>\"C02 Anteil\"</li>\n</ul>\n<p>Mehr Informationen gibt es hier:</p>\n<p>Die Quellenbilanz beinhaltet die CO2-Emissionen am Ort ihrer Entstehung: Im Straßenverkehr sind die Fahrleistungen aller Verkehrsteilnehmer (Anwohner und Auswärtige) auf dem Gemeindegebiet eingerechnet. Emissionen, die bei der Stromerzeugung entstehen, werden bei den Kraftwerken ausgewiesen, nicht beim Endverbraucher (Industrie, Gewerbe, Haushalte). Bei den Haushalten, Gewerbe, Handel, Dienstleistungen und übrigen Verbrauchern ist der Verbrauch fossiler Energieträger zur Deckung des Raumwärme- und Warmwasserbedarfs eingerechnet, nicht der Stromverbrauch. In der internationalen Berichterstattung (z.B. Nationaler Inventarbericht zum Deutschen Treibhausgasinventar - NIR) wird üblicherweise die Quellenbilanz zugrunde gelegt.</p>\n<p><strong>Energiebedingte CO2-Emissionen insgesamt</strong>: bezeichnet Emissionen aus der energetischen Nutzung fossiler Energieträger (Kohle, Heizöl, Gas) und sonstiger Energieträger (u.a. Petrolkoks, Raffineriegas, Hausmüll, Gewerbeabfälle).</p>\n<p>Die Gesamt Emissionen setzen sich aus Emissionen aus folgenden Sektoren zusammen:</p>\n<p><strong>Kraftwerke</strong>: einschließlich Heizwerke, Fernheizwerke, kommunale Hausmüllverbrennungsanlagen und sonstige Energieerzeuger.</p>\n<p><strong>Industrie/Feuerungen</strong>: industrielle Feuerungsanlagen, industrielle Wärmekraftwerke und sonstige Energieumwandlung (Raffinerien).</p>\n<p><strong>Private Haushalte, GHD und übrige Verbraucher</strong>: damit sind Gewerbe, Handel, Dienstleistungen (GHD) und übrige Verbraucher wie öffentliche Einrichtungen, Landwirtschaft und militärische Einrichtungen gemeint.</p>\n<p><strong>Verkehr</strong> unterteilt in Straßenverkehr und Sonstiger Verkehr</p>\n<p><strong>Sonstiger Verkehr</strong>: damit ist Schienen-, nationaler Luftverkehr, Binnenschifffahrt und Off-Road-Verkehr (landwirtschaftl. Zugmaschinen, Baumaschinen, Militär, Industriegeräte,Garten/Hobby) gemeint.</p>\n" ;
-        dcterms:format       "csv" ;
-        dcterms:issued       "2020-02-25T17:33:19+01:00"^^xsd:date ;
-        dcterms:modified     "2020-11-04T17:43:00+01:00"^^xsd:date ;
-        dcterms:title        "Quellenbezogene CO2-Emissionen 2010-2017 nach Sektoren in Konstanz" ;
-        cat:accessURL        <https://offenedaten-konstanz.de/dataset/kohlendioxid-emissionen-kommunale-co2-bilanzen-stadt-konstanz/resource/c725e514-ba55-4792> ;
-        cat:byteSize         "2710" ;
-        cat:downloadURL      <https://offenedaten-konstanz.de/sites/default/files/Quellenbezogene%20CO2%20Emissionen.csv> ;
-        cat:mediaType        "text/csv" ;
-        foaf:page            "https://offenedaten-konstanz.de/dataset/kohlendioxid-emissionen-kommunale-co2-bilanzen-stadt-konstanz/resource/c725e514-ba55-4792" .
+_:b21   a       vcard:Kind .
+
+_:b8    a       vcard:Kind .
+
+_:b11   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/busverkehr/resource/23f79dd3-7a8c-4569-b3fd-5d033e77c1a7>
         a                    cat:Distribution ;
@@ -760,6 +734,8 @@ _:b27   a               vcard:Kind ;
         cat:mediaType        "text/csv" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/wahlergebnisse-konstanzer-landtagswahlen/resource/8f129f4e-8c6e-4914-983e-0e91f4be0aba" .
 
+_:b6    a       vcard:Kind .
+
 <https://offenedaten-konstanz.de/dataset/wahlbezirke/resource/916ed015-1c63-42ea-a81a-120e9f8df314>
         a                    cat:Distribution ;
         dcterms:description  "<p class=\"rtejustify\">Die Datenbank enthält die Aktualisierungsinformationen für Wahlbezirke 2018/19 mit dem Attribut von Wahlbezirke Nummer <em><strong>(WB NR)</strong></em>, Länge jeder Wahlbezirke in Meter <em><strong>(SHAPE Length)</strong></em> und Bereich jader Wahlbezirke in Meter <em><strong>(SHAPE Area)</strong></em></p>\n<p class=\"rtejustify\"><a href=\"https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;ved=2ahUKEwjx7ozMx9vrAhWlM-wKHVAEAmgQFjAAegQIBBAB&amp;url=https%3A%2F%2Fwww.konstanz.de%2Fsite%2FKonstanz%2Fget%2Fparams_E-763012888_Dattachment%2F103462%2FBundestagswahl%25202017_Wahlergebnisse%2520in%2520der%2520Stadt%2520Konstanz.pdf&amp;usg=AOvVaw0ep9wG4TiP0M2dqUGR_Vpe\" target=\"_parent\">Lesen Sie mehr</a></p>\n<p class=\"rtejustify\">(Quelle: Stadt Konstanz, Projektgruppe Wahlen)</p>\n" ;
@@ -769,7 +745,7 @@ _:b27   a               vcard:Kind ;
         dcterms:title        "Wahlbezirke 2018/19 (xls, shp, KML)" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/wahlbezirke/resource/916ed015-1c63-42ea-a81a-120e9f8df314> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/wahlbezirke/resource/916ed015-1c63-42ea-a81a-120e9f8df314" .
 
@@ -799,8 +775,6 @@ _:b27   a               vcard:Kind ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-sportanlagen/resource/6cf4f0cb-8d3a-4c63-8602-fb3ae29c7b89" .
 
-_:b28   a       vcard:Kind .
-
 <https://offenedaten-konstanz.de/dataset/bico2-bilanzierung/resource/cc8bdbd0-c10b-4a0a-9cc1-7ae3e92e75f6>
         a                    cat:Distribution ;
         dcterms:description  "<p>Spaltenüberschriften:<br />\n </p>\n<ul>\n<li>Jahr = Jahr der Erhebung (in diesem Fall nur 2015)</li>\n<li>Verbraucher = Energienutzungsgruppe (PrivH = Private Haushalte; Gewerbe = Gewerbe und Sonstiges; VerGewerbe = Verarbeitendes Gewerbe; Liegenschaften = eigene kommunale Liegenschaften der Stadt Konstanz; Verkehr = Straßenverkehr; Summe = Alle Nutzungsgruppen zusammengefasst)</li>\n<li>Eform = Art der verbrauchten Energie (Strom = Strom; Heizöl = Heizöl; Erdgas = Erdgas; Fernwärme = Fernwärme; Kohle = Kohle; EEQ = Erneuerbare Energiequellen; Sonstige = Sonstige; Kraftstoffe = Kraftstoffe mit denen Fahrzeuge betrieben werden; Summe = Alle Energieformen zusammengefasst)</li>\n<li>Wert = Die Menge der außgestoßenen Treibhausgase in Tonnen (Regionaler Mix)</li>\n</ul>\n" ;
@@ -813,8 +787,6 @@ _:b28   a       vcard:Kind .
         cat:downloadURL      <https://offenedaten-konstanz.de/sites/default/files/BiCo2%20THG-Emissionen%20%28Tonnen%29%20Regionaler%20Mix.csv> ;
         cat:mediaType        "text/csv" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/bico2-bilanzierung/resource/cc8bdbd0-c10b-4a0a-9cc1-7ae3e92e75f6" .
-
-_:b23   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/geschwindigkeits-berwachung-jahresstatistik/resource/74382a73-80f5-4067-86e3-e30e4c7a3442>
         a                    cat:Distribution ;
@@ -850,10 +822,12 @@ _:b23   a       vcard:Kind .
         dcterms:modified     "2019-05-03T11:02:06+02:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Wahlbezirke" ;
-        cat:contactPoint     _:b27 ;
+        cat:contactPoint     _:b22 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/alte-wahlbezirkseinteilung-bis-2018/resource/d2d78cd4-b543-40e9-b04d-2987a4a14df8> , <https://offenedaten-konstanz.de/dataset/wahlbezirke/resource/916ed015-1c63-42ea-a81a-120e9f8df314> , <https://offenedaten-konstanz.de/dataset/wahlbezirke-201819/resource/a27e5a28-a343-4e0b-bca5-2641f9f3ef46> , <https://offenedaten-konstanz.de/dataset/wahlbezirke-201819/resource/66da8dcf-e55f-43fe-a0d7-7e5e3233c2b5> , <https://offenedaten-konstanz.de/dataset/wahlbezirke/resource/ba2a7d13-4627-42e2-8039-4183dae99162> , <https://offenedaten-konstanz.de/dataset/wahlbezirke/resource/f7aa8f84-c6f1-4687-98b8-b99615e51ad3> ;
         cat:keyword          "Geo" , "Politik und Wahlen" ;
         cat:landingPage      "https://service.konstanz.de/Aemter-A-Z/Amt-Detailansicht/?id=6009005" .
+
+_:b23   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/da378287-07ad-462e-8460-82a395e1f2a2>
         a                    cat:Distribution ;
@@ -864,7 +838,7 @@ _:b23   a       vcard:Kind .
         dcterms:title        "Bodenrichtwertzonen 2017" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/da378287-07ad-462e-8460-82a395e1f2a2> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/da378287-07ad-462e-8460-82a395e1f2a2" .
 
@@ -894,7 +868,7 @@ _:b23   a       vcard:Kind .
         cat:mediaType        "text/csv" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/gesamtnutzung-fahrrad-mietsystem/resource/b9ff1c69-5f8b-4307-b16a-84d59d1f9228" .
 
-_:b2    a       vcard:Kind .
+_:b24   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/baumkataster-konstanz/resource/ad5a7bc2-84a1-4ece-bc05-dad8d564e385>
         a                    cat:Distribution ;
@@ -930,12 +904,10 @@ _:b2    a       vcard:Kind .
         dcterms:modified     "2019-05-03T08:28:03+02:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Stadtteilgrenzen / Stadtteilfläche" ;
-        cat:contactPoint     _:b29 ;
+        cat:contactPoint     _:b25 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/stadtteilgrenzen-stadtteilfl%C3%A4che/resource/d17976f5-2864-492f-87d5-b13cf12ce585> , <https://offenedaten-konstanz.de/dataset/stadtteilgrenzen-stadtteilfl%C3%A4che/resource/af73ebe7-b8e5-4418-acb0-8c655975cce6> , <https://offenedaten-konstanz.de/dataset/stadtteilgrenzen-stadtteilfl-che/resource/62cb4e8b-6e63-4c80-bd69-ea55c49ba2a4> , <https://offenedaten-konstanz.de/dataset/stadtteilgrenzen-stadtteilfl-che/resource/66a4edf5-ded5-4ef1-8742-c4eb27a24136> , <https://offenedaten-konstanz.de/dataset/stadtteilgrenzen-stadtteilfl-che/resource/ffd0b8ec-ca57-41a4-bba5-c74476f85c57> , <https://offenedaten-konstanz.de/dataset/stadtteilgrenzen-stadtteilfl-che/resource/32d36375-36f6-4dbb-84af-653c1bb175af> ;
         cat:keyword          "Geo" ;
         cat:landingPage      "https://service.konstanz.de/Aemter-A-Z/Amt-Detailansicht/?id=6009005" .
-
-_:b30   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/historische-wetterdaten>
         a                    cat:Dataset ;
@@ -945,9 +917,11 @@ _:b30   a       vcard:Kind .
         dcterms:modified     "2020-09-09T09:21:00+02:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Historische Wetterdaten" ;
-        cat:contactPoint     _:b5 ;
+        cat:contactPoint     _:b26 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/historische-wetterdaten/resource/23b7c6f9-d471-40c5-8f71-2be6e7302732> , <https://offenedaten-konstanz.de/dataset/historische-wetterdaten/resource/fc407b6f-8d68-48f5-9d68-e66cf84c06f3> , <https://offenedaten-konstanz.de/dataset/historische-wetterdaten/resource/50beea2a-fc42-4573-8d88-b61002f1179b> ;
         cat:keyword          "Umwelt und Klima" .
+
+_:b27   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/einwohnerentwicklung-stadt-konstanz>
         a                    cat:Dataset ;
@@ -970,11 +944,11 @@ _:b30   a       vcard:Kind .
         dcterms:title        "Sport (xls, shp, KML)" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-sportanlagen/resource/16300c3c-96f9-404b-bc63-66263f9a867f> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-sportanlagen/resource/16300c3c-96f9-404b-bc63-66263f9a867f" .
 
-_:b31   a       vcard:Kind .
+_:b29   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/bico2-bilanzierung/resource/dbd8f87d-1851-419b-972e-8d628b8d1176>
         a                    cat:Distribution ;
@@ -988,6 +962,10 @@ _:b31   a       vcard:Kind .
         cat:downloadURL      <https://offenedaten-konstanz.de/sites/default/files/BiCO2%20THG-Emissionen%20%28Tonnen%29%20witterungskorrigiert.csv> ;
         cat:mediaType        "text/csv" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/bico2-bilanzierung/resource/dbd8f87d-1851-419b-972e-8d628b8d1176" .
+
+_:b30   a       vcard:Kind .
+
+_:b2    a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/gesamtnutzung-fahrrad-mietsystem/resource/2ae04bd1-7a0f-49ac-a966-17999bf0fba9>
         a                    cat:Distribution ;
@@ -1015,8 +993,6 @@ _:b31   a       vcard:Kind .
         cat:mediaType        "text/csv" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/historische-wetterdaten/resource/50beea2a-fc42-4573-8d88-b61002f1179b" .
 
-_:b8    a       vcard:Kind .
-
 <https://offenedaten-konstanz.de/dataset/m-ngelmelder>
         a                    cat:Dataset ;
         dcterms:description  "<p>Zusammenstellung aller über den Mängelmelder (<a href=\"https://konstanz-mitgestalten.de/bms/search#portal-bms\">https://konstanz-mitgestalten.de/bms/search#portal-bms</a>) gemeldeten Probleme.</p>\n" ;
@@ -1024,7 +1000,7 @@ _:b8    a       vcard:Kind .
         dcterms:issued       "2020-11-02T16:25:40+01:00"^^xsd:date ;
         dcterms:modified     "2020-11-02T16:25:40+01:00"^^xsd:date ;
         dcterms:title        "Mängelmelder" ;
-        cat:contactPoint     _:b20 ;
+        cat:contactPoint     _:b31 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/m-ngelmelder/resource/f2084f5d-e39b-4d6c-9469-9ebe5a5abf6c> , <https://offenedaten-konstanz.de/dataset/m-ngelmelder/resource/bc11e19b-011b-4760-bae5-27cd4fb3b316> , <https://offenedaten-konstanz.de/dataset/m-ngelmelder/resource/ac3660b3-fc53-4fa6-a098-ebcba210297e> ;
         cat:keyword          "Verwaltung" , "Haushalt und Steuern" , "Soziales" .
 
@@ -1054,8 +1030,6 @@ _:b8    a       vcard:Kind .
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/st-dtische-einrichtungen-beh-rden/resource/e07c8ddf-06b8-4256-9b40-93785ebfd5e8" .
 
-_:b32   a       vcard:Kind .
-
 <https://offenedaten-konstanz.de/dataset/st-dtische-einrichtungen-beh-rden/resource/c150e1fa-f784-445c-97cf-07e81e08f268>
         a                    cat:Distribution ;
         dcterms:description  "<p>Die daten enthält die Konstanzer Touristinformationen, inklusive der Adresse und Kontaktinformationen. Die Standorte sind alle in der Altstadt in der Nähe des Hafens gelegen. </p>\n" ;
@@ -1065,11 +1039,9 @@ _:b32   a       vcard:Kind .
         dcterms:title        "Touristeninformation Konstanz " ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/st-dtische-einrichtungen-beh-rden/resource/c150e1fa-f784-445c-97cf-07e81e08f268> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/st-dtische-einrichtungen-beh-rden/resource/c150e1fa-f784-445c-97cf-07e81e08f268" .
-
-_:b33   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/wahlergebnisse-konstanzer-oberb-rgermeisterwahlen/resource/a832ba5a-01fd-4bbb-a1e2>
         a                    cat:Distribution ;
@@ -1084,11 +1056,11 @@ _:b33   a       vcard:Kind .
         cat:mediaType        "text/csv" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/wahlergebnisse-konstanzer-oberb-rgermeisterwahlen/resource/a832ba5a-01fd-4bbb-a1e2" .
 
-_:b26   a       vcard:Kind .
+_:b32   a       vcard:Kind .
 
-_:b0    a       vcard:Kind .
-
-_:b34   a       vcard:Kind .
+_:b22   a               vcard:Kind ;
+        vcard:fn        "Geoinformation" ;
+        vcard:hasEmail  "Vermessungsamt@konstanz.de" .
 
 <https://offenedaten-konstanz.de/dataset/abfallplaner-m-llabfuhrtermine-2020/resource/107acd19-84e3-4b21-9af5-962eac9f391d>
         a                    cat:Distribution ;
@@ -1112,7 +1084,7 @@ _:b34   a       vcard:Kind .
         dcterms:title        "Baumkataster API" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/baumkataster-konstanz/resource/382d16d9-11dd-45da-8ba5-e0bc780c17b1> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/baumkataster-konstanz/resource/382d16d9-11dd-45da-8ba5-e0bc780c17b1" .
 
@@ -1124,7 +1096,7 @@ _:b34   a       vcard:Kind .
         dcterms:modified     "2018-11-26T14:12:33+01:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Bodenrichtwertkarte" ;
-        cat:contactPoint     _:b35 ;
+        cat:contactPoint     _:b33 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/b1035870-91f7-4979-85e1-cfb756f9acef> , <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/3ba1c396-0876-4b7b-be62-f076831e04b3> , <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/f85171b6-c6fd-4f0a-92c3-36d133ded751> , <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/da378287-07ad-462e-8460-82a395e1f2a2> , <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/71e62b85-60b5-4462-a8f2-7121beb28b1a> , <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/058b9a20-26d8-43d6-b149-23bebaeead4a> , <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/0b195948-ba53-4081-944d-760007802999> , <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/5cf97162-1158-4b3d-a976-657790137ea1> , <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/a6c4d9a2-1ccf-4547-82ff-e76ceef6165e> , <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/a06c36eb-98dc-4aaa-922a-8ef40fc40397> ;
         cat:keyword          "Bauen und Wohnen" , "Geo" , "Infrastruktur" .
 
@@ -1140,6 +1112,8 @@ _:b34   a       vcard:Kind .
         cat:downloadURL      <https://opendata.arcgis.com/datasets/e738b6229a2a4e9290ac29b7e6999890_0.csv> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/kindertagesbetreuung/resource/8db0a0f1-2bab-4d0f-95a4-41c956b5a683" .
+
+_:b14   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/stadtteilgrenzen-stadtteilfl-che/resource/ffd0b8ec-ca57-41a4-bba5-c74476f85c57>
         a                    cat:Distribution ;
@@ -1162,12 +1136,22 @@ _:b34   a       vcard:Kind .
         dcterms:modified     "2019-05-13T10:09:11+02:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Georeferenzierte Standorte Spielplätze" ;
-        cat:contactPoint     _:b14 ;
+        cat:contactPoint     _:b34 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-spielpl-tze/resource/09045f3c-9bfe-48d0-9c53-f4b6c610980f> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-spielpl-tze/resource/3c9bb0d9-eae1-4290-8084-a1f50f8534ed> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-spielpl-tze/resource/8bab8544-c653-4942-8926-1a9513721d83> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-spielpl%C3%A4tze/resource/8b5f24c2-1359-45ad-b58e-40b7204414d1> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-spielpl-tze/resource/145b0700-59ca-4e58-9a94-1eff8023b555> ;
         cat:keyword          "Freizeit" , "Kultur" , "Geo" , "Sport und Tourismus" .
 
-_:b25   a         vcard:Kind ;
-        vcard:fn  "Stadt Konstanz" .
+<https://offenedaten-konstanz.de/dataset/historische-wetterdaten/resource/23b7c6f9-d471-40c5-8f71-2be6e7302732>
+        a                    cat:Distribution ;
+        dcterms:description  "<p>Diese historischen Wetterdaten (10-Minütig) sind qualitätsgeprüfte Messwerte und Beobachtungen von Temperatur, Luftdruck und Feuchtigkeit. Sie stammen aus Stationen des DWD und rechtlich und qualitativ gleichgestellten Partnernetzstationen. Die hier präsentierten Daten beziehen sich ausschließlich auf die Station 02712 in Konstanz (Silvanerweg 6, 78464 Konstanz). Die ursprünglichen Datensätze waren in 3 Intervalle unterteilt (1993-1999, 2000-2009, 2009-2019), wurden aber in nur einer Datenbank aggregiert, um Zeitvergleiche über die Zeit zu erleichtern. Der Spaltenaufbau bestimmt sich nach folgendem Muster:</p>\n<p>Datum &amp; Uhrzeit: Datum und Uhrzeit (CET), 10-Minutenwert,  YYYY-mm-DDtHH:mm von 1993-08-12T14:50 bis 2019-12-31T23:50</p>\n<p>Datum: YYYY-mm-DD von 1993-08-12 bis 2019-12-31</p>\n<p>Uhrzeit: HH:mm von 00:00 bis 23:50</p>\n<p>TM5_10; Momentane Temperatur in 5 cm Hoehe, in °C, 10-Minutenwert</p>\n<p>TT_10; momentane Lufttemperatur in 2m Hoehe in °C, 10-Minutenwert</p>\n<p>TD_10; Taupunkttemperatur in 2m Hoehe in °C, 10-Minutenwert</p>\n<p>PP_10; Luftdruck in Stationshoehe der voran in hpa; 10-Minutenwert</p>\n<p>RF_10; relative Feucht in 2m Hoehe in %, 10-Minutenwerte</p>\n<p><a href=\"https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/air_temperature/historical/\"><strong>https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/air_temperature/historical/</strong></a></p>\n" ;
+        dcterms:format       "csv" ;
+        dcterms:issued       "2020-09-09T10:02:20+02:00"^^xsd:date ;
+        dcterms:modified     "2020-09-09T10:02:20+02:00"^^xsd:date ;
+        dcterms:title        "Historische Wetterdaten (10-minütig)" ;
+        cat:accessURL        <https://offenedaten-konstanz.de/dataset/historische-wetterdaten/resource/23b7c6f9-d471-40c5-8f71-2be6e7302732> ;
+        cat:byteSize         "90056339" ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/sites/default/files/Historische%20Wetterdaten_10-min%C3%BCtig.csv> ;
+        cat:mediaType        "text/csv" ;
+        foaf:page            "https://offenedaten-konstanz.de/dataset/historische-wetterdaten/resource/23b7c6f9-d471-40c5-8f71-2be6e7302732" .
 
 <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/2923327b-eda3-479c-871f-50a15ab2212f>
         a                    cat:Distribution ;
@@ -1204,7 +1188,7 @@ _:b25   a         vcard:Kind ;
         dcterms:title        "Georeferenzierte Standorte Parkhäuser Datenbank (xls, shp, KML)" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-parkh-user/resource/418b9fd8-252b-409f-9456-b7bdeffb939b> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-parkh-user/resource/418b9fd8-252b-409f-9456-b7bdeffb939b" .
 
@@ -1217,33 +1201,9 @@ _:b25   a         vcard:Kind ;
         dcterms:title        "Bodenrichtwertzonen 2015" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/3ba1c396-0876-4b7b-be62-f076831e04b3> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/3ba1c396-0876-4b7b-be62-f076831e04b3" .
-
-<https://offenedaten-konstanz.de/dataset/historische-wetterdaten/resource/23b7c6f9-d471-40c5-8f71-2be6e7302732>
-        a                    cat:Distribution ;
-        dcterms:description  "<p>Diese historischen Wetterdaten (10-Minütig) sind qualitätsgeprüfte Messwerte und Beobachtungen von Temperatur, Luftdruck und Feuchtigkeit. Sie stammen aus Stationen des DWD und rechtlich und qualitativ gleichgestellten Partnernetzstationen. Die hier präsentierten Daten beziehen sich ausschließlich auf die Station 02712 in Konstanz (Silvanerweg 6, 78464 Konstanz). Die ursprünglichen Datensätze waren in 3 Intervalle unterteilt (1993-1999, 2000-2009, 2009-2019), wurden aber in nur einer Datenbank aggregiert, um Zeitvergleiche über die Zeit zu erleichtern. Der Spaltenaufbau bestimmt sich nach folgendem Muster:</p>\n<p>Datum &amp; Uhrzeit: Datum und Uhrzeit (CET), 10-Minutenwert,  YYYY-mm-DDtHH:mm von 1993-08-12T14:50 bis 2019-12-31T23:50</p>\n<p>Datum: YYYY-mm-DD von 1993-08-12 bis 2019-12-31</p>\n<p>Uhrzeit: HH:mm von 00:00 bis 23:50</p>\n<p>TM5_10; Momentane Temperatur in 5 cm Hoehe, in °C, 10-Minutenwert</p>\n<p>TT_10; momentane Lufttemperatur in 2m Hoehe in °C, 10-Minutenwert</p>\n<p>TD_10; Taupunkttemperatur in 2m Hoehe in °C, 10-Minutenwert</p>\n<p>PP_10; Luftdruck in Stationshoehe der voran in hpa; 10-Minutenwert</p>\n<p>RF_10; relative Feucht in 2m Hoehe in %, 10-Minutenwerte</p>\n<p><a href=\"https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/air_temperature/historical/\"><strong>https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/air_temperature/historical/</strong></a></p>\n" ;
-        dcterms:format       "csv" ;
-        dcterms:issued       "2020-09-09T10:02:20+02:00"^^xsd:date ;
-        dcterms:modified     "2020-09-09T10:02:20+02:00"^^xsd:date ;
-        dcterms:title        "Historische Wetterdaten (10-minütig)" ;
-        cat:accessURL        <https://offenedaten-konstanz.de/dataset/historische-wetterdaten/resource/23b7c6f9-d471-40c5-8f71-2be6e7302732> ;
-        cat:byteSize         "90056339" ;
-        cat:downloadURL      <https://offenedaten-konstanz.de/sites/default/files/Historische%20Wetterdaten_10-min%C3%BCtig.csv> ;
-        cat:mediaType        "text/csv" ;
-        foaf:page            "https://offenedaten-konstanz.de/dataset/historische-wetterdaten/resource/23b7c6f9-d471-40c5-8f71-2be6e7302732" .
-
-<https://offenedaten-konstanz.de/dataset/kindertagesbetreuung-einrichtungen>
-        a                    cat:Dataset ;
-        dcterms:description  "<p>In diesem Datensatz werde die insgesamt 60 Möglichkeiten zur Kinderbetreuung in Konstanz dargestellt. Darunter Kindergärten, Schülerhorts, Spielgruppen und Kinderkrippen.  Ausführliche Informationen zu den einzelnen Einrichtungen, wie die Öffnungszeiten und die Altersspanne der Kinder, sind jeweils einsehbar. Darüber hinaus werden Kontaktmöglichkeiten inklusive Adresse, E-Mail, Telefonnummer und ggf. Website, dargestellt</p>\n" ;
-        dcterms:identifier   "212b3f66-56ff-4264-8039-f2eac31a037f" ;
-        dcterms:issued       "2020-12-11T15:49:00+01:00"^^xsd:date ;
-        dcterms:modified     "2020-12-11T15:49:00+01:00"^^xsd:date ;
-        dcterms:title        "Kindertagesbetreuung - Einrichtungen" ;
-        cat:contactPoint     _:b36 ;
-        cat:distribution     <https://offenedaten-konstanz.de/dataset/kindertagesbetreuung/resource/5633a3e1-223f-4d78-a676-8468f2dfb55a> , <https://offenedaten-konstanz.de/dataset/kindertagesbetreuung/resource/8db0a0f1-2bab-4d0f-95a4-41c956b5a683> , <https://offenedaten-konstanz.de/dataset/kindertagesbetreuung/resource/d3303376-77d7-4dba-bd6f-c0194acb7ae2> ;
-        cat:keyword          "Infrastruktur" , "Soziales" , "Bauen und Wohnen" , "Geo" .
 
 <https://offenedaten-konstanz.de/dataset/geschwindigkeits-berwachung-jahresstatistik>
         a                    cat:Dataset ;
@@ -1253,9 +1213,33 @@ _:b25   a         vcard:Kind ;
         dcterms:modified     "2020-01-10T08:30:58+01:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Geschwindigkeitsüberwachung Jahresstatistik" ;
-        cat:contactPoint     _:b32 ;
+        cat:contactPoint     _:b35 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/geschwindigkeits-berwachung-jahresstatistik/resource/93e73890-6452-4261-82c1-50b2e96de6fc> , <https://offenedaten-konstanz.de/dataset/geschwindigkeits-berwachung-jahresstatistik/resource/74382a73-80f5-4067-86e3-e30e4c7a3442> ;
         cat:keyword          "Transport und Verkehr" , "Gesetze und Justiz" .
+
+<https://offenedaten-konstanz.de/dataset/mobile-verkehrsz-hlungen-rad-und-fu-verkehr/resource/9b162405-66e4-4b97-a2ba-b6feb79df1ad>
+        a                    cat:Distribution ;
+        dcterms:description  "<p>Standort: Alte Rheinbrücke</p>\n<p>Die Daten wurden im 15 Minuten Rhythmus erhoben</p>\n<p>Der Spaltenaufbau dieses Datensatzes bestimmt sich wie folgt:</p>\n<ul>\n<li><strong>Datum-Uhrzeit:</strong> (DD.MM.YYYY HH:MM) von 21.08.2020 11:00 Uhr bis 04.09.2020 08:45 Uhr</li>\n<li><strong>Stadteinwärts</strong>: Summe aller Fahrradfahrer inklusive Lastenräder, Pulk (=Häufung), gleichzeitige Begegnung (stadteinwärts; Ri Laube)</li>\n<li><strong>Stadtauswärts</strong>: Summe aller Fahrradfahrer inklusive Lastenräder, Pulk (=Häufung), gleichzeitige Begegnung (stadtauswärts; Ri Alte Rheinbrücke)</li>\n<li><strong>Summe</strong>: Summe aller gezählten Fahrradfahrer</li>\n</ul>\n" ;
+        dcterms:format       "csv" ;
+        dcterms:issued       "2021-01-12T10:04:17+01:00"^^xsd:date ;
+        dcterms:modified     "2021-01-12T10:04:17+01:00"^^xsd:date ;
+        dcterms:title        "Alte Rheinbrücke" ;
+        cat:accessURL        <https://offenedaten-konstanz.de/dataset/mobile-verkehrsz-hlungen-rad-und-fu-verkehr/resource/9b162405-66e4-4b97-a2ba-b6feb79df1ad> ;
+        cat:byteSize         "35322" ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/sites/default/files/Alte%20Rheinbr%C3%BCcke.csv> ;
+        cat:mediaType        "text/csv" ;
+        foaf:page            "https://offenedaten-konstanz.de/dataset/mobile-verkehrsz-hlungen-rad-und-fu-verkehr/resource/9b162405-66e4-4b97-a2ba-b6feb79df1ad" .
+
+<https://offenedaten-konstanz.de/dataset/kindertagesbetreuung-einrichtungen>
+        a                    cat:Dataset ;
+        dcterms:description  "<p>In diesem Datensatz werde die insgesamt 60 Möglichkeiten zur Kinderbetreuung in Konstanz dargestellt. Darunter Kindergärten, Schülerhorts, Spielgruppen und Kinderkrippen.  Ausführliche Informationen zu den einzelnen Einrichtungen, wie die Öffnungszeiten und die Altersspanne der Kinder, sind jeweils einsehbar. Darüber hinaus werden Kontaktmöglichkeiten inklusive Adresse, E-Mail, Telefonnummer und ggf. Website, dargestellt</p>\n" ;
+        dcterms:identifier   "212b3f66-56ff-4264-8039-f2eac31a037f" ;
+        dcterms:issued       "2020-12-11T15:49:00+01:00"^^xsd:date ;
+        dcterms:modified     "2020-12-11T15:49:00+01:00"^^xsd:date ;
+        dcterms:title        "Kindertagesbetreuung - Einrichtungen" ;
+        cat:contactPoint     _:b3 ;
+        cat:distribution     <https://offenedaten-konstanz.de/dataset/kindertagesbetreuung/resource/5633a3e1-223f-4d78-a676-8468f2dfb55a> , <https://offenedaten-konstanz.de/dataset/kindertagesbetreuung/resource/8db0a0f1-2bab-4d0f-95a4-41c956b5a683> , <https://offenedaten-konstanz.de/dataset/kindertagesbetreuung/resource/d3303376-77d7-4dba-bd6f-c0194acb7ae2> ;
+        cat:keyword          "Infrastruktur" , "Soziales" , "Bauen und Wohnen" , "Geo" .
 
 <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/39dac23a-ec2b-4598-899c-9d87c89f9a3d>
         a                    cat:Distribution ;
@@ -1269,6 +1253,8 @@ _:b25   a         vcard:Kind ;
         cat:downloadURL      <https://offenedaten-konstanz.de/sites/default/files/Unfallatlas%20Konstanz%20Fuessgaenger%202016-2019.csv> ;
         cat:mediaType        "text/csv" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/39dac23a-ec2b-4598-899c-9d87c89f9a3d" .
+
+_:b10   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/kindertagesbetreuung/resource/d3303376-77d7-4dba-bd6f-c0194acb7ae2>
         a                    cat:Distribution ;
@@ -1328,10 +1314,6 @@ _:b25   a         vcard:Kind ;
         cat:mediaType        "text/csv" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/bico2-bilanzierung/resource/320bad59-a8e2-488b-abbe-aa3b5403a816" .
 
-_:b37   a               vcard:Kind ;
-        vcard:fn        "Geoinformation" ;
-        vcard:hasEmail  "Vermessungsamt@konstanz.de" .
-
 <https://offenedaten-konstanz.de/dataset/gesamtnutzung-fahrrad-mietsystem/resource/d2dcac6f-2df2-47af-bddf-8696f5f0f62c>
         a                    cat:Distribution ;
         dcterms:description  "<p>Die statistische Daten zu den Rückgaben und Anmietungen der jeweiligen Mieträder gibt es kleinräumig für jede Station in unserer Stadt und für jeden einzelnen Monat.</p>\n<p>Der Spaltenaufbau dieser Ressource bestimmt sich nach dem folgenden Schema:</p>\n<ul>\n<li>Station Nummer: Standorte der Fahrradstationen nummeriert von 1-24 </li>\n<li>Station Name </li>\n<li>Typ: konrad/ TINK</li>\n<li>Jahr: JJJJ</li>\n<li>Mai (Start konrad)</li>\n<li>Juni</li>\n<li>Juli</li>\n<li>August</li>\n<li>September</li>\n<li>Oktober</li>\n<li>November</li>\n<li>Dezember</li>\n</ul>\n" ;
@@ -1384,19 +1366,6 @@ _:b37   a               vcard:Kind ;
         cat:mediaType        "text/csv" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/bico2-bilanzierung/resource/b65d4741-d1b5-4464-b8be-2a399e238193" .
 
-<https://offenedaten-konstanz.de/dataset/grenz-berg-nge-kraftfahrzeuge-deutschland-schweiz/resource/3919f424-8829-4e0b-adc8>
-        a                    cat:Distribution ;
-        dcterms:description  "<p>Die Koordinaten der Zollstellen:</p>\n<p>Emmishofer Zoll: UMT = 512'684, 5'278'078; lat/lon = 47°39′21.517″N 9°10′08.096″E<br />\nGZA Kreuzlingen/Tägerwielen: UMT = 513'022, 5'277'985; lat/lon = 47°39′18.458″N 9°10′24.273″E<br />\nTägerwielen-Paradieser Tor: UMT = 511'992, 5'278'865; lat/lon = 47°39′47.045″N 9°09′34.995″E </p>\n<p>\nSpaltenerklärung:<br />\n </p>\n<p>EmZD = Anzahl der Kraftfahrzeuge nach Deutschland am Emmishofer Zoll<br />\nEmZCH = Anzahl der Kraftfahrzeuge in die Schweiz am Emmishofer Zoll<br />\nGZAD = Anzahl der Kraftfahrzeuge nach Deutschland an der Gemeinschaftszollanlage Kreuzlingen/Tägerwielen<br />\nGZACH = Anzahl der Kraftfahrzeuge in die Schweiz an der Gemeinschaftszollablage Kreuzlingen/Tägerwielen<br />\nTPZD = Anzahl der Kraftfahrzeuge nach Deutschland an der Zollstelle Tägerwielen-Paradieser Tor<br />\nTPZCH= Anzahl der Kraftfahrzeuge in die Schweiz an der Zollstelle Tägerwielen-Paradieser Tor </p>\n<p> </p>\n" ;
-        dcterms:format       "csv" ;
-        dcterms:issued       "2020-09-24T11:22:04+02:00"^^xsd:date ;
-        dcterms:modified     "2020-09-29T13:43:52+02:00"^^xsd:date ;
-        dcterms:title        "DTV Grenzverkehr" ;
-        cat:accessURL        <https://offenedaten-konstanz.de/dataset/grenz-berg-nge-kraftfahrzeuge-deutschland-schweiz/resource/3919f424-8829-4e0b-adc8> ;
-        cat:byteSize         "111289" ;
-        cat:downloadURL      <https://offenedaten-konstanz.de/sites/default/files/DTV-Grenzverkehr%20KN-Kreuzlingen%202013-2020_0.csv> ;
-        cat:mediaType        "text/csv" ;
-        foaf:page            "https://offenedaten-konstanz.de/dataset/grenz-berg-nge-kraftfahrzeuge-deutschland-schweiz/resource/3919f424-8829-4e0b-adc8" .
-
 <https://offenedaten-konstanz.de/dataset/stadtteilgrenzen-stadtteilfl%C3%A4che/resource/af73ebe7-b8e5-4418-acb0-8c655975cce6>
         a                    cat:Distribution ;
         dcterms:description  "" ;
@@ -1431,13 +1400,22 @@ _:b37   a               vcard:Kind ;
         dcterms:modified     "2020-08-27T08:44:50+02:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Kleiner Waffenschein" ;
-        cat:contactPoint     _:b38 ;
+        cat:contactPoint     _:b32 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/kleiner-waffenschein/resource/f47d97a5-27b6-49c8-baf6-d1981423c8cd> , <https://offenedaten-konstanz.de/dataset/kleiner-waffenschein/resource/74940fe6-8114-4ddc-9912-b44c4ef660ee> ;
         cat:keyword          "Gesetze und Justiz" .
 
-_:b38   a       vcard:Kind .
-
-_:b35   a       vcard:Kind .
+<https://offenedaten-konstanz.de/dataset/grenz-berg-nge-kraftfahrzeuge-deutschland-schweiz/resource/3919f424-8829-4e0b-adc8>
+        a                    cat:Distribution ;
+        dcterms:description  "<p>Die Koordinaten der Zollstellen:</p>\n<p>Emmishofer Zoll: UMT = 512'684, 5'278'078; lat/lon = 47°39′21.517″N 9°10′08.096″E<br />\nGZA Kreuzlingen/Tägerwielen: UMT = 513'022, 5'277'985; lat/lon = 47°39′18.458″N 9°10′24.273″E<br />\nTägerwielen-Paradieser Tor: UMT = 511'992, 5'278'865; lat/lon = 47°39′47.045″N 9°09′34.995″E </p>\n<p>\nSpaltenerklärung:<br />\n </p>\n<p>EmZD = Anzahl der Kraftfahrzeuge nach Deutschland am Emmishofer Zoll<br />\nEmZCH = Anzahl der Kraftfahrzeuge in die Schweiz am Emmishofer Zoll<br />\nGZAD = Anzahl der Kraftfahrzeuge nach Deutschland an der Gemeinschaftszollanlage Kreuzlingen/Tägerwielen<br />\nGZACH = Anzahl der Kraftfahrzeuge in die Schweiz an der Gemeinschaftszollablage Kreuzlingen/Tägerwielen<br />\nTPZD = Anzahl der Kraftfahrzeuge nach Deutschland an der Zollstelle Tägerwielen-Paradieser Tor<br />\nTPZCH= Anzahl der Kraftfahrzeuge in die Schweiz an der Zollstelle Tägerwielen-Paradieser Tor </p>\n<p> </p>\n" ;
+        dcterms:format       "csv" ;
+        dcterms:issued       "2020-09-24T11:22:04+02:00"^^xsd:date ;
+        dcterms:modified     "2020-09-29T13:43:52+02:00"^^xsd:date ;
+        dcterms:title        "DTV Grenzverkehr" ;
+        cat:accessURL        <https://offenedaten-konstanz.de/dataset/grenz-berg-nge-kraftfahrzeuge-deutschland-schweiz/resource/3919f424-8829-4e0b-adc8> ;
+        cat:byteSize         "111289" ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/sites/default/files/DTV-Grenzverkehr%20KN-Kreuzlingen%202013-2020_0.csv> ;
+        cat:mediaType        "text/csv" ;
+        foaf:page            "https://offenedaten-konstanz.de/dataset/grenz-berg-nge-kraftfahrzeuge-deutschland-schweiz/resource/3919f424-8829-4e0b-adc8" .
 
 <https://offenedaten-konstanz.de/dataset/au-enwanderung-bei-stadtteil>
         a                    cat:Dataset ;
@@ -1446,9 +1424,11 @@ _:b35   a       vcard:Kind .
         dcterms:issued       "2020-11-17T17:21:06+01:00"^^xsd:date ;
         dcterms:modified     "2020-11-17T17:21:06+01:00"^^xsd:date ;
         dcterms:title        "Außenwanderung bei Stadtteil" ;
-        cat:contactPoint     _:b21 ;
+        cat:contactPoint     _:b23 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/au-enwanderung-bei-stadtteil/resource/15009c62-2178-4aec-ab8e-e61c84dc3f05> ;
         cat:keyword          "Bevölkerung" , "Soziales" .
+
+_:b36   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/geschwindigkeits-berwachung-jahresstatistik/resource/93e73890-6452-4261-82c1-50b2e96de6fc>
         a                    cat:Distribution ;
@@ -1462,8 +1442,6 @@ _:b35   a       vcard:Kind .
         cat:downloadURL      <https://offenedaten-konstanz.de/sites/default/files/Biltzerdaten%20Jahresstatistik%202018.csv> ;
         cat:mediaType        "text/csv" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/geschwindigkeits-berwachung-jahresstatistik/resource/93e73890-6452-4261-82c1-50b2e96de6fc" .
-
-_:b39   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/st-dtische-umfrage-im-projekt-klimaschutzdaten-f-r-konstanz/resource/14a387b7-7435-4bdb-be90>
         a                    cat:Distribution ;
@@ -1487,7 +1465,7 @@ _:b39   a       vcard:Kind .
         dcterms:title        "Bodenrichtwertzonen 2010" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/a06c36eb-98dc-4aaa-922a-8ef40fc40397> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/a06c36eb-98dc-4aaa-922a-8ef40fc40397" .
 
@@ -1499,8 +1477,8 @@ _:b39   a       vcard:Kind .
         dcterms:modified     "2020-01-10T13:07:16+01:00"^^xsd:date ;
         dcterms:publisher    "Entsorgungsbetriebe Stadt Konstanz" ;
         dcterms:title        "Abfallplaner Müllabfuhrtermine" ;
-        cat:contactPoint     _:b19 ;
-        cat:distribution     <https://offenedaten-konstanz.de/dataset/abfallplaner-m-llabfuhrtermine-2020/resource/107acd19-84e3-4b21-9af5-962eac9f391d> , <https://offenedaten-konstanz.de/dataset/abfallplaner-m-llabfuhrtermine-2020/resource/fc205f66-ffa0-415d-b17a-265fb89d9767> ;
+        cat:contactPoint     _:b30 ;
+        cat:distribution     <https://offenedaten-konstanz.de/dataset/abfallplaner-m-llabfuhrtermine/resource/fc205f66-ffa0-415d-b17a-265fb89d9767> , <https://offenedaten-konstanz.de/dataset/abfallplaner-m-llabfuhrtermine-2020/resource/107acd19-84e3-4b21-9af5-962eac9f391d> ;
         cat:keyword          "Bauen und Wohnen" , "Umwelt und Klima" , "Infrastruktur" .
 
 <https://offenedaten-konstanz.de/dataset/solarpotenzial/resource/21fdc734-7951-447b-908f-ba6c8a72a527>
@@ -1512,11 +1490,9 @@ _:b39   a       vcard:Kind .
         dcterms:title        "Solarpotenzial 2018 - Energienutzungsplan und Visualisierung" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/solarpotenzial/resource/21fdc734-7951-447b-908f-ba6c8a72a527> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/solarpotenzial/resource/21fdc734-7951-447b-908f-ba6c8a72a527" .
-
-_:b15   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/solarpotenzial/resource/490a35a5-6c11-482e-a594-c18a960ec0c1>
         a                    cat:Distribution ;
@@ -1531,6 +1507,23 @@ _:b15   a       vcard:Kind .
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/solarpotenzial/resource/490a35a5-6c11-482e-a594-c18a960ec0c1" .
 
+_:b34   a       vcard:Kind .
+
+_:b37   a       vcard:Kind .
+
+<https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-parkh%C3%A4user-app/resource/c5dc93cc-2bca-4af4-b60b-fe05ae56af92>
+        a                    cat:Distribution ;
+        dcterms:description  "" ;
+        dcterms:format       "APP" ;
+        dcterms:issued       "2019-05-06T13:24:15+02:00"^^xsd:date ;
+        dcterms:modified     "2019-05-06T15:19:02+02:00"^^xsd:date ;
+        dcterms:title        "Georeferenzierte Standorte Parkhäuser APP" ;
+        cat:accessURL        <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-parkh%C3%A4user-app/resource/c5dc93cc-2bca-4af4-b60b-fe05ae56af92> ;
+        cat:byteSize         "" ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
+        cat:mediaType        "" ;
+        foaf:page            "https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-parkh%C3%A4user-app/resource/c5dc93cc-2bca-4af4-b60b-fe05ae56af92" .
+
 <https://offenedaten-konstanz.de/dataset/modal-split/resource/d8699e8a-9d60-47e3-a37a-34e510358ae4>
         a                    cat:Distribution ;
         dcterms:description  "<p>Spaltenüberschriften:</p>\n<ul>\n<li>Jahr = Jahr in dem die Daten erhoben wurden (1997, 2007, 2018)</li>\n<li>Vart = Art des Verkehrs (Fuß = Fußverkehr; Rad = Fahrradverkehr; ÖV = Öffentlicher Nahverkehr; MIV = Motorisierter Individualverkehr; Alle = Alle Verkehrsmittel zusammengerechnet)</li>\n<li>GesV = Relativer Anteil der Verkehrsmittel am Gesamtverkehr</li>\n<li>Q/Z-V = Relativer Anteil der Verkehrsmittel am Quell/Zielverkehr</li>\n<li>BinV = Relativer Anteil der Verkehrsmittel am Binnenverkehr</li>\n</ul>\n" ;
@@ -1544,18 +1537,7 @@ _:b15   a       vcard:Kind .
         cat:mediaType        "text/csv" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/modal-split/resource/d8699e8a-9d60-47e3-a37a-34e510358ae4" .
 
-<https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-parkh%C3%A4user-app/resource/c5dc93cc-2bca-4af4-b60b-fe05ae56af92>
-        a                    cat:Distribution ;
-        dcterms:description  "" ;
-        dcterms:format       "APP" ;
-        dcterms:issued       "2019-05-06T13:24:15+02:00"^^xsd:date ;
-        dcterms:modified     "2019-05-06T15:19:02+02:00"^^xsd:date ;
-        dcterms:title        "Georeferenzierte Standorte Parkhäuser APP" ;
-        cat:accessURL        <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-parkh%C3%A4user-app/resource/c5dc93cc-2bca-4af4-b60b-fe05ae56af92> ;
-        cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
-        cat:mediaType        "" ;
-        foaf:page            "https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-parkh%C3%A4user-app/resource/c5dc93cc-2bca-4af4-b60b-fe05ae56af92" .
+_:b33   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/814026b9-0ae5-4179-bb10-16facaf8c7f3>
         a                    cat:Distribution ;
@@ -1578,7 +1560,7 @@ _:b15   a       vcard:Kind .
         dcterms:modified     "2019-05-13T13:20:22+02:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Städtische Einrichtungen/ Behörden" ;
-        cat:contactPoint     _:b30 ;
+        cat:contactPoint     _:b4 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/st-dtische-einrichtungen-beh-rden/resource/0525fbce-c6ff-402d-861e-dfe274ca0f4b> , <https://offenedaten-konstanz.de/dataset/st-dtische-einrichtungen-beh-rden/resource/a59f40c3-b1ab-4f2a-b140-491861a8df47> , <https://offenedaten-konstanz.de/dataset/st-dtische-einrichtungen-beh-rden/resource/51ed0e41-2f44-4ff0-a804-ace6e41d2890> , <https://offenedaten-konstanz.de/dataset/st-dtische-einrichtungen-beh-rden/resource/92b69fc2-f5b2-41ff-8cce-24056c3ab179> , <https://offenedaten-konstanz.de/dataset/st-dtische-einrichtungen-beh-rden/resource/d40b8e0a-6db5-415f-808c-1a7ad4763f46> , <https://offenedaten-konstanz.de/dataset/st-dtische-einrichtungen-beh-rden/resource/e07c8ddf-06b8-4256-9b40-93785ebfd5e8> , <https://offenedaten-konstanz.de/dataset/st-dtische-einrichtungen-beh-rden/resource/c150e1fa-f784-445c-97cf-07e81e08f268> ;
         cat:keyword          "Geo" , "Haushalt und Steuern" , "Verwaltung" .
 
@@ -1594,6 +1576,19 @@ _:b15   a       vcard:Kind .
         cat:downloadURL      <https://offenedaten-konstanz.de/sites/default/files/Kl%C3%A4ranlage%20Konstanz%20und%20Umgebung_0.csv> ;
         cat:mediaType        "text/csv" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/kl-ranlage-konstanz/resource/11effd0b-2385-47f6-852f-f354c2cfe677" .
+
+<https://offenedaten-konstanz.de/dataset/abfallplaner-m-llabfuhrtermine/resource/fc205f66-ffa0-415d-b17a-265fb89d9767>
+        a                    cat:Distribution ;
+        dcterms:description  "<p>Auflistung der Müllabfuhrtermine der EBK für Biomüll, Restmüll, Gelbersack, Papiertonne, Christbaumabholung im Stadtgebiet Konstanz für das Jahr 2021.</p>\n<p>Der Spaltenaufbau des Datensatzes bestimmt sich wie folgt:</p>\n<ul>\n<li>Datum (DD.MM.)</li>\n<li>PLZ = Postleitzahl </li>\n<li>Straße = Straßennamen</li>\n<li>Müllart (Biomüll, Restmüll, Gelbersack, Papier, Christbaumabholung)</li>\n<li>Abholregion (Konstanz)</li>\n</ul>\n<p> </p>\n<p>(Quelle: Entsorgungsbetriebe Stadt Konstanz)</p>\n" ;
+        dcterms:format       "csv" ;
+        dcterms:issued       "2020-12-09T14:11:41+01:00"^^xsd:date ;
+        dcterms:modified     "2021-01-12T17:09:39+01:00"^^xsd:date ;
+        dcterms:title        "Abfallplaner Müllabfuhrtermine 2021" ;
+        cat:accessURL        <https://offenedaten-konstanz.de/dataset/abfallplaner-m-llabfuhrtermine/resource/fc205f66-ffa0-415d-b17a-265fb89d9767> ;
+        cat:byteSize         "14963529" ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/sites/default/files/2021_Konstanz_Abfall_komplett_Mein%20Konstanz%20App%20Utf8_0.csv> ;
+        cat:mediaType        "text/csv" ;
+        foaf:page            "https://offenedaten-konstanz.de/dataset/abfallplaner-m-llabfuhrtermine/resource/fc205f66-ffa0-415d-b17a-265fb89d9767" .
 
 <https://offenedaten-konstanz.de/dataset/gesamtnutzung-fahrrad-mietsystem/resource/945418a2-5c18-4c0b-b69c-1ead29a167ea>
         a                    cat:Distribution ;
@@ -1616,11 +1611,9 @@ _:b15   a       vcard:Kind .
         dcterms:modified     "2019-05-13T10:40:08+02:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Kleinräumige Gliederung Stadtviertelfläche" ;
-        cat:contactPoint     _:b22 ;
+        cat:contactPoint     _:b0 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/kleinr-umige-gliederung-stadtviertelfl-che/resource/9d227866-d0a8-4407-b980-fcd95e426f9d> , <https://offenedaten-konstanz.de/dataset/kleinr-umige-gliederung-stadtviertelfl-che/resource/0c5296c0-3a27-470e-ab7f-b5811c038dad> ;
         cat:keyword          "Infrastruktur" , "Bauen und Wohnen" , "Geo" .
-
-_:b40   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/ffentlichen-papiereimer-stadt-konstanz/resource/8791a657-bb4c-443c-8b67-fe27d0fa89e9>
         a                    cat:Distribution ;
@@ -1644,7 +1637,7 @@ _:b40   a       vcard:Kind .
         dcterms:title        "Stadtteilgrenzen/Stadtteifläche (xls, shp, KML)" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/stadtteilgrenzen-stadtteilfl-che/resource/32d36375-36f6-4dbb-84af-653c1bb175af> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/stadtteilgrenzen-stadtteilfl-che/resource/32d36375-36f6-4dbb-84af-653c1bb175af" .
 
@@ -1669,7 +1662,7 @@ _:b40   a       vcard:Kind .
         dcterms:modified     "2019-04-16T09:40:38+02:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "KFZ-Statistik Konstanz " ;
-        cat:contactPoint     _:b24 ;
+        cat:contactPoint     _:b38 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/kfz-statistik-konstanz/resource/2ce36402-42dc-4d77-b850-d802007779c2> , <https://offenedaten-konstanz.de/dataset/kfz-statistik-konstanz/resource/ee096125-3e02-4489-bebb-fbfbcc1e2f65> ;
         cat:keyword          "Transport und Verkehr" .
 
@@ -1681,9 +1674,13 @@ _:b40   a       vcard:Kind .
         dcterms:modified     "2019-04-15T14:03:11+02:00"^^xsd:date ;
         dcterms:publisher    "Stadtwerke Konstanz" ;
         dcterms:title        "Busverkehr" ;
-        cat:contactPoint     _:b1 ;
+        cat:contactPoint     _:b39 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/busverkehr/resource/8b2ea909-c0a2-4f5c-8260-286dfe5ef698> , <https://offenedaten-konstanz.de/dataset/busverkehr/resource/4a8b5cef-664c-45e2-bc57-5f4d91f5a68c> , <https://offenedaten-konstanz.de/dataset/busverkehr/resource/bf21faad-7f49-426d-ad7e-c08a2fbc3825> , <https://offenedaten-konstanz.de/dataset/busverkehr/resource/b275ee5d-82b1-4aff-b0af-2181cdbf3ba6> , <https://offenedaten-konstanz.de/dataset/busverkehr/resource/213c5f45-dbf5-408b-925d-488dc29df137> , <https://offenedaten-konstanz.de/dataset/busverkehr/resource/23f79dd3-7a8c-4569-b3fd-5d033e77c1a7> , <https://offenedaten-konstanz.de/dataset/busverkehr/resource/276627b0-e8ed-4e83-a347-29fb3c8d514b> , <https://offenedaten-konstanz.de/dataset/busverkehr/resource/7d856404-c362-46b5-8724-9226d05f982c> , <https://offenedaten-konstanz.de/dataset/busverkehr/resource/8cccbfad-464d-4a36-b989-d6e82ce9bc31> ;
         cat:keyword          "Transport und Verkehr" .
+
+_:b18   a       vcard:Kind .
+
+_:b40   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/au-enwanderung-bei-stadtteil/resource/15009c62-2178-4aec-ab8e-e61c84dc3f05>
         a                    cat:Distribution ;
@@ -1720,7 +1717,7 @@ _:b40   a       vcard:Kind .
         dcterms:title        "Bildungseinrichtungen Datenbank (xls, shp, KML)" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/bildungseinrichtungen-2019/resource/f2c093e3-0879-4895-8110-46fab0675a04> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/bildungseinrichtungen-2019/resource/f2c093e3-0879-4895-8110-46fab0675a04" .
 
@@ -1737,12 +1734,6 @@ _:b40   a       vcard:Kind .
         cat:mediaType        "text/csv" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/kinderbetreuung-nach-stadtteilen/resource/66aa6811-3b82-44bf-a888-e48dcf8062f3" .
 
-_:b41   a       vcard:Kind .
-
-_:b42   a       vcard:Kind .
-
-_:b43   a       vcard:Kind .
-
 <https://offenedaten-konstanz.de/dataset/m-ngelmelder/resource/f2084f5d-e39b-4d6c-9469-9ebe5a5abf6c>
         a                    cat:Distribution ;
         dcterms:description  "<p>Erläuterung der Spaltenüberschriften Mängelmelder 2017</p>\n<p>　</p>\n<p>ID = Kennung der Meldung</p>\n<p>Text = Vom Melder eingefügte Beschreibung des Problems</p>\n<p>Kategorie = Zuordnung des Mangels zu einer von fünf Kategorien: Beleuchtung, Müll/Sauberkeit, Pflanzenwuchs, Straßen/Fahrrad/Verkehr und öffentliche Orte/Ufer</p>\n<p>Status = Bearbeitungsstatus des Mangels</p>\n<p>Vertraulich = Angabe darüber, ob die Meldungen unter <a href=\"https://konstanz-mitgestalten.de/bms/search#search=1&amp;pageid=1&amp;messageid=&amp;text=&amp;state=all&amp;type=all&amp;order=desc-id\">https://konstanz-mitgestalten.de/bms/search#search=1&amp;pageid=1&amp;messageid=...</a> auf der Karte verzeichnet / einzusehen sind</p>\n<p>Organisation = Angabe darüber, welches Administratorenkonto die Freigabe / Weiterleitung des Mangels bearbeitet</p>\n<p>Gruppe = Zugewiesene Zuständigkeit / Aufgabenbereich</p>\n<p>Zuständiger = letztendlich zuständiger Bereich</p>\n<p>lon = Koordinatenangabe: Längengrad</p>\n<p>lat = Koordinatenangabe: Längengrad</p>\n<p>Gemeldet am = Datum des Meldungseingangs</p>\n<p>Freigegeben am = Datum der Bearbeitungsfreigabe</p>\n<p>Geprüft am = Datum der Prüfung des Problems vor Ort</p>\n<p>Gelöst am = Datum an dem der Mangel als gelöst eingestuft wurde</p>\n<p>Ungelöst am = Datum an dem die Bearbeitung des Mangels ggf. ohne Lösung eingestellt wurde</p>\n<p>Freigabe in = Anzahl der Tage, die zwischen Meldung und Freigabe vergangen sind</p>\n<p>Prüfung in = Anzahl der Tage, die zwischen Freigabe und Prüfung vergangen sind</p>\n<p>Lösung in = Anzahl der Tage, die zwischen Prüfung und Lösung vergangen sind</p>\n<p>Ungelöst in = Anzahl der Tage, die zwischen Prüfung und Aufgabe der Bearbeitung vergangen sind</p>\n<p>Anrede = Anrede der Person, die den Mangel gemeldet hat</p>\n<p>Stadtteil = Stadtteil, in welchem der Mangel zu finden ist</p>\n<p>Art der Störung = Vom Melder angegebene Art der Störung</p>\n" ;
@@ -1752,11 +1743,9 @@ _:b43   a       vcard:Kind .
         dcterms:title        "API - Einträge im Mängelmelder 2017" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/m-ngelmelder/resource/f2084f5d-e39b-4d6c-9469-9ebe5a5abf6c> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/m-ngelmelder/resource/f2084f5d-e39b-4d6c-9469-9ebe5a5abf6c" .
-
-_:b44   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/gesamtnutzung-fahrrad-mietsystem/resource/be43b521-c8e5-4556-9a19-7af50aedc8e6>
         a                    cat:Distribution ;
@@ -1792,7 +1781,7 @@ _:b44   a       vcard:Kind .
         dcterms:modified     "2019-02-20T15:40:28+01:00"^^xsd:date ;
         dcterms:publisher    "Stadtwerke Konstanz" ;
         dcterms:title        "Fahrrad-Mietsystem (Tink/Konrad)" ;
-        cat:contactPoint     _:b33 ;
+        cat:contactPoint     _:b27 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/gesamtnutzung-fahrrad-mietsystem/resource/945418a2-5c18-4c0b-b69c-1ead29a167ea> , <https://offenedaten-konstanz.de/dataset/gesamtnutzung-fahrrad-mietsystem/resource/d2dcac6f-2df2-47af-bddf-8696f5f0f62c> , <https://offenedaten-konstanz.de/dataset/gesamtnutzung-fahrrad-mietsystem/resource/b9ff1c69-5f8b-4307-b16a-84d59d1f9228> , <https://offenedaten-konstanz.de/dataset/gesamtnutzung-fahrrad-mietsystem/resource/be43b521-c8e5-4556-9a19-7af50aedc8e6> , <https://offenedaten-konstanz.de/dataset/gesamtnutzung-fahrrad-mietsystem/resource/2ae04bd1-7a0f-49ac-a966-17999bf0fba9> ;
         cat:keyword          "Transport und Verkehr" .
 
@@ -1805,7 +1794,7 @@ _:b44   a       vcard:Kind .
         dcterms:title        "Bodenrichtwertzonen 2012" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/b1035870-91f7-4979-85e1-cfb756f9acef> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/b1035870-91f7-4979-85e1-cfb756f9acef" .
 
@@ -1870,7 +1859,7 @@ _:b44   a       vcard:Kind .
         dcterms:title        "Spielplätze - APP" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-spielpl%C3%A4tze/resource/8b5f24c2-1359-45ad-b58e-40b7204414d1> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-spielpl%C3%A4tze/resource/8b5f24c2-1359-45ad-b58e-40b7204414d1" .
 
@@ -1909,7 +1898,7 @@ _:b44   a       vcard:Kind .
         dcterms:title        "Unfallatlas" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/14e467e3-cb96-4d08-826b-2fdce530a975> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/14e467e3-cb96-4d08-826b-2fdce530a975" .
 
@@ -1939,8 +1928,6 @@ _:b44   a       vcard:Kind .
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/solarpotenzial/resource/a4bfb4ab-cc7e-41f2-86bb-98772bf89f05" .
 
-_:b45   a       vcard:Kind .
-
 <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/96b58aaa-d845-4f7c-8bda-f03b91e418d7>
         a                    cat:Distribution ;
         dcterms:description  "" ;
@@ -1953,8 +1940,6 @@ _:b45   a       vcard:Kind .
         cat:downloadURL      <https://offenedaten-konstanz.de/sites/default/files/Unfallatlas%20Konstanz%20Kraftrad%202016-2019.csv> ;
         cat:mediaType        "text/csv" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/96b58aaa-d845-4f7c-8bda-f03b91e418d7" .
-
-_:b7    a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/stadtteilgrenzen-stadtteilfl-che/resource/66a4edf5-ded5-4ef1-8742-c4eb27a24136>
         a                    cat:Distribution ;
@@ -1995,7 +1980,20 @@ _:b7    a       vcard:Kind .
         cat:mediaType        "application/vnd.ms-excel" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/ffentlichen-papiereimer-stadt-konstanz/resource/9ff59379-acb9-4ab0-9633-8575d2565a97" .
 
-_:b36   a       vcard:Kind .
+<https://offenedaten-konstanz.de/dataset/mobile-verkehrsz-hlungen-rad-und-fu-verkehr/resource/a69f795c-1e61-4c0c-8305-c9296ac48443>
+        a                    cat:Distribution ;
+        dcterms:description  "<p>Standort: Theodor-Heuss-Straße</p>\n<p>Die Daten wurden im 5 Minuten Rhythmus erhoben</p>\n<p>Der Spaltenaufbau dieses Datensatzes bestimmt sich wie folgt:</p>\n<ul>\n<li>Datum-Uhrzeit: (DD.MM.YYYY HH:MM) von 09.09.2020 11:00 Uhr bis 20.09.2020 23:45 Uhr</li>\n<li>Stadteinwärts Fußgänger: Alle gezählten Fußgänger Richtung Stadt</li>\n<li>Stadteinwärts Fahrradfahrer: Alle gezählten Fahrradfahrer Richtung Stadt</li>\n<li>Stadteinwärts: Alle gezählten Fußgänger und Fahrradfahrer Richtung Stadt</li>\n<li>Stadtauswärts Fußgänger: Alle gezählten Fußgänger Richtung Zähringerplatz</li>\n<li>Stadtauswärts Fahrradfahrer: Alle gezählten Fahrradfahrer Richtung Zähringerplatz</li>\n<li>Stadtauswärts: Alle gezählten Fußgänger und Fahrradfahrer Richtung Zähringerplatz</li>\n<li>Total: Summe aus „Stadteinwärts“ und „Stadtauswärts“</li>\n</ul>\n" ;
+        dcterms:format       "csv" ;
+        dcterms:issued       "2021-01-12T10:07:41+01:00"^^xsd:date ;
+        dcterms:modified     "2021-01-12T10:07:41+01:00"^^xsd:date ;
+        dcterms:title        "Theodor_Heuss_Straße__Laser" ;
+        cat:accessURL        <https://offenedaten-konstanz.de/dataset/mobile-verkehrsz-hlungen-rad-und-fu-verkehr/resource/a69f795c-1e61-4c0c-8305-c9296ac48443> ;
+        cat:byteSize         "89876" ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/sites/default/files/Theodor_Heuss_Stra%C3%9Fe__Laser.csv> ;
+        cat:mediaType        "text/csv" ;
+        foaf:page            "https://offenedaten-konstanz.de/dataset/mobile-verkehrsz-hlungen-rad-und-fu-verkehr/resource/a69f795c-1e61-4c0c-8305-c9296ac48443" .
+
+_:b41   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/wahlergebnisse-konstanzer-oberb-rgermeisterwahlen/resource/9a98fa13-82b1-4a9c-8377>
         a                    cat:Distribution ;
@@ -2044,7 +2042,7 @@ _:b36   a       vcard:Kind .
         dcterms:modified     "2018-11-23T09:38:33+01:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Konstanzer Einwohner nach Stadtvierteln" ;
-        cat:contactPoint     _:b34 ;
+        cat:contactPoint     _:b21 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/konstanzer-einwohner-nach-stadtvierteln/resource/6d33935c-2fec-4344-8f4d-d69fef321a83> ;
         cat:keyword          "Bevölkerung" .
 
@@ -2057,13 +2055,23 @@ _:b36   a       vcard:Kind .
         dcterms:title        "Bodenrichtwertzonen 2016" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/f85171b6-c6fd-4f0a-92c3-36d133ded751> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/f85171b6-c6fd-4f0a-92c3-36d133ded751" .
 
-_:b29   a               vcard:Kind ;
-        vcard:fn        "Geoinformation" ;
-        vcard:hasEmail  "Vermessungsamt@konstanz.de" .
+_:b42   a                    cat:Catalog ;
+        dcterms:description  "" ;
+        dcterms:issued       "2021-01-21T16:50:03+01:00"^^xsd:date ;
+        dcterms:language     "de" ;
+        dcterms:modified     "2021-01-21T16:50:03+01:00"^^xsd:date ;
+        dcterms:publisher    <https://offenedaten-konstanz.de/publisher/n0> ;
+        dcterms:title        "Offene Daten Konstanz" ;
+        cat:dataset          <https://offenedaten-konstanz.de/dataset/kleiner-waffenschein> , <https://offenedaten-konstanz.de/dataset/solarpotenzial> , <https://offenedaten-konstanz.de/dataset/geschwindigkeits-berwachung-jahresstatistik> , <https://offenedaten-konstanz.de/dataset/m-ngelmelder> , <https://offenedaten-konstanz.de/dataset/fahrradabstellanlagen> , <https://offenedaten-konstanz.de/dataset/dauerz-hlstellen-radverkehr> , <https://offenedaten-konstanz.de/dataset/einwohnerentwicklung-stadt-konstanz> , <https://offenedaten-konstanz.de/dataset/kfz-statistik-konstanz> , <https://offenedaten-konstanz.de/dataset/wahlergebnisse-konstanzer-oberb-rgermeisterwahlen> , <https://offenedaten-konstanz.de/dataset/kleinr-umige-gliederung-stadtviertelfl-che> , <https://offenedaten-konstanz.de/dataset/kindertagesbetreuung-einrichtungen> , <https://offenedaten-konstanz.de/dataset/mobile-verkehrsz-hlungen-rad-und-fu-verkehr> , <https://offenedaten-konstanz.de/dataset/wahlergebnisse-konstanzer-landtagswahlen> , <https://offenedaten-konstanz.de/dataset/wahlbezirke> , <https://offenedaten-konstanz.de/dataset/stromverbrauch-entsorgungsbetriebe-konstanz> , <https://offenedaten-konstanz.de/dataset/ffentliche-papiereimer-stadt-konstanz> , <https://offenedaten-konstanz.de/dataset/abfallplaner-m-llabfuhrtermine> , <https://offenedaten-konstanz.de/dataset/abfallstatistik-eigenbetriebe-konstanz> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-fahrradmietsytsem-konrad-tink> , <https://offenedaten-konstanz.de/dataset/standorte-konstanz-wlan> , <https://offenedaten-konstanz.de/dataset/kohlendioxid-emissionen-kommunale-co2-bilanzen-stadt-konstanz> , <https://offenedaten-konstanz.de/dataset/st-dtische-einrichtungen-beh-rden> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-sportanlagen> , <https://offenedaten-konstanz.de/dataset/konstanzer-stadtteilprofile> , <https://offenedaten-konstanz.de/dataset/georefernzierte-standorte-fahrradh-ndler> , <https://offenedaten-konstanz.de/dataset/gesamt-bersicht-ma-nahmenpaket-2019-klimaschutzbericht-stadt-konstanz> , <https://offenedaten-konstanz.de/dataset/kinderbetreuung-nach-stadtteilen> , <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-parkh-user> , <https://offenedaten-konstanz.de/dataset/baumkataster-konstanz> , <https://offenedaten-konstanz.de/dataset/historische-wetterdaten> , <https://offenedaten-konstanz.de/dataset/bildungseinrichtungen-2019> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-spielpl-tze> , <https://offenedaten-konstanz.de/dataset/konstanzer-geb-ude-nach-baujahren> , <https://offenedaten-konstanz.de/dataset/st-dtische-umfrage-im-projekt-klimaschutzdaten-f-r-konstanz> , <https://offenedaten-konstanz.de/dataset/au-enwanderung-bei-stadtteil> , <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte> , <https://offenedaten-konstanz.de/dataset/kl-ranlage-konstanz> , <https://offenedaten-konstanz.de/dataset/bico2-bilanzierung> , <https://offenedaten-konstanz.de/dataset/fahrrad-mietsystem-tinkkonrad> , <https://offenedaten-konstanz.de/dataset/stadtteilgrenzen-stadtteilfl-che> , <https://offenedaten-konstanz.de/dataset/grenz-berg-nge-kraftfahrzeuge-deutschland-schweiz> , <https://offenedaten-konstanz.de/dataset/konstanzer-einwohner-nach-stadtvierteln> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-glascontainer> , <https://offenedaten-konstanz.de/dataset/busverkehr> , <https://offenedaten-konstanz.de/dataset/modal-split> ;
+        foaf:homepage        "https://offenedaten-konstanz.de/search/type/dataset" .
+
+_:b43   a       vcard:Kind .
+
+_:b39   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/konstanzer-stadtteilprofile/resource/7ee31207-6b0d-436f-aca3-16c6ee28952c>
         a                    cat:Distribution ;
@@ -2078,7 +2086,24 @@ _:b29   a               vcard:Kind ;
         cat:mediaType        "text/csv" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/konstanzer-stadtteilprofile/resource/7ee31207-6b0d-436f-aca3-16c6ee28952c" .
 
-mclient:meta  cat:catalog  _:b18 .
+_:b31   a       vcard:Kind .
+
+mclient:meta  cat:catalog  _:b42 .
+
+<https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/0b195948-ba53-4081-944d-760007802999>
+        a                    cat:Distribution ;
+        dcterms:description  "" ;
+        dcterms:format       "KN GIS Hub" ;
+        dcterms:issued       "2019-05-10T11:39:26+02:00"^^xsd:date ;
+        dcterms:modified     "2020-11-24T14:42:43+01:00"^^xsd:date ;
+        dcterms:title        "Bodenrichtwertzonen 2011" ;
+        cat:accessURL        <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/0b195948-ba53-4081-944d-760007802999> ;
+        cat:byteSize         "" ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
+        cat:mediaType        "" ;
+        foaf:page            "https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/0b195948-ba53-4081-944d-760007802999" .
+
+_:b26   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/abfallstatistik-eigenbetriebe-konstanz/resource/51252412-4f26-47df-996e-e5eaf1f92ea5>
         a                    cat:Distribution ;
@@ -2106,9 +2131,18 @@ mclient:meta  cat:catalog  _:b18 .
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/solarpotenzial/resource/d5128714-f14d-49e3-ab25-e2b86805297b" .
 
-_:b6    a       vcard:Kind .
-
-_:b10   a       vcard:Kind .
+<https://offenedaten-konstanz.de/dataset/mobile-verkehrsz-hlungen-rad-und-fu-verkehr/resource/677d9afb-c43f-43ec-9def-3ee4e2a4511d>
+        a                    cat:Distribution ;
+        dcterms:description  "<p>Standort: Gartenstraße/Schottenstraße</p>\n<p>Die Daten wurden im 5 Minuten Rhythmus erhoben.</p>\n<p>Der Spaltenaufbau dieses Datensatzes bestimmt sich wie folgt:</p>\n<ul>\n<li>Datum-Uhrzeit = (DD.MM.YYYY HH:MM) von 09.11.2020 16:35 Uhr bis 18.11.2020 09:00 Uhr</li>\n<li>Richtung Fahrradbrü &gt;Richtung Schweiz: Summe der gezählten Fußgänger in Richtung Schweiz</li>\n<li>Total: Summe aller gezählten Fußgänger</li>\n</ul>\n" ;
+        dcterms:format       "csv" ;
+        dcterms:issued       "2021-01-12T10:05:53+01:00"^^xsd:date ;
+        dcterms:modified     "2021-01-12T10:05:53+01:00"^^xsd:date ;
+        dcterms:title        "Gartenstraße_Schottenstraße" ;
+        cat:accessURL        <https://offenedaten-konstanz.de/dataset/mobile-verkehrsz-hlungen-rad-und-fu-verkehr/resource/677d9afb-c43f-43ec-9def-3ee4e2a4511d> ;
+        cat:byteSize         "" ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
+        cat:mediaType        "" ;
+        foaf:page            "https://offenedaten-konstanz.de/dataset/mobile-verkehrsz-hlungen-rad-und-fu-verkehr/resource/677d9afb-c43f-43ec-9def-3ee4e2a4511d" .
 
 <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-sportanlagen/resource/f358dfbc-2d26-433c-8d0c-c71ded011904>
         a                    cat:Distribution ;
@@ -2131,7 +2165,7 @@ _:b10   a       vcard:Kind .
         dcterms:modified     "2018-11-27T14:27:50+01:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Konstanzer Gebäude nach Baujahren" ;
-        cat:contactPoint     _:b11 ;
+        cat:contactPoint     _:b16 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/konstanzer-geb%C3%A4ude-nach-baujahren/resource/09f8f074-be4a-43b8-bf6c-ecb07bfc8343> ;
         cat:keyword          "Bauen und Wohnen" , "Infrastruktur" .
 
@@ -2144,7 +2178,7 @@ _:b10   a       vcard:Kind .
         dcterms:title        "Stadtwerke Konstanz" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/st-dtische-einrichtungen-beh-rden/resource/a59f40c3-b1ab-4f2a-b140-491861a8df47> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/st-dtische-einrichtungen-beh-rden/resource/a59f40c3-b1ab-4f2a-b140-491861a8df47" .
 
@@ -2156,7 +2190,7 @@ _:b10   a       vcard:Kind .
         dcterms:modified     "2020-12-09T13:30:42+01:00"^^xsd:date ;
         dcterms:publisher    "Entsorgungsbetriebe Stadt Konstanz" ;
         dcterms:title        "Stromverbrauch Entsorgungsbetriebe Konstanz" ;
-        cat:contactPoint     _:b39 ;
+        cat:contactPoint     _:b36 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/stromverbrauch-entsorgungsbetriebe-konstanz/resource/707f8b37-2519-444c-a483-8fbbc2a68810> ;
         cat:keyword          "Umwelt und Klima" .
 
@@ -2182,22 +2216,11 @@ _:b10   a       vcard:Kind .
         dcterms:title        "Stadtviertelfläche (xls, shp, KML)" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/kleinr-umige-gliederung-stadtviertelfl-che/resource/9d227866-d0a8-4407-b980-fcd95e426f9d> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/kleinr-umige-gliederung-stadtviertelfl-che/resource/9d227866-d0a8-4407-b980-fcd95e426f9d" .
 
-<https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/0b195948-ba53-4081-944d-760007802999>
-        a                    cat:Distribution ;
-        dcterms:description  "" ;
-        dcterms:format       "KN GIS Hub" ;
-        dcterms:issued       "2019-05-10T11:39:26+02:00"^^xsd:date ;
-        dcterms:modified     "2020-11-24T14:42:43+01:00"^^xsd:date ;
-        dcterms:title        "Bodenrichtwertzonen 2011" ;
-        cat:accessURL        <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/0b195948-ba53-4081-944d-760007802999> ;
-        cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
-        cat:mediaType        "" ;
-        foaf:page            "https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/0b195948-ba53-4081-944d-760007802999" .
+_:b28   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-fahrradmietsytsem-konrad-tink>
         a                    cat:Dataset ;
@@ -2208,7 +2231,7 @@ _:b10   a       vcard:Kind .
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:spatial      "POINT (9.1726613044739 47.662764458105), POINT (9.1736590862274 47.661485532916), POINT (9.1709554195404 47.665336834717), POINT (9.1694104671478 47.666973371312), POINT (9.1647273302078 47.667522484677), POINT (9.1647326946259 47.665546372068), POINT (9.1662508249283 47.661185654155), POINT (9.1686165332794 47.658584223945), POINT (9.1759979724884 47.657738731217), POINT (9.1767060756683 47.658645648097), POINT (9.1637188196182 47.672301694542), POINT (9.1624689102173 47.677441656247), POINT (9.1731387376785 47.674617087814), POINT (9.1730046272278 47.672099408815), POINT (9.1760516166687 47.672160817065), POINT (9.1783046722412 47.670109019936), POINT (9.1838836669922 47.672879649442), POINT (9.2145895957947 47.666828866835), POINT (9.2097026109695 47.682321081098), POINT (9.2023801803589 47.682411369634), POINT (9.1879820823669 47.689493115486), POINT (9.1845381259918 47.701079681201)" ;
         dcterms:title        "Georeferenzierte Standorte Fahrradmietsytsem (konrad, TINK)" ;
-        cat:contactPoint     _:b37 ;
+        cat:contactPoint     _:b44 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-fahrradmietsytsem-konrad-tink/resource/5fea7248-7eda-4cda-a85c> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-fahrradmietsytsem-konrad-tink/resource/d63aec30-bae6-4f6d-b13d> ;
         cat:keyword          "Geo" , "Transport und Verkehr" ;
         cat:landingPage      "https://service.konstanz.de/Aemter-A-Z/Amt-Detailansicht/?id=6009005" .
@@ -2234,7 +2257,7 @@ _:b10   a       vcard:Kind .
         dcterms:modified     "2019-04-09T15:38:49+02:00"^^xsd:date ;
         dcterms:publisher    "Stadtwerke Konstanz" ;
         dcterms:title        "Standorte Konstanz WLAN" ;
-        cat:contactPoint     _:b4 ;
+        cat:contactPoint     _:b45 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/standorte-konstanz-wlan/resource/b529baea-975c-49fd-8a77-2c9033a95d04> ;
         cat:keyword          "Infrastruktur" , "Bauen und Wohnen" .
 
@@ -2246,11 +2269,11 @@ _:b10   a       vcard:Kind .
         dcterms:modified     "2020-08-13T13:51:01+02:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Mobile Verkehrszählungen Rad- und Fußverkehr" ;
-        cat:contactPoint     _:b46 ;
-        cat:distribution     <https://offenedaten-konstanz.de/dataset/mobile-verkehrsz-hlungen-rad-und-fu-verkehr/resource/14b694ea-70b3-4d1c-8e18-846df5d6d6a8> ;
+        cat:contactPoint     _:b24 ;
+        cat:distribution     <https://offenedaten-konstanz.de/dataset/mobile-verkehrsz-hlungen-rad-und-fu-verkehr/resource/9b162405-66e4-4b97-a2ba-b6feb79df1ad> , <https://offenedaten-konstanz.de/dataset/mobile-verkehrsz-hlungen-rad-und-fu-verkehr/resource/aff836cd-e947-4c59-ad01-612c29264d27> , <https://offenedaten-konstanz.de/dataset/mobile-verkehrsz-hlungen-rad-und-fu-verkehr/resource/677d9afb-c43f-43ec-9def-3ee4e2a4511d> , <https://offenedaten-konstanz.de/dataset/mobile-verkehrsz-hlungen-rad-und-fu-verkehr/resource/a69f795c-1e61-4c0c-8305-c9296ac48443> , <https://offenedaten-konstanz.de/dataset/mobile-verkehrsz-hlungen-rad-und-fu-verkehr/resource/14b694ea-70b3-4d1c-8e18-846df5d6d6a8> ;
         cat:keyword          "Transport und Verkehr" , "Umwelt und Klima" .
 
-_:b47   a       vcard:Kind .
+_:b9    a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/alte-wahlbezirkseinteilung-bis-2018/resource/d2d78cd4-b543-40e9-b04d-2987a4a14df8>
         a                    cat:Distribution ;
@@ -2274,7 +2297,7 @@ _:b47   a       vcard:Kind .
         dcterms:title        "Standorte Fahrradhändler _ APP" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/georefernzierte-standorte-fahrradh-ndler/resource/54f22ed4-4b9e-4c06-8af1-0e6541b5aec6> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/georefernzierte-standorte-fahrradh-ndler/resource/54f22ed4-4b9e-4c06-8af1-0e6541b5aec6" .
 
@@ -2317,18 +2340,9 @@ _:b47   a       vcard:Kind .
         cat:mediaType        "text/csv" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/wahlergebnisse-konstanzer-oberb-rgermeisterwahlen/resource/5312abbc-d3ec-4356-920b" .
 
-<https://offenedaten-konstanz.de/dataset/bico2-bilanzierung/resource/274b4fe7-e8af-4d11-aca8-6b9a3ad92fd1>
-        a                    cat:Distribution ;
-        dcterms:description  "<p>Spaltenüberschriften:<br />\n </p>\n<ul>\n<li>Jahr = Jahr der Erhebung (in diesem Fall nur 2015)</li>\n<li>Verbraucher = Energienutzungsgruppe (PrivH = Private Haushalte; Gewerbe = Gewerbe und Sonstiges; VerGewerbe = Verarbeitendes Gewerbe; Liegenschaften = eigene kommunale Liegenschaften der Stadt Konstanz; Verkehr = Straßenverkehr; Summe = Alle Nutzungsgruppen zusammengefasst)</li>\n<li>Eform = Art der verbrauchten Energie (Strom = Strom; Heizöl = Heizöl; Erdgas = Erdgas; Fernwärme = Fernwärme; Kohle = Kohle; EEQ = Erneuerbare Energiequellen; Sonstige = Sonstige; Kraftstoffe = Kraftstoffe mit denen Fahrzeuge betrieben werden; Summe = Alle Energieformen zusammengefasst)</li>\n<li>Wert = Die Menge der verbrauchten Megawattstunden</li>\n</ul>\n" ;
-        dcterms:format       "csv" ;
-        dcterms:issued       "2020-08-18T09:27:06+02:00"^^xsd:date ;
-        dcterms:modified     "2020-08-18T09:36:25+02:00"^^xsd:date ;
-        dcterms:title        "Endenergieverbrauch in MWh" ;
-        cat:accessURL        <https://offenedaten-konstanz.de/dataset/bico2-bilanzierung/resource/274b4fe7-e8af-4d11-aca8-6b9a3ad92fd1> ;
-        cat:byteSize         "1496" ;
-        cat:downloadURL      <https://offenedaten-konstanz.de/sites/default/files/BiCO2%20Endenergieverbrauch%20MWh.csv> ;
-        cat:mediaType        "text/csv" ;
-        foaf:page            "https://offenedaten-konstanz.de/dataset/bico2-bilanzierung/resource/274b4fe7-e8af-4d11-aca8-6b9a3ad92fd1" .
+_:b25   a               vcard:Kind ;
+        vcard:fn        "Geoinformation" ;
+        vcard:hasEmail  "Vermessungsamt@konstanz.de" .
 
 <https://offenedaten-konstanz.de/dataset/wahlbezirke/resource/f7aa8f84-c6f1-4687-98b8-b99615e51ad3>
         a                    cat:Distribution ;
@@ -2356,6 +2370,19 @@ _:b47   a       vcard:Kind .
         cat:mediaType        "text/csv" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/dauerz-hlstellen-radverkehr/resource/62b7e578-096e-421d-b0f8-1c7a3d8945be" .
 
+<https://offenedaten-konstanz.de/dataset/bico2-bilanzierung/resource/274b4fe7-e8af-4d11-aca8-6b9a3ad92fd1>
+        a                    cat:Distribution ;
+        dcterms:description  "<p>Spaltenüberschriften:<br />\n </p>\n<ul>\n<li>Jahr = Jahr der Erhebung (in diesem Fall nur 2015)</li>\n<li>Verbraucher = Energienutzungsgruppe (PrivH = Private Haushalte; Gewerbe = Gewerbe und Sonstiges; VerGewerbe = Verarbeitendes Gewerbe; Liegenschaften = eigene kommunale Liegenschaften der Stadt Konstanz; Verkehr = Straßenverkehr; Summe = Alle Nutzungsgruppen zusammengefasst)</li>\n<li>Eform = Art der verbrauchten Energie (Strom = Strom; Heizöl = Heizöl; Erdgas = Erdgas; Fernwärme = Fernwärme; Kohle = Kohle; EEQ = Erneuerbare Energiequellen; Sonstige = Sonstige; Kraftstoffe = Kraftstoffe mit denen Fahrzeuge betrieben werden; Summe = Alle Energieformen zusammengefasst)</li>\n<li>Wert = Die Menge der verbrauchten Megawattstunden</li>\n</ul>\n" ;
+        dcterms:format       "csv" ;
+        dcterms:issued       "2020-08-18T09:27:06+02:00"^^xsd:date ;
+        dcterms:modified     "2020-08-18T09:36:25+02:00"^^xsd:date ;
+        dcterms:title        "Endenergieverbrauch in MWh" ;
+        cat:accessURL        <https://offenedaten-konstanz.de/dataset/bico2-bilanzierung/resource/274b4fe7-e8af-4d11-aca8-6b9a3ad92fd1> ;
+        cat:byteSize         "1496" ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/sites/default/files/BiCO2%20Endenergieverbrauch%20MWh.csv> ;
+        cat:mediaType        "text/csv" ;
+        foaf:page            "https://offenedaten-konstanz.de/dataset/bico2-bilanzierung/resource/274b4fe7-e8af-4d11-aca8-6b9a3ad92fd1" .
+
 <https://offenedaten-konstanz.de/dataset/kinderbetreuung-nach-stadtteilen>
         a                    cat:Dataset ;
         dcterms:description  "<p>Dieser Datensatz enthält eine Übersicht üder die Kinderbetreuungsplätze im Konstanzer Stadtgebiet. In welchem Stadtgebiet gibt es die größte Anzahl an Kinderbetreuungsplätzen? Dieser Datensatz gibt Auskunft darüber. Die Daten gibt es kleinräumig für jeden Staddteil von Konstanz.</p>\n<p>(Quelle: Stadt Konstanz, Referat Oberbürgermeister - Statistik und Steuerungsunterstützung)</p>\n" ;
@@ -2364,21 +2391,9 @@ _:b47   a       vcard:Kind .
         dcterms:modified     "2018-11-26T14:51:17+01:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Kinderbetreuung nach Stadtteilen" ;
-        cat:contactPoint     _:b43 ;
+        cat:contactPoint     _:b46 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/kinderbetreuung-nach-stadtteilen/resource/66aa6811-3b82-44bf-a888-e48dcf8062f3> ;
         cat:keyword          "Infrastruktur" , "Bauen und Wohnen" .
-
-<https://offenedaten-konstanz.de/dataset/alte-wahlbezirkseinteilung-bis-2018>
-        a                    cat:Dataset ;
-        dcterms:description  "<p>Kleinräumige Gliederung der Stadt Konstanz: Wahlbezirke bis 2018 Diese Arbeit oder dieser Inhalt unterliegt einer Creative Commons Nemensnennung 4.0 International Lizenz (CC-BY 4.0).</p>\n<p>(Quelle: Stadt Konstanz, Projektgruppe Wahlen)</p>\n" ;
-        dcterms:identifier   "e6c98d3b-0e42-4297-97e0-e6197a358500" ;
-        dcterms:issued       "2020-04-22T16:07:12+02:00"^^xsd:date ;
-        dcterms:modified     "2020-04-22T16:07:12+02:00"^^xsd:date ;
-        dcterms:publisher    "Stadt Konstanz" ;
-        dcterms:title        "Alte Wahlbezirkseinteilung bis 2018" ;
-        cat:contactPoint     _:b31 ;
-        cat:distribution     <https://offenedaten-konstanz.de/dataset/alte-wahlbezirkseinteilung-bis-2018/resource/d2d78cd4-b543-40e9-b04d-2987a4a14df8> ;
-        cat:keyword          "Politik und Wahlen" , "Geo" .
 
 <https://offenedaten-konstanz.de/dataset/kfz-statistik-konstanz/resource/2ce36402-42dc-4d77-b850-d802007779c2>
         a                    cat:Distribution ;
@@ -2415,9 +2430,11 @@ _:b47   a       vcard:Kind .
         dcterms:title        "Bodenrichtwertzonen 2009" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/5cf97162-1158-4b3d-a976-657790137ea1> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/bodenrichtwertkarte/resource/5cf97162-1158-4b3d-a976-657790137ea1" .
+
+_:b46   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/busverkehr/resource/8b2ea909-c0a2-4f5c-8260-286dfe5ef698>
         a                    cat:Distribution ;
@@ -2431,8 +2448,6 @@ _:b47   a       vcard:Kind .
         cat:downloadURL      <https://offenedaten-konstanz.de/sites/default/files/LINIEN.txt> ;
         cat:mediaType        "text/plain" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/busverkehr/resource/8b2ea909-c0a2-4f5c-8260-286dfe5ef698" .
-
-_:b46   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/e2716542-36ec-4931-a846-8aa424e548c3>
         a                    cat:Distribution ;
@@ -2468,9 +2483,13 @@ _:b46   a       vcard:Kind .
         dcterms:modified     "2019-05-06T13:20:12+02:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Georeferenzierte Standorte Parkhäuser " ;
-        cat:contactPoint     _:b12 ;
+        cat:contactPoint     _:b41 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-parkh%C3%A4user-app/resource/c5dc93cc-2bca-4af4-b60b-fe05ae56af92> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-parkh-user/resource/418b9fd8-252b-409f-9456-b7bdeffb939b> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-parkh-user/resource/3b283ce3-0b92-46b5-9c05-81031a941127> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-parkh%C3%A4user/resource/992a7661-d0b6-4476-9d84-47bd6d7d4c5c> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-parkh-user/resource/a2ba24e3-e0b5-475a-b207-758c5ba32a50> , <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-parkh-user/resource/a06be156-91cf-436b-860c-1e817e9d722d> ;
         cat:keyword          "Transport und Verkehr" , "Geo" .
+
+_:b44   a               vcard:Kind ;
+        vcard:fn        "Geoinformation" ;
+        vcard:hasEmail  "Vermessungsamt@konstanz.de" .
 
 <https://offenedaten-konstanz.de/dataset/georeferenzierte-standorte-spielpl-tze/resource/8bab8544-c653-4942-8926-1a9513721d83>
         a                    cat:Distribution ;
@@ -2493,7 +2512,7 @@ _:b46   a       vcard:Kind .
         dcterms:modified     "2019-05-06T16:46:11+02:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Bildungseinrichtungen - 2019" ;
-        cat:contactPoint     _:b42 ;
+        cat:contactPoint     _:b5 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/bildungseinrichtungen-2019/resource/061a91a4-16a2-426d-abc8-755596d4164c> , <https://offenedaten-konstanz.de/dataset/bildungseinrichtungen-2019/resource/be918a9e-9734-4ebd-8643-e54ea9a2d752> , <https://offenedaten-konstanz.de/dataset/bildungseinrichtungen-2019/resource/92b992ac-4da9-4810-9b2a-51bb1cdaf5d9> , <https://offenedaten-konstanz.de/dataset/bildungseinrichtungen-2019/resource/14dd716d-1cc7-4b33-b11c-2f6f42e42e28> , <https://offenedaten-konstanz.de/dataset/bildungseinrichtungen-2019/resource/f2c093e3-0879-4895-8110-46fab0675a04> ;
         cat:keyword          "Bildung und Wissenschaft" .
 
@@ -2505,7 +2524,7 @@ _:b46   a       vcard:Kind .
         dcterms:modified     "2020-12-23T14:48:20+01:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Solarpotenzial" ;
-        cat:contactPoint     _:b44 ;
+        cat:contactPoint     _:b20 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/solarpotenzial/resource/a4bfb4ab-cc7e-41f2-86bb-98772bf89f05> , <https://offenedaten-konstanz.de/dataset/solarpotenzial/resource/21fdc734-7951-447b-908f-ba6c8a72a527> , <https://offenedaten-konstanz.de/dataset/solarpotenzial/resource/490a35a5-6c11-482e-a594-c18a960ec0c1> , <https://offenedaten-konstanz.de/dataset/solarpotenzial/resource/abaed5bc-ba22-4984-b682-99f72ac02801> , <https://offenedaten-konstanz.de/dataset/solarpotenzial/resource/d5128714-f14d-49e3-ab25-e2b86805297b> ;
         cat:keyword          "Bauen und Wohnen" , "Infrastruktur" , "Geo" , "Umwelt und Klima" .
 
@@ -2518,11 +2537,26 @@ _:b46   a       vcard:Kind .
         dcterms:title        "Baumkataster GIS Hub" ;
         cat:accessURL        <https://offenedaten-konstanz.de/dataset/baumkataster-konstanz/resource/7b3dc13c-34a1-44d1-a0da-3c12a8439dad> ;
         cat:byteSize         "" ;
-        cat:downloadURL      <file:///home/lisa/repos/crawling/target/Konstanz.rdf> ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/> ;
         cat:mediaType        "" ;
         foaf:page            "https://offenedaten-konstanz.de/dataset/baumkataster-konstanz/resource/7b3dc13c-34a1-44d1-a0da-3c12a8439dad" .
 
-_:b16   a       vcard:Kind .
+_:b45   a       vcard:Kind .
+
+_:b38   a       vcard:Kind .
+
+<https://offenedaten-konstanz.de/dataset/mobile-verkehrsz-hlungen-rad-und-fu-verkehr/resource/aff836cd-e947-4c59-ad01-612c29264d27>
+        a                    cat:Distribution ;
+        dcterms:description  "<p>Standort: Jakobstraße 62</p>\n<p>Die Daten wurden im 15 Minuten Rhythmus erhoben.</p>\n<p>Der Spaltenaufbau dieses Datensatzes bestimmt sich wie folgt:</p>\n<ul>\n<li>Time: Datum-Uhrzeit = (DD.MM.YYYY HH:MM) von 08.09.2020 14:00 Uhr bis 20.09.2020 23:45Uhr</li>\n<li>Stadteinwärts Fahrrad: Alle gezählten Fahrräder Richtung Hörnle</li>\n<li>Stadteinwärts PKW: Alle gezählten PKWs Richtung Hörnle</li>\n<li>stadtauswärts Fahrrad: Alle gezählten Fahrräder Richtung Mainau</li>\n<li>Stadtauswärts PKW: Alle gezählten PKWs Richtung Mainau</li>\n<li>Stadteinwärts: Summe alles gezählten Fahrräder und PKWs stadteinwärts</li>\n<li>Stadtauswärts: Summe aller gezählten Fahrräder und PKWs stadtauswärts</li>\n</ul>\n" ;
+        dcterms:format       "csv" ;
+        dcterms:issued       "2021-01-12T10:06:52+01:00"^^xsd:date ;
+        dcterms:modified     "2021-01-12T10:06:52+01:00"^^xsd:date ;
+        dcterms:title        "Jakobstraße_Südlich vom Kreisverkehr" ;
+        cat:accessURL        <https://offenedaten-konstanz.de/dataset/mobile-verkehrsz-hlungen-rad-und-fu-verkehr/resource/aff836cd-e947-4c59-ad01-612c29264d27> ;
+        cat:byteSize         "38177" ;
+        cat:downloadURL      <https://offenedaten-konstanz.de/sites/default/files/Jakobstra%C3%9Fe_S%C3%BCdlich%20vom%20Kreisverkehr.csv> ;
+        cat:mediaType        "text/csv" ;
+        foaf:page            "https://offenedaten-konstanz.de/dataset/mobile-verkehrsz-hlungen-rad-und-fu-verkehr/resource/aff836cd-e947-4c59-ad01-612c29264d27" .
 
 <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle>
         a                    cat:Dataset ;
@@ -2531,9 +2565,11 @@ _:b16   a       vcard:Kind .
         dcterms:issued       "2020-08-06T18:24:42+02:00"^^xsd:date ;
         dcterms:modified     "2020-08-06T18:24:42+02:00"^^xsd:date ;
         dcterms:title        "Straßenverkehrsunfälle" ;
-        cat:contactPoint     _:b13 ;
-        cat:distribution     <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/814026b9-0ae5-4179-bb10-16facaf8c7f3> , <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/e2716542-36ec-4931-a846-8aa424e548c3> , <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/14e467e3-cb96-4d08-826b-2fdce530a975> , <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/29282a27-e64c-4875-800b-e137aff80c35> , <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/319a8468-4414-4c88-be5e-a7cae19eb304> , <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/96b58aaa-d845-4f7c-8bda-f03b91e418d7> , <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/2923327b-eda3-479c-871f-50a15ab2212f> , <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/39dac23a-ec2b-4598-899c-9d87c89f9a3d> ;
+        cat:contactPoint     _:b37 ;
+        cat:distribution     <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/814026b9-0ae5-4179-bb10-16facaf8c7f3> , <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/e2716542-36ec-4931-a846-8aa424e548c3> , <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/29282a27-e64c-4875-800b-e137aff80c35> , <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/14e467e3-cb96-4d08-826b-2fdce530a975> , <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/319a8468-4414-4c88-be5e-a7cae19eb304> , <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/96b58aaa-d845-4f7c-8bda-f03b91e418d7> , <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/2923327b-eda3-479c-871f-50a15ab2212f> , <https://offenedaten-konstanz.de/dataset/stra-enverkehrsunf-lle/resource/39dac23a-ec2b-4598-899c-9d87c89f9a3d> ;
         cat:keyword          "Transport und Verkehr" .
+
+_:b13   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/grenz-berg-nge-kraftfahrzeuge-deutschland-schweiz>
         a                    cat:Dataset ;
@@ -2543,7 +2579,7 @@ _:b16   a       vcard:Kind .
         dcterms:modified     "2020-09-24T11:00:22+02:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Grenzübergänge Kraftfahrzeuge Deutschland Schweiz" ;
-        cat:contactPoint     _:b47 ;
+        cat:contactPoint     _:b43 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/grenz-berg-nge-kraftfahrzeuge-deutschland-schweiz/resource/3919f424-8829-4e0b-adc8> ;
         cat:keyword          "Transport und Verkehr" .
 
@@ -2568,7 +2604,7 @@ _:b16   a       vcard:Kind .
         dcterms:modified     "2020-02-25T15:30:21+01:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Kohlendioxid-Emissionen: Kommunale CO2 Bilanzen Stadt Konstanz " ;
-        cat:contactPoint     _:b40 ;
+        cat:contactPoint     _:b29 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/kohlendioxid-emissionen-kommunale-co2-bilanzen-stadt-konstanz/resource/e0b536f5-b4c4-4160> , <https://offenedaten-konstanz.de/dataset/kohlendioxid-emissionen-kommunale-co2-bilanzen-stadt-konstanz/resource/c725e514-ba55-4792> ;
         cat:keyword          "Umwelt und Klima" .
 
@@ -2580,9 +2616,11 @@ _:b16   a       vcard:Kind .
         dcterms:modified     "2020-03-02T18:11:57+01:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Gesamtübersicht Maßnahmenpaket 2019 Klimaschutzbericht Stadt Konstanz" ;
-        cat:contactPoint     _:b45 ;
+        cat:contactPoint     _:b40 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/gesamt-bersicht-ma-nahmenpaket-2019-klimaschutzbericht-stadt-konstanz/resource/5db15c10-9196> ;
         cat:keyword          "Umwelt und Klima" .
+
+_:b35   a       vcard:Kind .
 
 <https://offenedaten-konstanz.de/dataset/wahlergebnisse-konstanzer-oberb-rgermeisterwahlen>
         a                    cat:Dataset ;
@@ -2592,6 +2630,6 @@ _:b16   a       vcard:Kind .
         dcterms:modified     "2020-10-21T11:23:49+02:00"^^xsd:date ;
         dcterms:publisher    "Stadt Konstanz" ;
         dcterms:title        "Wahlergebnisse Konstanzer Oberbürgermeisterwahlen" ;
-        cat:contactPoint     _:b41 ;
+        cat:contactPoint     _:b12 ;
         cat:distribution     <https://offenedaten-konstanz.de/dataset/wahlergebnisse-konstanzer-oberb-rgermeisterwahlen/resource/af851d57-5f17-4c88-88ba> , <https://offenedaten-konstanz.de/dataset/wahlergebnisse-konstanzer-oberb-rgermeisterwahlen/resource/8fdb4ec8-fcf6-4e5e-b79d> , <https://offenedaten-konstanz.de/dataset/wahlergebnisse-konstanzer-oberb-rgermeisterwahlen/resource/a832ba5a-01fd-4bbb-a1e2> , <https://offenedaten-konstanz.de/dataset/wahlergebnisse-konstanzer-oberb-rgermeisterwahlen/resource/5312abbc-d3ec-4356-920b> , <https://offenedaten-konstanz.de/dataset/wahlergebnisse-konstanzer-oberb-rgermeisterwahlen/resource/46bca058-adc3-4bde-ace0> , <https://offenedaten-konstanz.de/dataset/wahlergebnisse-konstanzer-oberb-rgermeisterwahlen/resource/f1a40479-acab-4826-b2e5> , <https://offenedaten-konstanz.de/dataset/wahlergebnisse-konstanzer-oberb-rgermeisterwahlen/resource/c7c26f84-8071-491d-a518> , <https://offenedaten-konstanz.de/dataset/wahlergebnisse-konstanzer-oberb-rgermeisterwahlen/resource/9a98fa13-82b1-4a9c-8377> ;
         cat:keyword          "Politik und Wahlen" .
