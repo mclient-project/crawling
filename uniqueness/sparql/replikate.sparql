@@ -1,0 +1,17 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#> 
+
+SELECT DISTINCT WHERE {
+?catalog dcat:dataset ?ds .
+?ds dcat:distribution ?dist  .
+?dist dcat:accessURL ?url .
+FILTER (!isBlank(?ds))
+FILTER (!isBlank(?dist)){
+    SELECT DISTINCT ?url WHERE {
+    ?catalog dcat:dataset ?dataset .
+    ?catalog2 dcat:dataset ?dataset .
+    ?dataset dcat:distribution ?distribution .
+    ?distribution dcat:accessURL ?url 
+    FILTER (?catalog != ?catalog2) 
+    FILTER (!isBlank(?dataset))
+    FILTER (!isBlank(?distribution)) }}
+}
