@@ -1,3 +1,5 @@
 target
 catalog/catalog.ttl
 *.pickle
+data
+results

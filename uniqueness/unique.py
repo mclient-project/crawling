@@ -3,7 +3,6 @@ import logging
 import pandas as pd
 import pickle
 import numpy as np
-import matplotlib.pyplot as plt
 from statistics import mean
 
 # length of datasets without replicates
