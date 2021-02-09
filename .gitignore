@@ -3,3 +3,4 @@ catalog/catalog.ttl
 *.pickle
 data
 results
+_pycache_
