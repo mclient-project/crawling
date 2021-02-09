@@ -1,0 +1,9 @@
+prefix dcat: <http://www.w3.org/ns/dcat#>
+
+SELECT DISTINCT ?dist ?url WHERE {
+?dist a dcat:Distribution .
+?dist dcat:accessURL ?url.
+FILTER (!isBlank(?dist))
+}
+OFFSET $MAPPING
+LIMIT 10000
