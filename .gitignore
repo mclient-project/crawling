@@ -1,6 +1,6 @@
 target
 catalog/catalog.ttl
-*.pickle
+*.pkl
 data
 results
 _pycache_

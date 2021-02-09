@@ -1,0 +1,9 @@
+prefix dcat: <http://www.w3.org/ns/dcat#>
+
+SELECT DISTINCT ?ds ?keyword WHERE {
+?ds a dcat:Dataset .
+?ds dcat:keyword ?keyword .
+FILTER (!isBlank(?ds))
+}
+OFFSET $MAPPING
+LIMIT 10000
