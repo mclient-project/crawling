@@ -13,7 +13,9 @@ SELECT DISTINCT ?ds ?title {
 FILTER (!isBlank(?ds))
 
 } ORDER BY DESC(?ds)
-} OFFSET 1
+} OFFSET $MAPPING
 LIMIT 10000
 
-# repeat 3 times (OFFSET 10001, 20001, 30001, 40001)
+
+
+

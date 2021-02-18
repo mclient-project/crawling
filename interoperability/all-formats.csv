@@ -1,0 +1,279 @@
+format,count
+SHAPEFILES,25
+GTFS,9
+FNP,1
+XLS,1221
+.csv,2
+RDF,1
+http://publications.europa.eu/resource/authority/file-type/RTF,18
+http://publications.europa.eu/resource/authority/file-type/XML,4117
+http://publications.europa.eu/resource/authority/file-type/PDF,4969
+http://publications.europa.eu/resource/authority/file-type/HTML,38
+"CityGML, ESRI-Shape",1
+WPS,1
+sgml,2
+ZIP-Datei,1
+ikt,1
+RINEX,1
+"TIFF, PDF",2
+ESRI Shape,5
+DWG,1
+JSON-LD,1
+tiff (gezippt),1
+http://publications.europa.eu/resource/authority/file-type/WFS,179
+"XLSX, HTML, PDF",2
+CityGML,6
+"shape, GeoJSON, JSON, XML, fileGeoDataBase, WMS, WFS",6
+http://publications.europa.eu/resource/authority/file-type/XLSX,2806
+Geographic Markup Language (GML),61
+REST,263
+8 bit-GeoTIFF,2
+http://publications.europa.eu/resource/authority/file-type/PDF,48
+gezippte csv-dateien,142
+Atom,1
+ovl,6
+http://publications.europa.eu/resource/authority/file-type/WMTS,1
+image/jpg,1460
+http://publications.europa.eu/resource/authority/file-type/PNG,117
+XSD,169
+View,1
+nas,2
+AGIS_MAPPING,1
+PDF-Schema,1
+http://publications.europa.eu/resource/authority/file-type/DOC,252
+shz,7
+" shp, gml, geojson, csv",1
+GML,2464
+RSS,4
+zip-datei,2
+CityGML bzw. 3D-PDF,1
+DATA,1
+TSV,47
+NAS,43
+data,13
+GeoTiff,1
+SHZ,1
+RAR,21
+Shapefile (*.shp),1
+APP,6
+"NAS, Shape",5
+"PDF,  Shape",1
+http://publications.europa.eu/resource/authority/file-type/DBF,14
+,12
+ascii,1
+tif,22
+"xlsx, csv",1
+SHP.ZIP,2
+zip-Datei,1
+OGC:WMS,14
+shx,2
+http://publications.europa.eu/resource/authority/file-type/ZIP,620
+gml+xml,3
+txt,13
+prj,2
+kml,140
+crs,1
+dBase,1
+CSV,8524
+"ESRI Geodatabaseformate (*.mdb, *gdb)",7
+xlsx,30
+"pdf, shp",1
+http://publications.europa.eu/resource/authority/file-type/KMZ,195
+openlayers,19
+geojson,285
+shapefile (gezippt),87
+XLSX,1882
+wms,149
+dgn,1
+WCS,13
+image/vnd.dxf,1
+Webseite,1
+Access,1
+WMS,5207
+ECW,1
+SHAPE,26
+Webanwendung,4677
+TIF,4
+gtfs,1
+xml,349
+http://publications.europa.eu/resource/authority/file-type/MDB,2
+"CSV, XLSX, XML",1
+pdf,251
+http://publications.europa.eu/resource/authority/file-type/TIFF,192
+.xlsx,2
+SHP,61
+http://publications.europa.eu/resource/authority/file-type/ODS,23
+shp.zip,1
+docx,1
+BIN,4
+http://publications.europa.eu/resource/authority/file-type/JSON,3181
+Keine Angabe,1
+INSPIRE-GML,23
+"PDF, Shape",1
+PDF,10805
+http://publications.europa.eu/resource/authority/file-type/GEOJSON,843
+FileGeodatabase,6
+http://publications.europa.eu/resource/authority/file-type/DOCX,15
+http://publications.europa.eu/resource/authority/file-type/SHP,656
+http://publications.europa.eu/resource/authority/file-type/GeoJSON,9
+Test:Bezeichnung,4
+"TIFF, JPG",1
+citygml,2
+"XML, JSON",1
+.xls,13
+http://publications.europa.eu/resource/authority/file-type/SVG,1
+ERT,1
+KN GIS Hub,20
+OV2,1
+rss-feed,1
+http://publications.europa.eu/resource/authority/file-type/ATOM,329
+HTML,7637
+jpg,1576
+"tif, png, pdf, gml, dxf, shp",1526
+zip:shp,2
+DGN,9
+"xlsx,  csv",1
+Shape-files,9
+xls,21
+http://publications.europa.eu/resource/authority/file-type/WMSC,1
+GeoTIFF,18
+"Shapefile, WMS 1.3.0, GML 3.2",32
+"zip:gml, zip:xsd",3
+json,2061
+tcx,6
+ORACLE,9
+"JSON, PNG",1
+Karte,4678
+png,4
+csv,4189
+http://publications.europa.eu/resource/authority/file-type/TSV,1
+http://publications.europa.eu/resource/authority/file-type/CSV,250
+WFS-G,1
+http://publications.europa.eu/resource/authority/file-type/RDF,45
+WMTS,9
+Orthoimagery GML Application Schema,1
+ASCII,19
+Postscript,1
+http://publications.europa.eu/resource/authority/file-type/WMS_SRVC,509
+"über WMS, ATOMFeed und WFS verfügbar",9
+text/x-dsrc,1
+.zip,1
+shape,108
+"xlsx, pdf",1
+gdb,1
+Atom Feed,220
+http://publications.europa.eu/resource/authority/file-type/JPEG,174
+html,144
+http://publications.europa.eu/resource/authority/file-type/XLS,2133
+http://publications.europa.eu/resource/authority/file-type/GZIP,5
+http://publications.europa.eu/resource/authority/file-type/HTML,3059
+KML,93
+"kml, kmz",2
+gml,3
+DOCX,1
+gpx,44
+shape-file,1
+Diverse,1843
+pdf ,1
+zip,300
+"Koordinatentripel (Rechtswert, Hochwert, Höhe)",1
+ArcView,2
+DXF,7
+ODS,16
+"zip:dat, zip:id, zip:map, zip:tab",3
+http://publications.europa.eu/resource/authority/file-type/ZIP,9
+XSD-Beschreibungsdatei für die XML-Datei,1
+"Shapefile, WFS 1.1.0, WFS 2.0.0, WMS 1.3.0, GML 3.2",8
+https://daten.berlin.de/schema/dist-format/wfs,32
+Shape File,1
+TFIS NAS,1
+WFS,245
+"WMS, WFS",2
+wsdl,1
+SVG,1
+JPEG 2000,1
+excel,14
+Shapefiles,130
+JSON,412
+view,1054
+http://publications.europa.eu/resource/authority/file-type/GDB,1
+http://publications.europa.eu/resource/authority/file-type/XLSX,13
+ods,1
+arcgis,3
+shp als zip,10
+shp,4
+Elevation Grid Coverage GML Application Schema,1
+"Shapefile, WMS 1.1.0, WMS 1.3.0, GML 3.2",5
+http://publications.europa.eu/resource/authority/file-type/CSV,16745
+gpkg,1
+Shape,496
+other,20
+gezippte shape,52
+Swagger,1
+Download,8
+B-Plan,1
+http://publications.europa.eu/resource/authority/file-type/ECW,1
+http://publications.europa.eu/resource/authority/file-type/TXT,227
+JS,2
+http://publications.europa.eu/resource/authority/file-type/ICS,2
+atom,64
+FBX,1
+dxf,1
+Turtle,1
+xml/soap,45
+LAZ,1
+http://publications.europa.eu/resource/authority/file-type/XML,3
+GeoJSON,223
+http ,2
+GeoTIF,3
+TXT,14
+http://publications.europa.eu/resource/authority/file-type/KML,12
+http://publications.europa.eu/resource/authority/file-type/RSS,44
+ZIP,6853
+predefined ATOM,34
+WMS Dienst,2
+http://publications.europa.eu/resource/authority/file-type/GML,1392
+pbf,2
+Link,2
+rest-api,1
+http://publications.europa.eu/resource/authority/file-type/REST,51
+dbf,1
+http://publications.europa.eu/resource/authority/file-type/JSON,10
+dwg/dxf,60
+JPEG,18
+KMZ,39
+PNG,17
+OGC:WFS,6
+http://publications.europa.eu/resource/authority/file-type/KML,634
+htm,7
+QGIS,1
+XPlanGML,828
+"PDF, shp",1
+XLS ,1
+"zip:dbf, zip:prj, zip:shp, zip:shx",6
+https,1
+http://publications.europa.eu/resource/authority/file-type/PNG,1
+http://publications.europa.eu/resource/authority/file-type/WCS,10
+zip:dxf,3
+zip:csv,1
+postscript,1
+ESRI Hub,2
+"HTML, PDF",2
+XML,124
+http://publications.europa.eu/resource/authority/file-type/WFS_SRVC,353
+http://publications.europa.eu/mdr/resource/authority/file-type/GZIP,39
+http://publications.europa.eu/resource/authority/file-type/GEOJSON,20
+Geodatabase,16
+zip:pdf,3
+TIFF,2
+download,1073
+application/x-php,1
+ESRI Shp,11
+"über WMS, ATOMFeed, WFS verfügbar",13
+wfs,136
+"XLSX, CSV",1
+kmz,176
+http://publications.europa.eu/resource/authority/file-type/WMS,193
+link,3
+RTF,12
+,120200

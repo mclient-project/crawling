@@ -1,0 +1,21 @@
+prefix dcat: <http://www.w3.org/ns/dcat#> 
+prefix dct: <http://purl.org/dc/terms/> 
+prefix prov: <http://www.w3.org/ns/prov#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix ckan: <http://ckan.aksw.org/ontology/>
+
+
+SELECT * WHERE {
+SELECT DISTINCT ?ds ?desc {
+
+?catalog dcat:dataset ?ds .
+?ds dct:description ?desc .
+FILTER (!isBlank(?ds))
+
+} ORDER BY DESC(?ds)
+} OFFSET $MAPPING
+LIMIT 10000
+
+
+
+

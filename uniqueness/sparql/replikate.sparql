@@ -1,6 +1,6 @@
 PREFIX dcat: <http://www.w3.org/ns/dcat#> 
 
-SELECT DISTINCT WHERE {
+SELECT DISTINCT ?ds WHERE {
 ?catalog dcat:dataset ?ds .
 ?ds dcat:distribution ?dist  .
 ?dist dcat:accessURL ?url .

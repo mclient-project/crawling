@@ -1,0 +1,16 @@
+prefix dcat: <http://www.w3.org/ns/dcat#> 
+prefix dct: <http://purl.org/dc/terms/> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix eu: <http://publications.europa.eu/resource/authority/file-type/>
+
+SELECT COUNT(DISTINCT ?dist) as ?count {
+VALUES ?format {  eu:XLSX eu:XLS eu:DOC eu:TIFF eu:RTF eu:DOCX eu:DBF
+eu:MDB eu:GDB eu:ECW
+}
+?dist a dcat:Distribution;
+dct:format ?format 
+FILTER (!isBlank(?dist))
+FILTER (isURI(?format))
+} 
+
+

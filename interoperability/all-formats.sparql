@@ -1,0 +1,13 @@
+prefix dcat: <http://www.w3.org/ns/dcat#>
+prefix dct: <http://purl.org/dc/terms/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix eu: <http://publications.europa.eu/resource/authority/file-type/>
+
+SELECT DISTINCT ?format COUNT(DISTINCT ?dist) as ?count {
+
+?dist a dcat:Distribution;
+dct:format ?format
+FILTER (!isBlank(?dist))
+
+}
+GROUP BY ?format

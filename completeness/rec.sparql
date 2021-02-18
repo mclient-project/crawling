@@ -1,0 +1,17 @@
+prefix dcat: <http://www.w3.org/ns/dcat#> 
+prefix dct: <http://purl.org/dc/terms/> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+
+select COUNT(distinct ?ds)
+where {
+?ds a dcat:Dataset; 
+dcat:distribution ?dist;
+dct:title ?title;                     
+dcat:keyword ?keyword;
+dct:temporal ?temp;
+dcat:contactPoint ?contact; 
+dct:spatial ?spatial;
+dct:publisher ?publisher .
+FILTER (!isBlank(?ds))
+
+}

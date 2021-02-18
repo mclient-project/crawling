@@ -1,0 +1,26 @@
+prefix dcat: <http://www.w3.org/ns/dcat#>
+prefix dct: <http://purl.org/dc/terms/>
+prefix prov: <http://www.w3.org/ns/prov#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix ckan: <http://ckan.aksw.org/ontology/>
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+
+select ?ns COUNT(?t) as ?count where {
+ {
+  VALUES ?type { dcat:Distribution dcat:Dataset foaf:Organization foaf:Agent foaf:Person}
+  ?s a ?type .
+  ?s ?t ?o .
+  bind( replace( str(?t), "(#|/)[^#/]*$", "$1" ) as ?ns )
+ }
+ UNION
+ {
+  VALUES ?type { dcat:Distribution dcat:Dataset foaf:Organization foaf:Agent foaf:Person}
+  ?s a ?type .
+  ?s dcat:theme ?t .
+  bind( replace( str(?t), "(#|/)[^#/]*$", "$1" ) as ?ns )
+
+ }
+FILTER (isURI(?t))
+}
+GROUP BY ?ns
+ORDER BY DESC(?count)

@@ -1,5 +1,5 @@
 #!/bin/bash
-TIMES=69
+TIMES=68
 OFFSET=1
 for (( i=1; i<=$TIMES; i++ )) ;
 do

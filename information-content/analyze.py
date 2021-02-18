@@ -28,7 +28,11 @@ if __name__ == "__main__":
 #normalized_df.boxplot(column=['ds_content'],
 #                       grid=False)
 
-normalized_df.boxplot(column='ds_content', return_type='axes')
+#normalized_df.boxplot(column='ds_content', return_type='axes')
+normalized_df = normalized_df.rename(columns={'ds_content':'Keyword IC'})
+bplot = sns.boxplot(data=normalized_df,
+                 width=0.2,
+                 palette="colorblind")
 plt.show()
 #bplot = sns.boxplot(y='score', x='content',
 #                 data=normalized_df,
