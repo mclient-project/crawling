@@ -10,13 +10,23 @@
         a                    cat:Distribution ;
         dcterms:description  "Dieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Station&Service AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2020-03-20 15:25:12.774094"^^xsd:dateTime ;
         dcterms:title        "Bahnsteigdaten (Stand 03/2020)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/bahnsteig/DBSuS-Bahnsteigdaten-Stand2020-03.csv> .
+
+<http://data.deutschebahn.com/distribution/Fahrzeuglexikon+2021>
+        a                    cat:Distribution ;
+        dcterms:description  "Fahrzeuglexikon für den Fernverkehr Das Lexikon stellt in übersichtlicher Form alle kundenrelevanten Daten und Fakten unserer Zugflotte vor und gibt mit farblich gestalteten..." ;
+        dcterms:format       "PDF" ;
+        dcterms:issued       "2021-01-27 07:00:39.990542"^^xsd:dateTime ;
+        dcterms:title        "Fahrzeuglexikon 2021" ;
+        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/fahrzeuglexikon/Fahrzeuglexikon_2021_PW.pdf> .
 
 <http://data.deutschebahn.com/distribution/Fahrzeugdaten+Carsharing+%28Stand+06%2F2016%29>
         a                    cat:Distribution ;
         dcterms:description  "Beinhaltet die Fahrzeugdaten für Carsharing." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-06-14 09:18:57.198695"^^xsd:dateTime ;
         dcterms:title        "Fahrzeugdaten Carsharing (Stand 06/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/flinkster/20160615/HACKATHON_VEHICLE_CARSHARING.csv> .
 
@@ -24,6 +34,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Die Datei Wagenreihungsplan_RawData_<YYYYMMDD>.zip (z.B. Wagenreihungs-plan_RawData_20160603.zip) ist ein ZIP-Archiv, das die Wagenreihungsplan-Daten in Form vom XML-Dateien enthält.  Pro Bahnhof gibt es eine Datei, die u.a. alle Daten für die Gleise und die Züge enthält. Nicht für alle Bahnhöfe sind Dateien vorhanden.\r\nDer Dateiname einer XML-Datei setzt sich wie folgt zusammen:\r\n<Bahnhofs-Code DS100>_<YYYY-MM-DD_HH_MM_SS>.xml.\r\nBeispiel: „UE_2016-02-10_09-27-12.xml“ steht für UE=Erfurt Hbf, Datenstand vom 10.02.2016, Uhrzeit 09:27 und 12 Sekunden.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. <Herausgeber> übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "XML" ;
+        dcterms:issued       "2017-04-24 09:43:36.125009"^^xsd:dateTime ;
         dcterms:title        "Wagenreihungsplan (Stand 03/2017)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/wagenstand/Wagenreihungsplan_RawData_20170320.zip> .
 
@@ -31,26 +42,22 @@
         a                    cat:Distribution ;
         dcterms:description  "Parkrauminformationen der DB BahnPark GmbH.\r\nDieser Datenbestand enthält zur Zeit nur ausgewählte Parkräume. Die Bereitstellung der Daten erfolgt im Testbetrieb.\r\nDB BahnPark GmbH übernimmt keine Haftung und leistet keinerlei Gewähr für die Vollständigkeit und Richtigkeit der Daten, soweit gesetzlich zulässig." ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2016-06-13 15:41:21.336121"^^xsd:dateTime ;
         dcterms:title        "Datenbeschreibung" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/apis/parkplatz/DB_BahnPark_OpenData_V1.pdf> .
 
 <http://data.deutschebahn.com/distribution/geo-bahnuebergang+%28Stand+01%2F2018%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2018-05-03 13:40:31.480561"^^xsd:dateTime ;
         dcterms:title   "geo-bahnuebergang (Stand 01/2018)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/geo-bahnuebergang/geo-bahnuebergang_2018.zip> .
-
-<http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+12%2F2020%29>
-        a                    cat:Distribution ;
-        dcterms:description  "Reisezentrenliste der DB Vertrieb GmbH" ;
-        dcterms:format       "CSV" ;
-        dcterms:title        "Reisezentrenliste (Stand: 12/2020)" ;
-        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/reisezentren/VSRz202012.csv> .
 
 <http://data.deutschebahn.com/distribution/Netzradar+%28Stand+11%2F2016%29>
         a                    cat:Distribution ;
         dcterms:description  "GeoJSON / WGS84 und UTF-8" ;
         dcterms:format       "GeoJSON" ;
+        dcterms:issued       "2016-11-14 11:26:56.264239"^^xsd:dateTime ;
         dcterms:title        "Netzradar (Stand 11/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/netzradar/connectivity_2016_11.geojson> .
 
@@ -58,13 +65,15 @@
         a                    cat:Distribution ;
         dcterms:description  "Schienenverkehrsnetz gemäß INSPIRE der DB Netz AG im GeoJSON-Format.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Netz AG übernimmt keine Haftung und leistet keinerlei Gewähr." , "Schienenverkehrsnetz gemäß INSPIRE der DB Netz AG.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Netz AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "GeoJSON" , "XML" ;
+        dcterms:issued       "2016-06-13 15:27:00.021663"^^xsd:dateTime , "2016-06-13 15:25:46.916303"^^xsd:dateTime ;
         dcterms:title        "Streckennetz (Stand 11/2013)" ;
-        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/streckennetz/DB_Inspire_GeoJSON.zip> , <http://download-data.deutschebahn.com/static/datasets/streckennetz/DB_Inspire_XML.zip> .
+        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/streckennetz/DB_Inspire_XML.zip> , <http://download-data.deutschebahn.com/static/datasets/streckennetz/DB_Inspire_GeoJSON.zip> .
 
 <http://data.deutschebahn.com/distribution/Fahrzeugdaten+Call+a+Bike+%28Stand+06%2F2016%29>
         a                    cat:Distribution ;
         dcterms:description  "Beinhaltet die Fahrzeugdaten für Call a Bike.\r\n" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-06-12 05:12:41.401428"^^xsd:dateTime ;
         dcterms:title        "Fahrzeugdaten Call a Bike (Stand 06/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/callabike/20160615/HACKATHON_VEHICLE_CALL_A_BIKE.csv> .
 
@@ -81,11 +90,12 @@
         dcatx:technology   "CKAN" ;
         dcatx:type         "other" ;
         dcatx:url          "http://data.deutschebahn.com/" ;
-        cat:dataset        <http://data.deutschebahn.com/dataset/api-fahrplan> , <http://data.deutschebahn.com/dataset/data-serviceeinrichtungen> , <http://data.deutschebahn.com/dataset/data-stuttgart21> , <http://data.deutschebahn.com/dataset/data-flinkster> , <http://data.deutschebahn.com/dataset/data-betriebsstellen> , <http://data.deutschebahn.com/dataset/touch-fahrplan> , <http://data.deutschebahn.com/dataset/data-bahnsteig-regio> , <http://data.deutschebahn.com/dataset/fasta-station-facilities-status> , _:b0 , <http://data.deutschebahn.com/dataset/data-reisezentren> , <http://data.deutschebahn.com/dataset/geo-bahnuebergang> , <http://data.deutschebahn.com/dataset/geo-betriebsstelle> , <http://data.deutschebahn.com/dataset/geo-strecke> , <http://data.deutschebahn.com/dataset/geo-tunnel> , <http://data.deutschebahn.com/dataset/zugbildungsplanzugbildungsplan-zpar> , <http://data.deutschebahn.com/dataset/data-s-bahn-stuttgart-ris-archiv-daten> , <http://data.deutschebahn.com/dataset/data-netzradar> , <http://data.deutschebahn.com/dataset/abfahrtstafel> , <http://data.deutschebahn.com/dataset/bahnroulette> , <http://data.deutschebahn.com/dataset/data-call-a-bike> , <http://data.deutschebahn.com/dataset/deutschlands-bahnhofe> , <http://data.deutschebahn.com/dataset/api-adam> , <http://data.deutschebahn.com/dataset/data-haltestellen> , <http://data.deutschebahn.com/dataset/passagierzahlung-s-bahn-hamburg> , <http://data.deutschebahn.com/dataset/data-streckennetz> , <http://data.deutschebahn.com/dataset/bahnhofsquartett> , <http://data.deutschebahn.com/dataset/api-reisezentrum> , <http://data.deutschebahn.com/dataset/data-stationsdaten> , <http://data.deutschebahn.com/dataset/geo-kilometer> , <http://data.deutschebahn.com/dataset/fahrzeuglexikon> , <http://data.deutschebahn.com/dataset/flinkster-api> , <http://data.deutschebahn.com/dataset/db-betriebsstellensuche> , <http://data.deutschebahn.com/dataset/ist-verkehrsdaten-der-db-cargo-auf-bst8-ebene> , <http://data.deutschebahn.com/dataset/stada-stationsdaten> , <http://data.deutschebahn.com/dataset/db-open-data-graph> , <http://data.deutschebahn.com/dataset/meinbahnhof> , <http://data.deutschebahn.com/dataset/data-s-bahn-stuttgart-gtfs> , <http://data.deutschebahn.com/dataset/api-betriebsstellen> , <http://data.deutschebahn.com/dataset/co2-emissionen-zugverkehr> , <http://data.deutschebahn.com/dataset/api-parkplatz> , <http://data.deutschebahn.com/dataset/data-wagenreihungsplan-soll-daten> , <http://data.deutschebahn.com/dataset/data-bahnsteig> , <http://data.deutschebahn.com/dataset/api-cargo> , <http://data.deutschebahn.com/dataset/betriebsstellen-gueterverkehr> , <http://data.deutschebahn.com/dataset/luftschadstoffkataster> , <http://data.deutschebahn.com/dataset/wifi-on-ice> , <http://data.deutschebahn.com/dataset/data-aufzug> , <http://data.deutschebahn.com/dataset/adam-api-live-map> , <http://data.deutschebahn.com/dataset/geo-bruecke> , <http://data.deutschebahn.com/dataset/data-stationsdaten-regio> , <http://data.deutschebahn.com/dataset/data-sensordaten-schenker-seefrachtcontainer> , <http://data.deutschebahn.com/dataset/aufzugswaechter> , <http://data.deutschebahn.com/dataset/sprachenmanagement> .
+        cat:dataset        _:b0 , <http://data.deutschebahn.com/dataset/api-fahrplan> , <http://data.deutschebahn.com/dataset/data-serviceeinrichtungen> , <http://data.deutschebahn.com/dataset/data-stuttgart21> , <http://data.deutschebahn.com/dataset/data-flinkster> , <http://data.deutschebahn.com/dataset/data-betriebsstellen> , <http://data.deutschebahn.com/dataset/touch-fahrplan> , <http://data.deutschebahn.com/dataset/data-bahnsteig-regio> , <http://data.deutschebahn.com/dataset/fasta-station-facilities-status> , <http://data.deutschebahn.com/dataset/data-reisezentren> , <http://data.deutschebahn.com/dataset/geo-bahnuebergang> , <http://data.deutschebahn.com/dataset/geo-betriebsstelle> , <http://data.deutschebahn.com/dataset/geo-strecke> , <http://data.deutschebahn.com/dataset/geo-tunnel> , <http://data.deutschebahn.com/dataset/zugbildungsplanzugbildungsplan-zpar> , <http://data.deutschebahn.com/dataset/data-s-bahn-stuttgart-ris-archiv-daten> , <http://data.deutschebahn.com/dataset/data-netzradar> , <http://data.deutschebahn.com/dataset/abfahrtstafel> , <http://data.deutschebahn.com/dataset/bahnroulette> , <http://data.deutschebahn.com/dataset/data-call-a-bike> , <http://data.deutschebahn.com/dataset/deutschlands-bahnhofe> , <http://data.deutschebahn.com/dataset/api-adam> , <http://data.deutschebahn.com/dataset/data-haltestellen> , <http://data.deutschebahn.com/dataset/passagierzahlung-s-bahn-hamburg> , <http://data.deutschebahn.com/dataset/data-streckennetz> , <http://data.deutschebahn.com/dataset/bahnhofsquartett> , <http://data.deutschebahn.com/dataset/api-reisezentrum> , <http://data.deutschebahn.com/dataset/data-stationsdaten> , <http://data.deutschebahn.com/dataset/geo-kilometer> , <http://data.deutschebahn.com/dataset/fahrzeuglexikon> , <http://data.deutschebahn.com/dataset/flinkster-api> , <http://data.deutschebahn.com/dataset/db-betriebsstellensuche> , <http://data.deutschebahn.com/dataset/ist-verkehrsdaten-der-db-cargo-auf-bst8-ebene> , <http://data.deutschebahn.com/dataset/stada-stationsdaten> , <http://data.deutschebahn.com/dataset/db-open-data-graph> , <http://data.deutschebahn.com/dataset/meinbahnhof> , <http://data.deutschebahn.com/dataset/data-s-bahn-stuttgart-gtfs> , <http://data.deutschebahn.com/dataset/api-betriebsstellen> , <http://data.deutschebahn.com/dataset/co2-emissionen-zugverkehr> , <http://data.deutschebahn.com/dataset/api-parkplatz> , <http://data.deutschebahn.com/dataset/data-wagenreihungsplan-soll-daten> , <http://data.deutschebahn.com/dataset/data-bahnsteig> , <http://data.deutschebahn.com/dataset/api-cargo> , <http://data.deutschebahn.com/dataset/betriebsstellen-gueterverkehr> , <http://data.deutschebahn.com/dataset/luftschadstoffkataster> , <http://data.deutschebahn.com/dataset/wifi-on-ice> , <http://data.deutschebahn.com/dataset/data-aufzug> , <http://data.deutschebahn.com/dataset/adam-api-live-map> , <http://data.deutschebahn.com/dataset/geo-bruecke> , <http://data.deutschebahn.com/dataset/data-stationsdaten-regio> , <http://data.deutschebahn.com/dataset/data-sensordaten-schenker-seefrachtcontainer> , <http://data.deutschebahn.com/dataset/aufzugswaechter> , <http://data.deutschebahn.com/dataset/sprachenmanagement> .
 
 <http://data.deutschebahn.com/distribution/geo-strecke+%28Stand+01%2F2017%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2017-05-11 14:43:59.886447"^^xsd:dateTime ;
         dcterms:title   "geo-strecke (Stand 01/2017)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/geo-strecke/geo-strecke.zip> .
 
@@ -96,6 +106,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "touch-fahrplan" ;
         dcterms:description  "# Die Idee\r\n\r\nDer Touch-Fahrplan ist eine schnelle Fahrplan-App. Mit der eigens für den Touch-Fahrplan entwickelten Bedienung durch Verbinden von zwei Orten wird die Fahrplansuche ganz einfach.\r\n\r\nDer Touch-Fahrplan benutzt ein spezifisch für die App entwickeltes und optimiertes Fahrplanabfragesystem. Dieses System, kombiniert mit funktionalem Design, macht das Abfragen von Verbindungen enorm schnell und intuitiv. Darüber hinaus gibt es auch noch den Fahrplan-Bot (http://fahrplan-bot.eu/).\r\n\r\nDie Verbindungen des Touch-Fahrplans werden vom Viadi Routing Service berechnet. Mit dem Viadi Routing Service können ÖV-Verbindungen in der ganzen Schweiz, dem Fernverkehr in Deutschland und im Regionalverkehr Berlin-Brandenburg sehr schnell mittels einer einfachen webbasierten Rest-API abgefragt werden. Mehr Information dazu unter http://www.viadi-api.ch.\r\n\r\nDie App ist derzeit im [iTunes Store](https://itunes.apple.com/ch/app/viadi-the-fast-timetable-app/id943870948?l=de&mt=8) und im [Google Play Store](https://play.google.com/store/apps/details?id=ch.ubique.viadi) verfügbar.\r\n\r\n![TouchFahrplan2]( \r\nhttps://s3.eu-central-1.amazonaws.com/download-data.deutschebahn.com/static/showcases/TouchFahrplan2.gif)" ;
+        dcterms:issued       "2017-03-15 12:38:42.11349"^^xsd:dateTime ;
+        dcterms:modified     "2017-03-27 09:27:42.74573"^^xsd:dateTime ;
         dcterms:title        "Touch-Fahrplan" ;
         cat:keyword          "Fernverkehr" , "Verbindung" , "Fahrplan" , "interaktiv" , "Berlin-Brandenburg" , "Touch" , "VBB" , "App" , "Schweiz" , "Deutschland" , "API" ;
         cat:landingPage      <http://touch-fahrplan.eu/> .
@@ -103,9 +115,10 @@
 <http://data.deutschebahn.com/distribution/%C3%9Cbersicht+Bahnh%C3%B6fe+RNI+%28Stand+10%2F2015%29>
         a                    cat:Distribution ;
         dcterms:description  "Übersicht Bahnhöfe DB RegioNetz Infrastruktur GmbH.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB RegioNetz Infrastruktur GmbH übernimmt keine Haftung und leistet keinerlei Gewähr." ;
-        dcterms:format       "CSV" , "XLSX" ;
+        dcterms:format       "XLSX" , "CSV" ;
+        dcterms:issued       "2016-06-15 11:58:10.963577"^^xsd:dateTime , "2016-06-15 11:59:31.053677"^^xsd:dateTime ;
         dcterms:title        "Übersicht Bahnhöfe RNI (Stand 10/2015)" ;
-        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/stationsdaten_regio/DBRNI-Uebersicht_Bahnhoefe-Stand2015-10.csv> , <http://download-data.deutschebahn.com/static/datasets/stationsdaten_regio/DBRNI-Uebersicht_Bahnhoefe-Stand2015-10.xlsx> .
+        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/stationsdaten_regio/DBRNI-Uebersicht_Bahnhoefe-Stand2015-10.xlsx> , <http://download-data.deutschebahn.com/static/datasets/stationsdaten_regio/DBRNI-Uebersicht_Bahnhoefe-Stand2015-10.csv> .
 
 <http://data.deutschebahn.com/dataset/geo-betriebsstelle>
         a                    cat:Dataset ;
@@ -114,21 +127,17 @@
         <http://ckan.aksw.org/ontology/name>
                 "geo-betriebsstelle" ;
         dcterms:description  "Geoinformationen zu den Betriebsstellen des Schienenverkehrsnetzes.\r\n" ;
+        dcterms:issued       "2017-05-11 14:55:27.776742"^^xsd:dateTime ;
+        dcterms:modified     "2020-06-10 09:21:38.773902"^^xsd:dateTime ;
         dcterms:title        "Geo-Betriebsstelle" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/geo-betriebsstelle+%28Stand+01%2F2019%29> , <http://data.deutschebahn.com/distribution/geo-betriebsstelle+%28Stand+01%2F2017%29> , <http://data.deutschebahn.com/distribution/geo-betriebsstelle+%28Stand+01%2F2018%29> , <http://data.deutschebahn.com/distribution/geo-betriebsstelle+%28Stand+10%2F2019%29> ;
         cat:keyword          "DB Netz" , "Geo" , "Stammdaten" , "Betriebsstelle" .
-
-<http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+01%2F2020%29>
-        a                    cat:Distribution ;
-        dcterms:description  "Reisezentrenliste der DB Vertrieb GmbH" ;
-        dcterms:format       "CSV" ;
-        dcterms:title        "Reisezentrenliste (Stand: 01/2020)" ;
-        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/reisezentren/VSRz202001.csv> .
 
 <http://data.deutschebahn.com/distribution/Dokumentation+2016>
         a                    cat:Distribution ;
         dcterms:description  "Datenbeschreibung" ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2016-06-15 13:51:53.756434"^^xsd:dateTime , "2016-06-15 13:54:21.598235"^^xsd:dateTime ;
         dcterms:title        "Dokumentation 2016" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/callabike/Dokumentation%20Daten%20Hackathon.pdf> , <http://download-data.deutschebahn.com/static/datasets/flinkster/Dokumentation%20Daten%20Hackathon.pdf> .
 
@@ -139,6 +148,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "abfahrtstafel" ;
         dcterms:description  "# Die Idee\r\n\r\nErstellung einer Anwendung, die die Echtzeit An- und Abfahrtszeiten für Fernzüge der Deutschen Bahn unter Verwendung der Fahrplandaten als virtuelle Abfahrtstafel zeigt.\r\n\r\n# Weitere Bilder\r\n\r\n![Abfahrtstafel2]( \r\nhttps://s3.eu-central-1.amazonaws.com/download-data.deutschebahn.com/static/showcases/Abfahrtstafel2.gif )" ;
+        dcterms:issued       "2017-03-15 13:48:22.508608"^^xsd:dateTime ;
+        dcterms:modified     "2017-03-15 14:17:06.775904"^^xsd:dateTime ;
         dcterms:title        "Abfahrtstafel" ;
         cat:keyword          "Fahplandaten" , "Echtzeit" , "Abfahrtstafel" , "Anzeige" , "Anwendung" ;
         cat:landingPage      <http://modeltrain.servehttp.com/remotesign.nsf> .
@@ -147,6 +158,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Sollfahrplan S-Bahn Stuttgart im GTFS-Format" ;
         dcterms:format       "GTFS" ;
+        dcterms:issued       "2020-03-20 15:36:32.590002"^^xsd:dateTime ;
         dcterms:title        "S-Bahn Stuttgart GTFS Sollfahrplan (2019)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/sbahn_stuttgart_gtfs/017_001_S-Bahn_Stuttgart_J19.zip> .
 
@@ -157,9 +169,11 @@
         <http://ckan.aksw.org/ontology/name>
                 "data-sensordaten-schenker-seefrachtcontainer" ;
         dcterms:description  "Die Daten enthalten Standort- und Sensordaten aus der Seefracht Containerlogistik. (Auszug)" ;
+        dcterms:issued       "2016-12-09 14:51:55.876933"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-13 12:56:23.722315"^^xsd:dateTime ;
         dcterms:title        "Sensordaten Seefrachtcontainer" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Sensordaten+Auszug+Stand+12%2F2016> ;
-        cat:keyword          "Sensor" , "Logistik" , "Schenker" .
+        cat:keyword          "Logistik" , "Schenker" , "Sensor" .
 
 <http://data.deutschebahn.com/dataset/ist-verkehrsdaten-der-db-cargo-auf-bst8-ebene>
         a                    cat:Dataset ;
@@ -168,13 +182,16 @@
         <http://ckan.aksw.org/ontology/name>
                 "ist-verkehrsdaten-der-db-cargo-auf-bst8-ebene" ;
         dcterms:description  "Die hier gelieferten Daten stellen die Anzahl der Zugfahrten und Verspätungsminuten pro Tag und Betriebsstelle dar. Berücksichtigt wurden alle Bst, über die mindestens 10 Zugfahrten stattfanden." ;
+        dcterms:issued       "2016-11-25 11:15:57.167723"^^xsd:dateTime ;
+        dcterms:modified     "2021-02-16 07:08:13.05897"^^xsd:dateTime ;
         dcterms:title        "Ist-Verkehrsdaten der DB Cargo auf Bst8-Ebene" ;
-        cat:distribution     <http://data.deutschebahn.com/distribution/Verkehrsdaten+%28Stand%3A+11%2F2016%29> , <http://data.deutschebahn.com/distribution/Verkehrsdaten+%28Stand%3A+12%2F2016%29> ;
+        cat:distribution     <http://data.deutschebahn.com/distribution/Verkehrsdaten+%28Stand%3A+12%2F2016%29> , <http://data.deutschebahn.com/distribution/Verkehrsdaten+%28Stand%3A+11%2F2016%29> ;
         cat:keyword          "Logistik" , "Betriebsstelle" .
 
 <http://data.deutschebahn.com/distribution/geo-kilometer+%28Stand+01%2F2019%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2020-03-20 15:30:47.646608"^^xsd:dateTime ;
         dcterms:title   "geo-kilometer (Stand 01/2019)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/geo-kilometer/geo-kilometer_2019.zip> .
 
@@ -182,12 +199,14 @@
         a                    cat:Distribution ;
         dcterms:description  "Endstück Sommerfahrplan 2020 - B1 - Gültigkeit: 14.06.2020 - 12.12.2020" , "Endstück Winterfahrplan 2018 Gültigkeit: 09.12.2018 – 10.06.2019" ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2020-03-23 16:50:37.2842"^^xsd:dateTime , "2020-03-20 13:28:48.220268"^^xsd:dateTime ;
         dcterms:title        "Zugbildungsplan A -Reihung- (ZpAR)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/zugbildungsplan/2020_ZpAR%2520Sm_Endst%25C3%25BCck.pdf> .
 
 <http://data.deutschebahn.com/distribution/Fahrzeuglexikon+2016>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
+        dcterms:issued  "2017-05-08 10:00:42.961543"^^xsd:dateTime ;
         dcterms:title   "Fahrzeuglexikon 2016" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/fahrzeuglexikon/Fahrzeuglexikon_2016.pdf> .
 
@@ -195,6 +214,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Encoding ist nun UTF-8" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2017-06-20 14:10:12.989586"^^xsd:dateTime ;
         dcterms:title        "Stationen Call a Bike (Stand 05/2017)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/callabike/20170516/OPENDATA_RENTAL_ZONE_CALL_A_BIKE.zip> .
 
@@ -202,6 +222,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Encoding ist nun UTF-8" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2017-06-20 12:00:38.895762"^^xsd:dateTime ;
         dcterms:title        "Tarifklassen Carsharing (Stand 05/2017)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/flinkster/20170516/OPENDATA_CATEGORY_CARSHARING.zip> .
 
@@ -209,6 +230,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Sollfahrplan S-Bahn Stuttgart im GTFS-Format" ;
         dcterms:format       "GTFS" ;
+        dcterms:issued       "2020-03-20 15:37:08.165228"^^xsd:dateTime ;
         dcterms:title        "S-Bahn Stuttgart GTFS Sollfahrplan (2019 Oktober)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/sbahn_stuttgart_gtfs/094_001_S-Bahn_Stuttgart_J19.zip> .
 
@@ -216,6 +238,7 @@
         a                    cat:Distribution ;
         dcterms:description  "- Encoding ist nun UTF-8\r\n- Stationen besitzen nun Geo-Koordinaten\r\n- alle Textfelder sind nun mit Textqualizierer umgeben\r\n- aktueller Datenstand" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-07-06 15:03:33.534036"^^xsd:dateTime ;
         dcterms:title        "Tarifklassen Call a Bike (Stand 07/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/callabike/20160607/HACKATHON_CATEGORY_CALL_A_BIKE.csv> .
 
@@ -226,21 +249,25 @@
         <http://ckan.aksw.org/ontology/name>
                 "geo-kilometer" ;
         dcterms:description  "Geoinformationen zu Kilometern des Schienenverkehrsnetzes." ;
+        dcterms:issued       "2017-05-11 15:05:39.186201"^^xsd:dateTime ;
+        dcterms:modified     "2020-03-31 08:15:54.807727"^^xsd:dateTime ;
         dcterms:title        "Geo-Kilometer" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/geo-kilometer+%28Stand+10%2F2019%29> , <http://data.deutschebahn.com/distribution/geo-kilometer+%28Stand+01%2F2019%29> , <http://data.deutschebahn.com/distribution/geo-kilometer+%28Stand+01%2F2018%29> , <http://data.deutschebahn.com/distribution/geo-kilometer+%28Stand+01%2F2017%29> ;
         cat:keyword          "DB Netz" , "Geo" , "Stammdaten" , "Kilometer" .
 
 <http://data.deutschebahn.com/distribution/Zugbildungsplan+A+-Reihung-+%28ZpAR%29+-+Sm+B1>
         a                    cat:Distribution ;
-        dcterms:description  "Endstück Sommerfahrplan 2020 B1 - Gültigkeit: 14.06.2020 – 12.12.2020 (Stand: 08.05.2020)" , "Endstück Sommerfahrplan 2019 B1 - Gültigkeit: 09.06.2019 – 14.12.2019 (Stand: 26.4.2019)" ;
+        dcterms:description  "Endstück Sommerfahrplan 2019 B1 - Gültigkeit: 09.06.2019 – 14.12.2019 (Stand: 26.4.2019)" , "Endstück Sommerfahrplan 2020 B1 - Gültigkeit: 14.06.2020 – 12.12.2020 (Stand: 08.05.2020)" ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2020-03-23 17:04:56.625265"^^xsd:dateTime , "2020-05-12 08:44:29.228946"^^xsd:dateTime ;
         dcterms:title        "Zugbildungsplan A -Reihung- (ZpAR) - Sm B1" ;
-        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/zugbildungsplan/2020_ZpAR%2520Sm_B1.pdf> , <http://download-data.deutschebahn.com/static/datasets/zugbildungsplan/2019_ZpAR%2520Sm_B1.pdf> .
+        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/zugbildungsplan/2019_ZpAR%2520Sm_B1.pdf> , <http://download-data.deutschebahn.com/static/datasets/zugbildungsplan/2020_ZpAR%2520Sm_B1.pdf> .
 
 <http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+01.01.18+-+31.12.18%29>
         a                    cat:Distribution ;
         dcterms:description  "Reisezentrenliste der DB Vertrieb GmbH" ;
         dcterms:format       "ZIP" ;
+        dcterms:issued       "2018-09-20 05:46:29.212049"^^xsd:dateTime ;
         dcterms:title        "Reisezentrenliste (Stand: 01.01.18 - 31.12.18)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/reisezentren/2018_Reisezentren.zip> .
 
@@ -251,20 +278,16 @@
         <http://ckan.aksw.org/ontology/name>
                 "fasta-station-facilities-status" ;
         dcterms:description  "Die API ermöglicht die Abfrage des Betriebszustandes von Aufzügen und Rolltreppen in Bahnhöfen der DB Station & Service AG.\r\n\r\nMit dem Anklicken von dem Button Mehr und dann Herunterladen werden Sie an das [Developer Portal](https://developer.deutschebahn.com/store/apis/list) der Deutschen Bahn weiter geleitet." ;
+        dcterms:issued       "2016-11-15 14:24:46.617174"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-13 13:05:18.627723"^^xsd:dateTime ;
         dcterms:title        "FaSta - Station Facilities Status" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/FaSta+-+Station+Facilities+Status+API> ;
         cat:keyword          "Rolltreppen" , "Echtzeit" , "Stammdaten" , "Aufzug" .
 
-<http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+03%2F2020%29>
-        a                    cat:Distribution ;
-        dcterms:description  "Reisezentrenliste der DB Vertrieb GmbH" ;
-        dcterms:format       "CSV" ;
-        dcterms:title        "Reisezentrenliste (Stand: 03/2020)" ;
-        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/reisezentren/VSRz202003.csv> .
-
 <http://data.deutschebahn.com/distribution/geo-betriebsstelle+%28Stand+01%2F2017%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2017-05-11 14:56:27.039561"^^xsd:dateTime ;
         dcterms:title   "geo-betriebsstelle (Stand 01/2017)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/geo-betriebsstelle/geo-betriebsstelle.zip> .
 
@@ -272,6 +295,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Beinhaltet die Informationen zur Verfügbarkeit von Fahrzeugen für die Auslastungsberechnung. Pro Fahrzeug und Tag ist die\r\nVerfügbarkeit angegeben, solange das Fahrzeug als aktiv geführt wird." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-06-12 05:34:32.424199"^^xsd:dateTime ;
         dcterms:title        "Verfügbarkeit Call a Bike (Stand 06/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/callabike/20160615/HACKATHON_AVAILABILITY_CALL_A_BIKE.zip> .
 
@@ -279,6 +303,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Dieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Station&Service AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2020-03-20 15:09:13.269171"^^xsd:dateTime ;
         dcterms:title        "Stationsdaten (Stand 03/2019)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/stationsdaten/DBSuS-Uebersicht_Bahnhoefe-Stand2019-03.csv> .
 
@@ -289,26 +314,31 @@
         <http://ckan.aksw.org/ontology/name>
                 "data-streckennetz" ;
         dcterms:description  "Schienenverkehrsnetz gemäß INSPIRE der DB Netz AG." ;
+        dcterms:issued       "2016-06-13 13:02:34.969886"^^xsd:dateTime ;
+        dcterms:modified     "2020-05-13 06:04:44.729185"^^xsd:dateTime ;
         dcterms:title        "Strecken und Bauwerke nach INSPIRE" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Streckennetz+%28Stand+11%2F2017%29> , <http://data.deutschebahn.com/distribution/Streckennetz+%28Stand+11%2F2019%29> , <http://data.deutschebahn.com/distribution/Streckennetz+%28Stand+11%2F2013%29> , <http://data.deutschebahn.com/distribution/Streckennetz+%28Stand+11%2F2015%29> ;
-        cat:keyword          "Haltestelle" , "Bahnuebergang" , "Stammdaten" , "Station" , "Tunnel" , "Bahnhof" , "Bauwerk" , "Koordinaten" , "Streckennetz" .
+        cat:keyword          "Haltestelle" , "Bahnuebergang" , "Stammdaten" , "Bahnhof" , "Tunnel" , "Station" , "Bauwerk" , "Koordinaten" , "Streckennetz" .
 
 <http://data.deutschebahn.com/distribution/Buchungen+Call+a+Bike+%28Stand+06%2F2016%29>
         a                    cat:Distribution ;
         dcterms:description  "Beinhaltet die Informationen zu einzelnen Buchungen Call a Bike." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-06-12 05:25:58.009704"^^xsd:dateTime ;
         dcterms:title        "Buchungen Call a Bike (Stand 06/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/callabike/20160615/HACKATHON_BOOKING_CALL_A_BIKE.zip> .
 
 <http://data.deutschebahn.com/distribution/Luftschadstoffkataster+%28Stand%3A+Fahrplan+2014%29>
         a               cat:Distribution ;
         dcterms:format  "ESRI Shape" ;
+        dcterms:issued  "2016-10-27 10:40:44.096555"^^xsd:dateTime ;
         dcterms:title   "Luftschadstoffkataster (Stand: Fahrplan 2014)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/luftqualitaet/Luft_V_Fpl2014.zip> .
 
 <http://data.deutschebahn.com/distribution/Fahrplan+API>
         a               cat:Distribution ;
         dcterms:format  "REST" ;
+        dcterms:issued  "2016-06-15 07:34:50.104282"^^xsd:dateTime ;
         dcterms:title   "Fahrplan API" ;
         cat:accessURL   <https://developer.deutschebahn.com/store/apis/info?name=Fahrplan-Free&version=v1&provider=DBOpenData> .
 
@@ -319,6 +349,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "zugbildungsplanzugbildungsplan-zpar" ;
         dcterms:description  "Darstellung der Wagenreihung der Züge der DB Fernverkehr AG" ;
+        dcterms:issued       "2020-03-20 13:26:34.015819"^^xsd:dateTime ;
+        dcterms:modified     "2020-11-03 14:35:17.675043"^^xsd:dateTime ;
         dcterms:title        "Zugbildungsplan A -Reihung- (ZpAR)" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Zugbildungsplan+A+-Reihung-+%28ZpAR%29+-+B2> , <http://data.deutschebahn.com/distribution/Zugbildungsplan+A+-Reihung-+%28ZpAR%29+-+Sm> , <http://data.deutschebahn.com/distribution/Zugbildungsplan+A+-Reihung-+%28ZpAR%29+-+B1+Korrektur> , <http://data.deutschebahn.com/distribution/Zugbildungsplan+A+-Reihung-+%28ZpAR%29> , <http://data.deutschebahn.com/distribution/Zugbildungsplan+A+-Reihung-+%28ZpAR%29+-+B2+Korrektur> , <http://data.deutschebahn.com/distribution/Zugbildungsplan+A-Reihung-+%28ZpAR%29> , <http://data.deutschebahn.com/distribution/Zugbildungsplan+A+-Reihung-+%28ZpAR%29+-+Sm+B1> , <http://data.deutschebahn.com/distribution/Zugbildungsplan+A+-Reihung-+%28ZpAR%29+-+B1> , <http://data.deutschebahn.com/distribution/Zugbildungsplan+A+-Reihung-+%28ZpAR%29+-+2020> , <http://data.deutschebahn.com/distribution/Zugbildungsplan+A-Reihung-+%28ZpAR%29+-+Sm+B2> ;
         cat:keyword          "Fernverkehr" , "Zug" , "Wagenreihung" .
@@ -327,6 +359,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Dieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Station&Service AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2020-03-20 15:24:17.682503"^^xsd:dateTime ;
         dcterms:title        "Bahnsteigdaten (Stand 03/2019)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/bahnsteig/DBSuS-Bahnsteigdaten-Stand2019-03.csv> .
 
@@ -334,6 +367,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Dieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Station&Service AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-06-13 15:20:30.592336"^^xsd:dateTime ;
         dcterms:title        "Stationsdaten (Stand 03/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/stationsdaten/DBSuS-Uebersicht_Bahnhoefe-Stand2016-03.csv> .
 
@@ -344,27 +378,32 @@
         <http://ckan.aksw.org/ontology/name>
                 "data-stuttgart21" ;
         dcterms:description  "Der Datensatz zu den Gleisanlagen beinhaltet den Verlauf der geplanten Gleisanlagen als Flächeninformation." ;
+        dcterms:issued       "2016-06-13 13:09:09.040549"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-13 12:59:45.220222"^^xsd:dateTime ;
         dcterms:title        "Stuttgart 21 (Geodaten)" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Webcam-Standorte+%28Stand+11%2F2015%29> , <http://data.deutschebahn.com/distribution/Tunnelachsen+%28Stand+11%2F2015%29> , <http://data.deutschebahn.com/distribution/Streckenverlauf+%28Stand+11%2F2015%29> ;
         cat:keyword          "Webcam" , "Gleis" , "Koordinaten" , "Stuttgart 21" , "Geo" .
 
 <http://data.deutschebahn.com/distribution/Zugbildungsplan+A+-Reihung-+%28ZpAR%29+-+B2>
         a                    cat:Distribution ;
-        dcterms:description  "Endstück Winterfahrplan 2018 - B2 - Gültigkeit: 01.04.2019 – 10.06.2019 (vom 11.1.2019)" , "Endstück Winterfahrplan 2020 - B2 - Gültigkeit: 06.04.2020 - 13.06.2020" ;
+        dcterms:description  "Endstück Winterfahrplan 2020 - B2 - Gültigkeit: 06.04.2020 - 13.06.2020" , "Endstück Winterfahrplan 2018 - B2 - Gültigkeit: 01.04.2019 – 10.06.2019 (vom 11.1.2019)" ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2020-03-23 16:52:39.059521"^^xsd:dateTime , "2020-03-23 17:02:11.420272"^^xsd:dateTime ;
         dcterms:title        "Zugbildungsplan A -Reihung- (ZpAR) - B2" ;
-        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/zugbildungsplan/2019_ZpAR_Wi_B2_.pdf> , <http://download-data.deutschebahn.com/static/datasets/zugbildungsplan/2020_ZpAR_Wi_B2.pdf> .
+        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/zugbildungsplan/2020_ZpAR_Wi_B2.pdf> , <http://download-data.deutschebahn.com/static/datasets/zugbildungsplan/2019_ZpAR_Wi_B2_.pdf> .
 
 <http://data.deutschebahn.com/distribution/Haltestellen+%28Stand+09%2F2017%29>
         a                    cat:Distribution ;
         dcterms:description  "Übersicht Haltestellen DB Station&Service AG\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Station&Service AG übernimmt keine Haftung und leistet keinerlei Gewähr.\r\n" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2017-09-14 08:16:14.859087"^^xsd:dateTime ;
         dcterms:title        "Haltestellen (Stand 09/2017)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/haltestellen/D_Bahnhof_2017_09.csv> .
 
 <http://data.deutschebahn.com/distribution/geo-bruecke+%28Stand+01%2F2017%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2017-05-11 15:02:03.670753"^^xsd:dateTime ;
         dcterms:title   "geo-bruecke (Stand 01/2017)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/geo-bruecke/geo-bruecken.zip> .
 
@@ -372,6 +411,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Dieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Station&Service AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-06-13 15:10:03.68935"^^xsd:dateTime ;
         dcterms:title        "Bahnsteigdaten (Stand 03/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/bahnsteig/DBSuS-Bahnsteigdaten-Stand2016-03.csv> .
 
@@ -379,6 +419,7 @@
         a                    cat:Distribution ;
         dcterms:description  "- Encoding ist nun UTF-8\r\n- Stationen besitzen nun Geo-Koordinaten\r\n- alle Textfelder sind nun mit Textqualizierer umgeben\r\n- aktueller Datenstand" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-07-06 14:36:44.321556"^^xsd:dateTime ;
         dcterms:title        "Buchungen Carsharing (Stand 07/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/flinkster/20160706/HACKATHON_BOOKING_CARSHARING.zip> .
 
@@ -386,24 +427,28 @@
         a                    cat:Distribution ;
         dcterms:description  "- Encoding ist nun UTF-8\r\n- Stationen besitzen nun Geo-Koordinaten\r\n- alle Textfelder sind nun mit Textqualizierer umgeben\r\n- aktueller Datenstand" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-07-06 15:04:42.475659"^^xsd:dateTime ;
         dcterms:title        "Buchungsdauer Call a Bike (Stand 07/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/callabike/20160607/HACKATHON_EFFICIENCY_CALL_A_BIKE.zip> .
 
 <http://data.deutschebahn.com/distribution/geo-strecke+%28Stand+10%2F2019%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2020-03-31 08:08:48.42127"^^xsd:dateTime ;
         dcterms:title   "geo-strecke (Stand 10/2019)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/geo-strecke/geo-strecke_2020.zip> .
 
 <http://data.deutschebahn.com/distribution/Fahrzeuglexikon+2019>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
+        dcterms:issued  "2020-03-20 15:44:14.73074"^^xsd:dateTime ;
         dcterms:title   "Fahrzeuglexikon 2019" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/fahrzeuglexikon/Fahrzeuglexikon_2019.pdf> .
 
 <http://data.deutschebahn.com/distribution/Passagierzahlung-s-bahn-hamburg+2009+%287MB%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2017-10-19 09:49:42.247655"^^xsd:dateTime ;
         dcterms:title   "Passagierzahlung-s-bahn-hamburg 2009 (7MB)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/personenzahlen/passagierzahlen2009.zip> .
 
@@ -411,6 +456,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Die Datei Wagenreihungsplan_RawData_.zip (z.B. Wagenreihungs-plan_RawData_20160603.zip) ist ein ZIP-Archiv, das die Wagenreihungsplan-Daten in Form vom XML-Dateien enthält. Pro Bahnhof gibt es eine Datei, die u.a. alle Daten für die Gleise und die Züge enthält. Nicht für alle Bahnhöfe sind Dateien vorhanden. Der Dateiname einer XML-Datei setzt sich wie folgt zusammen: _.xml. Beispiel: „UE_2016-02-10_09-27-12.xml“ steht für UE=Erfurt Hbf, Datenstand vom 10.02.2016, Uhrzeit 09:27 und 12 Sekunden. Dieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. über-nimmt keine Haftung und leistet keinerlei Gewähr. (Stand 2016-12-15)" ;
         dcterms:format       "XML" ;
+        dcterms:issued       "2016-12-14 17:18:21.462111"^^xsd:dateTime ;
         dcterms:title        "Wagenreihungsplan (Stand 12/2016)" ;
         cat:accessURL        <https://s3.eu-central-1.amazonaws.com/download-data.deutschebahn.com/static/datasets/wagenstand/Wagenreihungsplan_RawData_20161215.zip> .
 
@@ -418,6 +464,7 @@
         a                    cat:Distribution ;
         dcterms:description  "- Encoding ist nun UTF-8\r\n- Stationen besitzen nun Geo-Koordinaten\r\n- alle Textfelder sind nun mit Textqualizierer umgeben\r\n- aktueller Datenstand" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-07-06 14:20:50.941337"^^xsd:dateTime ;
         dcterms:title        "Fahrzeugdaten Carsharing (Stand 07/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/flinkster/20160706/HACKATHON_VEHICLE_CARSHARING.zip> .
 
@@ -428,6 +475,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "data-aufzug" ;
         dcterms:description  "Übersicht Aufzüge DB Station&Service AG." ;
+        dcterms:issued       "2016-06-13 14:51:48.103405"^^xsd:dateTime ;
+        dcterms:modified     "2020-05-13 09:37:51.417343"^^xsd:dateTime ;
         dcterms:title        "Aufzugsdaten" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Aufzugsstammdaten+%28Stand+05%2F2020%29> , <http://data.deutschebahn.com/distribution/Aufzugsstammdaten+%28Stand+11%2F2018%29> , <http://data.deutschebahn.com/distribution/Aufzugsstammdaten+%28Stand+10%2F2015%29> ;
         cat:keyword          "Aufzug" , "Stammdaten" , "Koordinaten" .
@@ -436,6 +485,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Betriebsstellenverzeichnis DB Netz AG \r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Netz AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-08-16 09:31:20.400063"^^xsd:dateTime ;
         dcterms:title        "Betriebsstellenverzeichnis (Stand 01/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/betriebsstellen/DBNetz-Betriebsstellenverzeichnis-Stand2016-01.csv> .
 
@@ -446,6 +496,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "meinbahnhof" ;
         dcterms:description  "# Die Idee\r\n\r\nMeinBahnhof stellt alle Informationen rund um Bahnhöfe in einer App zur Verfügung. Für jeden größeren Bahnhof können die nächsten Abfahrten, der Wagenstandsanzeiger oder naheliegende Geschäfte angezeigt werden.\r\n\r\n# Weitere Bilder\r\n<div style=\"text-align:center\">\r\n![MeinBahnhof2](https://s3.eu-central-1.amazonaws.com/download-data.deutschebahn.com/static/showcases/MeinBahnhof2.png)\r\n![MeinBahnhof3](https://s3.eu-central-1.amazonaws.com/download-data.deutschebahn.com/static/showcases/MeinBahnhof3.png)\r\n![MeinBahnhof4](https://s3.eu-central-1.amazonaws.com/download-data.deutschebahn.com/static/showcases/MeinBahnhof4.png)\r\n</div>" ;
+        dcterms:issued       "2017-03-14 15:49:48.95912"^^xsd:dateTime ;
+        dcterms:modified     "2017-03-15 09:32:31.864768"^^xsd:dateTime ;
         dcterms:title        "MeinBahnhof" ;
         cat:keyword          "App" , "Wagenstandsanzeiger" , "Abfahrten" , "Informationen" , "Geschäfte" , "Bahnhof" ;
         cat:landingPage      <https://itunes.apple.com/us/app/meinbahnhof/id1130842417?mt=8> .
@@ -457,6 +509,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "data-betriebsstellen" ;
         dcterms:description  "Das Betriebsstellenverzeichnis (DS 100) ist eine Liste aller “Betriebsstellen” der Deutschen Bahn." ;
+        dcterms:issued       "2016-06-13 14:04:17.800373"^^xsd:dateTime ;
+        dcterms:modified     "2018-05-03 12:35:56.60106"^^xsd:dateTime ;
         dcterms:title        "Betriebsstellenverzeichnis" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Betriebsstellenverzeichnis+%28Stand+05%2F2015%29> , <http://data.deutschebahn.com/distribution/Betriebsstellenverzeichnis+%28Stand+01%2F2017%29> , <http://data.deutschebahn.com/distribution/Betriebsstellenverzeichnis+%28Stand+01%2F2016%29> , <http://data.deutschebahn.com/distribution/Betriebsstellenverzeichnis+%28Stand+04%2F2018%29> ;
         cat:keyword          "Stammdaten" , "Haltepunkt" , "Betriebsstelle" , "Bahnhof" .
@@ -468,8 +522,10 @@
         <http://ckan.aksw.org/ontology/name>
                 "fahrzeuglexikon" ;
         dcterms:description  "##Fahrzeuglexikon für den Fernverkehr\r\n\r\nDas **Lexikon** stellt in übersichtlicher Form alle kundenrelevanten Daten und Fakten unserer Zug-flotte vor und gibt mit farblich gestalteten Fahrzeuggrundrissen einen visuellen Eindruck in unser Zugangebot.\r\n" ;
+        dcterms:issued       "2017-05-08 09:54:30.549155"^^xsd:dateTime ;
+        dcterms:modified     "2021-01-27 07:00:39.944156"^^xsd:dateTime ;
         dcterms:title        "Fahrzeuglexikon" ;
-        cat:distribution     <http://data.deutschebahn.com/distribution/Fahrzeuglexikon+2019> , <http://data.deutschebahn.com/distribution/Fahrzeuglexikon+2020> , <http://data.deutschebahn.com/distribution/Fahrzeuglexikon+2016> , <http://data.deutschebahn.com/distribution/Fahrzeuglexikon+2017> ;
+        cat:distribution     <http://data.deutschebahn.com/distribution/Fahrzeuglexikon+2019> , <http://data.deutschebahn.com/distribution/Fahrzeuglexikon+2020> , <http://data.deutschebahn.com/distribution/Fahrzeuglexikon+2016> , <http://data.deutschebahn.com/distribution/Fahrzeuglexikon+2021> , <http://data.deutschebahn.com/distribution/Fahrzeuglexikon+2017> ;
         cat:keyword          "Fernverkehr" , "Zug" .
 
 <http://data.deutschebahn.com/dataset/data-call-a-bike>
@@ -479,6 +535,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "data-call-a-bike" ;
         dcterms:description  "Reportingdaten zu Call-a-Bike, inkl. CaB-Daten von Konrad Kassel und Stadtrad Hamburg, exkl. Daten weiterer Partner." ;
+        dcterms:issued       "2016-06-11 16:56:42.663453"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-13 12:52:16.440859"^^xsd:dateTime ;
         dcterms:title        "Call A Bike" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Dokumentation+2016> , <http://data.deutschebahn.com/distribution/Tarifklassen+Call+a+Bike+%28Stand+05%2F2017%29> , <http://data.deutschebahn.com/distribution/Fahrzeugdaten+Call+a+Bike+%28Stand+05%2F2017%29> , <http://data.deutschebahn.com/distribution/Buchungsdauer+Call+a+Bike+%28Stand+07%2F2016%29> , <http://data.deutschebahn.com/distribution/Buchungsdauer+Call+a+Bike+%28Stand+06%2F2016%29> , <http://data.deutschebahn.com/distribution/Stationen+Call+a+Bike+%28Stand+06%2F2016%29> , <http://data.deutschebahn.com/distribution/Fahrzeugdaten+Call+a+Bike+%28Stand+06%2F2016%29> , <http://data.deutschebahn.com/distribution/Verf%C3%BCgbarkeit+Call+a+Bike+%28Stand+06%2F2016%29> , <http://data.deutschebahn.com/distribution/Buchungen+Call+a+Bike+%28Stand+05%2F2017%29> , <http://data.deutschebahn.com/distribution/Tarifklassen+Call+a+Bike+%28Stand+07%2F2016%29> , <http://data.deutschebahn.com/distribution/Stationen+Call+a+Bike+%28Stand+05%2F2017%29> , <http://data.deutschebahn.com/distribution/Dokumentation+2017> , <http://data.deutschebahn.com/distribution/Buchungen+Call+a+Bike+%28Stand+07%2F2016%29> , <http://data.deutschebahn.com/distribution/Tarifklassen+Call+a+Bike+%28Stand+06%2F2016%29> , <http://data.deutschebahn.com/distribution/Fahrzeugdaten+Call+a+Bike+%28Stand+07%2F2016%29> , <http://data.deutschebahn.com/distribution/Stationen+Call+a+Bike+%28Stand+07%2F2016%29> , <http://data.deutschebahn.com/distribution/Verf%C3%BCgbarkeit+Call+a+Bike+%28Stand+07%2F2016%29> , <http://data.deutschebahn.com/distribution/Buchungen+Call+a+Bike+%28Stand+06%2F2016%29> ;
         cat:keyword          "Call A Bike" , "Business" .
@@ -486,6 +544,7 @@
 <http://data.deutschebahn.com/distribution/geo-tunnel+%28Stand+01%2F2018%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2018-05-03 13:39:57.58841"^^xsd:dateTime ;
         dcterms:title   "geo-tunnel (Stand 01/2018)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/geo-tunnel/geo-tunnel_2018.zip> .
 
@@ -496,6 +555,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "api-cargo" ;
         dcterms:description  "Die hier bereitgestellte API stellt äquivalent zum Datensatz [Ist-Verkehrsdaten der DB Cargo auf Bst8-Ebene](http://data.deutschebahn.com/dataset/edit/ist-verkehrsdaten-der-db-cargo-auf-bst8-ebene) die Anzahl der Zugfahrten und Verspätungsminuten pro Tag und Betriebsstelle dar. Berücksichtigt wurden alle Bst, über die mindestens 10 Zugfahrten stattfanden." ;
+        dcterms:issued       "2017-05-12 13:47:33.05641"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-13 13:03:48.489043"^^xsd:dateTime ;
         dcterms:title        "Ist-Verkehrsdaten der DB Cargo auf Bst8-Ebene" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Ist-Verkehrsdaten+der+DB+Cargo+auf+Bst8-Ebene> ;
         cat:keyword          "Logistik" , "Betriebsstelle" .
@@ -503,6 +564,7 @@
 <http://data.deutschebahn.com/distribution/geo-bruecke+%28Stand+01%2F2018%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2018-05-03 13:33:19.086733"^^xsd:dateTime ;
         dcterms:title   "geo-bruecke (Stand 01/2018)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/geo-bruecke/geo-bruecke_2018.zip> .
 
@@ -510,6 +572,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Reisezentrenliste der DB Vertrieb GmbH" ;
         dcterms:format       "ZIP" ;
+        dcterms:issued       "2020-03-20 15:02:06.990918"^^xsd:dateTime ;
         dcterms:title        "Reisezentrenliste (Stand: 01.01.19 - 31.12.19)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/reisezentren/2019_Reisezentren.zip> .
 
@@ -520,6 +583,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "data-bahnsteig" ;
         dcterms:description  "Die Bahnsteigdaten enthalten Informationen über Bahnsteighöhe und -länge." ;
+        dcterms:issued       "2016-06-13 15:04:30.813984"^^xsd:dateTime ;
+        dcterms:modified     "2020-03-20 15:25:12.750133"^^xsd:dateTime ;
         dcterms:title        "Bahnsteigdaten" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Bahnsteigdaten+%28Stand+03%2F2019%29> , <http://data.deutschebahn.com/distribution/Bahnsteigdaten+%28Stand+03%2F2020%29> , <http://data.deutschebahn.com/distribution/Bahnsteigdaten+%28Stand+10%2F2015%29> , <http://data.deutschebahn.com/distribution/Bahnsteigdaten+%28Stand+04%2F2017%29> , <http://data.deutschebahn.com/distribution/Bahnsteigdaten+%28Stand+03%2F2016%29> , <http://data.deutschebahn.com/distribution/Bahnsteigdaten+%28Stand+03%2F2018%29> ;
         cat:keyword          "Gleis" , "Bahnsteig" , "Stammdaten" , "Bahnhof" .
@@ -528,6 +593,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Schienenverkehrsnetz gemäß INSPIRE der DB Netz AG.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Netz AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "XML" ;
+        dcterms:issued       "2016-12-09 10:27:29.258165"^^xsd:dateTime ;
         dcterms:title        "Streckennetz (Stand 11/2015)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/streckennetz/DB_Inspire_XML_2015.zip> .
 
@@ -535,6 +601,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Dieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Station&Service AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-08-03 06:08:07.84223"^^xsd:dateTime ;
         dcterms:title        "Stationsdaten (Stand 07/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/stationsdaten/DBSuS-Uebersicht_Bahnhoefe-Stand2016-07.csv> .
 
@@ -545,6 +612,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "bahnhofsquartett" ;
         dcterms:description  "# Die Idee\r\n\r\nLasst uns Bahnhofsquartett spielen. Die digitalen Quartettkarten zeigen alle Daten von Bahnhöfen und die Spieler treten gegeneinander an. \r\n\r\nAlle erdenklichen Bahnhofsdaten kommen hier ins Spiel: Wer hat den längeren Bahnsteig? Wer hat den ältesten Aufzug? Wer hat mehr Aufzüge? Wer hat mehr Gleise? Wer verbindet mehr Städte miteinander?\r\n \r\nRichtig spannend wird es, wenn sich die Karten während des Spiels ändern. Live-Daten wie Passagierzahlen, Anzahl der aktuell befindlichen Züge auf dem Bahnhof verändern den Wert einer Spielkarte im Spielverlauf.\r\n" ;
+        dcterms:issued       "2017-03-15 12:19:32.031978"^^xsd:dateTime ;
+        dcterms:modified     "2017-03-15 12:19:32.060053"^^xsd:dateTime ;
         dcterms:title        "Bahnhofsquartett" ;
         cat:keyword          "Wikimedia" , "Bahnhof" , "Kartenspiel" , "Gamification" , "Quartett" ;
         cat:landingPage      <https://github.com/pbock/bahnhofsquartett> .
@@ -552,6 +621,7 @@
 <http://data.deutschebahn.com/distribution/geo-betriebsstelle+%28Stand+10%2F2019%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2020-03-31 08:04:19.949897"^^xsd:dateTime ;
         dcterms:title   "geo-betriebsstelle (Stand 10/2019)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/geo-betriebsstelle/geo-betriebsstelle_2020.zip> .
 
@@ -559,18 +629,21 @@
         a                    cat:Distribution ;
         dcterms:description  "Endstück Winterfahrplan 2018 - B2 - Gültigkeit: 01.04.2019 – 10.06.2019 (vom 12.2.2019)" ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2020-03-23 17:03:31.780851"^^xsd:dateTime ;
         dcterms:title        "Zugbildungsplan A -Reihung- (ZpAR) - B2 Korrektur" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/zugbildungsplan/2019_ZpAR_Wi_B2_Korrektur_OD190212.pdf> .
 
 <http://data.deutschebahn.com/distribution/geo-strecke+%28Stand+01%2F2019%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2020-03-20 15:33:02.910144"^^xsd:dateTime ;
         dcterms:title   "geo-strecke (Stand 01/2019)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/geo-strecke/geo-strecke_2019.zip> .
 
 <http://data.deutschebahn.com/distribution/geo-bahnuebergang+%28Stand+01%2F2017%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2017-05-11 14:50:26.652605"^^xsd:dateTime ;
         dcterms:title   "geo-bahnuebergang (Stand 01/2017)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/geo-bahnuebergang/geo-bahnuebergang.zip> .
 
@@ -578,6 +651,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Bahnsteigdaten DB RegioNetz Infrastruktur GmbH.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DDB RegioNetz Infrastruktur GmbH übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "XLSX" ;
+        dcterms:issued       "2016-06-15 11:57:27.896058"^^xsd:dateTime ;
         dcterms:title        "Bahnsteigdaten (RNI) Stand 10/201" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/bahnsteig_regio/DBRNI-Bahnsteigdaten-Stand2015-10.xlsx> .
 
@@ -585,6 +659,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Erläuterungen" ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2016-12-14 17:47:46.175455"^^xsd:dateTime ;
         dcterms:title        "Beschreibung Wagenreihungsplan Soll-Daten (PDF)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/wagenstand/Datenbeschreibung_Wagenstandssolldaten.pdf> .
 
@@ -592,6 +667,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Übersicht Bahnhöfe DB RegioNetz Infrastruktur GmbH.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB RegioNetz Infrastruktur GmbH übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2020-04-09 05:47:08.84241"^^xsd:dateTime ;
         dcterms:title        "Übersicht Bahnhöfe RNI (Stand 04/2020)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/stationsdaten_regio/DBRNI-Uebersicht_Bahnhoefe-Stand2020-04.csv> .
 
@@ -599,12 +675,14 @@
         a                    cat:Distribution ;
         dcterms:description  "Sommerfahrplan 2020 - Gültigkeit: 01.10.2020 – 12.12.2020 (Stand: 03.07.2020)" , "Sommerfahrplan 2019 - Gültigkeit: 07.10.2019 – 14.12.2019 (Stand: 12.07.2019)" ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2020-07-06 10:41:10.172309"^^xsd:dateTime , "2020-03-23 17:05:32.02789"^^xsd:dateTime ;
         dcterms:title        "Zugbildungsplan A-Reihung- (ZpAR) - Sm B2" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/zugbildungsplan/2020_ZpAR_Sm_B2.pdf> , <http://download-data.deutschebahn.com/static/datasets/zugbildungsplan/2019_ZpAR%2520Sm_B2_Freigabe.pdf> .
 
 <http://data.deutschebahn.com/distribution/StaDa-+Stationsdaten+API>
         a               cat:Distribution ;
         dcterms:format  "JSON" ;
+        dcterms:issued  "2017-02-10 13:13:29.298038"^^xsd:dateTime ;
         dcterms:title   "StaDa- Stationsdaten API" ;
         cat:accessURL   <https://developer.deutschebahn.com/store/apis/info?name=StaDa-Station_Data&version=v2&provider=DBOpenData> .
 
@@ -612,6 +690,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Sollfahrplan S-Bahn Stuttgart im GTFS-Format" ;
         dcterms:format       "GTFS" ;
+        dcterms:issued       "2017-10-23 15:54:24.677436"^^xsd:dateTime ;
         dcterms:title        "S-Bahn_Stuttgart_GTFS_Sollfahrplan" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/sbahn_stuttgart_gtfs/GTFS.zip> .
 
@@ -619,6 +698,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Serviceeinrichtungen der DB Netz AG\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Netz AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "XML" ;
+        dcterms:issued       "2016-06-13 15:06:06.115887"^^xsd:dateTime ;
         dcterms:title        "Serviceeinrichtungen (Stand 12/2015)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/serviceeinrichtungen/Serviceeinrichtungen-open-data.zip> .
 
@@ -629,6 +709,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "api-fahrplan" ;
         dcterms:description  "Diese API stellt Fahrplandaten, im ersten Schritt den SOLL-Fahrplan des Fernverkehrs, zur Verfügung. " ;
+        dcterms:issued       "2016-06-13 15:21:03.323077"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-13 13:03:12.156327"^^xsd:dateTime ;
         dcterms:title        "Fahrplan API" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Fahrplan+API> , <http://data.deutschebahn.com/distribution/Dokumentation> ;
         cat:keyword          "Zuglauf" , "Abfahrtstafel" , "Bahnhof" , "Ankunftstafel" , "Solldaten" .
@@ -637,6 +719,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Bahnsteigdaten DB RegioNetz Infrastruktur GmbH.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB RegioNetz Infrastruktur GmbH übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2018-02-14 11:29:51.176906"^^xsd:dateTime ;
         dcterms:title        "Bahnsteigdaten (RNI) Stand 01/2018" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/bahnsteig_regio/DBRNI-Bahnsteigdaten-Stand-2018-01.csv> .
 
@@ -644,6 +727,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Encoding ist nun UTF-8" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2017-06-20 12:05:28.671293"^^xsd:dateTime ;
         dcterms:title        "Fahrzeugdaten Carsharing (Stand 05/2017)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/flinkster/20170516/OPENDATA_VEHICLE_CARSHARING.zip> .
 
@@ -654,6 +738,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "luftschadstoffkataster" ;
         dcterms:description  "Luftschadstoffkataster Luft2500 V NOX und PM10. Auszug aus dem Bahn-Emissionskatasters Schienenverkehr („BEKS“) zum Luftqualitätsmonitoring." ;
+        dcterms:issued       "2016-10-27 10:38:03.990772"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-13 12:57:35.517158"^^xsd:dateTime ;
         dcterms:title        "Luftschadstoffkataster" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Luftschadstoffkataster+%28Stand%3A+Fahrplan+2014%29> ;
         cat:keyword          "Umwelt" , "Business" .
@@ -662,6 +748,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Endstück Sommerfahrplan 2019 - Gültigkeit: 09.06.2019 – 14.12.2019 (Stand: 8.3.2019)" ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2020-03-23 17:04:21.738676"^^xsd:dateTime ;
         dcterms:title        "Zugbildungsplan A -Reihung- (ZpAR) - Sm" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/zugbildungsplan/2019_ZpAR%2520Sm_Endst%25C3%25BCck_Open%2520Data.pdf> .
 
@@ -669,6 +756,7 @@
         a                    cat:Distribution ;
         dcterms:description  "- Encoding ist nun UTF-8\r\n- Stationen besitzen nun Geo-Koordinaten\r\n- alle Textfelder sind nun mit Textqualizierer umgeben\r\n- aktueller Datenstand" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-07-06 15:05:57.875653"^^xsd:dateTime ;
         dcterms:title        "Verfügbarkeit Call a Bike (Stand 07/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/callabike/20160607/HACKATHON_AVAILABILITY_CALL_A_BIKE.zip> .
 
@@ -676,6 +764,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Sollfahrplan S-Bahn Stuttgart im GTFS-Format" ;
         dcterms:format       "GTFS" ;
+        dcterms:issued       "2018-04-12 13:33:55.498901"^^xsd:dateTime ;
         dcterms:title        "S-Bahn Stuttgart GTFS Sollfahrplan (2018)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/sbahn_stuttgart_gtfs/GTFS_2018.zip> .
 
@@ -686,20 +775,24 @@
         <http://ckan.aksw.org/ontology/name>
                 "betriebsstellen-gueterverkehr" ;
         dcterms:description  "Die hier gelieferten Daten stellen die Betriebsstellen der DB Cargo AG mit Geopositionen dar. \r\n" ;
+        dcterms:issued       "2016-08-23 12:36:26.684665"^^xsd:dateTime ;
+        dcterms:modified     "2021-02-16 08:31:48.124811"^^xsd:dateTime ;
         dcterms:title        "Betriebsstellenverzeichnis Güterverkehr" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Betriebsstellen+G%C3%BCterverkehr> ;
-        cat:keyword          "Stammdaten" , "Betriebsstelle" , "Logistik" .
+        cat:keyword          "Betriebsstelle" , "Stammdaten" , "Logistik" .
 
 <http://data.deutschebahn.com/distribution/Buchungen+Call+a+Bike+%28Stand+07%2F2016%29>
         a                    cat:Distribution ;
         dcterms:description  "- Encoding ist nun UTF-8\r\n- Stationen besitzen nun Geo-Koordinaten\r\n- alle Textfelder sind nun mit Textqualizierer umgeben\r\n- aktueller Datenstand" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-07-06 15:01:47.585041"^^xsd:dateTime ;
         dcterms:title        "Buchungen Call a Bike (Stand 07/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/callabike/20160607/HACKATHON_BOOKING_CALL_A_BIKE.zip> .
 
 <http://data.deutschebahn.com/distribution/Fahrzeugdaten+Call+a+Bike+%28Stand+05%2F2017%29>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-06-20 14:11:21.744246"^^xsd:dateTime ;
         dcterms:title   "Fahrzeugdaten Call a Bike (Stand 05/2017)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/callabike/20170516/OPENDATA_VEHICLE_CALL_A_BIKE.zip> .
 
@@ -707,24 +800,28 @@
         a                    cat:Distribution ;
         dcterms:description  "Datenbeschreibung" ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2017-06-20 14:04:40.505098"^^xsd:dateTime , "2017-06-20 11:43:37.732054"^^xsd:dateTime ;
         dcterms:title        "Dokumentation 2017" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/callabike/20170516/20171605%20DokumentationDatenOpenData.pdf> , <http://download-data.deutschebahn.com/static/datasets/flinkster/20170516/20171605%20DokumentationDatenOpenData.pdf> .
 
 <http://data.deutschebahn.com/distribution/geo-kilometer+%28Stand+01%2F2018%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2018-05-03 13:38:22.540839"^^xsd:dateTime ;
         dcterms:title   "geo-kilometer (Stand 01/2018)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/geo-kilometer/geo-kilometer_2018.zip> .
 
 <http://data.deutschebahn.com/distribution/FaSta+-+Station+Facilities+Status+API>
         a               cat:Distribution ;
         dcterms:format  "JSON" ;
+        dcterms:issued  "2016-11-15 14:26:47.306629"^^xsd:dateTime ;
         dcterms:title   "FaSta - Station Facilities Status API" ;
         cat:accessURL   <https://developer.deutschebahn.com/store/apis/info?name=FaSta-Station_Facilities_Status&version=v1&provider=DBOpenData> .
 
 <http://data.deutschebahn.com/distribution/geo-betriebsstelle+%28Stand+01%2F2019%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2020-03-20 15:31:54.220225"^^xsd:dateTime ;
         dcterms:title   "geo-betriebsstelle (Stand 01/2019)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/geo-betriebsstelle/geo-betriebsstelle_2019.zip> .
 
@@ -735,6 +832,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "passagierzahlung-s-bahn-hamburg" ;
         dcterms:description  "Daten zu Ein- und Aussteigern an den Hamburger S-Bahn Stationen aus Zählfahrten. \r\n(Rohdaten aus den Meßfahrten - exemplarische Werte, keine Gesamtpassagierzahlen)\r\n\r\n**Zeitraum 11.12.2016 - 31.03.2017  und Vergleichzeitraum 13.12.2008 - 31.03.2009.\r\nStand: Oktober 2017**" ;
+        dcterms:issued       "2017-10-17 15:40:27.70256"^^xsd:dateTime ;
+        dcterms:modified     "2017-10-19 12:15:31.663339"^^xsd:dateTime ;
         dcterms:title        "Passagierzählung S-Bahn Hamburg" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Passagierzahlung-s-bahn-hamburg+2009+%287MB%29> , <http://data.deutschebahn.com/distribution/Passagierzahlung-s-bahn-hamburg+2009+%2835MB%29> , <http://data.deutschebahn.com/distribution/Passagierzahlung-s-bahn-hamburg+%289+MB%29> , <http://data.deutschebahn.com/distribution/Passagierzahlung-s-bahn-hamburg+%2844+MB%29> ;
         cat:keyword          "Station" , "Hamburg" .
@@ -742,6 +841,7 @@
 <http://data.deutschebahn.com/distribution/%2872kb%29_20170901-20171019_Alle_Zusatzz%C3%BCge_S-Bahn_Stuttgart>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-10-23 16:06:54.677919"^^xsd:dateTime ;
         dcterms:title   "(72kb)_20170901-20171019_Alle_Zusatzzüge_S-Bahn_Stuttgart" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/sbahn_stuttgart/20170901-20171019_Alle_Zusatzz%25C3%25BCge_S-Bahn_Stuttgart.csv> .
 
@@ -752,20 +852,16 @@
         <http://ckan.aksw.org/ontology/name>
                 "db-open-data-graph" ;
         dcterms:description  "# Die Idee\r\nMit Hilfe einer Visualisierung werden alle Projekte und Ergebnisse der DB Hackathons in den letzten Jahren in Relation zu den genutzten Datenquellen gesetzt. Die Abhängigkeiten und Gewichtungen werden dadurch interaktiv erlebbar. \r\n\r\nProjekte und Ergebnisse werden durch Rechtecke, Datenquellen durch Kreise dargestellt. Mit Hilfe der Farben wird zusätzlich die Art der Datenquellen sichtbar gemacht. Unterschieden wird dabei:\r\n\r\n* interne API (dunkelrot)\r\n* externe API (blau)\r\n* interne statische Daten (hellrot)\r\n* externe statische Daten (grau)" ;
+        dcterms:issued       "2017-03-14 16:12:11.857866"^^xsd:dateTime ;
+        dcterms:modified     "2017-03-15 14:12:56.57339"^^xsd:dateTime ;
         dcterms:title        "DB Open Data Graph" ;
-        cat:keyword          "Veranstaltungen" , "Datenquellen" , "intern" , "Visualisierung" , "Ergebnisse" , "DB Hackathons" , "API" , "Projekte" , "extern" ;
+        cat:keyword          "Veranstaltungen" , "Datenquellen" , "intern" , "Visualisierung" , "Ergebnisse" , "API" , "DB Hackathons" , "Projekte" , "extern" ;
         cat:landingPage      <https://dbopendata.github.io/dbopendatagraph/> .
-
-<http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+06%2F2020%29>
-        a                    cat:Distribution ;
-        dcterms:description  "Reisezentrenliste der DB Vertrieb GmbH" ;
-        dcterms:format       "CSV" ;
-        dcterms:title        "Reisezentrenliste (Stand: 06/2020)" ;
-        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/reisezentren/VSRz202006.csv> .
 
 <http://data.deutschebahn.com/distribution/Bahnpark+API>
         a               cat:Distribution ;
         dcterms:format  "REST" ;
+        dcterms:issued  "2017-05-12 13:31:09.094262"^^xsd:dateTime ;
         dcterms:title   "Bahnpark API" ;
         cat:accessURL   <https://developer.deutschebahn.com/store/apis/info?name=BahnPark&version=v1&provider=DBOpenData> .
 
@@ -773,12 +869,14 @@
         a                    cat:Distribution ;
         dcterms:description  "- Encoding ist nun UTF-8\r\n- Stationen besitzen nun Geo-Koordinaten\r\n- alle Textfelder sind nun mit Textqualizierer umgeben\r\n- aktueller Datenstand\r\n" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-07-06 14:41:07.720026"^^xsd:dateTime ;
         dcterms:title        "Verfügbarkeit Carsharing (Stand 07/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/flinkster/20160706/HACKATHON_AVAILABILITY_CARSHARING.zip> .
 
 <http://data.deutschebahn.com/distribution/Fahrzeuglexikon+2017>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
+        dcterms:issued  "2017-10-19 09:52:58.050185"^^xsd:dateTime ;
         dcterms:title   "Fahrzeuglexikon 2017" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/fahrzeuglexikon/Fahrzeuglexikon_2017.pdf> .
 
@@ -786,6 +884,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Dieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Station&Service AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2018-03-12 12:42:26.32619"^^xsd:dateTime ;
         dcterms:title        "Stationsdaten (Stand 03/2018)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/stationsdaten/DBSuS-Uebersicht_Bahnhoefe-Stand2018-03.csv> .
 
@@ -796,6 +895,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "geo-strecke" ;
         dcterms:description  "Geoinformationen zu Strecken des Schienenverkehrsnetzes. " ;
+        dcterms:issued       "2017-05-11 14:39:24.073076"^^xsd:dateTime ;
+        dcterms:modified     "2020-03-31 08:15:34.915276"^^xsd:dateTime ;
         dcterms:title        "Geo-Streckennetz" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/geo-strecke+%28Stand+01%2F2019%29> , <http://data.deutschebahn.com/distribution/geo-strecke+%28Stand+10%2F2019%29> , <http://data.deutschebahn.com/distribution/geo-strecke+%28Stand+01%2F2018%29> , <http://data.deutschebahn.com/distribution/geo-strecke+%28Stand+01%2F2017%29> ;
         cat:keyword          "DB Netz" , "Strecke" , "Stammdaten" , "Geo" .
@@ -804,6 +905,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Übersicht Aufzüge DB Station&Service AG. Dieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Station&Service AG übernimmt keine Haftung und leistet keinerlei Gewähr." , "Übersicht Aufzüge DB Station&Service AG.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Station&Service AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "XLSX" , "CSV" ;
+        dcterms:issued       "2020-03-20 15:47:19.031086"^^xsd:dateTime , "2020-03-20 15:46:47.503676"^^xsd:dateTime ;
         dcterms:title        "Aufzugsstammdaten (Stand 11/2018)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/aufzug/DBSuS-Uebersicht_Aufzuege-Stand2018-11_V2.xlsx> , <http://download-data.deutschebahn.com/static/datasets/aufzug/DBSuS-Uebersicht_Aufzuege-Stand2018-11_V2.csv> .
 
@@ -811,19 +913,26 @@
         a                    cat:Distribution ;
         dcterms:description  "Beinhaltet die Informationen zu Stationen für Carsharing." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-06-14 09:32:37.580405"^^xsd:dateTime ;
         dcterms:title        "Stationen Carsharing (Stand 06/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/flinkster/20160615/HACKATHON_RENTAL_ZONE_CARSHARING.csv> .
+
+_:b1    a               cat:Distribution ;
+        dcterms:issued  "2020-10-29 16:29:08.103084"^^xsd:dateTime ;
+        cat:accessURL   <https://openapi.trassenfinder.de/#/openapi> .
 
 <http://data.deutschebahn.com/distribution/Tarifklassen+Carsharing+%28Stand+07%2F2016%29>
         a                    cat:Distribution ;
         dcterms:description  "- Encoding ist nun UTF-8\r\n- Stationen besitzen nun Geo-Koordinaten\r\n- alle Textfelder sind nun mit Textqualizierer umgeben\r\n- aktueller Datenstand\r\n" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-07-06 14:39:25.305846"^^xsd:dateTime ;
         dcterms:title        "Tarifklassen Carsharing (Stand 07/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/flinkster/20160706/HACKATHON_CATEGORY_CARSHARING.csv> .
 
 <http://data.deutschebahn.com/distribution/Passagierzahlung-s-bahn-hamburg+2009+%2835MB%29>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-10-19 09:45:44.462812"^^xsd:dateTime ;
         dcterms:title   "Passagierzahlung-s-bahn-hamburg 2009 (35MB)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/personenzahlen/passagierzahlen2009.csv> .
 
@@ -831,12 +940,14 @@
         a                    cat:Distribution ;
         dcterms:description  "Dieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Station&Service AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2018-03-12 12:44:49.352225"^^xsd:dateTime ;
         dcterms:title        "Bahnsteigdaten (Stand 03/2018)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/bahnsteig/DBSuS-Bahnsteigdaten-Stand2018-03.csv> .
 
 <http://data.deutschebahn.com/distribution/%28754MB%29_20170916-20170930_Alle_Prognosen_S-Bahn_Stuttgart>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-10-23 16:08:02.217132"^^xsd:dateTime ;
         dcterms:title   "(754MB)_20170916-20170930_Alle_Prognosen_S-Bahn_Stuttgart" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/sbahn_stuttgart/20170916-20170930_Alle_Prognosen_S-Bahn_Stuttgart.csv> .
 
@@ -844,12 +955,14 @@
         a                    cat:Distribution ;
         dcterms:description  "Endstück Winterfahrplan 2018 - B1 Korrektur - Gültigkeit: 04.02.2019 – 10.06.2019 (Vom 19.12.2018)" ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2020-03-20 13:29:33.507213"^^xsd:dateTime ;
         dcterms:title        "Zugbildungsplan A -Reihung- (ZpAR) - B1 Korrektur" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/zugbildungsplan/2019_ZpAR_Wi_B1_Korrektur_Version_Open_Data.pdf> .
 
 <http://data.deutschebahn.com/distribution/Dokumentation>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
+        dcterms:issued  "2016-12-03 13:42:21.013698"^^xsd:dateTime ;
         dcterms:title   "Dokumentation" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/apis/fahrplan/Fpl-API-Doku-Open-Data-BETA-0_81_2.pdf> .
 
@@ -857,26 +970,22 @@
         a                    cat:Distribution ;
         dcterms:description  "Beispiel für Standort- und Sensordaten aus der Seefracht Containerlogistik\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Schenker übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-12-09 14:54:29.123824"^^xsd:dateTime ;
         dcterms:title        "Sensordaten Auszug Stand 12/2016" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/sensordaten_schenker/161209_Schenker_Sensordaten.csv> .
-
-<http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+08%2F2020%29>
-        a                    cat:Distribution ;
-        dcterms:description  "Reisezentrenliste der DB Vertrieb GmbH" ;
-        dcterms:format       "CSV" ;
-        dcterms:title        "Reisezentrenliste (Stand: 08/2020)" ;
-        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/reisezentren/VSRz202008.csv> .
 
 <http://data.deutschebahn.com/distribution/Netzradar+Messungen+%28Stand+10%2F2016%29>
         a                    cat:Distribution ;
         dcterms:description  "Beispiel Datensatz mit ausgewählten Messungen aus 10/2016" ;
         dcterms:format       "TSV" ;
+        dcterms:issued       "2016-12-14 17:44:38.825529"^^xsd:dateTime ;
         dcterms:title        "Netzradar Messungen (Stand 10/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/netzradar/ResultOctober-04-11-2016_FOR_OPEN_DATA.tsv> .
 
 <http://data.deutschebahn.com/distribution/%28138MB%29_20170901-20171019_Alle_Sollereignisse_S-Bahn_Stuttgart>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-10-23 16:05:50.466483"^^xsd:dateTime ;
         dcterms:title   "(138MB)_20170901-20171019_Alle_Sollereignisse_S-Bahn_Stuttgart" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/sbahn_stuttgart/20170901-20171019_Alle_Sollereignisse_S-Bahn_Stuttgart.csv> .
 
@@ -884,6 +993,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Encoding ist nun UTF-8" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2017-06-20 14:06:09.797713"^^xsd:dateTime ;
         dcterms:title        "Buchungen Call a Bike (Stand 05/2017)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/callabike/20170516/OPENDATA_BOOKING_CALL_A_BIKE.zip> .
 
@@ -894,6 +1004,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "geo-bahnuebergang" ;
         dcterms:description  "Geoinformationen zu Bahnübergängen des Schienenverkehrsnetzes. " ;
+        dcterms:issued       "2017-05-11 14:49:28.095582"^^xsd:dateTime ;
+        dcterms:modified     "2020-03-20 15:28:19.494059"^^xsd:dateTime ;
         dcterms:title        "Geo-Bahnübergang" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/geo-bahnuebergang+%28Stand+01%2F2019%29> , <http://data.deutschebahn.com/distribution/geo-bahnuebergang+%28Stand+01%2F2018%29> , <http://data.deutschebahn.com/distribution/geo-bahnuebergang+%28Stand+01%2F2017%29> ;
         cat:keyword          "Bahnübergang" , "DB Netz" , "Uebergang" , "Stammdaten" , "Geo" .
@@ -902,6 +1014,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Übersicht Bahnhöfe DB RegioNetz Infrastruktur GmbH.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB RegioNetz Infrastruktur GmbH übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2018-02-14 11:38:27.300272"^^xsd:dateTime ;
         dcterms:title        "Übersicht Bahnhöfe RNI (Stand 01/2018)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/stationsdaten_regio/DBRNI-Uebersicht_Bahnhoefe-Stand2018-01.csv> .
 
@@ -912,6 +1025,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "data-bahnsteig-regio" ;
         dcterms:description  "Die Bahnsteigdaten (RNI) enthalten Informationen über Bahnsteighöhe und -länge." ;
+        dcterms:issued       "2016-06-13 14:15:20.802975"^^xsd:dateTime ;
+        dcterms:modified     "2020-04-09 05:45:07.594263"^^xsd:dateTime ;
         dcterms:title        "Bahnsteigdaten (RNI)" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Bahnsteigdaten+%28RNI%29+Stand+01%2F2018> , <http://data.deutschebahn.com/distribution/Bahnsteigdaten+%28RNI%29+Stand+10%2F201> , <http://data.deutschebahn.com/distribution/Bahnsteigdaten+%28RNI%29+Stand+01%2F2016> , <http://data.deutschebahn.com/distribution/Bahnsteigdaten+%28RNI%29+Stand+10%2F2015> , <http://data.deutschebahn.com/distribution/Bahnsteigdaten+%28RNI%29+Stand+04%2F2020> ;
         cat:keyword          "Bahnsteig" , "Stammdaten" , "Bahnhof" .
@@ -920,6 +1035,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Bahnsteigdaten DB RegioNetz Infrastruktur GmbH.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB RegioNetz Infrastruktur GmbH übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2020-04-09 05:45:07.617906"^^xsd:dateTime ;
         dcterms:title        "Bahnsteigdaten (RNI) Stand 04/2020" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/bahnsteig_regio/DBRNI-Bahnsteigdaten_erweitert-Stand2020-04.csv> .
 
@@ -927,6 +1043,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Die Datei enthält die weltweit vorhanden Bahnstellen von DB Cargo AG inkl der dazugehörigen Geopositionen.\r\n\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Cargo AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-08-23 12:44:08.43481"^^xsd:dateTime ;
         dcterms:title        "Betriebsstellen Güterverkehr" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/betriebsstellen_cargo/GEO_Bahnstellen_EXPORT.csv> .
 
@@ -934,6 +1051,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Beta-Testing\r\n\r\nAktuell erfolgt die Ausrüstung der 2.100 Aufzüge der Deutschen Bahn mit dem ADAM-Kommunikationsbaustein. Dieser erfasst in Echtzeit den Betriebszustand der Anlagen und informiert bei Störungen umgehend. Ziel ist die Steigerung der Verfügbarkeit der Fördertechnik an Bahnhöfen und Information unserer Kunden bei Ausfällen. Die Ausstattung der Aufzüge wird bis Herbst 2016 abgeschlossen. Mit Abschluss der Montagen wird auch die Aufzugs-API produktiv geschaltet.\r\n\r\nDie Bereitstellung erfolgt aktuell im Testbetrieb. Bitte bei der Nutzung der API beachten, dass die Service- und Performance-Level eines Produktivsystems noch nicht erreicht werden. Die DB Station&Service AG übernimmt keine Haftung und leistet keinerlei Gewähr für die Vollständigkeit und Richtigkeit der Daten, soweit gesetzlich zulässig." ;
         dcterms:format       "JSON" ;
+        dcterms:issued       "2016-06-13 15:49:17.211552"^^xsd:dateTime ;
         dcterms:title        "Aufzug" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/apis/adam/SSTBT_REST-API_ADAM_1_0.yaml> .
 
@@ -944,14 +1062,17 @@
         <http://ckan.aksw.org/ontology/name>
                 "data-haltestellen" ;
         dcterms:description  "Übersicht Haltestellen DB Station&Service AG" ;
+        dcterms:issued       "2016-06-13 13:53:00.10838"^^xsd:dateTime ;
+        dcterms:modified     "2020-03-20 15:35:24.459903"^^xsd:dateTime ;
         dcterms:title        "Haltestellendaten" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Haltestellen+%28Stand+01%2F2020%29> , <http://data.deutschebahn.com/distribution/Haltestellen+%28Stand+01%2F2016%29> , <http://data.deutschebahn.com/distribution/Haltestellen+%28Stand+09%2F2017%29> ;
-        cat:keyword          "EVA-Nr." , "Haltestelle" , "Stammdaten" , "DS100" , "Koordinaten" , "Bahnhof" .
+        cat:keyword          "EVA-Nr." , "Haltestelle" , "Stammdaten" , "DS100" , "Bahnhof" , "Koordinaten" .
 
 <http://data.deutschebahn.com/distribution/Haltestellen+%28Stand+01%2F2020%29>
         a                    cat:Distribution ;
         dcterms:description  "Übersicht Haltestellen DB Station&Service AG\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Station&Service AG übernimmt keine Haftung und leistet keinerlei Gewähr.\r\n" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2020-03-20 15:35:24.488322"^^xsd:dateTime ;
         dcterms:title        "Haltestellen (Stand 01/2020)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/haltestellen/D_Bahnhof_2020_alle.CSV> .
 
@@ -962,9 +1083,11 @@
         <http://ckan.aksw.org/ontology/name>
                 "wifi-on-ice" ;
         dcterms:description  "Der vorliegende Extrakt beinhaltet Mess-Daten von allen zentralen Internet- Routern der ICE Flotte. In jedem ICE ist ein Router mit je 6 Modems verbaut, der über unterschiedliche Mobilfunknetzbetreiber eine Zug-Land-Verbindung herstellt. In den ICEs wird der Internet-Dienst über WLAN AccessPoints bereitgestellt. Die Daten sind anonymisiert und freigegeben.\r\n" ;
+        dcterms:issued       "2017-12-14 16:32:19.79471"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-14 16:43:01.773396"^^xsd:dateTime ;
         dcterms:title        "WIFI on ICE" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/wifi-on-ice+%28232+MB%29> ;
-        cat:keyword          "WIFI" , "Fernverkehr" , "ICE" .
+        cat:keyword          "Fernverkehr" , "WIFI" , "ICE" .
 
 <http://data.deutschebahn.com/dataset/geo-tunnel>
         a                    cat:Dataset ;
@@ -973,6 +1096,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "geo-tunnel" ;
         dcterms:description  "Geoinformationen zu Tunnel des Schienenverkehrsnetzes. " ;
+        dcterms:issued       "2017-05-11 15:01:09.200621"^^xsd:dateTime ;
+        dcterms:modified     "2020-03-31 08:15:09.726431"^^xsd:dateTime ;
         dcterms:title        "Geo-Tunnel" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/geo-tunnel+%28Stand+01%2F2019%29> , <http://data.deutschebahn.com/distribution/geo-tunnel+%28Stand+01%2F2017%29> , <http://data.deutschebahn.com/distribution/geo-tunnel+%28Stand+10%2F2019%29> , <http://data.deutschebahn.com/distribution/geo-tunnel+%28Stand+01%2F2018%29> ;
         cat:keyword          "DB Netz" , "Stammdaten" , "Tunnel" , "Geo" .
@@ -981,6 +1106,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Geodaten der Tunnelachsen von Stuttgart 21 der DB Projekt Stuttgart-Ulm GmbH.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Projekt Stuttgart-Ulm GmbH übernimmt keine Haftung und leistet keinerlei Gewähr.\r\nDie Daten liegen in folgendem Format vor: ESRI Shape, WGS84 Web Mercator (Auxiliary Sphere), EPSG:3857 " ;
         dcterms:format       "ESRI Shape" ;
+        dcterms:issued       "2016-06-13 14:05:07.203752"^^xsd:dateTime ;
         dcterms:title        "Tunnelachsen (Stand 11/2015)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/stuttgart21/tunnel_achse_2015_11.zip> .
 
@@ -988,6 +1114,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Fahrzeuglexikon für den Fernverkehr Das Lexikon stellt in übersichtlicher Form alle kundenrelevanten Daten und Fakten unserer Zug-flotte vor und gibt mit farblich gestalteten..." ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2020-12-11 10:20:37.938454"^^xsd:dateTime ;
         dcterms:title        "Fahrzeuglexikon 2020" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/fahrzeuglexikon/Fahrzeuglexikon_2020.pdf> .
 
@@ -995,6 +1122,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Beinhaltet die Informationen zur Buchungsdauer von Fahrzeugen für die Auslastungsberechnung." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-06-15 08:18:46.287049"^^xsd:dateTime ;
         dcterms:title        "Buchungsdauer Carsharing (Stand 06/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/flinkster/20160615/HACKATHON_EFFICIENCY_CARSHARING.csv> .
 
@@ -1002,6 +1130,7 @@
         a                    cat:Distribution ;
         dcterms:description  "Bahnsteigdaten DB RegioNetz Infrastruktur GmbH.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DDB RegioNetz Infrastruktur GmbH übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-06-13 14:23:17.247397"^^xsd:dateTime ;
         dcterms:title        "Bahnsteigdaten (RNI) Stand 01/2016" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/bahnsteig_regio/DBRNI-Bahnsteigdaten-Stand2016-01.csv> .
 
@@ -1009,21 +1138,21 @@
         a                    cat:Distribution ;
         dcterms:description  "Schienenverkehrsnetz gemäß INSPIRE der DB Netz AG.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Netz AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "XML" ;
+        dcterms:issued       "2018-09-24 14:55:29.337655"^^xsd:dateTime ;
         dcterms:title        "Streckennetz (Stand 11/2017)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/streckennetz/INSPIRE_0618.zip> .
-
-_:b1    a              cat:Distribution ;
-        cat:accessURL  <https://openapi.trassenfinder.de/#/openapi> .
 
 <http://data.deutschebahn.com/distribution/geo-tunnel+%28Stand+01%2F2017%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2017-05-11 15:07:22.770901"^^xsd:dateTime ;
         dcterms:title   "geo-tunnel (Stand 01/2017)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/geo-tunnel/geo-tunnel.zip> .
 
 <http://data.deutschebahn.com/distribution/Reisezentren-API>
         a               cat:Distribution ;
         dcterms:format  "REST" ;
+        dcterms:issued  "2017-04-21 13:41:32.868733"^^xsd:dateTime ;
         dcterms:title   "Reisezentren-API" ;
         cat:accessURL   <https://developer.deutschebahn.com/store/apis/info?name=Reisezentren&version=v1&provider=DBOpenData> .
 
@@ -1034,6 +1163,8 @@ _:b1    a              cat:Distribution ;
         <http://ckan.aksw.org/ontology/name>
                 "data-wagenreihungsplan-soll-daten" ;
         dcterms:description  "Ein Wagenreihungsplan ist die grafische Darstellung  der Fern- und Nahverkehrszüge eines Bahnhofes, die an einem Gleis ankommen bzw. abfahren. Der Plan gibt detailliert Auskunft über die einzelnen Wagen und an welcher Bahnsteigposition diese halten werden. Der Wagenreihungsplan ist eine große Hilfe für Bahnreisende jeglicher Art.  " ;
+        dcterms:issued       "2016-06-14 12:57:14.706467"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-13 13:15:50.938404"^^xsd:dateTime ;
         dcterms:title        "Wagenreihungsplan Soll-Daten" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Wagenreihungsplan+%28Stand+03%2F2017%29> , <http://data.deutschebahn.com/distribution/Wagenreihungsplan+%28Stand+12%2F2017%29> , <http://data.deutschebahn.com/distribution/Wagenreihungsplan+%28Stand+06%2F2016%29> , <http://data.deutschebahn.com/distribution/Wagenreihungsplan+%28Stand+12%2F2016%29> , <http://data.deutschebahn.com/distribution/Beschreibung+Wagenreihungsplan+Soll-Daten+%28PDF%29> ;
         cat:keyword          "Solldaten" , "Zug" , "Bahnhof" .
@@ -1042,6 +1173,7 @@ _:b1    a              cat:Distribution ;
         a                    cat:Distribution ;
         dcterms:description  "Dieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Station&Service AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2017-04-20 06:53:36.463065"^^xsd:dateTime ;
         dcterms:title        "Stationsdaten (Stand 04/2017)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/stationsdaten/DBSuS-Uebersicht_Bahnhoefe-Stand2017-04.csv> .
 
@@ -1049,6 +1181,7 @@ _:b1    a              cat:Distribution ;
         a                    cat:Distribution ;
         dcterms:description  "Die hier gelieferten Daten stellen die Anzahl der Zugfahrten und Verspätungsminuten pro Tag und Betriebsstelle dar. Berücksichtigt wurden alle Bst, über die mindestens 10 Zugfahrten stattfanden." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-12-12 12:10:30.769261"^^xsd:dateTime ;
         dcterms:title        "Verkehrsdaten (Stand: 12/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/verkehrsdaten_cargo/Zugfahrten_2016_12.csv> .
 
@@ -1056,18 +1189,21 @@ _:b1    a              cat:Distribution ;
         a                    cat:Distribution ;
         dcterms:description  "Beinhaltet die Informationen zur Verfügbarkeit von Fahrzeugen für die Auslastungsberechnung. Pro Fahrzeug und Tag ist die\r\nVerfügbarkeit angegeben, solange das Fahrzeug als aktiv geführt wird." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-06-14 09:35:22.806149"^^xsd:dateTime ;
         dcterms:title        "Verfügbarkeit Carsharing (Stand 06/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/flinkster/20160615/HACKATHON_AVAILABILITY_CARSHARING.csv> .
 
 <http://data.deutschebahn.com/distribution/Ist-Verkehrsdaten+der+DB+Cargo+auf+Bst8-Ebene>
         a               cat:Distribution ;
         dcterms:format  "REST" ;
+        dcterms:issued  "2017-05-12 13:48:15.200604"^^xsd:dateTime ;
         dcterms:title   "Ist-Verkehrsdaten der DB Cargo auf Bst8-Ebene" ;
         cat:accessURL   <https://developer.deutschebahn.com/store/apis/info?name=Cargo-Delay-Statistics&version=v1&provider=DBOpenData> .
 
 <http://data.deutschebahn.com/distribution/geo-bahnuebergang+%28Stand+01%2F2019%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2020-03-20 15:28:19.517364"^^xsd:dateTime ;
         dcterms:title   "geo-bahnuebergang (Stand 01/2019)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/geo-bahnuebergang/geo-bahnuebergang_2019.zip> .
 
@@ -1075,6 +1211,7 @@ _:b1    a              cat:Distribution ;
         a                    cat:Distribution ;
         dcterms:description  "Folgende Daten sind im Archiv enthalten:\r\n\r\nZeitraum_Name\r\n\r\n20170901-20170915_Alle_Prognosen_S-Bahn_Stuttgart.csv\r\n\r\n20170901-20171019_Alle_Ausf„lle_S-Bahn_Stuttgart.csv\r\n\r\n20170901-20171019_Alle_Istmeldungen_S-Bahn_Stuttgart.csv\r\n\r\n20170901-20171019_Alle_Sollereignisse_S-Bahn_Stuttgart.csv\r\n\r\n20170901-20171019_Alle_Zusatzzeuge_S-Bahn_Stuttgart.csv\r\n\r\n20170916-20170930_Alle_Prognosen_S-Bahn_Stuttgart.csv\r\n\r\n20171001-20171008_Alle_Prognosen_S-Bahn_Stuttgart.csv\r\n\r\n20171009-20171019_Alle_Prognosen_S-Bahn_Stuttgart.csv\r\n\r\nBahnhofsdaten.csv" ;
         dcterms:format       "ZIP" ;
+        dcterms:issued       "2017-10-23 14:47:56.712122"^^xsd:dateTime ;
         dcterms:title        "sbahn_stuttgart_ris-archiv-daten (142MB)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/sbahn_stuttgart/S-BahnStuttgartDaten.zip> .
 
@@ -1082,13 +1219,23 @@ _:b1    a              cat:Distribution ;
         a                    cat:Distribution ;
         dcterms:description  "Encoding ist nun UTF-8" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2017-06-20 14:08:41.522134"^^xsd:dateTime ;
         dcterms:title        "Tarifklassen Call a Bike (Stand 05/2017)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/callabike/20170516/OPENDATA_CATEGORY_CALL_A_BIKE.zip> .
+
+<http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+01.01.20+-+31.12.20%29>
+        a                    cat:Distribution ;
+        dcterms:description  "Reisezentrenliste der DB Vertrieb GmbH\r\nAufgrund von Covid-19 gab es leider keine Erfassung im April und Mai 2020" ;
+        dcterms:format       "ZIP" ;
+        dcterms:issued       "2021-02-16 09:08:10.60703"^^xsd:dateTime ;
+        dcterms:title        "Reisezentrenliste (Stand: 01.01.20 - 31.12.20)" ;
+        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/reisezentren/2020_Reisezentren.zip> .
 
 <http://data.deutschebahn.com/distribution/Bahnsteigdaten+%28Stand+04%2F2017%29>
         a                    cat:Distribution ;
         dcterms:description  "Dieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Station&Service AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2017-04-20 06:56:03.481077"^^xsd:dateTime ;
         dcterms:title        "Bahnsteigdaten (Stand 04/2017)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/bahnsteig/DBSuS-Bahnsteigdaten-Stand2017-04.csv> .
 
@@ -1096,6 +1243,7 @@ _:b1    a              cat:Distribution ;
         a                    cat:Distribution ;
         dcterms:description  "Reisezentrenliste der DB Vertrieb GmbH" ;
         dcterms:format       "ZIP" ;
+        dcterms:issued       "2018-07-19 09:29:29.675404"^^xsd:dateTime ;
         dcterms:title        "Reisezentrenliste (Stand: 01.01.16 - 31.12.16)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/reisezentren/2016_Reisezentren.zip> .
 
@@ -1103,12 +1251,14 @@ _:b1    a              cat:Distribution ;
         a                    cat:Distribution ;
         dcterms:description  "Die Datei Wagenreihungsplan_RawData_<YYYYMMDD>.zip (z.B. Wagenreihungs-plan_RawData_20160603.zip) ist ein ZIP-Archiv, das die Wagenreihungsplan-Daten in Form vom XML-Dateien enthält.  Pro Bahnhof gibt es eine Datei, die u.a. alle Daten für die Gleise und die Züge enthält. Nicht für alle Bahnhöfe sind Dateien vorhanden.\r\nDer Dateiname einer XML-Datei setzt sich wie folgt zusammen:\r\n<Bahnhofs-Code DS100>_<YYYY-MM-DD_HH_MM_SS>.xml.\r\nBeispiel: „UE_2016-02-10_09-27-12.xml“ steht für UE=Erfurt Hbf, Datenstand vom 10.02.2016, Uhrzeit 09:27 und 12 Sekunden.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. <Herausgeber> über-nimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "XML" ;
+        dcterms:issued       "2016-06-14 13:00:22.095057"^^xsd:dateTime ;
         dcterms:title        "Wagenreihungsplan (Stand 06/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/wagenstand/Wagenreihungsplan_RawData_20160617.zip> .
 
 <http://data.deutschebahn.com/distribution/geo-strecke+%28Stand+01%2F2018%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2018-05-03 13:35:26.861405"^^xsd:dateTime ;
         dcterms:title   "geo-strecke (Stand 01/2018)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/geo-strecke/geo-strecke_2018.zip> .
 
@@ -1119,6 +1269,8 @@ _:b1    a              cat:Distribution ;
         <http://ckan.aksw.org/ontology/name>
                 "api-parkplatz" ;
         dcterms:description  "Diese API stellt Parkrauminformationen zu Parkeinrichtungen an Bahnhöfen zur Verfügung. " ;
+        dcterms:issued       "2016-06-13 15:26:29.560824"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-13 13:07:30.687588"^^xsd:dateTime ;
         dcterms:title        "Parkplätze API (Beta)" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Bahnpark+API> , <http://data.deutschebahn.com/distribution/Datenbeschreibung> ;
         cat:keyword          "Parkplatz" , "Bahnhof" , "Belegungsplan" , "Echtzeit" , "Prognosedaten" .
@@ -1130,15 +1282,26 @@ _:b1    a              cat:Distribution ;
         <http://ckan.aksw.org/ontology/name>
                 "aufzugswaechter" ;
         dcterms:description  "#Die Idee\r\n\r\nInteressente Bahnfahrer abonnieren die Zustandsänderungen\r\nder Aufzüge, die für sie relevant oder wichtig sind\r\nDer Aufzugswächter beobachtet den Betriebszustand\r\nder Aufzüge über die API der DB Station&Service AG\r\nFalls sich der Zustand eines Aufzugs ändert,\r\nbenachrichtigt der Aufzugswächter alle Abonnenten\r\ndieses Aufzugs per E-Mail, per Push-Benachrichtigungen\r\ndirekt auf das Smartphone und auch über Twitter.\r\n\r\n#Die Bestandteile\r\n\r\nEin Benachrichtigungsdienst und eine API\r\nhttp://api.aufzugswaechter.org\r\n\r\nEine Webseite\r\nhttp://www.aufzugswaechter.org\r\n\r\nEine Mobile App\r\nhttp://bit.do/azw\r\n\r\nEin Twitter-Bot\r\n[@aufzugswaechter](http://twitter.com/aufzugswaechter)\r\n\r\n![Aufzugswächter2](\r\nhttps://s3.eu-central-1.amazonaws.com/download-data.deutschebahn.com/static/showcases/aufzugswaechter2.PNG)\r\n\r\n**[Hier gehts zur ausfühlichen Dokumentation](https://s3.eu-central-1.amazonaws.com/download-data.deutschebahn.com/static/showcases/Aufzugsw%C3%A4chter.pdf)**" ;
+        dcterms:issued       "2016-06-15 09:38:19.140613"^^xsd:dateTime ;
+        dcterms:modified     "2016-06-15 14:29:05.919863"^^xsd:dateTime ;
         dcterms:title        "Aufzugswächter" ;
-        cat:keyword          "Aufzug" , "Bahnhof" ;
+        cat:keyword          "Bahnhof" , "Aufzug" ;
         cat:landingPage      <http://www.aufzugswaechter.org> .
 
 <http://data.deutschebahn.com/distribution/%28556MB%29_20171009-20171019_Alle_Prognosen_S-Bahn_Stuttgart>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-10-23 16:11:55.934588"^^xsd:dateTime ;
         dcterms:title   "(556MB)_20171009-20171019_Alle_Prognosen_S-Bahn_Stuttgart" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/sbahn_stuttgart/20171009-20171019_Alle_Prognosen_S-Bahn_Stuttgart.csv> .
+
+<http://data.deutschebahn.com/distribution/Stationen+Call+a+Bike+%28Stand+06%2F2016%29>
+        a                    cat:Distribution ;
+        dcterms:description  "Beinhaltet die Informationen zu Stationen für Call a Bike. Neue Version vom 18.6.2016" ;
+        dcterms:format       "CSV" ;
+        dcterms:issued       "2016-06-12 05:22:59.859471"^^xsd:dateTime ;
+        dcterms:title        "Stationen Call a Bike (Stand 06/2016)" ;
+        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/callabike/20160615/HACKATHON_RENTAL_ZONE_CALL_A_BIKE.csv> .
 
 <http://data.deutschebahn.com/dataset/data-s-bahn-stuttgart-gtfs>
         a                    cat:Dataset ;
@@ -1147,23 +1310,27 @@ _:b1    a              cat:Distribution ;
         <http://ckan.aksw.org/ontology/name>
                 "data-s-bahn-stuttgart-gtfs" ;
         dcterms:description  "GTFS Daten für Netz der S-Bahn Stuttgart\r\n\r\nSollfahrplan der S-Bahn Stuttgart im GTFS Format\r\n\r\nStand: 12. Februar 2020" ;
+        dcterms:issued       "2017-10-23 15:52:36.599409"^^xsd:dateTime ;
+        dcterms:modified     "2020-03-23 16:43:26.538952"^^xsd:dateTime ;
         dcterms:title        "S-Bahn Stuttgart GTFS Fahrplandaten" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/S-Bahn+Stuttgart+GTFS+Sollfahrplan+%282019+Oktober%29> , <http://data.deutschebahn.com/distribution/S-Bahn+Stuttgart+GTFS+Sollfahrplan+%282018%29> , <http://data.deutschebahn.com/distribution/S-Bahn+Stuttgart+GTFS+Sollfahrplan+%282019%29> , <http://data.deutschebahn.com/distribution/S-Bahn_Stuttgart_GTFS_Sollfahrplan> , <http://data.deutschebahn.com/distribution/S-Bahn+Stuttgart+GTFS+Sollfahrplan+%282020%29> ;
         cat:keyword          "GTFS" , "Stuttgart" , "S-Bahn" .
-
-<http://data.deutschebahn.com/distribution/Stationen+Call+a+Bike+%28Stand+06%2F2016%29>
-        a                    cat:Distribution ;
-        dcterms:description  "Beinhaltet die Informationen zu Stationen für Call a Bike. Neue Version vom 18.6.2016" ;
-        dcterms:format       "CSV" ;
-        dcterms:title        "Stationen Call a Bike (Stand 06/2016)" ;
-        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/callabike/20160615/HACKATHON_RENTAL_ZONE_CALL_A_BIKE.csv> .
 
 <http://data.deutschebahn.com/distribution/Tarifklassen+Carsharing+%28Stand+06%2F2016%29>
         a                    cat:Distribution ;
         dcterms:description  "Beinhaltet Informationen zur Fahrzeug-Tarifklasse Carsharing." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-06-14 09:34:40.039568"^^xsd:dateTime ;
         dcterms:title        "Tarifklassen Carsharing (Stand 06/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/flinkster/20160615/HACKATHON_CATEGORY_CARSHARING.csv> .
+
+<http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+01%2F2021%29>
+        a                    cat:Distribution ;
+        dcterms:description  "Reisezentrenliste der DB Vertrieb GmbH" ;
+        dcterms:format       "CSV" ;
+        dcterms:issued       "2021-01-27 07:05:24.805289"^^xsd:dateTime ;
+        dcterms:title        "Reisezentrenliste (Stand: 01/2021)" ;
+        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/reisezentren/VSRz202101.csv> .
 
 <http://data.deutschebahn.com/dataset/db-betriebsstellensuche>
         a                    cat:Dataset ;
@@ -1172,8 +1339,10 @@ _:b1    a              cat:Distribution ;
         <http://ckan.aksw.org/ontology/name>
                 "db-betriebsstellensuche" ;
         dcterms:description  "# Die Idee\r\n\r\nDiese App bietet eine einfache Nachschlagemöglichkeit für Betriebsstellen aus der \"Richtlinie 100\" (RL100 / Ril100) - ehemals \"Druckschrift 100\" (DS100) - der Deutschen Bahn AG. Es kann nach Abkürzungen, Freitextbezeichnungen oder Eisenbahnverkehrsamtnummern (EVA-Nummern) gesucht werden. Zu den gefundenen Treffern können neben den o.g. Informationen auch die Adresse und die Geo-Koordinaten angezeigt werden, sowie in die Karten-App verzweigt werden.\r\n\r\n# Weitere Bilder\r\n\r\n![DBBetriebsstellensuche2](https://s3.eu-central-1.amazonaws.com/download-data.deutschebahn.com/static/showcases/DBBetriebsstellensuche2.png) ![DBBetriebsstellensuche3](https://s3.eu-central-1.amazonaws.com/download-data.deutschebahn.com/static/showcases/DBBetriebsstellensuche3.png) ![DBBetriebsstellensuche4](https://s3.eu-central-1.amazonaws.com/download-data.deutschebahn.com/static/showcases/DBBetriebsstellensuche4.png) ![DBBetriebsstellensuche5](https://s3.eu-central-1.amazonaws.com/download-data.deutschebahn.com/static/showcases/DBBetriebsstellensuche5.png)\r\n" ;
+        dcterms:issued       "2017-03-15 14:01:28.234629"^^xsd:dateTime ;
+        dcterms:modified     "2017-03-15 14:15:13.600754"^^xsd:dateTime ;
         dcterms:title        "DB Betriebsstellensuche" ;
-        cat:keyword          "App" , "Betriebsstellen" , "Suche" ;
+        cat:keyword          "Suche" , "App" , "Betriebsstellen" ;
         cat:landingPage      <https://play.google.com/store/apps/details?id=net.syssel.ds100> .
 
 <http://data.deutschebahn.com/dataset/deutschlands-bahnhofe>
@@ -1183,6 +1352,8 @@ _:b1    a              cat:Distribution ;
         <http://ckan.aksw.org/ontology/name>
                 "deutschlands-bahnhofe" ;
         dcterms:description  "# Die Idee\r\n\r\nErstellung einer Webseite \"www.deutschlands-bahnhoefe.de\" mit Darstellung der Bahnhöfe und Stationen mit Suchfunktion. Zu den Bahnhöfen und Stationen werden alle zur Verfügung gestellten Informationen, wie Adresse, Öffnungszeiten, Abfahrts- und Ankunftszeiten, Parkplätze, Aufzugsdaten, Wetterdaten und Fotos angezeigt.\r\n\r\nAuf Twitter und im jeweiligen Umfeld der Teilnehmer läuft die Aktion #Bahnhofsfoto. Hier werden Fotos von den Bahnhöfen und Stationen gesammelt, um diese dann als json wieder den Entwicklern zur Verfügung zu stellen. \r\n\r\n# Weitere Bilder\r\n\r\n![Deutschlandsbahnoefe2](https://s3.eu-central-1.amazonaws.com/download-data.deutschebahn.com/static/showcases/DeutschlandsBahnoefe2.PNG)\r\n\r\n![Deutschlandsbahnoefe3](https://s3.eu-central-1.amazonaws.com/download-data.deutschebahn.com/static/showcases/DeutschlandsBahnoefe3.PNG)" ;
+        dcterms:issued       "2017-03-15 13:11:25.037125"^^xsd:dateTime ;
+        dcterms:modified     "2017-03-15 13:11:25.093228"^^xsd:dateTime ;
         dcterms:title        "Deutschlands Bahnhöfe" ;
         cat:keyword          "Call-a-Bike" , "Aufzug" , "Wetter" , "Crowdsourcing" , "Visualisierung" , "App" , "Flinkster" , "Suche" , "Fotos" , "OSM" , "Karte" , "Stationsdaten" , "Bahnhof" ;
         cat:landingPage      <http://www.deutschlands-bahnhoefe.de/> .
@@ -1190,19 +1361,14 @@ _:b1    a              cat:Distribution ;
 <http://data.deutschebahn.com/distribution/%28380MB%29_20171001-20171008_Alle_Prognosen_S-Bahn_Stuttgart>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-10-23 16:09:10.794835"^^xsd:dateTime ;
         dcterms:title   "(380MB)_20171001-20171008_Alle_Prognosen_S-Bahn_Stuttgart" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/sbahn_stuttgart/20171001-20171008_Alle_Prognosen_S-Bahn_Stuttgart.csv> .
-
-<http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+07%2F2020%29>
-        a                    cat:Distribution ;
-        dcterms:description  "Reisezentrenliste der DB Vertrieb GmbH" ;
-        dcterms:format       "CSV" ;
-        dcterms:title        "Reisezentrenliste (Stand: 07/2020)" ;
-        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/reisezentren/VSRz202007.csv> .
 
 <http://data.deutschebahn.com/distribution/Passagierzahlung-s-bahn-hamburg+%289+MB%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2017-10-17 15:57:28.014493"^^xsd:dateTime ;
         dcterms:title   "Passagierzahlung-s-bahn-hamburg (9 MB)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/personenzahlen/Passagierzahlen.zip> .
 
@@ -1210,6 +1376,7 @@ _:b1    a              cat:Distribution ;
         a                    cat:Distribution ;
         dcterms:description  "Übersicht Aufzüge DB Station&Service AG.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Station&Service AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" , "XLSX" ;
+        dcterms:issued       "2016-06-13 15:02:48.593905"^^xsd:dateTime , "2016-06-13 15:03:27.379071"^^xsd:dateTime ;
         dcterms:title        "Aufzugsstammdaten (Stand 10/2015)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/aufzug/DBSuS-Uebersicht_Aufzuege-Stand2015-10.csv> , <http://download-data.deutschebahn.com/static/datasets/aufzug/DBSuS-Uebersicht_Aufzuege-Stand2015-10.xlsx> .
 
@@ -1220,6 +1387,8 @@ _:b1    a              cat:Distribution ;
         <http://ckan.aksw.org/ontology/name>
                 "api-reisezentrum" ;
         dcterms:description  "Die Reisezentren API enthält Daten der Verkaufsstellen inkl. Adressen, Koordinaten und Öffnungszeiten.\r\nDie Datengrundlage ist Äquivalent zum Datensatz [Reisezentren](http://data.deutschebahn.com/dataset/data-reisezentren)" ;
+        dcterms:issued       "2017-04-21 13:41:02.654633"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-13 13:04:42.148734"^^xsd:dateTime ;
         dcterms:title        "Reisezentren-API" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Reisezentren-API> ;
         cat:keyword          "Koordinaten" , "Reisezentrum" , "Oeffnungszeiten" , "Stammdaten" .
@@ -1227,6 +1396,7 @@ _:b1    a              cat:Distribution ;
 <http://data.deutschebahn.com/distribution/Passagierzahlung-s-bahn-hamburg+%2844+MB%29>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-10-17 16:09:24.002897"^^xsd:dateTime ;
         dcterms:title   "Passagierzahlung-s-bahn-hamburg (44 MB)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/personenzahlen/Passagierzahlen.csv> .
 
@@ -1237,27 +1407,24 @@ _:b1    a              cat:Distribution ;
         <http://ckan.aksw.org/ontology/name>
                 "data-reisezentren" ;
         dcterms:description  "Die Reisezentren enthalten eine Liste der Verkaufsstellen inkl. Adressen, Koordinaten und Öffnungszeiten." ;
+        dcterms:issued       "2016-06-08 06:17:38.205378"^^xsd:dateTime ;
+        dcterms:modified     "2021-02-16 09:09:03.191333"^^xsd:dateTime ;
         dcterms:title        "Reisezentren" ;
-        cat:distribution     <http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+01%2F2020%29> , <http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+09%2F2020%29> , <http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+11%2F2020%29> , <http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+01.01.19+-+31.12.19%29> , <http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+12%2F2020%29> , <http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+03%2F2020%29> , <http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+08%2F2020%29> , <http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+07%2F2020%29> , <http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+02%2F2020%29> , <http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+01.01.17+-+31.12.17%29> , <http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+01.01.16+-+31.12.16%29> , <http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+01.01.18+-+31.12.18%29> , <http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+06%2F2020%29> , <http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+10%2F2020%29> ;
+        cat:distribution     <http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+01%2F2021%29> , <http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+01.01.19+-+31.12.19%29> , <http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+01.01.20+-+31.12.20%29> , <http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+01.01.17+-+31.12.17%29> , <http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+01.01.16+-+31.12.16%29> , <http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+01.01.18+-+31.12.18%29> ;
         cat:keyword          "Koordinaten" , "Reisezentrum" , "Stammdaten" , "Oeffnungszeiten" .
 
 <http://data.deutschebahn.com/distribution/Swagger>
         a                    cat:Distribution ;
         dcterms:description  "Beta-Testing\r\n\r\nAktuell erfolgt die Ausrüstung der 2.100 Aufzüge der Deutschen Bahn mit dem ADAM-Kommunikationsbaustein. Dieser erfasst in Echtzeit den Betriebszustand der Anlagen und informiert bei Störungen umgehend. Ziel ist die Steigerung der Verfügbarkeit der Fördertechnik an Bahnhöfen und Information unserer Kunden bei Ausfällen. Die Ausstattung der Aufzüge wird bis Herbst 2016 abgeschlossen. Mit Abschluss der Montagen wird auch die Aufzugs-API produktiv geschaltet.\r\n\r\nDie Bereitstellung erfolgt aktuell im Testbetrieb. Bitte bei der Nutzung der API beachten, dass die Service- und Performance-Level eines Produktivsystems noch nicht erreicht werden. Die DB Station&Service AG übernimmt keine Haftung und leistet keinerlei Gewähr für die Vollständigkeit und Richtigkeit der Daten, soweit gesetzlich zulässig." ;
         dcterms:format       "Swagger" ;
+        dcterms:issued       "2016-06-13 15:50:36.006214"^^xsd:dateTime ;
         dcterms:title        "Swagger" ;
         cat:accessURL        <http://editor.swagger.io/#/?import=http://download-data.deutschebahn.com/static/apis/adam/SSTBT_REST-API_ADAM_1_0.yaml> .
-
-<http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+11%2F2020%29>
-        a                    cat:Distribution ;
-        dcterms:description  "Reisezentrenliste der DB Vertrieb GmbH" ;
-        dcterms:format       "CSV" ;
-        dcterms:title        "Reisezentrenliste (Stand: 11/2020)" ;
-        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/reisezentren/VSRz202011.csv> .
 
 <http://data.deutschebahn.com/distribution/%28613MB%29_20170901-20170915_Alle_Prognosen_S-Bahn_Stuttgart>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-10-23 16:01:43.852296"^^xsd:dateTime ;
         dcterms:title   "(613MB)_20170901-20170915_Alle_Prognosen_S-Bahn_Stuttgart" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/sbahn_stuttgart/20170901-20170915_Alle_Prognosen_S-Bahn_Stuttgart.csv> .
 
@@ -1265,6 +1432,7 @@ _:b1    a              cat:Distribution ;
         a                    cat:Distribution ;
         dcterms:description  "Betriebsstellenverzeichnis DB Netz AG \r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Netz AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" , "XLSX" ;
+        dcterms:issued       "2016-06-13 14:13:03.247436"^^xsd:dateTime , "2016-06-13 14:14:22.000273"^^xsd:dateTime ;
         dcterms:title        "Betriebsstellenverzeichnis (Stand 05/2015)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/betriebsstellen/DBNetz-Betriebsstellenverzeichnis-Stand2015-05.csv> , <http://download-data.deutschebahn.com/static/datasets/betriebsstellen/DBNetz-Betriebsstellenverzeichnis-Stand2015-05.xlsx> .
 
@@ -1272,6 +1440,7 @@ _:b1    a              cat:Distribution ;
         a                    cat:Distribution ;
         dcterms:description  "Encoding ist nun UTF-8\r\nStationen besitzen nun Geo-Koordinaten\r\nalle Textfelder sind nun mit Textqualizierer umgeben\r\naktueller Datenstand" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-07-06 14:31:00.877618"^^xsd:dateTime ;
         dcterms:title        "Stationen Carsharing (Stand 07/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/flinkster/20160706/HACKATHON_RENTAL_ZONE_CARSHARING.zip> .
 
@@ -1279,12 +1448,14 @@ _:b1    a              cat:Distribution ;
         a                    cat:Distribution ;
         dcterms:description  "Winterfahrplan 2021 - Gültigkeit: 13.12.2020 – 12.06.2021 (Stand: 02.11.2020)" ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2020-11-03 14:35:17.718838"^^xsd:dateTime ;
         dcterms:title        "Zugbildungsplan A-Reihung- (ZpAR)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/zugbildungsplan/2021_ZpAR_Wi_Endst%C3%BCck.pdf> .
 
 <http://data.deutschebahn.com/distribution/geo-kilometer+%28Stand+01%2F2017%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2017-05-11 15:06:17.819279"^^xsd:dateTime ;
         dcterms:title   "geo-kilometer (Stand 01/2017)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/geo-kilometer/geo-kilometer.zip> .
 
@@ -1295,20 +1466,16 @@ _:b1    a              cat:Distribution ;
         <http://ckan.aksw.org/ontology/name>
                 "data-flinkster" ;
         dcterms:description  "Reportingdaten zu Flinkster.\r\nDokmentation zur Datenlieferung: [20170516_Doku](http://download-data.deutschebahn.com/static/datasets/flinkster/20170516/20171605 DokumentationDatenOpenData.pdf)" ;
+        dcterms:issued       "2016-06-14 09:17:31.477257"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-13 12:52:40.636801"^^xsd:dateTime ;
         dcterms:title        "Flinkster" ;
-        cat:distribution     <http://data.deutschebahn.com/distribution/Buchungsdauer+Carsharing+%28Stand+06%2F2016%29> , <http://data.deutschebahn.com/distribution/Buchungen+Carsharing+%28Stand+07%2F2016%29> , <http://data.deutschebahn.com/distribution/Fahrzeugdaten+Carsharing+%28Stand+05%2F2017%29> , <http://data.deutschebahn.com/distribution/Verf%C3%BCgbarkeit+Carsharing+%28Stand+07%2F2016%29> , <http://data.deutschebahn.com/distribution/Tarifklassen+Carsharing+%28Stand+07%2F2016%29> , <http://data.deutschebahn.com/distribution/Dokumentation+2016> , <http://data.deutschebahn.com/distribution/Buchungen+Carsharing+%28Stand+05%2F2017%29> , <http://data.deutschebahn.com/distribution/Buchungsdauer+Carsharing+%28Stand+07%2F2016%29> , <http://data.deutschebahn.com/distribution/Stationen+Carsharing+%28Stand+05%2F2017%29> , <http://data.deutschebahn.com/distribution/Tarifklassen+Carsharing+%28Stand+05%2F2017%29> , <http://data.deutschebahn.com/distribution/Fahrzeugdaten+Carsharing+%28Stand+07%2F2016%29> , <http://data.deutschebahn.com/distribution/Dokumentation+2017> , <http://data.deutschebahn.com/distribution/Stationen+Carsharing+%28Stand+06%2F2016%29> , <http://data.deutschebahn.com/distribution/Verf%C3%BCgbarkeit+Carsharing+%28Stand+06%2F2016%29> , <http://data.deutschebahn.com/distribution/Fahrzeugdaten+Carsharing+%28Stand+06%2F2016%29> , <http://data.deutschebahn.com/distribution/Stationen+Carsharing+%28Stand+07%2F2016%29> , <http://data.deutschebahn.com/distribution/Tarifklassen+Carsharing+%28Stand+06%2F2016%29> , <http://data.deutschebahn.com/distribution/Buchungen+Carsharing+%28Stand+06%2F2016%29> ;
+        cat:distribution     <http://data.deutschebahn.com/distribution/Buchungsdauer+Carsharing+%28Stand+06%2F2016%29> , <http://data.deutschebahn.com/distribution/Buchungen+Carsharing+%28Stand+07%2F2016%29> , <http://data.deutschebahn.com/distribution/Fahrzeugdaten+Carsharing+%28Stand+05%2F2017%29> , <http://data.deutschebahn.com/distribution/Verf%C3%BCgbarkeit+Carsharing+%28Stand+07%2F2016%29> , <http://data.deutschebahn.com/distribution/Tarifklassen+Carsharing+%28Stand+07%2F2016%29> , <http://data.deutschebahn.com/distribution/Dokumentation+2016> , <http://data.deutschebahn.com/distribution/Buchungsdauer+Carsharing+%28Stand+07%2F2016%29> , <http://data.deutschebahn.com/distribution/Buchungen+Carsharing+%28Stand+05%2F2017%29> , <http://data.deutschebahn.com/distribution/Stationen+Carsharing+%28Stand+05%2F2017%29> , <http://data.deutschebahn.com/distribution/Fahrzeugdaten+Carsharing+%28Stand+07%2F2016%29> , <http://data.deutschebahn.com/distribution/Tarifklassen+Carsharing+%28Stand+05%2F2017%29> , <http://data.deutschebahn.com/distribution/Dokumentation+2017> , <http://data.deutschebahn.com/distribution/Stationen+Carsharing+%28Stand+06%2F2016%29> , <http://data.deutschebahn.com/distribution/Verf%C3%BCgbarkeit+Carsharing+%28Stand+06%2F2016%29> , <http://data.deutschebahn.com/distribution/Fahrzeugdaten+Carsharing+%28Stand+06%2F2016%29> , <http://data.deutschebahn.com/distribution/Stationen+Carsharing+%28Stand+07%2F2016%29> , <http://data.deutschebahn.com/distribution/Tarifklassen+Carsharing+%28Stand+06%2F2016%29> , <http://data.deutschebahn.com/distribution/Buchungen+Carsharing+%28Stand+06%2F2016%29> ;
         cat:keyword          "Carsharing" , "DB Connect" , "Business" .
-
-<http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+09%2F2020%29>
-        a                    cat:Distribution ;
-        dcterms:description  "Reisezentrenliste der DB Vertrieb GmbH" ;
-        dcterms:format       "CSV" ;
-        dcterms:title        "Reisezentrenliste (Stand: 09/2020)" ;
-        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/reisezentren/VSRz202009.csv> .
 
 <http://data.deutschebahn.com/distribution/geo-betriebsstelle+%28Stand+01%2F2018%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2018-05-03 13:37:17.359388"^^xsd:dateTime ;
         dcterms:title   "geo-betriebsstelle (Stand 01/2018)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/geo-betriebsstelle/geo-betriebsstelle_2018.zip> .
 
@@ -1319,6 +1486,8 @@ _:b1    a              cat:Distribution ;
         <http://ckan.aksw.org/ontology/name>
                 "api-betriebsstellen" ;
         dcterms:description  "Das Betriebsstellenverzeichnis (DS 100) ist eine Liste aller “Betriebsstellen” der Deutschen Bahn.\r\n\r\nDie Datengrundlage ist Äquivalent zum Datensatz [Betriebsstellen](http://data.deutschebahn.com/dataset/data-betriebsstellen)" ;
+        dcterms:issued       "2017-04-21 13:48:09.759324"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-13 13:04:08.376391"^^xsd:dateTime ;
         dcterms:title        "Betriebsstellen-API" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Betriebsstellenverzeichnis> ;
         cat:keyword          "Bahnhof" , "Haltepunkt" , "Betriebsstelle" , "Stammdaten" .
@@ -1330,6 +1499,8 @@ _:b1    a              cat:Distribution ;
         <http://ckan.aksw.org/ontology/name>
                 "data-s-bahn-stuttgart-ris-archiv-daten" ;
         dcterms:description  "RIS-Archivdaten S-Bahn Stuttgart\r\n\r\nArchiv-Datensätze CSV zu Soll-, Ist- und berechneter Prognose Fahrten S-Bahn-Stuttgart für den Zeitraum 01.09.-19.10.2017 Stand: 20. Oktober 2017\r\n" ;
+        dcterms:issued       "2017-10-23 14:31:06.389768"^^xsd:dateTime ;
+        dcterms:modified     "2017-10-25 17:36:07.81479"^^xsd:dateTime ;
         dcterms:title        "S-Bahn Stuttgart RIS-Archiv-Daten" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/%2872kb%29_20170901-20171019_Alle_Zusatzz%C3%BCge_S-Bahn_Stuttgart> , <http://data.deutschebahn.com/distribution/sbahn_stuttgart_ris-archiv-daten+%28142MB%29> , <http://data.deutschebahn.com/distribution/%28613MB%29_20170901-20170915_Alle_Prognosen_S-Bahn_Stuttgart> , <http://data.deutschebahn.com/distribution/%2817KB%29_Bahnhofsdaten-S-Bahn+Stuttgart> , <http://data.deutschebahn.com/distribution/%28754MB%29_20170916-20170930_Alle_Prognosen_S-Bahn_Stuttgart> , <http://data.deutschebahn.com/distribution/%28556MB%29_20171009-20171019_Alle_Prognosen_S-Bahn_Stuttgart> , <http://data.deutschebahn.com/distribution/%28138MB%29_20170901-20171019_Alle_Sollereignisse_S-Bahn_Stuttgart> , <http://data.deutschebahn.com/distribution/%28380MB%29_20171001-20171008_Alle_Prognosen_S-Bahn_Stuttgart> , <http://data.deutschebahn.com/distribution/%282MB%29_20170901-20171019_Alle_Ausf%C3%A4lle_S-Bahn_Stuttgart> , <http://data.deutschebahn.com/distribution/%28121MB%29_20170901-20171019_Alle_Istmeldungen_S-Bahn_Stuttgart> ;
         cat:keyword          "Station" , "Stuttgart" .
@@ -1338,6 +1509,7 @@ _:b1    a              cat:Distribution ;
         a                    cat:Distribution ;
         dcterms:description  "Encoding ist nun UTF-8\r\n" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2017-06-20 11:53:58.991508"^^xsd:dateTime ;
         dcterms:title        "Buchungen Carsharing (Stand 05/2017)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/flinkster/20170516/OPENDATA_BOOKING_CARSHARING.zip> .
 
@@ -1345,6 +1517,7 @@ _:b1    a              cat:Distribution ;
         a                    cat:Distribution ;
         dcterms:description  "Endstück Winterfahrplan 2020 Gültigkeit: 09.12.2019 – 10.06.2020" ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2020-03-23 16:56:28.465323"^^xsd:dateTime ;
         dcterms:title        "Zugbildungsplan A -Reihung- (ZpAR) - 2020" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/zugbildungsplan/2020_ZpAR%2520Wi_Endst%25C3%25BCck.pdf> .
 
@@ -1352,6 +1525,7 @@ _:b1    a              cat:Distribution ;
         a                    cat:Distribution ;
         dcterms:description  "Übersicht Bahnhöfe DB RegioNetz Infrastruktur GmbH.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB RegioNetz Infrastruktur GmbH übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-06-13 13:54:04.840316"^^xsd:dateTime ;
         dcterms:title        "Übersicht Bahnhöfe RNI (Stand 01/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/stationsdaten_regio/DBRNI-Uebersicht_Bahnhoefe-Stand2016-01.csv> .
 
@@ -1359,8 +1533,20 @@ _:b1    a              cat:Distribution ;
         a                    cat:Distribution ;
         dcterms:description  "Übersicht Haltestellen DB Station&Service AG\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Station&Service AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-06-13 14:30:55.651392"^^xsd:dateTime ;
         dcterms:title        "Haltestellen (Stand 01/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/haltestellen/D_Bahnhof_2016_01_alle.csv> .
+
+_:b0    a                    cat:Dataset ;
+        <http://ckan.aksw.org/ontology/id>
+                "89ae45e3-ac1a-444b-b796-bdb4f391c626" ;
+        <http://ckan.aksw.org/ontology/name>
+                "api-trassenfinder" ;
+        dcterms:description  "Die Trassenfinder OpenAPI erlaubt es Anwendern, aufbauend auf den Funktionalitäten des Trassenfinder, Routensuchen für das in Deutschland vorliegende Schienennetz durchzuführen.\r\n\r\nZur OpenAPI gehts [hier](https://openapi.trassenfinder.de/#/openapi) " ;
+        dcterms:issued       "2020-10-29 16:28:39.560146"^^xsd:dateTime ;
+        dcterms:modified     "2020-10-29 16:29:10.837334"^^xsd:dateTime ;
+        dcterms:title        "Trassenfinder API" ;
+        cat:distribution     _:b1 .
 
 <http://data.deutschebahn.com/dataset/flinkster-api>
         a                    cat:Dataset ;
@@ -1369,6 +1555,8 @@ _:b1    a              cat:Distribution ;
         <http://ckan.aksw.org/ontology/name>
                 "flinkster-api" ;
         dcterms:description  "**Allgemein**\r\n\r\nDie Flinkster API NG stellt eine Beauskunftungsschnittstelle von Mobilitätsdienstleistungen der Flinkster Plattform zur Verfügung. Sie ermöglicht\r\ndie Suche nach Mietstandorten und verfügbaren Mietobjekten bspw. für Angebote aus dem Car- und Bikesharing.\r\n\r\nEine detailierte Beschreibung finden sie **[hier](\thttps://s3.eu-central-1.amazonaws.com/download-data.deutschebahn.com/static/apis/flinkster/Schnittstellenspezifikation_FlinksterApiNG.pdf)**." ;
+        dcterms:issued       "2016-12-16 13:08:49.376341"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-13 13:06:56.814939"^^xsd:dateTime ;
         dcterms:title        "Flinkster API" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Flinkster+API> ;
         cat:keyword          "Echtzeit" , "Rent" , "CallaBike" , "Flinkster" .
@@ -1377,12 +1565,14 @@ _:b1    a              cat:Distribution ;
         a                    cat:Distribution ;
         dcterms:description  "Endstück Winterfahrplan 2020 - B1 - Gültigkeit: 03.02.2020 - 13.06.2020" , "Endstück Winterfahrplan 2018 - B1 - Gültigkeit: 04.02.2019 – 10.06.2019" ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2020-03-23 16:54:55.46838"^^xsd:dateTime , "2020-03-20 13:27:56.878327"^^xsd:dateTime ;
         dcterms:title        "Zugbildungsplan A -Reihung- (ZpAR) - B1" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/zugbildungsplan/2020_ZpAR%2520Wi_B1.pdf> , <http://download-data.deutschebahn.com/static/datasets/zugbildungsplan/2019_ZpAR%20Wi_B1.pdf> .
 
 <http://data.deutschebahn.com/distribution/geo-tunnel+%28Stand+10%2F2019%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2020-03-31 08:10:18.694063"^^xsd:dateTime ;
         dcterms:title   "geo-tunnel (Stand 10/2019)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/geo-tunnel/geo-tunnel_2020.zip> .
 
@@ -1390,22 +1580,15 @@ _:b1    a              cat:Distribution ;
         a                    cat:Distribution ;
         dcterms:description  "- Encoding ist nun UTF-8\r\n- Stationen besitzen nun Geo-Koordinaten\r\n- alle Textfelder sind nun mit Textqualizierer umgeben\r\n- aktueller Datenstand" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-07-06 14:52:48.51297"^^xsd:dateTime ;
         dcterms:title        "Fahrzeugdaten Call a Bike (Stand 07/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/callabike/20160607/HACKATHON_VEHICLE_CALL_A_BIKE.zip> .
-
-_:b0    a                    cat:Dataset ;
-        <http://ckan.aksw.org/ontology/id>
-                "89ae45e3-ac1a-444b-b796-bdb4f391c626" ;
-        <http://ckan.aksw.org/ontology/name>
-                "api-trassenfinder" ;
-        dcterms:description  "Die Trassenfinder OpenAPI erlaubt es Anwendern, aufbauend auf den Funktionalitäten des Trassenfinder, Routensuchen für das in Deutschland vorliegende Schienennetz durchzuführen.\r\n\r\nZur OpenAPI gehts [hier](https://openapi.trassenfinder.de/#/openapi) " ;
-        dcterms:title        "Trassenfinder API" ;
-        cat:distribution     _:b1 .
 
 <http://data.deutschebahn.com/distribution/Tarifklassen+Call+a+Bike+%28Stand+06%2F2016%29>
         a                    cat:Distribution ;
         dcterms:description  "Beinhaltet Informationen zur Fahrzeug-Tarifklasse Call a Bike.\r\n" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-06-12 05:29:17.654459"^^xsd:dateTime ;
         dcterms:title        "Tarifklassen Call a Bike (Stand 06/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/callabike/20160615/HACKATHON_CATEGORY_CALL_A_BIKE.csv> .
 
@@ -1413,6 +1596,7 @@ _:b0    a                    cat:Dataset ;
         a                    cat:Distribution ;
         dcterms:description  "Serviceeinrichtungen der DB Netz AG\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Netz AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2020-03-20 15:43:09.200955"^^xsd:dateTime ;
         dcterms:title        "Serviceeinrichtungen (Stand 01/2020)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/serviceeinrichtungen/Serviceeinrichtungen_2020_1.CSV> .
 
@@ -1420,6 +1604,7 @@ _:b0    a                    cat:Dataset ;
         a                    cat:Distribution ;
         dcterms:description  "Die hier gelieferten Daten stellen die Anzahl der Zugfahrten und Verspätungsminuten pro Tag und Betriebsstelle dar. Berücksichtigt wurden alle Bst, über die mindestens 10 Zugfahrten stattfanden." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-11-25 11:18:06.803617"^^xsd:dateTime ;
         dcterms:title        "Verkehrsdaten (Stand: 11/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/verkehrsdaten_cargo/Zugfahrten_2016_11.csv> .
 
@@ -1427,20 +1612,15 @@ _:b0    a                    cat:Dataset ;
         a                    cat:Distribution ;
         dcterms:description  "Bahnsteigdaten DB RegioNetz Infrastruktur GmbH.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DDB RegioNetz Infrastruktur GmbH übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-06-15 11:56:49.463572"^^xsd:dateTime ;
         dcterms:title        "Bahnsteigdaten (RNI) Stand 10/2015" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/bahnsteig_regio/DBRNI-Bahnsteigdaten-Stand2015-10.csv> .
-
-<http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+02%2F2020%29>
-        a                    cat:Distribution ;
-        dcterms:description  "Reisezentrenliste der DB Vertrieb GmbH" ;
-        dcterms:format       "CSV" ;
-        dcterms:title        "Reisezentrenliste (Stand: 02/2020)" ;
-        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/reisezentren/VSRz202002.csv> .
 
 <http://data.deutschebahn.com/distribution/Aufzugsstammdaten+%28Stand+05%2F2020%29>
         a                    cat:Distribution ;
         dcterms:description  "Übersicht Aufzüge DB Station&Service AG.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Station&Service AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2020-05-13 09:37:51.438461"^^xsd:dateTime ;
         dcterms:title        "Aufzugsstammdaten (Stand 05/2020)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/aufzug/DBSuS-Uebersicht_Aufzuege-Stand2020-05_V1.csv> .
 
@@ -1448,12 +1628,14 @@ _:b0    a                    cat:Dataset ;
         a                    cat:Distribution ;
         dcterms:description  "Aus Speichereffizienzgründen ist die Datei als einem ZIP-Archiv verfügbar" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2017-12-14 16:34:21.91748"^^xsd:dateTime ;
         dcterms:title        "wifi-on-ice (232 MB)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/wifi/20171212_wifionice.zip> .
 
 <http://data.deutschebahn.com/distribution/%2817KB%29_Bahnhofsdaten-S-Bahn+Stuttgart>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-10-23 16:13:25.450309"^^xsd:dateTime ;
         dcterms:title   "(17KB)_Bahnhofsdaten-S-Bahn Stuttgart" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/sbahn_stuttgart/Bahnhofsdaten.csv> .
 
@@ -1461,12 +1643,14 @@ _:b0    a                    cat:Dataset ;
         a                    cat:Distribution ;
         dcterms:description  "Geodaten der Webcam-Standorte von Stuttgart 21 der DB Projekt Stuttgart-Ulm GmbH. Dieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Projekt Stuttgart-Ulm GmbH übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "ESRI Shape" ;
+        dcterms:issued       "2016-06-13 14:07:36.151666"^^xsd:dateTime ;
         dcterms:title        "Webcam-Standorte (Stand 11/2015)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/stuttgart21/webcams_2015_11.zip> .
 
 <http://data.deutschebahn.com/distribution/%28121MB%29_20170901-20171019_Alle_Istmeldungen_S-Bahn_Stuttgart>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-10-23 16:04:29.090025"^^xsd:dateTime ;
         dcterms:title   "(121MB)_20170901-20171019_Alle_Istmeldungen_S-Bahn_Stuttgart" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/sbahn_stuttgart/20170901-20171019_Alle_Istmeldungen_S-Bahn_Stuttgart.csv> .
 
@@ -1476,6 +1660,7 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         a                    cat:Distribution ;
         dcterms:description  "- Encoding ist nun UTF-8\r\n- Stationen besitzen nun Geo-Koordinaten\r\n- alle Textfelder sind nun mit Textqualizierer umgeben\r\n- aktueller Datenstand\r\n" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-07-06 14:42:23.691233"^^xsd:dateTime ;
         dcterms:title        "Buchungsdauer Carsharing (Stand 07/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/flinkster/20160706/HACKATHON_EFFICIENCY_CARSHARING.zip> .
 
@@ -1483,6 +1668,7 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         a                    cat:Distribution ;
         dcterms:description  "Sollfahrplan S-Bahn Stuttgart im GTFS-Format" ;
         dcterms:format       "GTFS" ;
+        dcterms:issued       "2020-03-20 15:37:39.783562"^^xsd:dateTime ;
         dcterms:title        "S-Bahn Stuttgart GTFS Sollfahrplan (2020)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/sbahn_stuttgart_gtfs/016_001_S-Bahn_Stuttgart_GTFS_J20.zip> .
 
@@ -1490,13 +1676,23 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         a                    cat:Distribution ;
         dcterms:description  "Betriebsstellenverzeichnis als API" ;
         dcterms:format       "REST" ;
+        dcterms:issued       "2017-04-21 13:48:58.178708"^^xsd:dateTime ;
         dcterms:title        "Betriebsstellenverzeichnis" ;
         cat:accessURL        <https://developer.deutschebahn.com/store/apis/info?name=Betriebsstellen&version=v1&provider=DBOpenData> .
+
+<http://data.deutschebahn.com/distribution/Wagenreihungsplan+%28Stand+12%2F2017%29>
+        a                    cat:Distribution ;
+        dcterms:description  "Die Datei Wagenreihungsplan_RawData_<YYYYMMDD>.zip (z.B. Wagenreihungs-plan_RawData_20160603.zip) ist ein ZIP-Archiv, das die Wagenreihungsplan-Daten in Form vom XML-Dateien enthält.  Pro Bahnhof gibt es eine Datei, die u.a. alle Daten für die Gleise und die Züge enthält. Nicht für alle Bahnhöfe sind Dateien vorhanden.\r\nDer Dateiname einer XML-Datei setzt sich wie folgt zusammen:\r\n<Bahnhofs-Code DS100>_<YYYY-MM-DD_HH_MM_SS>.xml.\r\nBeispiel: „UE_2016-02-10_09-27-12.xml“ steht für UE=Erfurt Hbf, Datenstand vom 10.02.2016, Uhrzeit 09:27 und 12 Sekunden.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. <Herausgeber> übernimmt keine Haftung und leistet keinerlei Gewähr." ;
+        dcterms:format       "XML" ;
+        dcterms:issued       "2017-12-13 10:24:19.671843"^^xsd:dateTime ;
+        dcterms:title        "Wagenreihungsplan (Stand 12/2017)" ;
+        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/wagenstand/Wagenreihungsplan_RawData_201712112.zip> .
 
 <http://data.deutschebahn.com/distribution/Stationsdaten+%28Stand+10%2F2015%29>
         a                    cat:Distribution ;
         dcterms:description  "Dieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Station&Service AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" , "XLSX" ;
+        dcterms:issued       "2016-06-15 12:06:37.203593"^^xsd:dateTime , "2016-06-15 12:05:29.614297"^^xsd:dateTime ;
         dcterms:title        "Stationsdaten (Stand 10/2015)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/stationsdaten/DBSuS-Uebersicht_Bahnhoefe-Stand2015-10.csv> , <http://download-data.deutschebahn.com/static/datasets/stationsdaten/DBSuS-Uebersicht_Bahnhoefe-Stand2015-10.xlsx> .
 
@@ -1507,20 +1703,16 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         <http://ckan.aksw.org/ontology/name>
                 "bahnroulette" ;
         dcterms:description  "# Die Idee\r\n\r\nBahnRoulette ist ein Tool, das ähnlich wie MapRoulette funktioniert. Die Adressen der DB Bahnhöfe werden dabei über einen Gamification Ansatz mit den Positionsdaten der Bahnhöfe der Open-Street-Map verglichen und neu verortet.\r\n\r\nDie Daten eines zufälligen Bahnhofs aus den Stationsdaten werden angezeigt. Daneben befindet sich eine Karte. Die Karte versucht anhand der Adressdaten des Bahnhofes in die richtige Region zu springen. Jetzt kann man den Bahnhof auf der Karte suchen, drauf klicken und dann diese Koordinate speichern und bekommt den nächsten Bahnhof vorgesetzt." ;
+        dcterms:issued       "2017-03-15 10:37:27.090011"^^xsd:dateTime ;
+        dcterms:modified     "2017-03-15 14:19:09.492122"^^xsd:dateTime ;
         dcterms:title        "BahnRoulette" ;
         cat:keyword          "Anwendung" , "Gamification" , "OSM" , "Karte" , "Koordinaten" , "Stationsdaten" , "Open Street Maps" , "MapRoulette" ;
         cat:landingPage      <http://blattspinat.com/index.php/posts/bahnroulette> .
 
-<http://data.deutschebahn.com/distribution/Wagenreihungsplan+%28Stand+12%2F2017%29>
-        a                    cat:Distribution ;
-        dcterms:description  "Die Datei Wagenreihungsplan_RawData_<YYYYMMDD>.zip (z.B. Wagenreihungs-plan_RawData_20160603.zip) ist ein ZIP-Archiv, das die Wagenreihungsplan-Daten in Form vom XML-Dateien enthält.  Pro Bahnhof gibt es eine Datei, die u.a. alle Daten für die Gleise und die Züge enthält. Nicht für alle Bahnhöfe sind Dateien vorhanden.\r\nDer Dateiname einer XML-Datei setzt sich wie folgt zusammen:\r\n<Bahnhofs-Code DS100>_<YYYY-MM-DD_HH_MM_SS>.xml.\r\nBeispiel: „UE_2016-02-10_09-27-12.xml“ steht für UE=Erfurt Hbf, Datenstand vom 10.02.2016, Uhrzeit 09:27 und 12 Sekunden.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. <Herausgeber> übernimmt keine Haftung und leistet keinerlei Gewähr." ;
-        dcterms:format       "XML" ;
-        dcterms:title        "Wagenreihungsplan (Stand 12/2017)" ;
-        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/wagenstand/Wagenreihungsplan_RawData_201712112.zip> .
-
 <http://data.deutschebahn.com/distribution/Stationen+Carsharing+%28Stand+05%2F2017%29>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-06-20 12:02:16.350479"^^xsd:dateTime ;
         dcterms:title   "Stationen Carsharing (Stand 05/2017)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/flinkster/20170516/OPENDATA_RENTAL_ZONE_CARSHARING.zip> .
 
@@ -1528,6 +1720,7 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         a                    cat:Distribution ;
         dcterms:description  "Reisezentrenliste der DB Vertrieb GmbH" ;
         dcterms:format       "ZIP" ;
+        dcterms:issued       "2018-08-15 12:45:56.158966"^^xsd:dateTime ;
         dcterms:title        "Reisezentrenliste (Stand: 01.01.17 - 31.12.17)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/reisezentren/2017_Reisezentren.zip> .
 
@@ -1538,13 +1731,16 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         <http://ckan.aksw.org/ontology/name>
                 "sprachenmanagement" ;
         dcterms:description  "Für konzernweite sprachliche Konsistenz\r\n\r\nEine einheitliche Verwendung von Sprache, gewinnt mit der Internationalisierung an Bedeutung – besonders in der zweiten Konzernsprache Englisch. Das DB Language Portal hilft bei der Übersetzung eisenbahn- und konzernspezifischer Wörter.\r\n\r\nVeraltete Datensätze entfernt - Eine Aktualisierung ist in Prüfung.\r\n" ;
+        dcterms:issued       "2017-05-12 08:42:12.140958"^^xsd:dateTime ;
+        dcterms:modified     "2020-09-18 09:19:42.967935"^^xsd:dateTime ;
         dcterms:title        "Sprachenmanagement - Fachbegriffe" ;
-        cat:keyword          "Glsosare" , "Sprache" , "Fachwissen" , "Fachwörter" , "Bahn" .
+        cat:keyword          "Sprache" , "Glsosare" , "Fachwissen" , "Fachwörter" , "Bahn" .
 
 <http://data.deutschebahn.com/distribution/Betriebsstellenverzeichnis+%28Stand+04%2F2018%29>
         a                    cat:Distribution ;
         dcterms:description  "Betriebsstellenverzeichnis DB Netz AG \r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Netz AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2018-05-03 12:35:56.767518"^^xsd:dateTime ;
         dcterms:title        "Betriebsstellenverzeichnis (Stand 04/2018)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/betriebsstellen/DBNetz-Betriebsstellenverzeichnis-Stand2018-04.csv> .
 
@@ -1555,6 +1751,8 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         <http://ckan.aksw.org/ontology/name>
                 "co2-emissionen-zugverkehr" ;
         dcterms:description  "CO2-Emissionen des Zugverkehrs in Deutschland (ohne Rangieren)\r\n\r\nCO2-Emissionen des Schienenverkehrs in Deutschland (in kg/Jahr; direkte+indirekte Emissionen, DB+Dritte sowie Elektrotraktion+Dieseltraktion) in räumlicher Auflösung in Form von Summenwerten innerhalb eines 2500m x2500m Rasters\r\n\r\nAuszug aus dem Bahn-Emissionskatasters Schienenverkehr („BEKS“) zum Luftqualitäts- und Klimaschutzmonitoring\r\n\r\n(Zeitraum: Fahrplan 2014)" ;
+        dcterms:issued       "2017-11-09 10:24:22.514104"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-13 12:51:16.523549"^^xsd:dateTime ;
         dcterms:title        "CO2-Emissionen des Zugverkehrs in Deutschland" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/co2-emissionen-zugverkehr> ;
         cat:keyword          "Klimaschutz" , "Business" , "Umwelt" , "Schienenverkehr" , "CO2" .
@@ -1562,6 +1760,7 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
 <http://data.deutschebahn.com/distribution/Flinkster+API>
         a               cat:Distribution ;
         dcterms:format  "REST" ;
+        dcterms:issued  "2016-12-16 13:09:19.775149"^^xsd:dateTime ;
         dcterms:title   "Flinkster API" ;
         cat:accessURL   <https://developer.deutschebahn.com/store/apis/info?name=Flinkster_API_NG&version=v1&provider=DBOpenData> .
 
@@ -1569,6 +1768,7 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         a                    cat:Distribution ;
         dcterms:description  "Geodaten der Gleisanlagen von Stuttgart 21 der DB Projekt Stuttgart-Ulm GmbH.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Projekt Stuttgart-Ulm GmbH übernimmt keine Haftung und leistet keinerlei Gewähr.\r\nDie Daten liegen im Format: ESRI Shape, WGS84 Web Mercator (Auxiliary Sphere), EPSG:3857" ;
         dcterms:format       "ESRI Shape" ;
+        dcterms:issued       "2016-06-13 13:15:38.966855"^^xsd:dateTime ;
         dcterms:title        "Streckenverlauf (Stand 11/2015)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/stuttgart21/streckenverlauf_2015_11.zip> .
 
@@ -1576,6 +1776,7 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         a                    cat:Distribution ;
         dcterms:description  "Betriebsstellenverzeichnis DB Netz AG \r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Netz AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2017-02-09 12:04:29.296113"^^xsd:dateTime ;
         dcterms:title        "Betriebsstellenverzeichnis (Stand 01/2017)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/betriebsstellen/DBNetz-Betriebsstellenverzeichnis-Stand2017-01.csv> .
 
@@ -1586,6 +1787,8 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         <http://ckan.aksw.org/ontology/name>
                 "data-stationsdaten-regio" ;
         dcterms:description  "Die Stationsdaten enthalten eine Liste der Bahnhöfe von DB RegioNetz Infrastruktur GmbH inkl. Aufgabenträger." ;
+        dcterms:issued       "2016-06-13 13:14:23.690895"^^xsd:dateTime ;
+        dcterms:modified     "2020-04-09 05:47:08.819077"^^xsd:dateTime ;
         dcterms:title        "Stationsdaten (RNI)" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/%C3%9Cbersicht+Bahnh%C3%B6fe+RNI+%28Stand+04%2F2020%29> , <http://data.deutschebahn.com/distribution/%C3%9Cbersicht+Bahnh%C3%B6fe+RNI+%28Stand+01%2F2016%29> , <http://data.deutschebahn.com/distribution/%C3%9Cbersicht+Bahnh%C3%B6fe+RNI+%28Stand+01%2F2018%29> , <http://data.deutschebahn.com/distribution/%C3%9Cbersicht+Bahnh%C3%B6fe+RNI+%28Stand+10%2F2015%29> ;
         cat:keyword          "Stammdaten" , "Station" , "Bahnhof" .
@@ -1597,6 +1800,8 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         <http://ckan.aksw.org/ontology/name>
                 "adam-api-live-map" ;
         dcterms:description  "# Die Idee\r\n\r\nDie Adam API Live Map zeigt die Betriebszustände aller Aufzüge und Rolltreppen auf einer Karte an und kombiniert diese mit den Stationsdaten/ Betriebsstellendaten der Deutschen Bahn. \r\n\r\nBei der Live-Map werden die folgenden Daten verwendet:\r\n\r\nREST-API von GamDBit: http://54.93.120.139/\r\n\r\nADAM-API: https://adam.noncd.db.de/api/v1.0/facilities\r\n" ;
+        dcterms:issued       "2017-03-15 10:19:50.276407"^^xsd:dateTime ;
+        dcterms:modified     "2017-03-15 14:18:07.416739"^^xsd:dateTime ;
         dcterms:title        "Adam API Live Map" ;
         cat:keyword          "API" , "Karte" , "Stationsdaten" , "ADAM" , "Rolltreppen" , "OSM" , "Aufzug" , "Live-Map" ;
         cat:landingPage      <http://www.rafael-queren.de/stuff/ADAM_API/index.html> .
@@ -1608,6 +1813,8 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         <http://ckan.aksw.org/ontology/name>
                 "data-netzradar" ;
         dcterms:description  "Die Daten bestehen aus dem Fernstreckennetz (aus OpenStreetMap), das in 500m-lange Streckenabschnitte zerteilt ist. Zu jedem der Streckenabschnitten sind in Form von Attributen Informationen zur Mobilfunktabdeckung angegeben." ;
+        dcterms:issued       "2016-06-13 15:09:17.811973"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-13 12:54:45.192643"^^xsd:dateTime ;
         dcterms:title        "Netzradar" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Netzradar+%28Stand+11%2F2016%29> , <http://data.deutschebahn.com/distribution/Netzradar+Messungen+%28Stand+10%2F2016%29> , <http://data.deutschebahn.com/distribution/Netzradar+%28Stand+09%2F2015%29> ;
         cat:keyword          "Mobilfunk" , "Business" .
@@ -1619,14 +1826,17 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         <http://ckan.aksw.org/ontology/name>
                 "stada-stationsdaten" ;
         dcterms:description  "Die API ermöglicht die Abfrage von Stationsdaten der DB Station & Service AG.\r\n\r\nMit dem Anklicken von dem Button Mehr und dann Herunterladen werden Sie an das Developer Portal der Deutschen Bahn weiter geleitet." ;
+        dcterms:issued       "2017-02-10 13:11:37.432887"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-13 13:05:39.313025"^^xsd:dateTime ;
         dcterms:title        "StaDa - Stationsdaten" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/StaDa-+Stationsdaten+API> ;
-        cat:keyword          "Station" , "Stammdaten" .
+        cat:keyword          "Stammdaten" , "Station" .
 
 <http://data.deutschebahn.com/distribution/Bahnsteigdaten+%28Stand+10%2F2015%29>
         a                    cat:Distribution ;
         dcterms:description  "Dieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Station&Service AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" , "XLSX" ;
+        dcterms:issued       "2016-06-15 11:46:53.625173"^^xsd:dateTime , "2016-06-15 11:47:30.577129"^^xsd:dateTime ;
         dcterms:title        "Bahnsteigdaten (Stand 10/2015)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/bahnsteig/DBSuS-Bahnsteigdaten-Stand2015-10.csv> , <http://download-data.deutschebahn.com/static/datasets/bahnsteig/DBSuS-Bahnsteigdaten-Stand2015-10.xlsx> .
 
@@ -1634,19 +1844,14 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         a                    cat:Distribution ;
         dcterms:description  "Schienenverkehrsnetz gemäß INSPIRE der DB Netz AG.\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Netz AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "XML" ;
+        dcterms:issued       "2020-05-13 06:04:44.766546"^^xsd:dateTime ;
         dcterms:title        "Streckennetz (Stand 11/2019)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/streckennetz/DB_Inspire_XML_2019.zip> .
-
-<http://data.deutschebahn.com/distribution/Reisezentrenliste+%28Stand%3A+10%2F2020%29>
-        a                    cat:Distribution ;
-        dcterms:description  "Reisezentrenliste der DB Vertrieb GmbH" ;
-        dcterms:format       "CSV" ;
-        dcterms:title        "Reisezentrenliste (Stand: 10/2020)" ;
-        cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/reisezentren/VSRz202010.csv> .
 
 <http://data.deutschebahn.com/distribution/geo-tunnel+%28Stand+01%2F2019%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2020-03-20 15:29:50.002381"^^xsd:dateTime ;
         dcterms:title   "geo-tunnel (Stand 01/2019)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/geo-tunnel/geo-tunnel_2019.zip> .
 
@@ -1657,6 +1862,8 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         <http://ckan.aksw.org/ontology/name>
                 "data-serviceeinrichtungen" ;
         dcterms:description  "Serviceeinrichtungen sind z.B. Abstell- und Zugbildungsanlagen." ;
+        dcterms:issued       "2016-06-13 14:57:47.299713"^^xsd:dateTime ;
+        dcterms:modified     "2020-03-20 15:43:09.1764"^^xsd:dateTime ;
         dcterms:title        "Serviceeinrichtungen" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Serviceeinrichtungen+%28Stand+12%2F2015%29> , <http://data.deutschebahn.com/distribution/Serviceeinrichtungen+%28Stand+01%2F2020%29> ;
         cat:keyword          "Oberleitung" , "Weiche" , "Serviceeinrichtung" , "Gleis" , "DS100" , "Stammdaten" .
@@ -1668,6 +1875,8 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         <http://ckan.aksw.org/ontology/name>
                 "geo-bruecke" ;
         dcterms:description  "Geoinformationen zu Brücken des Schienenverkehrsnetzes.\r\n" ;
+        dcterms:issued       "2017-05-11 15:01:06.177188"^^xsd:dateTime ;
+        dcterms:modified     "2020-12-11 09:21:02.82398"^^xsd:dateTime ;
         dcterms:title        "Geo-Brücke" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/geo-bruecke+%28Stand+01%2F2017%29> , <http://data.deutschebahn.com/distribution/geo-bruecke+%28Stand+01%2F2019%29> , <http://data.deutschebahn.com/distribution/geo-bruecke+%28Stand+01%2F2018%29> ;
         cat:keyword          "Stammdaten" , "DB Netz" , "Geo" , "Brücke" .
@@ -1676,6 +1885,7 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         a                    cat:Distribution ;
         dcterms:description  "GeoJSON / WGS84 und UTF-8" ;
         dcterms:format       "GeoJSON" ;
+        dcterms:issued       "2016-06-13 15:13:46.666655"^^xsd:dateTime ;
         dcterms:title        "Netzradar (Stand 09/2015)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/netzradar/connectivity_2015_09.geojson> .
 
@@ -1683,6 +1893,7 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         a                    cat:Distribution ;
         dcterms:description  "Beinhaltet die Informationen zur Buchungsdauer von Fahrzeugen für die Auslastungsberechnung.\r\n" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-06-12 05:31:49.129143"^^xsd:dateTime ;
         dcterms:title        "Buchungsdauer Call a Bike (Stand 06/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/callabike/20160615/HACKATHON_EFFICIENCY_CALL_A_BIKE.zip> .
 
@@ -1690,12 +1901,14 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         a                    cat:Distribution ;
         dcterms:description  "Dieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. DB Station&Service AG übernimmt keine Haftung und leistet keinerlei Gewähr." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2020-03-20 15:09:53.528738"^^xsd:dateTime ;
         dcterms:title        "Stationsdaten (Stand 03/2020)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/stationsdaten/DBSuS-Uebersicht_Bahnhoefe-Stand2020-03.csv> .
 
 <http://data.deutschebahn.com/distribution/%282MB%29_20170901-20171019_Alle_Ausf%C3%A4lle_S-Bahn_Stuttgart>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-10-23 16:03:12.649449"^^xsd:dateTime ;
         dcterms:title   "(2MB)_20170901-20171019_Alle_Ausfälle_S-Bahn_Stuttgart" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/sbahn_stuttgart/20170901-20171019_Alle_Ausf%25C3%25A4lle_S-Bahn_Stuttgart.csv> .
 
@@ -1703,6 +1916,7 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         a                    cat:Distribution ;
         dcterms:description  "Beinhaltet die Informationen zu einzelnen Buchungen Carsharing." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-06-14 09:33:59.102093"^^xsd:dateTime ;
         dcterms:title        "Buchungen Carsharing (Stand 06/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/flinkster/20160615/HACKATHON_BOOKING_CARSHARING.csv> .
 
@@ -1710,24 +1924,28 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         a                    cat:Distribution ;
         dcterms:description  "- Encoding ist nun UTF-8\r\n- Stationen besitzen nun Geo-Koordinaten\r\n- alle Textfelder sind nun mit Textqualizierer umgeben\r\n- aktueller Datenstand" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2016-07-06 14:58:50.63687"^^xsd:dateTime ;
         dcterms:title        "Stationen Call a Bike (Stand 07/2016)" ;
         cat:accessURL        <http://download-data.deutschebahn.com/static/datasets/callabike/20160607/HACKATHON_RENTAL_ZONE_CALL_A_BIKE.zip> .
 
 <http://data.deutschebahn.com/distribution/geo-bruecke+%28Stand+01%2F2019%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2020-03-20 15:34:04.138698"^^xsd:dateTime ;
         dcterms:title   "geo-bruecke (Stand 01/2019)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/geo-bruecke/geo-bruecke_2019.zip> .
 
 <http://data.deutschebahn.com/distribution/geo-kilometer+%28Stand+10%2F2019%29>
         a               cat:Distribution ;
         dcterms:format  "ZIP" ;
+        dcterms:issued  "2020-03-31 08:06:25.526897"^^xsd:dateTime ;
         dcterms:title   "geo-kilometer (Stand 10/2019)" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/geo-kilometer/geo-kilometer_2020.zip> .
 
 <http://data.deutschebahn.com/distribution/co2-emissionen-zugverkehr>
         a               cat:Distribution ;
         dcterms:format  "ESRI Shape" ;
+        dcterms:issued  "2017-11-09 10:24:55.729959"^^xsd:dateTime ;
         dcterms:title   "co2-emissionen-zugverkehr" ;
         cat:accessURL   <http://download-data.deutschebahn.com/static/datasets/co2/EiD_CO2_kg_WTW_Fpl2014_Grid2500_GK3.zip> .
 
@@ -1738,6 +1956,8 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         <http://ckan.aksw.org/ontology/name>
                 "api-adam" ;
         dcterms:description  "Betriebszustand von Aufzügen. (Wird durch erweiterte FaSta-API abgelöst und am 31.3.2017 abgeschaltet.)" ;
+        dcterms:issued       "2016-06-13 15:40:55.081886"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-13 13:05:53.97977"^^xsd:dateTime ;
         dcterms:title        "ADAM (Vorgänger der FaSta-API)" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Swagger> , <http://data.deutschebahn.com/distribution/Aufzug> ;
         cat:keyword          "Stammdaten" , "Aufzug" , "Echtzeit" , "Station" .
@@ -1749,6 +1969,8 @@ mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Deutsche%20
         <http://ckan.aksw.org/ontology/name>
                 "data-stationsdaten" ;
         dcterms:description  "Die Stationsdaten enthalten eine Liste der Bahnhöfe inkl. Adressen, Aufgabenträger und Link zu Betriebsstellen." ;
+        dcterms:issued       "2016-06-13 15:13:37.21135"^^xsd:dateTime ;
+        dcterms:modified     "2020-03-23 17:09:52.670585"^^xsd:dateTime ;
         dcterms:title        "Stationsdaten" ;
         cat:distribution     <http://data.deutschebahn.com/distribution/Stationsdaten+%28Stand+10%2F2015%29> , <http://data.deutschebahn.com/distribution/Stationsdaten+%28Stand+04%2F2017%29> , <http://data.deutschebahn.com/distribution/Stationsdaten+%28Stand+03%2F2019%29> , <http://data.deutschebahn.com/distribution/Stationsdaten+%28Stand+03%2F2020%29> , <http://data.deutschebahn.com/distribution/Stationsdaten+%28Stand+03%2F2018%29> , <http://data.deutschebahn.com/distribution/Stationsdaten+%28Stand+03%2F2016%29> , <http://data.deutschebahn.com/distribution/Stationsdaten+%28Stand+07%2F2016%29> ;
         cat:keyword          "Adresse" , "DS100" , "Stammdaten" , "Bahnhof" , "Station" .

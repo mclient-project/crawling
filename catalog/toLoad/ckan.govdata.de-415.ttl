@@ -1,0 +1,1374 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://ckan.govdata.de>
+    <http://purl.org/dc/terms/language> "de" ;
+    <http://purl.org/dc/terms/modified> "2021-02-23T14:51:50.407633"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/title> "GovData" ;
+    a <http://www.w3.org/ns/dcat#Catalog> ;
+    <http://www.w3.org/ns/dcat#dataset> <https://ckan.govdata.de/dataset/08766fce-30b3-4fea-aee3-2a87bd62224b>, <https://ckan.govdata.de/dataset/0a83a98c-e54f-48e2-a6f2-ca3decb60698>, <https://ckan.govdata.de/dataset/2b15b547-2a0b-487b-9299-de44029f5492>, <https://ckan.govdata.de/dataset/2d716dac-8001-4be5-b822-ecec4bc97e32>, <https://ckan.govdata.de/dataset/497b069d-a983-4be6-bbe3-b20a38f4abbe>, <https://ckan.govdata.de/dataset/52821392-a4fd-49f2-83c8-33b00a0837f4>, <https://ckan.govdata.de/dataset/5439af96-e510-4c5b-a64c-33e3ded35184>, <https://ckan.govdata.de/dataset/5a70073f-2a58-4441-a249-a226d2e3c933>, <https://ckan.govdata.de/dataset/7114d966-cc5b-4d6b-9762-1f895181566f>, <https://ckan.govdata.de/dataset/7582618d-2a08-40a5-9ada-a3f2f2f68284>, <https://ckan.govdata.de/dataset/7713a676-e1d1-4614-9102-cbd46250850d>, <https://ckan.govdata.de/dataset/7cc61f71-9533-482d-b7f8-48aa8984795f>, <https://ckan.govdata.de/dataset/95d121aa-86d7-4f02-a271-c70937846aa2>, <https://ckan.govdata.de/dataset/9a0b85ab-f7b9-4395-8a82-caf0b9fae9f3>, <https://ckan.govdata.de/dataset/9fb46ebb-e2ef-418d-bb65-31056677a4be>, <https://ckan.govdata.de/dataset/a0095280-d022-40a5-9fc8-f8da411b2a80>, <https://ckan.govdata.de/dataset/a60808c8-8179-4a9c-9d09-d391cbd0ecaa>, <https://ckan.govdata.de/dataset/a6fb7319-8db5-497d-bb55-85ab00a0335f>, <https://ckan.govdata.de/dataset/d3859cc9-9df7-4810-9590-adbaff2864d1>, <https://ckan.govdata.de/dataset/d5be50fc-d30d-4bc4-ab0f-cd41cd828090>, <https://ckan.govdata.de/dataset/d897de02-5093-406c-a6d4-a7318c10b886>, <https://ckan.govdata.de/dataset/e08bbee1-cfcb-4f42-a8c1-114b4a5b24b6>, <https://ckan.govdata.de/dataset/e9ce439c-e14f-44e6-af5a-df8abbf5a305>, <https://ckan.govdata.de/dataset/f0806767-c62a-4697-8b8d-7cbbbc05bee1>, <https://ckan.govdata.de/dataset/f8822c1a-cc26-48ac-a2f9-a4056ec767bf>, <https://ckan.govdata.de/dataset/fa5153de-c808-4a6d-ba7a-97292ff78168> ;
+    <http://xmlns.com/foaf/0.1/homepage> <https://ckan.govdata.de> .
+
+<https://ckan.govdata.de/catalog.rdf?page=415>
+    a <http://www.w3.org/ns/hydra/core#PagedCollection> ;
+    <http://www.w3.org/ns/hydra/core#firstPage> "https://ckan.govdata.de/catalog.rdf?page=1" ;
+    <http://www.w3.org/ns/hydra/core#itemsPerPage> 100 ;
+    <http://www.w3.org/ns/hydra/core#lastPage> "https://ckan.govdata.de/catalog.rdf?page=415" ;
+    <http://www.w3.org/ns/hydra/core#previousPage> "https://ckan.govdata.de/catalog.rdf?page=414" ;
+    <http://www.w3.org/ns/hydra/core#totalItems> 41426 .
+
+<https://ckan.govdata.de/dataset/08766fce-30b3-4fea-aee3-2a87bd62224b>
+    <http://dcat-ap.de/def/dcatde/geocodingDescription> "" ;
+    <http://dcat-ap.de/def/dcatde/politicalGeocodingLevelURI> <https://ckan.govdata.degermanfederation> ;
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/name> "Bundesamt für Justiz"
+    ] ;
+    <http://purl.org/dc/terms/description> "Mit der Übersicht „GZR-Daten zur Schwarzarbeit 2013“ legt das Bundesamt für Justiz das Ergebnis von Auswertungen der im Jahr 2013 in die Teilregister über natürliche Personen sowie juristische Personen und Personenvereinigungen des Gewerbezentralregisters eingetragenen Bußgeldentscheidungen wegen Ordnungswidrigkeiten im Bereich der Schwarzarbeit vor. Der Datensatz weist alle Bußgeldentscheidungen gegen natürliche Personen aus, die im Auswertungsjahr nach § 8 Abs. 1 Nr. 1 Schwarzarbeitsbekämpfungsgesetz (SchwarzArbG) in das Gewerbezentralregister eingetragen wurden. Die Eintragungen sind nach Gewerbezweigen differenziert." ;
+    <http://purl.org/dc/terms/identifier> "08766fce-30b3-4fea-aee3-2a87bd62224b" ;
+    <http://purl.org/dc/terms/issued> "2014-06-30T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2014-06-30T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/8704e42f-6607-4435-8245-1e45806b4769> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2013-12-31T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2013-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "GZR-Daten zur Schwarzarbeit 2013 - Bußgeldentscheidungen nach § 8 Abs. 1 Nr. 1 SchwarzArbG - natürliche Personen - Gewerbezweige" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundesamt für Justiz"
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/08766fce-30b3-4fea-aee3-2a87bd62224b/resource/26600b71-43bd-4e90-9947-d8e5e6fe27d8>, <https://ckan.govdata.de/dataset/08766fce-30b3-4fea-aee3-2a87bd62224b/resource/77f9108d-2980-4ab9-8cfc-d3c70c61d97f> ;
+    <http://www.w3.org/ns/dcat#keyword> "bugeldentscheidungen", "gewerbezentralregister", "schwarzarbeit", "schwarzarbeitsbekämpfungsgesetz" ;
+    <http://www.w3.org/ns/dcat#landingPage> <https://www.bundesjustizamt.de/DE/Themen/Buergerdienste/GZR/Statistik/Statistik_node.html> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ECON>, <http://publications.europa.eu/resource/authority/data-theme/JUST> .
+
+<https://ckan.govdata.de/dataset/08766fce-30b3-4fea-aee3-2a87bd62224b/resource/26600b71-43bd-4e90-9947-d8e5e6fe27d8>
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://www.bundesjustizamt.de/DE/SharedDocs/Publikationen/GovData/GZR/2013/PDF/GZRnat_Tab03.pdf?__blob=publicationFile> .
+
+<https://ckan.govdata.de/dataset/08766fce-30b3-4fea-aee3-2a87bd62224b/resource/77f9108d-2980-4ab9-8cfc-d3c70c61d97f>
+    <http://purl.org/dc/terms/format> "CSV" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://www.bundesjustizamt.de/DE/SharedDocs/Publikationen/GovData/GZR/2013/CSV/GZRnat_Tab03.csv?__blob=publicationFile> .
+
+<https://ckan.govdata.de/dataset/0a83a98c-e54f-48e2-a6f2-ca3decb60698>
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/name> "Bundesanstalt für Landwirtschaft und Ernährung"
+    ] ;
+    <http://purl.org/dc/terms/description> """Getreidekaeufe_der aufnehmenden Hand_2009_2010 nach Regionen Nord, Sued, West, Ost
+""" ;
+    <http://purl.org/dc/terms/identifier> "0a83a98c-e54f-48e2-a6f2-ca3decb60698" ;
+    <http://purl.org/dc/terms/issued> "2010-10-28T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2010-10-28T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/1a022d02-5960-454a-8fc6-0562e099d734> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2010-06-30T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2009-07-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "Getreidekaeufe_der aufnehmenden Hand_2009_2010 nach Regionen" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundesanstalt für Landwirtschaft und Ernährung"
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/0a83a98c-e54f-48e2-a6f2-ca3decb60698/resource/4499c46d-4174-4882-ad4e-cc02aacfcf15>, <https://ckan.govdata.de/dataset/0a83a98c-e54f-48e2-a6f2-ca3decb60698/resource/a95ef141-79cd-4942-be32-99784cd116f8>, <https://ckan.govdata.de/dataset/0a83a98c-e54f-48e2-a6f2-ca3decb60698/resource/ed9fe517-7fe7-4aaf-839f-e7721e02e63e> ;
+    <http://www.w3.org/ns/dcat#keyword> "Getreide", "Getreidekauf", "Getreideverkauf" ;
+    <http://www.w3.org/ns/dcat#landingPage> <http://www.ble.de/DE/BZL/Daten-Berichte/Getreide-Getreideerzeugnisse/_functions/TabelleMonatlicheErgebnisse2009-2010.html?nn=8907004> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ECON> .
+
+<https://ckan.govdata.de/dataset/0a83a98c-e54f-48e2-a6f2-ca3decb60698/resource/4499c46d-4174-4882-ad4e-cc02aacfcf15>
+    <http://purl.org/dc/terms/description> "Getreidekaeufe_der aufnehmenden Hand_2009_2010 nach Regionen Nord, Sued, West, Ost" ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> " Getreidekaeufe_der aufnehmenden Hand_2009_2010 nach Regionen" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/getreidekaeufe-der-aufnehmenden-hand-2009-2010> .
+
+<https://ckan.govdata.de/dataset/0a83a98c-e54f-48e2-a6f2-ca3decb60698/resource/a95ef141-79cd-4942-be32-99784cd116f8>
+    <http://purl.org/dc/terms/description> "Getreidekaeufe_der aufnehmenden Hand_2009_2010 nach Regionen Nord, Sued, West, Ost" ;
+    <http://purl.org/dc/terms/format> "CSV" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> " Getreidekaeufe_der aufnehmenden Hand_2009_2010 nach Regionen" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/getreidekaeufe-der-aufnehmenden-hand-2009-2010> .
+
+<https://ckan.govdata.de/dataset/0a83a98c-e54f-48e2-a6f2-ca3decb60698/resource/ed9fe517-7fe7-4aaf-839f-e7721e02e63e>
+    <http://purl.org/dc/terms/description> "Getreidekaeufe_der aufnehmenden Hand_2009_2010 nach Regionen Nord, Sued, West, Ost" ;
+    <http://purl.org/dc/terms/format> "XLS" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> " Getreidekaeufe_der aufnehmenden Hand_2009_2010 nach Regionen" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/getreidekaeufe-der-aufnehmenden-hand-2009-2010> .
+
+<https://ckan.govdata.de/dataset/2b15b547-2a0b-487b-9299-de44029f5492>
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/mbox> "422@ble.de" ;
+        <http://xmlns.com/foaf/0.1/name> "Bundesanstalt für Landwirtschaft und Ernährung"
+    ] ;
+    <http://purl.org/dc/terms/description> "Nachfolgende Daten stellen eine Zusammenfassung zur Versorgungssituation mit forstlichem Saatgut im Bundesgebiet dar (Ernteaufkommen + Einfuhr – Ausfuhr = Saldo). Die Daten dafür werden jährlich von der Bundesanstalt erhoben. Sie beruhen auf Meldungen der Bundesländer zum Ende des letzten Baumschuljahres und betreffen den Zeitraum 01.07.des Vorjahres bis 30.06.des aktuellen Jahres. Es werden sämtliche Baumarten abgebildet, die dem Forstvermehrungsgutgesetz (FoVG) unterliegen." ;
+    <http://purl.org/dc/terms/identifier> "2b15b547-2a0b-487b-9299-de44029f5492" ;
+    <http://purl.org/dc/terms/issued> "2017-11-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2017-11-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/1a022d02-5960-454a-8fc6-0562e099d734> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2015-12-31T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2015-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "Versorgungsbilanz für forstliches Saatgut 2015" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundesanstalt für Landwirtschaft und Ernährung" ;
+        <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:422@ble.de>
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/2b15b547-2a0b-487b-9299-de44029f5492/resource/32019b52-1c14-4eb7-a676-fd6c033c3899>, <https://ckan.govdata.de/dataset/2b15b547-2a0b-487b-9299-de44029f5492/resource/40a93537-70a6-4f00-a0d6-39511132e4ef> ;
+    <http://www.w3.org/ns/dcat#keyword> "Forstwirtschaft", "Saatgut", "Versorgungsbilanz" ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ECON> .
+
+<https://ckan.govdata.de/dataset/2b15b547-2a0b-487b-9299-de44029f5492/resource/32019b52-1c14-4eb7-a676-fd6c033c3899>
+    <http://purl.org/dc/terms/description> "Zusammenfassung zur Versorgungssituation mit forstlichem Saatgut im Bundesgebiet" ;
+    <http://purl.org/dc/terms/format> "CSV" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-zero-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Versorgungsbilanz für forstliches Saatgut 2015" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/versorgungsbilanz-fur-forstliches-saatgut-2015/resource/033e212d-a58a-40b3-bd73-8557ef46fd40> .
+
+<https://ckan.govdata.de/dataset/2b15b547-2a0b-487b-9299-de44029f5492/resource/40a93537-70a6-4f00-a0d6-39511132e4ef>
+    <http://purl.org/dc/terms/description> "Zusammenfassung zur Versorgungssituation mit forstlichem Saatgut im Bundesgebiet" ;
+    <http://purl.org/dc/terms/format> "XLS" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-zero-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Versorgungsbilanz für forstliches Saatgut 2015" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/versorgungsbilanz-fur-forstliches-saatgut-2015/resource/9a17c447-320b-433b-8222-ca8e5cda5b39> .
+
+<https://ckan.govdata.de/dataset/2d716dac-8001-4be5-b822-ecec4bc97e32>
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/name> "Bundesanstalt für Landwirtschaft und Ernährung"
+    ] ;
+    <http://purl.org/dc/terms/description> " Getreidekaeufe_der aufnehmenden Hand_2011_2012 nach Regionen  Nord, Sued, West, Ost" ;
+    <http://purl.org/dc/terms/identifier> "2d716dac-8001-4be5-b822-ecec4bc97e32" ;
+    <http://purl.org/dc/terms/issued> "2012-01-25T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2012-01-25T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/1a022d02-5960-454a-8fc6-0562e099d734> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2012-06-30T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2011-07-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "Getreidekaeufe_der aufnehmenden Hand_2011_2012 nach Regionen" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundesanstalt für Landwirtschaft und Ernährung"
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/2d716dac-8001-4be5-b822-ecec4bc97e32/resource/4b2cf4bc-ccbb-47ee-8f8a-7fae69d3920a>, <https://ckan.govdata.de/dataset/2d716dac-8001-4be5-b822-ecec4bc97e32/resource/4ce0f16e-9cf9-45e5-85a4-c9cef6da72f7>, <https://ckan.govdata.de/dataset/2d716dac-8001-4be5-b822-ecec4bc97e32/resource/ae77b05f-c149-45b7-ac36-76af5a8b78be> ;
+    <http://www.w3.org/ns/dcat#keyword> "Getreide", "Getreideeinkauf", "Getreideverkauf" ;
+    <http://www.w3.org/ns/dcat#landingPage> <http://www.ble.de/DE/BZL/Daten-Berichte/Getreide-Getreideerzeugnisse/_functions/TabelleMonatlicheErgebnisse2011-2012.html?nn=8907004> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ECON> .
+
+<https://ckan.govdata.de/dataset/2d716dac-8001-4be5-b822-ecec4bc97e32/resource/4b2cf4bc-ccbb-47ee-8f8a-7fae69d3920a>
+    <http://purl.org/dc/terms/description> " Getreidekaeufe_der aufnehmenden Hand_2011_2012 nach Regionen  Nord, Sued, West, Ost" ;
+    <http://purl.org/dc/terms/format> "CSV" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> " Getreidekaeufe_der aufnehmenden Hand_2011_2012 nach Regionen  " ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/getreidekaeufe-der-aufnehmenden-hand-2011-2012-nach-regionen1> .
+
+<https://ckan.govdata.de/dataset/2d716dac-8001-4be5-b822-ecec4bc97e32/resource/4ce0f16e-9cf9-45e5-85a4-c9cef6da72f7>
+    <http://purl.org/dc/terms/description> " Getreidekaeufe_der aufnehmenden Hand_2011_2012 nach Regionen  Nord, Sued, West, Ost" ;
+    <http://purl.org/dc/terms/format> "XLS" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> " Getreidekaeufe_der aufnehmenden Hand_2011_2012 nach Regionen  " ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/getreidekaeufe-der-aufnehmenden-hand-2011-2012-nach-regionen1> .
+
+<https://ckan.govdata.de/dataset/2d716dac-8001-4be5-b822-ecec4bc97e32/resource/ae77b05f-c149-45b7-ac36-76af5a8b78be>
+    <http://purl.org/dc/terms/description> " Getreidekaeufe_der aufnehmenden Hand_2011_2012 nach Regionen  Nord, Sued, West, Ost" ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> " Getreidekaeufe_der aufnehmenden Hand_2011_2012 nach Regionen  " ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/getreidekaeufe-der-aufnehmenden-hand-2011-2012-nach-regionen1> .
+
+<https://ckan.govdata.de/dataset/497b069d-a983-4be6-bbe3-b20a38f4abbe>
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/name> "Bundesanstalt für Landwirtschaft und Ernährung"
+    ] ;
+    <http://purl.org/dc/terms/description> "Daten über Anbau und Ernte, Erzeugerbilanz, Marktbilanz und Gesamtbilanz 2014/2015" ;
+    <http://purl.org/dc/terms/identifier> "497b069d-a983-4be6-bbe3-b20a38f4abbe" ;
+    <http://purl.org/dc/terms/issued> "2016-08-09T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2016-08-09T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/1a022d02-5960-454a-8fc6-0562e099d734> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2015-06-30T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2014-07-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "Versorgungsbilanz Getreide 2014/2015" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundesanstalt für Landwirtschaft und Ernährung"
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/497b069d-a983-4be6-bbe3-b20a38f4abbe/resource/933ff978-2bd6-4dcc-a254-72ed639c9a45>, <https://ckan.govdata.de/dataset/497b069d-a983-4be6-bbe3-b20a38f4abbe/resource/b99bae78-970a-4887-98c9-b2992bee7b74> ;
+    <http://www.w3.org/ns/dcat#keyword> "Getreideanbau und Ernte_Erzeuger_Markt_und_Gesamtbilanz" ;
+    <http://www.w3.org/ns/dcat#landingPage> <http://www.ble.de/DE/BZL/Daten-Berichte/Getreide-Getreideerzeugnisse/getreide-getreideerzeugnisse_node.html> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ECON> .
+
+<https://ckan.govdata.de/dataset/497b069d-a983-4be6-bbe3-b20a38f4abbe/resource/933ff978-2bd6-4dcc-a254-72ed639c9a45>
+    <http://purl.org/dc/terms/description> "Daten über Anbau und Ernte, Erzeugerbilanz, Marktbilanz und Gesamtbilanz 2014/2015" ;
+    <http://purl.org/dc/terms/format> "XLS" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Versorgungsbilanz Getreide 2014/2015" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/versorgungsbilanz-getreide-2014-2015> .
+
+<https://ckan.govdata.de/dataset/497b069d-a983-4be6-bbe3-b20a38f4abbe/resource/b99bae78-970a-4887-98c9-b2992bee7b74>
+    <http://purl.org/dc/terms/description> "Daten über Anbau und Ernte, Erzeugerbilanz, Marktbilanz und Gesamtbilanz 2014/2015" ;
+    <http://purl.org/dc/terms/format> "CSV" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Versorgungsbilanz Getreide 2014/2015" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/versorgungsbilanz-getreide-2014-2015> .
+
+<https://ckan.govdata.de/dataset/52821392-a4fd-49f2-83c8-33b00a0837f4>
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/homepage> <http://www.ble.de/DE/BZL/Daten-Berichte/Getreide-Getreideerzeugnisse/_functions/TabelleMonatlicheErgebnisse2015-2016.html?nn=8907004> ;
+        <http://xmlns.com/foaf/0.1/mbox> "422@ble.de" ;
+        <http://xmlns.com/foaf/0.1/name> "Bundesanstalt für Landwirtschaft und Ernährung"
+    ] ;
+    <http://purl.org/dc/terms/description> "Bestände der Wirtschaft an Getreide, Getreideerzeugnissen und Reis nach Monaten" ;
+    <http://purl.org/dc/terms/identifier> "52821392-a4fd-49f2-83c8-33b00a0837f4" ;
+    <http://purl.org/dc/terms/issued> "2016-08-26T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2016-08-26T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/1a022d02-5960-454a-8fc6-0562e099d734> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2016-06-30T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2014-07-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "Bestände der Wirtschaft an Getreide, Getreideerzeugnissen und Reis 2014/2015 und 2015/2016" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundesanstalt für Landwirtschaft und Ernährung" ;
+        <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:422@ble.de>
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/52821392-a4fd-49f2-83c8-33b00a0837f4/resource/063fdf3b-bdf8-452c-a88b-527a0a60860e>, <https://ckan.govdata.de/dataset/52821392-a4fd-49f2-83c8-33b00a0837f4/resource/c51ac9e5-7ebb-4f8a-baf8-9bc50052475c>, <https://ckan.govdata.de/dataset/52821392-a4fd-49f2-83c8-33b00a0837f4/resource/cf99b9a3-b861-4d41-8ed6-793b85d28768> ;
+    <http://www.w3.org/ns/dcat#keyword> "Bestände", "Bestände der Wirtschaft", "Getreide", "Getreideerzeugnissen", "Reis" ;
+    <http://www.w3.org/ns/dcat#landingPage> <http://www.ble.de/DE/BZL/Daten-Berichte/Getreide-Getreideerzeugnisse/_functions/TabelleMonatlicheErgebnisse2015-2016.html?nn=8907004> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ECON> .
+
+<https://ckan.govdata.de/dataset/52821392-a4fd-49f2-83c8-33b00a0837f4/resource/063fdf3b-bdf8-452c-a88b-527a0a60860e>
+    <http://purl.org/dc/terms/description> "Bestände der Wirtschaft an Getreide, Getreideerzeugnissen und Reis nach Monaten" ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Bestände der Wirtschaft an Getreide, Getreideerzeugnissen und Reis 2014/2015 und 2015/2016 " ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/bestande-der-wirtschaft-an-getreide-getreideerzeugnissen-und-reis-2014-2015-und-2015-20161> .
+
+<https://ckan.govdata.de/dataset/52821392-a4fd-49f2-83c8-33b00a0837f4/resource/c51ac9e5-7ebb-4f8a-baf8-9bc50052475c>
+    <http://purl.org/dc/terms/description> "Bestände der Wirtschaft an Getreide, Getreideerzeugnissen und Reis nach Monaten" ;
+    <http://purl.org/dc/terms/format> "XLS" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Bestände der Wirtschaft an Getreide, Getreideerzeugnissen und Reis 2014/2015 und 2015/2016 " ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/bestande-der-wirtschaft-an-getreide-getreideerzeugnissen-und-reis-2014-2015-und-2015-20161> .
+
+<https://ckan.govdata.de/dataset/52821392-a4fd-49f2-83c8-33b00a0837f4/resource/cf99b9a3-b861-4d41-8ed6-793b85d28768>
+    <http://purl.org/dc/terms/description> "Bestände der Wirtschaft an Getreide, Getreideerzeugnissen und Reis nach Monaten" ;
+    <http://purl.org/dc/terms/format> "CSV" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Bestände der Wirtschaft an Getreide, Getreideerzeugnissen und Reis 2014/2015 und 2015/2016 " ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/bestande-der-wirtschaft-an-getreide-getreideerzeugnissen-und-reis-2014-2015-und-2015-20161> .
+
+<https://ckan.govdata.de/dataset/5439af96-e510-4c5b-a64c-33e3ded35184>
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/homepage> <http://www.datenschutz.bund.de> ;
+        <http://xmlns.com/foaf/0.1/mbox> "poststelle@bfdi.bund.de" ;
+        <http://xmlns.com/foaf/0.1/name> "Bundesbeauftragte für den Datenschutz und die Informationsfreiheit"
+    ] ;
+    <http://purl.org/dc/terms/description> "Tätigkeitsbericht 2007 und 2008 des Bundesbeauftragten für den Datenschutz und die Informationsfreiheit" ;
+    <http://purl.org/dc/terms/identifier> "5439af96-e510-4c5b-a64c-33e3ded35184" ;
+    <http://purl.org/dc/terms/issued> "2016-05-19T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2016-05-19T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/96a8fe21-8668-4ac0-af3f-7bc7258132fa> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2008-12-31T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2007-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "22. Tätigkeitsbericht zum Datenschutz 2007 - 2008" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundesbeauftragte für den Datenschutz und die Informationsfreiheit" ;
+        <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:poststelle@bfdi.bund.de>
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/5439af96-e510-4c5b-a64c-33e3ded35184/resource/eb2b846b-bf28-484a-9fd1-3ea3c07fae82> ;
+    <http://www.w3.org/ns/dcat#keyword> "BDSG", "BfDI", "Datenschutz", "Tätigkeitsbericht" ;
+    <http://www.w3.org/ns/dcat#landingPage> <http://www.bfdi.bund.de/DE/Infothek/Taetigkeitsberichte/taetigkeitsberichte-node.html> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/GOVE> .
+
+<https://ckan.govdata.de/dataset/5439af96-e510-4c5b-a64c-33e3ded35184/resource/eb2b846b-bf28-484a-9fd1-3ea3c07fae82>
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <http://www.bfdi.bund.de/SharedDocs/Publikationen/Taetigkeitsberichte/TB_BfDI/22TB_07_08.html?nn=5217212> .
+
+<https://ckan.govdata.de/dataset/5a70073f-2a58-4441-a249-a226d2e3c933>
+    <http://dcat-ap.de/def/dcatde/geocodingDescription> "" ;
+    <http://dcat-ap.de/def/dcatde/politicalGeocodingLevelURI> <https://ckan.govdata.degermanfederation> ;
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/homepage> <https://www.ble.de> ;
+        <http://xmlns.com/foaf/0.1/mbox> "421@ble.de" ;
+        <http://xmlns.com/foaf/0.1/name> "Bundesanstalt für Landwirtschaft und Ernährung, Referat 421 - Öffentlichkeitsarbeit, Internet"
+    ] ;
+    <http://purl.org/dc/terms/description> "Unternehmen, die Bioprodukte erzeugen, verarbeiten, handeln, lagern oder importieren und diese mit dem Hinweis \"Öko\" oder \"Bio\" vermarkten wollen, müssen sich dem Kontrollverfahren unterziehen. Die Kontrollen werden von privaten Kontrollstellen durchgeführt, die für ihre Aufgabe von der Bundesanstalt für Landwirtschaft und Ernährung (BLE) zugelassen werden und in der Regel bundesweit tätig sind. Derzeit gibt es in Deutschland 18 durch die BLE zugelassene, private Öko-Kontrollstellen." ;
+    <http://purl.org/dc/terms/identifier> "5a70073f-2a58-4441-a249-a226d2e3c933" ;
+    <http://purl.org/dc/terms/issued> "2015-04-09T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2015-06-19T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/1a022d02-5960-454a-8fc6-0562e099d734> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2015-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2015-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "Kontrollstellen Überwachung ökologischer Landbau" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundesanstalt für Landwirtschaft und Ernährung, Referat 421 - Öffentlichkeitsarbeit, Internet" ;
+        <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:421@ble.de>
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/5a70073f-2a58-4441-a249-a226d2e3c933/resource/65fb39c5-46f2-4931-8002-1ad8b51e2346>, <https://ckan.govdata.de/dataset/5a70073f-2a58-4441-a249-a226d2e3c933/resource/a8e240b6-7117-47a9-b618-d39d82993425> ;
+    <http://www.w3.org/ns/dcat#keyword> "kontrollstellen", "landbau", "zulassung", "öko" ;
+    <http://www.w3.org/ns/dcat#landingPage> <http://www.ble.de/DE/Themen/Landwirtschaft/Oekologischer-Landbau/Zulassung-Kontrollstellen/zulassung-kontrollstellen_node.html> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ECON> .
+
+<https://ckan.govdata.de/dataset/5a70073f-2a58-4441-a249-a226d2e3c933/resource/65fb39c5-46f2-4931-8002-1ad8b51e2346>
+    <http://purl.org/dc/terms/description> "02_Liste_Ökokontrollstellen_Open_Data_überarbeitet" ;
+    <http://purl.org/dc/terms/format> "CSV" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Kontrollstellen Überwachung ökologischer Landbau" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/61ff8f59-301d-40f6-a467-0fa7e85997bf/resource/4513ab44-5e4e-44c9-b19a-482db472f617/download/02listeokokontrollstellenopendatauberarbeitet.csv> .
+
+<https://ckan.govdata.de/dataset/5a70073f-2a58-4441-a249-a226d2e3c933/resource/a8e240b6-7117-47a9-b618-d39d82993425>
+    <http://purl.org/dc/terms/description> "02_Liste_Ökokontrollstellen_Open_Data_überarbeitet" ;
+    <http://purl.org/dc/terms/format> "XLS" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Kontrollstellen Überwachung ökologischer Landbau" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/1kontrollstellen-uberwachung-okologischer-landbau/resource/0dc612de-978d-4b5e-92eb-04f5093c0712> .
+
+<https://ckan.govdata.de/dataset/7114d966-cc5b-4d6b-9762-1f895181566f>
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/homepage> <http://www.ble.de/DE/BZL/Daten-Berichte/Zucker/_functions/TabelleZuckerkampagne2004-2015.html?nn=8907020> ;
+        <http://xmlns.com/foaf/0.1/mbox> "422@ble.de" ;
+        <http://xmlns.com/foaf/0.1/name> "Bundesanstalt für Landwirtschaft und Ernährung"
+    ] ;
+    <http://purl.org/dc/terms/description> "Daten über Anlieferung von Zuckerrüben, Zuckergehalt und Schmutzanhang, Herstellung von Zucker," ;
+    <http://purl.org/dc/terms/identifier> "7114d966-cc5b-4d6b-9762-1f895181566f" ;
+    <http://purl.org/dc/terms/issued> "2015-09-18T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2015-09-18T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/1a022d02-5960-454a-8fc6-0562e099d734> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2015-09-30T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2014-10-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "Zuckerkampagne Schlussbericht 2014/2015" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundesanstalt für Landwirtschaft und Ernährung" ;
+        <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:422@ble.de>
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/7114d966-cc5b-4d6b-9762-1f895181566f/resource/2a4721b7-b1b8-4964-8e24-0df81c883529>, <https://ckan.govdata.de/dataset/7114d966-cc5b-4d6b-9762-1f895181566f/resource/4b884466-542d-4a1e-a7e8-d887973a95c0>, <https://ckan.govdata.de/dataset/7114d966-cc5b-4d6b-9762-1f895181566f/resource/6c6484ad-ddd2-42ae-ae11-1771062cf14f>, <https://ckan.govdata.de/dataset/7114d966-cc5b-4d6b-9762-1f895181566f/resource/7254dcbe-4096-42e8-b77d-8494f852f9ec> ;
+    <http://www.w3.org/ns/dcat#keyword> "Daten über Anlieferung von Zuckerrüben_Zuckergehalt und Schmutzanhang_Herstellung von Zucker" ;
+    <http://www.w3.org/ns/dcat#landingPage> <http://www.ble.de/DE/BZL/Daten-Berichte/Zucker/_functions/TabelleZuckerkampagne2004-2015.html?nn=8907020> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ECON> .
+
+<https://ckan.govdata.de/dataset/7114d966-cc5b-4d6b-9762-1f895181566f/resource/2a4721b7-b1b8-4964-8e24-0df81c883529>
+    <http://purl.org/dc/terms/description> "Zuckerkampagneschlussberichtsdaten über Anlieferung und Verarbeitung von Zuckerrüben, Zuckergehalt und Schmutzanhang, Herstellung von Zucker," ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Zuckerkampagne_2014_2015_Grafik" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/zuckerkampagne-schlussbericht-2014/resource/4be5cf8f-4b3d-454f-a2e8-9d207835ed08> .
+
+<https://ckan.govdata.de/dataset/7114d966-cc5b-4d6b-9762-1f895181566f/resource/4b884466-542d-4a1e-a7e8-d887973a95c0>
+    <http://purl.org/dc/terms/description> "Daten über Anlieferung von Zuckerrüben, Zuckergehalt und Schmutzanhang, Herstellung von Zucker," ;
+    <http://purl.org/dc/terms/format> "CSV" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Zuckerkampagne Schlussbericht 2014" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/zuckerkampagne-schlussbericht-2014/resource/e07182e9-531d-4710-a0f0-da6256012a51> .
+
+<https://ckan.govdata.de/dataset/7114d966-cc5b-4d6b-9762-1f895181566f/resource/6c6484ad-ddd2-42ae-ae11-1771062cf14f>
+    <http://purl.org/dc/terms/description> " Daten über Anlieferung von Zuckerrüben, Zuckergehalt und Schmutzanhang, Herstellung von Zucker," ;
+    <http://purl.org/dc/terms/format> "XLS" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Zuckerkampagne Schlussbericht 2014" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/zuckerkampagne-schlussbericht-2014/resource/f6b4552c-d0f8-4d2b-8dcb-b642c604ff16> .
+
+<https://ckan.govdata.de/dataset/7114d966-cc5b-4d6b-9762-1f895181566f/resource/7254dcbe-4096-42e8-b77d-8494f852f9ec>
+    <http://purl.org/dc/terms/description> "Zuckerkampagneschlussberichtsdaten über Anlieferung und Verarbeitung von Zuckerrüben, Zuckergehalt und Schmutzanhang, Herstellung von Zucker," ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Zuckerkampagne_2014_2015_Grafik_mit_weiteren_Daten" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/zuckerkampagne-schlussbericht-2014/resource/20fd3edc-3239-4bcd-ad9f-c592869020cf> .
+
+<https://ckan.govdata.de/dataset/7582618d-2a08-40a5-9ada-a3f2f2f68284>
+    <http://dcat-ap.de/def/dcatde/contributorID> <http://www.govdata.de/> ;
+    <http://dcat-ap.de/def/dcatde/politicalGeocodingLevelURI> <http://dcat-ap.de/def/politicalGeocoding/Level/municipality> ;
+    <http://purl.org/dc/terms/description> "Die Berlinwahlkarte zeigt die Wahlergebnisse der Abgeordnetenhauswahl 2011 grafisch aufbereitet in einer Karte dar. Viele Filtermöglichkeiten helfem dem Nutzer, die zahlreichen erhobenen Wahldaten zu überblicken und die gesuchten Informationen zu finden." ;
+    <http://purl.org/dc/terms/identifier> "7582618d-2a08-40a5-9ada-a3f2f2f68284" ;
+    <http://purl.org/dc/terms/issued> "2013-02-17T01:53:59.244624"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2017-12-04T18:48:31.479251"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/de77b38e-b398-4fed-a0ff-07ad83889ffe> ;
+    <http://purl.org/dc/terms/relation> <http://daten.berlin.de/datensaetze/berliner-wahlen-2011-vorl%C3%A4ufiges-ergebnis-abgeordnetenhaus-und> ;
+    <http://purl.org/dc/terms/title> "Berlinwahlkarte" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#keyword> "wahlen", "wahlergebnissse" ;
+    <http://www.w3.org/ns/dcat#landingPage> <http://www.morgenpost.de/berlinwahlkarte> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/GOVE> .
+
+<https://ckan.govdata.de/dataset/7713a676-e1d1-4614-9102-cbd46250850d>
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/name> "Bundesanstalt für Landwirtschaft und Ernährung"
+    ] ;
+    <http://purl.org/dc/terms/description> "Daten über Anbau und Ernte, Erzeugerbilanz, Marktbilanz und Gesamtbilanz 2010/2011" ;
+    <http://purl.org/dc/terms/identifier> "7713a676-e1d1-4614-9102-cbd46250850d" ;
+    <http://purl.org/dc/terms/issued> "2016-08-29T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2016-08-29T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/1a022d02-5960-454a-8fc6-0562e099d734> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2011-06-30T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2010-07-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "Versorgungsbilanz Getreide 2010/2011" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundesanstalt für Landwirtschaft und Ernährung"
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/7713a676-e1d1-4614-9102-cbd46250850d/resource/0bacda41-365a-435e-b0c4-232e1b98908a>, <https://ckan.govdata.de/dataset/7713a676-e1d1-4614-9102-cbd46250850d/resource/f9776030-4b92-4b77-b77e-155cc13e3293> ;
+    <http://www.w3.org/ns/dcat#keyword> "Erzeugerbilanz Getreide", "Getreideanbau", "Getreideernte", "Markt- und Gesamtbilanz Getreide" ;
+    <http://www.w3.org/ns/dcat#landingPage> <http://www.ble.de/DE/BZL/Daten-Berichte/Getreide-Getreideerzeugnisse/getreide-getreideerzeugnisse_node.html%3Bjsessionid=6103C7AE666D43113ECF2C99CEE60B34.2_cid335> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ECON> .
+
+<https://ckan.govdata.de/dataset/7713a676-e1d1-4614-9102-cbd46250850d/resource/0bacda41-365a-435e-b0c4-232e1b98908a>
+    <http://purl.org/dc/terms/format> "CSV" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Versorgungsbilanz Getreide 2010/2011 " ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/versorgungsbilanz-getreide-2010-2011> .
+
+<https://ckan.govdata.de/dataset/7713a676-e1d1-4614-9102-cbd46250850d/resource/f9776030-4b92-4b77-b77e-155cc13e3293>
+    <http://purl.org/dc/terms/format> "XLS" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Versorgungsbilanz Getreide 2010/2011 " ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/versorgungsbilanz-getreide-2010-2011> .
+
+<https://ckan.govdata.de/dataset/7cc61f71-9533-482d-b7f8-48aa8984795f>
+    <http://dcat-ap.de/def/dcatde/geocodingDescription> "" ;
+    <http://dcat-ap.de/def/dcatde/politicalGeocodingLevelURI> <https://ckan.govdata.degermanfederation> ;
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/name> "Bundesamt für Justiz"
+    ] ;
+    <http://purl.org/dc/terms/description> "Mit der Übersicht „GZR-Daten zur Schwarzarbeit 2013“ legt das Bundesamt für Justiz das Ergebnis von Auswertungen der im Jahr 2013 in die Teilregister über natürliche Personen sowie juristische Personen und Personenvereinigungen des Gewerbezentralregisters eingetragenen Bußgeldentscheidungen wegen Ordnungswidrigkeiten im Bereich der Schwarzarbeit vor. Der Datensatz weist alle Bußgeldentscheidungen gegen natürliche Personen aus, die im Auswertungsjahr nach § 8 Abs. 1 Nr. 2 i. V. m. § 8 Abs. 1 Nr. 1e Schwarzarbeitsbekämpfungsgesetz (SchwarzArbG) in das Gewerbezentralregister eingetragen wurden. Die Eintragungen sind nach Bund/Länder differenziert." ;
+    <http://purl.org/dc/terms/identifier> "7cc61f71-9533-482d-b7f8-48aa8984795f" ;
+    <http://purl.org/dc/terms/issued> "2014-06-30T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2015-04-28T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/8704e42f-6607-4435-8245-1e45806b4769> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2013-12-31T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2013-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "GZR-Daten zur Schwarzarbeit 2013 - Bußgeldentscheidungen nach § 8 Abs. 1 Nr. 2 i. V. m. § 8 Abs. 1 Nr. 1e SchwarzArbG - natürliche Personen - Bund/Länder" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundesamt für Justiz"
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/7cc61f71-9533-482d-b7f8-48aa8984795f/resource/03089318-4218-4869-8c59-e80beb173592>, <https://ckan.govdata.de/dataset/7cc61f71-9533-482d-b7f8-48aa8984795f/resource/4bf43ee9-7db6-472c-873c-97de8bd69818> ;
+    <http://www.w3.org/ns/dcat#keyword> "bugeldentscheidungen", "gewerbezentralregister", "schwarzarbeit", "schwarzarbeitsbekämpfungsgesetz" ;
+    <http://www.w3.org/ns/dcat#landingPage> <https://www.bundesjustizamt.de/DE/Themen/Buergerdienste/GZR/Statistik/Statistik_node.html> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ECON>, <http://publications.europa.eu/resource/authority/data-theme/JUST> .
+
+<https://ckan.govdata.de/dataset/7cc61f71-9533-482d-b7f8-48aa8984795f/resource/03089318-4218-4869-8c59-e80beb173592>
+    <http://purl.org/dc/terms/format> "CSV" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://www.bundesjustizamt.de/DE/SharedDocs/Publikationen/GovData/GZR/2013/CSV/GZRnat_Tab14.csv?__blob=publicationFile> .
+
+<https://ckan.govdata.de/dataset/7cc61f71-9533-482d-b7f8-48aa8984795f/resource/4bf43ee9-7db6-472c-873c-97de8bd69818>
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://www.bundesjustizamt.de/DE/SharedDocs/Publikationen/GovData/GZR/2013/PDF/GZRnat_Tab14.pdf?__blob=publicationFile> .
+
+<https://ckan.govdata.de/dataset/95d121aa-86d7-4f02-a271-c70937846aa2>
+    <http://dcat-ap.de/def/dcatde/geocodingDescription> "" ;
+    <http://dcat-ap.de/def/dcatde/politicalGeocodingLevelURI> <https://ckan.govdata.degermanfederation> ;
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/homepage> <https://www.bundeswahlleiter.de/europawahlen/2014/ergebnisse/bund-99.html> ;
+        <http://xmlns.com/foaf/0.1/mbox> "post@bundeswahlleiter.de" ;
+        <http://xmlns.com/foaf/0.1/name> "Bundeswahlleiter"
+    ] ;
+    <http://purl.org/dc/terms/description> "Amtliche Ergebnisse der Wahl zum 8. Europäischen Parlament 2014 in Deutschland" ;
+    <http://purl.org/dc/terms/identifier> "95d121aa-86d7-4f02-a271-c70937846aa2" ;
+    <http://purl.org/dc/terms/issued> "2014-05-26T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2014-06-20T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/a9c59aac-5fc1-47d2-a94e-b1070e8a5fc8> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2014-05-26T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2014-05-25T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "Europawahl 2014, Ergebnisse der Bundesrepublik Deutschland" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundeswahlleiter" ;
+        <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:post@bundeswahlleiter.de>
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/95d121aa-86d7-4f02-a271-c70937846aa2/resource/e1c572cb-ddee-4b06-896a-cdb2b28c7453>, <https://ckan.govdata.de/dataset/95d121aa-86d7-4f02-a271-c70937846aa2/resource/e600ac1a-49df-477a-a4bf-81d4271f3bff> ;
+    <http://www.w3.org/ns/dcat#keyword> "Ergebnisse", "Europawahl", "Kreis", "Kreisergebnisse", "Wahl", "Wahlkreis" ;
+    <http://www.w3.org/ns/dcat#landingPage> <https://bundeswahlleiter.de/europawahlen/2014/ergebnisse.html> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/GOVE> .
+
+<https://ckan.govdata.de/dataset/95d121aa-86d7-4f02-a271-c70937846aa2/resource/e1c572cb-ddee-4b06-896a-cdb2b28c7453>
+    <http://purl.org/dc/terms/description> "Endgültiges Ergebnis nach Wahlkreisen als CSV-Datei" ;
+    <http://purl.org/dc/terms/format> "CSV" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://www.bundeswahlleiter.de/dam/jcr/b8f92809-3aa0-4391-953b-00de193ace43/ew14_kerg.csv> .
+
+<https://ckan.govdata.de/dataset/95d121aa-86d7-4f02-a271-c70937846aa2/resource/e600ac1a-49df-477a-a4bf-81d4271f3bff>
+    <http://purl.org/dc/terms/description> "Endgültiges Ergebnis als PDF-Datei" ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://www.bundeswahlleiter.de/dam/jcr/ce6da9e1-31a4-4856-9d16-f4baef0d3d6f/ew14_heft3.pdf> .
+
+<https://ckan.govdata.de/dataset/9a0b85ab-f7b9-4395-8a82-caf0b9fae9f3>
+    <http://dcat-ap.de/def/dcatde/contributorID> <http://www.govdata.de/> ;
+    <http://dcat-ap.de/def/dcatde/politicalGeocodingLevelURI> <http://dcat-ap.de/def/politicalGeocoding/Level/municipality> ;
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/mbox> "wahlamt@ulm.de" ;
+        <http://xmlns.com/foaf/0.1/name> "Stadt Ulm, Bürgerdienste/Statistik und Wahlen"
+    ] ;
+    <http://purl.org/dc/terms/description> "Ergebnisse vder Kommunalwahl 2009 in Ulm" ;
+    <http://purl.org/dc/terms/identifier> "9a0b85ab-f7b9-4395-8a82-caf0b9fae9f3" ;
+    <http://purl.org/dc/terms/issued> "2009-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2017-12-04T18:15:04.943735"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/de77b38e-b398-4fed-a0ff-07ad83889ffe> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "1905-07-06T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2009-06-07T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "Wahlergebnisse Kommunalwahl 2009  Ulm" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Stadt Ulm, Bürgerdienste/Statistik und Wahlen" ;
+        <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:wahlamt@ulm.de>
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/9a0b85ab-f7b9-4395-8a82-caf0b9fae9f3/resource/2bb5c633-cbbd-46e1-af2b-c6e9d1cdc211>, <https://ckan.govdata.de/dataset/9a0b85ab-f7b9-4395-8a82-caf0b9fae9f3/resource/46b138b3-c72e-47ba-956a-5277d92db7fe>, <https://ckan.govdata.de/dataset/9a0b85ab-f7b9-4395-8a82-caf0b9fae9f3/resource/d834366e-505d-4ee5-8232-46aaccaca438> ;
+    <http://www.w3.org/ns/dcat#keyword> "2009", "gemeinderatswahlen", "gr", "gr-wahlen", "kommunalwahlen", "stadtratswahlen", "ulm", "wahlen", "wahlergebnissse", "wahlstatistik" ;
+    <http://www.w3.org/ns/dcat#landingPage> <http://www.ulm.de/politik_verwaltung/rathaus/kommunalwahl.3790.3076%2C3571%2C3744%2C4323%2C3790.htm> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/GOVE> .
+
+<https://ckan.govdata.de/dataset/9a0b85ab-f7b9-4395-8a82-caf0b9fae9f3/resource/2bb5c633-cbbd-46e1-af2b-c6e9d1cdc211>
+    <http://purl.org/dc/terms/description> "JS" ;
+    <http://purl.org/dc/terms/format> "JS" ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/cc-by> ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <http://www.wahl.ulm.de/gr2009/javascript/index.html> .
+
+<https://ckan.govdata.de/dataset/9a0b85ab-f7b9-4395-8a82-caf0b9fae9f3/resource/46b138b3-c72e-47ba-956a-5277d92db7fe>
+    <http://purl.org/dc/terms/description> "Ergebnisse der Kommunalwahl im html-Format" ;
+    <http://purl.org/dc/terms/format> "HTML" ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/cc-by> ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <http://www.wahl.ulm.de/gr2009/html/gr2009.html> .
+
+<https://ckan.govdata.de/dataset/9a0b85ab-f7b9-4395-8a82-caf0b9fae9f3/resource/d834366e-505d-4ee5-8232-46aaccaca438>
+    <http://purl.org/dc/terms/description> "Sonderveröffentlichung zur Kommunalwahl 2009" ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/cc-by> ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <http://www.ulm.de/politik_verwaltung/rathaus/kommunalwahl.3790.3076%2C3571%2C3744%2C4323%2C3790.htm> .
+
+<https://ckan.govdata.de/dataset/9fb46ebb-e2ef-418d-bb65-31056677a4be>
+    <http://dcat-ap.de/def/dcatde/geocodingDescription> "" ;
+    <http://dcat-ap.de/def/dcatde/politicalGeocodingLevelURI> <https://ckan.govdata.degermanfederation> ;
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/name> "Bundesamt für Justiz"
+    ] ;
+    <http://purl.org/dc/terms/description> "Mit der Übersicht „GZR-Daten zur Schwarzarbeit 2013“ legt das Bundesamt für Justiz das Ergebnis von Auswertungen der im Jahr 2013 in die Teilregister über natürliche Personen sowie juristische Personen und Personenvereinigungen des Gewerbezentralregisters eingetragenen Bußgeldentscheidungen wegen Ordnungswidrigkeiten im Bereich der Schwarzarbeit vor. Der Datensatz weist alle Bußgeldentscheidungen gegen juristische Personen aus, die im Auswertungsjahr nach § 149 Abs. 2 Satz 1 Nr. 3 GewO in das Gewerbezentralregister eingetragen wurden. Die Eintragungen sind nach Gewerbezweigen differenziert." ;
+    <http://purl.org/dc/terms/identifier> "9fb46ebb-e2ef-418d-bb65-31056677a4be" ;
+    <http://purl.org/dc/terms/issued> "2014-06-30T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2015-04-28T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/8704e42f-6607-4435-8245-1e45806b4769> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2013-12-31T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2013-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "GZR-Daten zur Schwarzarbeit 2013 - Bußgeldentscheidungen i. S. d. § 149 Abs. 2 Satz 1 Nr. 3 GewO - juristische Personen - Gewerbezweige" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundesamt für Justiz"
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/9fb46ebb-e2ef-418d-bb65-31056677a4be/resource/85273331-9c2f-459f-93cd-dd53d14550e4>, <https://ckan.govdata.de/dataset/9fb46ebb-e2ef-418d-bb65-31056677a4be/resource/fe1eb3b0-90df-40a2-8735-7e899ea6afcd> ;
+    <http://www.w3.org/ns/dcat#keyword> "bugeldentscheidungen", "gewerbeordnung", "gewerbezentralregister", "schwarzarbeit" ;
+    <http://www.w3.org/ns/dcat#landingPage> <https://www.bundesjustizamt.de/DE/Themen/Buergerdienste/GZR/Statistik/Statistik_node.html> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ECON>, <http://publications.europa.eu/resource/authority/data-theme/JUST> .
+
+<https://ckan.govdata.de/dataset/9fb46ebb-e2ef-418d-bb65-31056677a4be/resource/85273331-9c2f-459f-93cd-dd53d14550e4>
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://www.bundesjustizamt.de/DE/SharedDocs/Publikationen/GovData/GZR/2013/PDF/GZRjur_Tab01.pdf?__blob=publicationFile> .
+
+<https://ckan.govdata.de/dataset/9fb46ebb-e2ef-418d-bb65-31056677a4be/resource/fe1eb3b0-90df-40a2-8735-7e899ea6afcd>
+    <http://purl.org/dc/terms/format> "CSV" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://www.bundesjustizamt.de/DE/SharedDocs/Publikationen/GovData/GZR/2013/CSV/GZRjur_Tab01.csv?__blob=publicationFile> .
+
+<https://ckan.govdata.de/dataset/a0095280-d022-40a5-9fc8-f8da411b2a80>
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/homepage> <http://www.ble.de/DE/BZL/Daten-Berichte/Getreide-Getreideerzeugnisse/_functions/TabelleMonatlicheErgebnisse2015-2016.html?nn=8907004> ;
+        <http://xmlns.com/foaf/0.1/mbox> "422@ble.de" ;
+        <http://xmlns.com/foaf/0.1/name> "Bundesanstalt für Landwirtschaft und Ernährung"
+    ] ;
+    <http://purl.org/dc/terms/description> "Muehlennachprodukte in Mahl- und Hartweizenmuehlen nach Regionen (Nord, West, Sued, Ost) und Warenarten (Weichweizen und Spelz, Roggen, Hartweizen)" ;
+    <http://purl.org/dc/terms/identifier> "a0095280-d022-40a5-9fc8-f8da411b2a80" ;
+    <http://purl.org/dc/terms/issued> "2016-08-26T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2016-08-26T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/1a022d02-5960-454a-8fc6-0562e099d734> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2016-06-30T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2015-07-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "Muehlennachprodukte in Mahl- und Hartweizenmuehlen 2015_2016" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundesanstalt für Landwirtschaft und Ernährung" ;
+        <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:422@ble.de>
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/a0095280-d022-40a5-9fc8-f8da411b2a80/resource/3ca87831-a09f-425f-b4a4-7ab807121525>, <https://ckan.govdata.de/dataset/a0095280-d022-40a5-9fc8-f8da411b2a80/resource/a3dbda50-25a9-4a59-b655-29d077cb5524>, <https://ckan.govdata.de/dataset/a0095280-d022-40a5-9fc8-f8da411b2a80/resource/d92e8afd-dc1a-491f-94c6-e58914bbdfbb> ;
+    <http://www.w3.org/ns/dcat#keyword> "Hartweizenmuehlen", "Mahlmuehle", "Muehle", "Muehlennachprodukte", "Nachprodukte" ;
+    <http://www.w3.org/ns/dcat#landingPage> <http://www.ble.de/DE/BZL/Daten-Berichte/Getreide-Getreideerzeugnisse/_functions/TabelleMonatlicheErgebnisse2015-2016.html?nn=8907004> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ECON> .
+
+<https://ckan.govdata.de/dataset/a0095280-d022-40a5-9fc8-f8da411b2a80/resource/3ca87831-a09f-425f-b4a4-7ab807121525>
+    <http://purl.org/dc/terms/description> "Muehlennachprodukte in Mahl- und Hartweizenmuehlen nach Regionen (Nord, West, Sued, Ost) und Warenarten (Weichweizen und Spelz, Roggen, Hartweizen)" ;
+    <http://purl.org/dc/terms/format> "XLS" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Muehlennachprodukte in Mahl- und Hartweizenmuehlen 2015_2016 " ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/muehlennachprodukte-in-mahl-und-hartweizenmuehlen-2015-2016/resource/51ea387b-63a7-41ec-af9e-384a897ef1f1> .
+
+<https://ckan.govdata.de/dataset/a0095280-d022-40a5-9fc8-f8da411b2a80/resource/a3dbda50-25a9-4a59-b655-29d077cb5524>
+    <http://purl.org/dc/terms/description> "Muehlennachprodukte in Mahl- und Hartweizenmuehlen nach Regionen (Nord, West, Sued, Ost) und Warenarten (Weichweizen und Spelz, Roggen, Hartweizen)" ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Muehlennachprodukte in Mahl- und Hartweizenmuehlen 2015_2016_Grafik " ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/muehlennachprodukte-in-mahl-und-hartweizenmuehlen-2015-2016/resource/8b009fee-53ab-4759-9426-f76e932a0255> .
+
+<https://ckan.govdata.de/dataset/a0095280-d022-40a5-9fc8-f8da411b2a80/resource/d92e8afd-dc1a-491f-94c6-e58914bbdfbb>
+    <http://purl.org/dc/terms/description> "Muehlennachprodukte in Mahl- und Hartweizenmuehlen nach Regionen (Nord, West, Sued, Ost) und Warenarten (Weichweizen und Spelz, Roggen, Hartweizen)" ;
+    <http://purl.org/dc/terms/format> "CSV" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Muehlennachprodukte in Mahl- und Hartweizenmuehlen 2015_2016 " ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/muehlennachprodukte-in-mahl-und-hartweizenmuehlen-2015-2016/resource/ec83714c-724b-40b2-9a83-8f760b3992b3> .
+
+<https://ckan.govdata.de/dataset/a60808c8-8179-4a9c-9d09-d391cbd0ecaa>
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/name> "Bundesanstalr für Landwirtschaft und Ernährung"
+    ] ;
+    <http://purl.org/dc/terms/description> "Daten über Anlieferung von Zuckerrüben, Zuckergehalt und Schmutzanhang, Herstellung von Zucker," ;
+    <http://purl.org/dc/terms/identifier> "a60808c8-8179-4a9c-9d09-d391cbd0ecaa" ;
+    <http://purl.org/dc/terms/issued> "2017-04-25T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2017-04-25T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/1a022d02-5960-454a-8fc6-0562e099d734> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2017-09-30T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2016-10-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "Zuckerkampagne Schlussbericht 2016" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundesanstalr für Landwirtschaft und Ernährung"
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/a60808c8-8179-4a9c-9d09-d391cbd0ecaa/resource/7c8ceed0-b8ec-492b-bd0b-74b3a15d6f61>, <https://ckan.govdata.de/dataset/a60808c8-8179-4a9c-9d09-d391cbd0ecaa/resource/7f3f66a5-1688-4351-ac81-676d592e53c7> ;
+    <http://www.w3.org/ns/dcat#keyword> "Zuckergehalt und Schmutzanhang", "Zuckerherstellung", "Zuckerrübenanlieferung" ;
+    <http://www.w3.org/ns/dcat#landingPage> <http://www.ble.de/DE/BZL/Daten-Berichte/Zucker/_functions/TabelleZuckerkampagne2004-2015.html?nn=8907020> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ECON> .
+
+<https://ckan.govdata.de/dataset/a60808c8-8179-4a9c-9d09-d391cbd0ecaa/resource/7c8ceed0-b8ec-492b-bd0b-74b3a15d6f61>
+    <http://purl.org/dc/terms/description> "Daten über Anlieferung von Zuckerrüben, Zuckergehalt und Schmutzanhang, Herstellung von Zucker," ;
+    <http://purl.org/dc/terms/format> "XLS" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> " Zuckerkampagne Schlussbericht 2016" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/zuckerkampagne-schlussbericht-2016> .
+
+<https://ckan.govdata.de/dataset/a60808c8-8179-4a9c-9d09-d391cbd0ecaa/resource/7f3f66a5-1688-4351-ac81-676d592e53c7>
+    <http://purl.org/dc/terms/description> "Daten über Anlieferung von Zuckerrüben, Zuckergehalt und Schmutzanhang, Herstellung von Zucker," ;
+    <http://purl.org/dc/terms/format> "CSV" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> " Zuckerkampagne Schlussbericht 2016" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/zuckerkampagne-schlussbericht-2016> .
+
+<https://ckan.govdata.de/dataset/a6fb7319-8db5-497d-bb55-85ab00a0335f>
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/homepage> <http://www.datenschutz.bund.de> ;
+        <http://xmlns.com/foaf/0.1/mbox> "poststelle@bfdi.bund.de" ;
+        <http://xmlns.com/foaf/0.1/name> "Bundesbeauftragte für den Datenschutz und die Informationsfreiheit"
+    ] ;
+    <http://purl.org/dc/terms/description> "Tätigkeitsbericht 1993 und 1994 des Bundesbeauftragten für den Datenschutz" ;
+    <http://purl.org/dc/terms/identifier> "a6fb7319-8db5-497d-bb55-85ab00a0335f" ;
+    <http://purl.org/dc/terms/issued> "2016-05-19T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2016-05-19T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/96a8fe21-8668-4ac0-af3f-7bc7258132fa> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "1994-12-31T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "1993-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "15. Tätigkeitsbericht zum Datenschutz 1993 - 1994" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundesbeauftragte für den Datenschutz und die Informationsfreiheit" ;
+        <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:poststelle@bfdi.bund.de>
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/a6fb7319-8db5-497d-bb55-85ab00a0335f/resource/1c12b356-889c-464a-9f15-be271563c814> ;
+    <http://www.w3.org/ns/dcat#keyword> "BDSG", "BfDI", "Datenschutz", "Tätigkeitsbericht" ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/GOVE> .
+
+<https://ckan.govdata.de/dataset/a6fb7319-8db5-497d-bb55-85ab00a0335f/resource/1c12b356-889c-464a-9f15-be271563c814>
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <http://www.bfdi.bund.de/SharedDocs/Publikationen/Taetigkeitsberichte/TB_BfDI/15TB_93_94.pdf?__blob=publicationFile&v=3> .
+
+<https://ckan.govdata.de/dataset/d3859cc9-9df7-4810-9590-adbaff2864d1>
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/homepage> <http://www.ble.de/DE/BZL/Daten-Berichte/Getreide-Getreideerzeugnisse/_functions/TabelleMonatlicheErgebnisse2012-2013.html?nn=8907004> ;
+        <http://xmlns.com/foaf/0.1/mbox> "422@ble.de" ;
+        <http://xmlns.com/foaf/0.1/name> "Bundesanstalt für Landwirtschaft und Ernährung"
+    ] ;
+    <http://purl.org/dc/terms/description> "Muehlennachprodukte in Mahl- und Hartweizenmuehlen nach Regionen (Nord, West, Sued, Ost) und Warenarten (Weichweizen und Spelz, Roggen, Hartweizen)" ;
+    <http://purl.org/dc/terms/identifier> "d3859cc9-9df7-4810-9590-adbaff2864d1" ;
+    <http://purl.org/dc/terms/issued> "2013-10-18T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2013-10-18T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/1a022d02-5960-454a-8fc6-0562e099d734> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2013-06-30T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2012-07-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "Muehlennachprodukte in Mahl- und Hartweizenmuehlen nach Regionen 2012-2013" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundesanstalt für Landwirtschaft und Ernährung" ;
+        <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:422@ble.de>
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/d3859cc9-9df7-4810-9590-adbaff2864d1/resource/4ece40ad-f6c7-4a54-a395-18de0dc88ed3>, <https://ckan.govdata.de/dataset/d3859cc9-9df7-4810-9590-adbaff2864d1/resource/72bf6f68-92df-4510-900b-956a794eb13d>, <https://ckan.govdata.de/dataset/d3859cc9-9df7-4810-9590-adbaff2864d1/resource/fe316a1d-473c-43c7-988b-712a172f9ad8> ;
+    <http://www.w3.org/ns/dcat#keyword> "Hartweizenmuehlen", "Mahlmuehlen", "Muehlen", "Muehlennachprodukte", "Regionen" ;
+    <http://www.w3.org/ns/dcat#landingPage> <http://www.ble.de/DE/BZL/Daten-Berichte/Getreide-Getreideerzeugnisse/_functions/TabelleMonatlicheErgebnisse2012-2013.html?nn=8907004> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ECON> .
+
+<https://ckan.govdata.de/dataset/d3859cc9-9df7-4810-9590-adbaff2864d1/resource/4ece40ad-f6c7-4a54-a395-18de0dc88ed3>
+    <http://purl.org/dc/terms/description> "Muehlennachprodukte in Mahl- und Hartweizenmuehlen nach Regionen (Nord, West, Sued, Ost) und Warenarten (Weichweizen und Spelz, Roggen, Hartweizen)" ;
+    <http://purl.org/dc/terms/format> "XLS" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-zero-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Muehlennachprodukte in Mahl- und Hartweizenmuehlen nach Regionen 2012-2013" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/muehlennachprodukte-in-mahl-und-hartweizenmuehlen-2012-2013/resource/e01bbd1c-79a8-415d-9141-bb199662b65c> .
+
+<https://ckan.govdata.de/dataset/d3859cc9-9df7-4810-9590-adbaff2864d1/resource/72bf6f68-92df-4510-900b-956a794eb13d>
+    <http://purl.org/dc/terms/description> "Muehlennachprodukte in Mahl- und Hartweizenmuehlen nach Regionen (Nord, West, Sued, Ost) und Warenarten (Weichweizen und Spelz, Roggen, Hartweizen)_Grafik" ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-zero-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Muehlennachprodukte_Mahl_Hartweizenmuehlen_2012_2013_Grafik" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/muehlennachprodukte-in-mahl-und-hartweizenmuehlen-2012-2013/resource_edit/35a24728-7b11-420f-826e-8aa778cf32ac> .
+
+<https://ckan.govdata.de/dataset/d3859cc9-9df7-4810-9590-adbaff2864d1/resource/fe316a1d-473c-43c7-988b-712a172f9ad8>
+    <http://purl.org/dc/terms/description> "Muehlennachprodukte in Mahl- und Hartweizenmuehlen nach Regionen (Nord, West, Sued, Ost) und Warenarten (Weichweizen und Spelz, Roggen, Hartweizen)" ;
+    <http://purl.org/dc/terms/format> "CSV" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-zero-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Muehlennachprodukte in Mahl- und Hartweizenmuehlen nach Regionen 2012-2013" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/muehlennachprodukte-in-mahl-und-hartweizenmuehlen-2012-2013/resource/6f45d556-ac80-4e49-821a-c8429686e7e2> .
+
+<https://ckan.govdata.de/dataset/d5be50fc-d30d-4bc4-ab0f-cd41cd828090>
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/homepage> <http://www.ble.de/DE/BZL/Daten-Berichte/Zucker/_functions/TabelleZuckerkampagne2004-2015.html?nn=8907020> ;
+        <http://xmlns.com/foaf/0.1/mbox> "422@ble.de" ;
+        <http://xmlns.com/foaf/0.1/name> "Bundesanstalt für Landwirtschaft und Ernährung"
+    ] ;
+    <http://purl.org/dc/terms/description> "  Daten über Anlieferung von Zuckerrüben, Zuckergehalt und Schmutzanhang, Herstellung von Zucker" ;
+    <http://purl.org/dc/terms/identifier> "d5be50fc-d30d-4bc4-ab0f-cd41cd828090" ;
+    <http://purl.org/dc/terms/issued> "2014-06-25T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2014-06-25T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/1a022d02-5960-454a-8fc6-0562e099d734> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2014-09-30T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2013-10-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "Zuckerkampagne Schlussbericht 2013" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundesanstalt für Landwirtschaft und Ernährung" ;
+        <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:422@ble.de>
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/d5be50fc-d30d-4bc4-ab0f-cd41cd828090/resource/854e2db5-43b0-423f-81af-00ba9ad62f8d>, <https://ckan.govdata.de/dataset/d5be50fc-d30d-4bc4-ab0f-cd41cd828090/resource/a4b69f9c-0fb2-41bd-8bbe-364d2fcfe41b>, <https://ckan.govdata.de/dataset/d5be50fc-d30d-4bc4-ab0f-cd41cd828090/resource/c1d218fe-220f-4224-b4f4-4eb303beb4df>, <https://ckan.govdata.de/dataset/d5be50fc-d30d-4bc4-ab0f-cd41cd828090/resource/ef58d627-8dc5-4c3f-947d-2024be1a84c7> ;
+    <http://www.w3.org/ns/dcat#keyword> "Zuckerrübenanlieferung_Zuckergehalt und Schmutzanhang_Zuckerherstellung" ;
+    <http://www.w3.org/ns/dcat#landingPage> <http://www.ble.de/DE/BZL/Daten-Berichte/Zucker/_functions/TabelleZuckerkampagne2004-2015.html?nn=8907020> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ECON> .
+
+<https://ckan.govdata.de/dataset/d5be50fc-d30d-4bc4-ab0f-cd41cd828090/resource/854e2db5-43b0-423f-81af-00ba9ad62f8d>
+    <http://purl.org/dc/terms/description> "Zuckerkampagneschlussberichtsdaten über Anlieferung von Zuckerrüben, Zuckergehalt und Schmutzanhang, Herstellung von Zucker," ;
+    <http://purl.org/dc/terms/format> "XLS" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> " Zuckerkampagne Schlussbericht 2013 " ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/zuckerkampagne-schlussbericht-2013/resource/20252465-b003-487e-87ae-61b406139157> .
+
+<https://ckan.govdata.de/dataset/d5be50fc-d30d-4bc4-ab0f-cd41cd828090/resource/a4b69f9c-0fb2-41bd-8bbe-364d2fcfe41b>
+    <http://purl.org/dc/terms/description> "Zuckerkampagneschlussberichtsdaten über Anlieferung und Verarbeitung von Zuckerrüben, Zuckergehalt und Schmutzanhang, Herstellung von Zucker," ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Zuckerkampagne_2013_2014_Grafik_mit_weiteren_Daten" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/zuckerkampagne-schlussbericht-2013/resource/a22b92c6-950a-4b12-8203-caaef0835e3e> .
+
+<https://ckan.govdata.de/dataset/d5be50fc-d30d-4bc4-ab0f-cd41cd828090/resource/c1d218fe-220f-4224-b4f4-4eb303beb4df>
+    <http://purl.org/dc/terms/description> "Zuckerkampagneschlussberichtsdaten über Anlieferung von Zuckerrüben, Zuckergehalt und Schmutzanhang, Herstellung von Zucker_Grafik" ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Zuckerkampagne_2013_2014_Grafik" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/zuckerkampagne-schlussbericht-2013/resource/5758951c-cc74-4774-b94a-216a16ab9db5> .
+
+<https://ckan.govdata.de/dataset/d5be50fc-d30d-4bc4-ab0f-cd41cd828090/resource/ef58d627-8dc5-4c3f-947d-2024be1a84c7>
+    <http://purl.org/dc/terms/description> "Zuckerkampagneschlussberichtsdaten über Anlieferung von Zuckerrüben, Zuckergehalt und Schmutzanhang, Herstellung von Zucker," ;
+    <http://purl.org/dc/terms/format> "CSV" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> " Zuckerkampagne Schlussbericht 2013 " ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/zuckerkampagne-schlussbericht-2013/resource/1de8aa8e-ac5a-4e2b-bd0f-8b36170f6b5d> .
+
+<https://ckan.govdata.de/dataset/d897de02-5093-406c-a6d4-a7318c10b886>
+    <http://dcat-ap.de/def/dcatde/geocodingDescription> "" ;
+    <http://dcat-ap.de/def/dcatde/politicalGeocodingLevelURI> <https://ckan.govdata.degermanfederation> ;
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/name> "Bundesamt für Justiz"
+    ] ;
+    <http://purl.org/dc/terms/description> "Mit der Übersicht „GZR-Daten zur Schwarzarbeit 2013“ legt das Bundesamt für Justiz das Ergebnis von Auswertungen der im Jahr 2013 in die Teilregister über natürliche Personen sowie juristische Personen und Personenvereinigungen des Gewerbezentralregisters eingetragenen Bußgeldentscheidungen wegen Ordnungswidrigkeiten im Bereich der Schwarzarbeit vor. Der Datensatz weist alle Bußgeldentscheidungen gegen juristische Personen aus, die im Auswertungsjahr nach § 8 Abs. 1 Nr. 2 i. V. m. § 8 Abs. 1 Nr. 1d Schwarzarbeitsbekämpfungsgesetz (SchwarzArbG) in das Gewerbezentralregister eingetragen wurden. Die Eintragungen sind nach Bund/Länder differenziert." ;
+    <http://purl.org/dc/terms/identifier> "d897de02-5093-406c-a6d4-a7318c10b886" ;
+    <http://purl.org/dc/terms/issued> "2014-06-30T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2014-06-30T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/8704e42f-6607-4435-8245-1e45806b4769> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2013-12-31T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2013-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "GZR-Daten zur Schwarzarbeit 2013 - Bußgeldentscheidungen nach § 8 Abs. 1 Nr. 2 i. V. m. § 8 Abs. 1 Nr. 1d SchwarzArbG - juristische Personen - Bund/Länder" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundesamt für Justiz"
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/d897de02-5093-406c-a6d4-a7318c10b886/resource/6da2ade3-f44e-477a-baa5-c4bb773718fd>, <https://ckan.govdata.de/dataset/d897de02-5093-406c-a6d4-a7318c10b886/resource/8429d454-40c9-4411-8dff-21716bf59050> ;
+    <http://www.w3.org/ns/dcat#keyword> "bußgeldentscheidungen", "gewerbezentralregister", "schwarzarbeit", "schwarzarbeitsbekämpfungsgesetz" ;
+    <http://www.w3.org/ns/dcat#landingPage> <https://www.bundesjustizamt.de/DE/Themen/Buergerdienste/GZR/Statistik/Statistik_node.html> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ECON>, <http://publications.europa.eu/resource/authority/data-theme/JUST> .
+
+<https://ckan.govdata.de/dataset/d897de02-5093-406c-a6d4-a7318c10b886/resource/6da2ade3-f44e-477a-baa5-c4bb773718fd>
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://www.bundesjustizamt.de/DE/SharedDocs/Publikationen/GovData/GZR/2013/PDF/GZRjur_Tab12.pdf?__blob=publicationFile> .
+
+<https://ckan.govdata.de/dataset/d897de02-5093-406c-a6d4-a7318c10b886/resource/8429d454-40c9-4411-8dff-21716bf59050>
+    <http://purl.org/dc/terms/format> "CSV" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://www.bundesjustizamt.de/DE/SharedDocs/Publikationen/GovData/GZR/2013/CSV/GZRjur_Tab12.csv?__blob=publicationFile> .
+
+<https://ckan.govdata.de/dataset/e08bbee1-cfcb-4f42-a8c1-114b4a5b24b6>
+    <http://dcat-ap.de/def/dcatde/politicalGeocodingLevelURI> <http://dcat-ap.de/def/politicalGeocoding/Level/municipality> ;
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/mbox> "ZSF@ulm.de" ;
+        <http://xmlns.com/foaf/0.1/name> "Stadt Ulm, Zentrale Steuerung/Finanzen"
+    ] ;
+    <http://purl.org/dc/terms/description> """Kommunaler Haushaltsplan nach den Vorschriften des NKHR (Neues Kommunales Haushalts- und Rechnungswesen)
+""" ;
+    <http://purl.org/dc/terms/identifier> "e08bbee1-cfcb-4f42-a8c1-114b4a5b24b6" ;
+    <http://purl.org/dc/terms/issued> "2013-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2013-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/de77b38e-b398-4fed-a0ff-07ad83889ffe> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2013-12-31T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2013-01-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "Haushaltsdaten 2013 Stadt Ulm" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Stadt Ulm, Zentrale Steuerung/Finanzen" ;
+        <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:ZSF@ulm.de>
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/e08bbee1-cfcb-4f42-a8c1-114b4a5b24b6/resource/58768498-31ca-47ea-a60b-42f8d0284d0d>, <https://ckan.govdata.de/dataset/e08bbee1-cfcb-4f42-a8c1-114b4a5b24b6/resource/a971515c-7328-445e-a3de-41f193348bf1>, <https://ckan.govdata.de/dataset/e08bbee1-cfcb-4f42-a8c1-114b4a5b24b6/resource/cc53c82c-b324-4af3-a8e2-23fba09d37f1> ;
+    <http://www.w3.org/ns/dcat#keyword> "2013", "Doppik", "Ergebnishaushalt", "Finanzen", "Finanzhaushalt", "Haushalt", "Haushaltsplan", "NKHR", "Ulm", "Verwaltung" ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/GOVE> .
+
+<https://ckan.govdata.de/dataset/e08bbee1-cfcb-4f42-a8c1-114b4a5b24b6/resource/58768498-31ca-47ea-a60b-42f8d0284d0d>
+    <http://purl.org/dc/terms/description> "investiver Teil des HH-Planes" ;
+    <http://purl.org/dc/terms/format> "XLS" ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/cc-by> ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <http://opendata.service-bw.de/Seiten/offenedatendetail.aspx?mdid=91> .
+
+<https://ckan.govdata.de/dataset/e08bbee1-cfcb-4f42-a8c1-114b4a5b24b6/resource/a971515c-7328-445e-a3de-41f193348bf1>
+    <http://purl.org/dc/terms/description> "kompletter HH-Plan" ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/cc-by> ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <http://www.ulm.de/sixcms/media.php/29/Echtausdruck%202013%20komplett.pdf> .
+
+<https://ckan.govdata.de/dataset/e08bbee1-cfcb-4f42-a8c1-114b4a5b24b6/resource/cc53c82c-b324-4af3-a8e2-23fba09d37f1>
+    <http://purl.org/dc/terms/description> "konsumptiver Teil des HH-Planes" ;
+    <http://purl.org/dc/terms/format> "XLS" ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/cc-by> ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <http://opendata.service-bw.de/Seiten/offenedatendetail.aspx?mdid=92> .
+
+<https://ckan.govdata.de/dataset/e9ce439c-e14f-44e6-af5a-df8abbf5a305>
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/homepage> <http://www.ble.de/DE/BZL/Daten-Berichte/Getreide-Getreideerzeugnisse/_functions/TabelleMonatlicheErgebnisse2009-2010.html?nn=8907004> ;
+        <http://xmlns.com/foaf/0.1/mbox> "422@ble.de" ;
+        <http://xmlns.com/foaf/0.1/name> "Bundesanstalt für Landwirtschaft und Ernährung"
+    ] ;
+    <http://purl.org/dc/terms/description> "Mischfutterherstellung insgesamt nach Nutzungsarten und Regionen 2009-2010 (Nord, Süd, Ost)" ;
+    <http://purl.org/dc/terms/identifier> "e9ce439c-e14f-44e6-af5a-df8abbf5a305" ;
+    <http://purl.org/dc/terms/issued> "2011-11-28T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2011-11-28T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/1a022d02-5960-454a-8fc6-0562e099d734> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2010-06-30T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2009-07-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "Mischfutterherstellung insgesamt nach Nutzungsarten und Regionen 2009-2010" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundesanstalt für Landwirtschaft und Ernährung" ;
+        <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:422@ble.de>
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/e9ce439c-e14f-44e6-af5a-df8abbf5a305/resource/34c592db-a17a-45c7-a5f7-bc9a9339c659>, <https://ckan.govdata.de/dataset/e9ce439c-e14f-44e6-af5a-df8abbf5a305/resource/3a6f9fdb-e13f-4a18-a7fd-08fffd97f01e>, <https://ckan.govdata.de/dataset/e9ce439c-e14f-44e6-af5a-df8abbf5a305/resource/85c5fbe3-de04-4523-969b-5d3752d0ca4b>, <https://ckan.govdata.de/dataset/e9ce439c-e14f-44e6-af5a-df8abbf5a305/resource/8ea663d1-db51-474f-8d5f-0fa1d33d0422>, <https://ckan.govdata.de/dataset/e9ce439c-e14f-44e6-af5a-df8abbf5a305/resource/9f32b95b-fe2b-45d1-a011-48a3bc3c609e>, <https://ckan.govdata.de/dataset/e9ce439c-e14f-44e6-af5a-df8abbf5a305/resource/a7d13013-1216-42c3-b318-190af3c8297b>, <https://ckan.govdata.de/dataset/e9ce439c-e14f-44e6-af5a-df8abbf5a305/resource/c47f899e-8564-493e-876e-613da9e34d5a>, <https://ckan.govdata.de/dataset/e9ce439c-e14f-44e6-af5a-df8abbf5a305/resource/c975feb2-2039-4f09-aa65-f6443c3bb8e4>, <https://ckan.govdata.de/dataset/e9ce439c-e14f-44e6-af5a-df8abbf5a305/resource/ee124c0b-acf2-442c-991a-d0a3e7c5d03f> ;
+    <http://www.w3.org/ns/dcat#keyword> "Mischfutterherstellung", "Nutzungsarten", "Regionen" ;
+    <http://www.w3.org/ns/dcat#landingPage> <http://www.ble.de/DE/BZL/Daten-Berichte/Getreide-Getreideerzeugnisse/_functions/TabelleMonatlicheErgebnisse2009-2010.html?nn=8907004> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ECON> .
+
+<https://ckan.govdata.de/dataset/e9ce439c-e14f-44e6-af5a-df8abbf5a305/resource/34c592db-a17a-45c7-a5f7-bc9a9339c659>
+    <http://purl.org/dc/terms/description> "Mischfutterherstellung für Kälber nach Regionen 2009-2010 (Nord, Süd, Ost)" ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-zero-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Gesamterzeugung_Mischfutterherstellung_Kälber_2009_2010_Regionen" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/mischfutterherstellung-insgesamt-nach-nutzungsarten-und-regionen-2009-2010/resource_edit/13328e8b-81ce-4b84-8a3d-8d8f5eee638a> .
+
+<https://ckan.govdata.de/dataset/e9ce439c-e14f-44e6-af5a-df8abbf5a305/resource/3a6f9fdb-e13f-4a18-a7fd-08fffd97f01e>
+    <http://purl.org/dc/terms/description> "Mischfutterherstellung für Schweine nach Regionen 2009-2010 (Nord, Süd, Ost) " ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-zero-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Gesamterzeugung_Mischfutterherstellung_Schweine_2009_2010_Regionen" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/mischfutterherstellung-insgesamt-nach-nutzungsarten-und-regionen-2009-2010/resource/76182c3d-10f6-4271-952e-fdf10a0f015e> .
+
+<https://ckan.govdata.de/dataset/e9ce439c-e14f-44e6-af5a-df8abbf5a305/resource/85c5fbe3-de04-4523-969b-5d3752d0ca4b>
+    <http://purl.org/dc/terms/description> "Gesamterzeugung der Mischfutterherstellung für Rinder 2009-2010 nach Regionen   (Nord, Süd, Ost, Deutschland)" ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-zero-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Gesamterzeugung_Mischfutterherstellung_Rinder_2009_2010_Regionen" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/mischfutterherstellung-insgesamt-nach-nutzungsarten-und-regionen-2009-2010/resource/c832bbb4-61c1-4a6b-8f37-06e8c95345a1> .
+
+<https://ckan.govdata.de/dataset/e9ce439c-e14f-44e6-af5a-df8abbf5a305/resource/8ea663d1-db51-474f-8d5f-0fa1d33d0422>
+    <http://purl.org/dc/terms/description> "Gesamterzeugung der Mischfutterherstellung Herstellung von sonstigem Mischfutter 2009-2010 nach Regionen (Nord, Süd, Ost, Deutschland)" ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-zero-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Gesamterzeugung_sonstige_Mischfutterherstellung_2009_2010_Regionen" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/mischfutterherstellung-insgesamt-nach-nutzungsarten-und-regionen-2009-2010/resource_edit/394592eb-aadd-4c2d-b1bd-0175fa96800c> .
+
+<https://ckan.govdata.de/dataset/e9ce439c-e14f-44e6-af5a-df8abbf5a305/resource/9f32b95b-fe2b-45d1-a011-48a3bc3c609e>
+    <http://purl.org/dc/terms/description> "Mischfutter_Herstellung_insgesamt_2009_2010" ;
+    <http://purl.org/dc/terms/format> "CSV" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-zero-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Mischfutter_Herstellung_insgesamt_2009_2010" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/mischfutterherstellung-insgesamt-nach-nutzungsarten-und-regionen-2009-2010/resource/e423f849-b91b-45b6-beb3-97e6c37b7d26> .
+
+<https://ckan.govdata.de/dataset/e9ce439c-e14f-44e6-af5a-df8abbf5a305/resource/a7d13013-1216-42c3-b318-190af3c8297b>
+    <http://purl.org/dc/terms/description> "Mischfutter_Herstellung_insgesamt_2009_2010 nach Nutzungsarten und Regionen Nord, Süd, Ost" ;
+    <http://purl.org/dc/terms/format> "XLS" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-zero-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Mischfutter_Herstellung_insgesamt_2009_2010" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/mischfutterherstellung-insgesamt-nach-nutzungsarten-und-regionen-2009-2010/resource/e6be6be8-f4bd-4111-aeff-81e1b1a503ae> .
+
+<https://ckan.govdata.de/dataset/e9ce439c-e14f-44e6-af5a-df8abbf5a305/resource/c47f899e-8564-493e-876e-613da9e34d5a>
+    <http://purl.org/dc/terms/description> "Mischfutterherstellung für Mastgeflügel nach Regionen 2009-2010 (Nord, Süd, Ost) " ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-zero-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Gesamterzeugung_Mischfutterherstellung_Mastgeflügel_2009_2010_Regionen" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/mischfutterherstellung-insgesamt-nach-nutzungsarten-und-regionen-2009-2010/resource/decd2f8d-558a-48a2-bf16-4f5471486db5> .
+
+<https://ckan.govdata.de/dataset/e9ce439c-e14f-44e6-af5a-df8abbf5a305/resource/c975feb2-2039-4f09-aa65-f6443c3bb8e4>
+    <http://purl.org/dc/terms/description> "Mischfutterherstellung für Pferde nach Regionen 2009-2010 (Nord, Süd, Ost)" ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-zero-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Gesamterzeugung_Mischfutterherstellung_Pferde_2009_2010_Regionen" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/mischfutterherstellung-insgesamt-nach-nutzungsarten-und-regionen-2009-2010/resource/49b993aa-8edb-452c-9af7-1a8cecb036be> .
+
+<https://ckan.govdata.de/dataset/e9ce439c-e14f-44e6-af5a-df8abbf5a305/resource/ee124c0b-acf2-442c-991a-d0a3e7c5d03f>
+    <http://purl.org/dc/terms/description> "Mischfutterherstellung für Nutzgeflügen nach Regionen 2009-2010 (Nord, Süd, Ost)" ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-zero-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Gesamterzeugung_Mischfutterherstellung_Nutzgeflügel_2009_2010_Regionen" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/mischfutterherstellung-insgesamt-nach-nutzungsarten-und-regionen-2009-2010/resource/9a6f1270-8dc5-4d7a-9e6a-04122c0443f2> .
+
+<https://ckan.govdata.de/dataset/f0806767-c62a-4697-8b8d-7cbbbc05bee1>
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/homepage> <http://www.ble.de/DE/BZL/Daten-Berichte/Getreide-Getreideerzeugnisse/_functions/TabelleMonatlicheErgebnisse2009-2010.html?nn=8907004> ;
+        <http://xmlns.com/foaf/0.1/mbox> "421@ble.de" ;
+        <http://xmlns.com/foaf/0.1/name> "Bundesanstalt für Landwirtschaft und Ernährung"
+    ] ;
+    <http://purl.org/dc/terms/description> """Übergebietlicher Roggenmehlabsatz 2009/2010 nach Regionen Nord, Südwest, Ost
+""" ;
+    <http://purl.org/dc/terms/identifier> "f0806767-c62a-4697-8b8d-7cbbbc05bee1" ;
+    <http://purl.org/dc/terms/issued> "2011-11-25T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2011-11-25T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/1a022d02-5960-454a-8fc6-0562e099d734> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2010-06-30T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2009-07-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "Übergebietlicher Roggenmehlabsatz 2009/2010 nach Regionen" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundesanstalt für Landwirtschaft und Ernährung" ;
+        <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:421@ble.de>
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/f0806767-c62a-4697-8b8d-7cbbbc05bee1/resource/493ade23-1088-4a3f-90fc-9de1a22c22b7>, <https://ckan.govdata.de/dataset/f0806767-c62a-4697-8b8d-7cbbbc05bee1/resource/6455fbf4-95f2-4c6a-80ce-c5c1729da4c5>, <https://ckan.govdata.de/dataset/f0806767-c62a-4697-8b8d-7cbbbc05bee1/resource/cee95ab5-3502-463c-b8f3-468e86304284> ;
+    <http://www.w3.org/ns/dcat#keyword> "Absatz", "Regionen", "Roggen" ;
+    <http://www.w3.org/ns/dcat#landingPage> <http://www.ble.de/DE/BZL/Daten-Berichte/Getreide-Getreideerzeugnisse/_functions/TabelleMonatlicheErgebnisse2009-2010.html?nn=8907004> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ECON> .
+
+<https://ckan.govdata.de/dataset/f0806767-c62a-4697-8b8d-7cbbbc05bee1/resource/493ade23-1088-4a3f-90fc-9de1a22c22b7>
+    <http://purl.org/dc/terms/description> "Übergebietlicher Roggenmehlabsatz 2009/2010 nach Regionen Nord, Südwest, Ost_Grafik" ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Übergebietlicher Weichweizenmehlabsatz 2009/2010 nach Regionen      " ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/ubergebietlicher-roggenmehlabsatz-2009-2010-nach-regionen/resource/c13ba4ed-f03f-487b-a2c3-cfedba1ea996> .
+
+<https://ckan.govdata.de/dataset/f0806767-c62a-4697-8b8d-7cbbbc05bee1/resource/6455fbf4-95f2-4c6a-80ce-c5c1729da4c5>
+    <http://purl.org/dc/terms/description> "Übergebietlicher Roggenmehlabsatz nach Regionen Nord, Südwest, Ost" ;
+    <http://purl.org/dc/terms/format> "CSV" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> " Übergebietlicher Roggenmehlabsatz 2009/2010 nach Regionen" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/ubergebietlicher-roggenmehlabsatz-2009-2010-nach-regionen/resource/6e057dd6-a8a1-4fe8-9c83-e5830d4b3f97> .
+
+<https://ckan.govdata.de/dataset/f0806767-c62a-4697-8b8d-7cbbbc05bee1/resource/cee95ab5-3502-463c-b8f3-468e86304284>
+    <http://purl.org/dc/terms/description> "Übergebietlicher Roggenmehlabsatz nach Regionen Nord, Südwest, Ost" ;
+    <http://purl.org/dc/terms/format> "XLS" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> " Übergebietlicher Roggenmehlabsatz 2009/2010 nach Regionen" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/ubergebietlicher-roggenmehlabsatz-2009-2010-nach-regionen/resource/2cac8bf9-3510-4a86-a3ff-3f96de88c793> .
+
+<https://ckan.govdata.de/dataset/f8822c1a-cc26-48ac-a2f9-a4056ec767bf>
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/homepage> <http://www.ble.de/DE/BZL/Daten-Berichte/Zucker/_functions/TabelleZuckerkampagne2004-2015.html?nn=8907020> ;
+        <http://xmlns.com/foaf/0.1/mbox> "422@ble.de" ;
+        <http://xmlns.com/foaf/0.1/name> "Bundesanstalt für Landwirtschaft und ernährung"
+    ] ;
+    <http://purl.org/dc/terms/description> "Daten über Anlieferung von Zuckerrüben, Zuckergehalt und Schmutzanhang, Herstellung von Zucker," ;
+    <http://purl.org/dc/terms/identifier> "f8822c1a-cc26-48ac-a2f9-a4056ec767bf" ;
+    <http://purl.org/dc/terms/issued> "2016-03-23T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2016-03-23T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/1a022d02-5960-454a-8fc6-0562e099d734> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2016-09-30T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2015-10-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "Zuckerkampagne Schlussbericht 2015" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundesanstalt für Landwirtschaft und ernährung" ;
+        <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:422@ble.de>
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/f8822c1a-cc26-48ac-a2f9-a4056ec767bf/resource/76c9cc8f-3983-4bed-b278-d995a0f62963>, <https://ckan.govdata.de/dataset/f8822c1a-cc26-48ac-a2f9-a4056ec767bf/resource/88afe357-4a1d-413d-ba6a-f89e1553ab48>, <https://ckan.govdata.de/dataset/f8822c1a-cc26-48ac-a2f9-a4056ec767bf/resource/cd25fb1c-aa8f-480b-9cbb-1017f9a15e0c>, <https://ckan.govdata.de/dataset/f8822c1a-cc26-48ac-a2f9-a4056ec767bf/resource/e1fc61ec-2c97-4e10-958a-7579eb1ec744> ;
+    <http://www.w3.org/ns/dcat#keyword> "Zuckergehalt und Schmutzanhang", "Zuckerherstellung", "Zuckerrübenanlieferung" ;
+    <http://www.w3.org/ns/dcat#landingPage> <http://www.ble.de/DE/BZL/Daten-Berichte/Zucker/_functions/TabelleZuckerkampagne2004-2015.html?nn=8907020> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ECON> .
+
+<https://ckan.govdata.de/dataset/f8822c1a-cc26-48ac-a2f9-a4056ec767bf/resource/76c9cc8f-3983-4bed-b278-d995a0f62963>
+    <http://purl.org/dc/terms/description> "Zuckerkampagneschlussberichtsdaten über Anlieferung und Verarbeitung von Zuckerrüben, Zuckergehalt und Schmutzanhang, Herstellung von Zucker," ;
+    <http://purl.org/dc/terms/format> "CSV" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> " Zuckerkampagne Schlussbericht 2015" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/schlussbericht-2015/resource/c494ee9c-4d32-4c2b-a81a-c903e34edbb1> .
+
+<https://ckan.govdata.de/dataset/f8822c1a-cc26-48ac-a2f9-a4056ec767bf/resource/88afe357-4a1d-413d-ba6a-f89e1553ab48>
+    <http://purl.org/dc/terms/description> "Zuckerkampagneschlussberichtsdaten über Anlieferung und Verarbeitung von Zuckerrüben, Zuckergehalt und Schmutzanhang, Herstellung von Zucker," ;
+    <http://purl.org/dc/terms/format> "XLS" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> " Zuckerkampagne Schlussbericht 2015" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/schlussbericht-2015/resource/3a0de964-1a2c-4fc6-ab15-368a97349981> .
+
+<https://ckan.govdata.de/dataset/f8822c1a-cc26-48ac-a2f9-a4056ec767bf/resource/cd25fb1c-aa8f-480b-9cbb-1017f9a15e0c>
+    <http://purl.org/dc/terms/description> "Zuckerkampagneschlussberichtsdaten über Anlieferung von Zuckerrüben, Zuckergehalt und Schmutzanhang, Herstellung von Zucker," ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Zuckerkampagne_2015_2016_Grafik_mit_weiteren_Daten" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/schlussbericht-2015/resource/166c9dce-1aa5-4c1e-aecf-bace414f1ab3> .
+
+<https://ckan.govdata.de/dataset/f8822c1a-cc26-48ac-a2f9-a4056ec767bf/resource/e1fc61ec-2c97-4e10-958a-7579eb1ec744>
+    <http://purl.org/dc/terms/description> "Zuckerkampagneschlussberichtsdaten über Anlieferung und Verarbeitung von Zuckerrüben, Zuckergehalt und Schmutzanhang, Herstellung von Zucker," ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-by-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Zuckerkampagne_2015_2016_Grafik" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/schlussbericht-2015/resource/a7b8351e-a7db-44f3-876e-e70bcad16408> .
+
+<https://ckan.govdata.de/dataset/fa5153de-c808-4a6d-ba7a-97292ff78168>
+    <http://purl.org/dc/terms/creator> [
+        a <http://xmlns.com/foaf/0.1/Organization> ;
+        <http://xmlns.com/foaf/0.1/homepage> <http://www.ble.de/DE/BZL/Daten-Berichte/Getreide-Getreideerzeugnisse/_functions/TabelleMonatlicheErgebnisse2016-2017.html?nn=8907004> ;
+        <http://xmlns.com/foaf/0.1/mbox> "422@ble.de" ;
+        <http://xmlns.com/foaf/0.1/name> "Bundesanstalt für Landwirtschaft und Ernährung"
+    ] ;
+    <http://purl.org/dc/terms/description> """Bestände der Wirtschaft an Getreide, Getreideerzeugnissen und Reis nach Monaten
+""" ;
+    <http://purl.org/dc/terms/identifier> "fa5153de-c808-4a6d-ba7a-97292ff78168" ;
+    <http://purl.org/dc/terms/issued> "2017-05-19T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/modified> "2015-05-19T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/publisher> <https://ckan.govdata.de/organization/1a022d02-5960-454a-8fc6-0562e099d734> ;
+    <http://purl.org/dc/terms/temporal> [
+        <http://schema.org/endDate> "2017-06-30T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        <http://schema.org/startDate> "2015-07-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        a <http://purl.org/dc/terms/PeriodOfTime>
+    ] ;
+    <http://purl.org/dc/terms/title> "Bestände der Wirtschaft an Getreide, Getreideerzeugnissen und Reis 2015/2016 und 2016/2017" ;
+    a <http://www.w3.org/ns/dcat#Dataset> ;
+    <http://www.w3.org/ns/dcat#contactPoint> [
+        a <http://www.w3.org/2006/vcard/ns#Organization> ;
+        <http://www.w3.org/2006/vcard/ns#fn> "Bundesanstalt für Landwirtschaft und Ernährung" ;
+        <http://www.w3.org/2006/vcard/ns#hasEmail> <mailto:422@ble.de>
+    ] ;
+    <http://www.w3.org/ns/dcat#distribution> <https://ckan.govdata.de/dataset/fa5153de-c808-4a6d-ba7a-97292ff78168/resource/02dcf873-29aa-47ef-a861-0e60f411052a>, <https://ckan.govdata.de/dataset/fa5153de-c808-4a6d-ba7a-97292ff78168/resource/049cc745-b2b7-4164-93d6-284df3c8010c>, <https://ckan.govdata.de/dataset/fa5153de-c808-4a6d-ba7a-97292ff78168/resource/b0d156f0-88df-4e02-b1a5-4f74baa20890>, <https://ckan.govdata.de/dataset/fa5153de-c808-4a6d-ba7a-97292ff78168/resource/e5dc76fc-ea0b-4108-a0ff-08a0231f2564>, <https://ckan.govdata.de/dataset/fa5153de-c808-4a6d-ba7a-97292ff78168/resource/fa20c828-8494-4fe8-8996-bc5e51b09659> ;
+    <http://www.w3.org/ns/dcat#keyword> "Bestände", "Getreide", "Getreideerzeugnisse", "Monate", "Reis" ;
+    <http://www.w3.org/ns/dcat#landingPage> <http://www.ble.de/DE/BZL/Daten-Berichte/Getreide-Getreideerzeugnisse/_functions/TabelleMonatlicheErgebnisse2016-2017.html?nn=8907004> ;
+    <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ECON> .
+
+<https://ckan.govdata.de/dataset/fa5153de-c808-4a6d-ba7a-97292ff78168/resource/02dcf873-29aa-47ef-a861-0e60f411052a>
+    <http://purl.org/dc/terms/description> "Bestände der Wirtschaft an Getreide, Getreideerzeugnissen und Reis nach Monaten" ;
+    <http://purl.org/dc/terms/format> "XLS" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-zero-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Bestände der Wirtschaft an Getreide, Getreideerzeugnissen und Reis 2015/2016 und 2016/2017 " ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/bestande-der-wirtschaft-an-getreide-getreideerzeugnissen-und-reis-2015-2016-und-2016-2017/resource/dd4e0725-4c51-4b35-a5af-19bded136b66> .
+
+<https://ckan.govdata.de/dataset/fa5153de-c808-4a6d-ba7a-97292ff78168/resource/049cc745-b2b7-4164-93d6-284df3c8010c>
+    <http://purl.org/dc/terms/description> "Bestände der Wirtschaft an Getreide, Getreideerzeugnissen und Reis nach Monaten Grafik Getreide" ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-zero-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Grafik_Getreide insgesamt_Bestände der Wirtschaft an Getreide, Getreideerzeugnissen und Reis 2015/2016 und 2016/2017 " ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/bestande-der-wirtschaft-an-getreide-getreideerzeugnissen-und-reis-2015-2016-und-2016-2017/resource/3bc57bd9-10fd-4776-81dd-aa680c5b9cae> .
+
+<https://ckan.govdata.de/dataset/fa5153de-c808-4a6d-ba7a-97292ff78168/resource/b0d156f0-88df-4e02-b1a5-4f74baa20890>
+    <http://purl.org/dc/terms/description> "Bestände der Wirtschaft an Getreide, Getreideerzeugnissen und Reis nach Monaten Grafik Weichweizen" ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-zero-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Grafik_Weichweizen_Bestände der Wirtschaft an Getreide, Getreideerzeugnissen und Reis 2015/2016 und 2016/2017" ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/bestande-der-wirtschaft-an-getreide-getreideerzeugnissen-und-reis-2015-2016-und-2016-2017/resource/edb54b7b-cd51-46bf-a903-4057a6694819> .
+
+<https://ckan.govdata.de/dataset/fa5153de-c808-4a6d-ba7a-97292ff78168/resource/e5dc76fc-ea0b-4108-a0ff-08a0231f2564>
+    <http://purl.org/dc/terms/description> "Bestände der Wirtschaft an Getreide, Getreideerzeugnissen und Reis nach Monaten Grafik Roggen" ;
+    <http://purl.org/dc/terms/format> "PDF" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-zero-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Grafik_Roggen_Bestände der Wirtschaft an Getreide, Getreideerzeugnissen und Reis 2015/2016 und 2016/2017 " ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/bestande-der-wirtschaft-an-getreide-getreideerzeugnissen-und-reis-2015-2016-und-2016-2017/resource/e39cbb77-5725-4110-8b6e-7b4b3b4d7357> .
+
+<https://ckan.govdata.de/dataset/fa5153de-c808-4a6d-ba7a-97292ff78168/resource/fa20c828-8494-4fe8-8996-bc5e51b09659>
+    <http://purl.org/dc/terms/description> "Bestände der Wirtschaft an Getreide, Getreideerzeugnissen und Reis nach Monaten Grafik Weichweizen" ;
+    <http://purl.org/dc/terms/format> "CSV" ;
+    <http://purl.org/dc/terms/language> <http://publications.europa.eu/resource/authority/language/DEU> ;
+    <http://purl.org/dc/terms/license> <http://dcat-ap.de/def/licenses/dl-zero-de/2_0> ;
+    <http://purl.org/dc/terms/title> "Bestände der Wirtschaft an Getreide, Getreideerzeugnissen und Reis 2015/2016 und 2016/2017 " ;
+    a <http://www.w3.org/ns/dcat#Distribution> ;
+    <http://www.w3.org/ns/dcat#accessURL> <https://open-data.ble.de/dataset/bestande-der-wirtschaft-an-getreide-getreideerzeugnissen-und-reis-2015-2016-und-2016-2017/resource/edb54b7b-cd51-46bf-a903-4057a6694819> .
+
+<https://ckan.govdata.de/organization/1a022d02-5960-454a-8fc6-0562e099d734>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <http://xmlns.com/foaf/0.1/name> "Bundesanstalt für Landwirtschaft und Ernährung" .
+
+<https://ckan.govdata.de/organization/8704e42f-6607-4435-8245-1e45806b4769>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <http://xmlns.com/foaf/0.1/name> "Bundesamt für Justiz" .
+
+<https://ckan.govdata.de/organization/96a8fe21-8668-4ac0-af3f-7bc7258132fa>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <http://xmlns.com/foaf/0.1/name> "Die Bundesbeauftragte für den Datenschutz und die Informationsfreiheit" .
+
+<https://ckan.govdata.de/organization/a9c59aac-5fc1-47d2-a94e-b1070e8a5fc8>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <http://xmlns.com/foaf/0.1/name> "Statistisches Bundesamt" .
+
+<https://ckan.govdata.de/organization/de77b38e-b398-4fed-a0ff-07ad83889ffe>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <http://xmlns.com/foaf/0.1/name> "Sonstige" .
+

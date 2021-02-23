@@ -10,21 +10,24 @@
 <https://opendata.jena.de/distribution/IT-Strategie+der+Stadt+Jena+2015-2025>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
+        dcterms:issued  "2016-11-28 14:19:35.505411"^^xsd:dateTime ;
         dcterms:title   "IT-Strategie der Stadt Jena 2015-2025" ;
         cat:accessURL   <https://opendata.jena.de/dataset/b1bdfeb2-674a-4978-a246-f166277a31d6/resource/f0d9a80a-b163-4f9b-9a6c-ae1be982eb1a/download/entwicklung-der-informationstechnologie-der-stadt-jena-20152025.pdf> .
 
 <https://opendata.jena.de/distribution/Points+of+Interest+>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-01-30 16:18:14.715102"^^xsd:dateTime ;
         dcterms:title   "Points of Interest " ;
         cat:accessURL   <https://opendata.jena.de/data/poi.csv> .
 
 <https://opendata.jena.de/distribution/Adressen+verortet>
         a                    cat:Distribution ;
-        dcterms:description  "Adressen der Stadt Jena mit Verortungspunkt, PLZ, Ortsteil und statistischem Bezirk" , "Adressen der Stadt Jena mit Verortungspunkt, PLZ, Ortsteil und statistischem Bezirk." ;
-        dcterms:format       "JSON" , "CSV" ;
+        dcterms:description  "Adressen der Stadt Jena mit Verortungspunkt, PLZ, Ortsteil und statistischem Bezirk." , "Adressen der Stadt Jena mit Verortungspunkt, PLZ, Ortsteil und statistischem Bezirk" ;
+        dcterms:format       "CSV" , "JSON" ;
+        dcterms:issued       "2016-10-17 14:26:45.651147"^^xsd:dateTime , "2016-12-08 16:05:48.101749"^^xsd:dateTime ;
         dcterms:title        "Adressen verortet" ;
-        cat:accessURL        <https://opendata.jena.de/data/adressen.geojson> , <https://opendata.jena.de/data/adressen.csv> .
+        cat:accessURL        <https://opendata.jena.de/data/adressen.csv> , <https://opendata.jena.de/data/adressen.geojson> .
 
 <https://opendata.jena.de/dataset/entsorgung>
         a                    cat:Dataset ;
@@ -33,6 +36,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "entsorgung" ;
         dcterms:description  "Standorte von Entsorgungseinrichtungen (Container, Wertstoffhöfe)\r\n\r\n[Nächste Aktualisierung der Ressourcen](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=11)" ;
+        dcterms:issued       "2016-11-28 11:10:03.362317"^^xsd:dateTime ;
+        dcterms:modified     "2017-06-01 15:48:24.097165"^^xsd:dateTime ;
         dcterms:title        "Entsorgungseinrichtungen" ;
         cat:distribution     <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> , <https://opendata.jena.de/distribution/Standorte+Entsorgungseinrichtungen> ;
         cat:keyword          "Entsorgung" , "Müll" .
@@ -44,6 +49,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "prufbericht-nr-38-16-sonderprufung-opp-projekt-lutherplatz-3" ;
         dcterms:description  "Der Bericht liefert die Ergebnisse der Untersuchung der Wirtschaftlichkeit des ÖPP-Projektes (öffentlich-private Partnerschaft) Lutherplatz 3 im Vergleich zu einer rein städtischen Investition." ;
+        dcterms:issued       "2017-06-20 09:46:54.406921"^^xsd:dateTime ;
+        dcterms:modified     "2017-06-20 09:55:29.966527"^^xsd:dateTime ;
         dcterms:title        "Prüfbericht Nr. 38/16 Sonderprüfung ÖPP-Projekt Lutherplatz 3" ;
         cat:distribution     <https://opendata.jena.de/distribution/Pr%C3%BCfbericht+Nr.+38%2F16+Lutherplatz+3> ;
         cat:keyword          "Wirtschaftlichkeit" , "Lutherplatz" , "Sonderprüfung" , "ÖPP" .
@@ -51,18 +58,21 @@
 <https://opendata.jena.de/distribution/Touristische+Radwege>
         a               cat:Distribution ;
         dcterms:format  "JSON" ;
+        dcterms:issued  "2016-11-28 12:19:36.622037"^^xsd:dateTime ;
         dcterms:title   "Touristische Radwege" ;
         cat:accessURL   <https://opendata.jena.de/data/fahrradroute_touristisch.geojson> .
 
 <https://opendata.jena.de/distribution/Kabelverzweiger+der+Telekom>
         a               cat:Distribution ;
         dcterms:format  "CSV" , "JSON" ;
+        dcterms:issued  "2017-01-30 16:15:27.334975"^^xsd:dateTime , "2016-11-28 15:31:31.158451"^^xsd:dateTime ;
         dcterms:title   "Kabelverzweiger der Telekom" ;
         cat:accessURL   <https://opendata.jena.de/data/kabelverzweiger_telekom.csv> , <https://opendata.jena.de/data/kabelverzweiger_telekom.geojson> .
 
 <https://opendata.jena.de/distribution/entsorgungstermine.csv>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2018-10-01 11:06:55.874996"^^xsd:dateTime ;
         dcterms:title   "entsorgungstermine.csv" ;
         cat:accessURL   <https://opendata.jena.de/data/entsorgungstermine.csv> .
 
@@ -70,12 +80,14 @@
         a                    cat:Distribution ;
         dcterms:description  "[Nächste Aktualisierung](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=9)" ;
         dcterms:format       "JSON" ;
+        dcterms:issued       "2016-11-28 10:15:28.923156"^^xsd:dateTime ;
         dcterms:title        "Points of Interest" ;
         cat:accessURL        <https://opendata.jena.de/data/poi.geojson> .
 
 <https://opendata.jena.de/distribution/Wohngeb%C3%A4ude+und+Wohnungen>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-12-07 12:08:28.57979"^^xsd:dateTime ;
         dcterms:title   "Wohngebäude und Wohnungen" ;
         cat:accessURL   <https://opendata.jena.de/data/wohn.csv> .
 
@@ -86,13 +98,16 @@
         <http://ckan.aksw.org/ontology/name>
                 "einwohner-hauptwohnung-alterskohorten" ;
         dcterms:description  "Einwohner (Hauptwohnung) gesamt nach statistischen Bezirken und Alterskohorten\r\n\r\nStichtage jährlich 30.06. und 31.12.; Zeitreihe seit 31.12.2002\r\n\r\nGesamtzahl der Einwohner mit Hauptwohnung nach Alterskohorten\r\n\r\nAus Datenschutzgründen werden Daten, die Rückschlüsse auf Einzelpersonen erlauben, anonymisiert.\r\n\r\n[Nächste Aktualisierung der Ressourcen](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=136)" ;
+        dcterms:issued       "2017-06-08 12:41:40.38058"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-07 11:42:03.483099"^^xsd:dateTime ;
         dcterms:title        "Einwohner (Hauptwohnung) nach Alter" ;
         cat:distribution     <https://opendata.jena.de/distribution/Einwohner+%28gesamt%29+nach+Alter> ;
-        cat:keyword          "Statistik" , "Alter" , "Einwohner" .
+        cat:keyword          "Einwohner" , "Alter" , "Statistik" .
 
 <https://opendata.jena.de/distribution/Einwohner+%28gesamt%29+nach+Alter>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-06-08 12:47:23.922235"^^xsd:dateTime ;
         dcterms:title   "Einwohner (gesamt) nach Alter" ;
         cat:accessURL   <https://opendata.jena.de/data/ew_alter.csv> .
 
@@ -103,14 +118,17 @@
         <http://ckan.aksw.org/ontology/name>
                 "einkaufen-in-jena" ;
         dcterms:description  "Schriften zur Stadtentwicklung Nr. 6:\r\nEntwicklungskonzept Einzelhandel Jena 2025" ;
+        dcterms:issued       "2016-12-19 12:56:20.07434"^^xsd:dateTime ;
+        dcterms:modified     "2017-04-26 09:34:31.452251"^^xsd:dateTime ;
         dcterms:title        "Einkaufen in Jena" ;
         cat:distribution     <https://opendata.jena.de/distribution/EHK_Jena_www.pdf> ;
-        cat:keyword          "Einzelhandel" , "2015" .
+        cat:keyword          "2015" , "Einzelhandel" .
 
 <https://opendata.jena.de/distribution/Arbeiten_in_Jena_Schriften_zur_Stadtentwicklung_Nr4-1.279411.pdf>
         a                    cat:Distribution ;
         dcterms:description  "Schriften zur Stadtentwicklung Nr. 4:\r\nArbeitsplatz- und Gewerbeflächenentwicklung Jena 2025" ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2016-12-19 13:53:43.709309"^^xsd:dateTime ;
         dcterms:title        "Arbeiten_in_Jena_Schriften_zur_Stadtentwicklung_Nr4-1.279411.pdf" ;
         cat:accessURL        <https://opendata.jena.de/dataset/13131925-a507-4b7c-872a-89f374caf017/resource/2a528487-5a87-42c2-8930-880837fc25be/download/arbeiten_in_jena_schriften_zur_stadtentwicklung_nr4-1.279411.pdf> .
 
@@ -121,14 +139,17 @@
         <http://ckan.aksw.org/ontology/name>
                 "gewerbegebiete" ;
         dcterms:description  "Lage und Ausdehnung der Gewerbegebiete.\r\n\r\n[Nächste Aktualisierung der Ressource](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=13)" ;
+        dcterms:issued       "2016-11-28 12:16:05.847305"^^xsd:dateTime ;
+        dcterms:modified     "2017-06-02 05:52:28.764627"^^xsd:dateTime ;
         dcterms:title        "Gewerbegebiete" ;
         cat:distribution     <https://opendata.jena.de/distribution/Gewerbegebiete> , <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> ;
         cat:keyword          "Wirtschaft" , "Gewerbe" .
 
 <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal>
         a                    cat:Distribution ;
-        dcterms:description  "Layer _Baufelder Gewerbe_" , "Layer _Verwaltung_" , "Layer: _Strassenbaumassnahmen (geplant)_" , "Layer _Parken_" , "Layer _Bauordnung (Zuständigkeit)_" , "Layer _Adressen_" , "Layer Naturdenkmal (punktförmig bzw. flächenhaft)" , "Layer _Fahrradstadtplan, Führungsformen Radverkehr_" , "diverse Layer" , "die POIs sind im Kartenportal in mehreren Layern abgebildet" , "Layer _Verkehrsbehinderungen_" , "Layer _Fördergebiet, Sanierungsgebiet_ und _Stadtumbaugebiet_" , "Layer _Bebauungspläne rechtskräftig_" , "Layer_ Fahrradrouten touristisch_" , "Layer _Kabelverzweiger (Kvz) der Telekom_" , "Layer _Laufwege_" , "Layer _Postleitzahlgebiete_" , "Layer _Fahrradabstellanlagen_" , "Layer Wahllokale" , "Layer _Hundekottütenspender_" , "Layer _Gewerbegebiete_" , "Layer _Ortsteile_" , "Layer _Baulandkataster_" ;
+        dcterms:description  "Layer _Postleitzahlgebiete_" , "die POIs sind im Kartenportal in mehreren Layern abgebildet" , "Layer _Baufelder Gewerbe_" , "Layer _Hundekottütenspender_" , "Layer _Fahrradstadtplan, Führungsformen Radverkehr_" , "Layer Naturdenkmal (punktförmig bzw. flächenhaft)" , "Layer _Bauordnung (Zuständigkeit)_" , "Layer _Verwaltung_" , "Layer _Adressen_" , "Layer _Bebauungspläne rechtskräftig_" , "Layer _Fahrradabstellanlagen_" , "Layer _Laufwege_" , "Layer _Parken_" , "Layer _Verkehrsbehinderungen_" , "Layer_ Fahrradrouten touristisch_" , "Layer _Gewerbegebiete_" , "Layer: _Strassenbaumassnahmen (geplant)_" , "Layer _Ortsteile_" , "diverse Layer" , "Layer _Kabelverzweiger (Kvz) der Telekom_" , "Layer _Baulandkataster_" , "Layer Wahllokale" , "Layer _Fördergebiet, Sanierungsgebiet_ und _Stadtumbaugebiet_" ;
         dcterms:format       "WMS" ;
+        dcterms:issued       "2016-11-28 15:21:36.565843"^^xsd:dateTime , "2016-11-28 13:16:53.969697"^^xsd:dateTime , "2016-10-19 12:29:36.33656"^^xsd:dateTime , "2018-09-19 14:03:02.339809"^^xsd:dateTime , "2017-06-29 05:55:47.013978"^^xsd:dateTime , "2016-11-28 15:27:01.29706"^^xsd:dateTime , "2016-11-16 12:44:14.212146"^^xsd:dateTime , "2016-11-28 15:49:16.810716"^^xsd:dateTime , "2016-11-16 12:48:04.199403"^^xsd:dateTime , "2016-11-28 10:20:34.006546"^^xsd:dateTime , "2016-11-28 14:46:01.182863"^^xsd:dateTime , "2016-11-28 12:11:11.391067"^^xsd:dateTime , "2016-11-28 14:51:06.543931"^^xsd:dateTime , "2016-11-28 10:16:15.27492"^^xsd:dateTime , "2016-11-16 12:36:01.038779"^^xsd:dateTime , "2016-11-28 12:20:18.940989"^^xsd:dateTime , "2017-06-30 09:15:43.059311"^^xsd:dateTime , "2016-11-28 09:05:55.670066"^^xsd:dateTime , "2016-10-19 12:19:10.812897"^^xsd:dateTime , "2016-10-19 12:16:27.393761"^^xsd:dateTime , "2016-11-28 15:31:58.247714"^^xsd:dateTime , "2016-11-28 15:14:38.442944"^^xsd:dateTime , "2016-11-16 12:28:21.861186"^^xsd:dateTime ;
         dcterms:title        "WMS-Capabilities Kartenportal" ;
         cat:accessURL        <http://map.jena.de/wms/kartenportal?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities> .
 
@@ -136,15 +157,17 @@
         a                    cat:Distribution ;
         dcterms:description  "CSV-Datei mit Komma getrennt. Aktualisierung mindestens einmal täglich. Ab 2.4.2020 mit Daten zu stationären Aufenthalten und schweren Verläufen. Ab 26.8.2020 gibt es 2 neue Spalten mit den neu Erkrankten (letzte 24h) und den aktiven Fällen." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2020-03-27 09:28:47.953972"^^xsd:dateTime ;
         dcterms:title        "corona_erkrankungen_jena.csv" ;
         cat:accessURL        <https://opendata.jena.de/dataset/2cc7773d-beba-43ad-9808-a420a67ffcb3/resource/d3ba07b6-fb19-451b-b902-5b18d8e8cbad/download/corona_erkrankungen_jena.csv> ;
-        cat:byteSize         8518.0 ;
+        cat:byteSize         10930.0 ;
         cat:mediaType        "text/csv" .
 
 <https://opendata.jena.de/distribution/Vornamen+2019>
         a                    cat:Distribution ;
         dcterms:description  "Die CSV-Datei ist Unicode UTF-8 formatiert. " ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2020-03-05 22:04:25.576318"^^xsd:dateTime ;
         dcterms:title        "Vornamen 2019" ;
         cat:accessURL        <https://opendata.jena.de/dataset/45cb0cf5-5b09-4b14-8f5b-bed05371fe93/resource/ec7a0b28-728b-47d5-8656-e73ae088bc89/download/vornamen2019_opendata_datenschutz.csv> ;
         cat:byteSize         13748.0 ;
@@ -153,6 +176,7 @@
 <https://opendata.jena.de/distribution/maengel.json>
         a               cat:Distribution ;
         dcterms:format  "JSON" ;
+        dcterms:issued  "2018-09-04 07:54:54.799636"^^xsd:dateTime ;
         dcterms:title   "maengel.json" ;
         cat:accessURL   <https://maengelmelder.jena.de/sites/default/files/requests.json> .
 
@@ -163,9 +187,11 @@
         <http://ckan.aksw.org/ontology/name>
                 "wohnstadt-jena-monitoring-2015" ;
         dcterms:description  "Im Jahr 2001 entstand mit dem Stadtentwicklungskonzept, Teil Wohnen ein Analyse- und Steuerungsinstrument, um vor allem die Probleme des Stadtumbaus zu lösen. Um die Wirkungsweise dieses Konzeptes zu evaluieren wurde 2004 ein Monitoring eingerichtet, das seitdem jährlich aktualisiert sowie um weitere \r\nthematische Expertisen ergänzt wird." ;
+        dcterms:issued       "2017-05-03 16:43:57.083739"^^xsd:dateTime ;
+        dcterms:modified     "2017-05-03 16:45:50.753759"^^xsd:dateTime ;
         dcterms:title        "Wohnstadt Jena - Monitoring 2015" ;
         cat:distribution     <https://opendata.jena.de/distribution/Jena+Wohnstadt_Teil+A_Analysen+November+2016.pdf> ;
-        cat:keyword          "Wohnen" , "2015" , "Monitoring" .
+        cat:keyword          "2015" , "Monitoring" , "Wohnen" .
 
 <https://opendata.jena.de/dataset/statistische-bezirke>
         a                    cat:Dataset ;
@@ -174,6 +200,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "statistische-bezirke" ;
         dcterms:description  "Polygone der statistischen Bezirke\r\n\r\n[Nächste Aktualisierung der Ressource](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=32)" ;
+        dcterms:issued       "2017-03-01 14:52:03.43916"^^xsd:dateTime ;
+        dcterms:modified     "2017-06-02 05:49:15.433787"^^xsd:dateTime ;
         dcterms:title        "Statistische Bezirke" ;
         cat:distribution     <https://opendata.jena.de/distribution/Statistische+Bezirke> ;
         cat:keyword          "Statistik" .
@@ -182,12 +210,14 @@
         a                    cat:Distribution ;
         dcterms:description  "Verkehrsbehinderungen" ;
         dcterms:format       "JSON" , "CSV" ;
+        dcterms:issued       "2016-10-19 12:28:58.94721"^^xsd:dateTime , "2017-01-30 16:24:56.235324"^^xsd:dateTime ;
         dcterms:title        "Verkehrsbehinderungen" ;
         cat:accessURL        <https://opendata.jena.de/data/verkehrsbehinderung.geojson> , <https://opendata.jena.de/data/verkehrsbehinderung.csv> .
 
 <https://opendata.jena.de/distribution/Baulandkataster>
         a               cat:Distribution ;
         dcterms:format  "JSON" ;
+        dcterms:issued  "2016-11-28 14:45:27.478781"^^xsd:dateTime ;
         dcterms:title   "Baulandkataster" ;
         cat:accessURL   <https://opendata.jena.de/data/baulandkataster.geojson> .
 
@@ -198,6 +228,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "einwohner-hauptwohnung-nach-alter-und-geschlecht" ;
         dcterms:description  "Einwohner (Hauptwohnung) nach statistischen Bezirken, Alterskohorten und Geschlecht\r\n\r\nStichtage jährlich 30.06. und 31.12.; Zeitreihe seit 31.12.2002\r\n\r\nGesamtzahl der Einwohner mit Hauptwohnung nach Alterskohorten und Geschlecht\r\n\r\nAus Datenschutzgründen werden Daten, die Rückschlüsse auf Einzelpersonen erlauben, anonymisiert.\r\n\r\n[Nächste Aktualisierung der Ressourcen](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=137)" ;
+        dcterms:issued       "2017-06-26 10:43:28.441368"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-07 10:10:06.716085"^^xsd:dateTime ;
         dcterms:title        "Einwohner (Hauptwohnung) nach Alter und Geschlecht" ;
         cat:distribution     <https://opendata.jena.de/distribution/Einwohner+%28m%C3%A4nnlich%29+nach+Alter> , <https://opendata.jena.de/distribution/Einwohner+%28weiblich%29+nach+Alter> .
 
@@ -208,19 +240,23 @@
         <http://ckan.aksw.org/ontology/name>
                 "entwicklungsprojekte" ;
         dcterms:description  "Der Datensatz enthält eine Auswahl aktuell bevorstehender privater und/oder öffentlicher Entwicklungsprojekte in Jena.\r\n\r\n[Nächste Aktualisierung der Ressource](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=144)" ;
+        dcterms:issued       "2018-05-29 14:22:09.051415"^^xsd:dateTime ;
+        dcterms:modified     "2018-05-31 13:06:19.689546"^^xsd:dateTime ;
         dcterms:title        "Entwicklungsprojekte" ;
-        cat:distribution     <https://opendata.jena.de/distribution/Entwicklungsprojekte> , <https://opendata.jena.de/distribution/Entwicklungsprojekte+%28WGS84%29> ;
+        cat:distribution     <https://opendata.jena.de/distribution/Entwicklungsprojekte+%28WGS84%29> , <https://opendata.jena.de/distribution/Entwicklungsprojekte> ;
         cat:keyword          "Wirtschaft" , "Investition" .
 
 <https://opendata.jena.de/distribution/2016-10-17_Baumgutachten_Freiraum+Stadtroader+Stra%C3%9Fe.pdf>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
+        dcterms:issued  "2017-04-26 11:30:19.071543"^^xsd:dateTime ;
         dcterms:title   "2016-10-17_Baumgutachten_Freiraum Stadtroader Straße.pdf" ;
         cat:accessURL   <https://opendata.jena.de/dataset/27a84cdb-5093-4ace-a9a6-8eca3046889e/resource/b9bde462-8cac-4599-bbc5-adf6dce9851d/download/2016-12-15_sea_protokoll_anlage_top-06_baumgutachten.pdf> .
 
 <https://opendata.jena.de/distribution/Am+Oelste-Neues+Wohnen+Jena-Zw%C3%A4tzen_Artenerfassung+V%C3%B6gel.pdf>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
+        dcterms:issued  "2017-05-03 19:07:44.499826"^^xsd:dateTime ;
         dcterms:title   "Am Oelste-Neues Wohnen Jena-Zwätzen_Artenerfassung Vögel.pdf" ;
         cat:accessURL   <https://opendata.jena.de/dataset/cfac1f95-d66f-4dec-a50a-4cf030f06284/resource/26e26e68-25f4-4e30-b381-a811cd5d3439/download/am-oelste-neues-wohnen-jena-zwatzen_artenerfassung-vogel.pdf> .
 
@@ -231,6 +267,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "fahrradstadtplan" ;
         dcterms:description  "Fahrradstadtplan mit Führungsformen des Radverkehrs und Radrouten\r\n\r\n[Nächste Aktualisierung der Ressource](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=7)" ;
+        dcterms:issued       "2016-11-16 11:46:00.169324"^^xsd:dateTime ;
+        dcterms:modified     "2017-06-01 15:51:06.617376"^^xsd:dateTime ;
         dcterms:title        "Fahrradstadtplan" ;
         owl:versionInfo      "1.0" ;
         cat:distribution     <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> , <https://opendata.jena.de/distribution/Fahrradstadtplan> ;
@@ -239,12 +277,14 @@
 <https://opendata.jena.de/distribution/Gesamtbericht_Jugendstudie_Jena_inkl._Handlungsempfehlungen_stand_juni.pdf>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
+        dcterms:issued  "2017-03-21 09:17:20.235879"^^xsd:dateTime ;
         dcterms:title   "Gesamtbericht_Jugendstudie_Jena_inkl._Handlungsempfehlungen_stand_juni.pdf" ;
         cat:accessURL   <https://opendata.jena.de/dataset/a042fc1a-3035-4aa2-a92c-5d1abed11825/resource/c09e5f89-2148-42bd-97cc-3d938bd71f6d/download/gesamtbericht_jugendstudie_jena_inkl._handlungsempfehlungen_stand_juni.pdf> .
 
 <https://opendata.jena.de/distribution/B%C3%BCrmarktzonen>
         a               cat:Distribution ;
         dcterms:format  "JSON" ;
+        dcterms:issued  "2018-05-29 14:30:51.882225"^^xsd:dateTime ;
         dcterms:title   "Bürmarktzonen" ;
         cat:accessURL   <https://opendata.jena.de/data/bueromarktzone.geojson> .
 
@@ -255,6 +295,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "baumgutachten-zur-neugestaltung-freiraum-an-der-stadtrodaer-strabe" ;
         dcterms:description  "Hinsichtlich des Wurzelverhaltens von Großbäumen auf einer Grünfläche im Bereich von Bestandswegeflächen sowie Wurzelsuchung im Bereich neu anzulegender Wege, Beurteilung der Erhaltungsfähigkeit im Rahmen stattfindender Baumaßnahmen sowie \r\nMaßnahmenempfehlungen zum Umgang mit Wurzeln im Baumumfeld\r\nbzgl. Projekt \"Freiraum Grünfläche Stadtrodaer Straße bis Parkplatz Ernst-Schneller-Straße Jena\"" ;
+        dcterms:issued       "2017-04-26 09:28:17.662423"^^xsd:dateTime ;
+        dcterms:modified     "2017-04-26 09:33:18.370664"^^xsd:dateTime ;
         dcterms:title        "Baumgutachten zur Neugestaltung Freiraum an der Stadtrodaer Straße" ;
         cat:distribution     <https://opendata.jena.de/distribution/2016-10-17_Baumgutachten_Freiraum+Stadtroader+Stra%C3%9Fe.pdf> ;
         cat:keyword          "Bäume" , "Lobeda-West" , "Neulobeda" , "Stadtrodaer Straße" , "Baumgutachten" , "Baum" .
@@ -262,6 +304,7 @@
 <https://opendata.jena.de/distribution/Standorte+der+Verwaltung>
         a               cat:Distribution ;
         dcterms:format  "CSV" , "JSON" ;
+        dcterms:issued  "2017-01-30 16:26:30.480686"^^xsd:dateTime , "2016-11-28 10:20:08.285583"^^xsd:dateTime ;
         dcterms:title   "Standorte der Verwaltung" ;
         cat:accessURL   <https://opendata.jena.de/data/verwaltung.csv> , <https://opendata.jena.de/data/verwaltung.geojson> .
 
@@ -272,6 +315,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "geplante-strassenbaumassnahmen" ;
         dcterms:description  "Geplante Straßenbaumaßnahmen im laufenden Jahr.\r\n\r\n[Nächste Aktualisierung der Ressource](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=3)" ;
+        dcterms:issued       "2016-10-19 06:17:51.785808"^^xsd:dateTime ;
+        dcterms:modified     "2017-06-01 15:50:25.24263"^^xsd:dateTime ;
         dcterms:title        "Geplante Straßenbaumaßnahmen" ;
         cat:distribution     <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> , <https://opendata.jena.de/distribution/geplante+Strassenbaumassnahmen> ;
         cat:keyword          "Verkehr" , "Baustelle" , "Baumaßnahme" , "Straße" .
@@ -279,6 +324,7 @@
 <https://opendata.jena.de/distribution/Naturdenkmale+%28punktf%C3%B6rmig%29>
         a               cat:Distribution ;
         dcterms:format  "JSON" ;
+        dcterms:issued  "2017-06-29 05:54:05.620585"^^xsd:dateTime ;
         dcterms:title   "Naturdenkmale (punktförmig)" ;
         cat:accessURL   <https://opendata.jena.de/data/nd_point.geojson> .
 
@@ -289,6 +335,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "statistische-privathaushalte" ;
         dcterms:description  "Statistische Privathaushalte nach statistischen Bezirken, Stichtag jährlich 31.12., Zeitreihe seit 2006\r\n\r\nAus Datenschutzgründen werden Daten, die Rückschlüsse auf Einzelpersonen erlauben, anonymisiert.\r\n\r\n[Nächste Aktualisierung der Ressource](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=139)" ;
+        dcterms:issued       "2017-07-12 12:49:15.421487"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-07 10:04:31.092538"^^xsd:dateTime ;
         dcterms:title        "Statistische Privathaushalte" ;
         cat:distribution     <https://opendata.jena.de/distribution/Statistische+Privathaushalte> ;
         cat:keyword          "Statistik" , "Haushalte" .
@@ -296,6 +344,7 @@
 <https://opendata.jena.de/distribution/Lindner_Konzept.pdf>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
+        dcterms:issued  "2017-03-21 11:28:31.129204"^^xsd:dateTime ;
         dcterms:title   "Lindner_Konzept.pdf" ;
         cat:accessURL   <https://opendata.jena.de/dataset/086a16dc-3fbd-4f0e-b6d1-7adfa8db8e2c/resource/6f88448f-cdf5-48c8-8878-51dc82566d92/download/lindner_konzept.pdf> .
 
@@ -306,6 +355,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "parken" ;
         dcterms:description  "Parkhäuser und -plätze, Rollstuhlfahrerparkplätze\r\n\r\n[Nächste Aktualisierung der Ressourcen](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=8)" ;
+        dcterms:issued       "2016-11-28 08:01:33.179831"^^xsd:dateTime ;
+        dcterms:modified     "2020-08-28 05:05:49.017338"^^xsd:dateTime ;
         dcterms:title        "Parken" ;
         cat:distribution     <https://opendata.jena.de/distribution/Parken> , <https://opendata.jena.de/distribution/Parkpl%C3%A4tze> , <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> , <https://opendata.jena.de/distribution/Parkplatzbelegung> , <https://opendata.jena.de/distribution/statische+Parkdaten> ;
         cat:keyword          "Parken" , "Parkplatz" , "Parkhaus" .
@@ -317,6 +368,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "ver" ;
         dcterms:description  "Die Daten aus dieser Ressource sind nicht mehr aktuell und werden auch nicht mehr aktualisiert. Aktuelle Daten erhalten Sie jetzt ausschließlich über eine Schnittstelle. Für weitere Fragen und Zugänge wenden Sie sich bitte an opendata@jena.de. Vielen Dank!\r\n\r\nVeranstaltungen aus dem Veranstaltungskalender von jena.de\r\n\r\nWichtiger Hinweis: Die Nutzung der innerhalb dieses Datensatzes zur Verfügung gestellten Bilder darf ausschließlich im Zusammenhang mit den hier bereitgestellten Veranstaltungsdaten erfolgen. Eine Weitergabe an Dritte zu verkaufsfördernden Zwecken bzw. kommerzielle Umnutzung ist ausgeschlossen.\r\nDie Nennung von Copyright und Fotograf ist obligatorisch.\r\n\r\nNächste Aktualisierung: https://opendata.jena.de/fileuploader/public/fileset/list" ;
+        dcterms:issued       "2016-08-25 11:59:00.32892"^^xsd:dateTime ;
+        dcterms:modified     "2019-06-13 06:51:58.027491"^^xsd:dateTime ;
         dcterms:title        "Veranstaltungen" ;
         owl:versionInfo      "1.0" ;
         cat:distribution     <https://opendata.jena.de/distribution/Veranstaltungen+als+XML> ;
@@ -329,6 +382,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "formatio-jenensis" ;
         dcterms:description  "Schriften zur Stadtentwicklung Nr. 2:\r\nStandard für die Gestaltung des öffentlichen Raumes" ;
+        dcterms:issued       "2016-12-19 12:48:10.883537"^^xsd:dateTime ;
+        dcterms:modified     "2017-04-26 09:35:10.827124"^^xsd:dateTime ;
         dcterms:title        "Formatio jenensis" ;
         cat:distribution     <https://opendata.jena.de/distribution/formatio+jenensis+-+komplett.pdf> ;
         cat:keyword          "Gestaltung" , "2013" .
@@ -340,13 +395,16 @@
         <http://ckan.aksw.org/ontology/name>
                 "gutachten-tgz" ;
         dcterms:description  "Gutachterliche Bewertung des kurz-, mittel- und langfristigen Bedarfs an Kapazitäten für Technologie- & Gründerzentren im Raum Jena unter Berücksichtigung vorhandener Technologie- und Gründerzentren-Kapazitäten sowie ebenfalls vorhandener oder geplanter Gewerbeimmobilien" ;
+        dcterms:issued       "2016-12-20 12:25:21.203131"^^xsd:dateTime ;
+        dcterms:modified     "2016-12-20 12:29:40.232051"^^xsd:dateTime ;
         dcterms:title        "Gutachten zum Bedarf an Kapazitäten für Technologie- & Gründerzentren" ;
         cat:distribution     <https://opendata.jena.de/distribution/Gutachten+Bedarf+an+Kapazit%C3%A4ten+f%C3%BCr+Technologie-+und+Gr%C3%BCnderzentren> ;
-        cat:keyword          "TGZ" , "Gewerbe" , "Immobilien" .
+        cat:keyword          "Gewerbe" , "Immobilien" , "TGZ" .
 
 <https://opendata.jena.de/distribution/Entwicklungsprojekte+%28WGS84%29>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2018-05-31 13:05:26.080388"^^xsd:dateTime ;
         dcterms:title   "Entwicklungsprojekte (WGS84)" ;
         cat:accessURL   <https://opendata.jena.de/data/entwicklungsprojekt.csv> .
 
@@ -357,6 +415,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "baume-in-jena" ;
         dcterms:description  "Schriften zur Stadtentwicklung Nr. 7:\r\nStadtbaumkonzept - Stadt- und Straßenbäume im Klimawandel" ;
+        dcterms:issued       "2016-12-19 12:58:16.244327"^^xsd:dateTime ;
+        dcterms:modified     "2017-04-26 09:34:17.868066"^^xsd:dateTime ;
         dcterms:title        "Bäume in Jena" ;
         cat:distribution     <https://opendata.jena.de/distribution/Schriften_zur_Stadtentwicklung_Nr7_11_2016_www_low_res.pdf> ;
         cat:keyword          "Klimaanpassung" , "2016" , "Bäume" , "Klimawandel" .
@@ -368,8 +428,10 @@
         <http://ckan.aksw.org/ontology/name>
                 "offener-haushalt" ;
         dcterms:description  "Haushaltspläne und -ergebnisse ab 2011.\r\nErgebnisrechnungen stehen erst mit Verzögerung zur Verfügung, weil die jeweiligen Jahresabschlüsse erst erstellt, geprüft und vom Stadtrat beschlossen werden müssen." ;
+        dcterms:issued       "2017-10-25 14:58:14.521805"^^xsd:dateTime ;
+        dcterms:modified     "2018-01-16 07:40:30.726594"^^xsd:dateTime ;
         dcterms:title        "Offener Haushalt" ;
-        cat:distribution     <https://opendata.jena.de/distribution/OffenerHaushalt.csv> , <https://opendata.jena.de/distribution/OffenerHaushalt.json> ;
+        cat:distribution     <https://opendata.jena.de/distribution/OffenerHaushalt.json> , <https://opendata.jena.de/distribution/OffenerHaushalt.csv> ;
         cat:keyword          "offner Haushalt" , "Finanzen" .
 
 <https://opendata.jena.de/dataset/sozialbericht-der-stadt-jena-2002-2007>
@@ -379,6 +441,8 @@
         <http://ckan.aksw.org/ontology/name>
                 "sozialbericht-der-stadt-jena-2002-2007" ;
         dcterms:description  "Der vorliegende Sozialbericht für die Stadt Jena soll dazu beitragen, die Zukunftsfähigkeit von Planungsentscheidungen mit einer entsprechenden sozialwissenschaftlichen Datenbasis zu stärken. Auf einer solchen Datengrundlage können Entscheidungen getroffen werden, die zumindest mit Blick auf die verfügbaren Datenquellen ein größtmögliches Maß an Planungsrationalität eröffnen. Neben dem Sozialressort profitieren davon auch viele andere Planungsbereiche, deren Entscheidungen Konsequenzen für die sozialen Bedingungen nach sich ziehen oder die ihrerseits die sozialen Bedingungen\r\nder Stadt bei eigenen, zum Beispiel baulichen Planungsentscheidungen zu\r\nberücksichtigen haben, um nicht intendierte Folgen zu vermeiden." ;
+        dcterms:issued       "2017-03-21 09:51:23.243076"^^xsd:dateTime ;
+        dcterms:modified     "2017-03-21 14:41:40.424629"^^xsd:dateTime ;
         dcterms:title        "Sozialbericht der Stadt Jena (2002-2007)" ;
         cat:distribution     <https://opendata.jena.de/distribution/Sozialbericht2704.pdf> ;
         cat:keyword          "Wohnen" , "Alte" , "Soziales" , "Jugend" , "Familien" .
@@ -386,6 +450,7 @@
 <https://opendata.jena.de/distribution/Parken>
         a               cat:Distribution ;
         dcterms:format  "CSV" , "JSON" ;
+        dcterms:issued  "2017-01-30 16:16:30.0274"^^xsd:dateTime , "2016-11-28 09:05:01.676767"^^xsd:dateTime ;
         dcterms:title   "Parken" ;
         cat:accessURL   <https://opendata.jena.de/data/parken.csv> , <https://opendata.jena.de/data/parken.geojson> .
 
@@ -406,6 +471,7 @@ mclient:Jena  a            cat:Catalog ;
 <https://opendata.jena.de/distribution/Bodenfl%C3%A4che+nach+Art+ihrer+tats%C3%A4chlichen+Nutzung>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-07-14 07:36:38.866681"^^xsd:dateTime ;
         dcterms:title   "Bodenfläche nach Art ihrer tatsächlichen Nutzung" ;
         cat:accessURL   <https://opendata.jena.de/data/fl.csv> .
 
@@ -416,6 +482,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "fahrradroute_touristisch" ;
         dcterms:description  "Verlauf der ausgewiesenen touristischen Radwege im Stadtgebiet Jena.\r\n\r\n[Nächste Aktualisierung der Ressource](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=12)" ;
+        dcterms:issued       "2016-11-28 11:19:06.571649"^^xsd:dateTime ;
+        dcterms:modified     "2017-06-02 05:51:09.552982"^^xsd:dateTime ;
         dcterms:title        "Touristische Radwege" ;
         cat:distribution     <https://opendata.jena.de/distribution/Touristische+Radwege> , <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> ;
         cat:keyword          "Tourismus" , "Fahrrad" , "Wege" .
@@ -427,6 +495,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "city-entwicklung-jena-1991-bis-2016" ;
         dcterms:description  "Untersuchung der Jenaer Innenstadt - Entwicklung von Aspekten des Einzelhandels und des ruhenden Verkehrs in der Innenstadt seit 1991 bis 2016 und gibt schließlich Hinweise zur weiteren Attraktivitätssteigerung der Innenstadt." ;
+        dcterms:issued       "2017-05-03 16:54:18.578663"^^xsd:dateTime ;
+        dcterms:modified     "2017-05-03 16:59:37.271103"^^xsd:dateTime ;
         dcterms:title        "City-Entwicklung Jena 1991 bis 2016" ;
         cat:distribution     <https://opendata.jena.de/distribution/2016-09_City-Entwicklung+Jena+1991-2016.pdf> ;
         cat:keyword          "Einzelhandel" , "Innenstadt" , "2016" , "Verkehr" .
@@ -438,6 +508,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "it-strategie-2015-2025" ;
         dcterms:description  "Entwicklung der Informationstechnologie der Stadt Jena 2015-2025. " ;
+        dcterms:issued       "2016-11-28 13:18:37.924121"^^xsd:dateTime ;
+        dcterms:modified     "2016-12-12 12:09:47.09212"^^xsd:dateTime ;
         dcterms:title        "IT-Strategie 2015-2025" ;
         owl:versionInfo      "1.0" ;
         cat:distribution     <https://opendata.jena.de/distribution/IT-Strategie+der+Stadt+Jena+2015-2025> ;
@@ -450,6 +522,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "kabelverzweiger_telekom" ;
         dcterms:description  "Standorte der Kabelverzweiger (Kvz) der Telekom\r\n\r\n[Nächste Aktualisierung der Ressourcen](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=19)" ;
+        dcterms:issued       "2016-11-28 14:31:04.536771"^^xsd:dateTime ;
+        dcterms:modified     "2017-06-01 15:47:23.019478"^^xsd:dateTime ;
         dcterms:title        "Kabelverzweiger (Kvz) der Telekom" ;
         cat:distribution     <https://opendata.jena.de/distribution/Kabelverzweiger+der+Telekom> , <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> ;
         cat:keyword          "Kabelverzweiger" , "DSL" , "Internet" .
@@ -461,6 +535,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "verwaltung" ;
         dcterms:description  "Standorte der Verwaltung (Bundes-, Landes und Kommunalverwaltung)\r\n\r\n[Nächste Aktualisierung der Ressourcen](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=10)" ;
+        dcterms:issued       "2016-11-28 09:19:39.543396"^^xsd:dateTime ;
+        dcterms:modified     "2017-06-02 05:53:08.246546"^^xsd:dateTime ;
         dcterms:title        "Verwaltung" ;
         cat:distribution     <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> , <https://opendata.jena.de/distribution/Standorte+der+Verwaltung> ;
         cat:keyword          "Verwaltung" , "Regierung" .
@@ -468,12 +544,14 @@ mclient:Jena  a            cat:Catalog ;
 <https://opendata.jena.de/distribution/Am+Oelste-Neues+Wohnen+Jena-Zw%C3%A4tzen_SAP.pdf>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
+        dcterms:issued  "2017-05-03 19:11:20.953756"^^xsd:dateTime ;
         dcterms:title   "Am Oelste-Neues Wohnen Jena-Zwätzen_SAP.pdf" ;
         cat:accessURL   <https://opendata.jena.de/dataset/b3155e2a-081d-4114-8f86-d4a694e928aa/resource/0688772a-4789-41c5-a47e-7321255b127d/download/am-oelste-neues-wohnen-jena-zwatzen_sap.pdf> .
 
 <https://opendata.jena.de/distribution/2016-07-29_Baugrundgutachten_Freiraum+Stadtrodaer+Stra%C3%9Fe.pdf>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
+        dcterms:issued  "2017-04-26 11:41:01.497802"^^xsd:dateTime ;
         dcterms:title   "2016-07-29_Baugrundgutachten_Freiraum Stadtrodaer Straße.pdf" ;
         cat:accessURL   <https://opendata.jena.de/dataset/2a83c0b3-8071-41ab-ae0e-efb156bd91c4/resource/0419976f-6548-4023-85cc-447eac3b1070/download/2016-12-15_sea_protokoll_anlage_top-06_baugrundgutachten.pdf> .
 
@@ -481,6 +559,7 @@ mclient:Jena  a            cat:Catalog ;
         a                    cat:Distribution ;
         dcterms:description  "Standorte der Ladesäulen der Stadtwerke Jena GmbH im Stadtgebiet Jena, Kahla, Hermsdorf, Bürgel, Seitenroda und Pößneck" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2018-03-06 08:26:27.936277"^^xsd:dateTime ;
         dcterms:title        "Statische_Daten_Ladepunkte_Jena.csv" ;
         cat:accessURL        <https://opendata.jena.de/dataset/e21125f7-51a9-48c0-b36d-28ea1d728c04/resource/48494ff5-0d0d-4972-8d09-3abc19273783/download/statische_daten_ladepunkte_jena.csv> .
 
@@ -491,14 +570,17 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "baulandkataster" ;
         dcterms:description  "Baulandkataster\r\n\r\n_Die Aufnahme eines Grundstücks in das Baulandkataster ersetzt nicht die Baugenehmigung und sagt sie auch nicht zu. […] Denn die Aufnahme eines Grundstücks in das Baulandkataster begründet kein Baurecht und behauptet ein solches Recht auch nicht, da auch Grundstücke aufgenommen werden, die erst in absehbarer Zeit bebaubar, also aktuell gerade nicht bebaubar sind“_ \r\n\r\n(Ernst/ Zinkahn/ Bielenberg/ Krautzberger: Baugesetzbuch, Kommentar §200 Abs. 3).\r\n\r\n[Nächste Aktualisierung der Ressource](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=14)" ;
+        dcterms:issued       "2016-11-28 13:45:04.529982"^^xsd:dateTime ;
+        dcterms:modified     "2017-06-01 15:51:44.885036"^^xsd:dateTime ;
         dcterms:title        "Baulandkataster" ;
         cat:distribution     <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> , <https://opendata.jena.de/distribution/Baulandkataster> ;
-        cat:keyword          "Baulandkataster" , "Wohnbau" , "Bauen" .
+        cat:keyword          "Wohnbau" , "Baulandkataster" , "Bauen" .
 
 <https://opendata.jena.de/distribution/Vornamen+2017>
         a                    cat:Distribution ;
         dcterms:description  "Die Datei ist Unicode UTF-8 formatiert." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2018-02-09 08:21:05.214513"^^xsd:dateTime ;
         dcterms:title        "Vornamen 2017" ;
         cat:accessURL        <https://opendata.jena.de/dataset/45cb0cf5-5b09-4b14-8f5b-bed05371fe93/resource/5851cb71-c329-4816-9119-22eb487e0ea0/download/vornamen2017_opendata_jena_anonymisiert_utf8.csv> .
 
@@ -509,6 +591,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "garten-in-jena" ;
         dcterms:description  "Schriften zur Stadtentwicklung Nr. 5:\r\nGartenentwicklungskonzept - Analysen, Ziele und Perspektiven" ;
+        dcterms:issued       "2016-12-19 12:54:55.772786"^^xsd:dateTime ;
+        dcterms:modified     "2017-04-26 09:34:45.046636"^^xsd:dateTime ;
         dcterms:title        "Gärten in Jena" ;
         cat:distribution     <https://opendata.jena.de/distribution/Brosch%C3%BCre+G%C3%A4rten+in+Jena+web+22-01-15-3-1.pdf> ;
         cat:keyword          "Gärten" , "2014" .
@@ -520,14 +604,17 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "naturdenkmale" ;
         dcterms:description  "punkt- und flächenförmige Naturdenkmale\r\n\r\n[Nächste Aktualisierung der Ressourcen](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=86)" ;
+        dcterms:issued       "2017-06-29 05:52:06.615329"^^xsd:dateTime ;
+        dcterms:modified     "2017-07-04 05:46:16.197887"^^xsd:dateTime ;
         dcterms:title        "Naturdenkmale" ;
-        cat:distribution     <https://opendata.jena.de/distribution/Naturdenkmale+%28punktf%C3%B6rmig%29> , <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> , <https://opendata.jena.de/distribution/Naturdenkmale+%28fl%C3%A4chenhaft%29> ;
+        cat:distribution     <https://opendata.jena.de/distribution/Naturdenkmale+%28fl%C3%A4chenhaft%29> , <https://opendata.jena.de/distribution/Naturdenkmale+%28punktf%C3%B6rmig%29> , <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> ;
         cat:keyword          "Naturschutz" .
 
 <https://opendata.jena.de/distribution/OffenerHaushalt.json>
         a                    cat:Distribution ;
         dcterms:description  "Plan und Ergebnis ab 2011, soweit vorliegend" ;
         dcterms:format       "JSON" ;
+        dcterms:issued       "2017-11-03 07:59:58.103702"^^xsd:dateTime ;
         dcterms:title        "OffenerHaushalt.json" ;
         cat:accessURL        <https://opendata.jena.de/dataset/5283e94c-a4ab-4ae8-ba2e-ce8d0503f1f0/resource/71e4103b-d930-4bb5-a3fb-55bc69d2a178/download/offenerhaushalt.json> .
 
@@ -535,6 +622,7 @@ mclient:Jena  a            cat:Catalog ;
         a                    cat:Distribution ;
         dcterms:description  "Der vorliegende erste Büromarktbericht für den Berichtszeittraum 2015 macht den Jenaer Immobilienmarkt transparenter. Ziel ist es, sowohl kommunalen Entscheidungsträgern als auch privaten Investoren eine Informationsgrundlage für ihre Planungen zur Verfügung zu stellen, die es bisher noch nicht gab. " ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2016-12-21 10:38:27.931323"^^xsd:dateTime ;
         dcterms:title        "Büromarktbericht 2016" ;
         cat:accessURL        <https://opendata.jena.de/dataset/2e0b0c57-4ffe-450f-aee5-0319dffa216c/resource/a295154a-dd68-40ef-80d7-479060752f25/download/bueromarktbericht-2016.pdf> .
 
@@ -542,6 +630,7 @@ mclient:Jena  a            cat:Catalog ;
         a                    cat:Distribution ;
         dcterms:description  "Schriften zur Stadtentwicklung Nr. 3:\r\nHandbuch Klimawandelgerechte Stadtentwicklung für Jena" ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2016-12-19 13:50:56.000974"^^xsd:dateTime ;
         dcterms:title        "JenKAS_-_Handbuch_einer_klimawandelgerechten_Stadtentwicklung_SV.pdf" ;
         cat:accessURL        <https://opendata.jena.de/dataset/0bf54054-e5b9-47a6-a554-51e5a97266e9/resource/e55ec7ab-02bc-45ae-8831-5c9861be4485/download/jenkas_-_handbuch_einer_klimawandelgerechten_stadtentwicklung_sv.pdf> .
 
@@ -552,6 +641,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "vornamen" ;
         dcterms:description  "Auflistung aller für die jeweiligen Jahre vergebenen Vornamen. Folgende Felder sind enthalten: Spalte 1: Vorname, Spalte 2: Anzahl, Spalte 3: Geschlecht (m=männlich,w=weiblich)\r\n##Hinweise##\r\nBei Erst- und Folgevornamen wurde nur der erste Vorname gezählt.\r\nVornamen, die zwei mal oder weniger als zwei Mal vergeben wurden, werden mit der Anzahl \"0\" gelistet.\r\nDie Dateien sind Unicode UTF-8 formatiert." ;
+        dcterms:issued       "2017-01-06 12:05:24.99742"^^xsd:dateTime ;
+        dcterms:modified     "2020-03-05 22:11:57.294884"^^xsd:dateTime ;
         dcterms:title        "Vornamen" ;
         owl:versionInfo      "1.0" ;
         cat:distribution     <https://opendata.jena.de/distribution/Vornamen+2016> , <https://opendata.jena.de/distribution/Vornamen+2015> , <https://opendata.jena.de/distribution/Vornamen+2018> , <https://opendata.jena.de/distribution/Vornamen+2017> , <https://opendata.jena.de/distribution/Vornamen+2019> ;
@@ -564,6 +655,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "statische-ladepunkte-jena" ;
         dcterms:description  "Standorte der Ladesäulen der Stadtwerke Jena-Pößneck" ;
+        dcterms:issued       "2018-03-06 08:25:05.615788"^^xsd:dateTime ;
+        dcterms:modified     "2020-01-29 13:01:01.058238"^^xsd:dateTime ;
         dcterms:title        "Statische Ladepunkte Jena" ;
         owl:versionInfo      "1.0" ;
         cat:distribution     <https://opendata.jena.de/distribution/Statische_Daten_Ladepunkte_Jena.csv> ;
@@ -572,6 +665,7 @@ mclient:Jena  a            cat:Catalog ;
 <https://opendata.jena.de/distribution/Entwicklungsprojekte>
         a               cat:Distribution ;
         dcterms:format  "JSON" ;
+        dcterms:issued  "2018-05-29 14:22:43.011508"^^xsd:dateTime ;
         dcterms:title   "Entwicklungsprojekte" ;
         cat:accessURL   <https://opendata.jena.de/data/entwicklungsprojekt.geojson> .
 
@@ -579,6 +673,7 @@ mclient:Jena  a            cat:Catalog ;
         a                    cat:Distribution ;
         dcterms:description  "Schriften zur Stadtentwicklung Nr. 5:\r\nGartenentwicklungskonzept - Analysen, Ziele und Perspektiven" ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2016-12-19 13:55:09.888188"^^xsd:dateTime ;
         dcterms:title        "Broschüre Gärten in Jena web 22-01-15-3-1.pdf" ;
         cat:accessURL        <https://opendata.jena.de/dataset/fda05580-ecc3-4b97-851b-cdf89d42de55/resource/53e8b058-6f09-4c52-b96e-89a1fd4a8f9d/download/broschure-garten-in-jena-web-22-01-15-3-1.pdf> .
 
@@ -589,13 +684,16 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "kraftfahrzeugbestand" ;
         dcterms:description  "angemeldete KFZ\r\n\r\nHinweis: Die Verminderung im KFZ-Bestand von 2006 zu 2007 um ca. 10 Prozent erklärt sich durch Inkrafttreten der Fahrzeugzulassungsverordnung am 01.03.2007.\r\n\r\n[Nächste Aktualisierung der Ressource](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=141)" ;
+        dcterms:issued       "2017-03-02 15:16:19.044372"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-07 11:40:47.747917"^^xsd:dateTime ;
         dcterms:title        "Kraftfahrzeugbestand" ;
         cat:distribution     <https://opendata.jena.de/distribution/Kraftfahrzeuge> ;
-        cat:keyword          "Statistik" , "KFZ" , "Kraftfahrzeug" .
+        cat:keyword          "KFZ" , "Statistik" , "Kraftfahrzeug" .
 
 <https://opendata.jena.de/distribution/Einwohner+%28Hauptwohnung%29>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-03-01 16:18:03.239942"^^xsd:dateTime ;
         dcterms:title   "Einwohner (Hauptwohnung)" ;
         cat:accessURL   <https://opendata.jena.de/data/ew.csv> .
 
@@ -603,15 +701,17 @@ mclient:Jena  a            cat:Catalog ;
         a                    cat:Distribution ;
         dcterms:description  "Monitoring 2015" ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2017-05-03 18:45:41.648335"^^xsd:dateTime ;
         dcterms:title        "Jena Wohnstadt_Teil A_Analysen November 2016.pdf" ;
         cat:accessURL        <https://opendata.jena.de/dataset/f32e0f55-95d2-4a3d-973b-c229b20db8f5/resource/199e38ea-fa95-49e0-a6dc-d232f0869d07/download/jena-wohnstadt_teil-a_analysen-november-2016.pdf> .
 
 <https://opendata.jena.de/distribution/Fahrradabstellanlagen>
         a                    cat:Distribution ;
         dcterms:description  "Standorte der Fahrradabstellanlagen (Punkte)" ;
-        dcterms:format       "JSON" , "CSV" ;
+        dcterms:format       "CSV" , "JSON" ;
+        dcterms:issued       "2017-01-30 16:13:56.169675"^^xsd:dateTime , "2016-11-16 12:43:17.658854"^^xsd:dateTime ;
         dcterms:title        "Fahrradabstellanlagen" ;
-        cat:accessURL        <https://opendata.jena.de/data/fahrradabstellanlagen.geojson> , <https://opendata.jena.de/data/fahrradabstellanlagen.csv> .
+        cat:accessURL        <https://opendata.jena.de/data/fahrradabstellanlagen.csv> , <https://opendata.jena.de/data/fahrradabstellanlagen.geojson> .
 
 <https://opendata.jena.de/dataset/arbeiten-in-jena>
         a                    cat:Dataset ;
@@ -620,25 +720,30 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "arbeiten-in-jena" ;
         dcterms:description  "Schriften zur Stadtentwicklung Nr. 4:\r\nArbeitsplatz- und Gewerbeflächenentwicklung Jena 2025" ;
+        dcterms:issued       "2016-12-19 12:53:29.32603"^^xsd:dateTime ;
+        dcterms:modified     "2017-04-26 09:34:57.844617"^^xsd:dateTime ;
         dcterms:title        "Arbeiten in Jena" ;
         cat:distribution     <https://opendata.jena.de/distribution/Arbeiten_in_Jena_Schriften_zur_Stadtentwicklung_Nr4-1.279411.pdf> ;
-        cat:keyword          "Gewerbe" , "2013" , "Arbeiten" .
+        cat:keyword          "2013" , "Arbeiten" , "Gewerbe" .
 
 <https://opendata.jena.de/distribution/Gutachten+Bedarf+an+Kapazit%C3%A4ten+f%C3%BCr+Technologie-+und+Gr%C3%BCnderzentren>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
+        dcterms:issued  "2016-12-20 13:29:39.734051"^^xsd:dateTime ;
         dcterms:title   "Gutachten Bedarf an Kapazitäten für Technologie- und Gründerzentren" ;
         cat:accessURL   <https://opendata.jena.de/dataset/427784aa-8067-47e1-961b-7c5c6d8b9308/resource/23dbeb4b-be6e-4eac-a1b7-625413f006e0/download/gutachten_tgz_jena.pdf> .
 
 <https://opendata.jena.de/distribution/Laufwege>
         a               cat:Distribution ;
         dcterms:format  "JSON" ;
+        dcterms:issued  "2016-11-28 15:48:43.754505"^^xsd:dateTime ;
         dcterms:title   "Laufwege" ;
         cat:accessURL   <https://opendata.jena.de/data/laufwege.geojson> .
 
 <https://opendata.jena.de/distribution/2016-09_City-Entwicklung+Jena+1991-2016.pdf>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
+        dcterms:issued  "2017-05-03 18:54:38.261938"^^xsd:dateTime ;
         dcterms:title   "2016-09_City-Entwicklung Jena 1991-2016.pdf" ;
         cat:accessURL   <https://opendata.jena.de/dataset/b9307936-99e4-43cd-8cf2-59309133f318/resource/f98ff635-9bf1-4d8f-b4fa-420cda88a5ab/download/2016-09_city-entwicklung-jena-1991-2016.pdf> .
 
@@ -649,9 +754,11 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "hundekottutenspender" ;
         dcterms:description  "Standorte der Hundekottütenspender\r\n[Nächste Aktualisierung der Ressourcen](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=148)" ;
+        dcterms:issued       "2018-09-19 14:00:55.372614"^^xsd:dateTime ;
+        dcterms:modified     "2018-09-20 06:14:12.049542"^^xsd:dateTime ;
         dcterms:title        "Hundekottütenspender" ;
         cat:distribution     <https://opendata.jena.de/distribution/Hundekott%C3%BCtenspender> , <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> ;
-        cat:keyword          "Hund" , "Kot" .
+        cat:keyword          "Kot" , "Hund" .
 
 <https://opendata.jena.de/dataset/ortsteile>
         a                    cat:Dataset ;
@@ -660,6 +767,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "ortsteile" ;
         dcterms:description  "Polygone der Ortsteile der Stadt Jena.\r\n\r\n[Nächste Aktualisierung der Ressource](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=6)" ;
+        dcterms:issued       "2016-11-16 11:25:44.651179"^^xsd:dateTime ;
+        dcterms:modified     "2017-06-02 05:49:53.88729"^^xsd:dateTime ;
         dcterms:title        "Ortsteile" ;
         cat:distribution     <https://opendata.jena.de/distribution/Ortsteile> , <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> ;
         cat:keyword          "Ortsteile" .
@@ -667,18 +776,21 @@ mclient:Jena  a            cat:Catalog ;
 <https://opendata.jena.de/distribution/Endbericht+Hausm%C3%BCllanalyse+2015%2F2016>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
+        dcterms:issued  "2016-09-27 09:17:54.813084"^^xsd:dateTime ;
         dcterms:title   "Endbericht Hausmüllanalyse 2015/2016" ;
         cat:accessURL   <https://opendata.jena.de/dataset/342ed63a-5bf5-4002-886d-12dd10221d69/resource/9929e897-1332-4eeb-bf72-6dfe6929851f/download/endbericht-hausmuellanalyse-2015-2016.pdf> .
 
 <https://opendata.jena.de/distribution/Familien_in_Jena.pdf>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
+        dcterms:issued  "2017-03-21 09:37:53.358559"^^xsd:dateTime ;
         dcterms:title   "Familien_in_Jena.pdf" ;
         cat:accessURL   <https://opendata.jena.de/dataset/5a930495-e090-4d34-b77a-ec0c935ba5fb/resource/61b777d2-e1e2-476f-9f44-3b363dab5e3a/download/familien_in_jena.pdf> .
 
 <https://opendata.jena.de/distribution/Zust%C3%A4ndigkeit+Bauordnung>
         a               cat:Distribution ;
         dcterms:format  "JSON" ;
+        dcterms:issued  "2016-11-28 15:14:05.210364"^^xsd:dateTime ;
         dcterms:title   "Zuständigkeit Bauordnung" ;
         cat:accessURL   <https://opendata.jena.de/data/bauordnung_zustaendigkeit.geojson> .
 
@@ -689,6 +801,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "neues-wohnen-jena-zwatzen-schalltechnische-untersuchung" ;
         dcterms:description  "Im Rahmen Bebauungsplanverfahren erstelltes Gutachten." ;
+        dcterms:issued       "2017-05-03 17:26:28.95425"^^xsd:dateTime ;
+        dcterms:modified     "2017-05-03 17:28:56.995969"^^xsd:dateTime ;
         dcterms:title        "Neues Wohnen Jena-Zwätzen - Schalltechnische Untersuchung" ;
         cat:distribution     <https://opendata.jena.de/distribution/Am+Oelste-Neues+Wohnen+Jena-Zw%C3%A4tzen_Schalltechnische+Untersuchung.pdf> ;
         cat:keyword          "Oelste" , "2016" , "Lärm" , "Wohnen" , "Zwätzen" .
@@ -700,13 +814,16 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "jenaer-kinder-und-jugendstudie-2014" ;
         dcterms:description  "10. Kinder- und Jugendstudie der Stadt Jena ausgeführt von ORBIT  Organisationsberatungsinstitut Thüringen im Herbst 2014" ;
+        dcterms:issued       "2017-03-20 13:20:33.434688"^^xsd:dateTime ;
+        dcterms:modified     "2017-03-21 14:46:44.594886"^^xsd:dateTime ;
         dcterms:title        "Jenaer Kinder- und Jugendstudie (2014)" ;
         cat:distribution     <https://opendata.jena.de/distribution/Gesamtbericht_Jugendstudie_Jena_inkl._Handlungsempfehlungen_stand_juni.pdf> ;
-        cat:keyword          "Studie" , "Jugend" , "Kinder" .
+        cat:keyword          "Studie" , "Kinder" , "Jugend" .
 
 <https://opendata.jena.de/distribution/Bericht_Sprachfoerderung_Jena_FINAL.pdf>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
+        dcterms:issued  "2017-03-20 14:03:01.243717"^^xsd:dateTime ;
         dcterms:title   "Bericht_Sprachfoerderung_Jena_FINAL.pdf" ;
         cat:accessURL   <https://opendata.jena.de/dataset/7c73fab9-42dd-4cac-a398-adde4700fcc7/resource/19dc7574-d15c-4a9d-bbc1-6e30cbdf89d6/download/bericht_sprachfoerderung_jena_final.pdf> .
 
@@ -714,6 +831,7 @@ mclient:Jena  a            cat:Catalog ;
         a                    cat:Distribution ;
         dcterms:description  "Schriften zur Stadtentwicklung Nr. 7:\r\nEntwicklungskonzept Einzelhandel Jena 2025" ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2016-12-19 13:56:41.340048"^^xsd:dateTime ;
         dcterms:title        "EHK_Jena_www.pdf" ;
         cat:accessURL        <https://opendata.jena.de/dataset/cf0f181b-5626-49cf-9a56-98c3dedc87c6/resource/0ae3fc14-6497-44bc-83ee-2be48ecc9426/download/ehk_jena_www.pdf> .
 
@@ -724,14 +842,17 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "bildungsforderung-und-armutspravention-in-jena-2009" ;
         dcterms:description  "Bildungsförderung und Armutsprävention in Jena - Studie zur politischen Steuerung von pädagogischen Bedarfen auf kommunaler Ebene (2009)\r\n\r\nFRIEDRICH‐SCHILLER‐UNIVERSITÄT JENA\r\nINSTITUT FÜR ERZIEHUNGSWISSENSCHAFT\r\nLEHRSTUHL FÜR SOZIALPÄDAGOGIK UND AUßERSCHULISCHE BILDUNG" ;
+        dcterms:issued       "2017-03-21 08:45:47.032478"^^xsd:dateTime ;
+        dcterms:modified     "2017-03-21 10:08:50.405463"^^xsd:dateTime ;
         dcterms:title        "Bildungsförderung und Armutsprävention in Jena (2009)" ;
         cat:distribution     <https://opendata.jena.de/distribution/Studie_Bildungsfoerderung.pdf> ;
-        cat:keyword          "Bildung" , "Armut" .
+        cat:keyword          "Armut" , "Bildung" .
 
 <https://opendata.jena.de/distribution/Vornamen+2015>
         a                    cat:Distribution ;
         dcterms:description  "Die CSV-Datei ist Unicode UTF-8 formatiert." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2017-01-06 13:06:40.612773"^^xsd:dateTime ;
         dcterms:title        "Vornamen 2015" ;
         cat:accessURL        <https://opendata.jena.de/dataset/45cb0cf5-5b09-4b14-8f5b-bed05371fe93/resource/77b83a14-1087-4d0a-bdba-db254b71b674/download/2015_geburten_namensstatistik.csv> .
 
@@ -742,6 +863,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "neues-wohnen-jena-zwatzen-artenerfassung-vogel" ;
         dcterms:description  "Im Rahmen Bebauungsplanverfahren erstelltes Gutachten." ;
+        dcterms:issued       "2017-05-03 17:07:24.600667"^^xsd:dateTime ;
+        dcterms:modified     "2017-05-03 17:28:47.680988"^^xsd:dateTime ;
         dcterms:title        "Neues Wohnen Jena-Zwätzen - Artenerfassung Vögel" ;
         cat:distribution     <https://opendata.jena.de/distribution/Am+Oelste-Neues+Wohnen+Jena-Zw%C3%A4tzen_Artenerfassung+V%C3%B6gel.pdf> ;
         cat:keyword          "Zwätzen" , "2013" , "Oelste" , "Umwelt" , "Vögel" , "Naturschutz" , "Wohnen" .
@@ -749,6 +872,7 @@ mclient:Jena  a            cat:Catalog ;
 <https://opendata.jena.de/distribution/Bebauungspl%C3%A4ne>
         a               cat:Distribution ;
         dcterms:format  "JSON" ;
+        dcterms:issued  "2016-11-28 15:20:58.320045"^^xsd:dateTime ;
         dcterms:title   "Bebauungspläne" ;
         cat:accessURL   <https://opendata.jena.de/data/bplan.geojson> .
 
@@ -759,6 +883,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "neues-wohnen-jena-zwatzen-spezielle-artenschutzrechtliche-prufung" ;
         dcterms:description  "Im Rahmen Bebauungsplanverfahren erstelltes Gutachten." ;
+        dcterms:issued       "2017-05-03 17:11:09.584344"^^xsd:dateTime ;
+        dcterms:modified     "2017-05-03 17:27:50.554693"^^xsd:dateTime ;
         dcterms:title        "Neues Wohnen Jena-Zwätzen - Spezielle Artenschutzrechtliche Prüfung" ;
         cat:distribution     <https://opendata.jena.de/distribution/Am+Oelste-Neues+Wohnen+Jena-Zw%C3%A4tzen_SAP.pdf> ;
         cat:keyword          "Oelste" , "2015" , "Wohnen" , "Umwelt" , "Naturschutz" , "Zwätzen" .
@@ -767,6 +893,7 @@ mclient:Jena  a            cat:Catalog ;
         a                    cat:Distribution ;
         dcterms:description  "Schriften zur Stadtentwicklung Nr. 7:\r\nStadtbaumkonzept - Stadt- und Straßenbäume im Klimawandel" ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2016-12-19 13:58:27.316238"^^xsd:dateTime ;
         dcterms:title        "Schriften_zur_Stadtentwicklung_Nr7_11_2016_www_low_res.pdf" ;
         cat:accessURL        <https://opendata.jena.de/dataset/58a4e52e-21d5-4a6c-8bf4-489315290c51/resource/a254e3e6-7f9d-4247-a021-0b9b3a51cf93/download/schriften_zur_stadtentwicklung_nr7_11_2016_www_low_res.pdf> .
 
@@ -777,6 +904,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "adressen-verortet" ;
         dcterms:description  "Adressen der Stadt Jena mit Verortungspunkt, PLZ, Ortsteil und statistischem Bezirk.\r\n\r\n[Nächste Aktualisierung der Ressourcen](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=2)" ;
+        dcterms:issued       "2016-10-17 12:26:25.641059"^^xsd:dateTime ;
+        dcterms:modified     "2018-08-20 05:55:19.665448"^^xsd:dateTime ;
         dcterms:title        "Adressen verortet" ;
         cat:distribution     <https://opendata.jena.de/distribution/Adressen+verortet> , <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> ;
         cat:keyword          "Adresse" , "PLZ" .
@@ -784,6 +913,7 @@ mclient:Jena  a            cat:Catalog ;
 <https://opendata.jena.de/distribution/Statistische+Bezirke>
         a               cat:Distribution ;
         dcterms:format  "JSON" ;
+        dcterms:issued  "2017-03-01 15:52:32.261831"^^xsd:dateTime ;
         dcterms:title   "Statistische Bezirke" ;
         cat:accessURL   <https://opendata.jena.de/data/statbez.geojson> .
 
@@ -794,6 +924,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "laufwege" ;
         dcterms:description  "Verlauf der markierten Laufwege\r\n\r\n[Nächste Aktualisierung der Ressource](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=21)" ;
+        dcterms:issued       "2016-11-28 14:48:21.258274"^^xsd:dateTime ;
+        dcterms:modified     "2017-06-02 05:55:40.660805"^^xsd:dateTime ;
         dcterms:title        "Laufwege" ;
         cat:distribution     <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> , <https://opendata.jena.de/distribution/Laufwege> ;
         cat:keyword          "Jogging" , "Laufweg" , "Sport" , "Bewegung" .
@@ -801,6 +933,7 @@ mclient:Jena  a            cat:Catalog ;
 <https://opendata.jena.de/distribution/Standorte+Entsorgungseinrichtungen>
         a               cat:Distribution ;
         dcterms:format  "JSON" , "CSV" ;
+        dcterms:issued  "2016-11-28 12:10:34.056095"^^xsd:dateTime , "2017-01-30 16:10:57.611485"^^xsd:dateTime ;
         dcterms:title   "Standorte Entsorgungseinrichtungen" ;
         cat:accessURL   <https://opendata.jena.de/data/entsorgung.geojson> , <https://opendata.jena.de/data/entsorgung.csv> .
 
@@ -811,14 +944,17 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "fahrradabstellanlagen" ;
         dcterms:description  "Standorte der Fahrradabstellanlagen in Jena.\r\n\r\n[Nächste Aktualisierung der Ressourcen](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=5)" ;
+        dcterms:issued       "2016-11-16 11:42:36.218001"^^xsd:dateTime ;
+        dcterms:modified     "2018-09-19 14:05:09.788255"^^xsd:dateTime ;
         dcterms:title        "Fahrradabstellanlagen" ;
-        cat:distribution     <https://opendata.jena.de/distribution/Fahrradabstellanlagen> , <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> ;
-        cat:keyword          "Fahrradabstellanlage" , "Fahrradständer" .
+        cat:distribution     <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> , <https://opendata.jena.de/distribution/Fahrradabstellanlagen> ;
+        cat:keyword          "Fahrradständer" , "Fahrradabstellanlage" .
 
 <https://opendata.jena.de/distribution/Wohnen_in_Jena_kpl.pdf>
         a                    cat:Distribution ;
         dcterms:description  "Schriften zur Stadtentwicklung Nr. 1:\r\nAnalysen, Ziele und Perspektiven zur Wohnraumentwicklung" ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2016-12-19 13:43:26.468287"^^xsd:dateTime ;
         dcterms:title        "Wohnen_in_Jena_kpl.pdf" ;
         cat:accessURL        <https://opendata.jena.de/dataset/891909e9-c296-4210-a424-cdd585289755/resource/e6ecbcf3-9434-4516-8b32-d06133b831ef/download/wohnen_in_jena_kpl.pdf> .
 
@@ -826,6 +962,7 @@ mclient:Jena  a            cat:Catalog ;
         a                    cat:Distribution ;
         dcterms:description  "Plan und Ergebnis ab 2011, soweit vorliegend" ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2017-11-03 07:59:31.723509"^^xsd:dateTime ;
         dcterms:title        "OffenerHaushalt.csv" ;
         cat:accessURL        <https://opendata.jena.de/dataset/5283e94c-a4ab-4ae8-ba2e-ce8d0503f1f0/resource/0d040bf5-2e2f-4ffc-b14b-c9ac13f8d978/download/offenerhaushalt.csv> .
 
@@ -836,6 +973,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "baumkataster" ;
         dcterms:description  "städtische Bäume\r\nDie Ressourcen enthalten nur Beispielsdaten, da noch keine Daten für das gesamte Stadtgebiet verfügbar sind" ;
+        dcterms:issued       "2017-11-03 11:56:14.735644"^^xsd:dateTime ;
+        dcterms:modified     "2017-11-03 12:00:06.83553"^^xsd:dateTime ;
         dcterms:title        "Baumkataster" ;
         cat:distribution     <https://opendata.jena.de/distribution/Baumkataster> .
 
@@ -846,9 +985,11 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "familien-in-jena" ;
         dcterms:description  "Untersuchung zur Lebenssituation von Familien in Jena (2009) - ORBIT Organisationsberatungsinstitut Thüringen" ;
+        dcterms:issued       "2017-03-21 08:37:33.055966"^^xsd:dateTime ;
+        dcterms:modified     "2017-03-21 14:42:26.240252"^^xsd:dateTime ;
         dcterms:title        "Familien in Jena (2009)" ;
         cat:distribution     <https://opendata.jena.de/distribution/Familien_in_Jena.pdf> ;
-        cat:keyword          "Stadtteil" , "Familie" .
+        cat:keyword          "Familie" , "Stadtteil" .
 
 <https://opendata.jena.de/dataset/corona-erkrankungen>
         a                    cat:Dataset ;
@@ -857,6 +998,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "corona-erkrankungen" ;
         dcterms:description  "Überblick über die Entwicklung der Corona-Erkrankungen in Jena." ;
+        dcterms:issued       "2020-03-27 09:27:45.762557"^^xsd:dateTime ;
+        dcterms:modified     "2021-02-23 08:50:21.082174"^^xsd:dateTime ;
         dcterms:title        "Corona-Erkrankungen" ;
         cat:distribution     <https://opendata.jena.de/distribution/corona_erkrankungen_jena.csv> ;
         cat:keyword          "Corona" .
@@ -865,6 +1008,7 @@ mclient:Jena  a            cat:Catalog ;
         a                    cat:Distribution ;
         dcterms:description  "Beispielsdaten Talstr." ;
         dcterms:format       "JSON" , "CSV" ;
+        dcterms:issued       "2017-11-03 11:57:29.279459"^^xsd:dateTime , "2017-11-03 11:56:46.724324"^^xsd:dateTime ;
         dcterms:title        "Baumkataster" ;
         cat:accessURL        <https://opendata.jena.de/dataset/acd67e0c-b597-48c7-b251-1b565c49de90/resource/f245ce6a-71b9-458e-b4e8-dea3fa6c3ab5/download/baumkataster.geojson> , <https://opendata.jena.de/dataset/acd67e0c-b597-48c7-b251-1b565c49de90/resource/3ff727bb-8db4-4b47-9c53-7084d15f73d6/download/baumkataster.csv> .
 
@@ -872,18 +1016,21 @@ mclient:Jena  a            cat:Catalog ;
         a                    cat:Distribution ;
         dcterms:description  "geplante Strassenbaumassnahmen im laufenden Jahr" ;
         dcterms:format       "JSON" ;
+        dcterms:issued       "2016-10-19 08:18:33.673981"^^xsd:dateTime ;
         dcterms:title        "geplante Strassenbaumassnahmen" ;
         cat:accessURL        <https://opendata.jena.de/data/strassenbaumassnahmen_geplant.geojson> .
 
 <https://opendata.jena.de/distribution/Wohnberechtigte+Bev%C3%B6lkerung>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-12-07 12:04:15.244838"^^xsd:dateTime ;
         dcterms:title   "Wohnberechtigte Bevölkerung" ;
         cat:accessURL   <https://opendata.jena.de/data/wbbev.csv> .
 
 <https://opendata.jena.de/distribution/Statistische+Privathaushalte>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-07-12 12:50:16.23584"^^xsd:dateTime ;
         dcterms:title   "Statistische Privathaushalte" ;
         cat:accessURL   <https://opendata.jena.de/data/hh.csv> .
 
@@ -891,6 +1038,7 @@ mclient:Jena  a            cat:Catalog ;
         a                    cat:Distribution ;
         dcterms:description  "Die Daten in der Datei sind nicht mehr aktuell und werden auch nicht mehr aktualisiert. Aktualisierte Daten erhalten Sie jetzt ausschließlich über eine Schnittstelle. Für weitere Fragen wenden Sie sich bitte an opendata@jena.de.\r\n\r\nAlle Veranstaltungen aus dem Veranstaltungskalender von jena.de als XML-Datei zum Download" ;
         dcterms:format       "XML" ;
+        dcterms:issued       "2016-11-15 13:44:43.567504"^^xsd:dateTime ;
         dcterms:title        "Veranstaltungen als XML" ;
         cat:accessURL        <https://opendata.jena.de/data/veranstaltungen_jena_full.xml> .
 
@@ -898,12 +1046,14 @@ mclient:Jena  a            cat:Catalog ;
         a                    cat:Distribution ;
         dcterms:description  "Die CSV-Datei ist Unicode UTF-8 formatiert. " ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2019-02-05 14:15:19.31362"^^xsd:dateTime ;
         dcterms:title        "Vornamen 2018" ;
         cat:accessURL        <https://opendata.jena.de/dataset/45cb0cf5-5b09-4b14-8f5b-bed05371fe93/resource/9837f9c5-f883-439a-b87b-c460aa757f6a/download/vornamen2018_opendata_anonymisiert.csv> .
 
 <https://opendata.jena.de/distribution/Baufelder+in+Gewerbegebieten>
         a               cat:Distribution ;
         dcterms:format  "JSON" ;
+        dcterms:issued  "2016-11-28 14:50:14.747231"^^xsd:dateTime ;
         dcterms:title   "Baufelder in Gewerbegebieten" ;
         cat:accessURL   <https://opendata.jena.de/data/baufelder_gewerbe.geojson> .
 
@@ -914,6 +1064,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "einwohner-gesamt" ;
         dcterms:description  "Einwohner (Hauptwohnung) nach statistischen Bezirken\r\n\r\nStichtage jährlich 30.06. und 31.12.; Zeitreihe seit 31.12.2002\r\n\r\nGesamtzahl der Einwohner mit Hauptwohnung sowie nach folgenden Kriterien unterschieden: Geschlecht, Staatsangehörigkeit (gesamt und nach Geschlecht), Familienstand, Konfession\r\n\r\nAus Datenschutzgründen werden Daten, die Rückschlüsse auf Einzelpersonen erlauben, anonymisiert.\r\n\r\n[Nächste Aktualisierung der Ressource](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=135)" ;
+        dcterms:issued       "2017-03-01 12:10:44.436242"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-07 11:37:09.300713"^^xsd:dateTime ;
         dcterms:title        "Einwohner mit Hauptwohnung" ;
         cat:distribution     <https://opendata.jena.de/distribution/Einwohner+%28Hauptwohnung%29> ;
         cat:keyword          "Statistik" , "Geschlecht" , "Staatsangehörigkeit" , "Konfession" , "Einwohner" , "Familienstand" .
@@ -922,6 +1074,7 @@ mclient:Jena  a            cat:Catalog ;
         a                    cat:Distribution ;
         dcterms:description  "Schriften zur Stadtentwicklung Nr. 2:\r\nStandard für die Gestaltung des öffentlichen Raumes" ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2016-12-19 13:48:34.26562"^^xsd:dateTime ;
         dcterms:title        "formatio jenensis - komplett.pdf" ;
         cat:accessURL        <https://opendata.jena.de/dataset/058bd2c4-62dd-4877-98ae-27171aa0ce7d/resource/2e060e7c-f587-4306-97fd-afae2f326fde/download/formatio-jenensis-komplett.pdf> .
 
@@ -932,9 +1085,11 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "wohnen-in-jena" ;
         dcterms:description  "Schriften zur Stadtentwicklung Nr. 1:\r\nAnalysen, Ziele und Perspektiven zur Wohnraumentwicklung" ;
+        dcterms:issued       "2016-12-19 12:42:24.402324"^^xsd:dateTime ;
+        dcterms:modified     "2017-04-26 09:35:24.271991"^^xsd:dateTime ;
         dcterms:title        "Wohnen in Jena" ;
         cat:distribution     <https://opendata.jena.de/distribution/Wohnen_in_Jena_kpl.pdf> ;
-        cat:keyword          "Wohnen" , "2012" .
+        cat:keyword          "2012" , "Wohnen" .
 
 <https://opendata.jena.de/dataset/bplan>
         a                    cat:Dataset ;
@@ -943,6 +1098,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "bplan" ;
         dcterms:description  "Räumliche Geltungsbereiche der rechtskräftige Bebauungspläne.\r\n\r\n[Nächste Aktualisierung der Ressource](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=17)" ;
+        dcterms:issued       "2016-11-28 14:20:38.105523"^^xsd:dateTime ;
+        dcterms:modified     "2017-06-01 15:49:49.204608"^^xsd:dateTime ;
         dcterms:title        "Rechtskräftige Bebauungspläne" ;
         cat:distribution     <https://opendata.jena.de/distribution/Bebauungspl%C3%A4ne> , <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> ;
         cat:keyword          "Bebauungsplan" , "Bauen" , "BPlan" .
@@ -954,13 +1111,16 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "wohngebaude-und-wohungen" ;
         dcterms:description  "Stichtag jährlich 31.12.; Zeitreihe seit 31.12.2002\r\n\r\n[Nächste Aktualisierung der Ressourcen](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=143)" ;
+        dcterms:issued       "2017-12-07 12:07:44.690545"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-07 12:08:28.81822"^^xsd:dateTime ;
         dcterms:title        "Wohngebäude und Wohungen" ;
         cat:distribution     <https://opendata.jena.de/distribution/Wohngeb%C3%A4ude+und+Wohnungen> ;
-        cat:keyword          "Wohnen" , "Gebäude" , "Haus" .
+        cat:keyword          "Wohnen" , "Haus" , "Gebäude" .
 
 <https://opendata.jena.de/distribution/Ortsteile>
         a               cat:Distribution ;
         dcterms:format  "JSON" ;
+        dcterms:issued  "2016-11-16 12:27:38.800552"^^xsd:dateTime ;
         dcterms:title   "Ortsteile" ;
         cat:accessURL   <https://opendata.jena.de/data/ortsteile.geojson> .
 
@@ -971,6 +1131,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "poi" ;
         dcterms:description  "Verschiedene Points of Interest (Zielpunkte) in Jena, u.a. Bibliotheken, Spielplätze, Krankenhäuser etc.\r\n\r\n[Nächste Aktualisierung der Ressourcen](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=9)" ;
+        dcterms:issued       "2016-11-28 09:14:41.311828"^^xsd:dateTime ;
+        dcterms:modified     "2017-06-02 05:51:45.401137"^^xsd:dateTime ;
         dcterms:title        "Points of Interest" ;
         cat:distribution     <https://opendata.jena.de/distribution/Points+of+Interest+> , <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> , <https://opendata.jena.de/distribution/Points+of+Interest> ;
         cat:keyword          "POI" , "Krankenhaus" , "Bibliothek" , "Spielplatz" .
@@ -982,9 +1144,11 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "katasterflache" ;
         dcterms:description  "Bodenfläche in Jena nach Art ihrer tatsächlichen Nutzung (Angabe in Hektar)\r\nnach statistischen Bezirken, Stichtag jährlich 31.12., Zeitreihe seit 2002\r\n\r\n[Nächste Aktualisierung der Ressource](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=140)" ;
+        dcterms:issued       "2017-07-14 07:36:05.128115"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-07 11:05:38.171943"^^xsd:dateTime ;
         dcterms:title        "Katasterfläche" ;
         cat:distribution     <https://opendata.jena.de/distribution/Bodenfl%C3%A4che+nach+Art+ihrer+tats%C3%A4chlichen+Nutzung> ;
-        cat:keyword          "Statistik" , "Fläche" , "Flächennutzung" .
+        cat:keyword          "Flächennutzung" , "Fläche" , "Statistik" .
 
 <https://opendata.jena.de/dataset/buromarktzonen>
         a                    cat:Dataset ;
@@ -993,9 +1157,11 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "buromarktzonen" ;
         dcterms:description  "Der Datensatz enthält wesentliche Marktkennziffern des Büroflächenmarktes in Jena (bspw. Flächenumsätze, Mieten, Leerstandsquoten), basierend auf den acht Büromarktzonen im Stadtgebiet\r\n\r\n[Nächste Aktualisierung der Ressource](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=145)" ;
+        dcterms:issued       "2018-05-29 14:30:26.915745"^^xsd:dateTime ;
+        dcterms:modified     "2018-05-31 12:59:11.678134"^^xsd:dateTime ;
         dcterms:title        "Büromarktzonen" ;
         cat:distribution     <https://opendata.jena.de/distribution/B%C3%BCrmarktzonen> ;
-        cat:keyword          "Wirtschaft" , "Büro" .
+        cat:keyword          "Büro" , "Wirtschaft" .
 
 <https://opendata.jena.de/dataset/wohnberechtigte-bevolkerung>
         a                    cat:Dataset ;
@@ -1004,13 +1170,16 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "wohnberechtigte-bevolkerung" ;
         dcterms:description  "Einwohner mit Haupt- und/oder Nebenwohnsitz\r\n\r\nStichtag jährlich 31.12.; Zeitreihe seit 31.12.2002\r\n\r\nAus Datenschutzgründen werden Daten, die Rückschlüsse auf Einzelpersonen erlauben, anonymisiert.\r\n\r\n[Nächste Aktualisierung der Ressource](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=142)" ;
+        dcterms:issued       "2017-12-07 12:03:09.933127"^^xsd:dateTime ;
+        dcterms:modified     "2017-12-07 12:05:08.424115"^^xsd:dateTime ;
         dcterms:title        "Wohnberechtigte Bevölkerung" ;
         cat:distribution     <https://opendata.jena.de/distribution/Wohnberechtigte+Bev%C3%B6lkerung> ;
-        cat:keyword          "Wohnsitz" , "Einwohner" .
+        cat:keyword          "Einwohner" , "Wohnsitz" .
 
 <https://opendata.jena.de/distribution/Studie_Bildungsfoerderung.pdf>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
+        dcterms:issued  "2017-03-21 09:46:04.515029"^^xsd:dateTime ;
         dcterms:title   "Studie_Bildungsfoerderung.pdf" ;
         cat:accessURL   <https://opendata.jena.de/dataset/4941e654-dfcb-4494-927d-d410cbdfdab9/resource/9aab5ae4-d72c-4d66-a461-d606c0a243c9/download/studie_bildungsfoerderung.pdf> .
 
@@ -1021,6 +1190,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "plz_bezirke" ;
         dcterms:description  "Polygone der Postleitzahlbezirke\r\n\r\nAktualisierung der Ressource nur bei Änderungen" ;
+        dcterms:issued       "2016-11-16 11:34:32.757562"^^xsd:dateTime ;
+        dcterms:modified     "2017-06-02 05:55:03.374409"^^xsd:dateTime ;
         dcterms:title        "PLZ-Bezirke" ;
         cat:distribution     <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> , <https://opendata.jena.de/distribution/PLZ-Bezirke> ;
         cat:keyword          "Postleitzahl" , "PLZ" , "Ort" .
@@ -1032,6 +1203,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "neue-netze-der-verantwortung-fur-bildung-und-lebensbewaltigung-2008" ;
         dcterms:description  "Konzeption für das integrative Zusammenwirken von Erzieherischen Hilfen, Schulsozialarbeit, Kinder- und Jugendarbeit und Schule in Jena-Lobeda und Jena-Winzerla" ;
+        dcterms:issued       "2017-03-21 10:28:17.598154"^^xsd:dateTime ;
+        dcterms:modified     "2017-03-21 10:28:31.634088"^^xsd:dateTime ;
         dcterms:title        "Neue Netze der Verantwortung für Bildung und Lebensbewältigung (2008)" ;
         cat:distribution     <https://opendata.jena.de/distribution/Lindner_Konzept.pdf> ;
         cat:keyword          "Schule" , "Lobeda" , "Winzerla" , "Bildung" , "Schulsozialarbeit" , "Jugendarbeit" .
@@ -1043,9 +1216,11 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "mangel" ;
         dcterms:description  "Im Mängelmelder gemeldete Mängel. " ;
+        dcterms:issued       "2018-09-04 07:52:07.305466"^^xsd:dateTime ;
+        dcterms:modified     "2019-04-10 07:30:13.670714"^^xsd:dateTime ;
         dcterms:title        "Mängel" ;
         cat:distribution     <https://opendata.jena.de/distribution/maengel.json> ;
-        cat:keyword          "Mangel" , "Anliegen" ;
+        cat:keyword          "Anliegen" , "Mangel" ;
         cat:landingPage      <https://maengelmelder.jena.de> .
 
 <https://opendata.jena.de/dataset/buromarktbericht-2016>
@@ -1055,6 +1230,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "buromarktbericht-2016" ;
         dcterms:description  "Der vorliegende erste Büromarktbericht für den Berichtszeittraum 2015 macht den Jenaer Immobilienmarkt transparenter. Ziel ist es, sowohl kommunalen Entscheidungsträgern als auch privaten Investoren eine Informationsgrundlage für ihre Planungen zur Verfügung zu stellen, die es bisher noch nicht gab. " ;
+        dcterms:issued       "2016-12-21 09:36:00.98849"^^xsd:dateTime ;
+        dcterms:modified     "2016-12-21 09:38:28.764269"^^xsd:dateTime ;
         dcterms:title        "Büromarktbericht 2016" ;
         cat:distribution     <https://opendata.jena.de/distribution/B%C3%BCromarktbericht+2016> ;
         cat:keyword          "Büroimmobilien" , "Wirtschaft" , "Büroflächen" , "Büromarkt" , "Büros" .
@@ -1062,6 +1239,7 @@ mclient:Jena  a            cat:Catalog ;
 <https://opendata.jena.de/distribution/Am+Oelste-Neues+Wohnen+Jena-Zw%C3%A4tzen_Schalltechnische+Untersuchung.pdf>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
+        dcterms:issued  "2017-05-03 19:26:39.596057"^^xsd:dateTime ;
         dcterms:title   "Am Oelste-Neues Wohnen Jena-Zwätzen_Schalltechnische Untersuchung.pdf" ;
         cat:accessURL   <https://opendata.jena.de/dataset/1d9ebb09-e917-4085-8566-8df5280748da/resource/879a2ffb-a18c-4749-8524-70651fbe0297/download/am-oelste-neues-wohnen-jena-zwatzen_schalltechnische-untersuchung.pdf> .
 
@@ -1072,6 +1250,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "besonderes_staedtebaurecht" ;
         dcterms:description  "Flächenumgriff der Gebiete des besonderen Städtebaurechts (z.B. Sanierungsgebiete)\r\n\r\n[Nächste Aktualisierung der Ressource](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=18)" ;
+        dcterms:issued       "2016-11-28 14:25:44.811233"^^xsd:dateTime ;
+        dcterms:modified     "2017-06-01 15:48:56.36089"^^xsd:dateTime ;
         dcterms:title        "besonderes Städtebaurecht" ;
         cat:distribution     <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> , <https://opendata.jena.de/distribution/besondere+St%C3%A4dtebaurecht> ;
         cat:keyword          "Stadt" , "Bauen" , "Sanierung" .
@@ -1083,6 +1263,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "hausmuellanalyse-2015-2016" ;
         dcterms:description  "Endbericht Hausmüllanalyse der Stadt Jena 2015/2016." ;
+        dcterms:issued       "2016-09-23 08:18:05.80205"^^xsd:dateTime ;
+        dcterms:modified     "2016-12-20 15:17:56.827237"^^xsd:dateTime ;
         dcterms:title        "Hausmüllanalyse 2015/2016" ;
         owl:versionInfo      "1.0" ;
         cat:distribution     <https://opendata.jena.de/distribution/Endbericht+Hausm%C3%BCllanalyse+2015%2F2016> ;
@@ -1091,14 +1273,16 @@ mclient:Jena  a            cat:Catalog ;
 <https://opendata.jena.de/distribution/besondere+St%C3%A4dtebaurecht>
         a               cat:Distribution ;
         dcterms:format  "JSON" ;
+        dcterms:issued  "2016-11-28 15:26:04.959614"^^xsd:dateTime ;
         dcterms:title   "besondere Städtebaurecht" ;
         cat:accessURL   <https://opendata.jena.de/data/besonderes_staedtebaurecht.geojson> .
 
 <https://opendata.jena.de/distribution/Hundekott%C3%BCtenspender>
         a               cat:Distribution ;
-        dcterms:format  "JSON" , "CSV" ;
+        dcterms:format  "CSV" , "JSON" ;
+        dcterms:issued  "2018-09-19 14:02:12.613461"^^xsd:dateTime , "2018-09-19 14:01:34.109734"^^xsd:dateTime ;
         dcterms:title   "Hundekottütenspender" ;
-        cat:accessURL   <https://opendata.jena.de/data/hundekot.geojson> , <https://opendata.jena.de/data/hundekot.csv> .
+        cat:accessURL   <https://opendata.jena.de/data/hundekot.csv> , <https://opendata.jena.de/data/hundekot.geojson> .
 
 <https://opendata.jena.de/dataset/baugrundgutachten-zur-neugestaltung-freiraum-an-der-stadtrodaer-strabe>
         a                    cat:Dataset ;
@@ -1107,6 +1291,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "baugrundgutachten-zur-neugestaltung-freiraum-an-der-stadtrodaer-strabe" ;
         dcterms:description  "Geotechnischer Bericht nach DIN 4020 zur Baugrunduntersuchung bzgl. Projekt \"Freiraum Grünfläche Stadtrodaer Straße bis Parkplatz Ernst-Schneller-Straße Jena\"" ;
+        dcterms:issued       "2017-04-26 09:40:01.015873"^^xsd:dateTime ;
+        dcterms:modified     "2017-04-26 09:41:39.274254"^^xsd:dateTime ;
         dcterms:title        "Baugrundgutachten zur Neugestaltung Freiraum an der Stadtrodaer Straße" ;
         cat:distribution     <https://opendata.jena.de/distribution/2016-07-29_Baugrundgutachten_Freiraum+Stadtrodaer+Stra%C3%9Fe.pdf> ;
         cat:keyword          "Stadtrodaer Straße" , "Lobeda-West" , "Neulobeda" , "Baugrund" .
@@ -1118,6 +1304,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "entsorgungstermine-des-kommunalservice-jena" ;
         dcterms:description  "Hier finden Sie die aktuellen Entsorgungstermine des Kommunalservice Jena. [Nächste Aktualisierung der Ressourcen](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=149)" ;
+        dcterms:issued       "2018-10-01 11:06:29.666632"^^xsd:dateTime ;
+        dcterms:modified     "2018-11-16 16:29:33.477269"^^xsd:dateTime ;
         dcterms:title        "Entsorgungstermine des Kommunalservice Jena" ;
         owl:versionInfo      "1.0" ;
         cat:distribution     <https://opendata.jena.de/distribution/entsorgungstermine.csv> ;
@@ -1131,9 +1319,11 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "jenaer-klimaanpassungsstrategie-jenkas" ;
         dcterms:description  "Schriften zur Stadtentwicklung Nr. 3:\r\nHandbuch Klimawandelgerechte Stadtentwicklung für Jena" ;
+        dcterms:issued       "2016-12-19 12:50:39.087173"^^xsd:dateTime ;
+        dcterms:modified     "2017-04-26 09:34:02.874402"^^xsd:dateTime ;
         dcterms:title        "Jenaer Klimaanpassungsstrategie (JenKAS)" ;
         cat:distribution     <https://opendata.jena.de/distribution/JenKAS_-_Handbuch_einer_klimawandelgerechten_Stadtentwicklung_SV.pdf> ;
-        cat:keyword          "Klimawandel" , "2012" , "Klimaanpassung" .
+        cat:keyword          "Klimaanpassung" , "2012" , "Klimawandel" .
 
 <https://opendata.jena.de/dataset/verkehrsbehinderungen>
         a                    cat:Dataset ;
@@ -1142,6 +1332,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "verkehrsbehinderungen" ;
         dcterms:description  "Verkehrsbehinderungen in der Stadt Jena.\r\n\r\n[Nächste Aktualisierung der Ressourcen](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=4)" ;
+        dcterms:issued       "2016-10-19 10:27:56.592719"^^xsd:dateTime ;
+        dcterms:modified     "2017-06-01 15:46:44.612419"^^xsd:dateTime ;
         dcterms:title        "Verkehrsbehinderungen" ;
         cat:distribution     <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> , <https://opendata.jena.de/distribution/Verkehrsbehinderungen> ;
         cat:keyword          "Verkehr" , "Baumaßnahmen" , "Straßen" .
@@ -1149,6 +1341,7 @@ mclient:Jena  a            cat:Catalog ;
 <https://opendata.jena.de/distribution/Fischer_2010_Lokale+Bildungslandschaft.pdf>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
+        dcterms:issued  "2017-03-21 11:02:36.065431"^^xsd:dateTime ;
         dcterms:title   "Fischer_2010_Lokale Bildungslandschaft.pdf" ;
         cat:accessURL   <https://opendata.jena.de/dataset/18896a49-2fa9-441a-9bbc-dd26a69e55ae/resource/9092f018-9a5b-45eb-8ca8-a247c19aeddc/download/fischer_2010_lokale-bildungslandschaft.pdf> .
 
@@ -1156,6 +1349,7 @@ mclient:Jena  a            cat:Catalog ;
         a                    cat:Distribution ;
         dcterms:description  "Datum des Berichtes: 16.12.2016" ;
         dcterms:format       "PDF" ;
+        dcterms:issued       "2017-06-20 09:49:09.63527"^^xsd:dateTime ;
         dcterms:title        "Prüfbericht Nr. 38/16 Lutherplatz 3" ;
         cat:accessURL        <https://opendata.jena.de/dataset/caae46fc-b8da-4e80-a8fa-506d532ec090/resource/030214bc-4c9a-4c75-af88-3cd33d1f179a/download/pruefbericht_lutherplatz_3_incl_anhaenge.pdf> .
 
@@ -1163,6 +1357,7 @@ mclient:Jena  a            cat:Catalog ;
         a                    cat:Distribution ;
         dcterms:description  "!!! Dies ist eine Testdatei, welche keine gesicherten Daten enthält !!!" ;
         dcterms:format       "JSON" ;
+        dcterms:issued       "2020-03-02 09:43:13.631201"^^xsd:dateTime ;
         dcterms:title        "statische Parkdaten" ;
         cat:accessURL        <https://opendata.jena.de/dataset/1a542cd2-c424-4fb6-b30b-d7be84b701c8/resource/76b93cff-4f6c-47fa-ab83-b07d64c8f38a/download/parking.json> ;
         cat:byteSize         83514.0 ;
@@ -1175,6 +1370,8 @@ mclient:Jena  a            cat:Catalog ;
         <http://ckan.aksw.org/ontology/name>
                 "corporate-design-handbuch-stadt-jena" ;
         dcterms:description  "CD-Handbuch der Stadt Jena für Printprodukte zur Verwendung des Lichtstadt Logo's und Labels, Vorgaben für die Erstellung von Briefen, Visitenkarten, Präsentationen" ;
+        dcterms:issued       "2017-01-05 12:17:04.156847"^^xsd:dateTime ;
+        dcterms:modified     "2017-01-05 12:21:29.744656"^^xsd:dateTime ;
         dcterms:title        "Corporate Design Handbuch Stadt Jena" ;
         cat:distribution     <https://opendata.jena.de/distribution/CD-Handbuch-Stadt-Jena-2013.pdf> ;
         cat:keyword          "CD" , "CD-Handbuch" , "Druck" , "Design" , "Print" , "Corporate Design" .
@@ -1188,9 +1385,11 @@ mclient:meta  cat:catalog  mclient:Jena .
         <http://ckan.aksw.org/ontology/name>
                 "evaluation-der-sprachforderung-an-jenaer-kitas" ;
         dcterms:description  "Ergebnisbericht von Kerstin Fieber-Martin und Britta Raudies\r\nunter Mitwirkung von Jonas Koßmann und Janine Brunner zur Evaluation der Sprachförderung an Jenaer Kitas vom Juli 2012" ;
+        dcterms:issued       "2017-03-20 13:02:33.035704"^^xsd:dateTime ;
+        dcterms:modified     "2017-03-21 10:10:19.075889"^^xsd:dateTime ;
         dcterms:title        "Evaluation der Sprachförderung an Jenaer Kitas (2012)" ;
         cat:distribution     <https://opendata.jena.de/distribution/Bericht_Sprachfoerderung_Jena_FINAL.pdf> ;
-        cat:keyword          "Sprachförderung" , "Bildung" , "Kita" .
+        cat:keyword          "Bildung" , "Kita" , "Sprachförderung" .
 
 <https://opendata.jena.de/dataset/wahllokale>
         a                    cat:Dataset ;
@@ -1199,14 +1398,17 @@ mclient:meta  cat:catalog  mclient:Jena .
         <http://ckan.aksw.org/ontology/name>
                 "wahllokale" ;
         dcterms:description  "Lage der Wahllokale; die Wahllokale werden erst einige Wochen oder Monate vor anstehenden Wahlen eingestellt und sind dann ausschliesslich für diese Wahl gültig. Zwischen den Wahlen sind die Ressourcen leer.\r\n\r\n[Nächste Aktualisierung der Ressourcen](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=20)" ;
+        dcterms:issued       "2016-11-28 14:40:52.685807"^^xsd:dateTime ;
+        dcterms:modified     "2019-10-25 07:06:56.248991"^^xsd:dateTime ;
         dcterms:title        "Wahllokale" ;
         cat:distribution     <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> , <https://opendata.jena.de/distribution/Wahllokale> ;
-        cat:keyword          "Wahl" , "Wahllokal" .
+        cat:keyword          "Wahllokal" , "Wahl" .
 
 <https://opendata.jena.de/distribution/PLZ-Bezirke>
         a                    cat:Distribution ;
         dcterms:description  "Polygone" ;
         dcterms:format       "JSON" ;
+        dcterms:issued       "2016-11-30 15:02:47.792245"^^xsd:dateTime ;
         dcterms:title        "PLZ-Bezirke" ;
         cat:accessURL        <https://opendata.jena.de/dataset/c5a1a730-aa0e-41f1-a372-4ff368083bf6/resource/69b8452a-0519-4fc8-8418-6c26b4472c7b/download/plzbezirke.geojson> .
 
@@ -1217,13 +1419,16 @@ mclient:meta  cat:catalog  mclient:Jena .
         <http://ckan.aksw.org/ontology/name>
                 "bauordnung_zustaendigkeit" ;
         dcterms:description  "Räumliche Zuständigkeit der Teams im Fachdienst Bauordnung und Denkmalschutz\r\n\r\n[Nächste Aktualisierung der Ressource](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=16)" ;
+        dcterms:issued       "2016-11-28 14:13:34.149813"^^xsd:dateTime ;
+        dcterms:modified     "2017-06-01 15:49:23.319179"^^xsd:dateTime ;
         dcterms:title        "Zuständigkeit Bauordnung" ;
-        cat:distribution     <https://opendata.jena.de/distribution/Zust%C3%A4ndigkeit+Bauordnung> , <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> ;
+        cat:distribution     <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> , <https://opendata.jena.de/distribution/Zust%C3%A4ndigkeit+Bauordnung> ;
         cat:keyword          "Bauordnung" , "Bauen" .
 
 <https://opendata.jena.de/distribution/Einwohner+%28weiblich%29+nach+Alter>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-06-26 10:57:41.105163"^^xsd:dateTime ;
         dcterms:title   "Einwohner (weiblich) nach Alter" ;
         cat:accessURL   <https://opendata.jena.de/data/ew_w_alter.csv> .
 
@@ -1231,6 +1436,7 @@ mclient:meta  cat:catalog  mclient:Jena .
         a                    cat:Distribution ;
         dcterms:description  "!!! Dies ist eine Testdatei, welche keine gesicherten Daten enthält !!!\r\n\r\n[nächste Aktualisierung](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=150&fileset_id[]=151)" ;
         dcterms:format       "XML" ;
+        dcterms:issued       "2020-05-05 13:37:52.620438"^^xsd:dateTime ;
         dcterms:title        "Parkplätze" ;
         cat:accessURL        <https://opendata.jena.de/data/parkplaetze.xml> ;
         cat:mediaType        "application/xml" .
@@ -1238,6 +1444,7 @@ mclient:meta  cat:catalog  mclient:Jena .
 <https://opendata.jena.de/distribution/Kraftfahrzeuge>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-03-02 16:17:43.167918"^^xsd:dateTime ;
         dcterms:title   "Kraftfahrzeuge" ;
         cat:accessURL   <https://opendata.jena.de/data/kfz.csv> .
 
@@ -1248,6 +1455,8 @@ mclient:meta  cat:catalog  mclient:Jena .
         <http://ckan.aksw.org/ontology/name>
                 "baufeld_gewerbe" ;
         dcterms:description  "Baufelder in Gewerbegebieten\r\n\r\n[Nächste Aktualisierung der Ressource](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=15)" ;
+        dcterms:issued       "2016-11-28 13:49:44.502576"^^xsd:dateTime ;
+        dcterms:modified     "2017-06-01 15:52:11.574189"^^xsd:dateTime ;
         dcterms:title        "Baufelder Gewerbe" ;
         cat:distribution     <https://opendata.jena.de/distribution/Baufelder+in+Gewerbegebieten> , <https://opendata.jena.de/distribution/WMS-Capabilities+Kartenportal> ;
         cat:keyword          "Gewerbegebiet" , "Bauen" , "Wirtschaft" .
@@ -1255,12 +1464,14 @@ mclient:meta  cat:catalog  mclient:Jena .
 <https://opendata.jena.de/distribution/Naturdenkmale+%28fl%C3%A4chenhaft%29>
         a               cat:Distribution ;
         dcterms:format  "JSON" ;
+        dcterms:issued  "2017-06-29 05:54:39.038779"^^xsd:dateTime ;
         dcterms:title   "Naturdenkmale (flächenhaft)" ;
         cat:accessURL   <https://opendata.jena.de/data/nd_poly.geojson> .
 
 <https://opendata.jena.de/distribution/Gewerbegebiete>
         a               cat:Distribution ;
         dcterms:format  "JSON" ;
+        dcterms:issued  "2016-11-28 13:16:29.983805"^^xsd:dateTime ;
         dcterms:title   "Gewerbegebiete" ;
         cat:accessURL   <https://opendata.jena.de/data/gewerbegebiete.geojson> .
 
@@ -1271,6 +1482,8 @@ mclient:meta  cat:catalog  mclient:Jena .
         <http://ckan.aksw.org/ontology/name>
                 "bildung-gestalten-20-jahre-schulentwicklung-in-jena" ;
         dcterms:description  "Bildung gestalten - 20 Jahre Schulentwicklung in Jena mit Porträts der Jenaer Schulen" ;
+        dcterms:issued       "2017-03-21 08:26:38.889169"^^xsd:dateTime ;
+        dcterms:modified     "2017-03-21 14:44:11.735425"^^xsd:dateTime ;
         dcterms:title        "Bildung gestalten - 20 Jahre Schulentwicklung in Jena" ;
         cat:distribution     <https://opendata.jena.de/distribution/Bildung+gestalten_2013.pdf> ;
         cat:keyword          "Jenaplan" , "Gesamtschule" , "Förderschule" , "Regelschule" , "Grundschule" , "Bildung" , "Gymnasium" , "Schule" .
@@ -1282,6 +1495,8 @@ mclient:meta  cat:catalog  mclient:Jena .
         <http://ckan.aksw.org/ontology/name>
                 "lokale-bildungslandschaft-2010" ;
         dcterms:description  "Stadtteilspezifische Strategie für den Aufbau einer vernetzten Bildungskooperation in Jena (Friedrich-Schiller-Universität Jena)" ;
+        dcterms:issued       "2017-03-21 10:02:12.445125"^^xsd:dateTime ;
+        dcterms:modified     "2017-03-21 10:03:57.04003"^^xsd:dateTime ;
         dcterms:title        "Lokale Bildungslandschaft (2010)" ;
         cat:distribution     <https://opendata.jena.de/distribution/Fischer_2010_Lokale+Bildungslandschaft.pdf> ;
         cat:keyword          "Sozialpolitik" , "Bildung" , "Bildungspolitik" .
@@ -1289,12 +1504,14 @@ mclient:meta  cat:catalog  mclient:Jena .
 <https://opendata.jena.de/distribution/Einwohner+%28m%C3%A4nnlich%29+nach+Alter>
         a               cat:Distribution ;
         dcterms:format  "CSV" ;
+        dcterms:issued  "2017-06-26 10:55:17.379833"^^xsd:dateTime ;
         dcterms:title   "Einwohner (männlich) nach Alter" ;
         cat:accessURL   <https://opendata.jena.de/data/ew_m_alter.csv> .
 
 <https://opendata.jena.de/distribution/CD-Handbuch-Stadt-Jena-2013.pdf>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
+        dcterms:issued  "2017-01-05 13:18:51.923721"^^xsd:dateTime ;
         dcterms:title   "CD-Handbuch-Stadt-Jena-2013.pdf" ;
         cat:accessURL   <https://opendata.jena.de/dataset/4a7d373d-a142-4ee2-8c73-a2bde701462f/resource/eae97077-bac4-4e6e-b00c-f2542856c48c/download/cd-handbuch-stadt-jena-2013.pdf> .
 
@@ -1302,6 +1519,7 @@ mclient:meta  cat:catalog  mclient:Jena .
         a                    cat:Distribution ;
         dcterms:description  "[nächste Aktualisierung](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=20)" , "[nächste Aktualisierung](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=30)" ;
         dcterms:format       "JSON" , "CSV" ;
+        dcterms:issued       "2017-06-30 09:15:06.526646"^^xsd:dateTime , "2017-06-30 09:14:27.666542"^^xsd:dateTime ;
         dcterms:title        "Wahllokale" ;
         cat:accessURL        <https://opendata.jena.de/data/wahllokale.geojson> , <https://opendata.jena.de/data/wahllokale.csv> .
 
@@ -1309,6 +1527,7 @@ mclient:meta  cat:catalog  mclient:Jena .
         a                    cat:Distribution ;
         dcterms:description  "Die CSV-Datei ist Unicode UTF-8 formatiert." ;
         dcterms:format       "CSV" ;
+        dcterms:issued       "2017-02-14 09:16:01.808225"^^xsd:dateTime ;
         dcterms:title        "Vornamen 2016" ;
         cat:accessURL        <https://opendata.jena.de/dataset/45cb0cf5-5b09-4b14-8f5b-bed05371fe93/resource/7ca5d3ea-0a48-4bd3-b710-d23f6bc856b2/download/2016_geburten_namensstatistik.csv> .
 
@@ -1316,18 +1535,21 @@ mclient:meta  cat:catalog  mclient:Jena .
         a                    cat:Distribution ;
         dcterms:description  "Fahrradstadtplan (Linien)" ;
         dcterms:format       "JSON" ;
+        dcterms:issued       "2016-11-16 12:47:06.794404"^^xsd:dateTime ;
         dcterms:title        "Fahrradstadtplan" ;
         cat:accessURL        <https://opendata.jena.de/data/fahrradstadtplan.geojson> .
 
 <https://opendata.jena.de/distribution/Sozialbericht2704.pdf>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
+        dcterms:issued  "2017-03-21 10:51:50.743424"^^xsd:dateTime ;
         dcterms:title   "Sozialbericht2704.pdf" ;
         cat:accessURL   <https://opendata.jena.de/dataset/d8ead89d-e273-466d-8912-3c4a0d7d6def/resource/4b7dd5a8-643c-458b-b6ae-1826d4068596/download/sozialbericht2704.pdf> .
 
 <https://opendata.jena.de/distribution/Bildung+gestalten_2013.pdf>
         a               cat:Distribution ;
         dcterms:format  "PDF" ;
+        dcterms:issued  "2017-03-21 09:27:23.629035"^^xsd:dateTime ;
         dcterms:title   "Bildung gestalten_2013.pdf" ;
         cat:accessURL   <https://opendata.jena.de/dataset/065284de-ecee-4c8a-937c-cd5acc75b4ac/resource/91b4e8c4-2abf-4a57-b6a3-885b25455150/download/bildung-gestalten_2013.pdf> .
 
@@ -1335,6 +1557,7 @@ mclient:meta  cat:catalog  mclient:Jena .
         a                    cat:Distribution ;
         dcterms:description  "!!! Dies ist eine Testdatei, welche keine gesicherten Daten enthält !!!\r\n\r\n[nächste Aktualisierung](https://opendata.jena.de/fileuploader/public/fileset/list?fileset_id[]=150&fileset_id[]=151)" ;
         dcterms:format       "XML" ;
+        dcterms:issued       "2020-05-05 13:37:14.633343"^^xsd:dateTime ;
         dcterms:title        "Parkplatzbelegung" ;
         cat:accessURL        <https://opendata.jena.de/data/parkplatzbelegung.xml> ;
         cat:mediaType        "application/xml" .

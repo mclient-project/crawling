@@ -7,44 +7,53 @@
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Altersgruppen+2014>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Altersgruppen 2014" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-04 10:48:49.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Altersgruppen 2014" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Migrationshintergrund+2011>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Migrationshintergrund 2011" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-09 11:46:26.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Migrationshintergrund 2011" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Finanzplan+2019>
-        a              cat:Distribution ;
-        dcterms:title  "Finanzplan 2019" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2020-01-08 13:01:38.0"^^xsd:dateTime ;
+        dcterms:title   "Finanzplan 2019" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Wahlkreis>
-        a              cat:Distribution ;
-        dcterms:title  "Wahlkreis" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2018-01-15 10:40:12.0"^^xsd:dateTime , "2017-07-31 11:57:53.0"^^xsd:dateTime ;
+        dcterms:title   "Wahlkreis" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2012>
-        a              cat:Distribution ;
-        dcterms:title  "Wetterdaten 2012" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2015-03-05 12:00:45.0"^^xsd:dateTime ;
+        dcterms:title   "Wetterdaten 2012" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Vornamen+2014>
-        a              cat:Distribution ;
-        dcterms:title  "Vornamen 2014" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2016-01-25 13:39:20.0"^^xsd:dateTime ;
+        dcterms:title   "Vornamen 2014" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Geschlecht+und+Staatsangeh%C3%B6rigkeit+2012>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Geschlecht und Staatsangehörigkeit 2012" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-02 13:32:27.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Geschlecht und Staatsangehörigkeit 2012" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/62ba1e5f-0457-4987-881e-fcc5e00977ed>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "62ba1e5f-0457-4987-881e-fcc5e00977ed" ;
+        dcterms:issued    "2015-10-27 12:56:31.0"^^xsd:dateTime ;
+        dcterms:modified  "2016-03-29 14:30:01.0"^^xsd:dateTime ;
         dcterms:title     "Camping-Plätze" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Camping-Pl%C3%A4tze> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/camping-plaetze/15461> .
@@ -53,134 +62,164 @@
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "1d18bcc7-3888-4ea9-a78f-124076d08849" ;
+        dcterms:issued    "2019-08-26 12:58:28.0"^^xsd:dateTime ;
+        dcterms:modified  "2019-08-26 14:02:48.0"^^xsd:dateTime ;
         dcterms:title     "Europawahl 2019" ;
-        cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Kommunalwahlbezirke> , <https://geo.muelheim-ruhr.de/distribution/Stadtbezirke> , <https://geo.muelheim-ruhr.de/distribution/Wahlbezirke> , <https://geo.muelheim-ruhr.de/distribution/Gemeinde> ;
+        cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Wahlbezirke> , <https://geo.muelheim-ruhr.de/distribution/Stadtbezirke> , <https://geo.muelheim-ruhr.de/distribution/Kommunalwahlbezirke> , <https://geo.muelheim-ruhr.de/distribution/Gemeinde> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/wahlergebnis/2019/europa/671523> .
 
 <https://geo.muelheim-ruhr.de/dataset/be9f1161-0763-4b31-9463-97b99cdf9441>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "be9f1161-0763-4b31-9463-97b99cdf9441" ;
+        dcterms:issued    "2015-10-28 10:25:18.0"^^xsd:dateTime ;
+        dcterms:modified  "2016-03-29 14:30:01.0"^^xsd:dateTime ;
         dcterms:title     "Gastronomie" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Gastronomie> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/gastronomie/15467> .
 
 <https://geo.muelheim-ruhr.de/distribution/Vereinsverzeichnis>
-        a              cat:Distribution ;
-        dcterms:title  "Vereinsverzeichnis" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2014-08-07 10:30:29.0"^^xsd:dateTime ;
+        dcterms:title   "Vereinsverzeichnis" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Gemeinde+>
-        a              cat:Distribution ;
-        dcterms:title  "Gemeinde " ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2014-08-08 12:00:11.0"^^xsd:dateTime ;
+        dcterms:title   "Gemeinde " ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/d5656ead-2c87-42a1-b976-3f7635fbf5c9>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "d5656ead-2c87-42a1-b976-3f7635fbf5c9" ;
+        dcterms:issued    "2014-12-18 15:27:14.0"^^xsd:dateTime ;
+        dcterms:modified  "2018-11-05 13:10:01.0"^^xsd:dateTime ;
         dcterms:title     "Straßen" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Stra%C3%9Fenliste> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/strassen/14030> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Migrationshintergrund+2016>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Migrationshintergrund 2016" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-09 12:02:01.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Migrationshintergrund 2016" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Altersgruppen+2019>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Altersgruppen 2019" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2020-07-22 10:46:59.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Altersgruppen 2019" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Adressliste>
-        a              cat:Distribution ;
-        dcterms:title  "Adressliste" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2014-12-19 13:08:10.0"^^xsd:dateTime ;
+        dcterms:title   "Adressliste" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Finanzplan+2020>
-        a              cat:Distribution ;
-        dcterms:title  "Finanzplan 2020" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2020-01-08 13:03:45.0"^^xsd:dateTime ;
+        dcterms:title   "Finanzplan 2020" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2017>
-        a              cat:Distribution ;
-        dcterms:title  "Wetterdaten 2017" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2018-11-08 10:54:56.0"^^xsd:dateTime ;
+        dcterms:title   "Wetterdaten 2017" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/f8e5e69f-a7b7-4c51-88b2-2c217b05994f>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "f8e5e69f-a7b7-4c51-88b2-2c217b05994f" ;
+        dcterms:issued    "2019-03-18 13:28:46.0"^^xsd:dateTime ;
+        dcterms:modified  "2019-03-18 13:52:57.0"^^xsd:dateTime ;
         dcterms:title     "Kommunalwahlbezirke" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Fl%C3%A4chen+der+Kommunalwahlbezirke> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/kommunalwahlbezirke/597370> .
 
 <https://geo.muelheim-ruhr.de/distribution/Vornamen+2019>
-        a              cat:Distribution ;
-        dcterms:title  "Vornamen 2019" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2021-01-05 08:54:52.0"^^xsd:dateTime ;
+        dcterms:title   "Vornamen 2019" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Geschlecht+und+Staatsangeh%C3%B6rigkeit+2017>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Geschlecht und Staatsangehörigkeit 2017" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-02 14:56:27.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Geschlecht und Staatsangehörigkeit 2017" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/bd0bc272-56f9-4b92-b045-942fa094cf76>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "bd0bc272-56f9-4b92-b045-942fa094cf76" ;
+        dcterms:issued    "2017-06-01 12:52:22.0"^^xsd:dateTime ;
+        dcterms:modified  "2018-01-18 15:22:27.0"^^xsd:dateTime ;
         dcterms:title     "Hotels" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Hotels> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/hotels/305521> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Altersgruppen+2013>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Altersgruppen 2013" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-04 10:42:56.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Altersgruppen 2013" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Ergebnisplan+2017>
-        a              cat:Distribution ;
-        dcterms:title  "Ergebnisplan 2017" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2017-01-26 10:22:10.0"^^xsd:dateTime ;
+        dcterms:title   "Ergebnisplan 2017" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Zugriffszahlen+gesamt+-+muelheim-ruhr.de+>
-        a              cat:Distribution ;
-        dcterms:title  "Zugriffszahlen gesamt - muelheim-ruhr.de " ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2014-08-04 09:36:15.0"^^xsd:dateTime ;
+        dcterms:title   "Zugriffszahlen gesamt - muelheim-ruhr.de " ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/6b88a27e-1f82-4d1e-a9e3-13c008380392>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "6b88a27e-1f82-4d1e-a9e3-13c008380392" ;
+        dcterms:issued    "2014-08-04 09:34:35.0"^^xsd:dateTime ;
+        dcterms:modified  "2019-01-07 14:12:33.0"^^xsd:dateTime ;
         dcterms:title     "Zugriffszahlen" ;
-        cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Zugriffszahlen+Internet+-+muelheim-ruhr.de> , <https://geo.muelheim-ruhr.de/distribution/Zugriffszahlen+gesamt+-+muelheim-ruhr.de+> , <https://geo.muelheim-ruhr.de/distribution/Zugriffszahlen+Intranet+-+muelheim-ruhr.de> ;
+        cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Zugriffszahlen+Intranet+-+muelheim-ruhr.de> , <https://geo.muelheim-ruhr.de/distribution/Zugriffszahlen+gesamt+-+muelheim-ruhr.de+> , <https://geo.muelheim-ruhr.de/distribution/Zugriffszahlen+Internet+-+muelheim-ruhr.de> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/zugriffszahlen/10045> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Migrationshintergrund+2010>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Migrationshintergrund 2010" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-09 11:28:03.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Migrationshintergrund 2010" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Finanzplan+2018>
-        a              cat:Distribution ;
-        dcterms:title  "Finanzplan 2018" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2018-06-05 16:04:55.0"^^xsd:dateTime ;
+        dcterms:title   "Finanzplan 2018" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Vornamen+2013>
-        a              cat:Distribution ;
-        dcterms:title  "Vornamen 2013" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2015-02-26 12:18:45.0"^^xsd:dateTime ;
+        dcterms:title   "Vornamen 2013" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2011>
-        a              cat:Distribution ;
-        dcterms:title  "Wetterdaten 2011" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2015-03-05 12:00:23.0"^^xsd:dateTime ;
+        dcterms:title   "Wetterdaten 2011" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/49ccc96a-6e47-43b5-815c-97af0f8f0f8e>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "49ccc96a-6e47-43b5-815c-97af0f8f0f8e" ;
+        dcterms:issued    "2019-01-08 15:17:33.0"^^xsd:dateTime ;
+        dcterms:modified  "2019-01-08 16:10:01.0"^^xsd:dateTime ;
         dcterms:title     "Luftbilder" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Luftbilder> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/luftbilder/563741> .
@@ -189,19 +228,24 @@
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "ac532209-ef8f-4a7a-9992-a7645e42af79" ;
+        dcterms:issued    "2015-12-15 11:03:33.0"^^xsd:dateTime ;
+        dcterms:modified  "2016-04-29 13:15:38.0"^^xsd:dateTime ;
         dcterms:title     "WLAN-Hotspots" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/WLAN-Hotspots> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/wlan-hotspots/15577> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Geschlecht+und+Staatsangeh%C3%B6rigkeit+2011>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Geschlecht und Staatsangehörigkeit 2011" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-02 13:25:35.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Geschlecht und Staatsangehörigkeit 2011" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/006e90dd-4de0-4016-89e4-2318151682ef>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "006e90dd-4de0-4016-89e4-2318151682ef" ;
+        dcterms:issued    "2019-01-08 14:51:59.0"^^xsd:dateTime ;
+        dcterms:modified  "2019-01-08 15:02:41.0"^^xsd:dateTime ;
         dcterms:title     "Stadtteile" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Fl%C3%A4chen+der+Stadtteile> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/stadtteile/563711> .
@@ -210,275 +254,341 @@
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "cf65ccf2-f888-48cd-83a4-a86fa82c819c" ;
+        dcterms:issued    "2019-01-08 14:58:21.0"^^xsd:dateTime ;
+        dcterms:modified  "2019-01-08 15:02:21.0"^^xsd:dateTime ;
         dcterms:title     "Statistische Bezirke" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Fl%C3%A4chen+der+Statistischen+Bezirke> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/statistische-bezirke/563714> .
 
 <https://geo.muelheim-ruhr.de/distribution/Stadtbezirke>
-        a              cat:Distribution ;
-        dcterms:title  "Stadtbezirke" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-08-26 13:36:45.0"^^xsd:dateTime , "2014-08-08 12:11:23.0"^^xsd:dateTime , "2015-10-28 10:46:05.0"^^xsd:dateTime , "2014-08-08 12:31:48.0"^^xsd:dateTime , "2014-08-08 12:51:57.0"^^xsd:dateTime ;
+        dcterms:title   "Stadtbezirke" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2009>
-        a              cat:Distribution ;
-        dcterms:title  "Wetterdaten 2009" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2015-03-05 11:59:22.0"^^xsd:dateTime ;
+        dcterms:title   "Wetterdaten 2009" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/WLAN-Hotspots>
-        a              cat:Distribution ;
-        dcterms:title  "WLAN-Hotspots" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2015-12-15 11:07:02.0"^^xsd:dateTime ;
+        dcterms:title   "WLAN-Hotspots" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Fl%C3%A4chen+der+Teilr%C3%A4ume>
-        a              cat:Distribution ;
-        dcterms:title  "Flächen der Teilräume" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-01-08 15:08:53.0"^^xsd:dateTime , "2019-01-08 15:08:17.0"^^xsd:dateTime ;
+        dcterms:title   "Flächen der Teilräume" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/b65650d1-3ff2-4584-8093-485e1426e66c>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "b65650d1-3ff2-4584-8093-485e1426e66c" ;
+        dcterms:issued    "2015-10-27 15:01:24.0"^^xsd:dateTime ;
+        dcterms:modified  "2016-03-29 14:30:01.0"^^xsd:dateTime ;
         dcterms:title     "Tankstellen" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Tankstellen> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/tankstellen/15463> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Migrationshintergrund+2015>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Migrationshintergrund 2015" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-09 12:00:17.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Migrationshintergrund 2015" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Altersgruppen+2018>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Altersgruppen 2018" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-04 10:58:08.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Altersgruppen 2018" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2016>
-        a              cat:Distribution ;
-        dcterms:title  "Wetterdaten 2016" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2018-11-08 10:52:38.0"^^xsd:dateTime ;
+        dcterms:title   "Wetterdaten 2016" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/2036ee26-2e3d-4505-8846-ef0f29979d70>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "2036ee26-2e3d-4505-8846-ef0f29979d70" ;
+        dcterms:issued    "2018-01-11 16:20:44.0"^^xsd:dateTime ;
+        dcterms:modified  "2018-03-12 12:20:02.0"^^xsd:dateTime ;
         dcterms:title     "Bundestagswahl 2017" ;
-        cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Wahlbezirk> , <https://geo.muelheim-ruhr.de/distribution/Kommunalwahlbezirk> , <https://geo.muelheim-ruhr.de/distribution/Gemeinde> , <https://geo.muelheim-ruhr.de/distribution/Stadtbezirk> , <https://geo.muelheim-ruhr.de/distribution/Wahlkreis> ;
+        cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Wahlbezirk> , <https://geo.muelheim-ruhr.de/distribution/Stadtbezirk> , <https://geo.muelheim-ruhr.de/distribution/Kommunalwahlbezirk> , <https://geo.muelheim-ruhr.de/distribution/Gemeinde> , <https://geo.muelheim-ruhr.de/distribution/Wahlkreis> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/wahlergebnis/2017/bund/325227> .
 
 <https://geo.muelheim-ruhr.de/distribution/Vornamen+2018>
-        a              cat:Distribution ;
-        dcterms:title  "Vornamen 2018" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2020-01-06 14:04:07.0"^^xsd:dateTime ;
+        dcterms:title   "Vornamen 2018" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Fl%C3%A4chen+der+Stadtbezirke>
-        a              cat:Distribution ;
-        dcterms:title  "Flächen der Stadtbezirke" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-01-08 13:57:35.0"^^xsd:dateTime , "2019-01-08 13:56:53.0"^^xsd:dateTime ;
+        dcterms:title   "Flächen der Stadtbezirke" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Geschlecht+und+Staatsangeh%C3%B6rigkeit+2016>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Geschlecht und Staatsangehörigkeit 2016" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-02 14:53:15.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Geschlecht und Staatsangehörigkeit 2016" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Ergebnisplan+2016>
-        a              cat:Distribution ;
-        dcterms:title  "Ergebnisplan 2016" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2017-01-26 10:16:51.0"^^xsd:dateTime ;
+        dcterms:title   "Ergebnisplan 2016" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Zugriffszahlen+Internet+-+muelheim-ruhr.de>
-        a              cat:Distribution ;
-        dcterms:title  "Zugriffszahlen Internet - muelheim-ruhr.de" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2014-08-04 09:36:41.0"^^xsd:dateTime ;
+        dcterms:title   "Zugriffszahlen Internet - muelheim-ruhr.de" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Aktuelle+Ausschreibungen>
-        a              cat:Distribution ;
-        dcterms:title  "Aktuelle Ausschreibungen" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2018-11-05 12:11:56.0"^^xsd:dateTime ;
+        dcterms:title   "Aktuelle Ausschreibungen" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Altersgruppen+2012>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Altersgruppen 2012" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-04 10:40:27.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Altersgruppen 2012" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Finanzplan+2017>
-        a              cat:Distribution ;
-        dcterms:title  "Finanzplan 2017" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2017-01-26 10:22:36.0"^^xsd:dateTime ;
+        dcterms:title   "Finanzplan 2017" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Baustellen>
-        a              cat:Distribution ;
-        dcterms:title  "Baustellen" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2014-07-24 12:37:42.0"^^xsd:dateTime ;
+        dcterms:title   "Baustellen" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2010>
-        a              cat:Distribution ;
-        dcterms:title  "Wetterdaten 2010" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2015-03-05 11:59:59.0"^^xsd:dateTime ;
+        dcterms:title   "Wetterdaten 2010" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Vornamen+2012>
-        a              cat:Distribution ;
-        dcterms:title  "Vornamen 2012" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2014-07-29 09:43:33.0"^^xsd:dateTime ;
+        dcterms:title   "Vornamen 2012" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Geschlecht+und+Staatsangeh%C3%B6rigkeit+2010>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Geschlecht und Staatsangehörigkeit 2010" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-02 12:36:00.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Geschlecht und Staatsangehörigkeit 2010" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/d46c79f4-18e8-48b5-aa1b-0bf951739a3d>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "d46c79f4-18e8-48b5-aa1b-0bf951739a3d" ;
+        dcterms:issued    "2019-09-03 17:28:11.0"^^xsd:dateTime ;
+        dcterms:modified  "2020-07-22 10:47:23.0"^^xsd:dateTime ;
         dcterms:title     "Bevölkerung nach Altersgruppen" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Altersgruppen+2017> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Altersgruppen+2012> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Altersgruppen+2015> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Altersgruppen+2018> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Altersgruppen+2010> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Altersgruppen+2016> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Altersgruppen+2013> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Altersgruppen+2019> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Altersgruppen+2011> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Altersgruppen+2014> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/bevoelkerung/altersgruppen/675509> .
 
 <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2008>
-        a              cat:Distribution ;
-        dcterms:title  "Wetterdaten 2008" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2015-03-05 11:57:36.0"^^xsd:dateTime ;
+        dcterms:title   "Wetterdaten 2008" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Branchen>
-        a              cat:Distribution ;
-        dcterms:title  "Branchen" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2015-10-28 10:13:16.0"^^xsd:dateTime ;
+        dcterms:title   "Branchen" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Aktuelle+Fallzahlen>
-        a              cat:Distribution ;
-        dcterms:title  "Aktuelle Fallzahlen" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2020-03-26 11:58:36.0"^^xsd:dateTime ;
+        dcterms:title   "Aktuelle Fallzahlen" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Stra%C3%9Fenliste>
-        a              cat:Distribution ;
-        dcterms:title  "Straßenliste" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2014-12-18 16:59:29.0"^^xsd:dateTime ;
+        dcterms:title   "Straßenliste" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Kommunalwahlbezirke>
-        a              cat:Distribution ;
-        dcterms:title  "Kommunalwahlbezirke" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-08-26 14:00:14.0"^^xsd:dateTime , "2014-08-08 12:12:55.0"^^xsd:dateTime ;
+        dcterms:title   "Kommunalwahlbezirke" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Zugriffszahlen+Intranet+-+muelheim-ruhr.de>
-        a              cat:Distribution ;
-        dcterms:title  "Zugriffszahlen Intranet - muelheim-ruhr.de" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2014-08-04 09:37:17.0"^^xsd:dateTime ;
+        dcterms:title   "Zugriffszahlen Intranet - muelheim-ruhr.de" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/2ff72029-c664-484f-9a16-5564fda5db81>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "2ff72029-c664-484f-9a16-5564fda5db81" ;
+        dcterms:issued    "2015-03-05 11:11:47.0"^^xsd:dateTime ;
+        dcterms:modified  "2018-11-08 11:00:01.0"^^xsd:dateTime ;
         dcterms:title     "Wetterdaten" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2007> , <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2006> , <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2017> , <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2015> , <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2016> , <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2014> , <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2013> , <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2012> , <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2011> , <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2009> , <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2010> , <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2008> ;
         cat:keyword       "Wetter" ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/wetterdaten/14161> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Migrationshintergrund+2014>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Migrationshintergrund 2014" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-09 11:55:15.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Migrationshintergrund 2014" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Altersgruppen+2017>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Altersgruppen 2017" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-04 10:56:12.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Altersgruppen 2017" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/febdce6c-d4c8-43e6-8e57-99d7ff3cd7a9>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "febdce6c-d4c8-43e6-8e57-99d7ff3cd7a9" ;
+        dcterms:issued    "2015-01-08 12:33:01.0"^^xsd:dateTime ;
+        dcterms:modified  "2018-11-05 12:30:02.0"^^xsd:dateTime ;
         dcterms:title     "Baustellen" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Baustellen> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/baustellen/10072> .
 
 <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2015>
-        a              cat:Distribution ;
-        dcterms:title  "Wetterdaten 2015" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2016-04-20 16:18:30.0"^^xsd:dateTime ;
+        dcterms:title   "Wetterdaten 2015" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Vornamen+2017>
-        a              cat:Distribution ;
-        dcterms:title  "Vornamen 2017" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-01-07 13:03:58.0"^^xsd:dateTime ;
+        dcterms:title   "Vornamen 2017" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/3eb13bc0-f1d9-48d3-aa06-58fe38e1d533>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "3eb13bc0-f1d9-48d3-aa06-58fe38e1d533" ;
+        dcterms:issued    "2014-08-08 11:59:10.0"^^xsd:dateTime ;
+        dcterms:modified  "2018-03-12 12:00:01.0"^^xsd:dateTime ;
         dcterms:title     "Europawahl 2014" ;
-        cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Stadtbezirke> , <https://geo.muelheim-ruhr.de/distribution/Kommunalwahlbezirke> , <https://geo.muelheim-ruhr.de/distribution/Gemeinde+> , <https://geo.muelheim-ruhr.de/distribution/Wahlbezirke> ;
+        cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Stadtbezirke> , <https://geo.muelheim-ruhr.de/distribution/Wahlbezirke> , <https://geo.muelheim-ruhr.de/distribution/Kommunalwahlbezirke> , <https://geo.muelheim-ruhr.de/distribution/Gemeinde+> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/wahlergebnis/2014/europa/10055> .
 
 <https://geo.muelheim-ruhr.de/dataset/fe2013da-5cca-44d3-82ed-7d68d40d914f>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "fe2013da-5cca-44d3-82ed-7d68d40d914f" ;
+        dcterms:issued    "2019-01-08 15:07:47.0"^^xsd:dateTime ;
+        dcterms:modified  "2019-01-08 15:10:05.0"^^xsd:dateTime ;
         dcterms:title     "Teilräume" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Fl%C3%A4chen+der+Teilr%C3%A4ume> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/teilraume/563738> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Geschlecht+und+Staatsangeh%C3%B6rigkeit+2015>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Geschlecht und Staatsangehörigkeit 2015" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-02 13:45:49.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Geschlecht und Staatsangehörigkeit 2015" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Ergebnisplan+2015>
-        a              cat:Distribution ;
-        dcterms:title  "Ergebnisplan 2015" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2015-10-28 11:14:22.0"^^xsd:dateTime ;
+        dcterms:title   "Ergebnisplan 2015" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/0502bdaa-7f56-40aa-a5c4-4a0b0df48d7b>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "0502bdaa-7f56-40aa-a5c4-4a0b0df48d7b" ;
+        dcterms:issued    "2015-10-28 10:39:16.0"^^xsd:dateTime ;
+        dcterms:modified  "2018-03-12 12:00:01.0"^^xsd:dateTime ;
         dcterms:title     "Oberbürgermeisterwahl 2015" ;
-        cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Wahlbezirke> , <https://geo.muelheim-ruhr.de/distribution/Stadtbezirke> , <https://geo.muelheim-ruhr.de/distribution/Stimmbezirke> ;
+        cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Stadtbezirke> , <https://geo.muelheim-ruhr.de/distribution/Wahlbezirke> , <https://geo.muelheim-ruhr.de/distribution/Stimmbezirke> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/wahlergebnis/2015/oberbuergermeister/15469> .
 
 <https://geo.muelheim-ruhr.de/distribution/Stimmbezirke>
-        a              cat:Distribution ;
-        dcterms:title  "Stimmbezirke" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2015-10-28 10:58:12.0"^^xsd:dateTime , "2014-08-08 12:32:13.0"^^xsd:dateTime , "2014-08-08 12:43:56.0"^^xsd:dateTime ;
+        dcterms:title   "Stimmbezirke" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Altersgruppen+2011>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Altersgruppen 2011" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-03 18:12:25.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Altersgruppen 2011" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Finanzplan+2016>
-        a              cat:Distribution ;
-        dcterms:title  "Finanzplan 2016" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2017-01-26 10:17:38.0"^^xsd:dateTime ;
+        dcterms:title   "Finanzplan 2016" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Ferienwohnungen%2C+G%C3%A4stezimmer+%26+Privatunterk%C3%BCnfte>
-        a              cat:Distribution ;
-        dcterms:title  "Ferienwohnungen, Gästezimmer & Privatunterkünfte" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2018-01-18 15:16:48.0"^^xsd:dateTime ;
+        dcterms:title   "Ferienwohnungen, Gästezimmer & Privatunterkünfte" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/f6444bae-1a1b-4203-9b60-0dfd579f8305>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "f6444bae-1a1b-4203-9b60-0dfd579f8305" ;
+        dcterms:issued    "2016-11-23 11:39:02.0"^^xsd:dateTime ;
+        dcterms:modified  "2020-02-03 10:47:44.0"^^xsd:dateTime ;
         dcterms:title     "Energie aus Wasserkraft" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Erzeugte+Energie> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/wasserkraft/82091> .
 
 <https://geo.muelheim-ruhr.de/distribution/Hotels>
-        a              cat:Distribution ;
-        dcterms:title  "Hotels" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2017-12-11 15:19:30.0"^^xsd:dateTime ;
+        dcterms:title   "Hotels" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/3c6e057e-58c4-455f-b26d-2eeab510dbc6>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "3c6e057e-58c4-455f-b26d-2eeab510dbc6" ;
+        dcterms:issued    "2014-07-29 09:40:11.0"^^xsd:dateTime ;
+        dcterms:modified  "2021-01-05 08:55:47.0"^^xsd:dateTime ;
         dcterms:title     "Vornamen" ;
-        cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Vornamen+2013> , <https://geo.muelheim-ruhr.de/distribution/Vornamen+2018> , <https://geo.muelheim-ruhr.de/distribution/Vornamen+2016> , <https://geo.muelheim-ruhr.de/distribution/Vornamen+2014> , <https://geo.muelheim-ruhr.de/distribution/Vornamen+2019> , <https://geo.muelheim-ruhr.de/distribution/Vornamen+2017> , <https://geo.muelheim-ruhr.de/distribution/Vornamen+2012> , <https://geo.muelheim-ruhr.de/distribution/Vornamen+2015> ;
+        cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Vornamen+2013> , <https://geo.muelheim-ruhr.de/distribution/Vornamen+2018> , <https://geo.muelheim-ruhr.de/distribution/Vornamen+2016> , <https://geo.muelheim-ruhr.de/distribution/Vornamen+2011> , <https://geo.muelheim-ruhr.de/distribution/Vornamen+2014> , <https://geo.muelheim-ruhr.de/distribution/Vornamen+2019> , <https://geo.muelheim-ruhr.de/distribution/Vornamen+2017> , <https://geo.muelheim-ruhr.de/distribution/Vornamen+2012> , <https://geo.muelheim-ruhr.de/distribution/Vornamen+2015> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/vornamen/10035> .
+
+<https://geo.muelheim-ruhr.de/distribution/Vornamen+2011>
+        a               cat:Distribution ;
+        dcterms:issued  "2014-07-29 09:40:57.0"^^xsd:dateTime ;
+        dcterms:title   "Vornamen 2011" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/4f235454-4656-402a-8adb-57de52346543>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "4f235454-4656-402a-8adb-57de52346543" ;
+        dcterms:issued    "2019-01-08 13:04:28.0"^^xsd:dateTime ;
+        dcterms:modified  "2019-01-08 14:00:01.0"^^xsd:dateTime ;
         dcterms:title     "Postleitzahlbezirke" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Fl%C3%A4chen+der+Postleitzahlenbezirke> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/postleitzahlenbezirke/563681> .
@@ -487,32 +597,39 @@
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "329e0209-3d38-4f3b-88ce-a798f41784f5" ;
+        dcterms:issued    "2014-08-08 12:42:58.0"^^xsd:dateTime ;
+        dcterms:modified  "2018-03-12 12:00:01.0"^^xsd:dateTime ;
         dcterms:title     "Bezirksvertretungswahl 2014" ;
-        cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Stimmbezirke> , <https://geo.muelheim-ruhr.de/distribution/Stadtbezirke> , <https://geo.muelheim-ruhr.de/distribution/Gemeinde> , <https://geo.muelheim-ruhr.de/distribution/Wahlbezirke> ;
+        cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Wahlbezirke> , <https://geo.muelheim-ruhr.de/distribution/Stimmbezirke> , <https://geo.muelheim-ruhr.de/distribution/Gemeinde> , <https://geo.muelheim-ruhr.de/distribution/Stadtbezirke> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/wahlergebnis/2014/bezirksvertreter/10066> .
 
 <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2007>
-        a              cat:Distribution ;
-        dcterms:title  "Wetterdaten 2007" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2015-03-05 11:52:02.0"^^xsd:dateTime ;
+        dcterms:title   "Wetterdaten 2007" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Migrationshintergrund+2019>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Migrationshintergrund 2019" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2020-07-22 10:44:01.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Migrationshintergrund 2019" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/feb0c142-509b-4b4f-b467-4587570b8b1b>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "feb0c142-509b-4b4f-b467-4587570b8b1b" ;
+        dcterms:issued    "2020-03-26 11:24:16.0"^^xsd:dateTime ;
+        dcterms:modified  "2020-10-27 08:09:39.0"^^xsd:dateTime ;
         dcterms:title     "Covid-19 (Coronavirus SARS-CoV-2)" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Aktuelle+Fallzahlen> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/covid-19/775207> .
 
 <https://geo.muelheim-ruhr.de/distribution/Kommunalwahlbezirk>
-        a              cat:Distribution ;
-        dcterms:title  "Kommunalwahlbezirk" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2018-01-15 11:39:37.0"^^xsd:dateTime , "2017-07-31 11:59:12.0"^^xsd:dateTime ;
+        dcterms:title   "Kommunalwahlbezirk" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <http://mclient-project.github.io/catalog/Stadt%20M%C3%BClheim%20an%20der%20Ruhr>
         a                  cat:Catalog ;
@@ -530,149 +647,181 @@
         cat:dataset        <https://geo.muelheim-ruhr.de/dataset/ba1494ec-f2b0-40d3-b999-4731ac7e7e14> , <https://geo.muelheim-ruhr.de/dataset/3c6e057e-58c4-455f-b26d-2eeab510dbc6> , <https://geo.muelheim-ruhr.de/dataset/006e90dd-4de0-4016-89e4-2318151682ef> , <https://geo.muelheim-ruhr.de/dataset/ac532209-ef8f-4a7a-9992-a7645e42af79> , <https://geo.muelheim-ruhr.de/dataset/da18ac6e-8aef-4fad-babe-066ad537c36b> , <https://geo.muelheim-ruhr.de/dataset/4f235454-4656-402a-8adb-57de52346543> , <https://geo.muelheim-ruhr.de/dataset/b65650d1-3ff2-4584-8093-485e1426e66c> , <https://geo.muelheim-ruhr.de/dataset/9f129279-7b4d-47c0-86f7-b0423cebf49a> , <https://geo.muelheim-ruhr.de/dataset/329e0209-3d38-4f3b-88ce-a798f41784f5> , <https://geo.muelheim-ruhr.de/dataset/d5656ead-2c87-42a1-b976-3f7635fbf5c9> , <https://geo.muelheim-ruhr.de/dataset/be9f1161-0763-4b31-9463-97b99cdf9441> , <https://geo.muelheim-ruhr.de/dataset/49ccc96a-6e47-43b5-815c-97af0f8f0f8e> , <https://geo.muelheim-ruhr.de/dataset/f8e5e69f-a7b7-4c51-88b2-2c217b05994f> , <https://geo.muelheim-ruhr.de/dataset/4b6c26c2-ead1-44c9-9ab3-85eec8249da9> , <https://geo.muelheim-ruhr.de/dataset/febdce6c-d4c8-43e6-8e57-99d7ff3cd7a9> , <https://geo.muelheim-ruhr.de/dataset/6b88a27e-1f82-4d1e-a9e3-13c008380392> , <https://geo.muelheim-ruhr.de/dataset/7116e584-161d-4eed-ab55-483e0c903801> , <https://geo.muelheim-ruhr.de/dataset/5ea73835-d511-43ff-9a28-20ba4067cbbb> , <https://geo.muelheim-ruhr.de/dataset/0502bdaa-7f56-40aa-a5c4-4a0b0df48d7b> , <https://geo.muelheim-ruhr.de/dataset/f9ef63b9-437d-4088-b50c-edbbca27f3be> , <https://geo.muelheim-ruhr.de/dataset/cf65ccf2-f888-48cd-83a4-a86fa82c819c> , <https://geo.muelheim-ruhr.de/dataset/bd0bc272-56f9-4b92-b045-942fa094cf76> , <https://geo.muelheim-ruhr.de/dataset/5c818fd7-dfb4-4d56-ba8d-83563261f75a> , <https://geo.muelheim-ruhr.de/dataset/2ff72029-c664-484f-9a16-5564fda5db81> , <https://geo.muelheim-ruhr.de/dataset/62ba1e5f-0457-4987-881e-fcc5e00977ed> , <https://geo.muelheim-ruhr.de/dataset/3eb13bc0-f1d9-48d3-aa06-58fe38e1d533> , <https://geo.muelheim-ruhr.de/dataset/d46c79f4-18e8-48b5-aa1b-0bf951739a3d> , <https://geo.muelheim-ruhr.de/dataset/2036ee26-2e3d-4505-8846-ef0f29979d70> , <https://geo.muelheim-ruhr.de/dataset/158fc5db-5ec3-4e14-8997-51d10cf4102a> , <https://geo.muelheim-ruhr.de/dataset/2a7f58c4-019e-40f4-91b7-5607219d14d4> , <https://geo.muelheim-ruhr.de/dataset/630e5a01-93ee-4392-99b8-4614c94ced43> , <https://geo.muelheim-ruhr.de/dataset/f6444bae-1a1b-4203-9b60-0dfd579f8305> , <https://geo.muelheim-ruhr.de/dataset/8239a38c-efad-4edf-9ff4-08f2bce50ce0> , <https://geo.muelheim-ruhr.de/dataset/feb0c142-509b-4b4f-b467-4587570b8b1b> , <https://geo.muelheim-ruhr.de/dataset/1d18bcc7-3888-4ea9-a78f-124076d08849> , <https://geo.muelheim-ruhr.de/dataset/fe2013da-5cca-44d3-82ed-7d68d40d914f> .
 
 <https://geo.muelheim-ruhr.de/distribution/Fl%C3%A4chen+der+Stimmbezirke>
-        a              cat:Distribution ;
-        dcterms:title  "Flächen der Stimmbezirke" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-03-18 13:57:39.0"^^xsd:dateTime , "2019-03-18 13:56:56.0"^^xsd:dateTime ;
+        dcterms:title   "Flächen der Stimmbezirke" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/7116e584-161d-4eed-ab55-483e0c903801>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "7116e584-161d-4eed-ab55-483e0c903801" ;
+        dcterms:issued    "2015-10-28 10:12:40.0"^^xsd:dateTime ;
+        dcterms:modified  "2015-10-29 14:47:50.0"^^xsd:dateTime ;
         dcterms:title     "Branchen" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Branchen> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/branchen/15465> .
 
 <https://geo.muelheim-ruhr.de/distribution/Fl%C3%A4chen+der+Statistischen+Bezirke>
-        a              cat:Distribution ;
-        dcterms:title  "Flächen der Statistischen Bezirke" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-01-08 15:00:26.0"^^xsd:dateTime , "2019-01-08 14:59:46.0"^^xsd:dateTime ;
+        dcterms:title   "Flächen der Statistischen Bezirke" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Stimmbezirk>
-        a              cat:Distribution ;
-        dcterms:title  "Stimmbezirk" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2017-07-31 11:59:47.0"^^xsd:dateTime ;
+        dcterms:title   "Stimmbezirk" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Migrationshintergrund+2013>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Migrationshintergrund 2013" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-09 11:52:01.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Migrationshintergrund 2013" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Altersgruppen+2016>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Altersgruppen 2016" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-04 10:54:03.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Altersgruppen 2016" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Fl%C3%A4chen+der+Postleitzahlenbezirke>
-        a              cat:Distribution ;
-        dcterms:title  "Flächen der Postleitzahlenbezirke" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-01-08 13:15:33.0"^^xsd:dateTime , "2019-01-08 13:05:06.0"^^xsd:dateTime ;
+        dcterms:title   "Flächen der Postleitzahlenbezirke" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Luftbilder>
-        a              cat:Distribution ;
-        dcterms:title  "Luftbilder" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-01-08 15:18:18.0"^^xsd:dateTime ;
+        dcterms:title   "Luftbilder" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2014>
-        a              cat:Distribution ;
-        dcterms:title  "Wetterdaten 2014" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2015-03-05 12:01:23.0"^^xsd:dateTime ;
+        dcterms:title   "Wetterdaten 2014" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Vornamen+2016>
-        a              cat:Distribution ;
-        dcterms:title  "Vornamen 2016" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2018-01-11 13:11:39.0"^^xsd:dateTime ;
+        dcterms:title   "Vornamen 2016" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Tankstellen>
-        a              cat:Distribution ;
-        dcterms:title  "Tankstellen" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2015-10-27 15:02:02.0"^^xsd:dateTime ;
+        dcterms:title   "Tankstellen" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Fl%C3%A4chen+der+Kommunalwahlbezirke>
-        a              cat:Distribution ;
-        dcterms:title  "Flächen der Kommunalwahlbezirke" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-03-18 13:29:46.0"^^xsd:dateTime , "2019-03-18 13:44:06.0"^^xsd:dateTime ;
+        dcterms:title   "Flächen der Kommunalwahlbezirke" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/8239a38c-efad-4edf-9ff4-08f2bce50ce0>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "8239a38c-efad-4edf-9ff4-08f2bce50ce0" ;
+        dcterms:issued    "2019-09-02 12:34:59.0"^^xsd:dateTime ;
+        dcterms:modified  "2020-07-22 10:54:05.0"^^xsd:dateTime ;
         dcterms:title     "Bevölkerung nach Migrationshintergrund" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Migrationshintergrund+2011> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Migrationshintergrund+2014> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Migrationshintergrund+2013> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Migrationshintergrund+2015> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Migrationshintergrund+2012> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Migrationshintergrund+2016> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Migrationshintergrund+2018> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Migrationshintergrund+2017> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Migrationshintergrund+2019> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Migrationshintergrund+2010> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/bevoelkerung/migrationshintergrund/678197> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Geschlecht+und+Staatsangeh%C3%B6rigkeit+2014>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Geschlecht und Staatsangehörigkeit 2014" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-02 13:41:51.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Geschlecht und Staatsangehörigkeit 2014" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Fl%C3%A4chen+der+Stadtteile>
-        a              cat:Distribution ;
-        dcterms:title  "Flächen der Stadtteile" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-01-08 14:53:13.0"^^xsd:dateTime , "2019-01-08 14:52:33.0"^^xsd:dateTime ;
+        dcterms:title   "Flächen der Stadtteile" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/5ea73835-d511-43ff-9a28-20ba4067cbbb>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "5ea73835-d511-43ff-9a28-20ba4067cbbb" ;
+        dcterms:issued    "2014-08-07 10:29:01.0"^^xsd:dateTime ;
+        dcterms:modified  "2015-11-17 12:20:01.0"^^xsd:dateTime ;
         dcterms:title     "Vereine" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Vereinsverzeichnis> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/vereine/10051> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Altersgruppen+2010>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Altersgruppen 2010" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-03 17:28:42.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Altersgruppen 2010" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/630e5a01-93ee-4392-99b8-4614c94ced43>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "630e5a01-93ee-4392-99b8-4614c94ced43" ;
+        dcterms:issued    "2015-10-28 11:13:40.0"^^xsd:dateTime ;
+        dcterms:modified  "2020-01-08 16:40:01.0"^^xsd:dateTime ;
         dcterms:title     "Haushaltsplanung" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Ergebnisplan+2019> , <https://geo.muelheim-ruhr.de/distribution/Ergebnisplan+2015> , <https://geo.muelheim-ruhr.de/distribution/Finanzplan+2016> , <https://geo.muelheim-ruhr.de/distribution/Finanzplan+2017> , <https://geo.muelheim-ruhr.de/distribution/Finanzplan+2019> , <https://geo.muelheim-ruhr.de/distribution/Ergebnisplan+2016> , <https://geo.muelheim-ruhr.de/distribution/Finanzplan+2015> , <https://geo.muelheim-ruhr.de/distribution/Ergebnisplan+2020> , <https://geo.muelheim-ruhr.de/distribution/Ergebnisplan+2017> , <https://geo.muelheim-ruhr.de/distribution/Ergebnisplan+2018> , <https://geo.muelheim-ruhr.de/distribution/Finanzplan+2018> , <https://geo.muelheim-ruhr.de/distribution/Finanzplan+2020> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/haushaltsplanung/15474> .
 
 <https://geo.muelheim-ruhr.de/distribution/Finanzplan+2015>
-        a              cat:Distribution ;
-        dcterms:title  "Finanzplan 2015" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2015-10-28 11:15:06.0"^^xsd:dateTime ;
+        dcterms:title   "Finanzplan 2015" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Gastronomie>
-        a              cat:Distribution ;
-        dcterms:title  "Gastronomie" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2015-10-28 10:25:52.0"^^xsd:dateTime ;
+        dcterms:title   "Gastronomie" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Erzeugte+Energie>
-        a              cat:Distribution ;
-        dcterms:title  "Erzeugte Energie" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2016-11-23 11:41:03.0"^^xsd:dateTime ;
+        dcterms:title   "Erzeugte Energie" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/5c818fd7-dfb4-4d56-ba8d-83563261f75a>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "5c818fd7-dfb4-4d56-ba8d-83563261f75a" ;
+        dcterms:issued    "2017-06-01 17:15:17.0"^^xsd:dateTime ;
+        dcterms:modified  "2018-01-18 15:40:01.0"^^xsd:dateTime ;
         dcterms:title     "Ferienwohnungen, Gästezimmer & Privatunterkünfte" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Ferienwohnungen%2C+G%C3%A4stezimmer+%26+Privatunterk%C3%BCnfte> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/ferienwohnungen-gaestezimmer-privatunterkuenfte/329768> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Migrationshintergrund+2018>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Migrationshintergrund 2018" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-09 12:05:19.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Migrationshintergrund 2018" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Stadtbezirk>
-        a              cat:Distribution ;
-        dcterms:title  "Stadtbezirk" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2018-01-15 10:47:23.0"^^xsd:dateTime , "2017-07-31 11:58:30.0"^^xsd:dateTime ;
+        dcterms:title   "Stadtbezirk" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2006>
-        a              cat:Distribution ;
-        dcterms:title  "Wetterdaten 2006" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2015-03-05 11:42:35.0"^^xsd:dateTime ;
+        dcterms:title   "Wetterdaten 2006" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/da18ac6e-8aef-4fad-babe-066ad537c36b>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "da18ac6e-8aef-4fad-babe-066ad537c36b" ;
+        dcterms:issued    "2014-12-19 13:06:53.0"^^xsd:dateTime ;
+        dcterms:modified  "2015-10-29 13:13:00.0"^^xsd:dateTime ;
         dcterms:title     "Adressliste" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Adressliste> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/adressen/14035> .
@@ -681,123 +830,150 @@
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "158fc5db-5ec3-4e14-8997-51d10cf4102a" ;
+        dcterms:issued    "2017-07-31 11:43:34.0"^^xsd:dateTime ;
+        dcterms:modified  "2018-03-12 11:50:02.0"^^xsd:dateTime ;
         dcterms:title     "Landtagswahl 2017" ;
-        cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Wahlkreis> , <https://geo.muelheim-ruhr.de/distribution/Kommunalwahlbezirk> , <https://geo.muelheim-ruhr.de/distribution/Gemeinde> , <https://geo.muelheim-ruhr.de/distribution/Stadtbezirk> , <https://geo.muelheim-ruhr.de/distribution/Stimmbezirk> ;
+        cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Stadtbezirk> , <https://geo.muelheim-ruhr.de/distribution/Kommunalwahlbezirk> , <https://geo.muelheim-ruhr.de/distribution/Stimmbezirk> , <https://geo.muelheim-ruhr.de/distribution/Gemeinde> , <https://geo.muelheim-ruhr.de/distribution/Wahlkreis> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/wahlergebnis/2017/land/220588> .
 
 mclient:meta  cat:catalog  <http://mclient-project.github.io/catalog/Stadt%20M%C3%BClheim%20an%20der%20Ruhr> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Geschlecht+und+Staatsangeh%C3%B6rigkeit+2019>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Geschlecht und Staatsangehörigkeit 2019" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2020-07-22 10:49:12.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Geschlecht und Staatsangehörigkeit 2019" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Wahlbezirk>
-        a              cat:Distribution ;
-        dcterms:title  "Wahlbezirk" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2018-01-15 11:45:47.0"^^xsd:dateTime ;
+        dcterms:title   "Wahlbezirk" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Ergebnisplan+2019>
-        a              cat:Distribution ;
-        dcterms:title  "Ergebnisplan 2019" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2020-01-08 13:06:43.0"^^xsd:dateTime ;
+        dcterms:title   "Ergebnisplan 2019" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Migrationshintergrund+2012>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Migrationshintergrund 2012" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-09 11:49:25.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Migrationshintergrund 2012" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/2a7f58c4-019e-40f4-91b7-5607219d14d4>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "2a7f58c4-019e-40f4-91b7-5607219d14d4" ;
+        dcterms:issued    "2018-11-05 12:11:21.0"^^xsd:dateTime ;
+        dcterms:modified  "2018-11-23 12:10:01.0"^^xsd:dateTime ;
         dcterms:title     "Ausschreibungen" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Aktuelle+Ausschreibungen> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/ausschreibungen/519170> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Altersgruppen+2015>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Altersgruppen 2015" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-04 10:51:30.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Altersgruppen 2015" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Wahlbezirke>
-        a              cat:Distribution ;
-        dcterms:title  "Wahlbezirke" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-08-26 13:02:18.0"^^xsd:dateTime , "2014-08-08 13:02:33.0"^^xsd:dateTime , "2015-10-28 10:48:52.0"^^xsd:dateTime , "2014-08-08 12:32:40.0"^^xsd:dateTime , "2014-08-08 12:52:27.0"^^xsd:dateTime ;
+        dcterms:title   "Wahlbezirke" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Wetterdaten+2013>
-        a              cat:Distribution ;
-        dcterms:title  "Wetterdaten 2013" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2015-03-05 12:01:02.0"^^xsd:dateTime ;
+        dcterms:title   "Wetterdaten 2013" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Vornamen+2015>
-        a              cat:Distribution ;
-        dcterms:title  "Vornamen 2015" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2017-01-02 15:45:53.0"^^xsd:dateTime ;
+        dcterms:title   "Vornamen 2015" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Geschlecht+und+Staatsangeh%C3%B6rigkeit+2013>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Geschlecht und Staatsangehörigkeit 2013" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-02 13:36:46.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Geschlecht und Staatsangehörigkeit 2013" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Camping-Pl%C3%A4tze>
-        a              cat:Distribution ;
-        dcterms:title  "Camping-Plätze" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2015-10-27 12:58:48.0"^^xsd:dateTime ;
+        dcterms:title   "Camping-Plätze" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/9f129279-7b4d-47c0-86f7-b0423cebf49a>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "9f129279-7b4d-47c0-86f7-b0423cebf49a" ;
+        dcterms:issued    "2019-09-09 11:25:45.0"^^xsd:dateTime ;
+        dcterms:modified  "2020-07-22 10:55:38.0"^^xsd:dateTime ;
         dcterms:title     "Bevölkerung nach Geschlecht und Staatsangehörigkeit" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Geschlecht+und+Staatsangeh%C3%B6rigkeit+2019> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Geschlecht+und+Staatsangeh%C3%B6rigkeit+2013> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Geschlecht+und+Staatsangeh%C3%B6rigkeit+2010> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Geschlecht+und+Staatsangeh%C3%B6rigkeit+2017> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Geschlecht+und+Staatsangeh%C3%B6rigkeit+2014> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Geschlecht+und+Staatsangeh%C3%B6rigkeit+2011> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Geschlecht+und+Staatsangeh%C3%B6rigkeit+2015> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Geschlecht+und+Staatsangeh%C3%B6rigkeit+2018> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Geschlecht+und+Staatsangeh%C3%B6rigkeit+2012> , <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Geschlecht+und+Staatsangeh%C3%B6rigkeit+2016> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/bevoelkerung/geschlecht-staatsangehoerigkeit/674939> .
 
 <https://geo.muelheim-ruhr.de/distribution/Gemeinde>
-        a              cat:Distribution ;
-        dcterms:title  "Gemeinde" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-08-26 14:02:48.0"^^xsd:dateTime , "2018-01-11 16:37:38.0"^^xsd:dateTime , "2014-08-08 12:31:16.0"^^xsd:dateTime , "2014-08-08 12:51:34.0"^^xsd:dateTime , "2017-07-31 11:56:54.0"^^xsd:dateTime ;
+        dcterms:title   "Gemeinde" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/4b6c26c2-ead1-44c9-9ab3-85eec8249da9>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "4b6c26c2-ead1-44c9-9ab3-85eec8249da9" ;
+        dcterms:issued    "2019-03-18 13:56:15.0"^^xsd:dateTime ;
+        dcterms:modified  "2020-07-16 13:20:01.0"^^xsd:dateTime ;
         dcterms:title     "Stimmbezirke" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Fl%C3%A4chen+der+Stimmbezirke> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/stimmbezirke/597373> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Migrationshintergrund+2017>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Migrationshintergrund 2017" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-09 12:03:42.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Migrationshintergrund 2017" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/f9ef63b9-437d-4088-b50c-edbbca27f3be>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "f9ef63b9-437d-4088-b50c-edbbca27f3be" ;
+        dcterms:issued    "2019-01-08 13:56:19.0"^^xsd:dateTime ;
+        dcterms:modified  "2019-01-08 14:00:59.0"^^xsd:dateTime ;
         dcterms:title     "Stadtbezirke" ;
         cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Fl%C3%A4chen+der+Stadtbezirke> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/stadtbezirke/563684> .
 
 <https://geo.muelheim-ruhr.de/distribution/Ergebnisplan+2020>
-        a              cat:Distribution ;
-        dcterms:title  "Ergebnisplan 2020" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2020-01-08 13:07:19.0"^^xsd:dateTime ;
+        dcterms:title   "Ergebnisplan 2020" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/distribution/Bev%C3%B6lkerung+nach+Geschlecht+und+Staatsangeh%C3%B6rigkeit+2018>
-        a              cat:Distribution ;
-        dcterms:title  "Bevölkerung nach Geschlecht und Staatsangehörigkeit 2018" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2019-09-02 14:59:07.0"^^xsd:dateTime ;
+        dcterms:title   "Bevölkerung nach Geschlecht und Staatsangehörigkeit 2018" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
 
 <https://geo.muelheim-ruhr.de/dataset/ba1494ec-f2b0-40d3-b999-4731ac7e7e14>
         a                 cat:Dataset ;
         <http://ckan.aksw.org/ontology/id>
                 "ba1494ec-f2b0-40d3-b999-4731ac7e7e14" ;
+        dcterms:issued    "2014-08-08 12:30:41.0"^^xsd:dateTime ;
+        dcterms:modified  "2018-03-12 12:00:01.0"^^xsd:dateTime ;
         dcterms:title     "Ratswahl 2014" ;
-        cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Stimmbezirke> , <https://geo.muelheim-ruhr.de/distribution/Stadtbezirke> , <https://geo.muelheim-ruhr.de/distribution/Gemeinde> , <https://geo.muelheim-ruhr.de/distribution/Wahlbezirke> ;
+        cat:distribution  <https://geo.muelheim-ruhr.de/distribution/Wahlbezirke> , <https://geo.muelheim-ruhr.de/distribution/Stadtbezirke> , <https://geo.muelheim-ruhr.de/distribution/Stimmbezirke> , <https://geo.muelheim-ruhr.de/distribution/Gemeinde> ;
         cat:landingPage   <https://geo.muelheim-ruhr.de/open-data/wahlergebnis/2014/rat/10060> .
 
 <https://geo.muelheim-ruhr.de/distribution/Ergebnisplan+2018>
-        a              cat:Distribution ;
-        dcterms:title  "Ergebnisplan 2018" ;
-        cat:accessURL  <https://geo.muelheim-ruhr.de/> .
+        a               cat:Distribution ;
+        dcterms:issued  "2018-06-05 16:06:44.0"^^xsd:dateTime ;
+        dcterms:title   "Ergebnisplan 2018" ;
+        cat:accessURL   <https://geo.muelheim-ruhr.de/> .
