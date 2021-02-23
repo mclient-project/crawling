@@ -2,6 +2,7 @@
 #seed='https://ckan.govdata.de/catalog.rdf?page=1'
 declare -a seedArr=("https://ckan.govdata.de/catalog.rdf?page=1" )
 seedArrLength==${#seedArr[@]}
+new_url=https://ckan.govdata.de
 for (( i=1; i<${seedArrLength}+1; i++ ));
 do
 	nextPage=1
@@ -12,8 +13,10 @@ do
 	while [ $nextPage -eq 1 ]
 	do
 		curl $seed --output $TARGET/$name-$counter.rdf
-		rapper -i rdfxml -o turtle $TARGET/$name-$counter.rdf > $TARGET/$name-$counter.ttl
+		rapper -i rdfxml -o ntriples -I $new_url $TARGET/$name-$counter.rdf > $TARGET/$name-$counter.nt
+		rapper -i ntriples -o turtle $TARGET/$name-$counter.nt > $TARGET/$name-$counter.ttl
 		rm $TARGET/$name-$counter.rdf
+		rm $TARGET/$name-$counter.nt
 		seed=`sparql-integrate --w=trig/pretty --jq cwd=$(pwd) prefixes.ttl $TARGET/$name-$counter.ttl sparql/next-page.sparql spo.sparql | jq -r '.[].nextPage'`
 		echo $seed
 		if [ $counter -eq 1 ]; then
