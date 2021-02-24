@@ -1,7 +1,9 @@
 #!/bin/bash
-PORTAL=govdata
-CATALOG=https://ckan.govdata.de
-TIMES=4
+#PORTAL=govdata
+PORTAL=mcloud
+CATALOG=https://mcloud.de
+#ATALOG=https://ckan.govdata.de
+TIMES=1
 OFFSET=1
 for (( i=1; i<=$TIMES; i++ )) ;
 do

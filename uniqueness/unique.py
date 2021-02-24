@@ -99,6 +99,7 @@ if __name__ == "__main__":
 final_df = final_df.rename(columns={'desc': 'description'})
 bplot = sns.boxplot(data=final_df,
                  width=0.5,
-                 palette="colorblind")
+                 palette="colorblind",
+                 showfliers=False)
 bplot.set(xlabel='DCAT field', ylabel='Uniqueness')
 plt.show()
